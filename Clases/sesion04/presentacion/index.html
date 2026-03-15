@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 4</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true}]});"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    body.print-mode .prog-step { display: flex !important; }
+    body.print-mode .step-indicator { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+      .prog-step { display: flex !important; }
+      .step-indicator { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Economía Internacional — Clase 4 -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional — Clase 4
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Rendimientos crecientes, competencia imperfecta y Nueva Geografía Económica
+    </div>
+    <div style="color: #4B5563; font-size: 1.2rem; margin: 0 0 15px 0;">16 de abril de 2026</div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: ¿Qué vamos a ver hoy? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      ¿Qué vamos a ver hoy?
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 15px;"><strong>Bloque 1 — Motivación</strong>: ¿qué no explica H-O? La tríada, Krugman y la competencia monopolística</li>
+        <li style="margin-bottom: 15px;"><strong>Bloque 2 — El modelo</strong>: rendimientos crecientes, comercio intraindustrial, mecanismo Krugman, ganancias</li>
+        <li style="margin-bottom: 15px;"><strong>Bloque 3 — Medición</strong>: índice Grubel-Lloyd, IIT horizontal vs vertical, evidencia comparada, caso Mercosur</li>
+        <li style="margin-bottom: 15px;"><strong>Bloque 4 — Implicancias</strong>: ganadores/perdedores, home-market effect, centro-periferia, política</li>
+        <li style="margin-bottom: 15px;"><strong>Bloque 5 — Nueva Geografía Económica</strong>: fuerzas centrípetas/centrífugas, modelo K-1991, evidencia, Argentina</li>
+        <li style="margin-bottom: 15px;"><strong>Cierre</strong>: resumen, material complementario, lecturas, próxima clase</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 3: ¿Qué no explica bien Heckscher-Ohlin? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      ¿Qué no explica bien Heckscher-Ohlin?
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+        <li style="margin-bottom: 12px;">Gran parte del comercio mundial es entre <strong>países parecidos</strong> (no solo Norte-Sur)</li>
+        <li style="margin-bottom: 12px;">Mucho comercio es <strong>intraindustrial</strong>: el mismo sector exporta e importa (autos por autos, químicos por químicos)</li>
+        <li style="margin-bottom: 12px;">Con rendimientos crecientes aparecen: <strong>escala, variedad y poder de mercado</strong></li>
+        <li style="margin-bottom: 12px;">Los modelos clásicos asumen <strong>rendimientos constantes</strong> y <strong>competencia perfecta</strong> → no capturan esto</li>
+        <li style="margin-bottom: 12px;">Pregunta guía: <strong><em>¿por qué comerciar si somos similares?</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: La tríada: EEUU, UE y Japón dominan el comercio mundial -->
+
+  <section class="slide" data-steps="2" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      La tríada: EEUU, UE y Japón dominan el comercio mundial
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/triada_comercio_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">En los años 90, la <strong>tríada</strong> (EEUU + UE + Japón) concentraba ~65% de las exportaciones mundiales</li>
+            <li style="margin-bottom: 6px;">La mayor parte del comercio de la tríada era <strong>entre ellos mismos</strong> (intra-tríada)</li>
+            <li style="margin-bottom: 6px;">Hoy, con el ascenso de China, la tríada perdió peso (~50%)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/triada_comercio_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Y era mayormente <strong>intraindustrial</strong>: IIT &gt; 60% en manufacturas</li>
+            <li style="margin-bottom: 6px;">Tres economías con dotaciones <strong>similares</strong> comerciando masivamente entre sí</li>
+            <li style="margin-bottom: 6px;">H-O predice comercio Norte-Sur → <strong><em>la tríada es la anomalía</em></strong></li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 2
+    </div>
+  </section>
+
+  <!-- SLIDE 5: Paul Krugman (1953-) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Paul Krugman (1953-)
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../img/krugman.jpg" alt="Paul Krugman (1953-)"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Foto oficial Casa Blanca (dominio público)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Economista estadounidense, <strong>Nobel de Economía 2008</strong></li>
+          <li style="margin-bottom: 6px;">Premio por su análisis de <strong>patrones de comercio</strong> y <strong>localización de actividad económica</strong></li>
+          <li style="margin-bottom: 6px;">En los años 1979-1980 formalizó la <strong>Nueva Teoría del Comercio</strong>: comercio por escala y diferenciación, no solo por dotaciones</li>
+          <li style="margin-bottom: 6px;">Discute con Ricardo/H-O: mostró que puede haber comercio entre <strong>países idénticos</strong></li>
+          <li style="margin-bottom: 6px;">Observaba el auge del comercio intraindustrial entre economías desarrolladas similares (UE, EEUU-Canadá)</li>
+          <li style="margin-bottom: 6px;">También desarrolló la <strong>Nueva Geografía Económica</strong> (centro-periferia, 1991)</li>
+          <li style="margin-bottom: 6px;">Columnista influyente del New York Times; polemista activo en debates de política comercial</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: Competencia monopolística: entre monopolio y competencia perfecta -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Competencia monopolística: entre monopolio y competencia perfecta
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;"><strong>Competencia perfecta</strong>: muchas firmas, producto idéntico, precio dado → no hay variedad ni escala</li>
+        <li style="margin-bottom: 14px;"><strong>Monopolio</strong>: una firma, un producto → no hay variedad ni comercio</li>
+        <li style="margin-bottom: 14px;"><strong>Competencia monopolística</strong> (Chamberlin 1933): muchas firmas, cada una produce una <strong>variedad diferenciada</strong></li>
+        <li style="margin-bottom: 14px;">Cada firma enfrenta una <strong>demanda con pendiente negativa</strong> (tiene algo de poder de mercado por diferenciación)</li>
+        <li style="margin-bottom: 14px;">Pero hay <strong>libre entrada</strong>: si hay ganancias, entran firmas → ganancias tienden a cero en el largo plazo</li>
+        <li style="margin-bottom: 14px;"><strong>Dixit-Stiglitz (1977)</strong>: formalizaron la utilidad con "amor por la variedad" → <span class="katex-inline">\(U = \left(\sum_{i=1}^{n} c_i^\rho\right)^{1/\rho}\)</span></li>
+        <li style="margin-bottom: 14px;"><strong>Krugman (1979)</strong>: aplicó Dixit-Stiglitz al comercio → la <strong>Nueva Teoría del Comercio</strong></li>
+        <li style="margin-bottom: 14px;">Clave: esta estructura permite <strong>rendimientos crecientes internos</strong> + <strong>muchas firmas</strong> + <strong>variedad</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 7: Rendimientos crecientes = costos medios que caen con la escala -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Rendimientos crecientes = costos medios que caen con la escala
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/costo_medio.png" alt="Rendimientos crecientes = costos medios que caen con la escala"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Idea central</strong>: al producir más, el costo medio (CMe) baja porque los costos fijos se "diluyen"</li>
+          <li style="margin-bottom: 6px;">Costos fijos típicos: planta, I+D, diseño, marketing, homologaciones</li>
+          <li style="margin-bottom: 6px;">Forma simple: <span class="katex-inline">\(CMe = F/Q + c\)</span> (F = costo fijo, Q = cantidad, c = costo marginal)</li>
+          <li style="margin-bottom: 6px;"><strong>Implicación</strong>: si <span class="katex-inline">\(P = CMg\)</span>, la firma no cubre <span class="katex-inline">\(F\)</span> → aparecen <strong>mark-ups</strong> y pocas firmas</li>
+          <li style="margin-bottom: 6px;">Rendimientos crecientes <strong>rompen</strong> la competencia perfecta</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: Dos tipos de economías de escala -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Dos tipos de economías de escala
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/internas_externas.png" alt="Dos tipos de economías de escala"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia basada en Krugman, Obstfeld &amp; Melitz cap. 7</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Internas (a la firma)</strong>: CMe baja porque <em>mi empresa</em> produce más → planta grande, automatización, I+D diluido</li>
+          <li style="margin-bottom: 6px;"><strong>Externas (al sector/territorio)</strong>: CMe baja porque <em>el sector/lugar</em> es grande → proveedores, talento, spillovers</li>
+          <li style="margin-bottom: 6px;">Internas → <strong>competencia imperfecta</strong> (pocas firmas con ventaja de costos)</li>
+          <li style="margin-bottom: 6px;">Externas → <strong>puede haber muchas firmas</strong> pero concentración geográfica (clústeres)</li>
+          <li style="margin-bottom: 6px;">Internas: autos (plataformas), farmacéutica, software</li>
+          <li style="margin-bottom: 6px;">Externas: Silicon Valley, distritos industriales italianos, polo autopartista Córdoba</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 9: Con rendimientos crecientes puede haber comercio sin ventaja comparativa tradicional -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Con rendimientos crecientes puede haber comercio sin ventaja comparativa tradicional
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Si hay costos fijos y economías de escala, conviene <strong>concentrar producción</strong> en pocas plantas para bajar CMe</li>
+        <li style="margin-bottom: 12px;">Con comercio, una planta abastece <strong>dos mercados</strong> → produce más → baja costos → más competitiva</li>
+        <li style="margin-bottom: 12px;">Aun con países similares, aparece especialización: "yo produzco esta variedad, vos aquella"</li>
+        <li style="margin-bottom: 12px;">Puede haber <strong>múltiples equilibrios</strong>: pequeñas diferencias iniciales "inclinan" dónde se concentra la producción</li>
+        <li style="margin-bottom: 12px;">Esto es <strong><em>path dependence</em></strong>: la historia importa</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 10: El hecho estilizado: comercio "ida y vuelta" en el mismo sector -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      El hecho estilizado: comercio "ida y vuelta" en el mismo sector
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/comercio_intraindustrial.png" alt="El hecho estilizado: comercio "ida y vuelta" en el mismo sector"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">En muchos sectores, los países <strong>exportan e importan</strong> dentro del mismo rubro</li>
+          <li style="margin-bottom: 6px;">No es "lo mismo por lo mismo": son <strong>variedades</strong> (modelo, calidad, diseño, marca) y componentes</li>
+          <li style="margin-bottom: 6px;">Con diferenciación + costos fijos, cada firma produce <strong>una variedad</strong> y necesita mercado grande</li>
+          <li style="margin-bottom: 6px;">El comercio permite: más <strong>variedades</strong> disponibles y menores <strong>costos</strong> por escala</li>
+          <li style="margin-bottom: 6px;">Ejemplo: no es trigo por vino; es <strong><em>VW por Peugeot</em></strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: ¿Por qué el comercio "ida y vuelta" es lógico? -->
+
+  <section class="slide" data-steps="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      ¿Por qué el comercio "ida y vuelta" es lógico?
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/mecanismo_krugman_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Preferencia por variedad</strong>: consumidores y empresas valoran elegir entre distintos productos</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/mecanismo_krugman_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Costos fijos</strong>: cada variedad requiere F (diseño, I+D, marketing, adaptación)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/mecanismo_krugman_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Escala</strong>: para amortizar F, cada firma necesita vender mucho → una variedad a gran escala</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="3" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/mecanismo_krugman_paso4.png" alt="Paso 4" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Comercio</strong>: el mercado se agranda → más variedades + baja CMe → IIT</li>
+            <li style="margin-bottom: 6px;"><strong><em>Comercio = más mercado → más escala + más variedad</em></strong></li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 4
+    </div>
+  </section>
+
+  <!-- SLIDE 12: ¿Qué ganamos con abrir el comercio en este modelo? -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      ¿Qué ganamos con abrir el comercio en este modelo?
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ganancias_comercio_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Ganancia por variedad</strong>: más opciones de consumo e insumos (modelos, calidades, marcas)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ganancias_comercio_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Ganancia por escala</strong>: cada firma produce más → baja CMe → precios más bajos (aunque haya mark-up)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ganancias_comercio_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Efecto combinado</strong>: variedad sube + costos bajan → bienestar sube (en promedio)</li>
+            <li style="margin-bottom: 6px;">Contraste con Ricardo/H-O: allá "mejor asignación"; acá <strong>escala + variedad</strong></li>
+            <li style="margin-bottom: 6px;">Pero: hay <strong>reasignación</strong> entre firmas y regiones</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 13: ¿Qué explica cada teoría del comercio? -->
+
+  <section class="slide" data-steps="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      ¿Qué explica cada teoría del comercio?
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/tabla_teorias_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Smith</strong>: ventajas absolutas, diferencias de productividad, comercio interindustrial</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/tabla_teorias_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Ricardo</strong>: ventajas comparativas, costos de oportunidad, ganancias para todos</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/tabla_teorias_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>H-O</strong>: dotaciones de factores, comercio Norte-Sur, efectos distributivos (S-S)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="3" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/tabla_teorias_paso4.png" alt="Paso 4" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Krugman</strong>: rendimientos crecientes, competencia monopolística, IIT entre similares</li>
+            <li style="margin-bottom: 6px;">Las teorías <strong>no se reemplazan, se complementan</strong></li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 4
+    </div>
+  </section>
+
+  <!-- SLIDE 14: ¿Cómo medimos el comercio intraindustrial? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      ¿Cómo medimos el comercio intraindustrial?
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/grubel_lloyd_ejemplo.png" alt="¿Cómo medimos el comercio intraindustrial?"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Grubel &amp; Lloyd (1975), Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Fórmula</strong>: <span class="katex-inline">\(GL_i = 1 - \frac{|X_i - M_i|}{X_i + M_i}\)</span></li>
+          <li style="margin-bottom: 6px;">Mide el <strong>solapamiento</strong> entre exportaciones e importaciones en un sector <span class="katex-inline">\(i\)</span></li>
+          <li style="margin-bottom: 6px;"><span class="katex-inline">\(GL = 0\)</span>: comercio <strong>puro interindustrial</strong> (solo exporta o solo importa en ese sector)</li>
+          <li style="margin-bottom: 6px;"><span class="katex-inline">\(GL = 1\)</span>: comercio <strong>puro intraindustrial</strong> (exporta e importa por igual)</li>
+          <li style="margin-bottom: 6px;">Ejemplo autos: si <span class="katex-inline">\(X = 80\)</span> y <span class="katex-inline">\(M = 60\)</span> → <span class="katex-inline">\(GL = 1 - |20|/140 = 0{,}86\)</span> (alto IIT)</li>
+          <li style="margin-bottom: 6px;">Ejemplo soja: si <span class="katex-inline">\(X = 100\)</span> y <span class="katex-inline">\(M = 0\)</span> → <span class="katex-inline">\(GL = 1 - 100/100 = 0\)</span> (puro interindustrial)</li>
+          <li style="margin-bottom: 6px;">Se puede calcular para un sector, un socio comercial o el comercio total (promedio ponderado)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 15: No todo el comercio intraindustrial es igual -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      No todo el comercio intraindustrial es igual
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>IIT horizontal</strong>: intercambio de variedades de <strong>calidad similar</strong> pero atributos diferentes</li>
+        <li style="margin-bottom: 12px;">Ejemplo: VW Golf por Peugeot 308, Coca-Cola por Pepsi, galletitas Arcor por Nestlé</li>
+        <li style="margin-bottom: 12px;">Motivado por <strong>preferencia por variedad</strong> (Krugman puro) — entre países similares</li>
+        <li style="margin-bottom: 12px;"><strong>IIT vertical</strong>: intercambio de variedades de <strong>distinta calidad</strong> dentro del mismo sector</li>
+        <li style="margin-bottom: 12px;">Ejemplo: BMW (gama alta) por Dacia (gama baja), vino fino por vino de mesa</li>
+        <li style="margin-bottom: 12px;">Motivado por <strong>diferencias de ingreso y tecnología</strong> — puede darse entre países distintos</li>
+        <li style="margin-bottom: 12px;">Método: si el ratio de valores unitarios (precio export / precio import) está entre 0,85 y 1,15 → <strong>horizontal</strong>; fuera de ese rango → <strong>vertical</strong></li>
+        <li style="margin-bottom: 12px;">En la práctica, el IIT de la UE es mayormente <strong>horizontal</strong>; el IIT Norte-Sur es más <strong>vertical</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 16: El índice Grubel-Lloyd varía mucho según los socios comerciales -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      El índice Grubel-Lloyd varía mucho según los socios comerciales
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/iit_comparado.png" alt="El índice Grubel-Lloyd varía mucho según los socios comerciales"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia con datos de Brülhart (2009), Lucángeli (2007) y OECD</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>UE intra-bloque</strong>: GL ~ 0,65 → alto IIT, economías similares, mercado integrado</li>
+          <li style="margin-bottom: 6px;"><strong>EEUU-Canadá</strong>: GL ~ 0,55 → alto IIT, vecinos integrados (NAFTA/USMCA)</li>
+          <li style="margin-bottom: 6px;"><strong>Mercosur (global)</strong>: GL ~ 0,35 → moderado, pero <strong>autos GL ~ 0,75</strong> (caso destacado)</li>
+          <li style="margin-bottom: 6px;"><strong>Norte-Sur</strong>: GL ~ 0,20 → bajo IIT, dominan las diferencias de dotaciones (más interindustrial)</li>
+          <li style="margin-bottom: 6px;">Patrón claro: el IIT <strong>crece</strong> con la similitud económica, la cercanía y la integración</li>
+          <li style="margin-bottom: 6px;">La <strong>tríada</strong> (EEUU/UE/Japón) tenía los GL más altos del mundo en los 90</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 17: Argentina-Brasil: el comercio automotriz como caso paradigmático -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Argentina-Brasil: el comercio automotriz como caso paradigmático
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/mercosur_autos.png" alt="Argentina-Brasil: el comercio automotriz como caso paradigmático"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia con datos INDEC y ADEFA</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Argentina y Brasil intercambian vehículos y autopartes bajo el régimen <strong>PAM</strong> (Política Automotriz del Mercosur)</li>
+          <li style="margin-bottom: 6px;">No es que uno sea "mejor" que el otro en autos: cada uno se <strong>especializa en variedades</strong></li>
+          <li style="margin-bottom: 6px;">Argentina: pickups (Hilux, Amarok, Ranger), utilitarios</li>
+          <li style="margin-bottom: 6px;">Brasil: sedanes populares, compactos, SUVs</li>
+          <li style="margin-bottom: 6px;">Comercio bilateral automotriz: ~US$ 8-12 mil millones anuales, con <strong>GL ~ 0,75</strong></li>
+          <li style="margin-bottom: 6px;">El PAM usa un <strong>coeficiente flex</strong> (compensación): por cada dólar importado hay que exportar una proporción</li>
+          <li style="margin-bottom: 6px;">Es el ejemplo perfecto del modelo Krugman: <strong>costos fijos altos</strong> (planta, I+D, homologación) + <strong>diferenciación</strong> + <strong>escala ampliada</strong> por integración regional</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 18: Ganancias agregadas, ajustes reales: firmas, empleo y territorio -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Ganancias agregadas, ajustes reales: firmas, empleo y territorio
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">En promedio: variedad sube + costos bajan → <strong>bienestar sube</strong></li>
+        <li style="margin-bottom: 12px;">Pero hay <strong>reasignación entre firmas</strong>: las más productivas/innovadoras crecen; otras pierden mercado o salen</li>
+        <li style="margin-bottom: 12px;"><strong>Efectos laborales</strong>: cambian puestos y tareas dentro del sector (cierres y expansiones, reconversión)</li>
+        <li style="margin-bottom: 12px;"><strong>Países/mercados chicos</strong>: si no logran "mercado efectivo" (acceso externo), pueden quedar como importadores netos en sectores de alta escala</li>
+        <li style="margin-bottom: 12px;">A diferencia de H-O (redistribución entre factores), acá la redistribución es <strong>entre firmas y entre territorios</strong></li>
+        <li style="margin-bottom: 12px;">Frase clave: <strong><em>"No muere el sector; cambian las firmas que lo integran"</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 19: ¿Por qué el tamaño del mercado importa tanto? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      ¿Por qué el tamaño del mercado importa tanto?
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Home-market effect</strong> (Krugman 1980): con rendimientos crecientes, el país con <strong>mayor demanda doméstica</strong> de un bien tiende a ser <strong>exportador neto</strong> de ese bien</li>
+        <li style="margin-bottom: 12px;">Intuición: las firmas se instalan cerca del mercado grande para ahorrar costos de transporte → producen más de lo que consume ese mercado → exportan el excedente</li>
+        <li style="margin-bottom: 12px;">Esto es lo <strong>opuesto</strong> a H-O: en H-O, el país con mucha demanda importa; en Krugman, el que tiene más demanda produce más y exporta</li>
+        <li style="margin-bottom: 12px;"><strong>Mercado efectivo</strong> = mercado doméstico + acceso real a mercados externos</li>
+        <li style="margin-bottom: 12px;">Para países chicos, hay 3 vías para ampliar el mercado efectivo:</li>
+        <li style="margin-bottom: 12px;">(1) <strong>Integración regional</strong> (Mercosur, UE) → mercado ampliado</li>
+        <li style="margin-bottom: 12px;">(2) <strong>Acuerdos comerciales</strong> → acceso preferencial a mercados grandes</li>
+        <li style="margin-bottom: 12px;">(3) <strong>Especialización en nichos</strong> → calidad/diseño para exportar al mundo</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 20: ¿Por qué la producción se concentra en "polos"? -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      ¿Por qué la producción se concentra en "polos"?
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/centro_periferia_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">El <strong>centro</strong> concentra industria, servicios e innovación</li>
+            <li style="margin-bottom: 6px;">Con economías de escala + costos de transporte → la producción tiende a <strong>agruparse</strong></li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/centro_periferia_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">La <strong>periferia</strong> queda con menos industria y servicios</li>
+            <li style="margin-bottom: 6px;">Resultado: estructura <strong>centro-periferia</strong> (polos industriales vs regiones rezagadas)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/centro_periferia_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Causación acumulativa</strong>: más producción → más empleo/mercado → más proveedores → menores costos → +producción</li>
+            <li style="margin-bottom: 6px;"><strong>Path dependence</strong>: shocks iniciales pueden "encender" un polo</li>
+            <li style="margin-bottom: 6px;">Ejemplo: AMBA, Córdoba automotriz, núcleo industrial UE</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 21: Política económica con escala y concentración: oportunidades y riesgos -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Política económica con escala y concentración: oportunidades y riesgos
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Si la producción se concentra, la política clave es <strong>agrandar el mercado efectivo</strong>: integración regional, acceso a mercados, reglas estables</li>
+        <li style="margin-bottom: 12px;"><strong>Reducir costos de comercio</strong>: logística, infraestructura, aduanas, estándares, conectividad</li>
+        <li style="margin-bottom: 12px;"><strong>Construir capacidades</strong> para competir en variedades: calidad, diseño, I+D, proveedores, habilidades</li>
+        <li style="margin-bottom: 12px;">Cuidado: el margen para "elegir ganadores" existe, pero hay riesgo de <strong>captura y protección permanente</strong></li>
+        <li style="margin-bottom: 12px;">No es "proteccionismo sí/no": es <strong><em>qué política, con qué objetivo, por cuánto tiempo</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 22: Qué explica bien este enfoque (y qué no) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Qué explica bien este enfoque (y qué no)
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Explica mejor</strong> cuando hay: productos diferenciados, costos fijos, economías de escala, comercio intraindustrial</li>
+        <li style="margin-bottom: 12px;"><strong>Muy útil para</strong>: comercio entre países similares, concentración territorial (centro-periferia), la tríada</li>
+        <li style="margin-bottom: 12px;"><strong>Deja más afuera</strong>: comercio de commodities y sectores donde mandan las dotaciones (ahí H-O/Ricardo siguen siendo centrales)</li>
+        <li style="margin-bottom: 12px;">Los enfoques <strong>se complementan</strong>: en la práctica, casi siempre conviven ambas fuerzas</li>
+        <li style="margin-bottom: 12px;">Hoy agregamos una caja de herramientas nueva: antes el comercio era "diferencias"; ahora también es <strong><em>"escala y variedad"</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 23: ¿Qué fuerzas empujan la concentración y qué la frena? -->
+
+  <section class="slide" data-steps="2" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      ¿Qué fuerzas empujan la concentración y qué la frena?
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/centripetas_centrifugas_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Fuerzas centrípetas</strong> (hacia la concentración):</li>
+            <li style="margin-bottom: 6px;">Tamaño de mercado (forward linkage)</li>
+            <li style="margin-bottom: 6px;">Proveedores especializados (backward linkage)</li>
+            <li style="margin-bottom: 6px;">Pool de trabajadores calificados</li>
+            <li style="margin-bottom: 6px;">Derrames de conocimiento (spillovers)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/centripetas_centrifugas_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Fuerzas centrífugas</strong> (hacia la dispersión):</li>
+            <li style="margin-bottom: 6px;">Factores inmóviles (tierra, recursos)</li>
+            <li style="margin-bottom: 6px;">Renta del suelo (costo de ubicación)</li>
+            <li style="margin-bottom: 6px;">Congestión (transporte, ambiente)</li>
+            <li style="margin-bottom: 6px;">Competencia más intensa (márgenes bajos)</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 2
+    </div>
+  </section>
+
+  <!-- SLIDE 24: El modelo formal: cómo emerge la estructura centro-periferia -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      El modelo formal: cómo emerge la estructura centro-periferia
+    </h2>
+    
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/bifurcacion_nge_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Setup</strong>: 2 regiones, 2 sectores (agricultura + manufactura)</li>
+            <li style="margin-bottom: 6px;"><strong>Costos de transporte altos</strong> (<span class="katex-inline">\(\tau\)</span> alto): la manufactura se <strong>dispersa</strong> 50-50</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/bifurcacion_nge_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Punto de bifurcación</strong>: al bajar <span class="katex-inline">\(\tau\)</span>, el equilibrio simétrico se vuelve <strong>inestable</strong></li>
+            <li style="margin-bottom: 6px;">Pequeños shocks pueden "inclinar" todo hacia un lado</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/bifurcacion_nge_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Costos de transporte bajos</strong>: la manufactura se <strong>concentra</strong> → centro-periferia</li>
+            <li style="margin-bottom: 6px;"><strong>Equilibrios múltiples</strong>: historia, accidentes y políticas determinan quién es centro</li>
+            <li style="margin-bottom: 6px;">La globalización (baja de <span class="katex-inline">\(\tau\)</span>) puede <strong>aumentar</strong> la concentración</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 25: La concentración territorial en el mundo real -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      La concentración territorial en el mundo real
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Unión Europea</strong>: la "banana azul" (corredor Londres-Milán) concentra la industria y los servicios avanzados del continente</li>
+        <li style="margin-bottom: 12px;"><strong>Estados Unidos</strong>: el manufacturing belt (Grandes Lagos) → se convirtió en rust belt → producción migró al sun belt — pero la concentración persiste en nuevos polos (Silicon Valley, corredor I-95)</li>
+        <li style="margin-bottom: 12px;"><strong>China</strong>: la industria exportadora se concentró en la costa: delta del Río Perla (Shenzhen, Guangzhou), delta del Yangtze (Shanghai) — ~60% del PIB industrial en ~15% del territorio</li>
+        <li style="margin-bottom: 12px;"><strong>México</strong>: la frontera norte se industrializó por proximidad a EEUU (maquiladoras → NAFTA → T-MEC) — polo de autopartes y electrónica</li>
+        <li style="margin-bottom: 12px;"><strong>Mundo "espinoso"</strong> (Richard Florida): la mayor parte de la innovación y producción avanzada ocurre en unas pocas aglomeraciones urbanas globales</li>
+        <li style="margin-bottom: 12px;">Patrón general: la concentración tiende a <strong>reforzarse</strong> una vez que arranca (path dependence en acción)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 26: Argentina: un caso extremo de concentración económica -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Argentina: un caso extremo de concentración económica
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>AMBA</strong> (Buenos Aires + conurbano): ~37% del PIB nacional con ~35% de la población</li>
+        <li style="margin-bottom: 12px;">Concentra: servicios avanzados, finanzas, logística, consumo, sede de empresas, universidades</li>
+        <li style="margin-bottom: 12px;"><strong>Pampa húmeda</strong> (Buenos Aires, Santa Fe, Córdoba): agroindustria, puertos (Rosario-San Lorenzo), soja/maíz/trigo</li>
+        <li style="margin-bottom: 12px;"><strong>Córdoba</strong>: polo automotriz/metalmecánico desde los años 50 (path dependence: IKA → Renault/Fiat/VW)</li>
+        <li style="margin-bottom: 12px;"><strong>Interior profundo</strong>: densidad industrial muy baja, economías primarias, menor acceso a mercados</li>
+        <li style="margin-bottom: 12px;">La <strong>ISI</strong> (1930-1976) reforzó la concentración: las industrias se instalaron cerca del puerto, el mercado y la infraestructura</li>
+        <li style="margin-bottom: 12px;">Debate actual: ¿se puede revertir la concentración? Infraestructura, conectividad, ZFI, descentralización fiscal — pero las fuerzas centrípetas son muy potentes</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 27: Lo que nos llevamos hoy -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lo que nos llevamos hoy
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">La <strong>tríada</strong> (EEUU/UE/Japón) comerciaba masivamente entre sí con alto IIT — la anomalía que motivó la nueva teoría</li>
+        <li style="margin-bottom: 12px;">Los <strong>rendimientos crecientes</strong> rompen la competencia perfecta y generan un nuevo motor del comercio</li>
+        <li style="margin-bottom: 12px;"><strong>Competencia monopolística</strong> (Dixit-Stiglitz → Krugman): diferenciación + costos fijos + libre entrada</li>
+        <li style="margin-bottom: 12px;">El <strong>modelo Krugman</strong>: preferencia por variedad + costos fijos + escala + comercio → más variedades + menores costos</li>
+        <li style="margin-bottom: 12px;"><strong>Índice Grubel-Lloyd</strong>: mide el solapamiento del comercio (GL = 0 interindustrial, GL = 1 intraindustrial)</li>
+        <li style="margin-bottom: 12px;"><strong>IIT horizontal</strong> (variedades similares) vs <strong>vertical</strong> (distinta calidad) — horizontal entre similares, vertical entre distintos</li>
+        <li style="margin-bottom: 12px;"><strong>Caso Mercosur autos</strong>: Krugman en acción — especialización en variedades con escala ampliada</li>
+        <li style="margin-bottom: 12px;"><strong>NGE</strong>: fuerzas centrípetas vs centrífugas, modelo centro-periferia, bifurcación, path dependence</li>
+        <li style="margin-bottom: 12px;"><strong>Argentina</strong>: concentración extrema en AMBA, Córdoba como path dependence automotriz</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 28: Para profundizar -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Para profundizar
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">📺 <strong>Canal UNED</strong> — "Aportaciones teóricas de Paul Krugman, Premio Nobel 2008" (~25 min, español, nivel universitario)</li>
+        <li style="margin-bottom: 12px;">🎬 <strong>Conferencia Nobel de Krugman</strong> — "The Increasing Returns Revolution in Trade and Geography" (44 min, inglés + PDF disponible)</li>
+        <li style="margin-bottom: 12px;">📺 <strong>MRU</strong> — "Monopolistic Competition and International Trade" + "External Economies of Scale" (5-10 min c/u, inglés con subtítulos)</li>
+        <li style="margin-bottom: 12px;">🎙️ <strong>Trade Talks Podcast Ep. 206</strong> — "Krugman on Trade, Industrial Policy and Trump" (42 min, inglés + transcripción PDF, marzo 2025)</li>
+        <li style="margin-bottom: 12px;">📺 <strong>Ford School, U. Michigan</strong> — Krugman: "Globalization and International Trade" (60 min, inglés, conferencia divulgativa)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 29: Lecturas para esta clase -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lecturas para esta clase
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Obligatorias</strong>:</li>
+        <li style="margin-bottom: 12px;">Lugones, G. et al. — <em>Teorías del Comercio Internacional</em>, Cap. 2.1: Rendimientos crecientes y competencia imperfecta (pp. 31-40)</li>
+        <li style="margin-bottom: 12px;">Krugman, Obstfeld &amp; Melitz (9a ed.) — Caps. 6-7: Economías de escala y competencia monopolística</li>
+        <li style="margin-bottom: 12px;">Lucángeli, J. (2007) — "La especialización intraindustrial en el MERCOSUR", CEPAL (índice GL aplicado)</li>
+        <li style="margin-bottom: 12px;"><strong>Complementarias</strong>:</li>
+        <li style="margin-bottom: 12px;">Steinberg, F. (2004) — <em>La nueva teoría del comercio internacional y la política comercial estratégica</em></li>
+        <li style="margin-bottom: 12px;">Durán Lima, J. &amp; Álvarez, M. (2008) — "Indicadores de comercio exterior y política comercial", CEPAL</li>
+        <li style="margin-bottom: 12px;">Bernard, A. et al. (2007) — "Firms in International Trade", JEP (firmas heterogéneas, avance de la próxima clase)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 30: Guía de lectura — Unidad 3 (primera parte) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Guía de lectura — Unidad 3 (primera parte)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Preguntas orientadoras para la bibliografía</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">¿Por qué la <strong>tríada</strong> (EEUU/UE/Japón) representaba una "anomalía" para el modelo H-O?</li>
+        <li style="margin-bottom: 12px;">¿Qué diferencia hay entre <strong>rendimientos crecientes internos</strong> (a la firma) y <strong>externos</strong> (al sector/territorio)?</li>
+        <li style="margin-bottom: 12px;">¿Cómo genera el modelo de Krugman comercio entre <strong>países idénticos</strong> sin ventaja comparativa?</li>
+        <li style="margin-bottom: 12px;">¿Qué mide el <strong>índice Grubel-Lloyd</strong> y cómo se interpreta un GL cercano a 0 vs cercano a 1?</li>
+        <li style="margin-bottom: 12px;">¿Cuál es la diferencia entre <strong>IIT horizontal</strong> e <strong>IIT vertical</strong>? ¿Dónde predomina cada uno?</li>
+        <li style="margin-bottom: 12px;">¿Qué son las <strong>fuerzas centrípetas</strong> y <strong>centrífugas</strong> en la NGE? ¿Cómo explican la concentración territorial?</li>
+        <li style="margin-bottom: 12px;">¿Por qué la <strong>globalización</strong> (baja de costos de transporte) puede aumentar la concentración en vez de reducirla?</li>
+        <li style="margin-bottom: 12px;">¿Cómo se aplica la NGE al caso argentino (AMBA, Córdoba, interior)?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 31: Próxima clase: Comercio intraindustrial — profundización y dumping -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Próxima clase: Comercio intraindustrial — profundización y dumping
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+        <li style="margin-bottom: 12px;"><strong>Determinantes del IIT</strong>: similitud de ingresos, cercanía geográfica, integración, tipo de productos</li>
+        <li style="margin-bottom: 12px;"><strong>Caso Argentina-Brasil en profundidad</strong>: datos sectoriales, evolución temporal del GL</li>
+        <li style="margin-bottom: 12px;"><strong>Dumping</strong>: discriminación de precios internacional, medidas antidumping, reglas OMC</li>
+        <li style="margin-bottom: 12px;"><strong>Firmas heterogéneas</strong>: ¿por qué solo algunas firmas exportan? (adelanto del modelo Melitz)</li>
+    </ul>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 4</span>
+  <span id="slide-counter">1 / 31</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let currentStep = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function getTotalSteps(idx) {
+    const attr = slides[idx].getAttribute('data-steps');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showStep(slideIdx, stepIdx) {
+    const steps = slides[slideIdx].querySelectorAll('.prog-step');
+    if (steps.length === 0) return;
+    steps.forEach((s, i) => {
+      s.style.display = i === stepIdx ? 'flex' : 'none';
+    });
+    const cur = slides[slideIdx].querySelector('.step-current');
+    if (cur) cur.textContent = stepIdx + 1;
+  }
+
+  function showSlide(n, fromEnd) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0) {
+      currentStep = fromEnd ? totalSteps - 1 : 0;
+      showStep(current, currentStep);
+    } else {
+      currentStep = 0;
+    }
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function advance() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep < totalSteps - 1) {
+      currentStep++;
+      showStep(current, currentStep);
+      return;
+    }
+    showSlide(current + 1, false);
+  }
+
+  function goBack() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep > 0) {
+      currentStep--;
+      showStep(current, currentStep);
+      return;
+    }
+    showSlide(current - 1, true);
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+      const totalSteps = getTotalSteps(current);
+      if (totalSteps > 0) showStep(current, currentStep);
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') advance();
+    else if (e.key === 'ArrowLeft') goBack();
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0, false);
+    else if (e.key === 'End') showSlide(slides.length - 1, true);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) advance();
+      else goBack();
+    }
+  });
+</script>
+
+</body>
+</html>

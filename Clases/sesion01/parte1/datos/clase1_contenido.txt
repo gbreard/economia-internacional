@@ -1,0 +1,1273 @@
+================================================================================
+CONTENIDO PARSEADO DE: Clase 1.docx
+================================================================================
+
+Vamos a armar la clase 1 de la materia, podes leer el programa, el objetivo de esta clase y lo empezamos a armar? Dame una propuesta
+
+Pensado durante 1m 33s
+
+According to a document from tu Programa y el Plan de Clases, la Clase 1 (Unidad 1) tiene que: presentar el curso y trabajar conceptos básicos (balanza comercial, apertura, términos del intercambio), hechos estilizados del comercio desde la posguerra, el ascenso de Asia/China, e introducir cadenas globales de valor y el vínculo con desarrollo. También se sugiere como lectura base Krugman–Obstfeld–Melitz (caps. 1–2) e informes recientes OMC/UNCTAD.
+
+Programa
+
+Plan_de_clases_Economia_Interna…
+
+A partir de eso, te propongo esta Clase 1 (≈2h 30m):
+
+Objetivo operativo de la clase
+
+Que el/la estudiante salga pudiendo:
+
+usar con soltura 4 indicadores (balanza comercial, apertura, términos del intercambio, cuenta corriente / vínculo con TCR),
+
+describir 3 hechos estilizados del comercio mundial (posguerra–globalización–slowbalization),
+
+explicar por qué las CGV cambian la forma de medir y pensar el comercio (valor agregado, firmas, fragmentación).
+
+Programa
+
+Plan_de_clases_Economia_Interna…
+
+Guion de clase (minuto a minuto)
+
+Contenidos clave por bloque (con “frases de pizarra”)
+
+Bloque 1 — Conceptos básicos (35’)
+
+Pizarra mínima:
+
+Balanza comercial = X − M
+
+Apertura ≈ (X+M)/PIB (interpretación + límites)
+
+Términos del intercambio (ToT) = Px/Pm (y por qué importan para ingreso real)
+
+Vínculo con macro abierta: comercio ↔ cuenta corriente ↔ tipo de cambio real (mención breve, sin modelo aún)
+
+Programa
+
+Mini-ejemplo (5’):
+“Sube el precio de lo que exporto (commodities) → mejora ToT → ¿qué pasa con ingreso real, importaciones, y tensión apreciación/depreciación del TCR?”
+
+Bloque 2 — Hechos estilizados del comercio mundial (30’)
+
+3 ideas-fuerza:
+
+posguerra: instituciones + liberalización gradual
+
+“segunda globalización”: fragmentación productiva (CGV)
+
+desde 2008: desaceleración y shocks (crisis financiera, pandemia, guerras comerciales) → “slowbalization” (como agenda del curso)
+
+Programa
+
+Para traer evidencia “liviana” en clase: la OMC reportó caída del comercio en 2023 y rebote moderado en 2024.
+
+Bloque 3 — Cambios en la geografía: Asia/China (30’)
+
+Acá no hace falta entrar en números finos todavía: la idea es instalar la pregunta:
+
+¿qué significa que cambie el “centro de gravedad” del comercio?
+
+¿cómo se mezcla con geopolítica (restricciones, friend-shoring, etc.)?
+
+Esto conecta directo con tu programa (China, pérdida relativa de EUA, geopolítica).
+
+Programa
+
+Bloque 4 — Cadenas Globales de Valor (30’)
+
+Pizarra mínima:
+
+Comercio “bruto” vs comercio “en valor agregado”
+
+Por qué el mismo insumo cruza fronteras varias veces
+
+“Dónde se captura el valor” (intuición tipo “smiling curve”, sin formalismo)
+
+Base para justificar “por qué medir TiVA”: OECD plantea que las cadenas globales y la medición en valor agregado corrigen sesgos del comercio tradicional. 
+Y como idea general: las CGV son una gran parte del comercio internacional y plantean desafíos de resiliencia/sostenibilidad.
+
+Actividad corta en aula (15–20’)
+
+“Mapeo de una CGV en 6 casilleros” (grupos de 3–4)
+
+Elegís un producto (smartphone / auto / soja-aceite-biodiesel / servicio exportable).
+Casilleros: I+D/ diseño – insumos – producción/ensamble – logística – marketing/servicios – posventa.
+Preguntas guía:
+
+¿Qué partes suelen quedar en el “centro” y cuáles se relocalizan?
+
+¿Qué políticas/condiciones necesita un país para moverse a casilleros de mayor valor?
+
+¿Qué significa “exportar mucho” pero capturar poco valor?
+
+Cierre rápido (2–3 grupos comparten).
+
+Cierre (últimos 5–10’)
+
+Recapitular: conceptos + hechos estilizados + CGV
+
+Puente a la clase 2: “Ahora sí: ¿qué explica el comercio? Smith/Ricardo como primer modelo”.
+
+Lecturas y tarea para la próxima
+
+Obligatorio (base):
+
+Krugman, Obstfeld y Melitz, caps. 1–2 (como dice tu plan).
+
+Plan_de_clases_Economia_Interna…
+
+Actualidad (corta, para traer 2 ideas a clase 2):
+
+UNCTAD, Global Trade Update (diciembre 2024).
+
+WTO, World Trade Report 2024 (introducción/overview).
+
+Consigna simple (media carilla):
+“Elegí 1 gráfico o dato del informe UNCTAD/OMC y explicá qué te dice sobre slowbalization o geopolítica del comercio.”
+
+Si te sirve, en el próximo paso armamos las diapositivas mínimas (8–10) para esta clase 1: título + 4 conceptos + 3 hechos estilizados + 1 esquema CGV + 1 actividad + 1 cierre.
+
+Fuentes
+
+Cuáles son los hechos estilizados que propones presentar?
+
+Para Clase 1 yo presentaría “hechos estilizados” que sean muy visuales (2–3 gráficos) y que te sirvan de puente hacia teorías y, más adelante, macro abierta y geopolítica.
+
+Núcleo (los 3 que yo usaría sí o sí)
+
+El comercio mundial creció más rápido que el PIB durante décadas… y luego se frenó
+
+1945–2008: “hiperglobalización”: fuerte aumento del ratio comercio/PIB.
+
+Post-2008: desaceleración del comercio (la famosa slowbalization).
+
+Cambio en la geografía: Asia (y especialmente China) pasa a ser un actor central
+
+Reconfigura flujos, especializaciones, y también el debate sobre competencia, política industrial, tensiones comerciales y tecnológicas.
+
+Fragmentación productiva: suben las cadenas globales de valor (CGV) y el comercio de insumos intermedios
+
+Mucho comercio ya no es “un país hace un producto y lo exporta”, sino etapas que cruzan fronteras.
+
+Implica que exportar mucho no es lo mismo que capturar mucho valor agregado.
+
+Complementarios (si te entran 5–10 minutos más, suman un montón)
+
+El comercio es “gravitacional” y está muy concentrado
+
+Países grandes comercian más; la distancia y los costos logísticos importan.
+
+Pocos corredores y pocos países explican una gran parte del comercio.
+
+Regionalización / acuerdos: el comercio se organiza en “bloques” además de ser global
+
+América del Norte, Europa, Asia oriental, etc.
+
+Te deja servido el puente para integración regional y para geopolítica.
+
+El crecimiento de servicios y lo “digital” (comercio de servicios, datos, intangibles)
+
+Aunque “bienes” sigue siendo clave, hoy los servicios (y los intangibles) son parte del corazón de la competitividad y de las restricciones regulatorias.
+
+Cómo lo mostraría en clase (rápido y didáctico)
+
+1 gráfico: comercio/PIB mundial (o exportaciones+importaciones/PIB) con quiebre post-2008.
+
+1 gráfico: participación de China/Asia en exportaciones/importaciones mundiales (o en manufacturas).
+
+1 esquema: CGV simple (diseño–componentes–ensamble–marketing) y la idea de “valor agregado” vs “comercio bruto”.
+
+Si querés, te armo el set de 3 gráficos (qué buscar y cómo contarlo en 30–60 segundos cada uno) y un texto de pizarra para que quede redondita la narrativa.
+
+Arrancas desde el 45 pero me parece si vamos a ver clásicos habría que empezar desde el siglo xviii y xviii
+
+Tenés razón: si vas a dar clásicos (Smith/Ricardo), conviene que los “hechos estilizados” arranquen antes de 1945. Lo que pasa es que muchos cursos empiezan en 1945 porque ahí tenés series comparables y el “régimen” institucional moderno (GATT/OMC, Bretton Woods). Pero podés perfectamente armar una línea larga y después “aterrizar” en posguerra.
+
+Yo lo haría así: hechos estilizados de largo plazo (s. XVIII–XXI) en 6 puntos, bien narrativos y con 1–2 gráficos recién cuando entrás al siglo XX.
+
+Hechos estilizados (siglo XVIII → hoy)
+
+El comercio moderno despega con la industrialización
+
+Desde fines del s. XVIII y s. XIX, la Revolución Industrial cambia productividad, costos y escala → el comercio pasa de ser más “lujo/colonial” a ser cada vez más manufacturas + insumos.
+
+Tecnología + transporte/comunicaciones “achican el mundo”
+
+Vapor, ferrocarril, canales, telégrafo (y después container/informática) reducen costos y tiempos → esto es un motor estructural del comercio (y conecta con la intuición ricardiana: especialización cuando bajar costos lo hace rentable).
+
+La “Primera Globalización” (≈ 1870–1914)
+
+Gran expansión del comercio y de flujos internacionales (bienes, capital y migración).
+
+Es el antecedente histórico de “globalización” antes de la posguerra.
+
+Colapso del orden liberal (1914–1945)
+
+Guerras + Gran Depresión + proteccionismo → caída del comercio y fragmentación en bloques.
+
+Este hecho estilizado es clave para justificar por qué nacen las instituciones de posguerra.
+
+Posguerra (1945–2008): reconstrucción + reglas + liberalización
+
+GATT/OMC, integración europea, Japón/“tigres asiáticos”, y luego China: el comercio crece y se vuelve más denso.
+
+Acá sí metés el gráfico comercio/PIB y “segunda globalización”.
+
+Desde 2008: desaceleración, riesgos y geopolítica
+
+Menor dinamismo relativo del comercio, shocks (crisis financiera, pandemia), tensiones tecnológicas/comerciales → slowbalization y reconfiguración de cadenas.
+
+Cómo lo conectás con los clásicos (y te queda prolijo)
+
+Smith entra perfecto cuando contás el s. XVIII–XIX: división del trabajo, productividad, mercado ampliado.
+
+Ricardo entra perfecto cuando decís: “con costos de transporte cayendo, la especialización por ventaja comparativa se vuelve más potente”.
+
+Y después, cuando aterrizás en posguerra y CGV, mostrás por qué las teorías modernas extienden la historia (economías de escala, firmas, intermedios, valor agregado).
+
+Si querés, te armo una versión “de pizarra” de 10 minutos para abrir la clase: línea de tiempo + 6 bullets, y te digo exactamente dónde “cortás” para pasar a conceptos (balanza, apertura, ToT) sin que se te vaya el tiempo.
+
+Búscame mapas de comercio internacional que abarque todo el periodo por las etapas planteadas. Acirsate del rol de Inglaterra
+
+Pensado durante 1m 47s
+
+Acá tenés una curaduría de mapas/atlases (muchos interactivos) para cubrir tus etapas desde el siglo XVIII hasta hoy, poniendo a Inglaterra/Reino Unido en el centro del relato.
+
+1) Siglo XVIII–mediados XIX
+
+Inglaterra como “trade + compañías + rutas marítimas” (EIC, Atlántico/Índico)
+
+East Indies (inicios s. XVIII) – comercio y cartografía inglesa (Herman Moll / EIC)
+Biblioteca del Congreso (blog con imágenes de mapas y explicación del circuito).
+
+Rutas de las grandes compañías europeas (≈1740)
+Útil para mostrar el “mundo de compañías” previo a la industrialización plena (EIC incluida).
+
+Colonial shipping lanes 1700–1850 (basado en logbooks/CLIWOC)
+Es buen “puente” para visualizar el dominio marítimo imperial (incluye británicos).
+
+Rutas británicas 1750–1800 (ship logs)
+Muy visual para abrir clase y hablar de centralidad de Londres/puertos británicos. (ojo: divulgación, pero basado en logs; te sirve didácticamente).
+
+2) 1870–1914 Primera Globalización
+
+Reino Unido como “hub” marítimo + cables + finanzas + imperio
+
+Trading routes “Colonial era” 1880–1914 (flujo de materias primas/colonias → industria europea; muy útil para el rol británico)
+
+Steamship routes 1914 (mapa global de rutas de vapor)
+Ideal para mostrar la red densa previa a la I Guerra.
+
+Red de cables / conectividad imperial (Porthcurno / National Archives)
+Para contar el “imperio informacional” británico (comercio, seguros, finanzas).
+
+Mapa animado “British Empire: trading routes and construction”
+Excelente para narrar por qué Inglaterra controla chokepoints (Suez, Cabo, Malaca, etc.).
+
+3) 1914–1945 Colapso + proteccionismo + bloques
+
+Del libre comercio a preferencia imperial + “sterling area”
+
+Navy League Map of the British Empire (incluye trade/cable routes y stats 1913/1922)
+Es un “mapa síntesis” perfecto para explicar imperio + comercio + infraestructura en la transición al interwar.
+
+Imperial Preference / Ottawa 1932 (zona preferencial dentro del Imperio)
+Para el marco conceptual del “bloque imperial” (aunque el recurso sea textual, se apoya muy bien con el mapa anterior).
+
+Sterling Area (bloque monetario-comercial con centro en Londres)
+Muy útil para “Inglaterra como banquero” y cómo se reorientan vínculos comerciales/financieros. 
+(Si querés un mapa literal del sterling area, te conviene armarlo vos con la lista de miembros: queda prolijo y consistente con el resto del set.)
+
+4) 1945–2008 Posguerra e “hiperglobalización”
+
+De UK→US (instituciones), pero Londres sigue fuerte en finanzas/servicios
+
+WTO Trade Maps (mapas interactivos por país/indicador)
+Para mostrar expansión y estructura del comercio en la era OMC (muy usable en clase).
+
+World Bank WITS Trade Visualization (redes de comercio, flujos por país/producto)
+Sirve para “mapas de flujo” modernos (nodos/enlaces).
+
+UN Comtrade (base estándar)
+Si querés consistencia de series/partners en el tramo más reciente.
+
+5) 2008–hoy Slowbalization + geopolítica + reconfiguración de cadenas
+
+UK en tensiones: Brexit, reorientación de acuerdos, rol financiero
+
+McKinsey Global Trade Explorer (corredores y redes de comercio, interactivo)
+
+UNCTAD (estadísticas y tendencias, para “mapear” reconfiguraciones recientes)
+
+OECD TiVA (comercio en valor agregado / cadenas globales)
+
+Mapa de corredores (ilustrativo) sobre reshaping de flujos (para discusión geopolítica; usar como “gráfico de prensa”, no como dato duro)
+
+Cómo “acercarte” al rol de Inglaterra con estos mapas (narrativa simple)
+
+s. XVIII: Inglaterra entra fuerte con compañías (EIC) y rutas oceánicas.
+
+1870–1914: Inglaterra = infraestructura global (rutas + cables + chokepoints) + imperio.
+
+Interwar: se replega el libre comercio; Inglaterra arma preferencia imperial + sterling area para sostener vínculos.
+
+Posguerra en adelante: liderazgo comercial institucional pasa más a EEUU, pero UK mantiene peso por City/servicios y su inserción en redes (y luego Brexit cambia el ángulo).
+
+Si me decís qué formato querés para tus diapositivas (¿1 mapa por etapa o 2?), te armo un pack de 5–7 imágenes con título, pie de gráfico y “2 bullets de interpretación” por mapa, todo listo para pegar en la clase 1.
+
+Ok, hacelo
+
+Pensado durante 1m 59s
+
+Listo: acá tenés un pack de 7 “mapas” (o visualizaciones cartográficas), uno por etapa, con título, pie, y 2 bullets para contar el rol de Inglaterra/UK en cada momento (tal como lo querés para Clase 1).
+
+1) Siglo XVIII (comercio de compañías)
+
+Mapa: East Indies trade / Herman Moll (c. 1720; para la East India Company)
+Pie sugerido: “Rutas y nodos de comercio en el Índico/SE Asia: comercio ‘imperial-mercantil’ antes de la industrialización.”
+
+Inglaterra como plataforma corporativa: la EIC organiza enclaves, puertos y circuitos (no es “libre comercio”, es comercio gobernado).
+
+Lo clave para clásicos: muestra el mundo donde Smith discute mercados, monopolios y expansión comercial (base histórica del debate “comercio y riqueza”).
+
+Cómo usarlo en clase (30–45 seg): “Antes de Ricardo, el comercio se parece más a red + poder que a ‘mercados’.”
+
+2) 1870–1914 (Primera Globalización, infraestructura marítima)
+
+Mapa: Steamship routes of the world (c. 1900; American Express / Princeton)
+Pie sugerido: “El mundo se ‘achica’: rutas de vapor densas conectan Atlántico–Índico–Pacífico.”
+
+Inglaterra como hegemonía marítima: el mapa te permite señalar chokepoints (Suez/Cabo) y la centralidad del Atlántico Norte (Londres como nodo).
+
+Puente a Ricardo: caída de costos de transporte ⇒ la especialización y el comercio de gran escala pasan a ser “viables” para muchas economías.
+
+Cómo usarlo en clase: “Sin vapor + rutas, la ventaja comparativa es una idea más teórica que real.”
+
+3) 1870–1914 (Primera Globalización, “imperio de la información”)
+
+Mapa: Wired Empire: red telegráfica submarina británica
+Pie sugerido: “La globalización también es comunicación: cables que coordinan comercio, seguros y finanzas.”
+
+Inglaterra como centro de coordinación: acelera información (precios, órdenes, crédito, seguros marítimos), reforzando el rol de Londres.
+
+Lectura institucional: no es solo “producir mejor”, es gobernar riesgos y flujos (shipping, banca, seguros, estándares).
+
+Cómo usarlo: “La City no es un ‘sector más’: es infraestructura del comercio.”
+
+4) 1914–1945 (colapso + bloques + preferencia imperial)
+
+Mapa: Navy League Map of the British Empire (1922): rutas de comercio y cables + estadísticas 1913/1922
+Pie sugerido: “Del mundo integrado al mundo de bloques: imperio, rutas y capacidades.”
+
+Inglaterra como ‘imperio-red’: el mapa deja ver posesiones + rutas + cables (comercio sostenido por control territorial y naval).
+
+Transición al interwar: te sirve para explicar por qué aparecen preferencias imperiales y reorientaciones (menos multilateralismo, más bloque).
+
+Cómo usarlo: “Esto explica por qué después nace el diseño institucional de posguerra.”
+
+5) 1945–1973/80 (posguerra: reconstrucción + apertura)
+
+Visualización tipo mapa (para proyectar): WITS – Trade Data Visualization (World Bank), modo “map visualizer”
+Pie sugerido: “Expansión del comercio posguerra: Europa/EEUU/Japón como triángulo central.”
+
+UK en reposicionamiento: pasa de hegemonía comercial a potencia “madura” dentro del orden occidental; gana peso el marco GATT/EEUU.
+
+Hecho estilizado: crecimiento del comercio bajo reglas + reconstrucción europea (acá el mapa te ordena el relato).
+
+Cómo usarlo (práctico): en WITS elegí año 1965/1970, indicador exportaciones/importaciones, y mostrás el patrón.
+
+6) 1990–2008 (hiperglobalización + CGV)
+
+Visualización tipo mapa (para proyectar): UN Comtrade / “Trade Earth” (flujos sobre mapa + red)
+Pie sugerido: “Redes densas de comercio; se ve el ascenso de Asia y el rol de cadenas globales.”
+
+UK como economía avanzada ‘hub’: aunque no lidere manufacturas globales como antes, sostiene peso vía servicios, finanzas, logística (se conecta con CGV).
+
+Ascenso Asia (puente a tu programa): desde acá preparás la discusión China + reconfiguración del comercio.
+
+Cómo usarlo: mostrás un año tipo 2000/2005 y pedís que identifiquen “nodos” y “corredores”.
+
+7) 2008–hoy (slowbalization + shocks + geopolítica)
+
+Visualización tipo mapa: UN Comtrade visualizations (Labs) / flujos recientes
+Pie sugerido: “Persisten grandes corredores (Asia–N. América–Europa), pero crece el peso intra-Asia y aparecen cuellos de botella/risks.”
+
+UK en un mundo más fragmentado: sirve para abrir la puerta a Brexit/estrategia comercial (aunque el mapa sea de bienes, la pregunta queda picando).
+
+Agenda moderna: resiliencia de cadenas, sanciones, friend-shoring, seguridad económica.
+
+Cómo usarlo: elegís 2023 y preguntás “¿qué cambia vs 2000?” (corredores, concentración, regiones).
+
+Si querés, te lo dejo todavía más “listo para pegar en filminas”: te armo 7 diapositivas (una por mapa) con el texto exacto (título + pie + 2 bullets) ya redactado en tono docente.
+
+Está bien lo de UK, pero luego de la 2 guerra ya no es hegemonía lo pasa a ser EUA, o sea estás desvirtuando la historia
+
+Tenés toda la razón: desde 1945 la hegemonía sistémica pasa a Estados Unidos. Si el guion suena a “UK sigue siendo hegemón” después de la 2GM, ahí sí se desvirtúa la historia.
+
+Lo que yo quise “salvar” es que UK sigue siendo un nodo relevante (City/finanzas/servicios/puertos/idioma/derecho comercial), pero eso no es hegemonía. La hegemonía (en el sentido fuerte) es EEUU.
+
+Cómo lo corregimos sin perder a UK (y queda históricamente prolijo)
+
+1) Usá una definición breve de “hegemonía” (1 minuto)
+
+Hegemonía = combinación de:
+
+capacidad productiva/tecnológica (quién lidera la frontera),
+
+poder monetario-financiero (moneda internacional, financiamiento),
+
+poder militar/logístico (seguridad de rutas),
+
+arquitectura institucional (reglas y organismos).
+
+Con esa grilla, se entiende perfecto el cambio UK → EEUU.
+
+Reescritura del pack (las etapas 5–7 son las que hay que “enderezar”)
+
+Etapa 5 — 1945–1973/80 (posguerra)
+
+Hegemón: EEUU.
+
+Mensaje correcto: “EEUU diseña el orden: Bretton Woods, GATT, reconstrucción, seguridad, dólar.”
+
+UK aparece como: aliado clave y plaza financiera importante, pero ya no define el sistema.
+
+Frase de pizarra: “UK: de ‘hegemon’ a ‘senior partner’ dentro del orden liderado por EEUU.”
+
+Etapa 6 — 1990–2008 (hiperglobalización + CGV)
+
+Hegemón: EEUU (con globalización productiva liderada por firmas multinacionales); China emerge como ‘fábrica del mundo’.
+
+Mensaje correcto: “El centro institucional/financiero sigue siendo EEUU; el centro manufacturero se desplaza hacia Asia.”
+
+UK aparece como: nodo de servicios/finanzas globales (City), pero no hegemón.
+
+Frase: “Hegemonía financiera-institucional: EEUU. Núcleo manufacturero dinámico: Asia.”
+
+Etapa 7 — 2008–hoy (slowbalization + geopolítica)
+
+Escenario: transición hacia un orden más multipolar (EEUU–China, etc.).
+
+Mensaje correcto: “EEUU sigue siendo pivot del sistema, pero con disputa estratégica; China gana peso; Europa regula; fragmentación de cadenas.”
+
+UK aparece como: economía avanzada con estrategia propia (y Brexit como giro), relevante pero no hegemónica.
+
+Frase: “De hegemonía clara a competencia y fragmentación.”
+
+Cómo queda la historia completa (si la querés en una sola línea)
+
+Siglo XIX–1914: hegemonía británica (marítima, comercial, financiera).
+
+1914–1945: declive británico + desorden/bloques.
+
+1945–2008: hegemonía estadounidense (instituciones + dólar + seguridad + tecnología).
+
+2008–hoy: hegemonía estadounidense disputada / transición.
+
+Si querés, te rearmo exactamente las diapositivas 5–7 con textos ya listos (título + pie + 2 bullets) para que no quede ningún “ruido” de hegemonía británica post-45 y, al mismo tiempo, puedas mencionar a UK sin exagerarlo.
+
+Después de esta etapas históricas como seguimos?
+
+Pensado durante 7s
+
+Buenísimo: esas etapas históricas funcionan como “prólogo” para que la materia tenga sentido. Después de eso, lo lógico es pasar de la historia (qué pasó) a las preguntas analíticas (por qué pasa, quién gana/pierde, qué política conviene).
+
+Yo lo continuaría así (y esto te ordena la Clase 1 y te deja servido el resto del curso):
+
+1) Cerrar la parte histórica con 3 preguntas “motor”
+
+Al final de la clase (o como transición), dejás planteado:
+
+¿Por qué comercian los países? (ventajas comparativas, dotaciones, economías de escala, firmas)
+
+¿Qué se gana y qué se pierde con el comercio? (bienestar agregado vs distribución; salarios/sectores/regiones)
+
+¿Qué pasa cuando el comercio se vuelve geopolítico y de cadenas? (vulnerabilidad, poder, política industrial, datos/tecnología)
+
+Con eso, “habilitás” el salto a teoría.
+
+2) De ahí, seguís con un recorrido escalonado de modelos (de simple a realista)
+
+Paso A — Clásicos (2–3 clases)
+
+Smith: especialización/división del trabajo (intuición pro-comercio, tamaño de mercado)
+
+Ricardo: ventaja comparativa (el modelo “mínimo” para explicar comercio)
+Salida: entender “por qué hay ganancias del comercio” incluso si un país es más productivo en todo.
+
+Paso B — Distribución y conflicto (2–3 clases)
+
+Factores específicos (ganadores/perdedores por sector, corto plazo)
+
+Heckscher–Ohlin + Stolper-Samuelson (efectos sobre salarios, desigualdad, largo plazo)
+Salida: entender por qué políticamente el comercio genera tensiones.
+
+Paso C — Comercio moderno (2–4 clases)
+
+Economías de escala + competencia imperfecta (comercio intra-industrial, variedad)
+
+Firmas heterogéneas (Melitz) (exportan las más productivas, efectos sobre productividad y concentración)
+Salida: conectar con el mundo real: empresas, cadenas, concentración, “superstar exporters”.
+
+3) Recién ahí metés la parte de “sistema internacional”
+
+Paso D — Política comercial e instituciones (2–3 clases)
+
+Aranceles/cuotas, acuerdos, OMC, guerras comerciales
+
+Economía política: por qué los países aplican protección si “agrega bienestar” comerciar
+Salida: explicar la brecha entre “lo eficiente” y “lo que se hace”.
+
+Paso E — Macro internacional (2–3 clases)
+
+Balanza de pagos, cuenta corriente, tipo de cambio real, shocks
+
+Crisis externas / restricciones (acá podés conectar con Argentina)
+Salida: unir comercio con macro: no son dos materias distintas.
+
+4) Y cerrás con la agenda del siglo XXI (2–3 clases)
+
+Cadenas globales de valor + valor agregado
+
+China/EEUU + geopolítica tecnológica (chips, sanciones, friend-shoring)
+
+Servicios/digital + clima y comercio
+Salida: volver a los hechos estilizados y leerlos con herramientas teóricas.
+
+Cómo se ve esto en la práctica (para tu Clase 1)
+
+Historia por etapas (UK→EEUU→disputa)
+
+Hechos estilizados (comercio/PIB, geografía, CGV)
+
+Métricas básicas (BC, apertura, ToT)
+
+Tres preguntas motor → Clase 2 arranca con Ricardo
+
+Si querés, te propongo el guion exacto de Clase 2 (Ricardo) con: ejemplo numérico de 2 países–2 bienes, gráfica simple, y mini-ejercicio para que lo resuelvan en 10 minutos.
+
+No, en esta conversación nos vamos a concentrar en la clase 1. Para la 2 abriré otra conversación. La bibliografía planteada tiene algo de historia? Tenemos el comercio de las colonias? España?
+
+Pensado durante 30s
+
+Según el Plan de Clases que armamos para la materia, la Clase 1 arranca “desde la posguerra” (“Evolución del comercio desde la posguerra. Ascenso de Asia y China…”) y sugiere como lecturas Krugman–Obstfeld–Melitz (caps. 1–2) + informes recientes OMC/UNCTAD. Eso no incluye comercio colonial ni España.
+
+Plan_de_clases_Economia_Interna…
+
+¿La bibliografía “base” que venimos usando trae historia colonial?
+
+Lugones (Teorías del Comercio Internacional) está armado como carpeta de teoría (clásicos → neoclásicos → nuevas teorías → enfoques heterodoxos, etc.). En el índice no aparece un bloque de historia del comercio colonial (España/Indias); entra directo por teoría.
+
+Lugones-Teorias_del_Comercio_In…
+
+Porta (Integración Económica) sí menciona colonias en el marco de la política comercial europea (ACP/ex colonias, Lomé/Cotonou), pero eso es colonialidad europea del siglo XX y acuerdos preferenciales; no es “comercio colonial español” temprano.
+
+LIC-PORTA-Integracion_Econo
+
+LIC-PORTA-Integracion_Econo
+
+Conclusión práctica: con lo que está hoy en el plan/bibliografía, la historia colonial ibérica no está cubierta de forma explícita (y España menos).
+
+Cómo lo metemos en Clase 1 sin romper el programa
+
+Te propongo un micro-bloque inicial de 15–20 minutos antes de “posguerra → hoy”, para que después todo lo moderno quede mejor anclado.
+
+Bloque 0 (15–20 min): “Del mercantilismo ibérico al liderazgo británico”
+
+Objetivo: que el estudiante entienda que el comercio internacional nace como sistema político-institucional (imperios, monopolios, rutas, plata/oro), y recién más tarde se “modeliza” como comercio por costos/tecnología (Smith/Ricardo).
+
+4 diapositivas (contenido):
+
+España y el Atlántico (siglos XVI–XVIII): monopolio comercial, flotas, plata como eje, puertos y control.
+
+Mercantilismo: comercio como instrumento de poder (balance metálico, compañías, aranceles).
+
+Transición siglo XVIII: reformas, competencia inter-imperial, cambio de hegemonía hacia UK (marina/finanzas/industria).
+
+Puente a la teoría: por qué Smith/Ricardo se escriben contra ese mundo (monopolios/compañías/guerra).
+
+Lecturas cortas y “a prueba de clase 1” para comercio colonial y España (para sumar al programa)
+
+Si querés que esté “oficialmente” en bibliografía, lo más eficiente es agregar 1 lectura panorámica + 1 específica ibérica:
+
+Panorámica (1 cap): Findlay & O’Rourke, Power and Plenty (historia del comercio mundial, muy usable para tus etapas).
+
+Globalización temprana (caps seleccionados): O’Rourke & Williamson, Globalization and History (para conectar transporte/caída de costos con integración).
+
+España/Imperio (capítulos): un texto de historia económica del imperio español (comercio atlántico, plata, instituciones como Casa de Contratación, reformas borbónicas).
+
+Si te parece, en el próximo mensaje te dejo el guion exacto minuto a minuto de Clase 1 (con ese Bloque 0 incluido), y te indico en qué momento entran los mapas que ya juntamos para que España/Atlántico aparezca “natural” y no como un agregado suelto.
+
+Fuentes
+
+Pero tenemos mapas del comercio ibérico- colonial?
+
+Pensado durante 34s
+
+Sí — hay mapas muy usables para cubrir el comercio ibérico-colonial (España y Portugal) y, además, sirven perfecto para abrir tu “bloque 0” histórico en Clase 1.
+
+Mapas clave (curados por “sub-etapas”)
+
+1) Siglo XVI: “rutas ibéricas globales” (Portugal + España)
+
+Mapa de rutas comerciales oceánicas ibéricas (siglo XVI): te muestra en una sola lámina el sistema Portugal-Índico y España-Atlántico/Pacífico (incluye Manila–Acapulco).
+
+2) Siglo XVI–XVIII: “Carrera de Indias / Flota de Indias” (convoy + hubs)
+
+Mapa de rutas comerciales del Imperio español (muy didáctico; marca nodos tipo La Habana, Veracruz, Portobelo/Cartagena, etc.).
+
+Para un respaldo “enciclopédico” del sistema de convoyes: Spanish treasure fleet / Flota de Indias (1566–1790).
+
+Si querés una versión más “académica” de rutas/hubs (Havana como nodo): el mapa de UWF (John Worth) es muy claro.
+
+3) c. 1670: “Spanish Main” (Caribe como corredor estratégico y zona de piratería)
+
+Mapa del Spanish Main y rutas del tesoro + puertos/piratería (muy bueno para explicar por qué España arma convoyes y por qué La Habana es clave).
+
+4) Siglo XVI–XIX: “Galeón de Manila” (globalización temprana vía Pacífico)
+
+Tenés un recurso excelente en The Map as History (serie de mapas animados sobre imperios portugués y español) específicamente sobre el Manila Galleon.
+
+Para explicación breve y rutas (vientos / ida y vuelta): Guampedia lo resume bien.
+
+5) Portugal (siglos XV–XVII): “Estado da Índia” y red de factorías
+
+Un mapa claro del Imperio portugués (expansión orientada a controlar rutas hacia las Indias).
+
+Si querés ir a mapas históricos específicos (altísima calidad): David Rumsey Historical Map Collection es una mina para Portugal/España y navegación.
+
+Y si querés repositorios oficiales: Library of Congress – Maps Collections (búsqueda por “Spanish America”, “West Indies”, “trade routes”, etc.).
+
+Para tu Clase 1 (recomendación práctica)
+
+Si querés que esto “entre” sin comerse el resto de la clase, usá 3 mapas (10–12 minutos total):
+
+Rutas ibéricas siglo XVI (Portugal+España)
+
+Carrera/Flota de Indias (hubs Caribe)
+
+Galeón de Manila (Pacífico)
+
+Con eso, España queda muy bien ubicada históricamente (monopolio, rutas, plata, convoyes) y después ya podés saltar a UK→EEUU sin “cortar” la narrativa.
+
+Si querés, te lo dejo listo como texto de diapositiva (título + pie + 2 bullets por mapa) para estas 3 láminas.
+
+Ahora ármame con todos los slide de esta clase ( e indicando el mapa que va)
+
+Pensado durante 8s
+
+Perfecto. Abajo tenés la clase 1 armada como deck completo (12 slides), con qué va en cada slide y qué mapa/visual usar. La lógica es:
+
+Apertura histórica (ibérico-colonial → UK)
+
+Quiebre 1914–45
+
+Posguerra: hegemonía EEUU + ascenso Asia/China
+
+Hechos estilizados + CGV
+
+Cierre + actividad + lecturas
+
+Deck Clase 1 (12 slides)
+
+Slide 1 — Portada
+
+Título: Economía Internacional — Clase 1
+Subtítulo: “Historia larga del comercio + hechos estilizados + CGV”
+Visual: foto/mapa tenue de fondo (opcional).
+Notas: 20–30 segundos para ubicar: qué es la materia y qué vamos a hacer hoy.
+
+Slide 2 — Qué vamos a lograr hoy
+
+Bullets (3):
+
+Manejar 4 conceptos: balanza comercial, apertura, términos del intercambio, cuenta corriente/TCR (intuición)
+
+Reconocer etapas históricas del comercio (siglo XVI → hoy)
+
+Entender por qué CGV cambia cómo medimos el comercio (valor agregado)
+
+Visual: íconos simples o un esquema (sin mapa).
+
+Slide 3 — Línea de tiempo: etapas del comercio internacional
+
+Bullets (1 línea por etapa):
+
+Sistema ibérico-colonial (XVI–XVIII)
+
+Hegemonía británica / primera globalización (XIX–1914)
+
+Colapso y bloques (1914–1945)
+
+Hegemonía estadounidense (1945–2008)
+
+Slowbalization y disputa geopolítica (2008–hoy)
+
+Visual: timeline horizontal.
+
+Bloque 0 (Historia colonial ibérica) — 3 slides
+
+Slide 4 — El mundo ibérico: rutas globales (siglo XVI)
+
+Bullets:
+
+Comercio como poder + rutas + monopolios, no “mercado libre”
+
+Dos sistemas conectados: Portugal (Índico) y España (Atlántico/Pacífico)
+
+Mapa que va: Mapa de rutas ibéricas globales s. XVI (Portugal–Índico / España–Atlántico–Pacífico).
+Dónde buscarlo: repositorios “historical trade routes Iberian 16th century” (LoC / Rumsey / Map-as-History suele tener versiones didácticas).
+
+Slide 5 — España: Carrera de Indias / Flota (XVI–XVIII)
+
+Bullets:
+
+Convoyes y hubs: Sevilla/Cádiz → Caribe (La Habana) → Veracruz/Cartagena/Portobelo
+
+Comercio “seguro” por riesgo: piratería, guerra, control fiscal
+
+Mapa que va: Rutas de la Flota de Indias / Spanish Treasure Fleet (con La Habana como nodo).
+Dónde buscarlo: colecciones históricas + recursos académicos sobre “Spanish treasure fleet / Carrera de Indias”.
+
+Slide 6 — Globalización temprana por el Pacífico: Galeón de Manila
+
+Bullets:
+
+Conecta Asia ↔ América ↔ Europa (plata y mercancías)
+
+La globalización no empieza en 1945: hay circuito mundial temprano
+
+Mapa que va: Ruta del Galeón de Manila (Manila–Acapulco).
+Dónde buscarlo: “Manila Galleon route map” (Map-as-History suele tener animaciones; también hay mapas estáticos muy claros).
+
+Bloque 1 (UK: hegemonía e infraestructura) — 2 slides
+
+Slide 7 — UK y la Primera Globalización: transporte (1870–1914)
+
+Bullets:
+
+Caen costos: vapor, ferrocarril → el comercio se expande
+
+UK como potencia marítima + finanzas + seguros (Londres)
+
+Mapa que va: Mapa de rutas de vapor / steamship routes (c. 1900–1914).
+Dónde buscarlo: Princeton (Map of Steamship Routes) / atlas históricos de rutas marítimas.
+
+Slide 8 — UK y el “imperio de la información”: cables/telegráfos
+
+Bullets:
+
+Globalización = también información: precios, órdenes, crédito
+
+La infraestructura informacional refuerza el rol de Londres
+
+Mapa que va: Mapa de red telegráfica/submarina del imperio británico (“Wired Empire” / cables).
+Dónde buscarlo: museos/archivos (Porthcurno, National Archives) y colecciones históricas.
+
+Bloque 2 (1914–1945: colapso) — 1 slide
+
+Slide 9 — 1914–1945: guerras, depresión, proteccionismo → mundo de bloques
+
+Bullets:
+
+Se rompe la integración: cae comercio, suben barreras
+
+UK ya no puede sostener el orden liberal como antes → preferencia imperial / reacomodos
+
+Mapa que va: Navy League Map of the British Empire (c. 1922) o mapa equivalente del Imperio Británico con rutas/cables.
+Dónde buscarlo: reproducciones del “Navy League Map” (archivos/cartotecas).
+
+Bloque 3 (posguerra: EEUU + ascenso Asia/China + hechos estilizados) — 2 slides
+
+Slide 10 — 1945–2008: hegemonía de EEUU (instituciones) + expansión del comercio
+
+Bullets:
+
+Bretton Woods, GATT/OMC, reconstrucción → comercio crece sostenidamente
+
+Se consolida el eje EEUU–Europa–Japón, luego entra China al centro
+
+Visual (no mapa histórico, sino gráfico):
+
+Gráfico (X+M)/PIB mundial o “trade-to-GDP” (World Bank/Our World in Data/WTO).
+(Si querés sí o sí mapa: un mapa de flujos por décadas usando WITS/Comtrade, pero el gráfico funciona mejor acá.)
+
+Slide 11 — 2008–hoy: slowbalization + geopolítica + reconfiguración de cadenas
+
+Bullets:
+
+Post-2008: shocks + tensiones → comercio crece menos, más riesgos
+
+Ascenso China/Asia cambia geografía y trae conflicto tecnológico
+
+Visual recomendado (1 de 2 opciones):
+
+Mapa/flujo de comercio mundial por corredores (Comtrade “Trade Earth” / visualizaciones tipo red), o
+
+Gráfico participación de Asia/China en comercio/manufacturas (OMC/UNCTAD/OECD).
+
+Bloque 4 (CGV + medición) — 1 slide + actividad
+
+Slide 12 — Cadenas Globales de Valor: exportar ≠ capturar valor
+
+Bullets:
+
+Comercio “bruto” vs comercio en valor agregado (TiVA)
+
+Un mismo insumo cruza fronteras varias veces → cambia la interpretación del déficit/superávit y competitividad
+
+Puente: por qué las teorías modernas miran firmas, intermedios, organización
+
+Visual: esquema simple tipo “diseño → componentes → ensamble → marketing/servicios” (smiling curve opcional).
+
+Slide 13 — Actividad en aula (15–20 min)
+
+Título: “Mapear una CGV en 6 casilleros”
+Instrucciones (bullets):
+
+Elegí un producto: smartphone / auto / soja-aceite-biodiesel / servicio exportable
+
+Completar: I+D/diseño – insumos – ensamble – logística – marketing – posventa
+
+Preguntas: ¿dónde se captura valor? ¿qué necesita un país para moverse?
+
+Visual: plantilla en blanco (cuadros).
+
+Slide 14 — Cierre + lectura para la próxima
+
+Bullets:
+
+Hoy: historia larga + hechos estilizados + CGV
+
+Próxima clase: clásicos (Smith/Ricardo) como explicación “mínima” del comercio
+
+Lectura: KOM caps. 1–2 + 1 gráfico/idea de OMC/UNCTAD
+
+Visual: checklist / bibliografía.
+
+Lista rápida de “mapas a pegar” (para que no se te pierdan)
+
+Rutas ibéricas globales s. XVI
+
+Carrera/Flota de Indias (hubs Caribe)
+
+Galeón de Manila (Manila–Acapulco)
+
+Steamship routes (c. 1900–1914)
+
+Cables/telegráfos del imperio británico
+
+Navy League Map / Imperio Británico (c. 1922)
+
+(Opcional) Mapa de flujos moderno (Comtrade/WITS) para 1990–hoy
+
+Si querés, en el próximo paso te lo dejo todavía más “operativo”: texto exacto para cada slide (lo que va en la lámina) + guion de lo que decís (notas del orador) en 1–2 frases por slide, para que puedas darla sin improvisar.
+
+Fíjate que la presentación no está bien. Está desbanlanceada. Mucha historia y muy poca medición 14 slide no alcanza tenes que meter más y tiene que haber mayor integración. Además tendríamos que ver alguna serie de largo plazo de comercio internacional
+
+Pensado durante 19s
+
+Tenés razón: así como estaba, parecía seminario de historia con “un toque” de medición. Para Clase 1, conviene que la historia sea el hilo, pero que cada etapa esté anclada en 1–2 métricas (aunque sean imperfectas en el tramo colonial) y que además haya un bloque explícito de medición (definiciones + cómo leer series + fuentes).
+
+Abajo te dejo un deck rearmado (22 slides), mucho más balanceado, integrado, y con una serie de largo plazo (trade/openess) como columna vertebral.
+
+Clase 1 — Deck integrado y balanceado (22 slides)
+
+Slide 1 — Portada
+
+Tema: Economía Internacional — Clase 1
+Subtítulo: “Historia larga + medición del comercio + CGV”
+
+Slide 2 — Agenda y “contrato” de la clase
+
+Cómo se mide el comercio (4 indicadores)
+
+Serie de largo plazo: qué cambia por etapas
+
+Mapas: rutas y centros de gravedad
+
+CGV: por qué comercio bruto ≠ valor capturado
+
+Bloque A — Medición (más fuerte y al inicio) (Slides 3–8)
+
+Slide 3 — Indicadores mínimos (definiciones)
+
+Balanza comercial: X − M
+
+Apertura: (X+M)/PIB
+
+Términos del intercambio (ToT): Px/Pm
+
+Cuenta corriente (idea) y vínculo con TCR (intuición)
+
+(acá no mapa; es “pizarra limpia”)
+
+Slide 4 — Cómo leer una serie de comercio (tres advertencias)
+
+Precios vs cantidades; bienes vs bienes+servicios
+
+“Comercio” puede ser bruto (sin VA)
+
+Series largas mezclan fuentes (calidad heterogénea antes del s. XX)
+
+Slide 5 — Serie de largo plazo (columna vertebral)
+
+Gráfico que va: “World trade as share of global GDP” (compilación histórica)
+Mensaje: identificar grandes quiebres (primera globalización, colapso, posguerra, desaceleración).
+Fuente recomendada para el gráfico: Our World in Data (compila estimaciones históricas).
+
+Slide 6 — Serie “moderna” comparable (1960–2024)
+
+Gráfico que va: World Bank “Trade (% of GDP)”, mundo y algunos países (UK, USA, España, Argentina, China). 
+Mensaje: comparar trayectorias, mostrar heterogeneidad y “aperturas extremas” (Luxemburgo/Singapur) como advertencia.
+
+Slide 7 — Datasets para series largas (credenciales)
+
+Federico–Tena World Trade Historical Database (1800–2016): para largo plazo cuantitativo.
+
+Klasing & Milionis (1870–1949): trade share consistente para transición primera globalización–entreguerras–posguerra temprana. 
+(Esta slide es clave: “no estoy inventando la historia, hay data”).
+
+Slide 8 — Mini-ejercicio (2 minutos)
+
+“Si sube la apertura pero cae el ToT, ¿puede empeorar el ingreso real?”
+(Levantar manos / 2 ejemplos: commodity exporter vs manufacturer)
+
+Bloque B — Historia por etapas, pero anclada en la serie (Slides 9–16)
+
+Slide 9 — Etapas (timeline) con “medida” asociada
+
+Para cada etapa poné un ícono de: rutas (mapa) + trade share (serie).
+Etapas:
+
+Ibérico-colonial
+
+Hegemonía UK / 1ª globalización
+
+1914–45 colapso
+
+1945–2008 hegemonía EEUU
+
+2008–hoy: slowbalization/disputa
+
+Slide 10 — Etapa 1: Mundo ibérico-colonial (XVI–XVIII)
+
+Mapa que va: Rutas ibéricas globales (España Atlántico/Pacífico + Portugal Índico).
+Mensaje de medición: “en esta etapa la medición comparable es limitada → usamos proxies (rutas, puertos, flujos de metales, convoyes)”.
+(Acá va el mapa que ya venías buscando.)
+
+Slide 11 — Etapa 1 (continuación): Carrera de Indias / Flota
+
+Mapa que va: Rutas de la Flota de Indias / hubs Caribe (La Habana–Veracruz–Cartagena/Portobelo).
+2 bullets integrados con medición:
+
+Comercio como monopolio regulado + fiscalidad (instituciones)
+
+Riesgo y costos de transporte → por eso convoyes (trade cost “alto”)
+
+Slide 12 — Etapa 1 (Pacífico): Galeón de Manila
+
+Mapa que va: Ruta Manila–Acapulco
+Mensaje: “globalización temprana” y primera conexión Asia–América–Europa.
+
+Slide 13 — Etapa 2: UK y 1ª globalización (XIX–1914)
+
+Mapa que va: Steamship routes (c. 1900–1914)
+Conexión con medición: en la serie larga, esta etapa es el gran ascenso del comercio relativo (primer gran pico previo a 1914). (Referís al Slide 5.)
+
+Slide 14 — Etapa 2 bis: UK y la infraestructura de información
+
+Mapa que va: cables/telegráfos (imperio informacional)
+Mensaje: caída de “costos de coordinación” → comercio más denso + finanzas/seguros.
+
+Slide 15 — Etapa 3: 1914–1945 colapso
+
+Mapa que va: Imperio Británico / Navy League Map (1922) o equivalente
+Ancla con serie: mostrar el quiebre: guerras + depresión + proteccionismo → caída del comercio relativo (volver al Slide 5).
+Mensaje: “se rompe la globalización”.
+
+Slide 16 — Etapa 4: 1945–2008 hegemonía EEUU + expansión
+
+Gráfico que va: trade share subiendo sostenidamente (parte moderna o la serie larga enfocada)
+Mensaje: institucionalidad (Bretton Woods/GATT) + reconstrucción + liberalización.
+Fuente para el tramo comparable moderno: World Bank/OWID.
+
+Slide 17 — Etapa 5: 2008–hoy slowbalization/disputa
+
+Gráfico que va: trade share se aplana + shocks
+Mensaje: tensiones, riesgos, reconfiguración de cadenas.
+(Si querés meter un dato simple sin entrar en “noticias”: se muestra el cambio de tendencia, no el minuto a minuto.)
+
+Bloque C — CGV y medición “moderna” (Slides 18–21)
+
+Slide 18 — “Hecho estilizado” moderno: comercio de intermedios y fragmentación
+
+Visual: esquema simple de producción fragmentada (componentes cruzan fronteras)
+Mensaje: el comercio ya no es “país produce bien final”, es “etapas”.
+
+Slide 19 — Comercio bruto vs valor agregado (por qué importa)
+
+Visual recomendado: diagrama “bruto vs VA” + ejemplo simple (un iPhone / un auto)
+Mensaje: exportar mucho ≠ capturar valor; cuidado con interpretar déficits/superávits.
+
+Slide 20 — Dónde medir CGV (para que quede serio)
+
+Bullet: “Para CGV usamos medición en valor agregado (TiVA) y matrices insumo-producto globales”
+Fuente/dataset (para nombrar en clase):
+
+OECD TiVA (si lo querés agregar como referencia formal)
+(Si querés, lo busco y te paso exactamente cuál tabla/indicador conviene para mostrar en 1 gráfico.)
+
+Slide 21 — Actividad integradora (10–12 min)
+
+Actividad: “Mapear una CGV en 6 casilleros”
+
+I+D/diseño – insumos – ensamble – logística – marketing – posventa
+
+Pregunta: ¿dónde se captura valor? ¿qué políticas moverían un país de casillero?
+
+Cierre (Slide 22)
+
+Slide 22 — Recap + puente a Clase 2
+
+Hoy: métricas + serie larga + mapas por etapas + CGV
+
+Próxima: teorías “mínimas” (Smith/Ricardo) para explicar el patrón observado
+
+Qué cambia vs tu deck anterior (para que se note el balance)
+
+Ahora tenés 6 slides de medición/series al inicio y como “columna vertebral”.
+
+La historia entra porque la serie larga cambia por etapas (no como relato aislado).
+
+Las CGV aparecen como “segunda capa de medición” (bruto vs valor agregado).
+
+Serie de largo plazo: cuál usar sí o sí
+
+Para Clase 1, la más práctica es:
+
+Our World in Data – trade as share of GDP / trade & globalization, porque trae un gráfico listo y compila estimaciones históricas. 
+Y si querés mencionar “respaldo académico”:
+
+Federico–Tena (1800–2016)
+
+Klasing & Milionis (1870–1949)
+
+Si querés que quede todavía más integrado, decime si vas a dar 2h o 2h30: con eso te ajusto el número de slides (22 es ideal para 2h–2h30) y te marco exactamente qué slides son “opcionales” si te quedás sin tiempo.
+
+world 1800 1938 FTWTHD 201710 v01
+
+No se puede cargar la visualización.
+
+Grafícame esta serie
+
+Pensado durante 27s
+
+Pensado durante 18s
+
+Listo. Te graficqué la serie del archivo FTWTHD (1800–1938) en dos variantes:
+
+Índice de comercio mundial (1913 = 100)
+
+Valores nominales (exportaciones, importaciones y total) en millones de US$, en escala log para que se vea bien todo el período.
+
+Descargar gráfico: índice 1913=100
+
+Descargar gráfico: comercio nominal (log)
+
+Cómo se aplica los indicadores planteados a partir de esta base de datos
+
+Pensado durante 38s
+
+Con esta base (FTWTHD, mundo 1800–1938) podés aplicar parte de los indicadores “mínimos” de clase 1, pero no todos, porque el archivo trae esencialmente exportaciones e importaciones mundiales en US$ corrientes (y un índice 1913=100), sin PIB, sin precios de exportación/importación, y sin cuenta corriente.
+
+Abajo te dejo, indicador por indicador, qué sí sale, qué no, y qué dato extra necesitarías.
+
+1) Balanza comercial (X − M) ✅ (sí, directo)
+
+Qué usás del archivo:
+
+World Exports (millones de US$ corrientes)
+
+World Imports (millones de US$ corrientes)
+
+Cálculo:
+
+Ojo importante (para contar en clase): a nivel “mundo” la balanza debería ser ~0 por identidad contable, pero en la práctica no da cero por diferencias de valuación (FOB vs CIF), cobertura y errores de medición.
+Ejemplo con tu base: en 1913 el mundo tiene millones US$ (no es “déficit del mundo”: es asimetría estadística).
+
+2) Apertura comercial ❌ (no sale solo con este archivo)
+
+Qué falta: el PIB mundial (en la misma moneda y base, idealmente US$ corrientes o una serie consistente).
+
+Qué tendrías que hacer:
+
+Conseguir una serie de World GDP (histórica; p.ej. Maddison Project u otra fuente larga).
+
+Unir por año.
+
+Calcular:
+
+Comentario didáctico: esta es la integración que te va a balancear la clase: la historia entra porque cambia la apertura por etapas (primera globalización, colapso, posguerra…).
+
+3) Términos del intercambio (ToT = Px/Pm) ❌ (no sale con este archivo)
+
+Qué falta: índices de precios de exportación (Px) y precios de importación (Pm).
+Tu archivo tiene valores nominales; no trae Px ni Pm.
+
+Opciones:
+
+Si querés ToT mundial, necesitás series globales de precios de exportación e importación (o deflactores apropiados).
+
+Si querés ToT por país (lo más habitual en cursos), necesitás series nacionales (Px, Pm) o proxies (precios de commodities vs manufacturas, etc.).
+
+4) Cuenta corriente (CA) ❌ (no sale con este archivo)
+
+La CA requiere además de comercio de bienes y servicios:
+
+rentas de factores (intereses, dividendos),
+
+transferencias,
+
+(y en versiones completas, servicios explícitos, etc.).
+
+Este dataset no tiene eso; es comercio (bienes) agregado.
+
+5) Qué indicadores “extra” sí podés sacar y usar mucho en Clase 1 ✅
+
+Aunque no sean de tu lista mínima, ayudan a integrar historia + medición:
+
+a) Comercio total (tamaño del comercio)
+
+(En tu base ya lo podés construir y graficar.)
+
+b) Tasas de crecimiento del comercio (por etapas)
+
+Esto te muestra clarísimo:
+
+aceleración s. XIX,
+
+quiebre 1914,
+
+colapso 1929–33,
+
+recuperación parcial 1930s.
+
+c) “Índice 1913=100” (serie sintética)
+
+Ese índice te sirve para narrar fases sin depender del nivel nominal (que mezcla precios + cantidades).
+(Ojo: conviene aclarar qué es exactamente el índice según la documentación del FTWTHD; en tu hoja se presenta junto a “current prices”, así que yo lo trataría como “índice sintético de comercio” y no afirmaría “volumen real” sin chequear).
+
+Cómo lo integraría en tu Clase 1 (2 slides de medición usando esta base)
+
+Slide: X, M y (X+M) 1800–1938 (log o normal + anotaciones: 1914, 1929, 1932).
+
+Slide: Índice 1913=100 (misma anotación de quiebres).
+
+Y dejás planteado: “para apertura necesito PIB mundial” (slide siguiente o nota al pie), así la clase queda balanceada y honesta con los datos.
+
+Si querés, te armo la apertura (X+M)/PIB también, pero para eso necesito que me digas qué serie de PIB mundial vas a usar (si ya la tenés en otro Excel, subila y la uno).
+
+Lo de comercio global está bien pero no estamos viendo hegemones
+
+Pensado durante 34s
+
+Tal cual: con “comercio mundial agregado” (mundo X y M) ves globalización y rupturas, pero no ves hegemonía, porque no hay “quién” dentro del total.
+
+Qué podés medir de hegemonía con ESTA base (la que graficamos)
+
+En tu Excel (hoja “WORLD TRADE (Oct 2017)”) tenés mundo y también continentes (África, América, Asia, Europa, Oceanía) para X y M. Con eso sí podés mostrar hegemonía a nivel regional, no por país:
+
+Participación regional en exportaciones/importaciones mundiales
+
+Esto te deja contar: “siglo XIX = Europa domina”, “entreguerras cambia”, etc. (pero Europa ≠ UK).
+
+Concentración “regional” (proxy de mundo más/menos hegemonizado)
+Por ejemplo un HHI sobre shares regionales:
+
+Más alto = comercio concentrado en pocas regiones (más “hegemonía”/centralización); más bajo = más disperso.
+
+👉 Limitación clave: con esta planilla no podés aislar UK, España o EEUU. Para “hegemonía” en sentido histórico (UK→EEUU) necesitás datos por país/polity.
+
+Lo correcto para “ver hegemones”: pasar a la misma base pero a nivel país
+
+La buena noticia: el proyecto Federico–Tena sí tiene series por polity (149 polities) 1800–1938, y se distribuye por país en su repositorio/dataverse.
+
+Con esas series por país, ahí sí armás los indicadores de hegemonía:
+
+1) Participación de cada hegemon en exportaciones mundiales
+
+y lo mismo para EEUU, Francia, Alemania, Países Bajos, España, etc.
+
+Slide sugerido: líneas 1800–1938 con el “Top 5” + UK destacado.
+
+2) Índice de concentración global (hegemonía vs multipolaridad)
+
+Con shares por país:
+
+Interpretación didáctica:
+
+HHI alto: sistema más concentrado (un “centro” muy fuerte).
+
+HHI bajo: más multipolar.
+
+3) Centralidad de red (si querés algo más “geopolítico”)
+
+Eso requiere bilateralidad (quién comercia con quién). Tu Excel no trae bilateral. Para 1900–1960 hay compilaciones históricas de “dirección de comercio” que te permiten aproximarlo (por grandes bloques/zonas), por ejemplo las tablas históricas de la ONU para 1900, 1913, 1928, 1935, 1938, etc.
+
+Y para el cambio UK→EEUU “post 1945”
+
+Tu archivo corta en 1938, o sea no llega al momento en que EEUU se consolida como hegemon comercial pleno (posguerra). Para esa parte necesitás empalmar con fuentes modernas (p.ej. Comtrade/DOTS) y mostrar “EEUU lidera posguerra” y luego “China sube desde 2000s”. (Lo podemos armar como “slide puente” con otra serie.)
+
+Qué te propongo para que la Clase 1 quede integrada (sin perder tu serie larga)
+
+Slide A (ya la tenés): Comercio mundial 1800–1938 (índice 1913=100).
+
+Slide B (nuevo, con tu Excel actual): shares por continente (Europa/América/Asia) 1800–1938.
+
+Slide C (nuevo, “hegemonía verdadera”): shares por país (UK, EEUU, etc.) usando los archivos por polity del dataverse Federico–Tena.
+
+Slide D (cierre): empalme post-1945 con EEUU y luego China (otra fuente).
+
+Si querés, subime (o bajamos) los archivos por país (UK, USA, España, Francia, Alemania; con 6 alcanza), y te grafico automáticamente (i) shares de exportaciones mundiales y (ii) HHI, que es el indicador más limpio para “hegemonía vs multipolaridad” en una clase.
+
+Te jode si te pido que me armes el ppt con todos los slide que vneimos discitiendo para esta clase? Indca (si se puede coloca) los mapas que van en cada uno?
+
+Thought for 30m 24s
+
+Listo — armé el PPT completo de la Clase 1 (21 slides), con más medición e integración historia ↔ indicadores, e incluyendo los mapas donde correspondía (Iberia, Galeón de Manila, rutas del tesoro, red imperial británica, rutas de vapor, cables submarinos).
+
+👉
+
+Clase1_Economia_Internacional.pptx
+
+Dónde están los mapas (rápido):
+
+Etapa ibérica: slides 11–13
+
+Hegemonía británica / redes: slides 15–17
+
+Dónde está la medición / indicadores (rápido):
+
+Series y descomposiciones: slides 5–9
+
+Cómo se calculan (aplicado a tu Excel): slide 10
+
+Ruptura 1914–45 integrada al índice: slide 18
+
+Si querés, en el próximo paso lo ajusto a tu estilo de cátedra (más “storytelling” o más “data first”), o le meto una lámina extra de “preguntas para discusión” por bloque.
+
+
+================================================================================
+TABLAS
+================================================================================
+
+--- Tabla 1 ---
+Bloque | Tiempo | Qué hacés | Qué buscan entender
+0 | 0–10 | Presentación del curso + “mapa” de las 7 unidades (1 diapositiva) | Qué preguntas va a responder la materia
+1 | 10–45 | Conceptos básicos con ejemplos rápidos | BC, apertura, ToT, cuenta corriente / TCR
+2 | 45–75 | Hechos estilizados posguerra → globalización → slowbalization | Qué cambió y por qué importa
+3 | 75–105 | Ascenso de Asia/China + geografía del comercio | Reacomodos, tensiones, hubs
+4 | 105–135 | Introducción a Cadenas Globales de Valor (CGV) + medición “en valor agregado” | Por qué exportar ≠ capturar valor

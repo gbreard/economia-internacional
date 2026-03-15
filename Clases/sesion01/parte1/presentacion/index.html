@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 1</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Economía Internacional — Clase 1 -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional — Clase 1
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      La evolución del comercio mundial
+    </div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: ¿Qué es la economía internacional? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      ¿Qué es la economía internacional?
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+        <li style="margin-bottom: 12px;">Estudia las relaciones económicas entre países</li>
+        <li style="margin-bottom: 12px;">Los flujos de bienes, servicios, capitales y personas que cruzan fronteras</li>
+        <li style="margin-bottom: 12px;">Las reglas e instituciones que los gobiernan</li>
+        <li style="margin-bottom: 12px;">El comercio es la manifestación más visible</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 3: La pregunta central del curso -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      La pregunta central del curso
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+        <li style="margin-bottom: 12px;">¿Cómo se inserta un país en la economía mundial?</li>
+        <li style="margin-bottom: 12px;">¿Qué consecuencias tiene eso para su desarrollo?</li>
+        <li style="margin-bottom: 12px;">Tres dimensiones: comercio, finanzas, producción</li>
+        <li style="margin-bottom: 12px;">Caso de estudio permanente: Argentina</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: El mapa del programa -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      El mapa del programa
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">20 clases, 7 unidades</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">**Primero** (Unidad 1): Qué pasó en la historia del comercio y cómo medirlo</li>
+        <li style="margin-bottom: 12px;">**Después** (Unidades 2-3): Por qué los países comercian — teorías clásicas y nuevas</li>
+        <li style="margin-bottom: 12px;">**Luego** (Unidad 4): Quién gana y quién pierde — la visión estructuralista</li>
+        <li style="margin-bottom: 12px;">**También** (Unidades 5-6): Quién organiza el comercio hoy y qué políticas hay</li>
+        <li style="margin-bottom: 12px;">**Finalmente** (Unidad 7): Dónde estamos hoy — crisis, guerra comercial, Argentina</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 5: ¿Cómo se evalúa? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      ¿Cómo se evalúa?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Evaluación continua + coloquio final</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">**Al final de cada unidad**: examen multiple choice en la plataforma</li>
+        <li style="margin-bottom: 12px;">Algunas preguntas requieren procesar datos (no es solo memorizar)</li>
+        <li style="margin-bottom: 12px;">**Para promocionar**: todas las evaluaciones con 7 o más</li>
+        <li style="margin-bottom: 12px;">Se pueden recuperar las evaluaciones que salieron mal</li>
+        <li style="margin-bottom: 12px;">**Coloquio final**: discusión grupal o individual sobre casos reales</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 6: Agenda: La evolución del comercio -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      Agenda: La evolución del comercio
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 15px;">Pregunta de hoy: ¿Cómo llegamos hasta acá?</li>
+        <li style="margin-bottom: 15px;">Marco analítico: Tecnología + Reglas + Poder</li>
+        <li style="margin-bottom: 15px;">Convergencia y divergencia: ¿quién creció y quién se quedó atrás?</li>
+        <li style="margin-bottom: 15px;">Las 5 etapas del comercio mundial (1500-2024)</li>
+        <li style="margin-bottom: 15px;">Cierre: anticipar los indicadores</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 7: Tecnología + Reglas + Poder -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Tecnología + Reglas + Poder
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El marco para entender cualquier período</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">TECNOLOGÍA: barcos, ferrocarril, telégrafo, containers, internet</li>
+        <li style="margin-bottom: 12px;">REGLAS: aranceles, tratados, moneda, instituciones (OMC, FMI)</li>
+        <li style="margin-bottom: 12px;">PODER: hegemonía, imperios, capacidad de imponer reglas</li>
+        <li style="margin-bottom: 12px;">Las tres deben alinearse para que el comercio florezca</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 8: Las 5 etapas: visión general -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Las 5 etapas: visión general
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">1. Economía-mundo ibérica (1500-1650): plata, especias, imperios</li>
+        <li style="margin-bottom: 12px;">2. Primera globalización (1800-1914): vapor, telégrafo, patrón oro</li>
+        <li style="margin-bottom: 12px;">3. Colapso (1914-1945): guerras, proteccionismo, depresión</li>
+        <li style="margin-bottom: 12px;">4. Bretton Woods (1945-1971): EEUU hegemón, tipos fijos, reconstrucción</li>
+        <li style="margin-bottom: 12px;">5. Globalización financiera (1980-hoy): containers, OMC, China</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 9: Convergencia, divergencia y comercio -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Convergencia, divergencia y comercio
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">¿Qué explica el crecimiento? ¿Tecnología o comercio?</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">PIB per cápita = proxy de desarrollo. ¿Por qué unos países crecen y otros no?</li>
+        <li style="margin-bottom: 12px;">Dos grandes explicaciones: cambio tecnológico (producir más/mejor) y apertura comercial (acceso a mercados, especialización)</li>
+        <li style="margin-bottom: 12px;">¿El comercio causa crecimiento o el crecimiento genera comercio?</li>
+        <li style="margin-bottom: 12px;">La evidencia: no hay respuesta única. Importa CÓMO te insertás, no solo SI te insertás</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 10: La Gran Divergencia -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      La Gran Divergencia
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/gran_divergencia_uk_china.png" alt="La Gran Divergencia"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Maddison Project Database 2020</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Año 1000: China y Europa tenían un PIB per cápita similar (~$1.100)</li>
+          <li style="margin-bottom: 8px;">Hasta 1800: diferencias pequeñas. China era una economía avanzada</li>
+          <li style="margin-bottom: 8px;">Revolución Industrial: UK se dispara. Comercio + tecnología + imperio</li>
+          <li style="margin-bottom: 8px;">Desde 1980: China converge aceleradamente (de $1.000 a $13.000 en 40 años)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: Trayectorias regionales -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Trayectorias regionales
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/trayectorias_regionales.png" alt="Trayectorias regionales"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Maddison Project Database 2020</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Europa Occidental: de $2.300 a $40.000 (x17 en 200 años)</li>
+          <li style="margin-bottom: 8px;">Asia Oriental: estancada hasta 1950, después convergencia acelerada</li>
+          <li style="margin-bottom: 8px;">América Latina: creció pero NO convergió. Siempre ~35% de Europa</li>
+          <li style="margin-bottom: 8px;">África Subsahariana: divergencia persistente. Hoy ~9% de Europa</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 12: Etapa 1: Economía-mundo ibérica (1500-1650) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Etapa 1: Economía-mundo ibérica (1500-1650)
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../img/rutas_ibericas.png" alt="Etapa 1: Economía-mundo ibérica (1500-1650)"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Mapas históricos</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">España y Portugal conectan 3 continentes</li>
+          <li style="margin-bottom: 8px;">Flujos: plata americana → Europa → Asia</li>
+          <li style="margin-bottom: 8px;">Especias, seda, porcelana de vuelta</li>
+          <li style="margin-bottom: 8px;">Tecnología: carabela. Reglas: monopolio real. Poder: imperios ibéricos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 13: El Galeón de Manila: primera ruta global -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El Galeón de Manila: primera ruta global
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../img/galeon_manila.png" alt="El Galeón de Manila: primera ruta global"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Ilustración histórica</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Acapulco → Manila → Acapulco (6 meses de viaje)</li>
+          <li style="margin-bottom: 8px;">Plata mexicana por seda y porcelana china</li>
+          <li style="margin-bottom: 8px;">Primera globalización real: conectó los 4 continentes</li>
+          <li style="margin-bottom: 8px;">Monopolio español hasta la independencia de México</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 14: Etapa 2: Primera globalización (1800-1914) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Etapa 2: Primera globalización (1800-1914)
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/indice_comercio.png" alt="Etapa 2: Primera globalización (1800-1914)"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Federico-Tena World Trade Historical Database</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Revolución del transporte: vapor, ferrocarril</li>
+          <li style="margin-bottom: 8px;">Revolución de la comunicación: telégrafo</li>
+          <li style="margin-bottom: 8px;">Patrón oro: una moneda mundial de facto</li>
+          <li style="margin-bottom: 8px;">Hegemonía británica: Pax Britannica</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 15: Las rutas de vapor conectan el mundo -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Las rutas de vapor conectan el mundo
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../img/vapor_randmcnally_1917.jpg" alt="Las rutas de vapor conectan el mundo"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Rand McNally, 1917 - Principales rutas de vapor mundiales</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">1840s: líneas regulares de vapor transatlánticas</li>
+          <li style="margin-bottom: 8px;">El costo del flete marítimo cae un 90% en el siglo XIX</li>
+          <li style="margin-bottom: 8px;">Las rutas conectan materias primas del Sur con fábricas del Norte</li>
+          <li style="margin-bottom: 8px;">Argentina, India, Australia: integradas al mercado mundial por el vapor</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 16: El telégrafo: la primera internet -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El telégrafo: la primera internet
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../img/cables_eastern_1901.png" alt="El telégrafo: la primera internet"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Eastern Telegraph Company, 1901</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">1866: primer cable transatlántico exitoso</li>
+          <li style="margin-bottom: 8px;">1870: Londres conectada con Bombay</li>
+          <li style="margin-bottom: 8px;">Precios se unifican: arbitraje instantáneo</li>
+          <li style="margin-bottom: 8px;">Las noticias viajan más rápido que los barcos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 17: Etapa 3: El gran colapso (1914-1945) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Etapa 3: El gran colapso (1914-1945)
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/indice_colapso.png" alt="Etapa 3: El gran colapso (1914-1945)"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Federico-Tena World Trade Historical Database</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">1914-1918: Primera Guerra Mundial</li>
+          <li style="margin-bottom: 8px;">1930: Arancel Smoot-Hawley, espiral proteccionista</li>
+          <li style="margin-bottom: 8px;">1931: Colapso del patrón oro</li>
+          <li style="margin-bottom: 8px;">1939-1945: Segunda Guerra Mundial</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 18: El poder detrás del comercio -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El poder detrás del comercio
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../img/navy_league_1922.jpg" alt="El poder detrás del comercio"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Navy League, 1922 - "Sea Power is World Power"</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Siglo XIX: Pax Britannica, Royal Navy</li>
+          <li style="margin-bottom: 8px;">1914-1945: Vacío hegemónico, colapso</li>
+          <li style="margin-bottom: 8px;">1945-1971: Pax Americana, Bretton Woods</li>
+          <li style="margin-bottom: 8px;">2020s: ¿Transición hegemónica? ¿Fragmentación?</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 19: Etapa 4: Bretton Woods (1945-1971) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Etapa 4: Bretton Woods (1945-1971)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">EEUU reconstruye el sistema</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">1944: Conferencia de Bretton Woods</li>
+        <li style="margin-bottom: 12px;">Dólar anclado al oro, otras monedas al dólar</li>
+        <li style="margin-bottom: 12px;">FMI, Banco Mundial, GATT</li>
+        <li style="margin-bottom: 12px;">Comercio crece pero con controles de capital</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 20: El comercio explota bajo Bretton Woods -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El comercio explota bajo Bretton Woods
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/comercio_posguerra.png" alt="El comercio explota bajo Bretton Woods"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: OMC — Evolución del comercio mundial de mercancías</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Las exportaciones se multiplican por 5 entre 1948 y 1970</li>
+          <li style="margin-bottom: 8px;">El GATT reduce aranceles ronda tras ronda</li>
+          <li style="margin-bottom: 8px;">Tipos de cambio fijos dan previsibilidad a exportadores</li>
+          <li style="margin-bottom: 8px;">La "edad dorada" del comercio mundial</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 21: Las rondas del GATT: reducción progresiva de aranceles -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Las rondas del GATT: reducción progresiva de aranceles
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/rondas_gatt.png" alt="Las rondas del GATT: reducción progresiva de aranceles"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: OMC, Bown &amp; Irwin (2015)</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">8 rondas de negociación entre 1947 y 1994</li>
+          <li style="margin-bottom: 8px;">Los aranceles bajan de 22% a 3.9%</li>
+          <li style="margin-bottom: 8px;">Cada ronda suma más países (de 23 a 123)</li>
+          <li style="margin-bottom: 8px;">La Ronda Kennedy (1964-67) fue la más ambiciosa del período BW</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 22: Los "Treinta Gloriosos": la edad dorada del capitalismo -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Los "Treinta Gloriosos": la edad dorada del capitalismo
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/treinta_gloriosos.png" alt="Los "Treinta Gloriosos": la edad dorada del capitalismo"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Maddison Project Database 2020</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Europa Occidental: 4.1% anual (recuperación + integración)</li>
+          <li style="margin-bottom: 8px;">Japón: 8.1% anual (el "milagro económico")</li>
+          <li style="margin-bottom: 8px;">América Latina: 2.5% anual (creció pero no convergió)</li>
+          <li style="margin-bottom: 8px;">Nunca antes ni después se creció tanto</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 23: El dilema de Triffin: la contradicción del sistema -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El dilema de Triffin: la contradicción del sistema
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/dilema_triffin.png" alt="El dilema de Triffin: la contradicción del sistema"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Federal Reserve, BIS</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">EEUU debía emitir dólares para dar liquidez al mundo</li>
+          <li style="margin-bottom: 8px;">Pero cuantos más dólares, menos confianza en su convertibilidad</li>
+          <li style="margin-bottom: 8px;">~1960: más dólares afuera que oro en la Reserva Federal</li>
+          <li style="margin-bottom: 8px;">Agosto 1971: Nixon "cierra la ventanilla del oro"</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 24: La paradoja de Bretton Woods -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      La paradoja de Bretton Woods
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/eeuu_pib_mundial.png" alt="La paradoja de Bretton Woods"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Maddison Project Database, Banco Mundial</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">1945: EEUU tiene el 50% del PIB mundial</li>
+          <li style="margin-bottom: 8px;">1970: baja al 27% — Europa y Japón recuperan terreno</li>
+          <li style="margin-bottom: 8px;">El sistema que EEUU diseñó permitió el "catching up" de otros</li>
+          <li style="margin-bottom: 8px;">Paradoja: el éxito de BW erosionó la hegemonía que lo sostenía</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 25: Etapa 5: Globalización financiera (1980-hoy) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Etapa 5: Globalización financiera (1980-hoy)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El mundo se achica (de nuevo)</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Desregulación financiera: capitales fluyen libremente</li>
+        <li style="margin-bottom: 12px;">Revolución logística: containers, just-in-time</li>
+        <li style="margin-bottom: 12px;">OMC (1995): reglas multilaterales</li>
+        <li style="margin-bottom: 12px;">China entra a la OMC (2001): la fábrica del mundo</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 26: Apertura comercial mundial: tres fases de la globalización -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Apertura comercial mundial: tres fases de la globalización
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/apertura_comercial_fases.png" alt="Apertura comercial mundial: tres fases de la globalización"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Banco Mundial, FMI — "Charting Globalization's Turn to Slowbalization" (2023)</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Globalización lenta (1960-1986): comercio crece al ritmo del PIB (+0.19 pp/año)</li>
+          <li style="margin-bottom: 8px;">Hiperglobalización (1986-2008): comercio crece el doble que el PIB (+0.52 pp/año)</li>
+          <li style="margin-bottom: 8px;">Slowbalization (2008-hoy): estancamiento, la globalización se frena (−0.04 pp/año)</li>
+          <li style="margin-bottom: 8px;">Eventos clave: Ronda Uruguay, China en OMC, crisis 2008, guerra comercial</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 27: El ascenso de China: de actor marginal a "fábrica del mundo" -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El ascenso de China: de actor marginal a "fábrica del mundo"
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/china_exportaciones.png" alt="El ascenso de China: de actor marginal a "fábrica del mundo""
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: OMC, UNCTAD</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">1980: China exportaba menos del 1% del total mundial</li>
+          <li style="margin-bottom: 8px;">2001: entra a la OMC → se dispara la curva</li>
+          <li style="margin-bottom: 8px;">2009: supera a EEUU como mayor exportador mundial</li>
+          <li style="margin-bottom: 8px;">Hoy: ~14-15% de las exportaciones mundiales de mercancías</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 28: La revolución tecnológica detrás de la globalización -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      La revolución tecnológica detrás de la globalización
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/costos_transporte_comunicacion.png" alt="La revolución tecnológica detrás de la globalización"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: Our World in Data, Bureau of Transportation Statistics (EEUU)</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Flete marítimo: −90% desde 1930 (container desde 1956)</li>
+          <li style="margin-bottom: 8px;">Transporte aéreo: −92% en el mismo período</li>
+          <li style="margin-bottom: 8px;">Telecomunicaciones: costo → prácticamente cero</li>
+          <li style="margin-bottom: 8px;">Sin esta caída de costos, las cadenas globales de valor serían imposibles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 29: Inversión Extranjera Directa: la globalización del capital -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Inversión Extranjera Directa: la globalización del capital
+    </h2>
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="../graficos/ied_global.png" alt="Inversión Extranjera Directa: la globalización del capital"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">Fuente: UNCTAD — World Investment Report</div>
+      </div>
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <ul style="font-size: 0.95rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">La IED global explota desde los 90s (pico de $1.720B en 2007)</li>
+          <li style="margin-bottom: 8px;">Países en desarrollo pasan de 20% a más del 50% de los flujos</li>
+          <li style="margin-bottom: 8px;">Crece con cada ola de globalización, se contrae con cada crisis</li>
+          <li style="margin-bottom: 8px;">Las empresas transnacionales son el vehículo de este proceso</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 30: Lo que vimos hoy -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lo que vimos hoy
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Marco T-R-P: Tecnología + Reglas + Poder explican cada etapa</li>
+        <li style="margin-bottom: 12px;">Convergencia y divergencia: no todos crecen igual (importa CÓMO te insertás)</li>
+        <li style="margin-bottom: 12px;">5 etapas: ibérica → 1ra globalización → colapso → Bretton Woods → globalización financiera</li>
+        <li style="margin-bottom: 12px;">Mensaje: el comercio crece cuando T+R+P se alinean; cuando falla alguno, colapsa</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 31: Después del recreo: los indicadores -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Después del recreo: los indicadores
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">¿Cómo medimos todo esto?</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Hasta acá vimos QUÉ pasó en la historia del comercio</li>
+        <li style="margin-bottom: 12px;">Después del recreo: CÓMO lo medimos</li>
+        <li style="margin-bottom: 12px;">9 indicadores para analizar la economía internacional</li>
+        <li style="margin-bottom: 12px;">Aplicación: Argentina y los desequilibrios globales</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 32: Material complementario -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Material complementario
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Videos y documentales recomendados</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">**Ray Dalio — "Principles for Dealing with the Changing World Order"** (YouTube, 43 min) — Ciclos hegemónicos: Holanda → UK → EEUU → ¿China? Mapea directamente las 5 etapas que vimos hoy</li>
+        <li style="margin-bottom: 12px;">**"Commanding Heights: The Battle for the World Economy"** (PBS, 2002, 3 episodios) — Ep.1: del mercantilismo a Bretton Woods. Ep.2-3: globalización y reformas</li>
+        <li style="margin-bottom: 12px;">**"The Ascent of Money"** (Niall Ferguson, 2008) — Historia financiera global: bonos, bolsas, seguros y la integración financiera</li>
+        <li style="margin-bottom: 12px;">**"American Factory"** (Netflix, 2019, Oscar mejor documental) — Fábrica china en Ohio: globalización, desindustrialización y choque cultural</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 33: ¿Preguntas? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.5rem; font-weight: 600;">
+      ¿Preguntas?
+    </h1>
+    <div style="color: #4B5563; font-size: 1.3rem; margin-top: 20px;">Economía Internacional | Clase 1</div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 1</span>
+  <span id="slide-counter">1 / 33</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') showSlide(current + 1);
+    else if (e.key === 'ArrowLeft') showSlide(current - 1);
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0);
+    else if (e.key === 'End') showSlide(slides.length - 1);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) showSlide(current + 1);
+      else showSlide(current - 1);
+    }
+  });
+</script>
+
+</body>
+</html>

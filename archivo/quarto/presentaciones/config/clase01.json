@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "titulo": "Economía Internacional",
+    "subtitulo": "Clase 1 — El comercio mundial: auge, colapso y preguntas abiertas",
+    "autor": "UMET - Licenciatura en Economía | 2026",
+    "footer": "Economía Internacional | UMET"
+  },
+  "carpetas": {
+    "graficos": "graficos",
+    "imagenes": "img"
+  },
+  "slides": [
+    {
+      "tipo": "portada"
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Apertura"
+    },
+    {
+      "tipo": "centrado",
+      "titulo": "Pregunta central de la clase",
+      "pregunta": "¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en apenas 30 años?",
+      "texto": "Esta pregunta organiza todo lo que veremos hoy:",
+      "lista": [
+        "Medir ese crecimiento y colapso con datos",
+        "Explicar qué fuerzas lo causaron",
+        "Conectar historia con números"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Objetivos de aprendizaje",
+      "subtitulo": "Al terminar esta clase vas a poder:",
+      "lista_numerada": [
+        "Usar **4 indicadores básicos** de comercio internacional",
+        "Describir las **grandes etapas históricas** (siglo XVI → siglo XX)",
+        "Aplicar un **marco analítico**: Tecnología + Reglas + Poder"
+      ]
+    },
+    {
+      "tipo": "texto_tabla",
+      "titulo": "Marco analítico: tres fuerzas",
+      "texto_intro": "Para explicar **cualquier período** del comercio, preguntamos:",
+      "tabla": {
+        "columnas": ["Fuerza", "Pregunta clave", "Ejemplos"],
+        "filas": [
+          ["**Tecnología**", "¿Cuánto cuesta mover bienes?", "Vela → vapor → contenedor"],
+          ["**Reglas**", "¿Quién puede comerciar?", "Monopolios, aranceles, OMC"],
+          ["**Poder**", "¿Quién garantiza estabilidad?", "Hegemonía, marina, moneda"]
+        ]
+      },
+      "destacado": {
+        "tipo": "warning",
+        "texto": "**Idea clave:** Las tres operan juntas. Si una falla, el sistema se quiebra."
+      }
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Indicadores"
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 1: Índice de comercio mundial",
+      "formula": "I_t = 100 \\times \\frac{Comercio_t}{Comercio_{1913}}",
+      "interpretacion": [
+        "El año base es **1913** (pico antes de la Primera Guerra)",
+        "Si $I_t = 50$ → el comercio es **la mitad** del de 1913",
+        "Si $I_t = 200$ → el comercio es el **doble** del de 1913"
+      ],
+      "nota": "¿Por qué usar un índice? Evita problemas de inflación y permite comparar períodos largos."
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Índice de comercio mundial (1800-1938)",
+      "imagen": "graficos/indice_comercio.png",
+      "fuente": "FTWTHD",
+      "columna_derecha": {
+        "secciones": [
+          {
+            "subtitulo": "Cómo leer el índice:",
+            "lista": [
+              "1913 = 100 (año base)",
+              "Valor 50 = mitad del comercio de 1913",
+              "Valor 200 = doble del de 1913"
+            ]
+          },
+          {
+            "subtitulo": "Puntos clave:",
+            "estilo_subtitulo": "italic",
+            "lista": [
+              "1800: 2.4 (casi nada)",
+              "1870: 25 (x10 en 70 años)",
+              "1913: 100 (pico)",
+              "1932: 95 (colapso -29%)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 2: Participación regional",
+      "formula": "s_{r,t} = \\frac{X_{r,t}}{X_{mundo,t}} \\times 100",
+      "donde": [
+        "$s_{r,t}$ = participación de la región $r$ en el año $t$ (en %)",
+        "$X_{r,t}$ = exportaciones de la región $r$",
+        "$X_{mundo,t}$ = exportaciones mundiales totales"
+      ],
+      "nota": "¿Qué nos dice? Quién comercia y cómo cambia la composición geográfica."
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Participación regional (1800-1938)",
+      "imagen": "graficos/participacion_regional.png",
+      "fuente": "FTWTHD",
+      "columna_derecha": {
+        "secciones": [
+          {
+            "subtitulo": "Cómo leerlo:",
+            "texto": "Cada línea = % del comercio mundial de esa región."
+          },
+          {
+            "subtitulo": "Datos clave:",
+            "estilo_subtitulo": "italic",
+            "lista": [
+              "Europa: 60-70% (domina)",
+              "Américas: 10-20%",
+              "Asia: 10-15%"
+            ]
+          },
+          {
+            "subtitulo": "Conclusión:",
+            "texto": "La \"globalización\" del siglo XIX era básicamente comercio europeo con el mundo."
+          }
+        ]
+      }
+    }
+  ]
+}

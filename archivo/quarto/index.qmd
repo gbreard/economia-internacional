@@ -1,0 +1,45 @@
+---
+title: "Economía Internacional"
+subtitle: "UMET - Licenciatura en Economía"
+---
+
+## Bienvenidos
+
+Este sitio contiene las presentaciones y materiales del curso de **Economía Internacional** de la Universidad Metropolitana para la Educación y el Trabajo (UMET).
+
+### Datos del curso
+
+| Aspecto | Detalle |
+|---------|---------|
+| Carrera | Licenciatura en Economía |
+| Carga horaria | 40 horas (20 clases de 2 horas) |
+| Duración | 10 semanas |
+| Correlativas | Microeconomía, Macroeconomía |
+
+### Enfoque pedagógico
+
+El curso combina:
+
+- Teoría **ortodoxa** (Smith, Ricardo, H-O, Krugman)
+- Visión **estructuralista latinoamericana** (Prebisch, CEPAL, Diamand)
+- Énfasis en **Argentina y América Latina**
+- Temas actuales: guerra comercial, slowbalization, transición energética
+
+### Navegación
+
+Usá el menú superior para acceder a las clases. Cada presentación es interactiva:
+
+- **Flechas** ← → para navegar
+- **Esc** para ver todas las slides
+- **F** para pantalla completa
+- **S** para notas del presentador
+
+### Bibliografía principal
+
+- Krugman, Obstfeld & Melitz - *Economía Internacional*
+- Lugones et al. - *Teorías del Comercio Internacional*
+- Porta (comp.) - *Integración Económica*
+
+---
+
+**Última actualización:** {{< meta date >}}

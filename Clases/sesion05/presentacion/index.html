@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 5</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true}]});"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    body.print-mode .prog-step { display: flex !important; }
+    body.print-mode .step-indicator { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+      .prog-step { display: flex !important; }
+      .step-indicator { display: none !important; }
+      .slide img, .slide ul { animation: none !important; }
+      [data-bi] { display: list-item !important; }
+    }
+    /* Transitions for graphic slides */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInSoft {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .slide.active img {
+      animation: fadeSlideUp 0.7s ease-out 0.15s both;
+    }
+    .slide.active ul {
+      animation: fadeInSoft 0.5s ease-out 0.3s both;
+    }
+    body.print-mode .slide img,
+    body.print-mode .slide ul { animation: none !important; opacity: 1 !important; }
+    body.print-mode [data-bi] { display: list-item !important; }
+    /* Two-column layout for dense slides */
+    .dos-columnas { column-count: 2; column-gap: 40px; }
+    .dos-columnas > li { break-inside: avoid; }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Economía Internacional — Clase 5 -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional — Clase 5
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      ¿Quién comercia, cómo y a qué precio?
+    </div>
+    <div style="color: #4B5563; font-size: 1.2rem; margin: 0 0 15px 0;">23 de abril de 2026</div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: Lo que sabemos... y lo que falta -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lo que sabemos... y lo que falta
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Clase 4 nos dio el marco. Hoy lo completamos.</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>Lo que sabemos</strong> (Clase 4 — Krugman):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Economías de escala + diferenciación → comercio intraindustrial entre países similares</li>
+<li style="margin-bottom: 4px;">El índice GL mide cuánto IIT hay (<span class="katex-inline">\(GL = 0\)</span> interindustrial, <span class="katex-inline">\(GL = 1\)</span> intraindustrial)</li>
+<li style="margin-bottom: 4px;">IIT horizontal (variedades) vs vertical (calidad). NGE y concentración territorial</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Lo que falta</strong> — las preguntas de hoy:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">¿Qué <strong>determina</strong> que el IIT sea alto o bajo entre dos países?</li>
+<li style="margin-bottom: 4px;">¿<strong>Dónde</strong> se produce un bien a lo largo de su vida?</li>
+<li style="margin-bottom: 4px;">¿Por qué solo <strong>algunas</strong> firmas exportan y la mayoría no?</li>
+<li style="margin-bottom: 4px;">Cuando una firma exporta más barato de lo que vende en casa... ¿eso es <strong>dumping</strong>?</li>
+</ul></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 3: Cuatro preguntas, una historia -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      Cuatro preguntas, una historia
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+<li style="margin-bottom: 15px;"><strong>¿Qué lo determina?</strong> — Por qué el IIT es alto entre ARG-BRA y bajo entre ARG-Nigeria</li>
+<li style="margin-bottom: 15px;"><strong>¿Dónde se produce?</strong> — Vernon: el producto viaja del innovador al imitador</li>
+<li style="margin-bottom: 15px;"><strong>¿Quién exporta?</strong> — Melitz: no todas las firmas son iguales, solo las mejores exportan</li>
+<li style="margin-bottom: 15px;"><em>Recreo</em></li>
+<li style="margin-bottom: 15px;"><strong>¿A qué precio?</strong> — Dumping: cuando el precio de exportación es "demasiado bajo"</li>
+<li style="margin-bottom: 15px;"><strong>¿Qué se comercia realmente?</strong> — Del comercio de bienes al comercio de tareas</li>
+<li style="margin-bottom: 15px;"><strong>Cierre</strong>: resumen U3 completa, evaluación, lecturas</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: Determinantes del comercio intraindustrial -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Determinantes del comercio intraindustrial
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">¿Por qué el IIT es alto entre algunos países y bajo entre otros?</div>
+    <ul class="dos-columnas" style="font-size: 1.05rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 8px;"><strong>Similitud de ingreso per cápita</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Consumidores con gustos parecidos demandan variedades comparables → más IIT horizontal</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Proximidad geográfica / integración</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Menores costos de transporte → más comercio de "ida y vuelta" viable</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Tamaño de mercado / escala</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Mercados grandes permiten más variedades con costos medios más bajos</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Participación de manufacturas</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">IIT es alto en bienes diferenciados, bajo en commodities</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Cadenas de valor / comercio de partes</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Fragmentación productiva → IIT con rasgos verticales</li>
+</ul></li>
+<li style="margin-bottom: 8px;">Idea fuerza: <strong><em>IIT crece con integración + escala + demanda de variedad</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 5: Argentina-Brasil: el IIT más alto de la región -->
+
+  <section class="slide" data-bullets="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Argentina-Brasil: el IIT más alto de la región
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/arg_bra_autos_2024.png" alt="Argentina-Brasil: el IIT más alto de la región"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: OEC / UN Comtrade, HS 87 (Vehículos), 2024</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: dos barras casi iguales — exportaciones (azul, USD 6.000 M) e importaciones (naranja, USD 5.110 M)
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Diferencia neta: solo USD 890 M (8% del total) → <strong>GL ≈ 0,92</strong> (callout verde)</li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>¿Por qué tan alto?</strong> Todos los determinantes operan juntos:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>Proximidad</strong> geográfica + <strong>integración</strong> institucional (PAM/Mercosur)</li>
+<li style="margin-bottom: 4px;"><strong>Mercado ampliado</strong> (45M + 215M = 260M consumidores)</li>
+<li style="margin-bottom: 4px;"><strong>Cadenas intrafirma</strong> (Toyota, VW, Stellantis con plantas en ambos países)</li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Tipo de IIT</strong>: horizontal (modelos/variedades) + vertical (autopartes de distinta complejidad)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: Raymond Vernon (1913-1999) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Raymond Vernon (1913-1999)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Harvard Business School — Comercio, inversión y multinacionales</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>Quién fue</strong>: economista estadounidense, profesor en Harvard Business School
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Asesor del Plan Marshall (posguerra) y del Departamento de Estado</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Paper clave</strong>: <em>"International Investment and International Trade in the Product Cycle"</em> (1966, QJE)</li>
+<li style="margin-bottom: 12px;"><strong>Observación central</strong>: las multinacionales no solo comercian bienes, también <strong>mueven la producción</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Rompió con la tradición: el patrón de comercio <strong>cambia</strong> con el tiempo, no es estático</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Cita</strong>: <em>"La localización de la producción no es un dato fijo: es una función del ciclo de vida del producto"</em></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 7: El producto viaja: innovación → maduración → estandarización -->
+
+  <section class="slide" data-bullets="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      El producto viaja: innovación → maduración → estandarización
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/vernon_ciclo_producto.png" alt="El producto viaja: innovación → maduración → estandarización"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Basado en Vernon (1966), adaptación propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: tres fases de izquierda a derecha siguiendo el eje del <strong>tiempo</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Cada caja indica dónde se produce (abajo) y qué caracteriza la fase (adentro)</li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Fase 1 — Producto nuevo</strong> (azul, EEUU):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Requiere I+D, mano de obra calificada, cercanía al mercado. Se exporta a países ricos</li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Fase 2 — Producto maduro</strong> (naranja, Europa/Japón):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">La demanda crece afuera. Las firmas invierten allá (IED). El innovador empieza a importar</li>
+</ul></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Fase 3 — Estandarizado</strong> (rojo, países en desarrollo):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Producción migra a países de bajos costos. El bien se vuelve commodity. El innovador importa lo que inventó</li>
+</ul></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: Crítica y actualización del modelo de Vernon -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Crítica y actualización del modelo de Vernon
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Útil pero incompleto</div>
+    <ul class="dos-columnas" style="font-size: 1.05rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 8px;"><strong>Lo que sigue vigente</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">La producción se mueve geográficamente con el tiempo</li>
+<li style="margin-bottom: 4px;">La conexión entre comercio e IED</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Lo que cambió</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Ya no hay un único país innovador (China, Corea, India innovan)</li>
+<li style="margin-bottom: 4px;">Los ciclos se acortaron dramáticamente (de décadas a años)</li>
+<li style="margin-bottom: 4px;">Las CGV fragmentan la producción: un producto puede estar en las 3 fases <em>simultáneamente</em></li>
+<li style="margin-bottom: 4px;">La innovación puede ocurrir en países de "bajos costos" (apps en India, drones en China)</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Lugones</strong>: <em>"El esquema no se corresponde con la realidad actual"</em> — pero valora la ruptura con el enfoque estático</li>
+<li style="margin-bottom: 8px;"><strong>La pregunta que queda</strong>: Vernon pensó en <strong>productos</strong> que viajan. Pero ¿quién decide mover la producción? Las <strong>firmas</strong>. Y no todas son iguales...</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 9: Si el comercio es tan beneficioso... ¿por qué tan pocas firmas exportan? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Si el comercio es tan beneficioso... ¿por qué tan pocas firmas exportan?
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+<li style="margin-bottom: 12px;"><strong>El dato</strong>: en EEUU, solo el <strong>18%</strong> de las empresas manufactureras exporta (2002)</li>
+<li style="margin-bottom: 12px;"><strong>Las exportadoras son muy diferentes</strong> del resto:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>2 veces más grandes</strong> que las no exportadoras</li>
+<li style="margin-bottom: 4px;">Producen <strong>11% más de valor añadido</strong> por trabajador</li>
+<li style="margin-bottom: 4px;">Pagan <strong>mejores salarios</strong></li>
+</ul></li>
+<li style="margin-bottom: 12px;">Este patrón se repite en <strong>todos los países</strong> estudiados (Europa, América Latina, Asia)</li>
+<li style="margin-bottom: 12px;"><strong><em>Si el comercio es tan beneficioso... ¿por qué el 82% no participa?</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 10: Marc Melitz (1968-) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Marc Melitz (1968-)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Harvard — Firmas heterogéneas y comercio internacional</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>Quién es</strong>: economista franco-estadounidense, nacido en París
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">PhD en Michigan, profesor en Harvard desde 2010</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Paper clave</strong>: <em>"The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity"</em> (2003, Econometrica)
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Uno de los papers más citados en economía internacional del siglo XXI</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Dato</strong>: <strong>coautor del manual de Krugman</strong> desde la 9na edición (el que usan en este curso)</li>
+<li style="margin-bottom: 12px;"><strong>Contribución central</strong>: no todas las firmas son iguales → la apertura <strong>selecciona</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Las mejores crecen, las peores salen</li>
+</ul></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 11: El mecanismo de selección de Melitz -->
+
+  <section class="slide" data-bullets="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      El mecanismo de selección de Melitz
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/melitz_seleccion.png" alt="El mecanismo de selección de Melitz"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Basado en Melitz (2003) y Krugman Cap 8</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: la curva muestra la distribución de firmas por coste marginal (<span class="katex-inline">\(c_i\)</span>)
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Eje X: coste marginal (más a la derecha = menos productiva). Dos líneas verticales marcan los <strong>umbrales</strong></li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Tres zonas de color</strong> — tres destinos para firmas del mismo sector:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>Verde</strong> (izquierda, <span class="katex-inline">\(c_i &lt; c^* - t\)</span>): firmas que <strong>exportan</strong> — las más productivas</li>
+<li style="margin-bottom: 4px;"><strong>Naranja</strong> (medio, entre los dos umbrales): firmas que <strong>venden localmente</strong> — sobreviven pero no exportan</li>
+<li style="margin-bottom: 4px;"><strong>Rojo</strong> (derecha, <span class="katex-inline">\(c_i &gt; c^*\)</span>): firmas que <strong>cierran</strong> — no cubren costos fijos</li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Clave</strong>: exportar tiene un coste adicional <span class="katex-inline">\(t\)</span> → solo las firmas con <span class="katex-inline">\(c_i + t &lt; c^*\)</span> pueden exportar rentablemente</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 12: Apertura = selección: las mejores crecen, las peores salen -->
+
+  <section class="slide" data-bullets="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Apertura = selección: las mejores crecen, las peores salen
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/melitz_apertura.png" alt="Apertura = selección: las mejores crecen, las peores salen"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Basado en Krugman Cap 8, Figura 8.7</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: dos paneles — <em>antes</em> de la apertura (izquierda) y <em>después</em> (derecha)
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Notar cómo el umbral <span class="katex-inline">\(c^*\)</span> se mueve a la izquierda → se vuelve <strong>más exigente</strong></li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Antes</strong>: todas las firmas que sobreviven venden localmente. Solo hay una zona (azul)</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Después</strong> — aparecen tres zonas (como en el slide anterior):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Las más productivas <strong>ganan cuota y exportan</strong> (verde, "Exportan — crecen")</li>
+<li style="margin-bottom: 4px;">Las intermedias venden solo local con márgenes más bajos (naranja)</li>
+<li style="margin-bottom: 4px;">Más firmas <strong>salen del mercado</strong> — el umbral subió (rojo expandido, "Salen — más")</li>
+</ul></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Efecto neto</strong>: sube la <strong>productividad promedio</strong> de la industria (reasignación hacia las mejores)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 13: Cómo evolucionó la teoría del comercio -->
+
+  <section class="slide" data-bullets="5" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Cómo evolucionó la teoría del comercio
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/evolucion_teorias.png" alt="Cómo evolucionó la teoría del comercio"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Basado en Bernard, Jensen, Redding &amp; Schott (2007), JEP</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: tres columnas (azul → naranja → verde) con cuatro filas comparativas
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Leer de izquierda a derecha: cada teoría <strong>agrega una capa</strong> de realismo</li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Teoría clásica</strong> (Ricardo/H-O):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Fuente de comercio: diferencias entre países. Firmas: idénticas dentro del sector</li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Nueva teoría</strong> (Krugman 1980):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Fuente de comercio: economías de escala + diferenciación. Firmas: idénticas (simétricas)</li>
+</ul></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Firmas heterogéneas</strong> (Melitz 2003):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Fuente de comercio: diferencias de productividad entre firmas. Firmas: heterogéneas (distintos costes)</li>
+</ul></li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;">Las teorías <strong>no se reemplazan</strong>: el comercio real combina los tres mecanismos simultáneamente</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 14: Dumping = precio de exportación &lt; "valor normal" -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Dumping = precio de exportación &lt; "valor normal"
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">No todo precio bajo es dumping</div>
+    <ul class="dos-columnas" style="font-size: 1.05rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 8px;"><strong>Definición</strong>: una firma vende en el exterior a un precio inferior al "valor normal"</li>
+<li style="margin-bottom: 8px;"><strong>¿Qué es "valor normal"?</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Precio en el mercado interno del exportador</li>
+<li style="margin-bottom: 4px;">Precio a terceros mercados (referencia alternativa)</li>
+<li style="margin-bottom: 4px;">Costo de producción + margen razonable</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>No confundir</strong> dumping con:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Menores costos / mayor productividad</li>
+<li style="margin-bottom: 4px;">Tipo de cambio depreciado</li>
+<li style="margin-bottom: 4px;">Rebajas puntuales o liquidación de stock</li>
+<li style="margin-bottom: 4px;">Diferencias de calidad</li>
+</ul></li>
+<li style="margin-bottom: 8px;">Frase clave: <strong><em>Precio bajo puede ser competitividad. Dumping es discriminación de precios entre mercados, sostenida por segmentación y poder de mercado</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 15: La tríada del dumping -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      La tríada del dumping
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Tres condiciones necesarias — todas conectan con lo que ya vimos</div>
+    <ul class="dos-columnas" style="font-size: 1.05rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 8px;"><strong>1. Poder de mercado</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">La firma puede fijar precios (competencia imperfecta)</li>
+<li style="margin-bottom: 4px;">En competencia perfecta, <span class="katex-inline">\(P = CMg\)</span> y no hay margen para discriminar</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>2. Mercados segmentados</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">No hay arbitraje fácil entre mercados</li>
+<li style="margin-bottom: 4px;">Fuentes: costos de transporte, regulaciones sanitarias/técnicas, aranceles, distribución exclusiva</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>3. Elasticidades distintas</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">La demanda responde diferente en cada mercado</li>
+<li style="margin-bottom: 4px;">La firma cobra más donde la demanda es inelástica (mercado interno) y menos donde es elástica (exportación)</li>
+</ul></li>
+<li style="margin-bottom: 8px;">Si falta alguna de las tres → <strong>no hay dumping sostenible</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 16: El dumping como resultado "natural" -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      El dumping como resultado "natural"
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Krugman Cap 8: cuando el dumping surge del modelo</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>En el modelo de Melitz</strong>, una firma exportadora fija:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Precio doméstico: <span class="katex-inline">\(P^D_1 = c_1 + \text{margen}\)</span></li>
+<li style="margin-bottom: 4px;">Precio de exportación: <span class="katex-inline">\(P^X_1 = (c_1 + t)\)</span> — menor al doméstico</li>
+<li style="margin-bottom: 4px;">Como <span class="katex-inline">\(P^X &lt; P^D\)</span> → esto <strong>es</strong> dumping por definición</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Pero</strong>: surge <strong>naturalmente</strong> de la estructura de mercado
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">La empresa no se comporta distinto de sus competidoras locales en el destino</li>
+<li style="margin-bottom: 4px;">Es el resultado lógico de competencia monopolística + costes del comercio</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Implicancia</strong>: buena parte del dumping es un artefacto del modelo, no conducta predatoria</li>
+<li style="margin-bottom: 12px;"><strong><em>¿Tiene sentido penalizar una conducta que surge naturalmente del modelo?</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 17: Mismo síntoma, causas distintas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Mismo síntoma, causas distintas
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El mecanismo importa para la respuesta de política</div>
+    <ul class="dos-columnas" style="font-size: 1.05rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 8px;"><strong>1. Predatorio</strong> (empresa):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Entra muy barato → expulsa competidores → luego sube precio</li>
+<li style="margin-bottom: 4px;">El más nocivo, pero el más difícil de probar</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>2. Persistente / discriminación</strong> (empresa):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Precios distintos de forma estable por segmentación + elasticidades</li>
+<li style="margin-bottom: 4px;">"Natural" en competencia monopolística</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>3. Cíclico / exceso de capacidad</strong> (industria):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Exporta barato para sostener producción en períodos de recesión. Temporal</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>4. Apoyo estatal</strong> (Estado + empresa):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Precio bajo por subsidios, crédito dirigido, energía subsidiada, TC administrado</li>
+<li style="margin-bottom: 4px;">Caso China. Jurídicamente: muchas veces es "subsidio" → herramienta distinta (CVD)</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong><em>Mismo síntoma (precio bajo), causas distintas → respuestas de política distintas</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 18: Efectos económicos: corto plazo vs largo plazo -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Efectos económicos: corto plazo vs largo plazo
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El dilema de política</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>Corto plazo</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Consumidores del país importador: <strong>ganan</strong> (precio baja, más variedad)</li>
+<li style="margin-bottom: 4px;">Productores locales: <strong>pierden</strong> (caen ventas y márgenes)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Largo plazo (riesgos)</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Salida de productores → pérdida de <strong>capacidad productiva</strong> (difícil de recuperar)</li>
+<li style="margin-bottom: 4px;">Empleo: caída directa + <strong>efectos en cadena</strong> (proveedores, servicios, logística)</li>
+<li style="margin-bottom: 4px;">Si hay predación: menor competencia futura → posible <strong>suba de precios</strong></li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>El dilema</strong>: proteger productores/empleo vs sostener precios bajos para consumidores</li>
+<li style="margin-bottom: 12px;">La respuesta depende del <strong>mecanismo</strong> (predatorio vs persistente vs cíclico)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 19: ¿Qué puede hacer el Estado? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      ¿Qué puede hacer el Estado?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El instrumento depende del diagnóstico</div>
+    <ul class="dos-columnas" style="font-size: 1.05rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 8px;"><strong>Antidumping (AD)</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Se aplica cuando se prueba: dumping + daño + nexo causal</li>
+<li style="margin-bottom: 4px;">Instrumento: arancel adicional que compensa el margen de dumping</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Derechos compensatorios (CVD)</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Se aplica cuando el problema es <strong>subsidio</strong> del país exportador</li>
+<li style="margin-bottom: 4px;">Instrumento: arancel que neutraliza el beneficio del subsidio</li>
+</ul></li>
+<li style="margin-bottom: 8px;"><strong>Salvaguardias</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Ante aumento <strong>súbito</strong> de importaciones que causa daño serio</li>
+<li style="margin-bottom: 4px;">No requiere probar dumping ni subsidio. Instrumento: restricción/recargo temporal</li>
+</ul></li>
+<li style="margin-bottom: 8px;">Clave: <strong><em>mecanismo distinto → herramienta distinta</em></strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 20: ¿Qué instrumento usar? -->
+
+  <section class="slide" data-bullets="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      ¿Qué instrumento usar?
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/dumping_arbol.png" alt="¿Qué instrumento usar?"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: árbol de decisión que empieza por el <strong>síntoma</strong> (caja azul oscura, arriba)
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Las flechas Sí/No conducen a distintas ramas y desenlaces</li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Rama izquierda</strong> (hay dumping):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">¿Precio exportación &lt; valor normal? → Sí → ¿Hay daño + nexo causal?</li>
+<li style="margin-bottom: 4px;">Sí: <strong>Antidumping</strong> (caja verde) / No: no corresponde</li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Rama derecha</strong> (no hay dumping pero hay problema):
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">¿La causa es subsidio estatal? → Sí: <strong>CVD</strong> (caja naranja)</li>
+<li style="margin-bottom: 4px;">¿Aumento súbito + daño serio? → Sí: <strong>Salvaguardia</strong> (caja celeste)</li>
+</ul></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;">Idea fuerza: <strong><em>primero diagnóstico, después instrumento</em></strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 21: Mini caso: Sector X del país A (datos estilizados) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Mini caso: Sector X del país A (datos estilizados)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Diagnóstico con el árbol de decisión</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;">Importaciones: <strong>+60%</strong> (en volumen, 2023-2024)</li>
+<li style="margin-bottom: 12px;">Precio importado: <strong>-25%</strong></li>
+<li style="margin-bottom: 12px;">Participación importada en mercado interno: <strong>15% → 35%</strong></li>
+<li style="margin-bottom: 12px;">Producción local: <strong>-20%</strong></li>
+<li style="margin-bottom: 12px;">Utilización de capacidad: <strong>75% → 55%</strong></li>
+<li style="margin-bottom: 12px;">Empleo sectorial: <strong>-10%</strong></li>
+<li style="margin-bottom: 12px;">Rentabilidad: cae fuerte, pasa a <strong>negativa</strong></li>
+<li style="margin-bottom: 12px;"><strong>Preguntas</strong>: (1) ¿Hay daño? (2) ¿Hay indicios de nexo causal? (3) ¿Qué información falta para elegir AD, CVD o salvaguardia?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 22: Trading Tasks — El comercio de tareas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Trading Tasks — El comercio de tareas
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Grossman &amp; Rossi-Hansberg (2008), AER</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>De Melitz a Grossman &amp; Rossi-Hansberg</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Melitz: la firma decide <strong>si</strong> exportar → basado en productividad vs costes del comercio</li>
+<li style="margin-bottom: 4px;">G&amp;RH: la firma decide <strong>qué tareas</strong> hacer internamente y cuáles enviar al exterior (offshoring)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Cambio de perspectiva</strong>: no se comercian bienes finales, se comercian <strong>tareas</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Diseño, ensamblaje, logística, atención al cliente, contabilidad...</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>¿Qué tareas se offshoreean?</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Las <strong>rutinarias y codificables</strong> → más fáciles de enviar al exterior</li>
+<li style="margin-bottom: 4px;">Las que requieren <strong>interacción, creatividad o presencia física</strong> → tienden a quedarse</li>
+<li style="margin-bottom: 4px;">Determinantes: costos de comunicación/coordinación + naturaleza de la tarea</li>
+</ul></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 23: El enfoque de tareas — Una nueva forma de pensar -->
+
+  <section class="slide" data-bullets="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      El enfoque de tareas — Una nueva forma de pensar
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/comercio_tareas.png" alt="El enfoque de tareas — Una nueva forma de pensar"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Basado en Grossman &amp; Rossi-Hansberg (2008) y Acemoglu &amp; Autor (2011)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>En el gráfico</strong>: tres niveles de arriba a abajo
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>Arriba</strong>: el bien final (caja azul oscura)</li>
+<li style="margin-bottom: 4px;"><strong>Medio</strong>: se descompone en 5 tareas (diseño, componentes, ensamblaje, logística, marketing)</li>
+<li style="margin-bottom: 4px;"><strong>Abajo</strong>: para cada tarea, tres opciones → <strong>trabajador local</strong> / <strong>trabajador extranjero</strong> / <strong>máquina-IA</strong></li>
+</ul></li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>¿Qué determina la asignación?</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>Costos relativos</strong> + costos de coordinación + naturaleza de la tarea</li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Acemoglu &amp; Autor</strong> (2011): este enfoque unifica comercio + cambio tecnológico + mercado de trabajo
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Anticipos para Unidades 5 y 7: CGV, outsourcing, automatización, IA</li>
+</ul></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong><em>La tarea es la unidad de análisis del siglo XXI</em></strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 24: De los países a las firmas, de los bienes a las tareas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      De los países a las firmas, de los bienes a las tareas
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El recorrido de la Unidad 3</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>Clase 4</strong> (Krugman): economías de escala + diferenciación → IIT. GL, IIT H/V, NGE</li>
+<li style="margin-bottom: 12px;"><strong>Clase 5</strong> — cuatro preguntas encadenadas:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>¿Qué lo determina?</strong> → similitud, proximidad, escala, integración. Caso ARG-BRA</li>
+<li style="margin-bottom: 4px;"><strong>¿Dónde se produce?</strong> → Vernon: el producto viaja del innovador al imitador</li>
+<li style="margin-bottom: 4px;"><strong>¿Quién exporta?</strong> → Melitz: solo las mejores firmas, selección darwiniana</li>
+<li style="margin-bottom: 4px;"><strong>¿A qué precio?</strong> → Dumping como resultado natural de la competencia monopolística</li>
+<li style="margin-bottom: 4px;"><strong>¿Qué se comercia?</strong> → No bienes: tareas (Grossman &amp; Rossi-Hansberg, Acemoglu &amp; Autor)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Hilo conductor</strong>: de un mundo de <strong>países y sectores</strong> (Ricardo, H-O) a un mundo de <strong>firmas y tareas</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 25: Evaluación Unidad 3 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Evaluación Unidad 3
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Se abre hoy, deadline 30 de abril</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>5 preguntas multiple choice</strong> en la plataforma</li>
+<li style="margin-bottom: 12px;">3 conceptuales + 2 con procesamiento de datos</li>
+<li style="margin-bottom: 12px;">Cubre <strong>Clases 4 y 5</strong>: Krugman, IIT, GL, NGE, Vernon, Melitz, dumping</li>
+<li style="margin-bottom: 12px;">Se abre al terminar esta clase</li>
+<li style="margin-bottom: 12px;">Deadline: <strong>miércoles 30 de abril</strong> (1 semana)</li>
+<li style="margin-bottom: 12px;">Parcial 1 = promedio evaluaciones U1 + U2 + U3</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 26: Material complementario -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Material complementario
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Para profundizar</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;">🎬 <strong>DW Documental</strong> — "Made in China: el ascenso de un gigante industrial" (42 min, español) — ciclo del producto en acción</li>
+<li style="margin-bottom: 12px;">📺 <strong>MRU (Marginal Revolution University)</strong> — "Why Do Some Firms Export?" (8 min, inglés) — modelo de Melitz simplificado</li>
+<li style="margin-bottom: 12px;">📺 <strong>Khan Academy</strong> — "Dumping and Anti-dumping Duties" (12 min, inglés) — definición y ejemplos</li>
+<li style="margin-bottom: 12px;">🎬 <strong>Netflix</strong> — "American Factory" (110 min) — firma china Fuyao en EEUU, choque de culturas productivas, IED y offshoring</li>
+<li style="margin-bottom: 12px;">📺 <strong>TED-Ed</strong> — "What is the Product Life Cycle?" (5 min, inglés) — ciclo del producto animado</li>
+<li style="margin-bottom: 12px;">🎬 <strong>DW Documental</strong> — "Juego sin límites: La mentira del libre comercio" (42 min, español) — dumping, subsidios y defensa comercial</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 27: Lecturas — Unidad 3 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lecturas — Unidad 3
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Obligatorias y complementarias</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;"><strong>Obligatorias</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Lugones, G. et al. — <em>Teorías del Comercio Internacional</em>, Cap. 2.1 (pp. 31-40): rendimientos crecientes y competencia imperfecta</li>
+<li style="margin-bottom: 4px;">Krugman, Obstfeld &amp; Melitz (9a ed.) — Caps. 7 y 8: economías de escala, competencia monopolística, firmas heterogéneas, dumping</li>
+<li style="margin-bottom: 4px;">Lucángeli, J. (2007) — "La especialización intraindustrial en el MERCOSUR", CEPAL</li>
+<li style="margin-bottom: 4px;">Bernard, Jensen, Redding &amp; Schott (2007) — "Firms in International Trade", JEP</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Complementarias</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;">Steinberg, F. (2004) — <em>La nueva teoría del comercio internacional y la política comercial estratégica</em></li>
+<li style="margin-bottom: 4px;">Durán Lima &amp; Álvarez (2008) — "Indicadores de comercio exterior y política comercial", CEPAL</li>
+</ul></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 28: Guía de lectura — Unidad 3 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Guía de lectura — Unidad 3
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Preguntas orientadoras para la bibliografía</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;">¿Por qué el modelo de Krugman predice comercio entre países <strong>similares</strong> y no solo entre diferentes?</li>
+<li style="margin-bottom: 12px;">¿Qué mide el índice de Grubel-Lloyd y cómo se interpreta un GL cercano a 0 vs cercano a 1?</li>
+<li style="margin-bottom: 12px;">¿Cuál es la diferencia entre IIT <strong>horizontal</strong> (variedades) e IIT <strong>vertical</strong> (calidad)?</li>
+<li style="margin-bottom: 12px;">Según Melitz, ¿por qué solo una <strong>minoría</strong> de firmas exporta? ¿Qué las distingue?</li>
+<li style="margin-bottom: 12px;">¿Qué predice el modelo de Melitz sobre los efectos de la <strong>apertura</strong> en la productividad de la industria?</li>
+<li style="margin-bottom: 12px;">¿Cuál es la diferencia entre <strong>dumping</strong>, <strong>subsidio</strong> y <strong>competencia legítima por costos</strong>?</li>
+<li style="margin-bottom: 12px;">¿Qué tres condiciones necesita el dumping para existir?</li>
+<li style="margin-bottom: 12px;">¿Cómo conecta el enfoque de <strong>comercio de tareas</strong> (Grossman &amp; Rossi-Hansberg) con las cadenas globales de valor?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 29: Próxima clase: Unidad 4 — Prebisch y el estructuralismo -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Próxima clase: Unidad 4 — Prebisch y el estructuralismo
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Clase 6, jueves 30 de abril</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+<li style="margin-bottom: 12px;">Cambiamos de perspectiva: de las "nuevas teorías" al enfoque <strong>estructuralista latinoamericano</strong></li>
+<li style="margin-bottom: 12px;"><strong>Prebisch</strong>: la tesis del deterioro de los términos de intercambio</li>
+<li style="margin-bottom: 12px;"><strong>Centro-periferia</strong>: ¿por qué el comercio puede ser <strong>desigual</strong>?</li>
+<li style="margin-bottom: 12px;"><strong>CEPAL</strong> e industrialización por sustitución de importaciones (ISI)</li>
+<li style="margin-bottom: 12px;">Pregunta guía: <strong><em>¿Quién gana y quién pierde con el comercio internacional?</em></strong></li>
+<li style="margin-bottom: 12px;">Lecturas: Lugones caps 2.2-2.3, Prebisch (1950), Diamand (1972)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 30: ¿Preguntas? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.5rem; font-weight: 600;">
+      ¿Preguntas?
+    </h1>
+    <div style="color: #4B5563; font-size: 1.3rem; margin-top: 20px;">Economía Internacional | Clase 5</div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 5</span>
+  <span id="slide-counter">1 / 30</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let currentStep = 0;
+  let currentBullet = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function getTotalSteps(idx) {
+    const attr = slides[idx].getAttribute('data-steps');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showStep(slideIdx, stepIdx) {
+    const steps = slides[slideIdx].querySelectorAll('.prog-step');
+    if (steps.length === 0) return;
+    steps.forEach((s, i) => {
+      s.style.display = i === stepIdx ? 'flex' : 'none';
+    });
+    const cur = slides[slideIdx].querySelector('.step-current');
+    if (cur) cur.textContent = stepIdx + 1;
+  }
+
+  function getTotalBullets(idx) {
+    const attr = slides[idx].getAttribute('data-bullets');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showBullets(slideIdx, upTo) {
+    const bullets = slides[slideIdx].querySelectorAll('[data-bi]');
+    bullets.forEach((b, i) => {
+      b.style.display = i <= upTo ? '' : 'none';
+    });
+  }
+
+  function showSlide(n, fromEnd) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0) {
+      currentStep = fromEnd ? totalSteps - 1 : 0;
+      showStep(current, currentStep);
+    } else {
+      currentStep = 0;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0) {
+      currentBullet = fromEnd ? totalBullets - 1 : 0;
+      showBullets(current, currentBullet);
+    } else {
+      currentBullet = 0;
+    }
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function advance() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep < totalSteps - 1) {
+      currentStep++;
+      showStep(current, currentStep);
+      return;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0 && currentBullet < totalBullets - 1) {
+      currentBullet++;
+      showBullets(current, currentBullet);
+      return;
+    }
+    showSlide(current + 1, false);
+  }
+
+  function goBack() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep > 0) {
+      currentStep--;
+      showStep(current, currentStep);
+      return;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0 && currentBullet > 0) {
+      currentBullet--;
+      showBullets(current, currentBullet);
+      return;
+    }
+    showSlide(current - 1, true);
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+      document.querySelectorAll('[data-bi]').forEach(b => b.style.display = '');
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+      const totalSteps = getTotalSteps(current);
+      if (totalSteps > 0) showStep(current, currentStep);
+      const totalBullets = getTotalBullets(current);
+      if (totalBullets > 0) showBullets(current, currentBullet);
+      for (let i = 0; i < slides.length; i++) {
+        if (i !== current) {
+          const tb = getTotalBullets(i);
+          if (tb > 0) showBullets(i, 0);
+        }
+      }
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') advance();
+    else if (e.key === 'ArrowLeft') goBack();
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0, false);
+    else if (e.key === 'End') showSlide(slides.length - 1, true);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) advance();
+      else goBack();
+    }
+  });
+</script>
+
+</body>
+</html>

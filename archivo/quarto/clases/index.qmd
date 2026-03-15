@@ -1,0 +1,68 @@
+---
+title: "Índice de Clases"
+---
+
+## Plan de 20 clases
+
+### Unidad 1: Introducción y hechos estilizados
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| [Clase 1](clase01.qmd) | Hechos estilizados históricos | ✅ |
+| Clase 2 | Balanza de pagos y tipo de cambio | 🔜 |
+
+### Unidad 2: Teorías clásicas y neoclásicas
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| Clase 3 | Mercantilistas y Smith | 📝 |
+| Clase 4 | Ricardo y ventajas comparativas | 📝 |
+| Clase 5 | Modelo neoclásico estándar | 📝 |
+| Clase 6 | Heckscher-Ohlin | 📝 |
+
+### Unidad 3: Nuevas teorías del comercio
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| Clase 7 | Rendimientos crecientes (Krugman) | 📝 |
+| Clase 8 | Comercio intraindustrial | 📝 |
+| Clase 9 | Dumping | 📝 |
+| Clase 10 | Firmas heterogéneas y CGV | 📝 |
+
+### Unidad 4: Estructuralismo y desarrollo
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| Clase 11 | Prebisch y centro-periferia | 📝 |
+| Clase 12 | Intercambio desigual | 📝 |
+| Clase 13 | Ventajas dinámicas e innovación | 📝 |
+
+### Unidad 5: ETN, IED y cadenas globales
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| Clase 14 | ETN e IED | 📝 |
+| Clase 15 | Cadenas globales de valor | 📝 |
+| Clase 16 | CGV en América Latina y Argentina | 📝 |
+
+### Unidad 6: Política comercial e integración
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| Clase 17 | Instrumentos de política comercial | 📝 |
+| Clase 18 | Integración económica regional | 📝 |
+
+### Unidad 7: Transformaciones recientes
+
+| Clase | Tema | Estado |
+|-------|------|--------|
+| Clase 19 | Crisis 2008 y guerra comercial | 📝 |
+| Clase 20 | Transición verde y caso argentino | 📝 |
+
+---
+
+**Leyenda:**
+
+- ✅ Completada
+- 🔜 Próxima
+- 📝 Pendiente

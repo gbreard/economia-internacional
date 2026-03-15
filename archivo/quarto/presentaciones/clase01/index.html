@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 1</title>
+  <script>
+    MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .slides-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 25px;
+      font-size: 0.85rem;
+      color: #4B5563;
+      z-index: 100;
+    }
+
+    /* PRINT MODE - Muestra todos los slides verticalmente */
+    body.print-mode {
+      overflow: auto !important;
+      height: auto !important;
+    }
+
+    body.print-mode .slides-container {
+      height: auto !important;
+      position: relative !important;
+      display: block !important;
+    }
+
+    body.print-mode .slide {
+      position: relative !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      page-break-after: always !important;
+      break-after: page !important;
+      margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+      top: auto !important;
+      left: auto !important;
+    }
+
+    body.print-mode .footer {
+      display: none !important;
+    }
+
+    .print-banner {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #1F4E79;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      z-index: 1000;
+      font-size: 0.9rem;
+    }
+
+    body.print-mode .print-banner {
+      display: block !important;
+      position: relative !important;
+    }
+
+    /* Para impresión real */
+    @media print {
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      html, body {
+        overflow: visible !important;
+        height: auto !important;
+        width: 100% !important;
+      }
+
+      .slides-container {
+        height: auto !important;
+        display: block !important;
+      }
+
+      .slide {
+        position: relative !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        page-break-after: always !important;
+        break-after: page !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        border: none !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+        top: auto !important;
+        left: auto !important;
+        width: 100% !important;
+        height: 100vh !important;
+      }
+
+      .footer, .print-banner {
+        display: none !important;
+      }
+    }
+
+    :root {
+      --primary: #1F4E79;
+      --secondary: #0EA5E9;
+      --accent: #10B981;
+      --warning: #F59E0B;
+      --text-dark: #111827;
+      --text-muted: #4B5563;
+      --white: #FFFFFF;
+      --bg-light: #F3F4F6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - Presioná <strong>P</strong> para volver a modo presentación, o <strong>Ctrl+P</strong> para imprimir/guardar como PDF
+</div>
+
+<div class="slides-container">
+
+  <!-- SLIDE 1: Portada -->
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Clase 1 — El comercio mundial: auge, colapso y preguntas abiertas
+    </div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: Sección Apertura -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Apertura
+    </h1>
+  </section>
+
+  <!-- SLIDE 3: Pregunta central -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Pregunta central de la clase
+    </h2>
+
+    <div style="color: #1F4E79; font-size: 1.9rem; font-weight: 600; text-align: center; max-width: 90%; line-height: 1.4; margin-bottom: 40px;">
+      ¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en apenas 30 años?
+    </div>
+
+    <div style="color: #111827; font-size: 1.3rem; text-align: center; max-width: 80%;">
+      Esta pregunta organiza todo lo que veremos hoy:
+      <ol style="display: inline-block; text-align: left; margin: 20px 0; padding-left: 1.5em;">
+        <li style="margin-bottom: 12px; line-height: 1.5;">Medir ese crecimiento y colapso con datos</li>
+        <li style="margin-bottom: 12px; line-height: 1.5;">Explicar qué fuerzas lo causaron</li>
+        <li style="margin-bottom: 12px; line-height: 1.5;">Conectar historia con números</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SLIDE 4: Objetivos de aprendizaje -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 25px 0;">
+      Objetivos de aprendizaje
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <h3 style="color: #1F4E79; font-size: 1.3rem; margin-bottom: 30px;">Al terminar esta clase vas a poder:</h3>
+
+      <ol style="font-size: 1.25rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 20px;">Usar <strong>4 indicadores básicos</strong> de comercio internacional</li>
+        <li style="margin-bottom: 20px;">Describir las <strong>grandes etapas históricas</strong> (siglo XVI → siglo XX)</li>
+        <li style="margin-bottom: 20px;">Aplicar un <strong>marco analítico</strong>: Tecnología + Reglas + Poder</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: Marco analítico -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      Marco analítico: tres fuerzas
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.15rem; color: #111827; line-height: 1.55; margin: 0 0 20px 0;">
+        Para explicar <strong>cualquier período</strong> del comercio, preguntamos:
+      </p>
+
+      <table style="width: 100%; max-width: 95%; border-collapse: collapse; font-size: 1rem; margin: 15px 0;">
+        <thead>
+          <tr>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left; font-weight: 600;">Fuerza</th>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left; font-weight: 600;">Pregunta clave</th>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left; font-weight: 600;">Ejemplos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Tecnología</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">¿Cuánto cuesta mover bienes?</td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Vela → vapor → contenedor</td>
+          </tr>
+          <tr style="background-color: #F3F4F6;">
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Reglas</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">¿Quién puede comerciar?</td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Monopolios, aranceles, OMC</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Poder</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">¿Quién garantiza estabilidad?</td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Hegemonía, marina, moneda</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="background-color: #FEF3C7; padding: 15px 20px; border-left: 4px solid #F59E0B; margin: 25px 0; max-width: 90%;">
+        <p style="margin: 0; font-size: 1.1rem; color: #111827;">
+          <strong>Idea clave:</strong> Las tres operan juntas. Si una falla, el sistema se quiebra.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6: Sección Indicadores -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4.5rem; font-weight: 600; text-align: center;">
+      Indicadores
+    </h1>
+  </section>
+
+  <!-- SLIDE 7: Indicador 1 definición -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Indicador 1: Índice de comercio mundial
+    </h2>
+
+    <div style="margin: 20px 0; font-size: 1.5rem;">
+      <strong>Definición:</strong>
+      <div style="margin: 20px 0; font-size: 1.8rem; text-align: center;">
+        $$I_t = 100 \times \frac{Comercio_t}{Comercio_{1913}}$$
+      </div>
+    </div>
+
+    <div style="color: #111827; font-size: 1.2rem; max-width: 80%; margin-top: 20px;">
+      <strong>Interpretación:</strong>
+      <ul style="margin: 15px 0; padding-left: 1.5em; line-height: 1.6;">
+        <li>El año base es <strong>1913</strong> (pico antes de la Primera Guerra)</li>
+        <li>Si $I_t = 50$ → el comercio es <strong>la mitad</strong> del de 1913</li>
+        <li>Si $I_t = 200$ → el comercio es el <strong>doble</strong> del de 1913</li>
+      </ul>
+      <p style="margin-top: 20px;"><strong>¿Por qué usar un índice?</strong> Evita problemas de inflación y permite comparar períodos largos.</p>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: Gráfico índice comercio -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Índice de comercio mundial (1800-1938)
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="graficos/indice_comercio.png" alt="Índice de comercio mundial"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: FTWTHD
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Cómo leer el índice:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">1913 = 100 (año base)</li>
+          <li style="margin-bottom: 6px;">Valor 50 = mitad del comercio de 1913</li>
+          <li style="margin-bottom: 6px;">Valor 200 = doble del de 1913</li>
+        </ul>
+
+        <p style="font-size: 0.85rem; color: #4B5563; font-style: italic; margin-bottom: 8px;">Puntos clave:</p>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">1800: 2.4 (casi nada)</li>
+          <li style="margin-bottom: 6px;">1870: 25 (x10 en 70 años)</li>
+          <li style="margin-bottom: 6px;">1913: 100 (pico)</li>
+          <li style="margin-bottom: 6px;">1932: 95 (colapso -29%)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 9: Indicador 2 definición -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Indicador 2: Participación regional
+    </h2>
+
+    <div style="margin: 20px 0; font-size: 1.5rem;">
+      <strong>Definición:</strong>
+      <div style="margin: 20px 0; font-size: 1.8rem; text-align: center;">
+        $$s_{r,t} = \frac{X_{r,t}}{X_{mundo,t}} \times 100$$
+      </div>
+    </div>
+
+    <div style="color: #111827; font-size: 1.15rem; max-width: 80%; margin-top: 20px;">
+      <p>Donde:</p>
+      <ul style="margin: 15px 0; padding-left: 1.5em; line-height: 1.6;">
+        <li>$s_{r,t}$ = participación de la región $r$ en el año $t$ (en %)</li>
+        <li>$X_{r,t}$ = exportaciones de la región $r$</li>
+        <li>$X_{mundo,t}$ = exportaciones mundiales totales</li>
+      </ul>
+      <p style="margin-top: 20px;"><strong>¿Qué nos dice?</strong> Quién comercia y cómo cambia la composición geográfica.</p>
+    </div>
+  </section>
+
+  <!-- SLIDE 10: Gráfico participación regional -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Participación regional (1800-1938)
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="graficos/participacion_regional.png" alt="Participación regional"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: FTWTHD
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Cómo leerlo:
+        </h3>
+        <p style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0;">
+          Cada línea = % del comercio mundial de esa región.
+        </p>
+
+        <p style="font-size: 0.85rem; color: #4B5563; font-style: italic; margin-bottom: 8px;">Datos clave:</p>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Europa: 60-70% (domina)</li>
+          <li style="margin-bottom: 6px;">Américas: 10-20%</li>
+          <li style="margin-bottom: 6px;">Asia: 10-15%</li>
+        </ul>
+
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 15px 0 10px 0;">
+          Conclusión:
+        </h3>
+        <p style="font-size: 0.92rem; color: #111827; line-height: 1.45;">
+          La "globalización" del siglo XIX era básicamente comercio europeo con el mundo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: Indicador 3 HHI -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      Indicador 3: Concentración (HHI)
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.1rem; color: #111827; margin-bottom: 15px;">
+        <strong>Definición del Índice Herfindahl-Hirschman:</strong>
+      </p>
+      <div style="font-size: 1.5rem; text-align: center; margin: 20px 0;">
+        $$HHI_t = \sum_{r} (s_{r,t})^2$$
+      </div>
+      <p style="font-size: 1rem; color: #111827; margin-bottom: 20px;">
+        Donde $s_{r,t}$ es la participación de cada región <strong>en decimales</strong> (no en %).
+      </p>
+
+      <table style="width: 60%; border-collapse: collapse; font-size: 1rem; margin: 15px 0;">
+        <thead>
+          <tr>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Valor HHI</th>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Interpretación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>0.20</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Muy diversificado (5 regiones iguales)</td>
+          </tr>
+          <tr style="background-color: #F3F4F6;">
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>0.25-0.40</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Concentración moderada</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>> 0.50</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Muy concentrado en pocas regiones</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SLIDE 12: Gráfico HHI -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Concentración regional (HHI)
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="graficos/hhi.png" alt="Índice HHI"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: FTWTHD
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Cómo leerlo:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">HHI alto (>0.5) = concentrado</li>
+          <li style="margin-bottom: 6px;">HHI bajo (<0.25) = diversificado</li>
+        </ul>
+
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 15px 0 10px 0;">
+          Tendencia:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">1800-1914: HHI cae (más integración)</li>
+          <li style="margin-bottom: 6px;">Post-1914: HHI sube (fragmentación)</li>
+        </ul>
+
+        <div style="background-color: #FEF3C7; padding: 12px 15px; border-left: 4px solid #F59E0B; margin-top: 15px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Lección:</strong> La globalización diversificó; las guerras fragmentaron.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 13: Indicador 4 Cobertura -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Indicador 4: Cobertura estadística
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="graficos/cobertura.png" alt="Cobertura estadística"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Estimación FTWTHD
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          ¿Qué muestra?
+        </h3>
+        <p style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0;">
+          Países con datos por año.
+        </p>
+
+        <p style="font-size: 0.85rem; color: #4B5563; font-style: italic; margin-bottom: 8px;">Datos:</p>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">1800: ~25 países</li>
+          <li style="margin-bottom: 6px;">1913: ~120 países</li>
+        </ul>
+
+        <div style="background-color: #FEF3C7; padding: 12px 15px; border-left: 4px solid #F59E0B; margin-top: 15px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Advertencia:</strong> El índice puede crecer porque hay más comercio O porque hay más países en la base. Por eso usamos índices, no valores absolutos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 14: Sección Historia Auge -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Historia: El Auge (1500-1913)
+    </h1>
+  </section>
+
+  <!-- SLIDE 15: Periodización histórica -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      Periodización histórica
+    </h2>
+
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 15px 0;">
+      <thead>
+        <tr>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Período</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Etapa</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Características</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">1500-1650</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Economía-mundo ibérica</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Monopolios, metales, rutas controladas</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">1650-1815</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Transición</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Ascenso de Holanda y UK</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">1815-1913</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Hegemonía británica</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Industria, libre comercio, globalización</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">1914-1945</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Guerras + colapso</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Desintegración del sistema</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">1945-hoy</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Orden de posguerra</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Instituciones multilaterales</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SLIDE 16: Economía-mundo ibérica -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Etapa 1: Economía-mundo ibérica (1500-1650)
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/rutas_ibericas.png" alt="Rutas ibéricas siglo XVI"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Mapas históricos
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Rutas ibéricas siglo XVI:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 20px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Portugal: ruta del Cabo → Asia</li>
+          <li style="margin-bottom: 8px;">España: Atlántico → América</li>
+        </ul>
+
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Modelo de comercio:
+        </h3>
+        <p style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0;">
+          Monopolios estatales (Casa de Contratación). El Estado absorbe riesgos y captura rentas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 17: Galeón de Manila -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El Galeón de Manila: primera cadena global
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/galeon_manila.png" alt="Ruta del Galeón de Manila"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Mapa histórico
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          El circuito:
+        </h3>
+        <ol style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 20px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Manila: sedas de China</li>
+          <li style="margin-bottom: 8px;">Acapulco: descarga, carga plata</li>
+          <li style="margin-bottom: 8px;">Sevilla: plata a Europa</li>
+        </ol>
+
+        <div style="background-color: #E0F2FE; padding: 12px 15px; border-left: 4px solid #0EA5E9; margin-top: 15px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Primera cadena global:</strong> Asia manufactura, América plata, Europa financia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 18: Flotas y seguridad -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Flotas y seguridad marítima
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/treasure_fleet.png" alt="Sistema de flotas"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Herman Moll, c.1720
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Sistema de flotas:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 20px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Barcos viajan en convoy (piratas)</li>
+          <li style="margin-bottom: 8px;">Dos flotas anuales</li>
+          <li style="margin-bottom: 8px;">Reunión en La Habana</li>
+        </ul>
+
+        <div style="background-color: #FEF3C7; padding: 12px 15px; border-left: 4px solid #F59E0B; margin-top: 15px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Lección:</strong> El comercio requiere seguridad. Sin ella, no hay comercio de larga distancia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 19: Hegemonía británica -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Etapa 2: Hegemonía británica (1815-1913)
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/navy_league_1922.jpg" alt="Red imperial británica"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Navy League, 1922
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Red imperial británica:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 20px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Rutas marítimas globales</li>
+          <li style="margin-bottom: 8px;">Bases navales estratégicas</li>
+          <li style="margin-bottom: 8px;">Estaciones de carbón</li>
+        </ul>
+
+        <div style="background-color: #E0F2FE; padding: 12px 15px; border-left: 4px solid #0EA5E9; margin-top: 15px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Diferencia con Iberia:</strong> UK usa libre comercio + marina + libra, no monopolios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 20: Tecnología vapor -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Tecnología: vapor + rutas regulares
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/vapor_randmcnally_1917.jpg" alt="Rutas de vapor"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Rand McNally, 1917
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Revolución del vapor:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 20px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Barcos rápidos y predecibles</li>
+          <li style="margin-bottom: 8px;">Rutas con horarios fijos</li>
+          <li style="margin-bottom: 8px;">Menor costo por tonelada</li>
+        </ul>
+
+        <div style="background-color: #D1FAE5; padding: 12px 15px; border-left: 4px solid #10B981; margin-top: 15px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Dato:</strong> Costo de transporte cayó 70% (1840-1910).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 21: Cables submarinos -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Infraestructura: cables submarinos
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/cables_eastern_1901.png" alt="Red de cables submarinos"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Eastern Telegraph, 1901
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <p style="font-size: 0.92rem; color: #111827; margin-bottom: 10px;"><strong>Antes:</strong> Info viajaba a velocidad del barco.</p>
+        <p style="font-size: 0.92rem; color: #111827; margin-bottom: 15px;"><strong>Después:</strong> Instantáneo.</p>
+
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 15px 0 10px 0;">
+          Consecuencias:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Precios se arbitran rápido</li>
+          <li style="margin-bottom: 8px;">Seguros y pagos a distancia</li>
+          <li style="margin-bottom: 8px;">Londres = centro financiero</li>
+        </ul>
+
+        <div style="background-color: #FEF3C7; padding: 12px 15px; border-left: 4px solid #F59E0B; margin-top: 10px;">
+          <p style="margin: 0; font-size: 0.9rem;"><strong>Lección:</strong> Integración = mover bienes + información.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 22: Qué significa hegemonía -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      ¿Qué significa "hegemonía británica"?
+    </h2>
+
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 15px 0;">
+      <thead>
+        <tr>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Dimensión</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Rol de UK</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Efecto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Productiva</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">"Taller del mundo"</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Manufactura exportable</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Financiera</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Libra + City de Londres</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Crédito y pagos internacionales</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Logística</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Marina mercante</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Rutas predecibles</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Reglas</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Libre comercio</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Corn Laws 1846, cláusula NMF</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="background-color: #E0F2FE; padding: 15px 20px; border-left: 4px solid #0EA5E9; margin-top: 20px;">
+      <p style="margin: 0; font-size: 1.05rem;">
+        <strong>Hegemonía</strong> = capacidad de proveer bienes públicos internacionales (moneda estable, seguridad, reglas) que benefician al hegemón y a otros.
+      </p>
+    </div>
+  </section>
+
+  <!-- SLIDE 23: Sección Colapso -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Historia: El Colapso (1914-1945)
+    </h1>
+  </section>
+
+  <!-- SLIDE 24: Colapso en números -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      El colapso en números
+    </h2>
+
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="graficos/indice_colapso.png" alt="Colapso del comercio"
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: FTWTHD
+        </div>
+      </div>
+
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <p style="font-size: 0.85rem; color: #4B5563; font-style: italic; margin-bottom: 8px;">Zoom 1900-1940:</p>
+        <p style="font-size: 0.92rem; color: #111827; margin-bottom: 15px;">Las zonas sombreadas marcan las crisis.</p>
+
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 15px 0 10px 0;">
+          WWI (1914-18):
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Índice: 100 → 75</li>
+          <li style="margin-bottom: 6px;">Caída: -25% en 4 años</li>
+        </ul>
+
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 15px 0 10px 0;">
+          Gran Depresión (1929-32):
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 10px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Índice: 133 → 95</li>
+          <li style="margin-bottom: 6px;">Caída: -29% en 3 años</li>
+        </ul>
+
+        <p style="font-size: 0.92rem; color: #111827; font-weight: 600;">El comercio colapsó más rápido que la producción.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 25: 1914-1918 -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      1914-1918: La guerra destruye el sistema
+    </h2>
+
+    <p style="font-size: 1.1rem; color: #111827; margin-bottom: 20px;">
+      Aplicamos el marco <strong>Tecnología + Reglas + Poder</strong>:
+    </p>
+
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 15px 0;">
+      <thead>
+        <tr>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Fuerza</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Antes de 1914</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Después</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Tecnología</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Rutas abiertas</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Bloqueos, guerra submarina</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Reglas</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Libre comercio, patrón oro</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Controles, abandono del oro</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Poder</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">UK hegemónico</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">UK debilitado, sistema fragmentado</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="background-color: #FEE2E2; padding: 15px 20px; border-left: 4px solid #EF4444; margin-top: 20px;">
+      <p style="margin: 0; font-size: 1.05rem;">
+        <strong>Evidencia:</strong> Índice cae de 100 (1913) a 75 (1918) = <strong>-25% en 4 años</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- SLIDE 26: Gran Depresión -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      1929-1932: La Gran Depresión
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.1rem; color: #111827; margin-bottom: 15px;"><strong>Secuencia del colapso:</strong></p>
+
+      <ol style="font-size: 1.1rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 12px;">Crisis bancaria en EUA → caída de demanda global</li>
+        <li style="margin-bottom: 12px;">Respuesta: proteccionismo (Ley Smoot-Hawley, 1930)</li>
+        <li style="margin-bottom: 12px;">Represalias: cada país sube aranceles</li>
+        <li style="margin-bottom: 12px;">Bloques monetarios: área libra, área dólar, área marco</li>
+        <li style="margin-bottom: 12px;">Resultado: cada país intenta "exportar desempleo"</li>
+      </ol>
+
+      <div style="background-color: #FEE2E2; padding: 15px 20px; border-left: 4px solid #EF4444; margin-top: 25px;">
+        <p style="margin: 0; font-size: 1.05rem;">
+          <strong>Evidencia:</strong> Índice cae de 133 (1929) a 95 (1932) = <strong>-29% en solo 3 años</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 27: Tres lecciones -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 25px 0;">
+      Tres lecciones del colapso
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <div style="margin-bottom: 25px;">
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 10px;">Lección 1: La tecnología no alcanza</h3>
+        <p style="font-size: 1.05rem; color: #111827; line-height: 1.5;">
+          Los barcos seguían existiendo en 1930. Pero el comercio cayó igual. <strong>Faltaban reglas y confianza.</strong>
+        </p>
+      </div>
+
+      <div style="margin-bottom: 25px;">
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 10px;">Lección 2: Las reglas pueden destruir comercio</h3>
+        <p style="font-size: 1.05rem; color: #111827; line-height: 1.5;">
+          Aranceles altos + represalias = espiral descendente. <strong>Sin coordinación, todos pierden.</strong>
+        </p>
+      </div>
+
+      <div style="margin-bottom: 25px;">
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 10px;">Lección 3: Sin hegemón, fragmentación</h3>
+        <p style="font-size: 1.05rem; color: #111827; line-height: 1.5;">
+          UK ya no podía liderar. EUA no quería hacerlo (aún). <strong>Resultado: bloques rivales.</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 28: Sección Reconstrucción -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Historia: Reconstrucción (1945-hoy)
+    </h1>
+  </section>
+
+  <!-- SLIDE 29: EUA hegemón -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      1945-1973: EUA asume el rol hegemónico
+    </h2>
+
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 15px 0;">
+      <thead>
+        <tr>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Dimensión</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">UK (pre-1914)</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">EUA (post-1945)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Moneda</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Libra esterlina</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Dólar (Bretton Woods)</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Instituciones</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Tratados bilaterales</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">FMI, Banco Mundial, GATT</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Seguridad</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Royal Navy</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">US Navy + OTAN</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Apertura</strong></td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Unilateral</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Multilateral (rondas GATT)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="background-color: #D1FAE5; padding: 15px 20px; border-left: 4px solid #10B981; margin-top: 20px;">
+      <p style="margin: 0; font-size: 1.05rem;">
+        El comercio/PIB mundial supera el nivel de 1913 <strong>recién en los años 1970</strong>.
+      </p>
+    </div>
+  </section>
+
+  <!-- SLIDE 30: Segunda globalización -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      1973-2008: La segunda globalización
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.1rem; color: #111827; margin-bottom: 15px;"><strong>Cambios estructurales:</strong></p>
+
+      <ul style="font-size: 1.1rem; color: #111827; line-height: 1.6; padding-left: 1.5em; margin-bottom: 25px;">
+        <li style="margin-bottom: 12px;">Fin de Bretton Woods (1971) → tipos de cambio flotantes</li>
+        <li style="margin-bottom: 12px;">Contenedores, jets, internet → costos colapsan</li>
+        <li style="margin-bottom: 12px;">China entra a la OMC (2001) → "fábrica del mundo"</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; color: #111827; margin-bottom: 15px;"><strong>Resultado:</strong></p>
+
+      <ul style="font-size: 1.1rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 12px;">Comercio crece <strong>2x más rápido</strong> que el PIB</li>
+        <li style="margin-bottom: 12px;">Trade/GDP mundial: 25% (1970) → 60% (2008)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SLIDE 31: Slowbalization -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      2008-hoy: ¿Slowbalization?
+    </h2>
+
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 15px 0;">
+      <thead>
+        <tr>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Período</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Evento</th>
+          <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left;">Impacto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">2008-09</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Crisis financiera</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Comercio cae 12%</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">2018-20</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Guerra comercial EUA-China</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Aranceles, incertidumbre</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">2020-22</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Pandemia COVID-19</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Disrupción de cadenas</td>
+        </tr>
+        <tr style="background-color: #F3F4F6;">
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">2022-hoy</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Guerra Ucrania</td>
+          <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Nearshoring, friendshoring</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="background-color: #FEF3C7; padding: 15px 20px; border-left: 4px solid #F59E0B; margin-top: 20px;">
+      <p style="margin: 0; font-size: 1.1rem;">
+        <strong>Pregunta abierta:</strong> ¿Estamos en un nuevo colapso tipo 1914-1932?
+      </p>
+    </div>
+  </section>
+
+  <!-- SLIDE 32: Sección Cierre -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4.5rem; font-weight: 600; text-align: center;">
+      Cierre
+    </h1>
+  </section>
+
+  <!-- SLIDE 33: Checklist -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      Cómo conectamos historia y medición
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.15rem; color: #111827; margin-bottom: 20px;"><strong>Checklist para analizar cualquier etapa:</strong></p>
+
+      <ol style="font-size: 1.15rem; color: #111827; line-height: 1.7; padding-left: 1.5em;">
+        <li style="margin-bottom: 15px;"><strong>Tecnología:</strong> ¿Cuánto cuesta mover bienes e información?</li>
+        <li style="margin-bottom: 15px;"><strong>Reglas:</strong> ¿Quién puede comerciar y bajo qué condiciones?</li>
+        <li style="margin-bottom: 15px;"><strong>Poder:</strong> ¿Quién garantiza estabilidad?</li>
+        <li style="margin-bottom: 15px;"><strong>Datos:</strong> ¿Qué indicador usar? (índice, participación, HHI)</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SLIDE 34: Lo que nos llevamos -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lo que nos llevamos
+    </h2>
+
+    <div style="display: flex; gap: 40px; flex-grow: 1;">
+      <div style="flex: 1;">
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 12px;">Un gráfico</h3>
+        <p style="font-size: 1.05rem; color: #111827; line-height: 1.5; margin-bottom: 25px;">
+          El índice 1800-1938: auge → pico → colapso
+        </p>
+
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 12px;">Un marco</h3>
+        <p style="font-size: 1.05rem; color: #111827; line-height: 1.5;">
+          <strong>Tecnología + Reglas + Poder</strong><br>
+          Aplicable a 1870, 1930, o 2024
+        </p>
+      </div>
+
+      <div style="flex: 1;">
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 12px;">Cuatro indicadores</h3>
+        <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.2em; margin-bottom: 25px;">
+          <li>Índice (nivel relativo)</li>
+          <li>Participación regional</li>
+          <li>HHI (concentración)</li>
+          <li>Cobertura estadística</li>
+        </ul>
+
+        <h3 style="color: #1F4E79; font-size: 1.2rem; margin-bottom: 12px;">Una lección</h3>
+        <p style="font-size: 1.05rem; color: #111827; line-height: 1.5;">
+          La integración <strong>no es automática ni irreversible</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 35: Pregunta abierta -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 40px 0; text-align: center;">
+      Pregunta que queda abierta
+    </h2>
+
+    <div style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; text-align: center; max-width: 90%; margin-bottom: 40px;">
+      ¿Qué determina si un país GANA o PIERDE con el comercio?
+    </div>
+
+    <div style="color: #111827; font-size: 1.2rem; max-width: 80%;">
+      <p style="margin-bottom: 15px;">Las teorías responden esto:</p>
+      <ul style="padding-left: 1.5em; line-height: 1.7;">
+        <li><strong>Smith</strong> (Clase 3): ventajas absolutas</li>
+        <li><strong>Ricardo</strong> (Clase 4): ventajas comparativas</li>
+        <li><strong>Heckscher-Ohlin</strong> (Clase 6): dotación de factores</li>
+        <li><strong>Prebisch</strong> (Clase 11): centro-periferia</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SLIDE 36: Próxima clase -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 25px 0;">
+      Próxima clase: Balanza de pagos
+    </h2>
+
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.15rem; color: #111827; margin-bottom: 15px;"><strong>Temas de la Clase 2:</strong></p>
+
+      <ul style="font-size: 1.15rem; color: #111827; line-height: 1.7; padding-left: 1.5em; margin-bottom: 30px;">
+        <li style="margin-bottom: 10px;">Cuenta corriente y cuenta financiera</li>
+        <li style="margin-bottom: 10px;">Tipo de cambio nominal y real</li>
+        <li style="margin-bottom: 10px;">¿Qué significa "competitividad externa"?</li>
+      </ul>
+
+      <div style="background-color: #E0F2FE; padding: 15px 20px; border-left: 4px solid #0EA5E9; margin-top: 20px;">
+        <p style="margin: 0; font-size: 1.1rem;">
+          <strong>Lectura recomendada:</strong> Krugman (2022), Capítulo 1
+        </p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <span>Economía Internacional | UMET</span>
+  <span id="slide-counter">1 / 36</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  let printMode = false;
+
+  // Guardar estilos originales
+  const originalStyles = [];
+  slides.forEach(s => {
+    originalStyles.push(s.getAttribute('style'));
+  });
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+
+    if (printMode) {
+      // Modo print: mostrar todos los slides verticalmente
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+
+      slides.forEach((s, i) => {
+        s.style.position = 'relative';
+        s.style.opacity = '1';
+        s.style.visibility = 'visible';
+        s.style.top = 'auto';
+        s.style.left = 'auto';
+        s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79';
+        s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+        s.style.breakAfter = 'page';
+      });
+    } else {
+      // Volver a modo presentación: restaurar estilos originales
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      document.querySelector('.slides-container').style.position = 'relative';
+
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    // En modo print, solo permitir P para salir y Ctrl+P para imprimir
+    if (printMode) {
+      if (e.key === 'p' || e.key === 'P') {
+        togglePrintMode();
+      }
+      return;
+    }
+
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
+      showSlide(current + 1);
+    } else if (e.key === 'ArrowLeft') {
+      showSlide(current - 1);
+    } else if (e.key === 'f' || e.key === 'F') {
+      document.documentElement.requestFullscreen?.();
+    } else if (e.key === 'Escape') {
+      document.exitFullscreen?.();
+    } else if (e.key === 'Home') {
+      showSlide(0);
+    } else if (e.key === 'End') {
+      showSlide(slides.length - 1);
+    } else if (e.key === 'p' || e.key === 'P') {
+      togglePrintMode();
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    // Desactivar navegación por click en modo print
+    if (printMode) return;
+
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) {
+        showSlide(current + 1);
+      } else {
+        showSlide(current - 1);
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

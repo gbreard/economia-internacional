@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 6</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true}]});"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Heckscher-Ohlin -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Heckscher-Ohlin
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Dotaciones factoriales, especialización y conflicto distributivo
+    </div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: Agenda -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      Agenda
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 15px;"><strong>De Ricardo a H-O</strong>: por qué necesitamos un modelo con factores</li>
+        <li style="margin-bottom: 15px;"><strong>El trío sueco-americano</strong>: Heckscher, Ohlin y Samuelson</li>
+        <li style="margin-bottom: 15px;"><strong>Modelo H-O</strong>: setup 2x2x2, dotaciones y precios relativos</li>
+        <li style="margin-bottom: 15px;"><strong>Apertura comercial</strong>: precio mundial y patrón de comercio</li>
+        <li style="margin-bottom: 15px;"><strong>Teoremas</strong>: Stolper-Samuelson, Rybczynski, FPE</li>
+        <li style="margin-bottom: 15px;"><strong>Evidencia</strong>: la Paradoja de Leontief y por qué "falla" H-O</li>
+        <li style="margin-bottom: 15px;"><strong>Factores específicos</strong>: corto plazo y conflicto sectorial</li>
+        <li style="margin-bottom: 15px;"><strong>Argentina</strong>: dotaciones, apertura y conflicto distributivo</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 3: De Ricardo a Heckscher-Ohlin: cuando el conflicto distributivo entra al modelo -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      De Ricardo a Heckscher-Ohlin: cuando el conflicto distributivo entra al modelo
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Ricardo</strong> (clases 3-4): comercio por diferencias de productividad/tecnología → ganancias agregadas</li>
+        <li style="margin-bottom: 12px;"><strong>Modelo neoclásico</strong> (clase 5): precios relativos, oferta y demanda relativa → marco general</li>
+        <li style="margin-bottom: 12px;"><strong>Hoy — Heckscher-Ohlin</strong>: comercio por <strong>dotaciones de factores</strong> (K/L, tierra, calificación)</li>
+        <li style="margin-bottom: 12px;"><strong>Gran novedad</strong>: el comercio cambia la <strong>distribución del ingreso</strong> (salarios vs rentas)</li>
+        <li style="margin-bottom: 12px;">Secuencia lógica: Dotaciones → costos relativos → precios relativos → patrón de comercio → <strong>distribución</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: Heckscher, Ohlin y Samuelson — El trío que armó el edificio H-O -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Heckscher, Ohlin y Samuelson — El trío que armó el edificio H-O
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Eli Heckscher</strong> (Suecia, principios s. XX): la intuición — "un país exporta lo que usa intensivamente su factor abundante"</li>
+        <li style="margin-bottom: 12px;"><strong>Bertil Ohlin</strong> (alumno de Heckscher, Nobel 1977): convierte la intuición en teoría general de equilibrio — dotaciones → costos → precios → comercio. Fue político (líder del Partido Liberal sueco)</li>
+        <li style="margin-bottom: 12px;"><strong>Paul Samuelson</strong> (MIT, EE.UU., Nobel 1970): lo vuelve teorema demostrable. Con Stolper cristaliza el resultado "picante": apertura = ganadores y perdedores</li>
+        <li style="margin-bottom: 12px;">Frase para recordar: <em>"Heckscher dice qué exportás. Ohlin dice cómo funciona. Samuelson dice por qué tu cuñado discute de comercio en los asados"</em></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 5: El modelo Heckscher-Ohlin: setup 2×2×2 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      El modelo Heckscher-Ohlin: setup 2×2×2
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Los supuestos que aíslan el mecanismo de dotaciones</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;"><strong>2 países</strong>: A y B</li>
+        <li style="margin-bottom: 14px;"><strong>2 bienes</strong>: <span class="katex-inline">\(X\)</span> (capital-intensivo) e <span class="katex-inline">\(Y\)</span> (trabajo-intensivo)</li>
+        <li style="margin-bottom: 14px;"><strong>2 factores</strong>: Trabajo (<span class="katex-inline">\(L\)</span>) y Capital (<span class="katex-inline">\(K\)</span>)</li>
+        <li style="margin-bottom: 14px;"><strong>Supuestos</strong>: tecnología igual, competencia perfecta, rendimientos constantes</li>
+        <li style="margin-bottom: 14px;">Factores <strong>móviles dentro</strong> del país, <strong>inmóviles entre</strong> países</li>
+        <li style="margin-bottom: 14px;">Preferencias iguales (para aislar el efecto dotaciones)</li>
+        <li style="margin-bottom: 14px;"><strong>Abundancia relativa</strong>: A tiene mayor <span class="katex-inline">\(K/L\)</span> que B</li>
+        <li style="margin-bottom: 14px;"><strong>Intensidad factorial</strong>: <span class="katex-inline">\(X\)</span> requiere mayor <span class="katex-inline">\(K/L\)</span> que <span class="katex-inline">\(Y\)</span></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 6: Dotaciones → costos → precios relativos en autarquía -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Dotaciones → costos → precios relativos en autarquía
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/dotaciones_ppf.png" alt="Dotaciones → costos → precios relativos en autarquía"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">País A (K-abundante): <span class="katex-inline">\(K/L\)</span> alto → costo relativo de <span class="katex-inline">\(X\)</span> menor → <span class="katex-inline">\(P_X/P_Y\)</span> bajo en autarquía</li>
+          <li style="margin-bottom: 6px;">País B (L-abundante): <span class="katex-inline">\(K/L\)</span> bajo → costo relativo de <span class="katex-inline">\(Y\)</span> menor → <span class="katex-inline">\(P_X/P_Y\)</span> alto en autarquía</li>
+          <li style="margin-bottom: 6px;">Si <span class="katex-inline">\((P_X/P_Y)^A &lt; (P_X/P_Y)^B\)</span> → aparece incentivo a comerciar</li>
+          <li style="margin-bottom: 6px;">La "chispa" del comercio: precios relativos distintos por dotaciones distintas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 7: Apertura comercial en H-O: precio mundial y patrón de comercio -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Apertura comercial en H-O: precio mundial y patrón de comercio
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/precio_mundial_ho.png" alt="Apertura comercial en H-O: precio mundial y patrón de comercio"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">En autarquía: <span class="katex-inline">\((P_X/P_Y)^A &lt; (P_X/P_Y)^B\)</span></li>
+          <li style="margin-bottom: 6px;">Con comercio aparece <span class="katex-inline">\(P^W\)</span> tal que <span class="katex-inline">\((P_X/P_Y)^A &lt; P^W &lt; (P_X/P_Y)^B\)</span></li>
+          <li style="margin-bottom: 6px;"><strong>País A</strong> (K-abundante): sube <span class="katex-inline">\(P_X/P_Y\)</span> → produce más <span class="katex-inline">\(X\)</span> → <strong>exporta X</strong></li>
+          <li style="margin-bottom: 6px;"><strong>País B</strong> (L-abundante): baja <span class="katex-inline">\(P_X/P_Y\)</span> → produce más <span class="katex-inline">\(Y\)</span> → <strong>exporta Y</strong></li>
+          <li style="margin-bottom: 6px;"><strong>Predicción central</strong>: cada país exporta el bien intensivo en su factor abundante</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: Teorema de Heckscher-Ohlin -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Teorema de Heckscher-Ohlin
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+        <li style="margin-bottom: 12px;">Un país exporta el bien que usa intensivamente su <strong>factor relativamente abundante</strong></li>
+        <li style="margin-bottom: 12px;">e importa el bien que usa intensivamente su <strong>factor relativamente escaso</strong></li>
+        <li style="margin-bottom: 12px;">El patrón de comercio sale de <strong>dotaciones + intensidades factoriales</strong>, no de tecnología</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 9: Teorema de Stolper-Samuelson -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Teorema de Stolper-Samuelson
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Cuando cambia el precio del bien, cambia el ingreso de los factores</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;">Supuesto: <span class="katex-inline">\(X\)</span> es K-intensivo, <span class="katex-inline">\(Y\)</span> es L-intensivo</li>
+        <li style="margin-bottom: 14px;">Con apertura, en país K-abundante (A): sube <span class="katex-inline">\(P_X/P_Y\)</span></li>
+        <li style="margin-bottom: 14px;"><strong>Resultado</strong>:</li>
+        <li style="margin-bottom: 14px;">↑ retorno real del capital (<span class="katex-inline">\(r\)</span>) — el factor usado intensivamente en <span class="katex-inline">\(X\)</span></li>
+        <li style="margin-bottom: 14px;">↓ salario real del trabajo (<span class="katex-inline">\(w\)</span>) — el otro factor</li>
+        <li style="margin-bottom: 14px;">En país L-abundante (B): ocurre lo <strong>inverso</strong> (↑ <span class="katex-inline">\(w\)</span>, ↓ <span class="katex-inline">\(r\)</span>)</li>
+        <li style="margin-bottom: 14px;"><strong>Traducción política</strong>: apertura comercial = ganadores y perdedores <strong>por factor</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 10: Stolper-Samuelson: del precio del bien al ingreso del factor -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Stolper-Samuelson: del precio del bien al ingreso del factor
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/stolper_samuelson_cadena.png" alt="Stolper-Samuelson: del precio del bien al ingreso del factor"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Cadena causal</strong>: ↑ <span class="katex-inline">\(P_X/P_Y\)</span> → expansión sector <span class="katex-inline">\(X\)</span> → ↑ demanda de <span class="katex-inline">\(K\)</span> → ↑ <span class="katex-inline">\(r\)</span> y ↓ <span class="katex-inline">\(w\)</span></li>
+          <li style="margin-bottom: 6px;">País A (K-abundante): sube <span class="katex-inline">\(P_X\)</span> → gana K / pierde L</li>
+          <li style="margin-bottom: 6px;">País B (L-abundante): baja <span class="katex-inline">\(P_X\)</span> → gana L / pierde K</li>
+          <li style="margin-bottom: 6px;"><strong>Ejemplo Argentina</strong>: apertura que favorece bienes tierra-intensivos (agro) → ↑ renta de la tierra, tensión sobre salarios industriales</li>
+          <li style="margin-bottom: 6px;">Si sabés qué precios cambian, podés anticipar <strong>quién apoya y quién resiste</strong> la apertura</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 11: Tadeusz Rybczynski (1923-1998) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Tadeusz Rybczynski (1923-1998)
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Economista <strong>polaco naturalizado inglés</strong>, London School of Economics</li>
+        <li style="margin-bottom: 12px;">Publica una nota cortísima en <em>Economica</em> (1955): "Factor Endowment and Relative Commodity Prices"</li>
+        <li style="margin-bottom: 12px;"><strong>Un paper, un teorema eterno</strong>: usa el box diagram de Stolper-Samuelson para mostrar qué pasa cuando cambian las dotaciones (no los precios)</li>
+        <li style="margin-bottom: 12px;">Contexto de posguerra: acumulación de capital, reconstrucción europea, migraciones → ¿cómo reconfiguran la estructura productiva?</li>
+        <li style="margin-bottom: 12px;">Después pasó al sector financiero (Lazard) — el "one-hit wonder" académico por excelencia</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 12: Teorema de Rybczynski: shock de dotaciones → cambio estructural -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Teorema de Rybczynski: shock de dotaciones → cambio estructural
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/rybczynski_efecto.png" alt="Teorema de Rybczynski: shock de dotaciones → cambio estructural"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Con precios de bienes constantes (<span class="katex-inline">\(P_X/P_Y\)</span> fijo):</li>
+          <li style="margin-bottom: 6px;">Si ↑ <span class="katex-inline">\(K\)</span>: producción de <span class="katex-inline">\(X\)</span> sube <strong>más que proporcionalmente</strong>, producción de <span class="katex-inline">\(Y\)</span> <strong>cae</strong></li>
+          <li style="margin-bottom: 6px;">Si ↑ <span class="katex-inline">\(L\)</span>: producción de <span class="katex-inline">\(Y\)</span> sube <strong>más que proporcionalmente</strong>, producción de <span class="katex-inline">\(X\)</span> <strong>cae</strong></li>
+          <li style="margin-bottom: 6px;">No es "crece todo un poco": <strong>cambia la composición</strong> de lo que producimos</li>
+          <li style="margin-bottom: 6px;">Útil para pensar desarrollo: inversión, migración, descubrimiento de recursos → reconfiguran estructura productiva</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 13: FPE: ¿el comercio iguala salarios y retornos? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      FPE: ¿el comercio iguala salarios y retornos?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El resultado más provocador del paquete H-O</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;">Con libre comercio: tienden a igualarse precios de bienes (<span class="katex-inline">\(P_X^A = P_X^B\)</span>)</li>
+        <li style="margin-bottom: 14px;">Si además: misma tecnología, mismos bienes producidos, competencia perfecta, sin costos de comercio</li>
+        <li style="margin-bottom: 14px;"><strong>Entonces</strong>: <span class="katex-inline">\(w^A \to w^B\)</span> y <span class="katex-inline">\(r^A \to r^B\)</span> — salarios y retornos tienden a igualarse entre países</li>
+        <li style="margin-bottom: 14px;"><strong>Intuición</strong>: precios de bienes → disciplinan costos → disciplinan precios de factores</li>
+        <li style="margin-bottom: 14px;"><strong>Warning</strong>: resultado extremo que depende de supuestos muy fuertes</li>
+        <li style="margin-bottom: 14px;"><strong>Utilidad pedagógica</strong>: sirve como benchmark para discutir <strong>qué fricciones</strong> impiden la igualación</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 14: Los tres teoremas en perspectiva -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Los tres teoremas en perspectiva
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/teoremas_ho_tabla.png" alt="Los tres teoremas en perspectiva"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Stolper-Samuelson</strong>: shock de precios → cambio en distribución del ingreso</li>
+          <li style="margin-bottom: 6px;"><strong>Rybczynski</strong>: shock de dotaciones → cambio en estructura productiva</li>
+          <li style="margin-bottom: 6px;"><strong>FPE</strong>: comercio de bienes → convergencia de precios de factores (bajo supuestos fuertes)</li>
+          <li style="margin-bottom: 6px;">Los tres parten del mismo modelo 2×2×2 pero hacen experimentos mentales distintos</li>
+          <li style="margin-bottom: 6px;">Juntos arman un edificio coherente: dotaciones → precios → comercio → distribución</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 15: Wassily Leontief (1906-1999) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Wassily Leontief (1906-1999)
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Economista <strong>ruso-estadounidense</strong>, profesor en Harvard</li>
+        <li style="margin-bottom: 12px;">Creó el método de <strong>matrices insumo-producto</strong> (input-output): cómo cada sector depende de los demás</li>
+        <li style="margin-bottom: 12px;"><strong>Nobel de Economía 1973</strong> por ese método y sus aplicaciones</li>
+        <li style="margin-bottom: 12px;">En 1953 publica un test empírico de H-O con datos de EE.UU. (1947)</li>
+        <li style="margin-bottom: 12px;">Método: calcular cuánto K y L está "embebido" en exportaciones vs importaciones</li>
+        <li style="margin-bottom: 12px;">Resultado: <strong>lo contrario</strong> de lo que predecía H-O → "Paradoja de Leontief"</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 16: La Paradoja de Leontief: cuando el test empírico no calza -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      La Paradoja de Leontief: cuando el test empírico no calza
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/leontief_paradoja.png" alt="La Paradoja de Leontief: cuando el test empírico no calza"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Leontief (1953), datos de EE.UU. 1947</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Predicción H-O</strong>: EE.UU. (K-abundante) → exporta bienes K-intensivos</li>
+          <li style="margin-bottom: 6px;"><strong>Hallazgo de Leontief</strong>: exportaciones de EE.UU. relativamente más <strong>L-intensivas</strong> que las importaciones</li>
+          <li style="margin-bottom: 6px;">Es una <strong>"paradoja"</strong> respecto de H-O, no un error de medición trivial</li>
+          <li style="margin-bottom: 6px;"><strong>Lectura</strong>: el mundo real tiene más dimensiones que 2×2×2</li>
+          <li style="margin-bottom: 6px;">No "mata" H-O: lo obliga a volverse más realista</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 17: Explicaciones de la Paradoja de Leontief y límites de H-O -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Explicaciones de la Paradoja de Leontief y límites de H-O
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Trabajo no homogéneo</strong>: distinguir calificado vs no calificado (capital humano) — EE.UU. exportaba bienes intensivos en <em>skills</em></li>
+        <li style="margin-bottom: 12px;"><strong>Tecnología distinta</strong>: productividad/innovación hace que Ricardo "vuelva" — no solo dotaciones</li>
+        <li style="margin-bottom: 12px;"><strong>Más de 2 factores</strong>: tierra, recursos naturales, energía, capacidad organizacional</li>
+        <li style="margin-bottom: 12px;"><strong>Protección y fricciones</strong>: aranceles, cuotas, costos de transporte, barreras no arancelarias distorsionan el patrón</li>
+        <li style="margin-bottom: 12px;"><strong>Problemas de medición</strong>: cómo medir capital, intensidad factorial "embebida", año base de los datos</li>
+        <li style="margin-bottom: 12px;"><strong>Conclusión</strong>: H-O funciona mejor como <strong>mecanismo</strong> (dotaciones → precios → comercio) que como predicción literal</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 18: Factores específicos: cuando el conflicto es por sector -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Factores específicos: cuando el conflicto es por sector
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">¿Qué pasa en el corto plazo, cuando los factores no se mueven fácilmente?</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;">2 bienes: <span class="katex-inline">\(X\)</span> e <span class="katex-inline">\(Y\)</span>. 1 factor móvil: Trabajo (<span class="katex-inline">\(L\)</span>). 2 factores <strong>específicos</strong>: <span class="katex-inline">\(K_X\)</span> y <span class="katex-inline">\(K_Y\)</span></li>
+        <li style="margin-bottom: 14px;">Si ↑ <span class="katex-inline">\(P_X\)</span>:</li>
+        <li style="margin-bottom: 14px;"><strong>Gana</strong> <span class="katex-inline">\(K_X\)</span> (el factor específico del sector que sube)</li>
+        <li style="margin-bottom: 14px;"><strong>Pierde</strong> <span class="katex-inline">\(K_Y\)</span> (el factor atrapado en el sector que pierde)</li>
+        <li style="margin-bottom: 14px;"><strong>Trabajo</strong> (<span class="katex-inline">\(L\)</span>, móvil): efecto <strong>ambiguo</strong> — depende de la canasta de consumo</li>
+        <li style="margin-bottom: 14px;">En el <strong>corto plazo</strong>: coaliciones por <strong>sector</strong> (exportador vs import-competing), no solo por factor</li>
+        <li style="margin-bottom: 14px;">Diferencia clave con Stolper-Samuelson: horizonte temporal y movilidad de factores</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 19: Argentina: dotaciones, apertura y conflicto distributivo -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Argentina: dotaciones, apertura y conflicto distributivo
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/argentina_exportaciones.png" alt="Argentina: dotaciones, apertura y conflicto distributivo"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: INDEC / Banco Mundial</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Lente H-O</strong>: Argentina abundante en recursos naturales/tierra → exporta bienes asociados (agro, energía)</li>
+          <li style="margin-bottom: 6px;"><strong>Lente Stolper-Samuelson</strong>: suba de precios de commodities → ↑ renta de la tierra, tensión sobre salarios</li>
+          <li style="margin-bottom: 6px;"><strong>Lente factores específicos</strong>: apertura puede golpear sectores industriales que no se reconvierten rápido</li>
+          <li style="margin-bottom: 6px;"><strong>Mediaciones argentinas</strong>: tipo de cambio, retenciones, restricción externa, instituciones laborales</li>
+          <li style="margin-bottom: 6px;"><strong>Preguntas para debate</strong>: ¿Qué grupos apoyan apertura? ¿Cambian ganadores entre corto y largo plazo?</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 20: ¿Qué nos llevamos de esta clase? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      ¿Qué nos llevamos de esta clase?
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Mecanismo H-O</strong>: dotaciones → costos → precios relativos → comercio → distribución</li>
+        <li style="margin-bottom: 12px;"><strong>Resultado clave</strong>: el comercio tiene <strong>efectos distributivos</strong> (Stolper-Samuelson; factores específicos en el corto plazo)</li>
+        <li style="margin-bottom: 12px;"><strong>Rybczynski</strong>: cambios en dotaciones reconfiguran la <strong>estructura productiva</strong>, no todo crece parejo</li>
+        <li style="margin-bottom: 12px;"><strong>FPE</strong>: predicción extrema útil como benchmark; en la práctica no se cumple por fricciones</li>
+        <li style="margin-bottom: 12px;"><strong>Leontief</strong>: el modelo 2×2×2 no captura skills, tecnología, instituciones → H-O es base, no ley</li>
+        <li style="margin-bottom: 12px;"><strong>Próximo paso</strong>: si H-O no explica todo, ¿qué modelos capturan mejor el comercio moderno? → Nuevas teorías</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 21: Evaluación — Unidad 2 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Evaluación — Unidad 2
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Teorías clásicas y neoclásicas del comercio internacional</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Evaluación <strong>multiple choice</strong> en la plataforma (5 preguntas)</li>
+        <li style="margin-bottom: 12px;">Cubre Clases 3 a 6: mercantilistas, Smith, Ricardo, modelo neoclásico, H-O</li>
+        <li style="margin-bottom: 12px;">Algunas preguntas requieren <strong>procesar datos</strong> (no es solo memorizar)</li>
+        <li style="margin-bottom: 12px;">Para <strong>promocionar</strong>: todas las evaluaciones con 7 o más</li>
+        <li style="margin-bottom: 12px;">Se pueden <strong>recuperar</strong> las evaluaciones que salieron mal</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 22: Próxima clase: Rendimientos crecientes y competencia imperfecta -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Próxima clase: Rendimientos crecientes y competencia imperfecta
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Unidad 3 — Nuevas teorías del comercio</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">¿Por qué países similares comercian entre sí? (comercio Norte-Norte)</li>
+        <li style="margin-bottom: 12px;"><strong>Krugman</strong>: economías de escala + competencia monopolística → comercio por <strong>variedades</strong></li>
+        <li style="margin-bottom: 12px;">El comercio ya no es solo entre países "distintos" (H-O) sino también entre países "parecidos"</li>
+        <li style="margin-bottom: 12px;">Un modelo que explica por qué Alemania le vende autos a Francia y Francia le vende autos a Alemania</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 23: Material complementario -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Material complementario
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">📺 <strong>MRU — "The Heckscher-Ohlin Theorem"</strong> (Marginal Revolution University, YouTube) — 10 min, inglés con subtítulos. Explicación visual clara del modelo H-O. Ideal como repaso rápido</li>
+        <li style="margin-bottom: 12px;">🎬 <strong>"Juego sin límites: La mentira del libre comercio"</strong> (DW Documental, YouTube) — 42 min, español. Casos concretos de ganadores y perdedores del comercio (cebollas en Camerún, azulejos en Europa). Muy usado en universidades latinoamericanas</li>
+        <li style="margin-bottom: 12px;">🎬 <strong>"American Factory"</strong> (Netflix, 2019, Oscar al Mejor Documental) — 110 min, inglés/mandarín con subtítulos. Fábrica china en planta ex-GM en Ohio: capital vs trabajo, tensiones distributivas reales</li>
+        <li style="margin-bottom: 12px;">🎬 <strong>"Globalización: ganadores y perdedores"</strong> (DW Documental, YouTube) — 42 min cada parte. Agricultores pro-Trump, la Ruta de la Seda, Perú: conflicto distributivo global</li>
+        <li style="margin-bottom: 12px;">🎧 <strong>"Does Free Trade Benefit Everyone? Stolper-Samuelson"</strong> (Economics Explored, Podcast EP272) — 35 min, inglés. El único recurso que trata S-S como tema central con ejemplos actuales</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 24: Lecturas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lecturas
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Obligatoria</strong>: Lugones et al. — <em>Teorías del Comercio Internacional</em>, Cap. 1, sección 1.2 (pp. 25-30): "Los neoclásicos (Heckscher-Ohlin): diferencias en la dotación de factores"</li>
+        <li style="margin-bottom: 12px;"><strong>Obligatoria</strong>: Krugman, Obstfeld &amp; Melitz (9a ed.) — Cap. 4: "Factores específicos y distribución de la renta" y Cap. 5: "Recursos y comercio: el modelo Heckscher-Ohlin"</li>
+        <li style="margin-bottom: 12px;"><strong>Complementaria</strong>: Steinberg, F. (2004) — <em>La nueva teoría del comercio internacional y la política comercial estratégica</em>, ICEI/UAM (caps. sobre teoría clásica)</li>
+        <li style="margin-bottom: 12px;"><strong>Complementaria</strong>: Leontief, W. (1953) — "Domestic Production and Foreign Trade: The American Capital Position Re-Examined", <em>Proceedings of the American Philosophical Society</em> (en inglés, 10 páginas). El paper original de la Paradoja de Leontief</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 25: ¿Preguntas? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.5rem; font-weight: 600;">
+      ¿Preguntas?
+    </h1>
+    <div style="color: #4B5563; font-size: 1.3rem; margin-top: 20px;">Economía Internacional — UMET 2026</div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 6</span>
+  <span id="slide-counter">1 / 25</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') showSlide(current + 1);
+    else if (e.key === 'ArrowLeft') showSlide(current - 1);
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0);
+    else if (e.key === 'End') showSlide(slides.length - 1);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) showSlide(current + 1);
+      else showSlide(current - 1);
+    }
+  });
+</script>
+
+</body>
+</html>

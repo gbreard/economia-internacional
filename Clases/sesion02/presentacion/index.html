@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true}]});"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    body.print-mode .prog-step { display: flex !important; }
+    body.print-mode .step-indicator { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+      .prog-step { display: flex !important; }
+      .step-indicator { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Economía Internacional — Clase 2 -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional — Clase 2
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Del mercantilismo a Ricardo: productividad, costos relativos y ganancias del comercio
+    </div>
+    <div style="color: #4B5563; font-size: 1.2rem; margin: 0 0 15px 0;">26 de marzo de 2026</div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: Unidad 2: ¿Por qué comercian los países? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Unidad 2: ¿Por qué comercian los países?
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/unidad2_mapa.png" alt="Unidad 2: ¿Por qué comercian los países?"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Clase 2</strong> (hoy): Mercantilistas y Smith — comercio, productividad. Ricardo — costos relativos y ganancias del comercio</li>
+          <li style="margin-bottom: 6px;"><strong>Clase 3</strong>: Modelo neoclásico — dotaciones de recursos. Heckscher-Ohlin — factores y distribución</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: Agenda de hoy -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      Agenda de hoy
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+        <li style="margin-bottom: 15px;">El debate fundacional: mercantilistas vs Adam Smith</li>
+        <li style="margin-bottom: 15px;">División del trabajo, ventaja absoluta y sus límites</li>
+        <li style="margin-bottom: 15px;">David Ricardo: contexto político y las Corn Laws</li>
+        <li style="margin-bottom: 15px;">Ventaja comparativa: costos de oportunidad y ganancias del comercio</li>
+        <li style="margin-bottom: 15px;">De la teoría a los datos: ventaja comparativa revelada (RCA)</li>
+        <li style="margin-bottom: 15px;">Cierre: qué explica Ricardo y qué deja abierto</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: El mundo mercantilista (siglos XVI-XVIII) -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      El mundo mercantilista (siglos XVI-XVIII)
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Comercio como instrumento de poder</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_mercantilista_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">No es una "escuela" unificada: son ideas compartidas por asesores de cortes europeas</li>
+            <li style="margin-bottom: 6px;"><strong>Idea central</strong>: la riqueza de una nación = acumulación de metales (oro y plata)</li>
+            <li style="margin-bottom: 6px;">El objetivo: <strong>superávit comercial</strong> → entra oro al país</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_mercantilista_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">El oro financia <strong>poder militar</strong> (ejércitos, armadas)</li>
+            <li style="margin-bottom: 6px;">El poder permite controlar <strong>colonias</strong> y rutas comerciales</li>
+            <li style="margin-bottom: 6px;">Contexto: imperios coloniales, competencia entre potencias europeas</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_mercantilista_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Las colonias generan más superávit → el ciclo se retroalimenta</li>
+            <li style="margin-bottom: 6px;">Comercio = <strong>juego de suma cero</strong>: si uno gana, otro pierde</li>
+            <li style="margin-bottom: 6px;">La riqueza no se crea, se redistribuye entre potencias</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 5: Mercantilismo: políticas y lógica -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Mercantilismo: políticas y lógica
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El "manual" del comercio como poder</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Objetivo</strong>: superávit comercial permanente (exportar más que importar)</li>
+        <li style="margin-bottom: 12px;"><strong>Aranceles y prohibiciones</strong>: proteger producción nacional, limitar importaciones</li>
+        <li style="margin-bottom: 12px;"><strong>Monopolios comerciales</strong>: compañías con exclusividad (East India Co., VOC holandesa)</li>
+        <li style="margin-bottom: 12px;"><strong>Colonias como mercado cautivo</strong>: fuente de materias primas + destino de manufacturas</li>
+        <li style="margin-bottom: 12px;"><strong>Navigation Acts</strong> (Inglaterra, 1651): solo barcos ingleses pueden comerciar con colonias</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 6: Tecnología, Reglas y Poder: dos visiones del comercio -->
+
+  <section class="slide" data-steps="2" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Tecnología, Reglas y Poder: dos visiones del comercio
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">El mismo marco de la Clase 1, distinto peso</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/trp_mercantilismo_smith_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia a partir del marco de Clase 1</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Mercantilismo</strong>: Poder domina → Reglas restrictivas → Tecnología secundaria</li>
+            <li style="margin-bottom: 6px;">En la Clase 1 usamos T-R-P para leer la HISTORIA; ahora lo usamos para leer las TEORÍAS</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/trp_mercantilismo_smith_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia a partir del marco de Clase 1</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Smith</strong>: Tecnología domina (productividad) → Reglas deben liberalizarse → Poder no debe distorsionar</li>
+            <li style="margin-bottom: 6px;">No es que uno tenga "razón" y otro no: cada uno mira el comercio desde un lugar distinto</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 2
+    </div>
+  </section>
+
+  <!-- SLIDE 7: Adam Smith (1776): una nueva idea de "riqueza" -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Adam Smith (1776): una nueva idea de "riqueza"
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../img/wealth_of_nations.jpg" alt="Adam Smith (1776): una nueva idea de "riqueza""
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (1776)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;"><strong>Mercantilismo</strong>: riqueza = metales (oro/plata) + poder del Estado</li>
+          <li style="margin-bottom: 6px;"><strong>Smith</strong>: riqueza = capacidad de producir bienes y servicios (ingreso real)</li>
+          <li style="margin-bottom: 6px;">El comercio no es juego de suma cero → puede ser <strong>mutuamente beneficioso</strong></li>
+          <li style="margin-bottom: 6px;">El problema no es "vender más que el otro" sino <strong>producir más con el mismo trabajo</strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 8: División del trabajo: el motor de la productividad -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      División del trabajo: el motor de la productividad
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">El mecanismo central de Smith</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/division_trabajo_diagrama_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Comercio (interno y externo) <strong>amplía el mercado</strong></li>
+            <li style="margin-bottom: 6px;">Mercado más grande → más oportunidades de <strong>especialización</strong></li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/division_trabajo_diagrama_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Especialización</strong> → más <strong>productividad</strong> → más <strong>riqueza</strong></li>
+            <li style="margin-bottom: 6px;">El ciclo se retroalimenta: riqueza genera más comercio → más especialización</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/division_trabajo_diagrama_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Tres razones de Smith: más <strong>destreza</strong>, ahorro de <strong>tiempos</strong>, <strong>innovación</strong> en herramientas</li>
+            <li style="margin-bottom: 6px;">Pero la especialización tiene un límite: <strong>el tamaño del mercado</strong></li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 9: "La división del trabajo está limitada por la extensión del mercado" -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      "La división del trabajo está limitada por la extensión del mercado"
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">¿Por qué el comercio internacional importa para Smith?</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/comercio_britanico_1800_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Federico-Tena World Trade Historical Database</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Gran Bretaña siglo XIX: las <strong>importaciones</strong> crecen sostenidamente</li>
+            <li style="margin-bottom: 6px;">Sin comercio, el mercado es solo el mercado interno</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/comercio_britanico_1800_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Federico-Tena World Trade Historical Database</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Las <strong>exportaciones</strong> y el <strong>comercio total</strong> acompañan el crecimiento</li>
+            <li style="margin-bottom: 6px;">El comercio imperial amplió mercados y acompañó la Revolución Industrial</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/comercio_britanico_1800_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Federico-Tena World Trade Historical Database</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Guerras Napoleónicas y Corn Laws marcaron quiebres en la trayectoria</li>
+            <li style="margin-bottom: 6px;">Lección smithiana: <strong>comercio → mercado más grande → especialización → productividad → riqueza</strong></li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 10: Ventaja absoluta: ¿por qué ambos ganan con el comercio? -->
+
+  <section class="slide" data-steps="2" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Ventaja absoluta: ¿por qué ambos ganan con el comercio?
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Autarquía vs. comercio — la ganancia se hace visible</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ventaja_absoluta_ejemplo_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Ventaja absoluta</strong>: un país produce un bien con menos trabajo que otro</li>
+            <li style="margin-bottom: 6px;">A necesita 2 hs por tela (B necesita 4) → A tiene ventaja en tela</li>
+            <li style="margin-bottom: 6px;">B necesita 3 hs por vino (A necesita 6) → B tiene ventaja en vino</li>
+            <li style="margin-bottom: 6px;">En <strong>autarquía</strong> cada país reparte su tiempo → produce poco de ambos</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ventaja_absoluta_ejemplo_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Con <strong>comercio</strong>: cada uno se especializa + intercambian</li>
+            <li style="margin-bottom: 6px;">A dedica todo a tela (6T), B a vino (4V), intercambian 3T ↔ 2V</li>
+            <li style="margin-bottom: 6px;"><strong>Resultado</strong>: ambos terminan con 3T + 2V — <strong>más que en autarquía</strong></li>
+            <li style="margin-bottom: 6px;">B ganó +1,5 telas, A ganó +1 vino</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 2
+    </div>
+  </section>
+
+  <!-- SLIDE 11: Smith y la política comercial: no es dogma -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Smith y la política comercial: no es dogma
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Crítica a restricciones... con matices</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Crítica a monopolios</strong>: distorsionan precios y frenan competencia</li>
+        <li style="margin-bottom: 12px;"><strong>Crítica a restricciones coloniales</strong>: benefician a grupos específicos, no al bienestar general</li>
+        <li style="margin-bottom: 12px;">Pero Smith reconoce excepciones: defensa nacional, represalia, industrias estratégicas</li>
+        <li style="margin-bottom: 12px;">El debate no es "libre comercio sí o no" sino <strong>¿quién gana y quién pierde con cada restricción?</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 12: ¿Y si un país es mejor en todo? -->
+
+  <section class="slide" data-steps="2" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      ¿Y si un país es mejor en todo?
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">El límite de la ventaja absoluta</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/limite_smith_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">A produce tela con 1 h y vino con 2 h. B necesita 6 y 8 h → A tiene ventaja absoluta en <strong>ambos</strong></li>
+            <li style="margin-bottom: 6px;">En autarquía: A produce 6T y 3V, B apenas 1T y 0,75V</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/limite_smith_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Según Smith, A debería producir todo. ¿Entonces B no exporta nada?</li>
+            <li style="margin-bottom: 6px;">Pero en la realidad <strong>sí hay comercio</strong> entre países desiguales → Smith no tiene respuesta</li>
+            <li style="margin-bottom: 6px;"><strong>Ricardo resuelve este problema</strong> → lo que importa es el costo de oportunidad</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 2
+    </div>
+  </section>
+
+  <!-- SLIDE 13: Lo que Smith nos deja -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lo que Smith nos deja
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Mercantilismo</strong>: comercio = poder, riqueza = oro, juego de suma cero</li>
+        <li style="margin-bottom: 12px;"><strong>Smith</strong>: riqueza = productividad, comercio amplía mercado → más división del trabajo</li>
+        <li style="margin-bottom: 12px;"><strong>Ventaja absoluta</strong>: cada país produce lo que hace más barato (caso simple)</li>
+        <li style="margin-bottom: 12px;"><strong>Límite</strong>: si uno es mejor en todo, Smith no alcanza → entra Ricardo</li>
+        <li style="margin-bottom: 12px;"><strong>T-R-P</strong>: mercantilistas pesan poder, Smith pesa tecnología — cada teoría tiene su lente</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 14: De Smith a Ricardo -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      De Smith a Ricardo
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">¿Qué pasa cuando un país es mejor en todo?</div>
+  </section>
+
+  <!-- SLIDE 15: El problema que Smith dejó abierto -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      El problema que Smith dejó abierto
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+        <li style="margin-bottom: 12px;">A: Tela = 1 hora, Vino = 2 horas</li>
+        <li style="margin-bottom: 12px;">B: Tela = 6 horas, Vino = 8 horas</li>
+        <li style="margin-bottom: 12px;">A tiene <strong>ventaja absoluta en ambos bienes</strong></li>
+        <li style="margin-bottom: 12px;">Smith no puede explicar por qué B exportaría algo</li>
+        <li style="margin-bottom: 12px;"><strong>Ahora: Ricardo resuelve este problema</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 16: David Ricardo (1772-1823) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      David Ricardo (1772-1823)
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../img/ricardo_portrait.jpg" alt="David Ricardo (1772-1823)"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Retrato por Thomas Phillips (1821), National Portrait Gallery, Londres</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">Londres, 1772. Hijo de familia <strong>judía sefardí</strong> de origen holandés. Trabajó en la Bolsa de Londres desde los 14 años</li>
+          <li style="margin-bottom: 6px;">A los 21 se casa fuera de la fe, rompe con su familia y se hace <strong>rico por cuenta propia</strong> como corredor de bolsa</li>
+          <li style="margin-bottom: 6px;">A los 27 lee <em>La Riqueza de las Naciones</em> de Smith y se vuelca a la <strong>economía política</strong></li>
+          <li style="margin-bottom: 6px;">Obra principal: <strong><em>Principios de economía política y tributación</em></strong> (1817) — distribución del ingreso entre renta, ganancias y salarios</li>
+          <li style="margin-bottom: 6px;"><strong>Parlamentario</strong> (1819-1823): defendió el libre comercio contra las Corn Laws</li>
+          <li style="margin-bottom: 6px;">Su argumento de <strong>ventaja comparativa</strong> sigue siendo uno de los más citados en toda la economía — 200 años después</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 17: Ricardo (1817): libre comercio en medio de un conflicto distributivo -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Ricardo (1817): libre comercio en medio de un conflicto distributivo
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Las Corn Laws y el precio del pan</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/corn_laws_conflicto_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Tres actores con intereses opuestos: <strong>terratenientes</strong>, <strong>industriales</strong> y <strong>trabajadores</strong></li>
+            <li style="margin-bottom: 6px;">El ingreso se distribuye entre renta, ganancia y salarios</li>
+            <li style="margin-bottom: 6px;">¿Qué pasa cuando se protege el grano importado?</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/corn_laws_conflicto_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>1815</strong>: se aprueban las <strong>Corn Laws</strong> → protegen precio del grano</li>
+            <li style="margin-bottom: 6px;">Terratenientes: renta <strong>SUBE</strong> (beneficiados)</li>
+            <li style="margin-bottom: 6px;">Industriales y trabajadores: <strong>PIERDEN</strong> (alimentos caros)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/corn_laws_conflicto_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">La cadena causal: protección → precio alimentos ↑ → costo de vida ↑ → salarios presionados → ganancia industrial ↓</li>
+            <li style="margin-bottom: 6px;">Ricardo: la ventaja comparativa es el argumento <strong>técnico</strong> para abrir el comercio</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 18: La gran pregunta de Ricardo: renta, salarios y ganancias -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      La gran pregunta de Ricardo: renta, salarios y ganancias
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">El comercio no es neutral — cambia la distribución</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">Ricardo organiza la economía por <strong>tres ingresos</strong>: renta (tierra), salarios (trabajo), ganancias (capital)</li>
+        <li style="margin-bottom: 12px;">Si sube el precio del grano → sube costo de vida → presión sobre salarios → <strong>cae la ganancia industrial</strong></li>
+        <li style="margin-bottom: 12px;">Protección agrícola → beneficia terratenientes, perjudica a industriales y trabajadores</li>
+        <li style="margin-bottom: 12px;"><strong>El comercio redistribuye</strong>: importar grano barato → baja renta, sube ganancia, abarata consumo</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 19: Autarquía: el punto de partida -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Autarquía: el punto de partida
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Cada país solo, con sus propios precios</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Autarquía</strong> = economía cerrada: todo lo que consume se produce internamente</li>
+        <li style="margin-bottom: 12px;">En autarquía, cada país tiene un <strong>precio relativo interno</strong> (determinado por su tecnología)</li>
+        <li style="margin-bottom: 12px;"><strong>Precio relativo</strong> = cuánto de un bien "cuesta" en términos del otro</li>
+        <li style="margin-bottom: 12px;"><strong>Costo de oportunidad</strong> = cuántas unidades del otro bien sacrifico para producir 1 unidad de este</li>
+        <li style="margin-bottom: 12px;">Si los precios relativos son <strong>distintos</strong> entre países → hay incentivo a comerciar</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 20: Costos de oportunidad: ¿qué sacrifica cada país? -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Costos de oportunidad: ¿qué sacrifica cada país?
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Los mismos números de hace un rato, distinta lectura</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/costo_oportunidad_tabla_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">A es mejor en <strong>ambos</strong> bienes (ventaja absoluta en todo)</li>
+            <li style="margin-bottom: 6px;">B no tiene ventaja absoluta en nada</li>
+            <li style="margin-bottom: 6px;">Pregunta clave: ¿qué <strong>sacrifica</strong> cada país al producir?</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/costo_oportunidad_tabla_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>País A</strong>: 1 Tela cuesta 0,5 Vinos. 1 Vino cuesta 2 Telas</li>
+            <li style="margin-bottom: 6px;"><strong>País B</strong>: 1 Tela cuesta 0,75 Vinos. 1 Vino cuesta 1,33 Telas</li>
+            <li style="margin-bottom: 6px;">A sacrifica <strong>menos</strong> para Tela (0,5 &lt; 0,75)</li>
+            <li style="margin-bottom: 6px;">B sacrifica <strong>menos</strong> para Vino (1,33 &lt; 2)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/costo_oportunidad_tabla_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Ventaja comparativa</strong>: A exporta Tela, B exporta Vino</li>
+            <li style="margin-bottom: 6px;">B tiene algo para exportar — donde su desventaja es <strong>menor</strong></li>
+            <li style="margin-bottom: 6px;">No importa ser el mejor en absoluto — importa en qué sacrificás menos</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 21: El precio mundial: ¿de dónde sale? -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      El precio mundial: ¿de dónde sale?
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Cuando dos países se abren al comercio, aparece un precio internacional</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/terminos_intercambio_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">En autarquía, A valúa 1 Vino = <strong>2 Telas</strong> (su costo de oportunidad)</li>
+            <li style="margin-bottom: 6px;">Este es el <strong>precio de referencia</strong> de A — si el precio es mayor, A prefiere producirlo</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/terminos_intercambio_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">B valúa 1 Vino = <strong>1,33 Telas</strong> — su costo de oportunidad es menor</li>
+            <li style="margin-bottom: 6px;">El rango <strong>1,33 &lt; P &lt; 2</strong> es la zona donde ambos ganan comerciando</li>
+            <li style="margin-bottom: 6px;">Fuera del rango, uno de los dos prefiere no comerciar</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/terminos_intercambio_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Precio mundial P = 1,6</strong>: A ahorra 0,4T por vino, B gana 0,27T extra</li>
+            <li style="margin-bottom: 6px;">Ambos están <strong>mejor</strong> que en autarquía — el precio intermedio lo hace posible</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 22: Ventaja comparativa en acción: autarquía vs comercio -->
+
+  <section class="slide" data-steps="2" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Ventaja comparativa en acción: autarquía vs comercio
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Con precio mundial P = 1,6, ambos terminan con más (dotación: 48 horas)</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ventaja_comparativa_resultado_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Autarquía</strong> (50/50): A produce 24T + 12V, B produce 4T + 3V</li>
+            <li style="margin-bottom: 6px;">A es mucho más productivo — pero ¿puede B ganar del comercio?</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ventaja_comparativa_resultado_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>Con comercio</strong>: A se especializa en Tela (48T), B en Vino (6V)</li>
+            <li style="margin-bottom: 6px;">A: 28,8T + 12V → ganó <strong>+4,8 telas</strong> manteniendo el mismo vino</li>
+            <li style="margin-bottom: 6px;">B: 4,8T + 3V → ganó <strong>+0,8 telas</strong> manteniendo el mismo vino</li>
+            <li style="margin-bottom: 6px;"><strong>Ambos ganan</strong> — el precio mundial intermedio lo hace posible</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 2
+    </div>
+  </section>
+
+  <!-- SLIDE 23: Frontera de Posibilidades de Producción (PPF) -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Frontera de Posibilidades de Producción (PPF)
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Todo lo que un país puede producir con sus recursos</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;"><strong>PPF</strong> = combinaciones máximas de producción dados los recursos</li>
+        <li style="margin-bottom: 14px;">Con 48 horas de trabajo, la restricción es: <span class="katex-inline">\(a_{LT} \times T + a_{LV} \times V = L\)</span></li>
+        <li style="margin-bottom: 14px;"><strong>País A</strong> (Tela=1h, Vino=2h): <span class="katex-inline">\(T + 2V = 48\)</span> → máx T = 48, máx V = 24</li>
+        <li style="margin-bottom: 14px;"><strong>País B</strong> (Tela=6h, Vino=8h): <span class="katex-inline">\(6T + 8V = 48\)</span> → máx T = 8, máx V = 6</li>
+        <li style="margin-bottom: 14px;">La <strong>pendiente</strong> de la PPF = costo de oportunidad = precio relativo en autarquía</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 24: País A: consumir más allá de lo que puede producir -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      País A: consumir más allá de lo que puede producir
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">La línea de intercambio "sale" de la PPF</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ppf_pais_a_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>PPF de A</strong>: recta de (T=48, V=0) a (T=0, V=24)</li>
+            <li style="margin-bottom: 6px;">Pendiente = -2 → costo de oportunidad interno</li>
+            <li style="margin-bottom: 6px;">Todo lo que A puede producir en autarquía</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ppf_pais_a_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">En autarquía (50/50): A consume V=10, T=28 — sobre la PPF</li>
+            <li style="margin-bottom: 6px;">No puede consumir fuera de la frontera</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ppf_pais_a_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">A se especializa en Tela (48T) y compra Vino a P=1,6</li>
+            <li style="margin-bottom: 6px;"><strong>Línea de intercambio</strong> más plana que PPF → nuevas combinaciones</li>
+            <li style="margin-bottom: 6px;">Para V=10: comercio T=32 vs autarquía T=28 → <strong>ganancia = +4T</strong></li>
+            <li style="margin-bottom: 6px;">La zona sombreada = combinaciones <strong>imposibles</strong> en autarquía</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 25: País B también gana: comercio como nueva frontera -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      País B también gana: comercio como nueva frontera
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Incluso siendo menos productivo en todo, B consume más con comercio</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ppf_pais_b_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;"><strong>PPF de B</strong>: recta de (T=8, V=0) a (T=0, V=6)</li>
+            <li style="margin-bottom: 6px;">Pendiente = -1,33 → costo de oportunidad interno</li>
+            <li style="margin-bottom: 6px;">B es menos productivo en todo — su PPF es mucho más chica</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ppf_pais_b_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">En autarquía (50/50): B consume V=3, T=4 — sobre la PPF</li>
+            <li style="margin-bottom: 6px;">No puede consumir fuera de su (pequeña) frontera</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ppf_pais_b_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">B se especializa en Vino (6V) y vende a P=1,6</li>
+            <li style="margin-bottom: 6px;">Intercepto T con comercio: <strong>9,6</strong> &gt; 8 (máx en autarquía)</li>
+            <li style="margin-bottom: 6px;">Para V=3: comercio T=4,8 vs autarquía T=4 → <strong>ganancia = +0,8T</strong></li>
+            <li style="margin-bottom: 6px;">El "peor en todo" <strong>también gana</strong> con el comercio</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 26: Ricardo en un slide: el mecanismo completo -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Ricardo en un slide: el mecanismo completo
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">De la autarquía a las ganancias del comercio</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/resumen_ricardo_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Tecnología <strong>distinta</strong> entre países → costos de oportunidad <strong>distintos</strong></li>
+            <li style="margin-bottom: 6px;">Cada país tiene ventajas y desventajas relativas</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/resumen_ricardo_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Los CO distintos generan precios relativos en autarquía <strong>distintos</strong></li>
+            <li style="margin-bottom: 6px;">Eso define la <strong>especialización</strong> (ventaja comparativa)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/resumen_ricardo_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Comercian a un <strong>precio mundial intermedio</strong> → ambos consumen fuera de su PPF</li>
+            <li style="margin-bottom: 6px;"><strong>Resultado</strong>: ganancias del comercio para AMBOS, incluso si uno es "mejor en todo"</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 27: ¿Cómo "vemos" la ventaja comparativa en datos? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      ¿Cómo "vemos" la ventaja comparativa en datos?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Índice de Balassa (1965): Ventaja Comparativa Revelada (RCA)</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;">Ricardo habla de ventajas comparativas → pero ¿cómo las medimos?</li>
+        <li style="margin-bottom: 14px;"><strong>Béla Balassa</strong> (1965): propone "revelar" la ventaja a partir de lo que efectivamente se exporta</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(RCA_{i,k} = \frac{X_{i,k} / X_{i}}{X_{w,k} / X_{w}}\)</span> → participación del producto en exportaciones del país vs del mundo</li>
+        <li style="margin-bottom: 14px;"><strong>RCA &gt; 1</strong>: el país exporta ese bien más que el promedio mundial → <strong>especialización</strong></li>
+        <li style="margin-bottom: 14px;"><strong>RCA &lt; 1</strong>: el país está menos especializado que el mundo en ese bien</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 28: Argentina: ¿qué revela su patrón exportador? -->
+
+  <section class="slide" data-steps="3" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Argentina: ¿qué revela su patrón exportador?
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Composición de exportaciones y especialización sectorial</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/rca_argentina_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia a partir de datos WITS / Banco Mundial</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Exportaciones argentinas: fuerte concentración en <strong>productos primarios y agroindustriales</strong></li>
+            <li style="margin-bottom: 6px;">Soja, cereales, carne, aceites dominan la canasta exportadora</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/rca_argentina_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia a partir de datos WITS / Banco Mundial</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Sectores con <strong>RCA &gt; 1</strong>: productos primarios y agroindustriales — especialización revelada</li>
+            <li style="margin-bottom: 6px;">Argentina exporta proporcionalmente más que el mundo en estos rubros</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/rca_argentina_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia a partir de datos WITS / Banco Mundial</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Sectores con <strong>RCA &lt; 1</strong>: manufacturas industriales (maquinaria, electrónica, automotriz)</li>
+            <li style="margin-bottom: 6px;">Pregunta ricardiana: ¿es tecnología o es dotación + historia + política?</li>
+            <li style="margin-bottom: 6px;">El RCA <strong>cambia en el tiempo</strong>: refleja transformaciones productivas y política comercial</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 3
+    </div>
+  </section>
+
+  <!-- SLIDE 29: Ricardo: motor potente, preguntas abiertas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Ricardo: motor potente, preguntas abiertas
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Cada pregunta abre una clase futura</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Explica</strong>: por qué hay comercio incluso entre países muy desiguales. Mecanismo: costos relativos → especialización → ganancias mutuas</li>
+        <li style="margin-bottom: 12px;"><strong>¿De dónde sale la ventaja comparativa si no es solo tecnología?</strong> → Heckscher-Ohlin (Clase 3)</li>
+        <li style="margin-bottom: 12px;"><strong>¿Quién gana y quién pierde dentro del país?</strong> → Stolper-Samuelson (Clase 3), política comercial (Clase 10)</li>
+        <li style="margin-bottom: 12px;"><strong>¿Por qué hay comercio entre países parecidos y dentro del mismo sector?</strong> → Comercio intraindustrial (Clase 4)</li>
+        <li style="margin-bottom: 12px;"><strong>¿Qué pasa con costos de transporte, empresas dominantes, cadenas globales?</strong> → Firmas heterogéneas, CGV (Clase 5)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 30: Lo que vimos hoy -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lo que vimos hoy
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Mercantilismo</strong>: comercio = poder, riqueza = oro, juego de suma cero</li>
+        <li style="margin-bottom: 12px;"><strong>Smith</strong>: riqueza = productividad, comercio amplía mercado → división del trabajo → eficiencia</li>
+        <li style="margin-bottom: 12px;"><strong>Ventaja absoluta</strong>: cada país produce lo que hace más barato — pero si uno es mejor en todo, no cierra</li>
+        <li style="margin-bottom: 12px;"><strong>Ricardo</strong>: lo que importa es el <strong>costo de oportunidad</strong> (relativo), no la eficiencia absoluta</li>
+        <li style="margin-bottom: 12px;"><strong>Modelo ricardiano</strong>: precios relativos en autarquía → especialización → comercio a precio intermedio → <strong>ganancias mutuas</strong></li>
+        <li style="margin-bottom: 12px;"><strong>PPF + línea de intercambio</strong>: herramienta gráfica que muestra cómo ambos consumen más</li>
+        <li style="margin-bottom: 12px;"><strong>RCA (Balassa)</strong>: herramienta para "ver" la ventaja comparativa en datos reales</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 31: Lecturas para esta clase -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Lecturas para esta clase
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Bibliografía del curso</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>Lugones, G. et al.</strong> — Teorías del Comercio Internacional: sección sobre mercantilismo, Smith, Ricardo, ventaja absoluta y ventaja comparativa</li>
+        <li style="margin-bottom: 12px;"><strong>Krugman, Obstfeld &amp; Melitz</strong> — Economía Internacional: capítulo 3 (modelo ricardiano, PPF, ganancias del comercio)</li>
+        <li style="margin-bottom: 12px;">Para contexto histórico: revisar notas de Clase 1 (etapas del comercio, marco T-R-P)</li>
+        <li style="margin-bottom: 12px;"><strong>Balassa, B. (1965)</strong> — "Trade Liberalisation and 'Revealed' Comparative Advantage" (The Manchester School) — lectura opcional</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 32: Guía de lectura: preguntas para orientar el estudio -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Guía de lectura: preguntas para orientar el estudio
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Lugones Cap. 1 (pp. 13-30) y Krugman Cap. 3</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">¿Qué entiende Smith por "riqueza" y en qué se diferencia de la visión mercantilista?</li>
+        <li style="margin-bottom: 12px;">¿Por qué la división del trabajo depende del tamaño del mercado? ¿Qué rol cumple el comercio?</li>
+        <li style="margin-bottom: 12px;">¿Cuál es la diferencia entre ventaja absoluta y ventaja comparativa? ¿Por qué la segunda es más potente?</li>
+        <li style="margin-bottom: 12px;">En el modelo ricardiano, ¿de dónde surgen las diferencias de precios relativos entre países?</li>
+        <li style="margin-bottom: 12px;">¿Qué condiciones debe cumplir el precio mundial para que ambos países ganen con el comercio?</li>
+        <li style="margin-bottom: 12px;">¿Qué es la Frontera de Posibilidades de Producción y por qué con comercio se puede consumir "fuera" de ella?</li>
+        <li style="margin-bottom: 12px;">Pensando en Argentina: ¿su patrón exportador refleja ventajas comparativas genuinas o hay otros factores en juego?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 33: Material complementario -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Material complementario
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Videos y documentales recomendados</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;"><strong>"Commanding Heights: The Battle for the World Economy"</strong> (PBS, 2002, Ep. 1) — De mercantilismo a Bretton Woods: el debate de ideas que define políticas comerciales</li>
+        <li style="margin-bottom: 12px;"><strong>Ray Dalio — "Principles for Dealing with the Changing World Order"</strong> (YouTube, 43 min) — Ciclos de poder y comercio a lo largo de la historia</li>
+        <li style="margin-bottom: 12px;"><strong>"The Ascent of Money"</strong> (Niall Ferguson, 2008) — Historia financiera: cómo el comercio y las finanzas transforman las naciones</li>
+        <li style="margin-bottom: 12px;"><strong>"Conociendo al capital: David Ricardo"</strong> (Canal Encuentro, 26 min, en español) — Documental argentino sobre Ricardo y su contribución a la economía política</li>
+        <li style="margin-bottom: 12px;"><strong>"Capitalism" Ep.3: Ricardo and Malthus</strong> (Ilan Ziv, 2014, 52 min) — Con entrevistas a Piketty, Varoufakis y Chomsky</li>
+        <li style="margin-bottom: 12px;"><strong>"The Deceptive Promise of Free Trade"</strong> (DW Documentary, 2018, YouTube, 43 min) — Crítica al libre comercio: la brecha entre teoría ricardiana y realidad</li>
+        <li style="margin-bottom: 12px;"><strong>Khan Academy: Ventaja comparativa</strong> (khanacademy.org, en español, 10-15 min) — Ejercicios numéricos para reforzar costos de oportunidad y PPF</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 34: Próxima clase: modelo neoclásico y Heckscher-Ohlin -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      Próxima clase: modelo neoclásico y Heckscher-Ohlin
+    </h2>
+    <div style="color: #4B5563; font-size: 1.1rem; margin-bottom: 25px;">Clase 3 — 9 de abril</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 12px;">¿Y si la ventaja comparativa no viene de la tecnología sino de los <strong>factores de producción</strong>?</li>
+        <li style="margin-bottom: 12px;">Modelo neoclásico estándar: curvas de transformación y precios relativos</li>
+        <li style="margin-bottom: 12px;"><strong>Heckscher-Ohlin</strong>: tierra, trabajo y capital como fuente de especialización</li>
+        <li style="margin-bottom: 12px;">Stolper-Samuelson: ¿quién gana y quién pierde dentro del país?</li>
+        <li style="margin-bottom: 12px;">Paradoja de Leontief: cuando la teoría no cuadra con los datos</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 35: ¿Preguntas? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.5rem; font-weight: 600;">
+      ¿Preguntas?
+    </h1>
+    <div style="color: #4B5563; font-size: 1.3rem; margin-top: 20px;">Economía Internacional | Clase 2</div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 2</span>
+  <span id="slide-counter">1 / 35</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let currentStep = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function getTotalSteps(idx) {
+    const attr = slides[idx].getAttribute('data-steps');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showStep(slideIdx, stepIdx) {
+    const steps = slides[slideIdx].querySelectorAll('.prog-step');
+    if (steps.length === 0) return;
+    steps.forEach((s, i) => {
+      s.style.display = i === stepIdx ? 'flex' : 'none';
+    });
+    const cur = slides[slideIdx].querySelector('.step-current');
+    if (cur) cur.textContent = stepIdx + 1;
+  }
+
+  function showSlide(n, fromEnd) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0) {
+      currentStep = fromEnd ? totalSteps - 1 : 0;
+      showStep(current, currentStep);
+    } else {
+      currentStep = 0;
+    }
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function advance() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep < totalSteps - 1) {
+      currentStep++;
+      showStep(current, currentStep);
+      return;
+    }
+    showSlide(current + 1, false);
+  }
+
+  function goBack() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep > 0) {
+      currentStep--;
+      showStep(current, currentStep);
+      return;
+    }
+    showSlide(current - 1, true);
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+      const totalSteps = getTotalSteps(current);
+      if (totalSteps > 0) showStep(current, currentStep);
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') advance();
+    else if (e.key === 'ArrowLeft') goBack();
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0, false);
+    else if (e.key === 'End') showSlide(slides.length - 1, true);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) advance();
+      else goBack();
+    }
+  });
+</script>
+
+</body>
+</html>

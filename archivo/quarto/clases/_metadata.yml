@@ -1,0 +1,8 @@
+# Configuración común para todas las clases
+# Cambios acá aplican a clase01.qmd, clase02.qmd, etc.
+
+format: revealjs
+bibliography: ../referencias.bib
+
+# Autor por defecto
+author: "UMET - Licenciatura en Economia"

@@ -1,0 +1,748 @@
+{
+  "metadata": {
+    "clase": "Clases 1+2",
+    "titulo": "Indicadores y Hechos Estilizados del Comercio Internacional",
+    "duracion": "4 horas",
+    "total_slides": 53
+  },
+  "slides": [
+    {
+      "numero": 1,
+      "tipo": "portada",
+      "titulo": "Economía Internacional — Clase 1",
+      "subtitulo": "El comercio mundial: auge, colapso y preguntas abiertas",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "APERTURA DE CLASE (5-10 minutos)\n\nPresentarse y presentar el curso. Esta es una materia que combina teoría económica con historia y análisis empírico.\n\nOBJETIVO DE ESTAS DOS PRIMERAS CLASES: Que los estudiantes salgan con un \"kit de herramientas\" (9 indicadores) y una visión panorámica de la historia del comercio mundial.\n\nPREGUNTA DISPARADORA para arrancar: \"¿Cuánto creen que creció el comercio mundial en los últimos 200 años? ¿El doble? ¿Diez veces? ¿Cien veces?\"\n\nLa respuesta (más de 400 veces en términos reales) suele sorprender y sirve para mostrar que el comercio internacional es un fenómeno que transformó radicalmente el mundo.\n\nCONTEXTO ACTUAL: Mencionar brevemente las tensiones actuales (guerra comercial EEUU-China, nearshoring, disrupciones de pandemia) para mostrar que el tema es relevante HOY.\n\nSi hay estudiantes que trabajan en comercio exterior, importación/exportación, o sectores exportadores, pedirles que se identifiquen - sus experiencias van a enriquecer la discusión."
+    },
+    {
+      "numero": 2,
+      "tipo": "agenda",
+      "titulo": "Agenda de la clase",
+      "subtitulo": null,
+      "contenido": [
+        "A. Medición: 7 indicadores del comercio",
+        "B. Historia por etapas: 5 etapas del comercio mundial",
+        "C. Balanza de Pagos: cuenta corriente y flujos externos",
+        "D. Tipo de Cambio: nominal vs real, el ITCRM",
+        "E. Desequilibrios Globales: EEUU, China, Alemania",
+        "F. El Caso Argentino: el ciclo apreciación-crisis"
+      ],
+      "visual": null,
+      "notas_docente": "EXPLICAR LA ESTRUCTURA (3 minutos)\n\nLa clase tiene 6 bloques que van de lo general a lo particular:\n\nBLOQUE A - MEDICIÓN: Los indicadores que usamos para analizar el comercio. Es el 'kit de herramientas' del curso.\n\nBLOQUE B - HISTORIA POR ETAPAS: Las etapas del comercio mundial, desde las rutas ibéricas hasta hoy. Marco: Tecnología + Reglas + Poder.\n\nBLOQUE C - BALANZA DE PAGOS: Cómo se registran los flujos de divisas. Cuenta corriente como indicador clave.\n\nBLOQUE D - TIPO DE CAMBIO: La diferencia entre nominal y real. El tipo de cambio real multilateral (ITCRM).\n\nBLOQUE E - DESEQUILIBRIOS GLOBALES: Por qué EEUU siempre tiene déficit y China/Alemania superávit. Implicancias globales.\n\nBLOQUE F - EL CASO ARGENTINO: El 'ciclo argentino' de apreciación-crisis-devaluación. Aplicación de todos los indicadores.\n\nAl final de estas dos clases van a poder:\n1. Calcular e interpretar los 9 indicadores\n2. Describir las 5 etapas históricas del comercio\n3. Explicar el ciclo argentino de apreciación-crisis\n4. Usar el marco Tecnología-Reglas-Poder para analizar cualquier período"
+    },
+    {
+      "numero": 3,
+      "tipo": "seccion",
+      "titulo": "Bloque A: Medición",
+      "subtitulo": "Los indicadores del comercio internacional",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL BLOQUE DE MEDICIÓN (1 minuto)\n\nEnfatizar: \"Sin saber medir, no podemos interpretar. Los datos no hablan solos.\"\n\nANALOGÍA: Es como ir al médico. El médico no dice \"te veo mal\", sino que mide: presión, temperatura, análisis de sangre. Después interpreta. Nosotros vamos a hacer lo mismo con las economías.\n\nADVERTENCIA: Los indicadores que vamos a ver parecen simples, pero tienen sutilezas. Vamos a ir despacio para entenderlos bien."
+    },
+    {
+      "numero": 4,
+      "tipo": "formula",
+      "titulo": "Indicador 1: Índice de comercio mundial",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: I_t = 100 × (Comercio_t / Comercio_1913)",
+        "1913 = 100 (año base, pico antes de la Primera Guerra)",
+        "Si I_t = 50 → comercio es la mitad del de 1913",
+        "Si I_t = 200 → comercio es el doble del de 1913"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 1: ÍNDICE DE COMERCIO (10 minutos)\n\n¿POR QUÉ USAMOS UN ÍNDICE?\n- Problema 1: La inflación distorsiona las comparaciones. US$100 de 1913 no es lo mismo que US$100 de 2024.\n- Problema 2: Las monedas cambian (el dólar de hoy no existía en 1800).\n- Solución: Usar números índice que miden VARIACIÓN respecto a un año base.\n\n¿POR QUÉ 1913 COMO AÑO BASE?\n- 1913 fue el pico de la \"primera globalización\"\n- Último año antes de la Primera Guerra Mundial\n- Es un punto de referencia histórico aceptado internacionalmente\n- Permite ver tanto el crecimiento previo como el colapso posterior\n\nEJEMPLO NUMÉRICO EN PIZARRÓN:\nSi comercio_1913 = 100 (por definición)\nY comercio_1932 = 74\nEntonces el comercio CAYÓ 26% respecto al pico\n\nPREGUNTA PARA ESTUDIANTES: \"¿Por qué creen que el comercio no se recuperó en los años 20, después de terminada la guerra?\"\n\nCONEXIÓN: Este indicador lo vamos a usar para ver el \"gran colapso\" de 1914-1945, uno de los eventos más importantes de la historia económica."
+    },
+    {
+      "numero": 5,
+      "tipo": "grafico_texto",
+      "titulo": "Índice de comercio mundial (1800-1938)",
+      "subtitulo": null,
+      "contenido": [
+        "1800: índice 2.4 (casi nada)",
+        "1870: índice 25 (x10 en 70 años)",
+        "1913: índice 100 (pico)",
+        "1932: índice 74 (colapso -26%)"
+      ],
+      "visual": "graficos/indice_comercio.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "LECTURA DEL GRÁFICO - ÍNDICE DE COMERCIO (8 minutos)\n\nGUÍA PARA LEER EL GRÁFICO:\n1. Eje Y: el índice (1913=100)\n2. Eje X: años desde 1800\n3. Identificar las FASES: crecimiento, pico, colapso\n\nDATOS CLAVE PARA MENCIONAR:\n- 1800: índice 2.4 → el comercio era casi inexistente comparado con 1913\n- 1870: índice 25 → en 70 años se multiplicó por 10\n- 1913: índice 100 → el pico, justo antes de la guerra\n- 1929: índice ~95 → casi recuperado\n- 1932: índice 74 → colapso por la Gran Depresión\n\nPREGUNTA: \"¿Qué pasó entre 1929 y 1932 que hizo caer el comercio tan rápido?\"\n\nRESPUESTA A DESARROLLAR: No fue solo la crisis financiera. Fue la RESPUESTA POLÍTICA a la crisis:\n- Arancel Smoot-Hawley en EEUU (1930): subió aranceles a 20.000 productos\n- Represalias de otros países\n- Espiral proteccionista: cada país intentó \"exportar su desempleo\"\n- Resultado: todos perdieron\n\nANALOGÍA CONTEMPORÁNEA: Es como si hoy EEUU, China y Europa empezaran a subir aranceles simultáneamente. Ah, esperen... algo de eso está pasando.\n\nFUENTE: Federico-Tena World Trade Historical Database - es la mejor base de datos de comercio histórico, construida por historiadores económicos españoles."
+    },
+    {
+      "numero": 6,
+      "tipo": "formula",
+      "titulo": "Indicador 2: Participación regional",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: s_r,t = (X_r,t / X_mundo,t) × 100",
+        "Mide: qué porcentaje del comercio mundial tiene cada región",
+        "Permite ver quién 'gana' y quién 'pierde' participación",
+        "Europa dominó el siglo XIX; Asia creció en el XX"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 2: PARTICIPACIÓN REGIONAL (7 minutos)\n\nCONCEPTO CLAVE: Este indicador mide el \"peso\" de cada región en el comercio mundial. Es como medir qué porcentaje de las ventas de un shopping corresponde a cada local.\n\nFÓRMULA EXPLICADA:\ns_r,t = (X_r,t / X_mundo,t) × 100\n\nDonde:\n- s = share (participación)\n- r = región\n- t = tiempo\n- X = exportaciones\n\nEJEMPLO EN PIZARRÓN:\nSi Europa exporta $60 y el mundo exporta $100 → Europa tiene 60% de participación\n\n¿POR QUÉ IMPORTA?\n- Permite ver CAMBIOS EN EL PODER ECONÓMICO\n- Un país que gana participación está creciendo más rápido que el promedio mundial\n- Un país que pierde participación está quedando atrás (aunque crezca en términos absolutos)\n\nDATO HISTÓRICO: Gran Bretaña tenía ~25% del comercio mundial en 1870. Hoy tiene ~3%. ¿Significa que comercia menos? No, comercia MUCHO más. Pero otros crecieron más rápido.\n\nCONEXIÓN CON ACTUALIDAD: China pasó de 1% del comercio mundial en 1980 a 15% hoy. Es el cambio más rápido de la historia."
+    },
+    {
+      "numero": 7,
+      "tipo": "grafico_texto",
+      "titulo": "Participación regional (1800-1938)",
+      "subtitulo": null,
+      "contenido": [
+        "Europa: 60-70% (domina todo el período)",
+        "Américas: 10-20%",
+        "Asia: 10-15%",
+        "La 'globalización' del XIX era comercio europeo con el mundo"
+      ],
+      "visual": "graficos/participacion_regional.png",
+      "fuente": "FTWTHD",
+      "notas_docente": "LECTURA DEL GRÁFICO - PARTICIPACIÓN REGIONAL (8 minutos)\n\nPUNTOS A DESTACAR:\n1. Europa DOMINABA: 60-70% de todo el comercio era europeo o con Europa\n2. Las Américas eran periféricas: 10-20% (y gran parte era comercio con Europa)\n3. Asia era marginal: 10-15%\n\nLA \"GLOBALIZACIÓN\" DEL SIGLO XIX ERA EUROPEA:\n- No era comercio \"global\" en el sentido actual\n- Era comercio de Europa con sus colonias y ex-colonias\n- El centro estaba en Londres, Liverpool, Hamburgo, Amberes\n- La periferia exportaba materias primas, importaba manufacturas\n\nPREGUNTA PARA REFLEXIÓN: \"¿Por qué Latinoamérica nunca logró tener una participación mayor?\"\n\nPOSIBLES RESPUESTAS A GUIAR:\n- Especialización en materias primas de bajo valor agregado\n- Dependencia de pocos productos (monocultivo)\n- Falta de industrialización\n- Términos del intercambio desfavorables (esto lo vamos a ver con el indicador 7)\n\nCONEXIÓN: Este patrón de centro-periferia es lo que Prebisch y la CEPAL van a teorizar en los años 50. Lo veremos más adelante en el curso."
+    },
+    {
+      "numero": 8,
+      "tipo": "formula",
+      "titulo": "Indicador 3: Concentración (HHI)",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: HHI_t = Σ(s_i,t)²",
+        "HHI cercano a 0 → comercio muy disperso",
+        "HHI cercano a 1 → comercio concentrado en pocos",
+        "También se usa para medir poder de mercado (antimonopolio)"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 3: CONCENTRACIÓN HHI (10 minutos)\n\nCONTEXTO: El HHI (Herfindahl-Hirschman Index) es un indicador que viene de la economía industrial. Se usa para medir concentración de mercado en regulación antimonopolio.\n\nFÓRMULA Y LÓGICA:\nHHI = Σ(s_i)²\n\n¿Por qué elevar al cuadrado?\n- Porque queremos que las participaciones GRANDES pesen más que las chicas\n- Si hay un país con 50% de participación, su contribución al HHI es 0.50² = 0.25\n- Si hay 50 países con 1% cada uno, cada uno contribuye 0.01² = 0.0001\n\nEJEMPLO EN PIZARRÓN:\nCaso A: Un país tiene 100% → HHI = 1² = 1 (máxima concentración)\nCaso B: Cuatro países tienen 25% cada uno → HHI = 4 × (0.25)² = 0.25\nCaso C: Cien países tienen 1% cada uno → HHI = 100 × (0.01)² = 0.01 (muy disperso)\n\nINTERPRETACIÓN:\n- HHI > 0.25: concentración alta\n- HHI 0.15-0.25: concentración moderada\n- HHI < 0.15: mercado competitivo/disperso\n\nAPLICACIÓN AL COMERCIO: Usamos el HHI para ver si el comercio mundial está concentrado en pocos países o disperso entre muchos.\n\nDATO: El HHI del comercio mundial cayó de ~0.15 en 1800 a ~0.05 en 2000. Esto significa que el comercio se fue DIVERSIFICANDO: más países participan."
+    },
+    {
+      "numero": 9,
+      "tipo": "grafico_texto",
+      "titulo": "Concentración del comercio (HHI)",
+      "subtitulo": null,
+      "contenido": [
+        "1800: HHI alto (pocos países comercian)",
+        "1913: HHI más bajo (más países participan)",
+        "1930s: sube levemente (bloques comerciales)",
+        "La diversificación fue un proceso gradual de 100+ años"
+      ],
+      "visual": "graficos/hhi.png",
+      "fuente": "FTWTHD",
+      "notas_docente": "LECTURA DEL GRÁFICO - HHI (5 minutos)\n\nTENDENCIA GENERAL: El HHI baja a lo largo del período → el comercio se diversifica\n\n¿POR QUÉ BAJA?\n- Más países se industrializan y empiezan a exportar\n- Las colonias se independizan y comercian más diversificado\n- Nuevos productos entran al comercio (no solo textiles y materias primas)\n\nANOMALÍA DE LOS AÑOS 30: El HHI SUBE levemente\n- Esto refleja la fragmentación en BLOQUES COMERCIALES\n- Imperio británico comerciaba entre sí (preferencia imperial)\n- Alemania con Europa del Este\n- EEUU con América Latina\n- Japón con Asia\n\nPREGUNTA: \"¿Qué creen que pasó con el HHI después de 1945?\"\n\nRESPUESTA: Siguió bajando, especialmente desde los 80s con la entrada de Asia al comercio mundial.\n\nADVERTENCIA: HHI bajo no significa que todos los países participen IGUAL. La distribución sigue siendo muy desigual. Solo significa que no hay UN país dominante."
+    },
+    {
+      "numero": 10,
+      "tipo": "grafico_texto",
+      "titulo": "Indicador 4: Cobertura de datos",
+      "subtitulo": "Por qué importa la calidad de los datos",
+      "contenido": [
+        "Más cobertura = datos más confiables",
+        "Menos cobertura = estimaciones con más error",
+        "Siempre reportar cobertura de las fuentes",
+        "Los datos históricos tienen limitaciones",
+        "---",
+        "Advertencias al leer series:",
+        "1. Precios vs cantidades en valores nominales",
+        "2. Comercio bruto cuenta insumos varias veces",
+        "3. Series largas mezclan fuentes de distinta calidad"
+      ],
+      "visual": "graficos/cobertura.png",
+      "notas_docente": "INDICADOR 4: COBERTURA DE DATOS (5 minutos)\n\nESTE INDICADOR ES METODOLÓGICO - enseña pensamiento crítico sobre datos.\n\n¿QUÉ ES LA COBERTURA?\n- Porcentaje del comercio mundial que efectivamente está medido\n- Si la cobertura es 80%, el 20% restante es estimación\n\n¿POR QUÉ IMPORTA?\n- Datos con baja cobertura tienen más error\n- Hay que ser cauteloso al interpretar\n- No todos los países reportaban datos (especialmente colonias)\n\nEJEMPLO CONCRETO:\n- Para 1850, la cobertura es ~60%: sabemos bien el comercio de Europa, poco del resto\n- Para 1913, la cobertura es ~90%: casi todos los países reportan\n- Para 2020, la cobertura es ~99%: datos muy confiables\n\nREGLA PRÁCTICA: Siempre preguntar \"¿De dónde vienen estos datos? ¿Qué cobertura tienen?\"\n\nAPLICACIÓN: Cuando lean un paper o informe que dice \"el comercio creció X% en el siglo XIX\", pregunten: ¿con qué datos? ¿qué cobertura? ¿de qué países?\n\nCONEXIÓN: Esta es una habilidad general para cualquier análisis empírico, no solo comercio internacional.\n\nTRES ADVERTENCIAS IMPORTANTES (5 minutos adicionales):\n\n1. PRECIOS VS CANTIDADES:\n- Los valores nominales mezclan cambios de precio con cambios de cantidad\n- Si el comercio sube 10%, puede ser porque se comercia más O porque los precios subieron\n- Por eso usamos índices de volumen cuando es posible\n\n2. COMERCIO BRUTO VS VALOR AGREGADO:\n- Un iPhone 'exportado' por China incluye componentes de Corea, Japón, EEUU\n- El valor bruto cuenta el mismo insumo varias veces\n- El comercio en valor agregado es más preciso pero más difícil de medir\n\n3. FUENTES DE DISTINTA CALIDAD:\n- Datos de 1800 son estimaciones de historiadores\n- Datos de 1950 son registros aduaneros\n- Datos de 2020 son bases electrónicas en tiempo real\n- No son directamente comparables\n\nPREGUNTA: '¿Por qué creen que esto importa para nuestro análisis?'\nRESPUESTA: Porque las conclusiones dependen de la calidad de los datos. Siempre hay que ser críticos."
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 5: Balanza comercial",
+      "subtitulo": "El más simple",
+      "contenido": [
+        "Fórmula: BC = X - M",
+        "BC > 0 → SUPERÁVIT comercial (exporta más de lo que importa)",
+        "BC < 0 → DÉFICIT comercial (importa más de lo que exporta)",
+        "OJO: a nivel mundial, la suma debería ser ~0 (pero hay errores de medición)"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 5: BALANZA COMERCIAL (7 minutos)\n\nEL INDICADOR MÁS SIMPLE - pero con muchas confusiones\n\nFÓRMULA:\nBC = X - M (Exportaciones menos Importaciones)\n\nINTERPRETACIÓN:\n- BC > 0: SUPERÁVIT comercial (exporta más de lo que importa)\n- BC < 0: DÉFICIT comercial (importa más de lo que exporta)\n- BC = 0: Equilibrio comercial (raro en la práctica)\n\nCONFUSIÓN COMÚN #1: \"Superávit = bueno, déficit = malo\"\nRESPUESTA: ¡Depende del contexto!\n- Un país puede tener déficit porque está INVIRTIENDO (importa maquinaria)\n- Un país puede tener superávit porque está en RECESIÓN (no importa porque no consume)\n- China tiene superávit, EEUU déficit, pero ambos crecieron\n\nCONFUSIÓN COMÚN #2: \"Si tenemos déficit con China, China nos está ganando\"\nRESPUESTA: El comercio bilateral no tiene que estar equilibrado.\n- Argentina tiene superávit con China (le vendemos soja) y déficit con Brasil (les compramos autos)\n- Lo que importa es la balanza TOTAL, no bilateral\n\nDATO CURIOSO: A nivel mundial, la suma de todas las balanzas comerciales debería ser CERO (las exportaciones de uno son importaciones de otro). Pero hay una \"discrepancia estadística\" de ~3% por errores de medición.\n\nPREGUNTA: \"¿Argentina tiene superávit o déficit comercial habitualmente?\" (Respuesta: depende del año - veremos el patrón)",
+      "numero": 11
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Balanza comercial Argentina (1960-2023)",
+      "subtitulo": null,
+      "contenido": [
+        "Déficit en Convertibilidad (1991-2001)",
+        "Superávit récord post-crisis 2002",
+        "Ciclo: peso caro → déficit, peso barato → superávit",
+        "Volatilidad extrema comparado con otros países"
+      ],
+      "visual": "graficos/balanza_comercial_argentina.png",
+      "fuente": "Banco Mundial / INDEC",
+      "notas_docente": "LECTURA DEL GRÁFICO (8 minutos)\n\nIDENTIFICAR PERÍODOS:\n- Barras verdes = superávit (X > M)\n- Barras rojas = déficit (X < M)\n- Zona naranja = Convertibilidad\n- Zona verde claro = Post-crisis\n\nPUNTOS CLAVE:\n1. Convertibilidad: déficit persistente porque el peso estaba sobrevaluado\n2. 2002: superávit récord (+15% PIB) por colapso de importaciones + devaluación\n3. 2003-2011: superávits sostenidos (commodities + TC competitivo)\n4. 2017-2018: vuelve el déficit (apreciación + sequía)\n\nPREGUNTA: \"¿Por qué Argentina tuvo el superávit más grande del mundo en 2002?\"\nRESPUESTA: Combinación de: (1) colapso de importaciones por recesión brutal, (2) tipo de cambio ultra-competitivo post-devaluación, (3) precios de commodities subiendo.\n\nCONEXIÓN CON TEORÍA: Esto muestra que la balanza comercial está muy ligada al tipo de cambio real. Anticipar la clase de TC.",
+      "numero": 12
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Balanza comercial comparada (% PIB)",
+      "subtitulo": "Argentina, EEUU, Alemania, China, Brasil",
+      "contenido": [
+        "EEUU: déficit persistente (privilegio del dólar)",
+        "Alemania: superávit persistente (competitividad industrial)",
+        "China: superávit desde 2000 (fábrica del mundo)",
+        "Argentina: alta volatilidad (ciclo cambiario)"
+      ],
+      "visual": "graficos/balanza_comercial_comparativo.png",
+      "fuente": "Banco Mundial",
+      "notas_docente": "COMPARACIÓN INTERNACIONAL (7 minutos)\n\nPATRONES ESTRUCTURALES:\n- EEUU siempre negativo → puede porque emite dólares\n- Alemania siempre positivo → modelo exportador\n- China positivo desde entrada a OMC (2001)\n- Argentina y Brasil: volátiles, dependen del ciclo\n\nPREGUNTA: \"¿Por qué EEUU puede tener déficit permanente sin crisis?\"\nRESPUESTA: Porque emite la moneda de reserva mundial. El mundo quiere dólares.\n\nPREGUNTA: \"¿Por qué Alemania tiene superávit permanente?\"\nRESPUESTA: Industria muy competitiva + salarios moderados + euro débil para su productividad.\n\nCONEXIÓN CON PREBISCH: Los países periféricos (Argentina, Brasil) tienen balanzas volátiles que dependen de precios de commodities. Los centrales (EEUU, Alemania) tienen patrones más estables. Esto conecta con la próxima clase sobre centro-periferia.",
+      "numero": 13
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 6: Apertura comercial",
+      "subtitulo": "Qué tan integrado está un país",
+      "contenido": [
+        "Fórmula: Apertura = (X + M) / PIB × 100",
+        "Mide qué proporción del PIB se comercia con el mundo",
+        "Argentina ~30%, EEUU ~25%, Alemania ~90%, Singapur ~300%",
+        "Países grandes tienden a ser menos 'abiertos' (comercian más internamente)"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 6: APERTURA COMERCIAL (8 minutos)\n\nFÓRMULA:\nApertura = (X + M) / PIB × 100\n\nINTERPRETACIÓN: Qué proporción del PIB se comercia con el mundo\n\nEJEMPLOS REALES (datos aproximados):\n- EEUU: ~25% (economía grande, mercado interno enorme)\n- Argentina: ~30% (economía mediana, algo cerrada históricamente)\n- Alemania: ~90% (economía grande pero muy orientada a exportación)\n- Singapur: ~300% (¡más del 100%! - ya explico por qué)\n\n¿CÓMO PUEDE SER MÁS DE 100%?\n- Singapur, Hong Kong, Países Bajos tienen \"apertura\" > 100%\n- Porque son HUBS DE REEXPORTACIÓN\n- Importan, procesan mínimamente, y exportan\n- El mismo bien se cuenta dos veces (entrada y salida)\n\nTRAMPAS DEL INDICADOR:\n1. Países GRANDES tienden a ser \"cerrados\" → tienen mercado interno grande\n2. Países CHICOS tienden a ser \"abiertos\" → necesitan comerciar\n3. NO confundir apertura con POLÍTICA comercial\n   - Argentina es \"cerrada\" (30%) pero tuvo épocas de libre comercio\n   - China es \"abierta\" (35%) pero tiene muchas barreras\n\nPREGUNTA: \"¿Por qué creen que EEUU, siendo el mayor promotor del libre comercio, tiene una apertura tan baja?\"\n\nRESPUESTA: Porque su mercado interno es TAN GRANDE que puede producir casi todo localmente. Texas comercia más con California que con México.",
+      "numero": 14
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Apertura comercial comparada",
+      "subtitulo": "El indicador tiene trampas",
+      "contenido": [
+        "Singapur: 300-400% (re-exportación)",
+        "Alemania: ~80% (industria exportadora)",
+        "China: 30-40% (creció mucho)",
+        "Argentina y EEUU: 25-35% (economías 'cerradas')",
+        "Países grandes son más 'cerrados' por mercado interno"
+      ],
+      "visual": "graficos/apertura_comercial.png",
+      "fuente": "Banco Mundial",
+      "notas_docente": "LECTURA DEL GRÁFICO (10 minutos)\n\nLA TRAMPA DE SINGAPUR:\n- ¿Cómo puede tener 350% de apertura si el máximo teórico es 200%?\n- Porque es un HUB de re-exportación\n- Importa bienes, los procesa mínimamente, los re-exporta\n- El mismo bien se cuenta dos veces\n- Hong Kong, Países Bajos tienen el mismo fenómeno\n\nLA TRAMPA DEL TAMAÑO:\n- EEUU y Argentina parecen igual de \"cerrados\" (~30%)\n- Pero las razones son MUY diferentes:\n  - EEUU: mercado interno gigante, no NECESITA comerciar mucho\n  - Argentina: mercado chico pero con historia de proteccionismo\n\nPREGUNTA TRAMPA: \"¿Argentina es más abierta que EEUU?\"\nRESPUESTA: Tienen apertura similar, pero por razones opuestas. EEUU elige no comerciar tanto porque puede producir todo. Argentina comercia poco porque tiene barreras.\n\nDATO: China pasó de 10% (1970) a 65% (2006) y bajó a 35% (2020). ¿Por qué bajó? Porque su mercado interno creció y consume más de lo que produce.\n\nCONEXIÓN: No confundir APERTURA (indicador) con POLÍTICA comercial (libre comercio vs proteccionismo).",
+      "numero": 15
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 7: Términos del intercambio (ToT)",
+      "subtitulo": "El precio relativo de lo que exportamos vs importamos",
+      "contenido": [
+        "Fórmula: ToT = (Px / Pm) × 100",
+        "Px = índice de precios de exportación",
+        "Pm = índice de precios de importación",
+        "ToT sube → mejora: con las mismas exportaciones compramos más importaciones",
+        "ToT baja → deterioro: necesitamos exportar más para comprar lo mismo"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 7: TÉRMINOS DEL INTERCAMBIO (12 minutos)\n\nESTE ES CLAVE PARA ENTENDER A ARGENTINA Y LATINOAMÉRICA\n\nFÓRMULA:\nToT = (Px / Pm) × 100\n\nDonde:\n- Px = índice de precios de lo que EXPORTAMOS\n- Pm = índice de precios de lo que IMPORTAMOS\n\nINTERPRETACIÓN:\n- ToT SUBE (mejora): con las mismas exportaciones compramos MÁS importaciones\n- ToT BAJA (deterioro): necesitamos exportar MÁS para comprar lo mismo\n\nEJEMPLO NUMÉRICO EN PIZARRÓN:\nAño base: Exportamos 100 toneladas de soja a $300/ton = $30.000\n         Importamos 10 autos a $3.000 c/u = $30.000\n         ToT = 100\n\nEscenario A (mejora): Precio soja sube a $450\n         Exportamos 100 ton × $450 = $45.000\n         Podemos comprar 15 autos (en vez de 10)\n         ToT = 150\n\nEscenario B (deterioro): Precio soja cae a $200\n         Exportamos 100 ton × $200 = $20.000\n         Solo podemos comprar 6.7 autos\n         ToT = 67\n\nPREGUNTA: \"¿Qué le pasó a Argentina en el período 2003-2012?\"\n\nRESPUESTA: ¡Mejora de ToT del 40%! El precio de la soja y otros commodities se triplicó. Argentina se \"enriqueció\" sin producir más.\n\nPREGUNTA SEGUIMIENTO: \"¿Y qué pasó 2012-2015?\"\n\nRESPUESTA: Deterioro del 20%. Los precios cayeron. Volvió la restricción externa.\n\nCONEXIÓN TEÓRICA: Prebisch y Singer (economistas de CEPAL) argumentaron que los ToT de países exportadores de materias primas se deterioran a LARGO PLAZO. Es la \"tesis Prebisch-Singer\" que veremos más adelante.",
+      "numero": 16
+    },
+    {
+      "tipo": "texto",
+      "titulo": "ToT y el ingreso real",
+      "subtitulo": "Por qué importan los términos del intercambio",
+      "contenido": [
+        "Si ToT mejora → el país se 'enriquece' sin producir más",
+        "Si ToT empeora → el país se 'empobrece' aunque produzca igual",
+        "Ejemplo: Argentina 2003-2012 (boom de commodities → ToT +40%)",
+        "Ejemplo: Argentina 2012-2015 (caída de commodities → ToT -20%)",
+        "Los ToT explican parte del ciclo económico en países primario-exportadores"
+      ],
+      "visual": null,
+      "notas_docente": "ToT Y EL INGRESO REAL - PROFUNDIZACIÓN (8 minutos)\n\nCONCEPTO CLAVE: Los ToT afectan el INGRESO REAL del país, no solo el comercio.\n\nANALOGÍA DEL SALARIO:\n- Imaginemos que tu salario es fijo en $1000/mes\n- Si el precio de lo que comprás BAJA, sos más rico (podés comprar más)\n- Si el precio de lo que comprás SUBE, sos más pobre (comprás menos)\n- Tu salario nominal no cambió, pero tu salario REAL sí\n\nLO MISMO PASA CON LOS PAÍSES:\n- Si el precio de lo que exportamos SUBE → nos \"enriquecemos\"\n- Si el precio de lo que importamos SUBE → nos \"empobrecemos\"\n- El PIB puede no cambiar, pero el poder de compra internacional sí\n\nCASO ARGENTINA - DATOS:\n- 2003-2012: ToT +40%, PIB +80%, Cuenta Corriente superavitaria\n- 2012-2015: ToT -20%, PIB estancado, vuelve el déficit\n- 2020-2022: ToT +30% (pandemia + guerra Ucrania), superávit récord\n\nPREGUNTA DIFÍCIL: \"¿Qué pasa si sube el precio de la soja (exportamos) pero también sube el precio del petróleo (importamos)?\"\n\nRESPUESTA: Depende de cuánto pesa cada uno. Argentina es exportador neto de alimentos pero importador neto de energía (aunque esto está cambiando con Vaca Muerta). Hay que mirar el efecto NETO en los ToT.\n\nEJERCICIO MENTAL: \"¿Qué países ganan y cuáles pierden con la suba del petróleo?\" (Rusia, Arabia Saudita ganan; Japón, India pierden; Argentina... depende)",
+      "numero": 17
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Términos del intercambio Argentina (1900-2023)",
+      "subtitulo": "Más de un siglo de historia",
+      "contenido": [
+        "Verde = mejora (ToT > 100), Rojo = deterioro (ToT < 100)",
+        "1900-1930: ToT altos (belle époque agroexportadora)",
+        "1930-2000: deterioro secular (tesis Prebisch)",
+        "2003-2012: boom de commodities (+50%)",
+        "Post-2012: caída y volatilidad"
+      ],
+      "visual": "graficos/tot_argentina.png",
+      "fuente": "CEPAL / INDEC / Ferreres",
+      "notas_docente": "ESTE GRÁFICO ES CLAVE PARA TODO EL CURSO (15 minutos)\n\nLECTURA:\n- Línea = ToT de Argentina (2004 = 100)\n- Verde = períodos de mejora\n- Rojo = períodos de deterioro\n- Línea negra en 100 = referencia\n\nHISTORIA EN TRES ACTOS:\n\nACTO 1 - BELLE ÉPOQUE (1900-1930):\n- ToT altos: la carne y el trigo valían mucho\n- Argentina entre los 10 países más ricos del mundo\n- Pero dependía de un solo mercado (UK) y pocos productos\n\nACTO 2 - DETERIORO SECULAR (1930-2000):\n- Colapso en la Gran Depresión\n- Nunca se recupera al nivel previo\n- ESTO ES LA TESIS PREBISCH: los ToT de la periferia se deterioran a largo plazo\n- ¿Por qué? Porque la demanda de manufacturas crece más que la de commodities\n\nACTO 3 - BOOM Y CAÍDA (2000-2023):\n- Boom de commodities 2003-2012: China demanda soja, minerales\n- ToT suben 50% → Argentina se \"enriquece\" sin producir más\n- Caída post-2012 → vuelve la restricción externa\n\nPREGUNTA CENTRAL: \"Si los ToT de Argentina hoy están en ~110, igual que en 1950, ¿por qué no somos igual de ricos?\"\nRESPUESTA: Porque el resto del mundo creció más. Los ToT son relativos.\n\nCONEXIÓN CON PREBISCH: Este gráfico es LA EVIDENCIA de la tesis centro-periferia. Lo vamos a retomar en la clase 11.",
+      "numero": 18
+    },
+    {
+      "numero": 19,
+      "tipo": "seccion",
+      "titulo": "Bloque B: Historia por etapas",
+      "subtitulo": "Anclada en la serie de largo plazo",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL BLOQUE HISTÓRICO (2 minutos)\n\nRESUMEN DE LO QUE VIMOS:\nYa tenemos 7 indicadores del \"kit básico\":\n1. Índice de comercio (nivel general)\n2. Participación regional (quién gana/pierde)\n3. HHI (concentración)\n4. Cobertura (calidad de datos)\n5. Balanza comercial (X - M)\n6. Apertura ((X+M)/PIB)\n7. Términos del intercambio (Px/Pm)\n\nAHORA VAMOS A USAR ESTOS INDICADORES:\n- Para leer la historia del comercio internacional\n- Para entender por qué creció, colapsó, y volvió a crecer\n- Para ver patrones que se repiten\n\nMETÁFORA: Ya aprendimos a leer el mapa. Ahora vamos a hacer el viaje.\n\nLos otros 2 indicadores (Cuenta Corriente y Tipo de Cambio Real) los vemos en el bloque de Balanza de Pagos."
+    },
+    {
+      "numero": 20,
+      "tipo": "texto",
+      "titulo": "Marco analítico: tres fuerzas",
+      "subtitulo": "Para explicar cualquier período del comercio",
+      "contenido": [
+        "TECNOLOGÍA: ¿Cuánto cuesta mover bienes? (vela→vapor→contenedor)",
+        "REGLAS: ¿Quién puede comerciar? (monopolios, aranceles, OMC)",
+        "PODER: ¿Quién garantiza estabilidad? (hegemonía, marina, moneda)"
+      ],
+      "visual": null,
+      "notas_docente": "MARCO ANALÍTICO: TRES FUERZAS (10 minutos)\n\nESTE MARCO LO VAMOS A USAR TODO EL CUATRIMESTRE\n\nLAS TRES FUERZAS QUE DETERMINAN EL COMERCIO:\n\n1. TECNOLOGÍA: ¿Cuánto cuesta mover bienes e información?\n   - Vela → Vapor → Contenedor → Digital\n   - El costo de transporte cayó 90% en 200 años\n   - El costo de comunicación cayó 99.9% (telégrafo → internet)\n   - EJEMPLO: En 1800, traer té de China tardaba 6 meses. Hoy, 3 semanas por barco, 3 días por avión.\n\n2. REGLAS: ¿Quién puede comerciar y en qué términos?\n   - Monopolios coloniales → Libre comercio → Proteccionismo → OMC\n   - Aranceles, cuotas, barreras no arancelarias\n   - Acuerdos bilaterales, regionales, multilaterales\n   - EJEMPLO: En el siglo XVI, solo la Corona española podía comerciar con América. Hoy, cualquier empresa puede (con algunas restricciones).\n\n3. PODER: ¿Quién garantiza que se cumplan las reglas?\n   - Hegemonía británica (1815-1914)\n   - Hegemonía estadounidense (1945-?)\n   - Sin hegemón, el sistema se fragmenta\n   - EJEMPLO: La Royal Navy garantizaba que los barcos no fueran pirateados. Hoy, la Marina de EEUU patrulla el 70% de las rutas comerciales.\n\nPREGUNTA CLAVE: \"¿Qué pasa cuando UNA de estas fuerzas falla?\"\nRESPUESTA: El sistema comercial se contrae o colapsa. Vamos a ver ejemplos."
+    },
+    {
+      "numero": 21,
+      "tipo": "texto",
+      "titulo": "Cinco etapas del comercio internacional",
+      "subtitulo": "Timeline con medida asociada",
+      "contenido": [
+        "1. Ibérico-colonial (1500-1650): monopolios, rutas globales",
+        "2. Hegemonía UK / 1ª globalización (1800-1914): libre comercio, vapor",
+        "3. Colapso (1914-1945): guerras, proteccionismo, bloques",
+        "4. Hegemonía EEUU (1945-2008): instituciones, liberalización",
+        "5. Slowbalization (2008-hoy): tensiones, reconfiguración"
+      ],
+      "visual": null,
+      "notas_docente": "CINCO ETAPAS DEL COMERCIO INTERNACIONAL (8 minutos)\n\nPRESENTAR EL TIMELINE:\n\nETAPA 1 - IBÉRICO-COLONIAL (1500-1650):\n- Protagonistas: España y Portugal\n- Modelo: Monopolios estatales\n- Comercio: Metales preciosos, especias\n- Tecnología: Navegación a vela, brújula\n\nETAPA 2 - PRIMERA GLOBALIZACIÓN (1800-1914):\n- Protagonista: Gran Bretaña\n- Modelo: Libre comercio (unilateral británico)\n- Comercio: Manufacturas, materias primas, capitales\n- Tecnología: Vapor, ferrocarril, telégrafo\n\nETAPA 3 - COLAPSO (1914-1945):\n- Protagonistas: Nadie (vacío hegemónico)\n- Modelo: Proteccionismo, bloques\n- Comercio: Se contrae 50%\n- Tecnología: Existe, pero las reglas fallan\n\nETAPA 4 - HEGEMONÍA EEUU (1945-2008):\n- Protagonista: Estados Unidos\n- Modelo: Instituciones multilaterales (GATT/OMC, FMI, BM)\n- Comercio: Crece 30 veces\n- Tecnología: Contenedor, aviación, internet\n\nETAPA 5 - SLOWBALIZATION (2008-hoy):\n- Protagonistas: ¿EEUU vs China?\n- Modelo: Tensiones, regionalización\n- Comercio: Crece lento, se reconfigura\n- Tecnología: Digital, pero con \"desacople\"\n\nACLARACIÓN: Esta periodización es una SIMPLIFICACIÓN didáctica. Las fechas son aproximadas y hay superposiciones."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Convergencia, divergencia y comercio",
+      "subtitulo": "¿Qué explica el crecimiento? ¿Tecnología o comercio?",
+      "contenido": [
+        "PIB per cápita = proxy de desarrollo. ¿Por qué unos países crecen y otros no?",
+        "Dos grandes explicaciones: cambio tecnológico (producir más/mejor) y apertura comercial (acceso a mercados, especialización)",
+        "¿El comercio causa crecimiento o el crecimiento genera comercio?",
+        "La evidencia: no hay respuesta única. Importa CÓMO te insertás, no solo SI te insertás"
+      ],
+      "visual": null,
+      "notas_docente": "CONVERGENCIA Y COMERCIO (10 minutos)\n\nEL DEBATE CENTRAL:\nEn economía del desarrollo hay una pregunta permanente: ¿qué explica que unos países sean ricos y otros pobres?\n\nDOS CANDIDATOS PRINCIPALES:\n\n1. TECNOLOGÍA / PRODUCTIVIDAD:\n- Solow: el crecimiento viene de la acumulación de capital y el progreso técnico\n- Los neoschumpeterianos: innovación, capacidades tecnológicas\n- Implicancia: lo importante es PRODUCIR MEJOR\n\n2. COMERCIO / APERTURA:\n- Ricardo, H-O: especializarse según ventajas comparativas genera ganancias\n- Apertura como motor: acceso a mercados grandes, competencia, transferencia tecnológica\n- Implicancia: lo importante es ABRIRSE AL MUNDO\n\nPERO LA REALIDAD ES MÁS COMPLEJA:\n- Hay países abiertos que crecieron mucho (Corea del Sur, China post-2001)\n- Hay países abiertos que NO crecieron (muchos de África Subsahariana)\n- Hay países que crecieron con protección (EEUU siglo XIX, Japón posguerra)\n\nLa clave no es SI te abrís, sino CÓMO te insertás:\n- ¿Exportás commodities o manufacturas?\n- ¿Tenés política industrial o te dejás llevar por el mercado?\n- ¿Absorbés tecnología del comercio o solo exportás materias primas?\n\nPREGUNTA: \"Argentina fue muy abierta en 1900 y era rica. ¿Por qué eso no alcanzó para seguir creciendo?\"\n(Respuesta: porque la inserción como exportador primario tenía límites - Prebisch, Unidad 4)\n\nCONEXIÓN: Este debate cruza TODO el curso. Las teorías clásicas (Unidades 2-3) dicen que el comercio siempre es bueno. Los estructuralistas (Unidad 4) dicen que depende. Los datos que vamos a ver ahora muestran que los dos tienen parte de razón.",
+      "numero": 22
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "La Gran Divergencia",
+      "subtitulo": "Reino Unido vs. China: 1000 años de historia",
+      "contenido": [
+        "Año 1000: China y Europa tenían un PIB per cápita similar (~$1.100)",
+        "Hasta 1800: diferencias pequeñas. China era una economía avanzada",
+        "Revolución Industrial: UK se dispara. Comercio + tecnología + imperio",
+        "Desde 1980: China converge aceleradamente (de $1.000 a $13.000 en 40 años)"
+      ],
+      "visual": "graficos/gran_divergencia_uk_china.png",
+      "fuente": "Maddison Project Database 2020",
+      "notas_docente": "LA GRAN DIVERGENCIA (10 minutos)\n\nLECTURA DEL GRÁFICO:\n- Eje Y: PIB per cápita en dólares de 2011 (PPP)\n- Eje X: desde el año 1000\n- Las franjas de color corresponden a las 5 etapas que ya vimos\n\nDATOS CLAVE:\n- Año 1000: UK ~$1.150, China ~$1.225. China ERA MÁS RICA\n- Año 1820: UK ~$2.100, China ~$1.000. Empieza la divergencia\n- Año 1913: UK ~$7.000, China ~$1.000. Brecha máxima: 7 a 1\n- Año 1950: UK ~$10.000, China ~$600. China toca fondo (guerras, revolución)\n- Año 2018: UK ~$38.000, China ~$13.000. Ratio 3 a 1 y cerrándose\n\n¿QUÉ EXPLICA LA DIVERGENCIA?\n- Revolución Industrial: tecnología aplicada a la producción\n- Pero también: COMERCIO imperial, acceso a materias primas baratas\n- Y PODER: la Royal Navy abrió mercados (guerras del opio)\n\n¿QUÉ EXPLICA LA CONVERGENCIA CHINA?\n- Apertura comercial post-1978 (Deng Xiaoping)\n- Pero CON política industrial, tipo de cambio competitivo, inversión en tecnología\n- No fue \"abrirse y ya\". Fue una inserción estratégica\n\nPREGUNTA: \"¿China convergió por abrirse al comercio o por su política industrial?\"\nRESPUESTA: Por las dos cosas. Se abrió pero con estrategia. Ese es el punto.\n\nCONEXIÓN: Kenneth Pomeranz (\"The Great Divergence\", 2000) argumenta que hasta 1750 no había diferencias significativas. La divergencia fue rápida y estuvo ligada al carbón y a las colonias americanas.",
+      "numero": 23
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Trayectorias regionales",
+      "subtitulo": "Misma economía mundial, destinos muy distintos",
+      "contenido": [
+        "Europa Occidental: de $2.300 a $40.000 (x17 en 200 años)",
+        "Asia Oriental: estancada hasta 1950, después convergencia acelerada",
+        "América Latina: creció pero NO convergió. Siempre ~35% de Europa",
+        "África Subsahariana: divergencia persistente. Hoy ~9% de Europa"
+      ],
+      "visual": "graficos/trayectorias_regionales.png",
+      "fuente": "Maddison Project Database 2020",
+      "notas_docente": "TRAYECTORIAS REGIONALES (12 minutos)\n\nLECTURA DEL GRÁFICO:\n- 4 regiones, mismo período (1820-2018)\n- Las franjas coinciden con las etapas del comercio\n- Notar: todos crecieron, pero a ritmos MUY distintos\n\nEUROPA OCCIDENTAL (línea azul oscuro):\n- Crecimiento sostenido, se acelera con posguerra\n- De $2.300 (1820) a $40.000 (2018): se multiplicó por 17\n\nASIA ORIENTAL (línea roja):\n- Estancada hasta 1950 (guerras, colonialismo, revolución)\n- Despegue post-1960: Japón, Corea, Taiwán\n- Aceleración post-1980: China\n- De $1.100 (1820) a $16.300 (2018): se multiplicó por 15\n- Es LA historia de convergencia exitosa del siglo XX\n\nAMÉRICA LATINA (línea celeste):\n- Creció, pero siempre MENOS que Europa\n- En 1820 era ~40% de Europa. En 2018 sigue en ~35%\n- NO CONVERGIÓ. Creció pero no acortó la brecha\n- Argentina es un caso extremo: era 80% de Europa en 1900, hoy es ~35%\n\nÁFRICA SUBSAHARIANA (línea naranja):\n- Casi plana hasta 1950\n- En 1820 era ~35% de Europa. En 2018 es ~9%\n- DIVERGENCIA persistente\n\nPREGUNTAS PARA DISCUSIÓN:\n1. \"¿Por qué Asia Oriental convergió y América Latina no?\"\n   (Política industrial, educación, tipo de cambio competitivo, rol del Estado)\n2. \"¿El comercio ayudó o perjudicó a África?\"\n   (Debate: inserción primaria sin industrialización)\n3. \"¿Argentina es un caso de éxito o fracaso de la inserción comercial?\"\n   (Ambos: éxito en 1880-1930, fracaso en no diversificar después)\n\nCONEXIÓN: Este gráfico es el resumen visual de TODO el curso. Vamos a dedicar unidades enteras a explicar por qué las trayectorias son tan distintas.",
+      "numero": 24
+    },
+    {
+      "numero": 25,
+      "tipo": "grafico_texto",
+      "titulo": "Etapa 1: Economía-mundo ibérica (1500-1650)",
+      "subtitulo": null,
+      "contenido": [
+        "Portugal: ruta del Cabo → Asia (especias)",
+        "España: Atlántico → América (plata)",
+        "Modelo: monopolios estatales (Casa de Contratación)",
+        "El Estado absorbe riesgos y captura rentas"
+      ],
+      "visual": "img/rutas_ibericas.png",
+      "fuente": "Mapas históricos",
+      "notas_docente": "ETAPA 1: ECONOMÍA-MUNDO IBÉRICA (10 minutos)\n\nCONTEXTO HISTÓRICO:\n- 1492: Colón llega a América\n- 1498: Vasco da Gama llega a India\n- España y Portugal se \"reparten\" el mundo (Tratado de Tordesillas, 1494)\n\nEL MODELO DE MONOPOLIO:\n- La Corona controlaba TODO el comercio\n- Casa de Contratación (Sevilla): único puerto autorizado para comercio con América\n- Flotas anuales: los barcos viajaban en convoy por seguridad\n- Objetivo: extraer metales preciosos y controlar el comercio de especias\n\n¿POR QUÉ MONOPOLIO Y NO LIBRE COMERCIO?\n- El Estado absorbía los RIESGOS (piratas, naufragios, guerras)\n- El Estado capturaba las RENTAS (impuestos del 20% sobre metales)\n- No había capacidad para \"regular\" un mercado libre\n\nDATO: Entre 1500 y 1650, llegaron a España ~180 toneladas de ORO y ~17.000 toneladas de PLATA. Esto generó la \"revolución de los precios\" en Europa (inflación).\n\nCONSECUENCIAS:\n- España se volvió DEPENDIENTE de la plata americana\n- No desarrolló industria propia (compraba todo con plata)\n- Cuando la plata se agotó, España decayó\n\nPREGUNTA: \"¿Ven algún paralelo con países que hoy dependen de un solo recurso?\" (Venezuela, petróleo; Argentina, soja)"
+    },
+    {
+      "numero": 26,
+      "tipo": "grafico_texto",
+      "titulo": "El Galeón de Manila: primera ruta global",
+      "subtitulo": null,
+      "contenido": [
+        "Ruta: Manila → Acapulco → España",
+        "Comerciaba: seda china, especias, porcelana",
+        "Pago: plata americana",
+        "Primera conexión regular Asia-América-Europa (1565-1815)"
+      ],
+      "visual": "img/galeon_manila.png",
+      "fuente": "Ilustración histórica",
+      "notas_docente": "EL GALEÓN DE MANILA - PRIMERA CADENA GLOBAL (8 minutos)\n\nHISTORIA FASCINANTE:\n\nLA RUTA (1565-1815, 250 años):\n1. Manila (Filipinas): Se cargaban productos asiáticos\n2. Cruce del Pacífico: 4-6 meses de viaje\n3. Acapulco (México): Descarga y venta\n4. Por tierra a Veracruz\n5. Flota del Atlántico a Sevilla\n\n¿QUÉ SE COMERCIABA?\n- DE ASIA: Seda china, porcelana, especias, marfil\n- DE AMÉRICA: Plata, y solo plata\n\nLOS NÚMEROS:\n- 1-2 galeones por año (únicos autorizados)\n- Cada viaje movía ~2 millones de pesos en plata\n- La seda china se vendía en México a 10 veces su precio en Manila\n\n¿POR QUÉ IMPORTA?\n- Primera conexión REGULAR entre tres continentes\n- La plata americana financiaba el comercio asiático\n- China tenía DÉFICIT de plata → la necesitaba para su sistema monetario\n- Este fue el primer \"desequilibrio comercial\" global\n\nCONEXIÓN ACTUAL: Hoy China tiene SUPERÁVIT con EEUU. En el siglo XVI era al revés: China tenía \"déficit\" (recibía plata a cambio de bienes).\n\nANÉCDOTA: Los comerciantes de Manila eran tan ricos que el virrey de México se quejaba de que \"toda la plata de América termina en China\"."
+    },
+    {
+      "numero": 27,
+      "tipo": "grafico_texto",
+      "titulo": "Etapa 2: Primera globalización (1800-1914)",
+      "subtitulo": "UK como centro del sistema",
+      "contenido": [
+        "Revolución del transporte: vapor (-60% costo flete)",
+        "Ferrocarril conecta interiores",
+        "Canal de Suez (1869) acorta rutas",
+        "Tecnología + libre comercio + patrón oro + Royal Navy"
+      ],
+      "visual": "img/vapor_randmcnally_1917.jpg",
+      "fuente": "Rand McNally, 1917",
+      "notas_docente": "ETAPA 2: PRIMERA GLOBALIZACIÓN (12 minutos)\n\n¿POR QUÉ \"PRIMERA\" GLOBALIZACIÓN?\n- Porque hubo una antes de la actual\n- Y porque colapsó (1914-1945)\n- Lección: la globalización NO es irreversible\n\nLOS CUATRO PILARES DEL SISTEMA BRITÁNICO:\n\n1. TECNOLOGÍA - Revolución del transporte:\n   - Barco a vapor (1820s): reduce tiempo de viaje 50%\n   - Ferrocarril: conecta interiores (trigo de Kansas, carne de Pampa)\n   - Canal de Suez (1869): acorta ruta Europa-Asia de 6 meses a 6 semanas\n   - DATO: El costo del flete marítimo cayó 60% entre 1840 y 1910\n\n2. REGLAS - Libre comercio unilateral:\n   - Gran Bretaña abolió las Corn Laws (1846): aranceles al trigo\n   - Tratado Cobden-Chevalier (1860): libre comercio con Francia\n   - GB no exigía reciprocidad: \"comercien con nosotros aunque ustedes tengan aranceles\"\n   - ¿Por qué? Porque GB era tan competitiva que le convenía el libre comercio\n\n3. DINERO - Patrón oro:\n   - La libra esterlina era convertible a oro\n   - Tipo de cambio fijo entre países\n   - Facilitaba el comercio y la inversión internacional\n\n4. PODER - Pax Britannica:\n   - Royal Navy: supremacía naval absoluta\n   - GB controlaba puntos estratégicos: Gibraltar, Suez, Singapur, Hong Kong\n   - Garantizaba que las rutas comerciales fueran seguras\n\nDATO: En 1870, Gran Bretaña producía 50% de los textiles del mundo y tenía 25% del comercio mundial."
+    },
+    {
+      "numero": 28,
+      "tipo": "grafico_texto",
+      "titulo": "El telégrafo: la primera internet",
+      "subtitulo": null,
+      "contenido": [
+        "Información en minutos (vs meses por barco)",
+        "Precios se arbitran globalmente",
+        "Contratos a distancia posibles",
+        "Para 1900: 300.000 km de cables submarinos"
+      ],
+      "visual": "img/cables_eastern_1901.png",
+      "fuente": "Eastern Telegraph Company, 1901",
+      "notas_docente": "EL TELÉGRAFO: PRIMERA REVOLUCIÓN DE LA INFORMACIÓN (8 minutos)\n\nIMPACTO REVOLUCIONARIO:\n\nANTES DEL TELÉGRAFO (pre-1850):\n- Un comerciante en Londres no sabía el precio del algodón en Nueva York hasta que llegaba el barco (4-6 semanas)\n- Enviaba mercadería sin saber si habría demanda\n- Los precios variaban enormemente entre mercados\n- Alto riesgo, altas ganancias (o pérdidas)\n\nDESPUÉS DEL TELÉGRAFO (post-1870):\n- Precios se conocían en MINUTOS\n- Arbitraje inmediato: si el precio es mayor en un lugar, alguien compra donde es barato y vende donde es caro\n- Los precios se \"convergen\" entre mercados\n- Contratos a distancia: se podía cerrar un negocio sin verse\n\nDATOS DE LA RED:\n- 1851: Primer cable submarino (Dover-Calais)\n- 1866: Primer cable transatlántico exitoso\n- 1870: Londres conectada con Bombay\n- 1900: 300.000 km de cables submarinos en el mundo\n\nANALOGÍA: El telégrafo fue la \"internet\" del siglo XIX. Cambió la velocidad de los negocios de la misma manera.\n\nPREGUNTA: \"¿Qué tecnología actual está teniendo un impacto similar?\"\n\nPOSIBLES RESPUESTAS:\n- Internet (ya pasó)\n- Smartphones (habilitan comercio electrónico en países pobres)\n- Blockchain? (aún no claro)\n- IA? (potencial para automatizar logística)"
+    },
+    {
+      "numero": 29,
+      "tipo": "grafico_texto",
+      "titulo": "Etapa 3: Colapso (1914-1945)",
+      "subtitulo": null,
+      "contenido": [
+        "1914-18: Primera Guerra Mundial",
+        "1920s: recuperación parcial, vuelta al patrón oro",
+        "1929-33: crack + espiral proteccionista",
+        "1930s: fragmentación en bloques comerciales"
+      ],
+      "visual": "graficos/indice_colapso.png",
+      "fuente": "FTWTHD",
+      "notas_docente": "ETAPA 3: EL COLAPSO 1914-1945 (15 minutos)\n\nESTE ES UNO DE LOS EVENTOS MÁS IMPORTANTES DE LA HISTORIA ECONÓMICA\n\nCRONOLOGÍA DEL DESASTRE:\n\n1914-1918: PRIMERA GUERRA MUNDIAL\n- Rutas comerciales bloqueadas\n- Los países beligerantes imponen aranceles\n- El patrón oro se suspende\n- DATO: El comercio mundial cayó 30% durante la guerra\n\n1919-1929: FALSA RECUPERACIÓN\n- Intento de volver al patrón oro (pero con tipos de cambio mal calibrados)\n- Alemania devastada por reparaciones de guerra\n- EEUU se vuelve acreedor mundial pero no asume liderazgo\n- El comercio se recupera PARCIALMENTE pero no al nivel de 1913\n\n1929-1933: LA GRAN DEPRESIÓN\n- Crack de Wall Street (octubre 1929)\n- Contracción crediticia global\n- RESPUESTA FATAL: Proteccionismo\n- Arancel Smoot-Hawley (EEUU, 1930): aranceles a 20.000 productos\n- REPRESALIAS de otros países\n- Espiral descendente\n\n1930-1939: FRAGMENTACIÓN EN BLOQUES\n- Preferencia imperial británica\n- Bloque del marco (Alemania + Europa del Este)\n- Bloque del yen (Japón + Asia)\n- Cada bloque comerciaba internamente\n- El comercio mundial en 1938 era MENOR que en 1913\n\nLECCIÓN CLAVE: \"El comercio no colapsó solo por la guerra o la crisis. Colapsó por la RESPUESTA POLÍTICA a la crisis.\"\n\nPREGUNTA: \"¿Qué deberían haber hecho en vez de subir aranceles?\"\n\nRESPUESTA: Coordinación internacional, no competencia. Pero no había instituciones ni hegemón que coordinara."
+    },
+    {
+      "numero": 30,
+      "tipo": "grafico_texto",
+      "titulo": "El poder detrás del comercio",
+      "subtitulo": "Hegemonía británica y su colapso",
+      "contenido": [
+        "Royal Navy: supremacía naval 1815-1914",
+        "Patrón oro: libra como moneda de reserva",
+        "Pax Britannica: rutas marítimas seguras",
+        "¿Por qué colapsó? Guerras agotaron a GB, EEUU no asumió el rol hasta 1945"
+      ],
+      "visual": "img/navy_league_1922.jpg",
+      "fuente": "Navy League, 1922",
+      "notas_docente": "EL PODER DETRÁS DEL COMERCIO (10 minutos)\n\nTESIS CENTRAL: El libre comercio del siglo XIX no fue \"natural\" ni \"automático\". Fue SOSTENIDO por el poder británico.\n\nLA HEGEMONÍA BRITÁNICA PROVEÍA:\n\n1. SEGURIDAD DE RUTAS:\n   - Royal Navy era la marina más grande del mundo\n   - Controlaba puntos estratégicos\n   - Combatía piratería\n   - DATO: GB gastaba 3% del PIB en defensa naval\n\n2. REGLAS DEL JUEGO:\n   - GB impuso el libre comercio como \"norma\"\n   - Pero no a todos: con India y colonias era comercio FORZADO\n   - El liberalismo era selectivo\n\n3. MONEDA DE RESERVA:\n   - La libra esterlina era la moneda del comercio\n   - Londres era el centro financiero mundial\n   - GB proveía liquidez al sistema\n\n¿POR QUÉ COLAPSÓ?\n- Las guerras mundiales AGOTARON a Gran Bretaña\n- GB pasó de acreedor a deudor\n- EEUU era el nuevo poder económico, pero no quería el rol\n- Entre 1918 y 1945 hubo un \"vacío hegemónico\"\n- Sin nadie que garantice las reglas, cada país se protegió\n\nTEORÍA DE LA ESTABILIDAD HEGEMÓNICA (Kindleberger):\n- Un sistema comercial abierto necesita un \"hegemón\"\n- El hegemón provee bienes públicos: seguridad, reglas, liquidez\n- Cuando el hegemón declina y no hay sucesor, el sistema colapsa\n\nPREGUNTA: \"¿Quién es el hegemón hoy? ¿Está en declinación?\"\n\nCONEXIÓN: Esto es muy relevante para entender las tensiones actuales EEUU-China."
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Bloque C: Balanza de Pagos",
+      "subtitulo": "Indicadores del sector externo",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL BLOQUE DE BALANZA DE PAGOS (2 minutos)\n\nRECAPITULACIÓN:\n- Vimos la historia del comercio (1500-1945)\n- Vimos 7 indicadores de comercio\n- Ahora agregamos 2 indicadores más: Cuenta Corriente y Tipo de Cambio Real\n\n¿POR QUÉ NECESITAMOS ESTOS INDICADORES?\n- La balanza comercial (X - M) solo mide bienes\n- Pero hay más: servicios, rentas, transferencias\n- Y todo esto se relaciona con el tipo de cambio\n\nESTOS INDICADORES SON CLAVE PARA:\n- Analizar la situación ACTUAL de un país\n- Entender las crisis (Argentina 2001, Asia 1997)\n- Ver los desequilibrios globales (EEUU vs China)\n\nEl bloque de historia continúa después (Etapas 4 y 5: hegemonía EEUU y slowbalization), pero primero completamos las herramientas.",
+      "numero": 31
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "¿Qué es la balanza de pagos?",
+      "subtitulo": "Registro de transacciones con el resto del mundo",
+      "contenido": [
+        "Cuenta Corriente: bienes, servicios, rentas",
+        "Cuenta Capital: transferencias, activos no financieros",
+        "Cuenta Financiera: inversiones, préstamos, reservas",
+        "Identidad: CC + CK + CF = 0"
+      ],
+      "visual": "graficos/balanza_pagos_estructura.png",
+      "notas_docente": "EXPLICAR LA BALANZA DE PAGOS (10 minutos)\n\nEL DIAGRAMA MUESTRA LAS TRES CUENTAS:\n\n1. CUENTA CORRIENTE (verde):\n- Bienes: exportaciones menos importaciones\n- Servicios: turismo, fletes, seguros, software\n- Rentas: intereses de deuda, dividendos, remesas\n- Es la cuenta que más miramos: refleja competitividad\n\n2. CUENTA CAPITAL (naranja):\n- Transferencias de capital (condonación de deuda, herencias)\n- Activos no financieros (patentes, licencias)\n- Generalmente pequeña, a veces se omite\n\n3. CUENTA FINANCIERA (azul):\n- Inversión directa: cuando una empresa abre una fábrica\n- Inversión de cartera: compra de bonos y acciones\n- Préstamos: deuda con bancos y organismos\n- Reservas: los dólares del Banco Central\n\nLA IDENTIDAD FUNDAMENTAL:\nCC + CK + CF = 0\n\nEJEMPLO ARGENTINA:\n- Si tenemos déficit de cuenta corriente (CC < 0)\n- Significa que gastamos más divisas de las que generamos\n- Debe financiarse con: deuda, inversión extranjera, o pérdida de reservas\n- Por eso los déficits de CC son insostenibles a largo plazo\n\nPREGUNTA: \"Si Argentina tiene déficit comercial, ¿de dónde salen los dólares?\"\nRESPUESTA: De la cuenta financiera - deuda, inversiones, o se pierden reservas.",
+      "numero": 32,
+      "fuente": "Elaboración propia"
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 8: Cuenta corriente (% PIB)",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: CC = (X - M + Rentas + Transferencias) / PIB × 100",
+        "CC > 0 → SUPERÁVIT: el país ahorra más de lo que invierte, presta al mundo",
+        "CC < 0 → DÉFICIT: el país invierte más de lo que ahorra, se endeuda",
+        "Identidad: CC = Ahorro nacional - Inversión nacional"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 8: CUENTA CORRIENTE (12 minutos)\n\nFÓRMULA COMPLETA:\nCC = (X - M) + Rentas + Transferencias\n\nExpresada como % del PIB:\nCC/PIB × 100\n\nINTERPRETACIÓN:\n- CC > 0: SUPERÁVIT → El país produce más de lo que consume\n  → Ahorra más de lo que invierte\n  → PRESTA al resto del mundo\n\n- CC < 0: DÉFICIT → El país consume más de lo que produce\n  → Invierte más de lo que ahorra\n  → Se ENDEUDA con el resto del mundo\n\n¿DÉFICIT ES MALO?\n¡DEPENDE!\n\nDÉFICIT \"BUENO\":\n- Si financia INVERSIÓN productiva\n- Ejemplo: Chile en los 90s tenía déficit pero invertía en minería\n- La inversión genera retorno futuro para pagar la deuda\n\nDÉFICIT \"MALO\":\n- Si financia CONSUMO\n- Ejemplo: Argentina en los 90s tenía déficit y no invertía\n- La deuda crece sin capacidad de pago\n\nLA IDENTIDAD FUNDAMENTAL:\nCC = S - I (Ahorro nacional menos Inversión nacional)\n\nSi CC < 0 → S < I → El país invierte más de lo que ahorra → Necesita ahorro externo\n\nDATOS PARA COMPARAR:\n- EEUU: -3% del PIB (déficit persistente)\n- Alemania: +7% del PIB (superávit persistente)\n- China: +2% del PIB (superávit moderado, antes era +10%)\n- Argentina: oscila entre +5% y -5% dependiendo del ciclo\n\nPREGUNTA: \"¿Por qué EEUU puede tener déficit persistente sin entrar en crisis?\"\n(Lo vemos en el bloque de desequilibrios globales)",
+      "numero": 33
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Cuenta corriente Argentina (1990-2024)",
+      "subtitulo": "El espejo de los ciclos económicos",
+      "contenido": [
+        "Superávit post-crisis 2002 (+8% PIB)",
+        "Déficit en Convertibilidad y 2017-2018",
+        "Correlación con tipo de cambio real",
+        "La CC anticipa las crisis"
+      ],
+      "visual": "graficos/cc_argentina.png",
+      "fuente": "INDEC / BCRA",
+      "notas_docente": "LECTURA DEL GRÁFICO - CUENTA CORRIENTE ARGENTINA (10 minutos)\n\nIDENTIFICAR LOS CICLOS:\n- Barras verdes = superávit (entraron más dólares de los que salieron)\n- Barras rojas = déficit (salieron más dólares de los que entraron)\n\nMOMENTOS CLAVE:\n\n1. CONVERTIBILIDAD (1991-2001):\n- Déficit persistente, especialmente 1997-1998\n- El peso sobrevaluado abarataba importaciones\n- Se financiaba con deuda externa\n- PREGUNTA: \"¿Por qué no explotó antes de 2001?\"\n- RESPUESTA: Porque entraba capital (inversiones, privatizaciones, deuda)\n\n2. CRISIS 2002:\n- Superávit récord (+8% del PIB)\n- No es \"buena noticia\" - es colapso de importaciones\n- La economía se contrajo tanto que no podía importar\n\n3. POST-CRISIS (2003-2011):\n- Superávits sostenidos\n- TC competitivo + commodities altos\n- \"Los años dorados\" del modelo K\n\n4. DETERIORO (2012-2015):\n- Déficit creciente\n- Atraso cambiario + caída de commodities\n- Cepo cambiario como respuesta\n\n5. MACRISMO (2016-2019):\n- Déficit que se financia con deuda\n- 2018: crisis cambiaria, FMI\n- Patrón similar a Convertibilidad\n\nCONEXIÓN CON INDICADOR 9: El tipo de cambio real EXPLICA estos movimientos. Cuando el peso se aprecia, la CC se deteriora.",
+      "numero": 34
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Desequilibrios globales: EEUU, China, Alemania",
+      "subtitulo": "¿Por qué algunos países siempre tienen déficit y otros superávit?",
+      "contenido": [
+        "EEUU: déficit estructural desde 1980s",
+        "China: superávit desde entrada a OMC (2001)",
+        "Alemania: superávit récord en eurozona",
+        "Los desequilibrios no se ajustan solos"
+      ],
+      "visual": "graficos/desequilibrios_globales.png",
+      "fuente": "FMI WEO",
+      "notas_docente": "DESEQUILIBRIOS GLOBALES - COMPARACIÓN INTERNACIONAL (8 minutos)\n\n¿QUÉ MUESTRA EL GRÁFICO?\n- Cuenta corriente como % del PIB para las 3 economías más importantes\n- Período: 1980-2024\n- Línea en cero = equilibrio\n\nPATRONES ESTRUCTURALES:\n\n1. EEUU (línea roja, siempre abajo):\n- Déficit desde los 1980s\n- Llegó a -6% del PIB en 2006\n- PREGUNTA: \"¿Cómo puede EEUU tener déficit 40 años seguidos sin crisis?\"\n- RESPUESTA: Porque emite la moneda de reserva mundial. El mundo QUIERE dólares.\n- Es el \"privilegio exorbitante\" del dólar\n\n2. CHINA (línea que sube desde 2000):\n- Superávit desde entrada a OMC (2001)\n- Pico de +10% del PIB en 2007\n- Modelo: exportar manufactura barata, acumular reservas\n- Bajó después de 2008 porque su mercado interno creció\n\n3. ALEMANIA (línea que sube desde 2000):\n- Superávit persistente (+6-8% del PIB)\n- Dentro de la eurozona no puede devaluar\n- Los otros países europeos se quejan: \"Alemania exporta desempleo\"\n\nLA PARADOJA:\n- El déficit de EEUU financia el superávit de China y Alemania\n- Es un equilibrio inestable\n- Tensiones comerciales (Trump, aranceles) son síntoma de esto\n\nCONEXIÓN CON ARGENTINA: Nosotros no tenemos el privilegio del dólar. Cuando tenemos déficit, eventualmente explota.",
+      "numero": 35
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "La identidad ahorro-inversión",
+      "subtitulo": null,
+      "contenido": [
+        "CC = S - I (la cuenta corriente es ahorro menos inversion)",
+        "CC = (S_priv - I_priv) + (T - G)",
+        "Deficit fiscal + bajo ahorro = deficit externo",
+        "Por eso el deficit fiscal termina en crisis de BP"
+      ],
+      "visual": "graficos/identidad_ahorro_inversion.png",
+      "notas_docente": "LA IDENTIDAD AHORRO-INVERSION (12 minutos)\n\nESTA ES LA ECUACION MAS IMPORTANTE DE MACROECONOMIA ABIERTA\n\nLA IDENTIDAD:\nCC = S - I = (S_privado - I_privado) + (T - G)\n\nEN PALABRAS:\n- La cuenta corriente es igual al ahorro nacional menos la inversion\n- Se puede descomponer en balance privado + balance fiscal\n\nPOR QUE IMPORTA:\n\n1. SI EL SECTOR PRIVADO ESTA EN EQUILIBRIO (S_priv = I_priv):\n   CC = T - G\n   El deficit externo es igual al deficit fiscal\n   Esto es la vision de \"deficit gemelos\"\n\n2. SI EL GOBIERNO ESTA EN EQUILIBRIO (T = G):\n   CC = S_priv - I_priv\n   El deficit externo refleja que invertimos mas de lo que ahorramos\n\nCASO ARGENTINA:\n- Deficit fiscal cronico (T < G)\n- Ahorro privado bajo\n- Resultado: deficit de cuenta corriente persistente\n- Se financia con deuda externa o perdida de reservas\n- Eventualmente: crisis\n\nPREGUNTA CLAVE: \"Si tenemos deficit fiscal, de donde salen los dolares para financiarlo?\"\nRESPUESTA: De afuera - deuda, inversiones, o se pierden reservas.\n\nCONEXION: Por eso el FMI siempre pide ajuste fiscal. Saben que el deficit fiscal = deficit externo.",
+      "numero": 36,
+      "fuente": "Elaboracion propia"
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Bloque D: Tipo de Cambio",
+      "subtitulo": "Competitividad y precios relativos",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL BLOQUE DE TIPO DE CAMBIO (2 minutos)\n\nCONEXIÓN CC ↔ TC:\n\nLa cuenta corriente y el tipo de cambio están RELACIONADOS:\n- Si el tipo de cambio está \"caro\" (moneda apreciada) → importaciones baratas, exportaciones caras → déficit CC\n- Si el tipo de cambio está \"barato\" (moneda depreciada) → importaciones caras, exportaciones baratas → superávit CC\n\nPero ojo: la relación no es automática ni inmediata. Hay otros factores.\n\nPREGUNTA DISPARADORA: \"¿Qué prefieren: un dólar barato (digamos, $500) o un dólar caro (digamos, $2000)?\"\n\nEsta pregunta genera debate porque:\n- Dólar barato → viajes baratos, importaciones baratas, bienestar inmediato\n- Dólar caro → exportaciones competitivas, empleo industrial, pero inflación\n\nNo hay respuesta \"correcta\" universal. Depende del contexto y las prioridades.",
+      "numero": 37
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tipo de cambio: nominal vs real",
+      "subtitulo": null,
+      "contenido": [
+        "TC NOMINAL (E): precio de una moneda en términos de otra (pesos por dólar)",
+        "TC REAL (e): TC nominal ajustado por precios relativos",
+        "El TC real mide COMPETITIVIDAD: ¿son baratos o caros nuestros bienes?",
+        "CUIDADO: devaluación nominal no siempre mejora competitividad"
+      ],
+      "visual": null,
+      "notas_docente": "TIPO DE CAMBIO: NOMINAL VS REAL (12 minutos)\n\nTIPO DE CAMBIO NOMINAL (E):\n- Es el que ven en las casas de cambio o en los diarios\n- Pesos por dólar (en Argentina)\n- Ejemplo: E = 1000 $/US$\n\nTIPO DE CAMBIO REAL (e):\n- Es el TC nominal AJUSTADO por precios relativos\n- Mide COMPETITIVIDAD: ¿son baratos o caros nuestros bienes en el mundo?\n\nEJEMPLO PARA ENTENDER LA DIFERENCIA:\n\nSituación A (enero 2024):\n- TC nominal: 800 $/US$\n- Big Mac en Argentina: $4.000 (= US$ 5.00)\n- Big Mac en EEUU: US$ 5.50\n\nSituación B (julio 2024, con inflación argentina):\n- TC nominal: 900 $/US$\n- Big Mac en Argentina: $5.400 (= US$ 6.00)\n- Big Mac en EEUU: US$ 5.50\n\n¿Qué pasó?\n- El dólar subió 12.5% (de 800 a 900)\n- Pero la Big Mac subió 35% (de 4000 a 5400)\n- En dólares, Argentina se encareció (de US$5.00 a US$6.00)\n- El tipo de cambio REAL se apreció (aunque el nominal subió)\n\nMENSAJE CLAVE:\n\"DEVALUACIÓN NOMINAL NO ES LO MISMO QUE DEPRECIACIÓN REAL\"\n\nSi después de devaluar hay inflación que \"se come\" la devaluación, la competitividad no mejora.\n\nPREGUNTA: \"¿Qué pasó en Argentina después de la devaluación de 2002?\"\nRESPUESTA: El TC real se depreció MUCHO porque la inflación tardó en ajustar. Eso hizo las exportaciones muy competitivas.",
+      "numero": 38
+    },
+    {
+      "tipo": "formula",
+      "titulo": "Indicador 9: Tipo de cambio real",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: e = E × (P* / P)",
+        "E = TC nominal (pesos por dólar)",
+        "P* = nivel de precios externo; P = nivel de precios doméstico",
+        "e sube → depreciación real → más competitivos",
+        "e baja → apreciación real → menos competitivos"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 9: TIPO DE CAMBIO REAL (12 minutos)\n\nFÓRMULA:\ne = E × (P* / P)\n\nDonde:\n- e = tipo de cambio real\n- E = tipo de cambio nominal (pesos por dólar)\n- P* = nivel de precios externo (ej: EEUU)\n- P = nivel de precios doméstico (Argentina)\n\nINTERPRETACIÓN:\n- Si e SUBE → depreciación real → somos MÁS competitivos\n- Si e BAJA → apreciación real → somos MENOS competitivos\n\nEJEMPLO NUMÉRICO EN PIZARRÓN:\n\nPeríodo 1:\nE = 100, P* = 100, P = 100\ne = 100 × (100/100) = 100 (índice base)\n\nPeríodo 2 (devaluación sin inflación):\nE = 150, P* = 100, P = 100\ne = 150 × (100/100) = 150 (depreciación real del 50%)\n\nPeríodo 3 (inflación que compensa):\nE = 150, P* = 100, P = 150\ne = 150 × (100/150) = 100 (volvió al nivel inicial)\n\nEN LA PRÁCTICA:\n- Argentina usa el ITCRM (Índice de Tipo de Cambio Real Multilateral)\n- \"Multilateral\" porque considera múltiples socios comerciales, no solo EEUU\n- Lo calcula el BCRA mensualmente\n\nREGLA SIMPLE:\n\"Si la inflación acumulada supera la devaluación acumulada, el peso se está apreciando en términos reales.\"\n\nDATO HISTÓRICO:\n- Durante la convertibilidad (1991-2001), el TC nominal estaba fijo en 1:1\n- Pero Argentina tenía inflación y EEUU casi no\n- → Apreciación real sostenida\n- → Pérdida de competitividad\n- → Déficit de CC\n- → Crisis",
+      "numero": 39
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Tipo de cambio real Argentina (1997-2024)",
+      "subtitulo": "El indicador que anticipa las crisis",
+      "contenido": [
+        "Base 100 = promedio histórico",
+        "< 100 = peso apreciado (caro en dólares)",
+        "> 100 = peso depreciado (barato en dólares)",
+        "Patrón: apreciación gradual → devaluación brusca"
+      ],
+      "visual": "graficos/tcr_argentina.png",
+      "fuente": "BCRA (ITCRM)",
+      "notas_docente": "LECTURA DEL GRÁFICO - TIPO DE CAMBIO REAL (12 minutos)\n\nESTE ES EL GRÁFICO MÁS IMPORTANTE PARA ENTENDER ARGENTINA\n\n¿QUÉ MUESTRA?\n- Índice de Tipo de Cambio Real Multilateral (ITCRM) del BCRA\n- Base diciembre 2015 = 100 (o promedio histórico)\n- VERDE = peso depreciado (competitivo, bueno para exportar)\n- ROJO = peso apreciado (caro, malo para exportar)\n\nLOS CICLOS ARGENTINOS:\n\n1. CONVERTIBILIDAD (1997-2001):\n- TCR bajo y estable (peso caro)\n- El \"1 a 1\" era insostenible\n- Se veía venir: el peso estaba 40% sobrevaluado\n\n2. DEVALUACIÓN 2002:\n- Salto de 70 a 200+ (casi 3x)\n- Overshooting típico de las crisis\n- El peso pasó de muy caro a muy barato\n\n3. RECUPERACIÓN (2003-2008):\n- TCR alto = competitividad\n- Superávit comercial y fiscal\n- Acumulación de reservas\n\n4. APRECIACIÓN GRADUAL (2008-2015):\n- Inflación + dólar \"planchado\"\n- El peso se fue apreciando\n- Cepo como parche\n\n5. DEVALUACIÓN 2015-2016:\n- Salida del cepo\n- Salto discreto pero menor que 2002\n\n6. NUEVO CICLO (2016-2019):\n- Apreciación rápida (carry trade)\n- Crisis 2018\n- Vuelta del cepo\n\n7. HOY:\n- ¿Dónde estamos en el ciclo?\n- Depende del régimen cambiario actual\n\nFRASE CLAVE: \"En Argentina, el tipo de cambio sube por ascensor y baja por escalera\"\n- Devaluaciones bruscas\n- Apreciaciones graduales (por inflación)\n\nCONEXIÓN: Cuando el TCR está bajo (zona roja), la cuenta corriente se deteriora. Son dos caras de la misma moneda.",
+      "numero": 40
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Reservas internacionales Argentina",
+      "subtitulo": "El colchón contra las crisis",
+      "contenido": [
+        "Reservas = capacidad de intervenir en el mercado",
+        "Caen antes de las crisis (2001, 2018)",
+        "Se acumulan en buenos tiempos (2003-2011)",
+        "Nivel actual: ¿suficiente o insuficiente?"
+      ],
+      "visual": "graficos/reservas_argentina.png",
+      "fuente": "BCRA",
+      "notas_docente": "RESERVAS INTERNACIONALES - EL TERMÓMETRO DE LA SALUD EXTERNA (8 minutos)\n\n¿QUÉ SON LAS RESERVAS?\n- Dólares (y otras divisas) que tiene el Banco Central\n- Sirven para: intervenir en el mercado, pagar deuda, importar\n- Son el \"colchón\" contra shocks externos\n\nLECTURA DEL GRÁFICO:\n\n1. PRE-CRISIS 2001:\n- Reservas cayendo desde 1999\n- El mercado veía que no alcanzaban\n- Corrida bancaria → corralito\n\n2. POST-CRISIS (2003-2011):\n- Acumulación récord: de USD 10.000M a USD 52.000M\n- TC competitivo + superávit comercial\n- Se compraban los dólares que sobraban\n\n3. CAÍDA (2011-2015):\n- De USD 52.000M a USD 25.000M\n- Atraso cambiario + déficit comercial\n- Cepo para frenar la sangría\n\n4. MACRISMO (2016-2019):\n- Entrada de capitales inicial\n- Crisis 2018: caída abrupta\n- FMI como prestamista de última instancia\n\n5. ACTUALIDAD:\n- ¿Cuántas reservas hay \"de verdad\"?\n- Reservas brutas vs netas\n- Pasivos del BCRA\n\nREGLA PRÁCTICA:\n- Mínimo deseable: 3 meses de importaciones\n- Mejor: 6-12 meses\n- Argentina suele estar al límite\n\nCONEXIÓN CON TODO:\n- TCR apreciado → déficit comercial → caen reservas → crisis → devaluación → TCR depreciado → superávit → suben reservas → ... (y el ciclo se repite)",
+      "numero": 41
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Bloque E: Desequilibrios Globales",
+      "subtitulo": "El mundo contemporáneo (1980-2024)",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN A DESEQUILIBRIOS GLOBALES (3 minutos)\n\nAHORA TENEMOS LAS 9 HERRAMIENTAS:\n1-7: Indicadores de comercio\n8: Cuenta corriente\n9: Tipo de cambio real\n\nVAMOS A APLICARLAS A:\n1. Los desequilibrios globales (EEUU, China, Alemania)\n2. El caso argentino\n\nPREGUNTA DISPARADORA:\n\"¿Por qué hay países que tienen superávit de cuenta corriente SIEMPRE (Alemania, China) y países que tienen déficit SIEMPRE (EEUU, Reino Unido)?\"\n\n¿No deberían los mercados equilibrar esto?\n¿No debería el tipo de cambio ajustar?\n\nSpoiler: No es tan simple. Hay factores estructurales.",
+      "numero": 42
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "¿Qué son los desequilibrios globales?",
+      "subtitulo": null,
+      "contenido": [
+        "DEFICIT (rojo): EEUU, Reino Unido, Australia",
+        "SUPERAVIT (verde): China, Alemania, Japón, Arabia Saudita",
+        "Los superavitarios financian a los deficitarios",
+        "Este patrón es estable hace décadas"
+      ],
+      "visual": "graficos/desequilibrios_mapa.png",
+      "notas_docente": "LECTURA DEL GRAFICO - DESEQUILIBRIOS (8 minutos)\n\nEL GRAFICO MUESTRA QUIEN FINANCIA A QUIEN:\n\nPAISES EN ROJO (deficit):\n- EEUU: -2.5% del PIB en promedio\n- Importa mas de lo que exporta\n- Se financia con capital del resto del mundo\n- Puede hacerlo porque emite dolares\n\nPAISES EN VERDE (superavit):\n- Alemania: +7.5% del PIB (record mundial)\n- China: +2% del PIB (bajo para su tamano)\n- Exportan mas de lo que importan\n- Acumulan reservas y activos externos\n\nLA PREGUNTA CLAVE:\n\"Si EEUU tiene deficit hace 40 anos, por que no quebro?\"\n\nRESPUESTA: Porque el mundo QUIERE dolares. Es el privilegio exorbitante.\n\nCONEXION CON ARGENTINA:\nNosotros no tenemos ese privilegio. Cuando tenemos deficit, eventualmente explota.",
+      "numero": 43,
+      "fuente": "FMI WEO (promedio 2010-2020)"
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "El 'privilegio exorbitante' del dólar",
+      "subtitulo": null,
+      "contenido": [
+        "El dolar representa ~60% de reservas mundiales",
+        "El euro es segundo con ~20%",
+        "El yuan chino crece muy lento (~3%)",
+        "Esta dominancia permite deficit permanente a EEUU"
+      ],
+      "visual": "graficos/dolar_reservas.png",
+      "notas_docente": "EL PRIVILEGIO EXORBITANTE (10 minutos)\n\nQUE MUESTRA EL GRAFICO:\n- Composicion de reservas de bancos centrales del mundo\n- El dolar (azul) domina con casi 60%\n- El euro (naranja) es segundo con 20%\n- Otras monedas (gris) incluyen yen, libra, yuan\n\nPOR QUE IMPORTA:\n1. Los bancos centrales NECESITAN dolares\n2. Para comerciar petroleo, commodities\n3. Para intervenir en mercados cambiarios\n4. Como reserva de valor\n\nEL PRIVILEGIO:\n- EEUU puede imprimir la moneda que todos quieren\n- Puede tener deficit sin crisis\n- Puede sancionar paises (Rusia, Iran) cortando acceso al dolar\n- Es un poder geopolitico enorme\n\nEL YUAN:\n- China quiere internacionalizar el yuan\n- Pero crece muy lento (3% de reservas)\n- Requiere cuenta capital abierta\n- China no quiere perder control\n\nPREGUNTA: \"Si el dolar pierde dominancia, que pasa con EEUU?\"\nRESPUESTA: Tendria que ajustar su deficit. Seria un shock enorme.",
+      "numero": 44,
+      "fuente": "FMI COFER"
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Asia: de deudores a acreedores",
+      "subtitulo": "La transformación post-crisis 1997",
+      "contenido": [
+        "ANTES (1990-1997): deficit, endeudamiento, crisis",
+        "CRISIS 1997-98: colapso, FMI, ajuste brutal",
+        "DESPUES (1999-hoy): superavit, acumulacion de reservas",
+        "Asia aprendio: nunca mas depender del capital externo"
+      ],
+      "visual": "graficos/asia_transformacion.png",
+      "notas_docente": "LA TRANSFORMACION DE ASIA (10 minutos)\n\nEL GRAFICO CUENTA UNA HISTORIA:\n\nACTO 1 - ANTES (barras rojas, 1990-1997):\n- Asia tenia deficit de cuenta corriente\n- Se financiaba con deuda externa y hot money\n- Tipo de cambio fijo\n- Parecia que todo iba bien...\n\nACTO 2 - CRISIS (zona amarilla, 1997-98):\n- Tailandia devalua, contagio regional\n- Fuga de capitales masiva\n- Colapso economico: PIB cayo 10-15%\n- FMI impuso ajuste brutales\n- Trauma colectivo\n\nACTO 3 - DESPUES (barras verdes, 1999-hoy):\n- Asia decide: nunca mas\n- Pasan de deudores a acreedores\n- Acumulan reservas enormes (China: 3 billones USD)\n- Superavit permanente\n\nLA LECCION:\nEl capital externo es peligroso. Entra rapido, sale mas rapido.\nAsia aprendio. Argentina todavia no.\n\nPREGUNTA: \"Por que Argentina no hizo lo mismo despues de 2001?\"\nRESPUESTA: Lo hizo parcialmente (2003-2011). Pero despues volvio al patron de siempre.",
+      "numero": 45,
+      "fuente": "FMI WEO"
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Bloque F: El Caso Argentino",
+      "subtitulo": "El ciclo de apreciación-crisis-devaluación",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL CASO ARGENTINO (3 minutos)\n\nAHORA APLICAMOS TODO AL CASO QUE CONOCEMOS\n\nArgentina es un \"laboratorio\" de crisis de balanza de pagos:\n- 1975: Rodrigazo\n- 1982: Crisis de deuda\n- 1989: Hiperinflación\n- 2001: Fin de la convertibilidad\n- 2018: Crisis y vuelta al FMI\n- 2023-24: Nuevo episodio\n\nPREGUNTA CENTRAL: \"¿Por qué Argentina repite el mismo patrón cada 10-15 años?\"\n\nHIPÓTESIS QUE VAMOS A EXPLORAR:\n1. Es un problema de TIPO DE CAMBIO (se aprecia hasta que explota)\n2. Es un problema de AHORRO (bajo ahorro + déficit fiscal)\n3. Es un problema de ESTRUCTURA PRODUCTIVA (dependencia de commodities)\n4. Es un problema de INSTITUCIONES (políticas inconsistentes)\n\nSpoiler: Probablemente sea una combinación de todos.",
+      "numero": 46
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "El 'ciclo argentino'",
+      "subtitulo": "¿Por qué se repite cada 10-15 años?",
+      "contenido": [
+        "1. ESTABILIZACION: ancla cambiaria, inflacion baja",
+        "2. APRECIACION: peso caro, deficit, endeudamiento",
+        "3. CRISIS: fuga, caen reservas, devaluacion",
+        "4. RECUPERACION: TC competitivo, superavit, crecimiento"
+      ],
+      "visual": "graficos/ciclo_argentino.png",
+      "notas_docente": "EL CICLO ARGENTINO (15 minutos)\n\nESTE DIAGRAMA RESUME TODO LO QUE VIMOS\n\nLAS 4 FASES:\n\nFASE 1 - ESTABILIZACION (verde):\n- Gobierno ancla el tipo de cambio para bajar inflacion\n- Funciona: inflacion baja, confianza sube\n- Ejemplos: 1991 (Convertibilidad), 2016 (Macri)\n\nFASE 2 - APRECIACION (amarillo):\n- La inflacion no baja del todo\n- Pero el dolar esta fijo o sube poco\n- El peso se encarece en terminos reales\n- Deficit comercial, se financia con deuda\n\nFASE 3 - CRISIS (rojo):\n- El mercado duda de la sostenibilidad\n- Fuga de capitales\n- Caen las reservas\n- Eventualmente: devaluacion forzada\n- Ejemplos: 2001-2002, 2018\n\nFASE 4 - RECUPERACION (azul):\n- Post-devaluacion el TC es competitivo\n- Superavit comercial\n- Crecimiento por sustitucion de importaciones\n- Ejemplos: 2003-2007\n\nEL PROBLEMA:\nEl ciclo se repite porque nunca se resuelve el problema de fondo:\n- No hay disciplina fiscal sostenida\n- No hay productividad para sostener un peso fuerte\n- La inflacion siempre vuelve\n\nPREGUNTA PARA DISCUTIR: \"En que fase estamos hoy?\"",
+      "numero": 47,
+      "fuente": "Elaboracion propia"
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "La Convertibilidad (1991-2001): caso de estudio",
+      "subtitulo": null,
+      "contenido": [
+        "TCR: apreciacion continua (100 a 70)",
+        "Cuenta corriente: deficit persistente (-3 a -5% PIB)",
+        "Reservas: crecen y luego colapsan",
+        "2002: devaluacion, superavit, recuperacion"
+      ],
+      "visual": "graficos/convertibilidad_timeline.png",
+      "notas_docente": "LA CONVERTIBILIDAD COMO CASO DE ESTUDIO (12 minutos)\n\nEL GRAFICO MUESTRA LOS 3 INDICADORES CLAVE:\n\nPANEL 1 - TIPO DE CAMBIO REAL:\n- 1991 = 100 (equilibrio)\n- Cae hasta 70 en 2001 (peso 30% sobrevaluado)\n- 2002: salta a 180 (devaluacion 200%)\n- LECCION: la apreciacion fue gradual pero letal\n\nPANEL 2 - CUENTA CORRIENTE:\n- Deficit todos los anos (barras rojas)\n- Financiado con deuda y privatizaciones\n- 2002: superavit record (+8%) pero por colapso de importaciones\n- LECCION: deficit sostenido = bomba de tiempo\n\nPANEL 3 - RESERVAS:\n- Suben hasta 1998 (entrada de capitales)\n- Caen desde 2000 (fuga)\n- 2001: ya no quedaba nada\n- LECCION: las reservas son el termometro\n\nLA ZONA AMARILLA (2001-2002):\n- Todo colapsa junto\n- Es el momento de la crisis\n- Lo que vino despues fue recuperacion\n\nPREGUNTA: \"Por que el FMI no vio venir esto?\"\nRESPUESTA: Lo vio. Pero siguio prestando por razones politicas.\n\nCONEXION: Este patron se repitio en 2018 (parcialmente).",
+      "numero": 48,
+      "fuente": "BCRA / INDEC"
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Cierre",
+      "subtitulo": null,
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL CIERRE (1 minuto)\n\nESTAMOS LLEGANDO AL FINAL DE LAS CLASES 1+2\n\nEn estas 4 horas vimos:\n- 9 indicadores para analizar el sector externo\n- Historia del comercio (1500-1945) - faltan etapas 4 y 5\n- Desequilibrios globales contemporáneos\n- El caso argentino en profundidad\n\nAHORA: Resumen y próximos pasos",
+      "numero": 49
+    },
+    {
+      "tipo": "grafico_texto",
+      "titulo": "Resumen: 9 indicadores de inserción externa",
+      "subtitulo": null,
+      "contenido": [
+        "Indicadores 1-4: medicion del comercio historico",
+        "Indicadores 5-7: competitividad y terminos de intercambio",
+        "Indicadores 8-9: sostenibilidad externa (BP y TC)",
+        "Todos se relacionan entre si"
+      ],
+      "visual": "graficos/resumen_indicadores.png",
+      "notas_docente": "RESUMEN DE LOS 9 INDICADORES (5 minutos)\n\nRECAPITULACION RAPIDA:\n\nBLOQUE A - MEDICION (indicadores 1-4):\n- Indice de comercio: cuanto crecio\n- Participacion: quien gana/pierde\n- HHI: concentracion\n- Cobertura: calidad de datos\n\nBLOQUE B - COMPETITIVIDAD (indicadores 5-7):\n- Balanza comercial: X - M\n- Apertura: integracion\n- ToT: poder de compra externo\n\nBLOQUE C/D - SOSTENIBILIDAD (indicadores 8-9):\n- Cuenta corriente: balance externo\n- Tipo de cambio real: competitividad precio\n\nCOMO SE RELACIONAN:\n- Si TCR bajo (apreciado) -> BC negativa -> CC negativa\n- Si ToT mejoran -> CC mejora (aunque TCR no cambie)\n- Si reservas caen -> crisis inminente\n\nPARA EL PARCIAL:\nLos estudiantes deben poder:\n1. Calcular cada indicador\n2. Interpretar que significa\n3. Relacionarlos entre si\n4. Aplicarlos al caso argentino",
+      "numero": 50,
+      "fuente": null
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Resumen: hechos estilizados",
+      "subtitulo": null,
+      "contenido": [
+        "El comercio creció 40x (1800-1913) y colapsó (1914-1945)",
+        "La 'globalización' del s.XIX fue hegemonía británica",
+        "Sin hegemón que garantice las reglas, el sistema se fragmenta",
+        "Los desequilibrios globales reflejan el rol del dólar",
+        "Argentina repite un ciclo de apreciación → déficit → crisis"
+      ],
+      "visual": null,
+      "notas_docente": "RESUMEN: HECHOS ESTILIZADOS (5 minutos)\n\nLAS GRANDES LECCIONES:\n\n1. EL COMERCIO NO CRECE LINEALMENTE\n- Creció 40 veces (1800-1913)\n- Colapsó (1914-1945)\n- Volvió a crecer (1945-2008)\n- Ahora está en tensión\n\n2. LA GLOBALIZACIÓN REQUIERE HEGEMONÍA\n- Siglo XIX: Gran Bretaña\n- Siglo XX-XXI: Estados Unidos\n- ¿Futuro?: ¿EEUU vs China? ¿Fragmentación?\n\n3. SIN REGLAS ESTABLES, EL SISTEMA SE FRAGMENTA\n- 1930s: bloques comerciales, proteccionismo\n- ¿2020s?: ¿nearshoring, decoupling?\n\n4. LOS DESEQUILIBRIOS GLOBALES REFLEJAN ASIMETRÍAS ESTRUCTURALES\n- EEUU: déficit por rol del dólar\n- China/Alemania: superávit por modelo exportador\n- No se ajustan automáticamente\n\n5. ARGENTINA REPITE UN CICLO\n- Apreciación → déficit → crisis → devaluación → recuperación → ...\n- ¿Es evitable? Requiere políticas consistentes y sostenibles\n\nMARCO PARA RECORDAR: TECNOLOGÍA + REGLAS + PODER",
+      "numero": 51
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Próxima clase",
+      "subtitulo": "Clase 3: Mercantilistas y Smith",
+      "contenido": [
+        "¿Por qué comercian los países?",
+        "La visión mercantilista: comercio como guerra",
+        "Adam Smith y las ventajas absolutas",
+        "El debate que sigue vigente",
+        "Lectura: Lugones, cap. 1"
+      ],
+      "visual": null,
+      "notas_docente": "PRÓXIMA CLASE (3 minutos)\n\nCLASE 3: TEORÍAS DEL COMERCIO - MERCANTILISTAS Y SMITH\n\n¿QUÉ VAMOS A VER?\n- ¿Por qué comercian los países?\n- Los MERCANTILISTAS: comercio como guerra, acumulación de oro\n- ADAM SMITH: ventajas absolutas, crítica al mercantilismo\n- El debate que sigue vigente (¿Trump es mercantilista?)\n\nCONEXIÓN CON LO QUE VIMOS:\n- Pasamos de DESCRIPCIÓN (indicadores, hechos) a EXPLICACIÓN (teorías)\n- Los indicadores nos dicen QUÉ pasa\n- Las teorías intentan explicar POR QUÉ\n\nLECTURA SUGERIDA:\n- Lugones, capítulo 1 (o lo que indique el programa)\n- Alternativa: Adam Smith, \"La Riqueza de las Naciones\", Libro IV (fragmentos)\n\nPREGUNTA PARA PENSAR:\n\"Si el comercio beneficia a todos, ¿por qué los países ponen aranceles?\"\n\nEsta pregunta conecta mercantilistas (proteccionismo) con Smith (libre comercio).",
+      "numero": 52
+    },
+    {
+      "tipo": "cierre",
+      "titulo": "¿Preguntas?",
+      "subtitulo": "Economía Internacional | UMET | 2026",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "CIERRE - PREGUNTAS (5-10 minutos)\n\nABRIR ESPACIO PARA PREGUNTAS\n\nPREGUNTAS FRECUENTES:\n\nP: \"¿Cómo consigo los datos para calcular estos indicadores?\"\nR: INDEC, BCRA, FMI WEO, Banco Mundial WDI, UNCTAD. Les paso links.\n\nP: \"¿Cómo es el parcial/final?\"\nR: Según el programa. Típicamente: análisis de caso aplicando indicadores.\n\nP: \"¿Hay algún libro de texto?\"\nR: Krugman-Obstfeld es el estándar. Lugones para perspectiva latinoamericana.\n\nP: \"¿Qué va a pasar con el dólar en Argentina?\"\nR: No soy futurólogo, pero ahora tienen herramientas para analizar la situación.\n\nSI NO HAY PREGUNTAS:\n\nRecapitular los 3 puntos más importantes:\n1. El comercio internacional no es automático ni natural - requiere condiciones\n2. Argentina tiene un patrón recurrente que pueden analizar con estos indicadores\n3. Las teorías que veremos intentan explicar por qué los países comercian (y por qué a veces no)\n\nDESPEDIDA:\n\"Nos vemos la próxima clase. Traigan preguntas sobre los mercantilistas y Smith.\"\n",
+      "numero": 53
+    }
+  ]
+}

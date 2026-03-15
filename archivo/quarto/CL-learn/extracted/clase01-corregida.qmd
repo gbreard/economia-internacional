@@ -1,0 +1,172 @@
+---
+title: "Economia Internacional"
+subtitle: "Clase 1 — El comercio mundial: auge, colapso y preguntas abiertas"
+author: "UMET - Licenciatura en Economia | 2026"
+format: revealjs
+bibliography: ../referencias.bib
+---
+
+```{python}
+#| include: false
+import sys
+sys.path.append('../scripts')
+from funciones import *
+import warnings
+warnings.filterwarnings('ignore')
+
+# Cargar datos
+try:
+    df_mundo = cargar_datos_mundo('../datos/FTWTHD')
+    df_regional = cargar_datos_regionales('../datos/FTWTHD')
+except Exception as e:
+    print(f"Error cargando datos: {e}")
+    df_mundo = None
+    df_regional = None
+```
+
+# Apertura {.section}
+
+## Pregunta central de la clase {.center-slide}
+
+::: {.r-fit-text}
+¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en apenas 30 años?
+:::
+
+Esta pregunta organiza todo lo que veremos hoy:
+
+1. Medir ese crecimiento y colapso con datos
+2. Explicar qué fuerzas lo causaron
+3. Conectar historia con números
+
+---
+
+## Objetivos de aprendizaje
+
+Al terminar esta clase vas a poder:
+
+1. Usar **4 indicadores básicos** de comercio internacional
+2. Describir las **grandes etapas históricas** (siglo XVI → siglo XX)
+3. Aplicar un **marco analítico**: Tecnología + Reglas + Poder
+
+---
+
+## Marco analítico: tres fuerzas {.center-slide}
+
+Para explicar cualquier período del comercio, preguntamos:
+
+| Fuerza | Pregunta clave | Ejemplos |
+|--------|----------------|----------|
+| **Tecnología** | ¿Cuánto cuesta mover bienes? | Vela → vapor → contenedor |
+| **Reglas** | ¿Quién puede comerciar? | Monopolios, aranceles, OMC |
+| **Poder** | ¿Quién garantiza estabilidad? | Hegemonía, marina, moneda |
+
+**Idea clave:** Las tres operan juntas. Si una falla, el sistema se quiebra.
+
+# Indicadores {.section}
+
+## Indicador 1: Índice de comercio mundial
+
+**Definición:**
+
+$$I_t = 100 \times \frac{Comercio_t}{Comercio_{1913}}$$
+
+**Interpretación:**
+
+- El año base es 1913 (pico antes de la Primera Guerra)
+- Si $I_t = 50$ → el comercio es la mitad del de 1913
+- Si $I_t = 200$ → el comercio es el doble del de 1913
+
+**¿Por qué usar un índice?** Evita problemas de inflación y permite comparar períodos largos.
+
+---
+
+## Índice de comercio mundial (1800-1938)
+
+:::: {.columns}
+::: {.column width="65%"}
+```{python}
+#| fig-width: 11
+#| fig-height: 6.5
+#| out-width: "100%"
+#| out-height: "55vh"
+
+if df_mundo is not None:
+    fig, ax = grafico_indice_grande(df_mundo, destacar_eventos=True)
+    plt.show()
+```
+
+::: {.fuente}
+Fuente: FTWTHD
+:::
+:::
+
+::: {.column width="35%"}
+**Cómo leer el índice:**
+
+- 1913 = 100 (año base)
+- Valor 50 = mitad del comercio de 1913
+- Valor 200 = doble del de 1913
+
+**Puntos clave:**
+
+- 1800: 2.4 (casi nada)
+- 1870: 25 (x10 en 70 años)
+- 1913: 100 (pico)
+- 1932: 95 (colapso -29%)
+:::
+::::
+
+---
+
+## Indicador 2: Participación regional {.center-slide}
+
+**Definición:**
+
+$$s_{r,t} = \frac{X_{r,t}}{X_{mundo,t}} \times 100$$
+
+Donde:
+
+- $s_{r,t}$ = participación de la región $r$ en el año $t$ (en %)
+- $X_{r,t}$ = exportaciones de la región $r$
+- $X_{mundo,t}$ = exportaciones mundiales totales
+
+**¿Qué nos dice?** Quién comercia y cómo cambia la composición geográfica.
+
+---
+
+## Participación regional (1800-1938)
+
+:::: {.columns}
+::: {.column width="65%"}
+```{python}
+#| fig-width: 11
+#| fig-height: 6.5
+#| out-width: "100%"
+#| out-height: "55vh"
+
+if df_regional is not None:
+    fig, ax = grafico_participacion_grande('../datos/FTWTHD')
+    plt.show()
+```
+
+::: {.fuente}
+Fuente: FTWTHD
+:::
+:::
+
+::: {.column width="35%"}
+**Cómo leerlo:**
+
+Cada línea = % del comercio mundial de esa región.
+
+**Datos clave:**
+
+- Europa: 60-70% (domina)
+- Américas: 10-20%
+- Asia: 10-15%
+
+**Conclusión:**
+
+La "globalización" del siglo XIX era básicamente comercio europeo con el mundo.
+:::
+::::

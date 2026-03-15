@@ -1,0 +1,1187 @@
+Armamos la clase 2!
+Pensado durante 41s
+According to a course plan document (date not specified in the file metadata), la Clase 2 es la primera entrada fuerte a Unidad 2 y cubre: Smith (ventajas absolutas) + Ricardo (ventajas comparativas), FPP, costos de oportunidad, autarquía vs. comercio y ganancias del comercio, con ejemplos numéricos y gráficos simples.
+Plan_de_clases_Economia_Interna…
+Programa
+
+(Material de referencia: 
+Plan_de_clases_Economia_Interna…
+Programa
+)
+Clase 2 (2h30): Smith, Ricardo y ventajas comparativas
+0) Objetivos de aprendizaje (lo que tienen que poder hacer al final)
+Distinguir ventaja absoluta (Smith) vs ventaja comparativa (Ricardo).
+Plan_de_clases_Economia_Interna…
+Calcular costos de oportunidad y derivar el patrón de especialización (quién exporta qué).
+Programa
+Mostrar (con gráfico y con números) ganancias del comercio: expansión del conjunto de consumo posible respecto de autarquía.
+Plan_de_clases_Economia_Interna…
+Conectar con “mundo real”: por qué el argumento clásico suele apoyar el libre comercio, y qué cosas deja afuera (lo retomamos más adelante).
+
+Guion sugerido minuto a minuto
+1) Apertura y puente con Clase 1 (10 min)
+Recordatorio: vimos hechos estilizados del comercio global y “por qué importa”.
+Pregunta disparadora: “Si el comercio beneficia a todos, ¿por qué hay conflicto distributivo y tensiones políticas?” (la respuesta completa viene con H–O + política comercial, pero hoy dejamos planteado el problema).
+
+2) Smith: ventajas absolutas y división del trabajo (20 min)
+Idea central: el comercio exterior amplía el mercado y profundiza la división del trabajo → sube productividad; cada país debería producir lo que hace “más barato” en términos absolutos.
+Lugones-Teorias_del_Comercio_In…
+Punto pedagógico clave: Smith explica comercio cuando hay diferencias absolutas de costos. Pero si un país es mejor en todo, Smith solo no alcanza → entra Ricardo.
+
+3) Ricardo: ventajas comparativas (núcleo) (55 min)
+Idea central: el comercio surge de diferencias en costos de oportunidad / precios relativos, no de costos absolutos.
+Lugones-Teorias_del_Comercio_In…
+Lugones-Teorias_del_Comercio_In…
+(A) Setup mínimo del modelo (5 min)
+2 países, 2 bienes, 1 factor (trabajo), productividad distinta por bien y país.
+Competencia perfecta, rendimientos constantes, sin costos de transporte, etc. (solo para “ver” el mecanismo).
+(B) Ejercicio numérico en vivo (25–30 min)
+Usá bienes estándar “Vino” y “Tela” (es el ejemplo típico y aparece en el material).
+Lugones-Teorias_del_Comercio_In…
+Tabla (requerimientos unitarios de trabajo):
+Ventaja absoluta: A es más eficiente en ambos (1<6 y 2<8).
+Costos de oportunidad (comparativa):
+En A: producir 1 vino cuesta 0,5 tela (1/2). Producir 1 tela cuesta 2 vinos.
+En B: producir 1 vino cuesta 0,75 tela (6/8). Producir 1 tela cuesta 1,33 vinos (8/6).
+Comparativa:
+A tiene menor costo oportunidad en vino (0,5 < 0,75) ⇒ A exporta vino.
+B tiene menor costo oportunidad en tela (1,33 < 2) ⇒ B exporta tela.
+Rango de precios internacionales (términos de intercambio):
+El precio relativo internacional debe ubicarse entre los costos de oportunidad internos para que ambos ganen (idea intuitiva). Esto conecta directo con “precio relativo / TDI” como concepto. (Si querés, lo dejás como intuición y lo formalizás después).
+Cierre: la condición para que haya comercio no es “ser mejor en algo” sino diferir en precios relativos/costos de oportunidad.
+Lugones-Teorias_del_Comercio_In…
+(C) Gráfico: PPF y ganancias del comercio (20 min)
+Dibujar PPF de cada país (lineal en Ricardo).
+Marcar:
+Punto de producción/consumo en autarquía.
+Especialización bajo comercio.
+Línea de intercambio (a precio mundial).
+Nuevo conjunto de consumo posible (más “afuera” que autarquía).
+
+4) Mini-bloque de “medición” para no quedar solo en teoría (20 min)
+Acá la idea es conectar con datos sin meterte en H–O todavía:
+Traducción empírica simple: “patrón de especialización” = qué exporta neto cada país (y cómo cambia en el tiempo).
+Introducir (en 1 slide) el concepto de ventaja comparativa revelada (RCA/Balassa) como proxy (sin derivación):
+Qué mide, por qué se usa, y por qué no es “la verdad” (política comercial, tipo de cambio, subsidios, barreras, etc.).
+Podés mostrar 1 gráfico sencillo (Argentina): composición exportadora (primarios/agroindustriales vs. MOI) y preguntar “¿esto es comparativa o estructura/productividad/historia?”.
+(Esto te ayuda a cumplir con el mandato de “más medición e integración”, sin adelantarte a las unidades 3–4.)
+
+5) Cierre y “anzuelo” para la Clase 3 (15 min)
+Ricardo explica: comercio por diferencias tecnológicas y eficiencia relativa (muy potente).
+Lugones-Teorias_del_Comercio_In…
+Pero deja preguntas abiertas:
+¿Qué pasa con más de un factor y con distribución del ingreso? (H–O + Stolper-Samuelson)
+¿Qué determina el precio internacional exacto? (oferta/demanda internacionales; Mill; manuales)
+Lugones-Teorias_del_Comercio_In…
+¿Por qué hay comercio entre países similares y mucho intraindustrial? (Unidad 3)
+
+Estructura de slides (15–18 slides sugeridas)
+Título + agenda
+De “hechos estilizados” (Clase 1) a “mecanismos” (Clase 2)
+Smith: idea, supuestos, ejemplo rápido
+Lugones-Teorias_del_Comercio_In…
+Limitación de Smith (si uno es mejor en todo)
+Ricardo: intuición central (costos de oportunidad)
+Lugones-Teorias_del_Comercio_In…
+Setup del modelo (2×2×1)
+Tabla numérica del ejemplo
+Cálculo de costos de oportunidad (paso a paso)
+Patrón de especialización (quién exporta qué)
+Lugones-Teorias_del_Comercio_In…
+Rango de precios internacionales (intuición)
+PPF país A (autarquía vs comercio)
+PPF país B (autarquía vs comercio)
+Ganancias del comercio (consumo posible)
+“Puente a datos”: patrón exportador y RCA (1 slide)
+Qué explica bien Ricardo / qué no explica (teaser intraindustrial, distribución)
+Lecturas + guía de estudio
+
+Actividad en clase (para que participen)
+Trabajo en parejas (10–12 min):
+Te doy otra tabla (cambiando números) y cada pareja tiene que entregar:
+costos de oportunidad
+bien de exportación de cada país
+un ejemplo de precio mundial que haga posible el comercio
+Luego 5 min de puesta en común.
+
+Lecturas (para asignar)
+Plan de clases: Lugones (enfoque clásico) + Krugman/Obstfeld/Melitz cap. 3.
+Plan_de_clases_Economia_Interna…
+Programa (Unidad 2): Smith, Ricardo, costos de oportunidad, FPP y ganancias del comercio.
+Programa
+Si querés, en el próximo mensaje te armo:
+una guía de ejercicios (2–3 problemas tipo) y
+el texto exacto para cada slide (bullet por bullet) para pegar directo en el PPT.
+Fuentes
+la condición para que haya comercio no es “ser mejor en algo” sino diferir en precios relativos/costos de oportunidad. 
+Estás seguro de esto? Quien lo dice ? Es neoclasico? Ricardo? Explícalo
+Pensado durante 17s
+Sí: en el modelo ricardiano (y, más en general, en la teoría estándar del comercio), lo que “activa” el comercio es que los países tengan precios relativos distintos en autarquía. Esos precios relativos reflejan costos relativos (comparativos), no “quién es mejor en todo”.
+¿Quién lo dice? ¿Ricardo o neoclásicos?
+Ricardo (1817) es el origen de la idea: muestra que dos países pueden ganar comerciando incluso si uno tiene ventaja absoluta en ambos bienes, porque lo que importa es el costo comparativo (la eficiencia relativa). Esto es exactamente el famoso ejemplo “vino–paño” en On the Principles of Political Economy and Taxation. 
+Ahora, el lenguaje de “costo de oportunidad” y la representación con FPP/PPF es una reinterpretación/formalización posterior (más “neoclásica”) de la misma idea ricardiana. Los manuales modernos lo explican así: la ventaja comparativa depende de diferencias de productividad, y se traduce en costos de oportunidad / precios relativos. 
+¿Por qué “precios relativos / costos de oportunidad” y no “ser mejor en algo”?
+Pensalo así en un mundo 2 bienes (X e Y):
+Cada país tiene una frontera de posibilidades de producción y, en autarquía, un precio relativo que se “ancla” en su estructura de costos.
+Si los dos países tuvieran el mismo en autarquía, no hay arbitraje: nadie puede comprar “barato” en un país para vender “caro” en el otro → no hay fuerza que empuje a comerciar (en el modelo estándar).
+Si sus difieren, entonces aparece una oportunidad: el bien relativamente más barato en un país se exporta, y el otro país exporta el otro bien. Esa diferencia es la ventaja comparativa.
+Muchos textos lo resumen directamente así: “las diferencias iniciales de precios relativos en autarquía estimulan el comercio” (y esas diferencias vienen de tecnología/endowments, según el modelo). 
+Mini-ejemplo numérico (para fijar la intuición)
+Supongamos 2 bienes: Vino (V) y Tela (T). Requerimientos de trabajo por unidad:
+País A: , 
+País B: , 
+A es “mejor en todo” (usa menos horas en ambos). Pero mirá costos relativos:
+Costo oportunidad de 1 V en A: T
+Costo oportunidad de 1 V en B: T
+Entonces A tiene ventaja comparativa en V (sacrifica menos T por cada V). B, aunque sea peor en ambos, tiene ventaja comparativa en T (porque su desventaja es “menos grave” ahí).
+Eso es Ricardo puro: el patrón de comercio lo determinan los costos comparativos (relativos), no la ventaja absoluta. 
+Entonces, ¿tu frase es “neoclásica”?
+La idea (comparativa > absoluta) es clásica ricardiana (1817). 
+La forma de decirlo como “costos de oportunidad / precios relativos / FPP” es la traducción neoclásica que hoy se usa para enseñar y generalizar el argumento. 
+Si querés, lo que hago es reescribirte ese tramo de la clase 2 en 3 bullets “para slide”, separando explícitamente: Ricardo (comparative costs) vs lectura moderna (opportunity cost + PPF).
+Necesito un poco de contexto hiatoroco de esta discusión, con quien discutían cada uno de los exponentes teóricos planteados? Smith, Ricardo neoclaosocos? Cuál era el contexto de comercio que ellos estaban viendo para llegar a esas conclusiones?
+Pensado durante 28s
+Claro. Estas teorías no salen de un “laboratorio abstracto”: nacen en peleas políticas concretas sobre aranceles, monopolios coloniales y quién se queda con el ingreso (terratenientes vs industriales vs trabajadores). Te lo ubico por autor y por “con quién discutía” y “qué comercio estaba mirando”.
+1) Adam Smith (1776): contra el mercantilismo y el comercio imperial “cerrado”
+¿Con quién discutía?
+Principalmente con el mercantilismo: la idea de que la riqueza nacional era acumular oro/plata, lograr superávit comercial, y sostenerlo con aranceles, prohibiciones, monopolios y regulación estatal del comercio. Smith escribe The Wealth of Nations precisamente como una crítica sistemática a ese paquete de ideas y políticas. 
+¿Qué comercio estaba mirando?
+Gran Bretaña del siglo XVIII, potencia marítima en expansión, con un imperio colonial y un sistema de comercio muy regulado.
+Un instrumento clave de ese sistema fueron los Navigation Acts, leyes que restringían el transporte y el comercio (especialmente colonial) para favorecer barcos y comerciantes británicos. 
+¿Cómo ese contexto lo lleva a su conclusión?
+Si tu comercio está dominado por restricciones y privilegios, es natural que alguien (Smith) diga: “esto no es prosperidad genuina; la riqueza está en producir más y mejor, y en ampliar mercados”. Por eso su defensa del comercio y la división del trabajo se entiende como un ataque al “comercio como juego de suma cero” del mercantilismo. 
+
+2) David Ricardo (1817): libre comercio en una economía industrial + pelea contra las Corn Laws
+¿Con quién discutía?
+Ricardo está en el corazón de la economía política británica post–Guerras Napoleónicas, discutiendo especialmente la política de granos (protección agrícola) y sus efectos distributivos: terratenientes vs capitalistas industriales vs trabajadores. Su libro de 1817 coloca la distribución (renta, salarios, beneficios) en el centro. 
+¿Qué comercio estaba mirando?
+Gran Bretaña industrializándose rápido.
+Tras las Guerras Napoleónicas, en 1815 se aprueban las Corn Laws, que encarecían el grano importado para sostener precios internos y proteger a productores/terratenientes. El propio contexto histórico estándar es: leyes aprobadas en 1815, después de las guerras, para resguardar a productores locales de una avalancha de importaciones y sostener precios. 
+¿Cómo ese contexto lo lleva a su conclusión?
+En una economía industrial, comida cara suele implicar salarios de subsistencia más altos (o presión social), y eso reduce el margen de ganancia industrial. Ricardo ve la protección agrícola como un mecanismo que eleva la renta de la tierra y complica la acumulación industrial. En ese clima, su argumento de ventaja comparativa es potente políticamente: incluso si un país es “mejor” en todo, conviene comerciar y especializarse por costos relativos (y, por extensión, bajar barreras). El hecho de que su obra de 1817 presente explícitamente la ventaja comparativa y se escriba en ese período es parte de ese contexto. 
+
+3) “Neoclásicos”: no es una sola persona, es una re-fundación (1870s en adelante) + formalización del comercio
+¿Con quién discutían?
+Con la economía política clásica (Smith/Ricardo/Marx) en el plano teórico y metodológico: cambian el foco desde valor-trabajo/distribución y clases hacia elección, precios, utilidad marginal, equilibrio.
+El punto de quiebre típico es la Revolución Marginalista (Jevons, Menger, Walras, 1870s), presentada en la historiografía como un giro paradigmático hacia la utilidad marginal y el análisis (a menudo matemático) del equilibrio. 
+¿Qué comercio estaban mirando?
+Finales del siglo XIX y principios del XX:
+Economías industrializadas con comercio creciente y debates intensos sobre aranceles y bienestar.
+Se formaliza el análisis del comercio con herramientas de equilibrio parcial/general (Marshall/Walras) y luego modelos más estructurados.
+Un salto grande dentro de la tradición neoclásica del comercio es Heckscher–Ohlin (Heckscher 1919; Ohlin 1933): ya no explican la ventaja comparativa solo por tecnología (Ricardo), sino por dotaciones relativas de factores (capital, trabajo, tierra) y sus efectos sobre especialización y distribución del ingreso. 
+¿Cómo ese contexto los lleva a sus conclusiones?
+En el mundo “moderno” de fines del XIX/XX importaba explicar no solo qué se comercia, sino:
+por qué países similares comercian distinto según su capital/trabajo/tierra,
+y cómo el comercio afecta salarios y retornos al capital (tema distributivo reintroducido, pero con otra teoría). 
+
+Un puente clave (que suele quedar en el medio): J. S. Mill y “demanda recíproca”
+Algo que a Ricardo le faltaba era determinar el término de intercambio exacto (a qué precio relativo se comercia). Mill (siglo XIX) introduce la idea de demanda recíproca para cerrar ese punto: los precios internacionales dependen también de la intensidad de demanda de cada país por el bien del otro. 
+
+Si lo querés en una frase por autor
+Smith (1776): contra el mercantilismo y el comercio imperial restringido; comercio como expansión de mercado y productividad. 
+Ricardo (1817): libre comercio en una Inglaterra industrial con conflicto por Corn Laws; ventaja comparativa como argumento fuerte pro-apertura y anti-protección agrícola. 
+Neoclásicos (1870s→): formalizan precios/elección/equilibrio; en comercio pasan de “tecnología” (Ricardo) a “dotaciones factoriales” (H–O) y efectos distributivos. 
+Si querés, lo bajo directamente a Clase 2 en formato “narrativa de 3 slides”:
+Mercantilismo + Navigation Acts → Smith,
+Corn Laws + posguerras → Ricardo,
+Revolución marginalista → H–O y la caja de herramientas neoclásica.
+Vayamos discutiendo cada slide, empecemos por el 2: de hechos estilizados a mecanismos. 
+Perfecto. Slide 2 tiene que hacer de “bisagra”: venimos de qué vemos en los datos (Clase 1) y entramos a por qué pasa (Clase 2). La clave es que el alumno sienta: “ok, ahora vamos a explicar esos patrones con modelos simples”.
+Slide 2 — De hechos estilizados a mecanismos
+Título
+De hechos estilizados a mecanismos: ¿por qué comercian los países?
+Mensaje central (1 línea grande)
+El comercio no es un “dato”: es el resultado de diferencias relativas + precios + especialización.
+
+Diseño recomendado (2 columnas)
+Columna izquierda: “Hechos estilizados” (lo observado)
+Poné 4 bullets cortos (sin números si todavía no los tenés en pantalla):
+El comercio mundial creció fuerte en el largo plazo (con rupturas: guerras, crisis, pandemia).
+Cambió la geografía del comercio: peso relativo de potencias (UK → EUA → Asia/China).
+No todos comercian igual: hay concentración por países y por sectores/productos.
+El comercio convive con tensiones: apertura ↔ proteccionismo (política, empleo, seguridad).
+(Esto conecta con lo que vos venías insistiendo: historia + medición + hegemonías, sin meter todavía teoría.)
+Columna derecha: “Preguntas que abren los mecanismos”
+¿Por qué aparecen patrones de especialización (quién exporta qué)?
+¿De dónde salen las ganancias del comercio?
+¿Qué determina los precios internacionales (términos de intercambio)?
+Si “todos ganan”, ¿por qué hay perdedores y conflicto distributivo? (teaser para más adelante)
+
+Remate abajo (caja/frasazo)
+Mecanismo básico de hoy (clásicos):
+diferencias tecnológicas → costos relativos → precios relativos → especialización → comercio
+Y chiquito al costado:
+Smith: “absoluta” (productividad + división del trabajo)
+Ricardo: “comparativa” (costos relativos, incluso si uno es mejor en todo)
+
+Nota para vos (lo que decís, 40–60 segundos)
+“En la clase pasada vimos patrones: el comercio crece, cambia el hegemon, se concentra y genera tensiones. Hoy pasamos de la descripción a la explicación: vamos a usar mecanismos simples para entender por qué un país exporta una cosa y no otra, por qué puede convenir comerciar incluso si alguien es más productivo en todo, y cómo aparecen ganancias del comercio.”
+
+Visual sugerido (simple y potente)
+Un diagrama de flujo (flechas):
+Tecnología (productividad) → Costo relativo / precio relativo en autarquía → Especialización → Comercio → Ganancias + tensiones distributivas
+
+Si te gusta, pasamos al Slide 3 (Smith) y lo armamos con la misma lógica: qué problema estaba contestando, idea central, qué explica bien y qué no.
+Perfecto vamos al slide 3
+Slide 3 — Adam Smith (1776): comercio, mercado y productividad
+Título
+Smith: del mercantilismo a la “riqueza de las naciones”
+Mensaje central (1 línea)
+El comercio aumenta la productividad porque amplía el mercado y profundiza la división del trabajo.
+
+Contenido (bullets para la diapositiva)
+1) ¿Qué está discutiendo Smith?
+Contra el mercantilismo: comercio como “juego de suma cero” (superávit = poder)
+Contra monopolios y restricciones (coloniales/imperiales): privilegios, navegación, compañías con exclusividad
+2) Mecanismo de Smith
+División del trabajo → productividad
+El comercio amplía el mercado → permite más especialización → baja costos → crece la riqueza
+Patrón de comercio (versión simple): ventaja absoluta
+cada país produce lo que puede producir “más barato” (en términos absolutos)
+3) Qué explica bien (para que quede claro)
+Por qué abrir mercados puede elevar eficiencia agregada
+Por qué comercio y crecimiento van de la mano en economías que se industrializan
+
+Visual sugerido
+Un diagrama simple (tipo “mecanismo”):
+Comercio / mercado más grande → más especialización → más productividad → más ingreso / riqueza
+(Es más fiel a Smith que arrancar con PPF: Smith es “mercado y división del trabajo”.)
+
+Notas para decir (40–60 segundos)
+“Smith escribe mirando un comercio muy regulado y monopolizado. Su punto no es ‘exportar más que el otro’, sino que la riqueza viene de producir más con la misma cantidad de trabajo. El comercio sirve porque agranda el mercado: si podés venderle a más gente, te conviene especializarte, aparece la división del trabajo y sube la productividad. Esta intuición es la base pro-libre comercio… pero todavía tiene una limitación fuerte: funciona clarísimo cuando hay ventaja absoluta, y se complica si un país es mejor en todo. Ahí entra Ricardo.”
+
+Pie de slide (transición al Slide 4)
+Limitación clave: si un país tiene ventaja absoluta en ambos bienes, Smith solo no determina por qué el otro país exportaría algo → Ricardo: ventaja comparativa.
+Si querés, el Slide 4 lo armamos exactamente como “la limitación de Smith” con un mini ejemplo de 2 bienes para preparar el salto a Ricardo sin todavía hacer toda la cuenta.
+Podríamos hacer más slide para Smith, total tenemos 2,5 hs de clase y no voy a dar para hacer ejercicios grupales. 
+Sí, re da. Si no vas a hacer ejercicios grupales, Smith puede ocupar 4–6 slides sin que se vuelva “historia por historia”, porque te sirve para instalar (i) qué problema político estaban discutiendo, (ii) qué entiende por riqueza, y (iii) el mecanismo “mercado → especialización → productividad”, que después “encaja” con Ricardo.
+Abajo te propongo un bloque Smith de 5 slides (3 a 7). Vos elegís cuántos usar.
+
+Bloque Smith (5 slides)
+Slide 3 — Smith: del mercantilismo a la “riqueza de las naciones”
+Objetivo: ubicar el debate.
+Mercantilismo: riqueza = metales / superávit comercial / poder del Estado
+Política típica: aranceles, prohibiciones, monopolios, comercio colonial regulado
+Smith entra diciendo: confunden riqueza con dinero; la riqueza es producción/ingreso real
+Visual: “dos columnas” Mercantilismo vs Smith.
+Lo que decís: 1 minuto: “Smith es un ‘anti-mercantilista’: cambia el criterio de éxito”.
+
+Slide 4 — Qué es “riqueza” para Smith
+Objetivo: instalar el concepto que justifica el libre comercio.
+Riqueza = capacidad de producir (productividad) + tamaño del mercado
+El comercio no es juego de suma cero; puede ser mutuamente beneficioso
+El problema no es “vender más que el otro”, sino producir más con el mismo trabajo
+Visual: una flecha “Productividad ↑ → Ingreso real ↑”.
+
+Slide 5 — El mecanismo central: división del trabajo (microfundamento)
+Objetivo: el corazón smithiano.
+División del trabajo → especialización → aprendizaje / destreza / eficiencia → productividad
+“La división del trabajo está limitada por la extensión del mercado”
+Comercio = mercado más grande ⇒ habilita más especialización
+Visual recomendado: diagrama:
+Mercado (tamaño) ↑ → Especialización ↑ → Productividad ↑ → Costos ↓
+
+Slide 6 — Comercio internacional en Smith: ventaja absoluta (versión simple)
+Objetivo: traducir el mecanismo a patrón de comercio.
+Si un país produce un bien con menos costos absolutos, tiene ventaja absoluta
+Entonces se especializa (parcial o totalmente) en aquello donde es más eficiente
+Comercio permite consumir más de ambos bienes que en autarquía
+Mini-ejemplo en slide (sin algebra):
+A produce tela más eficiente; B produce vino más eficiente → intercambian.
+Visual: una tablita 2×2 de “costos por unidad”.
+
+Slide 7 — Smith y la política comercial: por qué critica restricciones (y matices)
+Objetivo: que no parezca dogma.
+Crítica a monopolios y privilegios: distorsionan precios y frenan competencia
+Crítica a restricciones coloniales: benefician a grupos específicos, no al bienestar general
+Matiz útil para clase: incluso en Smith, la política comercial aparece como debate político (intereses, poder, recaudación, seguridad), no solo eficiencia
+Visual: “ganadores/perdedores” de una restricción: consumidores vs productores protegidos.
+
+Slide de transición (para no perder el hilo)
+Slide 8 — Límite de Smith → entra Ricardo
+Problema: ¿y si A es más eficiente en todo?
+Smith no te deja claro por qué B exportaría algo.
+Ricardo resuelve: lo que importa es el costo relativo (comparativo), no el absoluto.
+Visual: “A mejor en todo” + signo de pregunta → “costos relativos”.
+
+Cómo se siente en clase (timing)
+Smith (slides 3–7): 25–35 min bien dados (sin ejercicios).
+Transición (slide 8): 5 min.
+Ricardo entra con todo el peso del ejemplo numérico.
+
+Si te parece bien, pasamos al Slide 4 y lo dejamos redondo (texto exacto + visual sugerida + 60 segundos de guion). ¿Querés que el Slide 4 sea más “histórico-político” (mercantilismo/imperio) o más “conceptual” (qué es riqueza)?
+Me parece que ambos históricos- político y conceptual porque es re importante remarcar la idea de riqueza que predominaba 
+Perfecto: hagamos el Slide 4 como una “comparación fundacional” que mezcle contexto histórico-político + idea de riqueza (sin volverse pesado). Te lo dejo listo para copiar/pegar al PPT, con diseño y guion.
+Slide 4 — Mercantilismo vs Smith: ¿qué es “riqueza” y por qué importa para el comercio?
+Título
+Mercantilismo vs Smith: de “oro y balanza comercial” a “producción y bienestar”
+
+Layout recomendado (2 columnas bien claras)
+Columna A — Mercantilismo (la visión dominante)
+Riqueza = metales (oro/plata) + poder del Estado
+Comercio = juego de suma cero: si uno gana, otro pierde
+Objetivo: superávit comercial (exportar más que importar)
+Políticas típicas:
+aranceles / prohibiciones a importaciones
+monopolios comerciales, privilegios, rutas “cerradas”
+foco en colonias como fuente y mercado cautivo
+Etiqueta visual: “Estado + restricción + superávit = riqueza”
+Columna B — Smith (la ruptura conceptual)
+Riqueza = producción / ingreso real (capacidad de producir bienes y servicios)
+Comercio = expansión del mercado
+Mecanismo clave:
+mercado más grande → más especialización → más productividad
+Política: critica monopolios y restricciones porque frenan competencia y eficiencia
+Implicación: el comercio puede ser mutuamente beneficioso (no suma cero)
+Etiqueta visual: “Mercado + competencia + productividad = riqueza”
+
+Frase de cierre (abajo, grande)
+Smith cambia la métrica: no importa “cuánto oro entra”, importa cuánto se produce y consume.
+
+Visual sugerido (muy didáctico)
+Un “termómetro de riqueza” con dos escalas:
+Mercantilismo: Oro / superávit
+Smith: Productividad / ingreso real
+O (alternativa) un diagrama con flechas:
+Comercio → Mercado ↑ → Especialización ↑ → Productividad ↑ → Bienestar ↑
+
+Guion para decir (60–90 segundos)
+“Hasta fines del siglo XVIII, la discusión fuerte era mercantilista: la riqueza se medía como metales y poder estatal, y el comercio se pensaba como una competencia donde uno gana y otro pierde. Por eso la obsesión por el superávit y por cerrar mercados con aranceles, monopolios y comercio colonial regulado.
+Smith rompe con eso: dice que la riqueza real no es el oro, sino la capacidad de producir y consumir más. Y ahí el comercio cambia de sentido: no es ‘ganarle al otro’, es ampliar el mercado; al ampliarlo, se puede especializar más, subir productividad y bajar costos. Ese es el fundamento profundo de su argumento pro-comercio.”
+
+Mini-tip (para que no se “desbalancee” en historia)
+Cuando lo des, cerralo con una pregunta puente:
+“Si lo que importa es productividad, ¿cómo se conecta eso con qué exporta cada país?”
+Y ahí pasás al siguiente slide sobre división del trabajo y ventaja absoluta.
+Si querés, ahora armamos el Slide 5 (División del trabajo: el microfundamento smithiano) con un ejemplo simple tipo “fábrica de alfileres” o equivalente moderno (línea de producción).
+Si vayamos al slide 5
+Slide 5 — Smith: División del trabajo y productividad (el “microfundamento”)
+Título
+División del trabajo: por qué un mercado más grande aumenta la productividad
+
+Contenido (3 bloques cortos)
+1) Idea central (en 1 línea)
+Más especialización ⇒ más productividad ⇒ menores costos ⇒ más producción/ingreso real
+2) ¿Por qué la especialización aumenta productividad?
+Destreza/aprendizaje: repetir una tarea mejora la eficiencia
+Ahorro de tiempos de cambio: menos “switching” entre tareas
+Innovación y herramientas: la especialización facilita mejoras técnicas (máquinas, métodos)
+3) “Límite” de la división del trabajo
+La especialización está limitada por el tamaño del mercado
+Comercio (interno y externo) amplía el mercado ⇒ habilita más división del trabajo
+
+Visual sugerido (muy claro)
+Un diagrama con flechas (en horizontal):
+Mercado ↑ → Especialización ↑ → Productividad ↑ → Costos ↓ → Producción / ingreso real ↑
+(Esto ayuda a que Smith no quede como “historia”, sino como mecanismo.)
+
+Nota para decir (45–60 segundos)
+“Smith quiere demostrar que el motor de la riqueza es la productividad. Y su mecanismo favorito es la división del trabajo: cuando cada persona o unidad se especializa en menos tareas, aprende más rápido, pierde menos tiempo cambiando de actividad y aparecen mejoras técnicas. Pero ese proceso tiene un límite: solo vale la pena especializarse si hay suficiente demanda. Por eso ‘la división del trabajo está limitada por la extensión del mercado’. El comercio internacional importa porque expande el mercado, y con eso potencia la productividad.”
+
+Pie de slide (puente al siguiente)
+Conexión con comercio internacional:
+Si el comercio amplía el mercado, también puede empujar a que cada país se concentre en lo que produce relativamente mejor → (próximo) ventaja absoluta.
+Si estás de acuerdo, en el Slide 6 metemos una tablita 2×2 súper simple (costos por unidad) para “ventaja absoluta” y dejamos listo el salto a la limitación (Slide 8) para entrar a Ricardo.
+Si vamos al otro slide
+Perfecto, vamos al Slide 6 (Smith y “ventaja absoluta” aplicada al comercio).
+Slide 6 — Smith: Ventaja absoluta y especialización (la versión “comercio internacional”)
+Título
+Ventaja absoluta: cada país produce lo que hace más barato (en términos absolutos)
+
+Contenido (para la diapositiva)
+1) Definición (simple)
+Un país tiene ventaja absoluta en un bien si lo produce con menor costo absoluto (menos trabajo, menos insumos, menor costo por unidad).
+2) Predicción (patrón de comercio)
+Cada país se especializa (al menos parcialmente) en el bien donde tiene ventaja absoluta.
+Intercambian y ambos pueden consumir más que en autarquía.
+
+Mini-ejemplo numérico (en la slide, sin algebra)
+Costos por unidad (horas de trabajo):
+A tiene ventaja absoluta en Tela (2<4)
+B tiene ventaja absoluta en Vino (3<6)
+→ A exporta Tela, B exporta Vino
+
+Visual sugerido
+La misma tabla 2×2 + dos flechas:
+A → Tela (exporta)
+B → Vino (exporta)
+
+Nota para decir (40–60 segundos)
+“Hasta acá, el comercio es fácil de justificar: si A hace tela más barata y B hace vino más barato, cada uno se concentra en lo suyo y los dos ganan. En Smith esto está conectado con productividad y división del trabajo: el comercio amplía el mercado y permite especialización, y a su vez la especialización refuerza la eficiencia.”
+
+Pie de slide (puente directo al siguiente)
+Problema: ¿y si un país es más eficiente en todo?
+Ahí Smith queda corto → Ricardo (ventaja comparativa / costos relativos).
+Si querés, el Slide 7 lo hacemos como “limitación de Smith” con una tablita donde A es mejor en ambos bienes (para que el salto a Ricardo sea inevitable y elegante).
+Ok vamos a slide 7
+Slide 7 — Límite de Smith: ¿qué pasa si un país es mejor en todo?
+Título
+Cuando hay ventaja absoluta en todo, Smith no alcanza
+
+Contenido (para la diapositiva)
+1) El problema (planteo claro)
+Si un país tiene ventaja absoluta en ambos bienes, la regla “cada uno produce lo que hace más barato” sugiere:
+el país eficiente produce todo
+el otro país no exporta nada
+Pero en la realidad igual puede haber comercio y ganancias para ambos.
+
+Ejemplo numérico (en la slide, bien simple)
+A es más eficiente en Tela (1<6) y en Vino (2<8)
+Pregunta: entonces… ¿por qué B comerciaría? ¿Qué podría exportar?
+
+Remate conceptual (1 línea grande)
+La clave no es el costo absoluto, sino el costo relativo (lo que se sacrifica al producir).
+
+Visual sugerido
+La tabla 2×2 + un gran signo de interrogación sobre el País B
+Abajo, una flecha: “→ Ricardo: ventaja comparativa”
+
+Nota para decir (45–60 segundos)
+“Este es el punto donde Smith queda incompleto como teoría del patrón de comercio. Si A es mejor en todo, parecería que B no tiene nada que ofrecer. Pero Ricardo muestra que incluso así puede haber comercio: lo que importa es en qué bien A es ‘relativamente’ más eficiente, es decir, qué bien le cuesta menos en términos de renunciar al otro. Eso se llama ventaja comparativa.”
+
+Si te parece, el Slide 8 lo arrancamos con la definición de costo de oportunidad / precios relativos en autarquía como la “pieza que faltaba” (y ahí ya entramos a Ricardo con el ejemplo completo).
+Ok vamos al 8 y también definir autarquía por si los alumnos no entienden el concepto 
+Slide 8 — Ricardo: la pieza que faltaba (autarquía, precios relativos y costo de oportunidad)
+Título
+De la autarquía al comercio: precios relativos y ventaja comparativa (Ricardo)
+
+1) Definición corta: Autarquía
+Autarquía = una economía que no comercia con el resto del mundo.
+Todo lo que consume se produce internamente.
+Los precios se determinan solo por condiciones internas (tecnología, recursos, preferencias).
+(Poné un ícono simple de “frontera cerrada” o “sin flechas”.)
+
+2) La idea clave de Ricardo (en una línea grande)
+El comercio surge porque los países tienen precios relativos distintos en autarquía.
+“Precio relativo” = (o ): cuánto vino “vale” una tela en cada país.
+Esos precios relativos reflejan costos relativos (comparativos), no costos absolutos.
+
+3) Costo de oportunidad (definición didáctica)
+Costo de oportunidad = cuánto del otro bien dejo de producir si produzco 1 unidad más de este.
+Ej.: “para producir 1 unidad de vino, ¿cuántas telas sacrifico?”
+Frase puente (abajo)
+Ventaja comparativa = menor costo de oportunidad.
+
+Visual sugerido
+Un mini diagrama con dos cajas:
+País A (autarquía): 
+País B (autarquía): 
+y una flecha:
+Diferencia → incentivos a comerciar → especialización
+(Los números los podés dejar como “ejemplo” o sin números, tipo .)
+
+Nota para decir (60–90 segundos)
+“Antes de comerciar, pensemos en autarquía: cada país vive ‘solo’, produce y consume puertas adentro. En ese mundo aparecen precios relativos internos: cuánto cuesta vino en términos de tela, o viceversa. Ricardo dice: si esos precios relativos difieren entre países, hay un incentivo natural al intercambio. Y esa diferencia viene de costos relativos: producir vino puede ser relativamente ‘barato’ en un país aunque ese país sea peor en todo en términos absolutos. La medida simple para ver eso es el costo de oportunidad. Con esto, Ricardo completa la historia que Smith no podía cerrar cuando un país es más eficiente en ambos bienes.”
+
+Si querés, el Slide 9 lo hacemos directamente con el ejemplo numérico completo (el mismo de la tabla del Slide 7), y calculamos costos de oportunidad en dos pasos, bien “de pizarrón”.
+Ok
+Genial. Vamos con el Slide 9 ya listo para “pizarrón en PPT”: tabla + cálculos mínimos + conclusión.
+Slide 9 — Ejemplo ricardiano: costos de oportunidad y patrón de comercio
+Título
+Ricardo en números: el país “peor en todo” igual puede exportar
+
+1) Datos (tabla en la slide)
+Horas de trabajo por unidad (requerimientos unitarios):
+Observación: A tiene ventaja absoluta en ambos bienes.
+
+2) Paso clave: costos de oportunidad (2 líneas por país)
+País A
+1 V cuesta T
+1 T cuesta V
+País B
+1 V cuesta T
+1 T cuesta V
+(Tip de diseño: poné estos cálculos como “tarjetas” debajo de cada país.)
+
+3) Conclusión (grande, al final)
+A tiene ventaja comparativa en Vino (0,5 < 0,75) → A exporta Vino
+B tiene ventaja comparativa en Tela (1,33 < 2) → B exporta Tela
+Remate: la ventaja comparativa depende de costos relativos, no de ser “mejor en algo”.
+
+Visual sugerido
+Dos flechas finales:
+A → exporta V
+B → exporta T
+
+Nota para decir (60–90 segundos)
+“Aunque A sea más eficiente en todo, lo importante es qué sacrifica al producir cada bien. En A, producir vino ‘cuesta’ medio paño; en B cuesta tres cuartos de paño. A sacrifica menos paño por vino, entonces su ventaja comparativa está en vino. En cambio, B, aunque sea menos productivo, es relativamente menos malo en tela: producir tela le cuesta 1,33 vinos, mientras que en A cuesta 2. Eso alcanza para que haya especialización y comercio.”
+
+Siguiente lógico: Slide 10 sobre el rango de precios internacionales / términos de intercambio (para mostrar la condición “ambos ganan”) o directamente Slide 10 con PPF + línea de intercambio (ganancias del comercio). ¿Cuál preferís primero?
+Pero claro pasamos a Ricardo de una sin hablar de historia política y conceptos . Ya los perdí acá a los pibes. Tengo que hacer que se vuelvan a meter en debate que también tuvo Smith. 
+Pensado durante 7s
+Tenés toda la razón: si saltamos a la tablita y al “0,5 vs 0,75” sin volver a meterlos en el conflicto político, se te desconectan. Lo resolvemos con 2 slides puente antes del ejemplo numérico. Quedan así:
+Slide 8A: Contexto político-histórico de Ricardo (igual que hicimos con Smith)
+Slide 8B: Qué estaba discutiendo Ricardo (distribución: renta–salarios–ganancias) y por qué el comercio importa ahí
+y recién después el Slide 9 numérico.
+Abajo te dejo Slide 8A y 8B listos.
+
+Slide 8A — Ricardo: ¿qué debate político estaba mirando?
+Título
+Ricardo (1815–1817): libre comercio en medio de un conflicto distributivo
+Contexto (3–4 bullets)
+Gran Bretaña post Guerras Napoleónicas: vuelve el comercio con Europa y se espera caída del precio de alimentos. 
+Corn Laws (1815): medidas para proteger a terratenientes y agricultores, restringiendo importaciones de grano y sosteniendo precios internos. 
+Debate social: alimentos caros → sube costo de vida y tensiones urbanas; choque intereses rurales vs manufacturas/ciudades. 
+Ricardo escribe Principles (1817) y su teoría de ventaja comparativa en ese clima, reforzando el caso pro-libre comercio. 
+Visual sugerido
+Un triángulo de conflicto con 3 nodos:
+Terratenientes (renta) ↔ Industriales (beneficios) ↔ Trabajadores/consumidores (salarios/costo de vida)
+y arriba: Corn Laws (alimentos caros).
+Guion (60s)
+“Ricardo no está escribiendo desde el aire: está metido en el debate por las Corn Laws de 1815. Son medidas para sostener el precio del grano y proteger a los terratenientes y agricultores. Eso hace que la comida sea más cara y empuja un conflicto entre campo y ciudad. Ricardo interviene con una idea potente: el comercio no es solo ‘abrir por abrir’, es una forma de abaratar bienes clave y, con eso, afectar renta, salarios y ganancias.”
+
+Slide 8B — Ricardo: el problema conceptual (distribución) y por qué el comercio importa
+Título
+La gran pregunta de Ricardo: ¿quién se queda con el ingreso? (renta–salarios–ganancias)
+3 bullets conceptuales (sin matemática dura)
+Ricardo cree que la economía se organiza por clases/ingresos:
+renta (tierra), salarios (trabajo), ganancias (capital). 
+Si el precio del grano sube (por protección), sube el costo de vida y presiona salarios → puede caer la tasa de ganancia industrial (tema central del debate). 
+Entonces el comercio (importar grano/bienes más baratos) se vuelve un tema macro y político: cambia precios, cambia distribución.
+Remate (1 línea grande)
+La ventaja comparativa es el argumento “técnico” que sostiene una política: comercio para abaratar y reasignar recursos.
+Visual sugerido
+Tres cajas con flechas:
+Protección al grano → alimentos ↑ → costo de vida ↑ → (salarios ↑ / ganancias ↓) + renta ↑
+Guion (60–90s)
+“Ricardo no solo pregunta ‘qué se comercia’, pregunta ‘qué pasa con la distribución’. En su mundo, el precio del grano es estratégico: si lo protegés, sube la renta de la tierra, encarecés el consumo básico y eso pega en salarios y ganancias. Por eso el comercio aparece como herramienta para reorganizar producción y abaratar bienes. Y ahí entra su mecanismo: incluso si un país es mejor en todo, puede convenir especializarse por costos relativos.”
+
+Y recién ahí entrás al Slide 9 numérico
+Cuando pases al ejemplo, lo presentás así:
+“Ahora que entendemos por qué importaba tanto esta discusión, veamos el mecanismo lógico que Ricardo pone sobre la mesa: costos relativos.”
+
+Si te sirve, también puedo retocar el Slide 9 para que arranque con una línea tipo:
+“Este ejemplo no es ‘neutral’: sostiene una postura en el debate Corn Laws/libre comercio.”
+y así no vuelve a parecer un ejercicio de manual.
+No para poner en el slide pero si para dar contexto al slide explica que fue la corn laws o sea su génesis y conclusión y si Ricardo fue contemporáneo de Marx y si discutieron entre sí
+Pensado durante 10s
+Dale — esto es re buen “relato de aula” para que entiendan por qué Ricardo no es “una tabla” sino una intervención en una pelea política (igual que Smith).
+Qué fueron las Corn Laws (génesis → conflicto → desenlace)
+Génesis: ¿por qué aparecen en 1815?
+“Corn” en Inglaterra = granos/cereales (sobre todo trigo).
+Durante las Guerras Napoleónicas hubo bloqueos, escasez y precios altos de alimentos. Cuando termina la guerra, muchos terratenientes temen que vuelvan las importaciones baratas y caigan los precios internos del grano.
+En ese contexto, el Parlamento aprueba en marzo de 1815 las Corn Laws: un conjunto de restricciones/tarifas a la importación de grano para mantener altos los precios domésticos y proteger a los productores/terratenientes. 
+Qué hacían (en términos simples)
+Funcionaban como protección agrícola: si el precio interno caía, se impedía importar o se imponían derechos altos (en distintos momentos hubo mecanismos tipo “umbral”/“escala móvil”).
+Efecto económico/político: subían el precio de los alimentos y el costo de vida, fortalecían la renta y el poder de los landowners, y chocaban con intereses urbanos/industriales. 
+Cómo termina (conclusión)
+En los años 1830–40 crece la oposición urbana e industrial; aparece la Anti–Corn Law League (1839) como gran movimiento pro libre comercio. 
+El desenlace político llega en 1846: el primer ministro Robert Peel impulsa la repeal (derogación) en un contexto agravado por la hambruna irlandesa (1845–) y problemas de abastecimiento; la eliminación fue votada en 1846 (con transición hasta 1849). 
+En clase lo podés traducir a una frase: “Corn Laws = protección del pan”. Y eso vuelve el comercio un tema de vida cotidiana, no de tecnicismo.
+
+Dónde entra Ricardo en esa discusión (y con quién discutía)
+Ricardo escribe Principles (1817) y discute comercio en el marco de:
+¿Qué pasa con la renta de la tierra, los salarios y las ganancias?
+Si protegés el grano → alimentos más caros → costo de vida ↑ → conflicto distributivo (y presión sobre ganancias industriales).
+Ricardo, además, participa como parlamentario (1819–1823) y apoya la derogación de las Corn Laws. 
+Y un dato que ayuda mucho para “meterlos” en el debate: Ricardo discute explícitamente en esa época contra otras posiciones, por ejemplo la controversia Malthus–Ricardo alrededor de 1815 sobre el “free corn trade” (libre comercio de granos). 
+
+¿Ricardo fue contemporáneo de Marx? ¿Discutieron entre sí?
+Ricardo: muere en 1823.
+Marx: nace en 1818 y muere en 1883. 
+Entonces:
+Sí, se solapan 5 años, pero Marx era un niño y no hubo debate directo entre ellos (no fueron contemporáneos “intelectualmente” en el sentido de polemizar cara a cara).
+Lo que sí pasa es que:
+Marx discute muchísimo con Ricardo a posteriori, como parte de su “crítica de la economía política”: lo toma como el pico de la economía clásica y lo critica por cómo entiende valor, ganancia y renta (por ejemplo en Theories of Surplus Value y en El Capital). 
+
+Cómo lo usaría yo para introducir el slide de Ricardo sin perderlos
+Antes de la tabla, decís algo así (oral, 30–40 seg):
+“Ricardo está discutiendo una política que definía el precio del pan. Si el pan sube, cambia la distribución del ingreso y la estabilidad social. Entonces, cuando Ricardo arma la idea de ventaja comparativa, no es un juego matemático: es el argumento ‘técnico’ para decir ‘abramos comercio porque nos abarata bienes clave y reorganiza la economía’.”
+Si querés, ahora rearmamos el Slide 8 para que sea: “Ricardo y Corn Laws: por qué el comercio era político” (sin mencionar todo esto en texto, pero con 2–3 bullets y un gráfico de conflicto distributivo), y recién después el ejemplo numérico.
+Ok
+Pensado durante 37s
+Perfecto — esto es para que lo cuentes vos antes de entrar a la tablita de Ricardo (sin ponerlo en el slide).
+Contexto oral para presentar a Ricardo (Corn Laws + por qué era un debate “como Smith”)
+1) ¿Qué fueron las Corn Laws?
+“Corn” en inglés británico refiere a granos/cereales (sobre todo trigo), o sea: el pan.
+En 1815, al terminar las Guerras Napoleónicas, se esperaba que con el regreso del comercio europeo entrara grano más barato y bajaran los precios internos. En respuesta, el Parlamento aprueba las Corn Laws para proteger a los productores/terratenientes, restringiendo/encareciendo importaciones de grano y sosteniendo precios domésticos. 
+Efecto político inmediato: alimentos más caros → sube el costo de vida de las ciudades, y se arma un conflicto bien claro:
+terratenientes (renta) vs industriales y trabajadores urbanos (pan barato / costos). 
+Frase fácil para el aula: “Corn Laws = protección del precio del pan.”
+2) ¿Cómo termina ese capítulo? (la “conclusión”)
+Se vuelven el gran símbolo del proteccionismo agrario hasta que finalmente se derogan en 1846, impulsadas por el primer ministro Robert Peel. 
+En el medio, se organiza un movimiento político enorme, la Anti–Corn Law League (fundada en 1839) que hace campaña por la derogación y moviliza apoyos urbanos/industriales. 
+3) ¿Dónde entra Ricardo en esta pelea?
+Ricardo no está “haciendo un ejercicio”: está interviniendo en una política concreta.
+En 1815 (justo cuando se discute el tema) publica un ensayo donde sostiene que subir aranceles al grano tiende a aumentar la renta de los terratenientes y a reducir las ganancias de los manufactureros. 
+Luego entra al Parlamento (1819) y participa del clima político de la época (muere en 1823). 
+Cómo lo decís antes del ejemplo numérico:
+“Para Ricardo, comercio y aranceles no son neutrales: tocan el precio del pan, y eso redistribuye ingreso entre clases. La ventaja comparativa es el argumento ‘técnico’ que sostiene una postura política: por qué abrir puede convenir incluso si un país es más productivo en todo.”
+
+¿Ricardo fue contemporáneo de Marx? ¿Discutieron entre sí?
+Marx nació en 1818 y murió en 1883. 
+Ricardo murió en 1823 (o sea, se solapan pocos años, pero Marx era un niño). 
+➡️ No discutieron entre sí directamente.
+Lo importante (y útil para clase) es otra cosa:
+Marx discute a Ricardo “hacia atrás”: lo toma como punto alto de la economía clásica y lo critica extensamente (por ejemplo en Theories of Surplus Value). 
+
+Si querés, te redacto el texto exacto de 45–60 segundos para decir antes del Slide 9, con un “gancho” bien claro (“precio del pan / conflicto distributivo / por eso importa comercio”).
+Ya está, retomemos la parte matemática de Ricardo
+Pensado durante 22s
+Dale, volvamos a Ricardo “con números”, pero ordenado para que lo puedas explicar sin que parezca un salto brusco.
+1) Punto de partida (lo que ya tenés en Slide 9)
+Requerimientos unitarios de trabajo (horas por unidad):
+A es más eficiente en todo (ventaja absoluta en V y T). El truco ricardiano es mirar costos relativos.
+
+2) Costos de oportunidad (lo esencial)
+Recordatorio: costo de oportunidad de V en términos de T = 
+País A
+T
+V
+País B
+T
+V (aprox)
+Conclusión:
+A sacrifica menos T por producir V ⇒ A tiene ventaja comparativa en V
+B sacrifica menos V por producir T ⇒ B tiene ventaja comparativa en T
+Eso determina el patrón: A exporta V, B exporta T.
+
+3) Autarquía y precios relativos (la “conexión precios”)
+En el ricardiano simple, en autarquía el precio relativo tiende a reflejar el costo relativo.
+En A: 
+En B: 
+Interpretación: el vino es relativamente más barato en A que en B (en términos de tela). Entonces tiene sentido que A lo exporte.
+
+4) Términos de intercambio (precio mundial) y condición “ambos ganan”
+Para que haya comercio y ambos quieran participar, el precio relativo mundial debe ubicarse entre los costos de oportunidad de autarquía:
+
+Ejemplo: tomemos .
+A: vender V a 0,6 T por V es mejor que su “costo interno” de 0,5 ⇒ le conviene especializarse en V y exportar.
+B: comprar V a 0,6 T por V es más barato que su costo interno de 0,75 ⇒ le conviene importar V y especializarse en T.
+
+5) Ganancias del comercio con PPF (la parte geométrica “matemática”)
+Supongamos que cada país tiene 48 horas de trabajo.
+PPF de A
+Si produce solo V: V
+Si produce solo T: T
+PPF lineal:
+
+PPF de B
+Solo V: V
+Solo T: T
+
+Recta de comercio (con precio mundial 0,6)
+Si A se especializa en V (produce 48 V) y cambia V por T a 0,6:
+
+Compará con autarquía en A: .
+La recta de comercio permite puntos por encima de la PPF para muchos valores de V (más T para el mismo V).
+Ejemplo concreto (fácil de decir):
+Querés consumir V = 20.
+En autarquía A: 
+Con comercio: 
+⇒ con comercio puede tener 20 V y 16,8 T, que es inaccesible en autarquía.
+Para B, con comercio (especialización en T) la recta queda:
+
+y en autarquía era . Como , la recta de comercio también queda por encima de la PPF: más T para el mismo V (o más V para el mismo T).
+
+Cómo lo contás en clase (sin marearlos)
+“Autarquía: sin comercio.”
+“Calculo costos de oportunidad: eso define ventaja comparativa.”
+“Si el precio mundial cae entre 0,5 y 0,75, los dos quieren comerciar.”
+“Gráfico: la recta de comercio queda por fuera de la PPF ⇒ hay combinaciones de consumo nuevas ⇒ ganancias del comercio.”
+
+Si querés, el próximo paso es armar el Slide 10 y Slide 11 con:
+Slide 10: “Precio mundial entre 0,5 y 0,75 (rango)” con una línea muy visual
+Slide 11: PPF + recta de comercio (A y B) con un punto de ejemplo como el de V=20.
+Ok hagamos slide 10
+Slide 10 — Términos de intercambio: el precio mundial que hace posible que ambos ganen
+Título
+Ricardo: el “precio mundial” debe caer entre los costos de oportunidad
+
+Contenido (para la diapositiva)
+1) Recordatorio (autarquía)
+En autarquía (sin comercio), cada país tiene su precio relativo interno:
+País A: 
+País B: 
+(Estos valores vienen de los costos de oportunidad del slide 9.)
+2) Condición para que haya comercio (y no se “rompa”)
+Para que A exporte V y B exporte T, el precio relativo mundial debe cumplir:
+
+3) Interpretación (2 bullets simples)
+Si queda dentro del rango, ambos encuentran al comercio “mejor” que autarquía.
+Ese rango define los términos de intercambio compatibles con ganancias mutuas.
+
+Visual sugerido (muy potente)
+Una recta numérica (tipo regla) con:
+marca izquierda: 0,5 (A, autarquía)
+marca derecha: 0,75 (B, autarquía)
+una banda resaltada entre ambas: “zona de comercio”
+un puntito ejemplo: 0,6 = precio mundial
+
+Nota para decir (40–60 segundos)
+“Ricardo no necesita saber el precio mundial exacto para mostrar que el comercio puede beneficiar a ambos. Solo necesita el rango: si el mundo valora el vino en términos de tela en algún punto entre 0,5 y 0,75, A puede vender vino a un precio mejor que su costo interno, y B puede comprar vino más barato que producirlo. Ese ‘entre medio’ es exactamente la zona donde los dos prefieren comercio a autarquía.”
+Si querés, el Slide 11 lo hacemos con el gráfico PPF + recta de comercio (uno para A y otro para B, o dos slides separados si querés que se vea grande).
+Ok, hagamos slide 11
+Slide 11 — Ganancias del comercio (País A): PPF + línea de intercambio
+Título
+Cómo se ven las ganancias del comercio: la línea de intercambio “sale” de la PPF
+
+Supuesto (arriba chiquito, para que cierre el gráfico)
+Dotación de trabajo: horas
+Tecnología País A: , 
+Precio mundial (ejemplo): 
+
+1) PPF de A (lo que puede producir en autarquía)
+Máximo vino: ⇒ punto (V=48, T=0)
+Máxima tela: ⇒ punto (V=0, T=24)
+Ecuación (opcional en slide, si querés):
+
+
+2) Línea de intercambio (si A se especializa en vino)
+Si A produce y comercia a precio mundial 0,6:
+
+Idea visual clave: esta línea pasa por el punto de especialización (48,0) y queda por encima de la PPF (para muchos valores de V) ⇒ A puede consumir combos que no podía producir.
+
+3) Punto de ejemplo (para que lo “vean”)
+Elegí un consumo fácil, por ejemplo :
+Autarquía (PPF): 
+Con comercio (línea mundial): 
+✅ Con comercio, A puede tener (V=20, T=16,8), que está afuera de su PPF.
+
+Visual sugerido (cómo dibujarlo)
+Un solo gráfico grande:
+Ejes: Vino (V) horizontal, Tela (T) vertical
+Dibujá PPF A: recta entre (0,24) y (48,0)
+Dibujá línea de intercambio: recta que pasa por (48,0) con intercepto en T=28,8 (cuando V=0)
+Marcá:
+Punto Autarquía (cualquier punto sobre PPF, no hace falta fijarlo)
+Punto Consumo con comercio (20, 16,8) por encima de la PPF
+
+Nota para decir (40–60 segundos)
+“En autarquía, el país solo puede consumir lo que produce: está limitado por su PPF. Con comercio, si se especializa en lo que tiene ventaja comparativa (vino), puede intercambiar a un precio mundial que está entre los precios de autarquía. Eso le habilita una recta de consumo que queda por fuera de la PPF: ahí aparecen las ganancias del comercio.”
+Si querés, el Slide 12 lo armamos igual pero para País B (es simétrico y ayuda mucho a que entiendan que “ganan ambos”, no solo A).
+Perfecto vamos al slide 12
+Slide 12 — Ganancias del comercio (País B): PPF + línea de intercambio
+Título
+País B también gana: comercio = nueva frontera de consumo
+
+Supuesto (arriba chiquito)
+Dotación de trabajo: horas
+Tecnología País B: , 
+Precio mundial (ejemplo): 
+
+1) PPF de B (autarquía)
+Máximo vino: ⇒ punto (V=8, T=0)
+Máxima tela: ⇒ punto (V=0, T=6)
+Ecuación (opcional):
+
+
+2) Línea de intercambio (si B se especializa en tela)
+B se especializa en Tela: produce .
+Con precio mundial , para obtener unidades de vino debe “pagar” unidades de tela:
+
+Idea clave: como , la línea de intercambio es más plana y queda por encima de la PPF ⇒ B puede consumir combinaciones mejores.
+
+3) Punto de ejemplo (mismo V=4 para que sea intuitivo)
+Tomá :
+Autarquía (PPF): 
+Con comercio: 
+✅ Con comercio, B puede tener (V=4, T=3,6), imposible en autarquía.
+
+Visual sugerido (cómo dibujarlo)
+Un gráfico grande (igual al de A, pero con escala chica):
+Ejes: Vino (V) horizontal, Tela (T) vertical
+PPF B: recta entre (0,6) y (8,0)
+Línea de intercambio: recta con intercepto (0,6) y pendiente 
+Marcá el punto (4, 3,6) por encima de la PPF.
+
+Nota para decir (40–60 segundos)
+“Este gráfico mata la intuición equivocada de que ‘si A es mejor en todo, B pierde’. B gana porque el precio mundial le permite conseguir vino sacrificando menos tela que en autarquía. Lo que importa no es eficiencia absoluta, sino que el intercambio se haga a un precio relativo entre ambos costos de oportunidad.”
+Si querés, el Slide 13 puede ser un resumen visual de todo el bloque ricardiano (autarquía → costos relativos → rango de precios → ganancias del comercio) en un solo diagrama para cerrar la parte matemática antes de pasar a medición/RCA.
+Ok 
+Slide 13 — Resumen Ricardo: del mundo en autarquía a las ganancias del comercio
+Título
+Ricardo en 1 slide: mecanismo completo
+
+Contenido (muy sintético, 4 pasos)
+Paso 1 — Autarquía (sin comercio)
+Cada país enfrenta su precio relativo interno (derivado de su tecnología).
+Paso 2 — Diferencias tecnológicas → costos de oportunidad
+La tecnología define costos relativos (qué sacrifico para producir).
+Paso 3 — Ventaja comparativa → especialización
+Cada país se especializa en el bien con menor costo de oportunidad.
+Patrón: A exporta V, B exporta T.
+Paso 4 — Precio mundial entre ambos → ganancias del comercio
+
+Con ese precio, ambos alcanzan una frontera de consumo más alta que su PPF.
+
+Visual sugerido (ideal para cerrar)
+Un diagrama de flujo con flechas:
+Tecnología distinta
+→ Costos de oportunidad distintos
+→ Precios relativos en autarquía distintos
+→ Especialización (ventaja comparativa)
+→ Comercio a un precio mundial intermedio
+→ Ganancias del comercio (consumo fuera de la PPF)
+(Podés poner los números 0,5 y 0,75 chiquitos en el paso “autarquía” para recordar el ejemplo.)
+
+Nota para decir (30–45 segundos)
+“Esto es Ricardo: el comercio nace de diferencias relativas, no absolutas. Esas diferencias generan precios relativos distintos en autarquía, aparece un precio mundial intermedio que hace rentable exportar/importar, y eso expande el conjunto de consumo. Con esto tenemos el ‘motor’ clásico del comercio; después, otras teorías van a cambiar la fuente de la ventaja comparativa (factores, economías de escala, competencia imperfecta), pero el corazón del mecanismo queda.”
+Listo. El próximo bloque natural es el que vos querías para integrar medición: un slide de “cómo lo vemos en datos” (patrón exportador + RCA) y ya después avanzás a lo que sigue del programa. ¿Seguimos con ese bloque (Slide 14: medición/RCA) o querés primero un slide “limitaciones de Ricardo” para que no quede como dogma?
+Si las limitaciones de Ricardo las vemos después las vamos abordar en otras clases está bueno presentarlos en otro slide así se quedan enganchados 
+Perfecto: armemos un slide “anzuelo” con limitaciones de Ricardo como preguntas abiertas (sin “criticarlo” demasiado), y cada pregunta enlaza con una clase/unidad futura. Así quedan enganchados.
+Slide 14 — Ricardo: qué explica… y qué deja abierto (teaser para próximas clases)
+Título
+Ricardo explica el “motor” del comercio. ¿Qué queda pendiente?
+Cuerpo del slide (en forma de preguntas, 5 bullets)
+¿De dónde sale la ventaja comparativa si no es tecnología?
+(recursos, capital, trabajo, tierra → Heckscher–Ohlin)
+¿Quién gana y quién pierde dentro del país?
+(salarios vs ganancias, sectores, regiones → distribución y política comercial)
+¿Por qué hay tanto comercio entre países parecidos y “dentro del mismo sector”?
+(intraindustrial, variedad, economías de escala → “nueva” teoría del comercio)
+¿Qué determina el precio mundial exacto (términos de intercambio), no solo el rango?
+(oferta y demanda internacionales / “demanda recíproca”)
+¿Qué pasa cuando hay costos de transporte, barreras, empresas dominantes, cadenas globales?
+(fricciones, poder de mercado, geopolítica → mundo real)
+Visual sugerido
+Un “mapa” tipo Ricardo al centro y alrededor 5 globos con esas preguntas, cada uno con una flecha a “Clases futuras”.
+Nota para decir (30–45 segundos)
+“Ricardo nos dio el mecanismo base: precios relativos distintos → especialización → comercio → ganancias. Ahora bien, el mundo real abre otras preguntas: ¿de dónde sale la ventaja comparativa además de la tecnología? ¿qué pasa con la distribución? ¿por qué hay comercio intraindustrial? ¿cómo se determina el precio mundial exacto? ¿y qué cambia cuando metemos fricciones, poder de mercado y geopolítica? Todo eso lo vamos a ir armando en las próximas clases.”
+Si querés, el siguiente (Slide 15) puede ser el puente a medición: “Cómo observamos especialización en datos (patrón exportador + RCA)” para que la clase no quede solo en teoría.
+Ok, vamos al 15
+Slide 15 — De la teoría a los datos: ¿cómo “vemos” la ventaja comparativa?
+Título
+Medición (I): patrón de exportaciones y “ventaja comparativa revelada” (RCA)
+
+1) Idea puente (1 línea grande)
+Si Ricardo tiene razón, deberíamos observar especialización: algunos países exportan relativamente más ciertos bienes.
+
+2) Dos maneras simples de mirar datos (sin econometría)
+A) Patrón exportador (descriptivo)
+¿Qué rubros concentran las exportaciones?
+¿Cómo cambia en el tiempo? (estructura y transición)
+(Acá podés usar Argentina / China / EEUU como ejemplo visual en el gráfico siguiente, si lo tenés.)
+B) Ventaja comparativa revelada (RCA / Balassa)
+Intuición: un país “revela” ventaja comparativa en un bien si lo exporta más (en proporción) que el promedio mundial.
+
+: el país está más especializado que el mundo en ese bien
+: está menos especializado que el mundo
+(Si querés, podés poner la fórmula chiquita y dejar la intuición grande.)
+
+3) Advertencia (una línea, para no “sobrevender”)
+RCA no es “la causa”: es un indicador descriptivo que mezcla tecnología + política + precios + historia.
+
+Visual sugerido
+Un gráfico simple de barras (o heatmap):
+RCA de Argentina por grandes rubros (agro, energía, MOI, etc.)
+o
+Top 10 productos con mayor RCA.
+(Aunque no lo muestres hoy, dejás el “espacio” para el gráfico en el PPT.)
+
+Nota para decir (40–60 segundos)
+“Ricardo nos dio un mecanismo. Para llevarlo a datos, lo primero es mirar especialización: qué exporta cada país y con qué intensidad relativa. El indicador clásico para eso es la ‘ventaja comparativa revelada’: compara el peso de un bien en las exportaciones de un país con el peso de ese bien en el comercio mundial. Si es mayor a 1, el país está relativamente especializado. Ojo: esto no prueba tecnología; también refleja aranceles, tipo de cambio, subsidios, shocks de precios y estructura productiva.”
+Si querés, el Slide 16 puede ser un ejemplo aplicado (Argentina vs China vs EEUU) con 1 gráfico comparativo, o un slide “cómo se lee un RCA” con un mini-caso de 2 productos para que no les dé miedo la fórmula.
+Qué es balassa / rca. De quién es ?
+Pensado durante 5s
+Balassa / RCA es el mismo concepto en la práctica: un indicador descriptivo para ver si un país está más especializado que el promedio mundial en un producto (o sector) mirando exportaciones.
+¿Qué significa?
+RCA = Revealed Comparative Advantage = Ventaja Comparativa Revelada.
+“Revelada” porque no mide la causa (tecnología, dotaciones, política), sino que infiera la ventaja comparativa a partir de lo que efectivamente exporta el país. 
+¿De quién es?
+Se conoce como Índice de Balassa porque lo populariza y formaliza Béla Balassa en 1965, en el paper “Trade Liberalisation and ‘Revealed’ Comparative Advantage” (The Manchester School). 
+(Nota histórica: la idea de mirar “exportaciones para inferir sectores fuertes” aparece antes, por ejemplo en Liesner 1958, pero el índice estándar quedó asociado a Balassa.) 
+¿Cómo se calcula (intuición + fórmula corta)?
+Para país y producto/sector :
+
+Numerador: participación del producto en las exportaciones del país .
+Denominador: participación del producto en las exportaciones del mundo.
+Interpretación:
+RCA > 1 → el país exporta ese producto más que “su cuota mundial” ⇒ especialización relativa (ventaja comparativa revelada). 
+RCA < 1 → especialización baja/“desventaja” revelada.
+¿Para qué lo usamos en la clase?
+Como puente “Ricardo → datos”:
+Ricardo habla de ventaja comparativa (causas: tecnología/costos relativos).
+Balassa/RCA te permite mirar el patrón observable: “¿en qué bienes aparece especialización exportadora?”
+Si querés, armo el Slide 16 con un ejemplo numérico mini (tipo “soja en Brasil” o algo argentino) para que entiendan RCA sin asustarse con la fórmula.
+Ya tiene que haber trabajos que hayan hecho cálculos que se pueden reutilizar para mostrar las ventajas comparativas 
+Pensado durante 15s
+Sí: hay mucho trabajo ya hecho (y reutilizable) con RCA/Balassa, tanto como tablas descargables como visuales listos para mostrar en clase. Te dejo las fuentes más “docentes” (rápidas y con gráficos) y las más “académicas” (datasets limpios).
+1) World Bank WITS (listo para aula: series largas y por producto)
+Qué te da: RCA por país y por producto hacia el mundo, con cobertura larga (aparece como 1988–2022 en su interfaz). 
+Por qué sirve para slides: podés mostrar “Argentina RCA” por rubros/HS y cómo cambia en el tiempo sin armar nada vos.
+2) UNCTADstat – RCA Radar (visual inmediato)
+Qué te da: un “radar”/perfil de RCA por país (muy visual).
+Por qué sirve para slides: es casi “captura y listo” para mostrar especialización comparada y discutir estructura exportadora + limitaciones del indicador. 
+3) Atlas of Economic Complexity (Harvard Growth Lab) / OEC (descargas + visuales)
+Qué te da: base de comercio muy detallada y datasets curados descargables. 
+Plus didáctico: el ecosistema Atlas/OEC suele trabajar con RCA (y lo explica con intuición clara), y además te permite conectar con “product space” / complejidad si más adelante querés enganchar con desarrollo. 
+4) CEPII – RCA database (más “paper/dataset”)
+Qué te da: una base de RCA armada por CEPII (en esa versión: 20 países, 1995–2010, HS2/HS4) con metodología alternativa a Balassa (inspirada en Costinot et al.). 
+Por qué sirve: si querés mostrar que “RCA” tiene variantes metodológicas (y no es un dogma).
+
+Cómo lo convertiría en material de clase (sin programar)
+Elegís 3 países (p.ej., Argentina / China / EEUU).
+Para un año (o dos: 2000 vs 2022), sacás:
+Top 10 productos con RCA>1
+o RCA agregado por grandes rubros (agro, energía, manufacturas, etc.)
+Mostrás 1 slide comparativo y cerrás con:
+“esto es especialización revelada, no ‘ventaja verdadera’: también refleja política, precios internacionales, tipo de cambio, etc.” (esto UNCTAD lo advierte explícitamente). 
+Si querés, decime qué combinación preferís para tus slides:
+Opción A (rápida y visual): UNCTAD RCA Radar + 1 tabla WITS.
+Opción B (más “pro” y bonita): Atlas/OEC con ranking de productos y, si te tienta, un mini guiño al “product space”.
+Opción A
+Pensado durante 11s
+Listo: con Opción A (UNCTAD RCA Radar + WITS), tenés material ya calculado y fácil de “capturar” para slides.
+1) UNCTAD — RCA Radar (para 1 slide muy visual)
+Qué te conviene sacar de acá
+Un radar por país y año que muestra el “perfil” de ventajas comparativas reveladas a lo largo de muchos productos. 
+UNCTAD además deja explícito el disclaimer que te sirve para clase: el RCA es “primera aproximación” y no incorpora políticas como aranceles/subsidios, etc. 
+Cómo lo usás en clase (slide)
+Elegí 2–3 países (p.ej. Argentina vs China vs EEUU) y el mismo año.
+Mostrás 1 radar por país (o 2 en la misma slide) y planteás: “perfil exportador revelado = estructura productiva + historia + política + precios internacionales”. 
+2) WITS (World Bank) — RCA por país/producto y series (para tabla + gráfico)
+Qué te conviene sacar de acá
+WITS tiene páginas de indicador Revealed comparative advantage con rango 1988–2022 (según su propia interfaz) y permite ver chart y exportar imagen. 
+También tiene explicación de “Trade Indicators” y un área de bulk download si quisieras bajar indicadores precomputados. 
+Dos piezas que quedan muy bien en slides
+Tabla: “Top 10 productos con mayor RCA de Argentina (año 2022 o el último disponible)”.
+Comparación temporal: RCA de 2–3 rubros grandes (o productos) en 2000 vs 2022 para mostrar cambios de especialización (esto te conecta con “hechos estilizados” + dinámica).
+
+Propuesta concreta de “pack” para tu PPT (3 slides de medición)
+Slide M1 (visual): UNCTAD RCA Radar
+Título: “Perfil de especialización revelada (RCA)”
+2 radares: Argentina vs China (mismo año)
+Nota oral: “sirve para ver estructura; no identifica causalidad” 
+Slide M2 (ranking): WITS Top 10 RCA
+Una tabla con 10 productos (HS2 o HS4) + RCA
+Mensaje: “esto es la ‘especialización revelada’ en forma de ranking” 
+Slide M3 (dinámica): WITS 2000 vs 2022
+Barra doble o línea simple para 2–3 productos/rubros
+Mensaje: “la ventaja comparativa revelada cambia con estructura, precios y política” 
+
+Decime solo esto (y lo dejamos armado fino para slides 16–18)
+¿Qué países querés comparar en el radar? (si no querés decidir: Argentina–China–EEUU).
+¿Qué año tomamos como “foto” principal? (si no: 2022, porque WITS muestra 1988–2022). 
+Los 3 países está bien así da para el debate. Y el año 2019 antes de pandemia 
+Pensado durante 26s
+Perfecto: con Argentina–China–EEUU y año 2019, el bloque de medición te queda muy sólido. Te propongo así los siguientes slides (16–17) para que puedas reutilizar cálculos ya hechos (UNCTAD + WITS) y abrir debate.
+
+Slide 16 — UNCTAD: RCA Radar (2019) en 3 países
+Título
+Perfiles de especialización revelada (RCA) — 2019 (pre-pandemia)
+Qué mostrás (visual)
+3 radares UNCTAD, uno por país: Argentina / China / Estados Unidos (mismo año 2019).
+En UNCTAD, el radar muestra productos (SITC Rev.3, 3 dígitos) que tienen RCA > 1 y permite ver valores y exportaciones al pasar el mouse. 
+Texto mínimo en slide (no más de 3 bullets)
+RCA > 1: el país está “más especializado que el mundo” en ese producto (fortaleza exportadora). 
+Sirve como primera aproximación del perfil exportador. 
+Ojo: el RCA no incorpora políticas que afectan competitividad (aranceles, subsidios, NTMs, etc.). 
+Guion para el debate (lo que decís vos)
+“¿Qué ‘forma’ tiene cada radar? ¿Concentrado o diversificado?”
+“¿Qué sectores aparecen fuertes en cada país y qué te sugiere sobre su estructura productiva?”
+“¿Qué cosas del mundo real podrían estar ‘inflando’ o ‘apagando’ un RCA?” (tipo de cambio, retenciones, subsidios, etc.)
+Tip de diseño: poné los 3 radares en fila y abajo una línea: “RCA (UNCTAD) — año 2019”. (El slide queda 100% comparativo.)
+
+Slide 17 — WITS (World Bank): Top productos con RCA (2019)
+Título
+¿En qué bienes aparece la ventaja comparativa revelada? Top productos (2019)
+Qué mostrás (visual)
+3 mini-tablas (una por país) con Top 10 productos por RCA en 2019 (Partner: World; Trade flow: Exports).
+WITS tiene vista de tabla con export a Excel y gráficos exportables (PNG/JPEG). 
+Texto mínimo en slide
+“Top 10 RCA” = ranking de especialización exportadora (no causalidad).
+Nota al pie: “Datos reportados; revisar cobertura/availability”. (WITS lo advierte). 
+Guion (cómo lo usás)
+“¿Qué coincide con lo que ‘intuimos’ de cada país?”
+“¿Qué te sorprende?”
+“¿Qué parte es estructura productiva y qué parte puede ser precios/política?”
+
+Cómo lo bajás rápido (sin programar)
+UNCTAD Radar: seleccionás país + año 2019 y capturás la imagen del radar (3 capturas). 
+WITS: elegís país + año 2019 + indicador RCA + partner World → exportás tabla a Excel y te quedás con el Top 10. 
+
+Si querés, el Slide 18 lo podemos hacer como “síntesis comparativa”: un cuadro 3×3 con rubros (primarios/agro – manufacturas – tecnología/servicios vinculados) y 2–3 bullets interpretativos para cerrar el puente “Ricardo → evidencia 2019”.
+Si pero las preguntas que tenemos que hacernos o cómo debatir es apartir de lo que vimos en clase o sea pensando desde Ricardo o desde smtih o hasta también desde los mercantilistas que en realidad no sirven mucho para el debate, pero los otros autores si usando los datos para las ideas queden claras
+Pensado durante 10s
+Perfecto: el debate tiene que “hablar el idioma” de Smith y Ricardo, usando el RCA 2019 como evidencia visual de especialización. Acá tenés un guion de discusión directamente atado a lo que vieron en clase, sin meter mercantilistas más que como contraste rápido.
+Cómo debatir los slides de RCA desde Smith y Ricardo
+Paso 0 (30 segundos): qué es lo que sí nos da el RCA
+El RCA te muestra patrones de especialización exportadora (qué bienes “pesan” más en la canasta exportadora de un país que en el mundo).
+Eso es exactamente el objeto empírico que querés conectar con:
+“quién exporta qué” (Ricardo/Smith).
+
+A) Debate “a lo Ricardo” (ventaja comparativa = costos relativos)
+Idea a fijar: aunque un país sea “mejor en todo”, igual puede convenir especializarse por costos de oportunidad.
+Usá el radar/Top10 y hacé estas preguntas:
+Patrón ricardiano:
+“En 2019, ¿en qué productos aparece un RCA alto en cada país?”
+“¿Qué sugiere eso sobre productividad relativa (no absoluta)?”
+(No hace falta estimarla: basta con interpretar ‘relativamente más fuerte’).
+Comparación cruzada (la clave ricardiana):
+“¿Qué productos son ‘fuertes’ en China pero no en Argentina, y viceversa?”
+“Eso es evidencia de costos relativos distintos.”
+Autarquía (concepto puente):
+“Si estos países estuvieran en autarquía, ¿qué bien sería relativamente más barato en cada uno?”
+“¿El RCA sugiere diferencias en precios relativos internos?”
+(Acá los hacés verbalizar: ‘si exporta mucho X, es plausible que X sea relativamente barato’).
+Shock-test (2019 pre-pandemia):
+“¿Creen que este patrón es estable o sensible a shocks (precios internacionales, tipo de cambio)?”
+Conclusión ricardiana: el patrón se mueve si cambian costos relativos o precios relativos.
+Cierre ricardiano (1 frase):
+“RCA es una foto de especialización; Ricardo dice que esa foto se explica por diferencias en costos relativos.”
+
+B) Debate “a lo Smith” (comercio amplía mercado → división del trabajo → productividad)
+Idea a fijar: no es solo ‘qué exporto’, sino cómo el comercio y el tamaño del mercado empujan especialización y productividad.
+Preguntas para conectar con Smith:
+Forma del radar = “estructura productiva”:
+“¿El radar se ve diversificado o concentrado? ¿Qué implica sobre división del trabajo a escala país?”
+“¿Un mercado interno grande + acceso externo empuja a más variedad y especialización?”
+Extensión del mercado (frase clave):
+“Si un país accede a un mercado mundial enorme, ¿qué pasa con la especialización dentro de sus sectores?”
+“¿El perfil 2019 parece consistente con que el comercio haya habilitado más especialización?”
+Productividad como ‘riqueza’:
+“Smith diría: riqueza = productividad/ingreso real. ¿Qué tipo de canasta exportadora sugiere mayor capacidad de escalar productividad?”
+(Esto abre el debate sin moralizar: los llevás a hablar de procesos productivos.)
+Instituciones/monopolios (Smith político):
+“¿Hay algo en estos patrones que pueda reflejar ‘privilegios’ o reglas (regulación, rentas, barreras) más que productividad pura?”
+Y ahí volvés a su crítica a monopolios/restricciones.
+Cierre smithiano (1 frase):
+“Smith te ayuda a leer el RCA como resultado de mercado + especialización + productividad, no solo como ‘ventaja’.”
+
+C) Mercantilistas (solo como contraste de 20 segundos, sin darle protagonismo)
+Pregunta provocadora: “Si fueras mercantilista, ¿qué leerías acá?”
+→ “Quiero RCA alto en todo y superávit”.
+Y listo: volvés a Smith/Ricardo.
+
+Guion práctico para darlo en clase (sin trabajo grupal)
+1–2 min: “Lean el radar: ¿concentrado o diversificado?”
+5 min Ricardo: “¿quién exporta qué y por qué (costos relativos)?”
+5 min Smith: “¿qué dice esto sobre especialización y tamaño de mercado?”
+2 min cierre: “RCA = evidencia; teorías = mecanismo.”
+
+Pregunta final que engancha perfecto con lo que viene
+“¿Estos patrones se explican mejor por tecnología (Ricardo) o por dotaciones/factores (neoclásicos H–O)?”
+Eso te deja la puerta abierta para la próxima clase/unidad.
+Si querés, armamos el texto exacto (tipo “script”) que decís mientras mostrás los 3 radares de 2019, con 6–8 preguntas en orden para que el debate salga solo.
+Ok
+Listo: acá tenés un script (lo que decís y preguntás) para el Slide 16 (UNCTAD radar 2019) y el Slide 17 (Top 10 RCA WITS 2019), 100% anclado en Smith y Ricardo.
+Script para Slide 16 — UNCTAD RCA Radar (2019): Argentina / China / EEUU (8–10 min)
+0) Apertura (20–30s)
+“Esto es una foto 2019 pre-pandemia. El RCA no es la causa: es una forma de ver especialización exportadora. Ahora lo vamos a leer con los lentes de Smith y Ricardo.”
+1) Pregunta “visual” (30s)
+“Sin leer etiquetas: ¿cuál radar se ve más diversificado y cuál más concentrado?”
+“¿Qué te dice eso, intuitivamente, sobre la estructura productiva?”
+2) Ricardo: patrón de comercio (3–4 min)
+“Ricardo pregunta: ¿quién exporta qué?”
+“Busquen 2 o 3 puntas ‘fuertes’ (RCA alto) en Argentina, 2 o 3 en China, 2 o 3 en EEUU.”
+“Ahora: ¿cuáles parecen ser ‘fortalezas relativas’ de cada uno?”
+“Ricardo diría: esto sugiere costos relativos distintos. No importa quién es mejor en todo: importa en qué es relativamente más barato producir.”
+Pregunta clave (para fijar la idea):
+“¿Qué producto imaginás que sería ‘relativamente más barato’ en Argentina que en China, mirando esto?”
+3) Smith: mercado y especialización (3–4 min)
+“Smith diría: la división del trabajo está limitada por el tamaño del mercado.”
+“¿Qué radar parece consistente con un país que logró mucha especialización y variedad por ‘extensión del mercado’ (interno + externo)?”
+“¿Qué lectura Smithiana harías del contraste: diversidad vs concentración?”
+Pregunta de cierre Smith:
+“¿El comercio ayuda a crear especialización (Smith) o solo revela costos relativos (Ricardo)?”
+4) Advertencia breve (20–30s)
+“UNCTAD mismo aclara que RCA es una primera aproximación y no incorpora directamente políticas o barreras que afectan competitividad.”
+
+Script para Slide 17 — WITS Top 10 RCA (2019) (8–10 min)
+1) Ricardo: ‘tabla’ como evidencia (3–4 min)
+“Ahora bajamos del radar a productos concretos: Top 10 RCA por país.”
+“De estos listados, elijan dos productos por país y expliquen en una oración ‘cuál podría ser la lógica ricardiana’.”
+Ejemplo de respuesta esperada: “En este producto el país parece relativamente más eficiente → exporta.”
+Pregunta que ordena todo:
+“¿Qué par de productos te permite contar la historia ‘A exporta X y B exporta Y’?”
+2) Smith: división del trabajo y sofisticación (3–4 min)
+“Ahora la misma lista, pero con Smith:”
+“¿Qué te dicen estos Top 10 sobre tipo de especialización?”
+¿más primarios? ¿más manufacturas? ¿más tecnología?
+“¿Cuál de estos patrones parece más compatible con ‘comercio amplía mercado → más especialización → más productividad’?”
+3) Cierre con pregunta-anzuelo (2 min)
+“Hasta acá, lo leímos con Smith y Ricardo.”
+“Pregunta para enganchar la próxima clase:
+¿esto es ‘tecnología’ (Ricardo) o ‘dotaciones de factores’ (Heckscher-Ohlin)?”
+
+Mini-regla para que el debate no se te vaya
+Si se dispersan, volvés a 2 frases:
+Ricardo: “RCA = evidencia de costos relativos (ventaja comparativa).”
+Smith: “RCA también puede leerse como resultado de especialización habilitada por mercado.”
+Cuando quieras, seguimos con el siguiente slide (el que arma el puente a H-O / neoclásicos) o dejamos cerrada la Clase 2 con un slide de recapitulación final + bibliografía.
+Cerramos clase 2 en slide, en todo caso después retomamos para profundizar algún slide pero hasta para una clase está bien 
+Slide 18 — Cierre Clase 2: qué nos llevamos (Smith + Ricardo + datos)
+Título
+Clase 2 — Cierre: del debate histórico al mecanismo y su evidencia
+
+1) Lo esencial de hoy (3 bullets)
+Smith: el comercio importa porque amplía el mercado → más división del trabajo → más productividad (riqueza = ingreso real, no oro).
+Ricardo: el patrón de comercio lo define la ventaja comparativa (costos relativos / costo de oportunidad), incluso si un país es “mejor en todo”.
+Evidencia (2019): el RCA/Balassa muestra especialización exportadora: una forma simple de “ver” quién exporta qué.
+
+2) Mecanismo en 1 línea (grande)
+Tecnología / costos relativos → precios relativos en autarquía → especialización → comercio → ganancias del comercio
+
+3) Cierre con pregunta puente (para enganchar la próxima)
+Si la ventaja comparativa no viene solo de tecnología: ¿viene de dotaciones de factores (H–O) o de otras fuerzas (escala, variedad, empresas)?
+
+Visual sugerido
+Un diagrama final con flechas (mismo del resumen) + al costado “RCA (2019) = patrón observable”.
+
+Guion para decir (30–45s)
+“Hoy vimos el núcleo clásico. Smith nos dio la idea de riqueza y el vínculo comercio–mercado–productividad. Ricardo nos dio el mecanismo formal de ventaja comparativa y ganancias del comercio. Y con los datos 2019 vimos que los países efectivamente muestran perfiles de especialización. La próxima vez vamos a discutir de dónde sale esa ventaja comparativa cuando no la atribuimos solo a tecnología: factores, distribución y nuevas explicaciones.”
+Si querés, en el próximo paso te armo una “diapositiva 19 opcional” con bibliografía mínima y 3 preguntas tipo examen para que los alumnos se vayan con guía de estudio.
+Ok, usa también la bibliografía que tenemos en el fichero 
+Pensado durante 1m 28s
+Perfecto. Te dejo el slide de cierre de la Clase 2 ya con bibliografía tomada del Programa (Lugones / Krugman-Obstfeld-Melitz / Porta, etc.) y con un formato que entra bien en una sola diapositiva.
+Slide 18 — Cierre Clase 2 (con bibliografía)
+Título
+Clase 2 — Cierre: Smith + Ricardo + evidencia (RCA 2019)
+1) Lo esencial de hoy (3 bullets)
+Smith: el comercio amplía el mercado → más división del trabajo → más productividad (riqueza = ingreso real).
+Ricardo: el comercio se explica por ventaja comparativa (costos relativos / costo de oportunidad), incluso si hay ventaja absoluta en todo.
+Datos (RCA/Balassa): “vemos” especialización exportadora (2019) como puente entre teoría y evidencia.
+2) Mecanismo en 1 línea (grande)
+Costos relativos → precios relativos en autarquía → especialización → comercio → ganancias del comercio
+3) Pregunta puente (para enganchar la próxima)
+¿La ventaja comparativa viene de tecnología (Ricardo) o de dotaciones de factores y distribución (H–O)?
+
+4) Bibliografía (del fichero) — para repasar esta clase
+Básica
+Lugones, G. et al. (comp.) Teorías del Comercio Internacional (referencia principal para teorías del comercio).
+Krugman, P.; Obstfeld, M.; Melitz, M. Economía Internacional: Teoría y Política (capítulos de teorías del comercio).
+Complementaria / continuidad del curso
+Porta, F. (comp.) Integración Económica: Teoría y Experiencia Latinoamericana (más adelante, integración: Mercosur y AL).
+
+Nota para vos (guion 25–35s)
+“Hoy resolvimos el núcleo clásico: Smith nos da el vínculo comercio–mercado–productividad; Ricardo nos da el mecanismo formal de ventaja comparativa y ganancias del comercio. Con RCA 2019 vimos una foto empírica de especialización para Argentina/China/EEUU. La próxima clase discutimos de dónde sale la ventaja comparativa cuando no la atribuimos solo a tecnología: dotaciones, distribución y evidencia.”
+Si querés, armo un Slide 19 opcional solo de “Lecturas + 3 preguntas guía” (para que se vayan con tarea clara) usando la misma bibliografía del programa.
+Ok
+Slide 19 (opcional) — Lecturas y guía de estudio (Clase 2)
+Título
+Para la próxima: lecturas y 3 preguntas guía
+Lecturas (del programa/bibliografía del curso)
+Lugones, G. et al. (comp.) Teorías del Comercio Internacional — sección de Smith y Ricardo (ventaja absoluta / comparativa).
+Krugman; Obstfeld; Melitz Economía Internacional: Teoría y Política — capítulo de modelo ricardiano, PPF, costos de oportunidad y ganancias del comercio.
+(Contexto regional para más adelante) Porta, F. (comp.) Integración Económica: Teoría y Experiencia Latinoamericana (conexión con integración/Mercosur).
+3 preguntas guía (para que estudien “con foco”)
+Smith: ¿por qué el comercio puede aumentar la riqueza? Explicá el mecanismo mercado → división del trabajo → productividad.
+Ricardo: mostrálos con un ejemplo 2×2: ¿cómo se determina la ventaja comparativa con costos de oportunidad?
+Datos: ¿qué mide el RCA/Balassa y por qué es útil como evidencia? ¿Qué no puede identificar (por ejemplo, rol de políticas/precios)?
+Si querés, el próximo paso es que dejemos “cerrada” la Clase 2 con una lista final de slides (1–19) para que tengas el esqueleto completo del PPT.
+Ok
+Perfecto. Acá queda el esqueleto completo de la Clase 2 (con los slides que armamos), así lo tenés cerrado para el PPT:
+Clase 2 — Índice final de slides
+Título y agenda
+De hechos estilizados a mecanismos: ¿por qué comercian los países?
+Smith: del mercantilismo a la “riqueza de las naciones”
+Mercantilismo vs Smith: qué es “riqueza” y por qué importa
+División del trabajo y productividad (microfundamento Smith)
+Ventaja absoluta (Smith): patrón simple de comercio
+Límite de Smith: si un país es mejor en todo, ¿por qué habría comercio?
+8A) Ricardo: contexto político (Corn Laws) — (oral, slide liviano si querés)
+8B) Ricardo: distribución (renta–salarios–ganancias) — (oral, slide liviano si querés)
+Autarquía + precios relativos + costo de oportunidad (definiciones)
+Ejemplo ricardiano: costos de oportunidad y patrón de comercio
+Términos de intercambio: rango de precio mundial para que ambos ganen
+Ganancias del comercio (País A): PPF + línea de intercambio
+Ganancias del comercio (País B): PPF + línea de intercambio
+Resumen Ricardo: mecanismo completo en 1 slide
+Preguntas abiertas (teaser): qué deja pendiente Ricardo
+Medición (I): patrón exportador y RCA/Balassa (concepto y fórmula)
+UNCTAD RCA Radar (2019): Argentina–China–EEUU (debate Smith/Ricardo)
+WITS Top 10 RCA (2019): Argentina–China–EEUU (debate Smith/Ricardo)
+Cierre Clase 2 + bibliografía (del programa)
+(Opcional) Lecturas + 3 preguntas guía
+Cuando quieras, en la próxima conversación retomamos la Clase 3 o volvemos a pulir/compactar alguno de estos slides para que entren mejor en tiempo.

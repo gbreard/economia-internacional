@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 1</title>
+  <style>
+    /* Reset y base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { 
+      width: 100%; 
+      height: 100%; 
+      overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    /* Contenedor de slides */
+    .slides-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    /* Footer */
+    .footer {
+      position: fixed;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 25px;
+      font-size: 0.85rem;
+      color: #4B5563;
+      z-index: 100;
+    }
+    
+    /* Variables de color */
+    :root {
+      --primary: #1F4E79;
+      --secondary: #0EA5E9;
+      --text-dark: #111827;
+      --text-muted: #4B5563;
+      --white: #FFFFFF;
+      --bg-light: #F3F4F6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slides-container">
+  
+  <!-- SLIDE 1: Portada -->
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Clase 1 — El comercio mundial: auge, colapso y preguntas abiertas
+    </div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+  
+  <!-- SLIDE 2: Sección -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Apertura
+    </h1>
+  </section>
+  
+  <!-- SLIDE 3: Texto centrado (pregunta) -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      Pregunta central de la clase
+    </h2>
+    
+    <div style="color: #1F4E79; font-size: 1.9rem; font-weight: 600; text-align: center; max-width: 90%; line-height: 1.4; margin-bottom: 40px;">
+      ¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en apenas 30 años?
+    </div>
+    
+    <div style="color: #111827; font-size: 1.3rem; text-align: center; max-width: 80%;">
+      Esta pregunta organiza todo lo que veremos hoy:
+      <ol style="display: inline-block; text-align: left; margin: 20px 0; padding-left: 1.5em;">
+        <li style="margin-bottom: 12px; line-height: 1.5;">Medir ese crecimiento y colapso con datos</li>
+        <li style="margin-bottom: 12px; line-height: 1.5;">Explicar qué fuerzas lo causaron</li>
+        <li style="margin-bottom: 12px; line-height: 1.5;">Conectar historia con números</li>
+      </ol>
+    </div>
+  </section>
+  
+  <!-- SLIDE 4: Solo texto con tabla -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 25px 50px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 20px 0;">
+      Marco analítico: tres fuerzas
+    </h2>
+    
+    <div style="flex-grow: 1;">
+      <p style="font-size: 1.15rem; color: #111827; line-height: 1.55; margin: 0 0 20px 0;">
+        Para explicar cualquier período del comercio, preguntamos:
+      </p>
+      
+      <table style="width: 100%; max-width: 95%; border-collapse: collapse; font-size: 1rem; margin: 15px 0;">
+        <thead>
+          <tr>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left; font-weight: 600;">Fuerza</th>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left; font-weight: 600;">Pregunta clave</th>
+            <th style="background-color: #1F4E79; color: #FFFFFF; padding: 12px 16px; text-align: left; font-weight: 600;">Ejemplos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Tecnología</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">¿Cuánto cuesta mover bienes?</td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Vela → vapor → contenedor</td>
+          </tr>
+          <tr style="background-color: #F3F4F6;">
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Reglas</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">¿Quién puede comerciar?</td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Monopolios, aranceles, OMC</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;"><strong>Poder</strong></td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">¿Quién garantiza estabilidad?</td>
+            <td style="padding: 10px 16px; border-bottom: 1px solid #e5e7eb;">Hegemonía, marina, moneda</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div style="background-color: #FEF3C7; padding: 15px 20px; border-left: 4px solid #F59E0B; margin: 25px 0; max-width: 90%;">
+        <p style="margin: 0; font-size: 1.1rem; color: #111827;">
+          <strong>Idea clave:</strong> Las tres operan juntas. Si una falla, el sistema se quiebra.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- SLIDE 5: Sección Indicadores -->
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 4.5rem; font-weight: 600; text-align: center;">
+      Indicadores
+    </h1>
+  </section>
+  
+  <!-- SLIDE 6: Gráfico + Texto -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Índice de comercio mundial (1800-1938)
+    </h2>
+    
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <!-- Columna gráfico 64% -->
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="graficos/indice_comercio.png" alt="Índice de comercio mundial" 
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0;"
+             onerror="this.style.background='#f0f0f0'; this.style.display='flex'; this.alt='[Gráfico: Índice de comercio mundial 1800-1938]';">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: FTWTHD
+        </div>
+      </div>
+      
+      <!-- Columna texto 34% -->
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Cómo leer el índice:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0 0 15px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">1913 = 100 (año base)</li>
+          <li style="margin-bottom: 6px;">Valor 50 = mitad del comercio de 1913</li>
+          <li style="margin-bottom: 6px;">Valor 200 = doble del de 1913</li>
+        </ul>
+        
+        <p style="font-size: 0.85rem; color: #4B5563; font-style: italic; margin-bottom: 8px;">Puntos clave:</p>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 6px;">1800: 2.4 (casi nada)</li>
+          <li style="margin-bottom: 6px;">1870: 25 (x10 en 70 años)</li>
+          <li style="margin-bottom: 6px;">1913: 100 (pico)</li>
+          <li style="margin-bottom: 6px;">1932: 95 (colapso -29%)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- SLIDE 7: Imagen + Texto (mapa) -->
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 20px 40px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 15px 0;">
+      Etapa 1: Economía-mundo ibérica (1500-1650)
+    </h2>
+    
+    <div style="display: flex; flex-grow: 1; gap: 30px; min-height: 0;">
+      <!-- Columna imagen 64% -->
+      <div style="flex: 0 0 64%; display: flex; flex-direction: column; min-height: 0;">
+        <img src="img/mapa-rutas-ibericas.png" alt="Rutas comerciales ibéricas" 
+             style="max-width: 100%; max-height: calc(100vh - 160px); object-fit: contain; flex-grow: 1; min-height: 0; border-radius: 4px;"
+             onerror="this.style.background='#f0f0f0'; this.style.minHeight='400px';">
+        <div style="font-size: 0.75rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 8px;">
+          Fuente: Mapas históricos
+        </div>
+      </div>
+      
+      <!-- Columna texto 34% -->
+      <div style="flex: 0 0 34%; padding-top: 10px;">
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Rutas ibéricas siglo XVI:
+        </h3>
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0 0 20px 0; padding-left: 1.2em;">
+          <li style="margin-bottom: 8px;">Portugal: ruta del Cabo → Asia</li>
+          <li style="margin-bottom: 8px;">España: Atlántico → América</li>
+        </ul>
+        
+        <h3 style="color: #1F4E79; font-size: 1.05rem; font-weight: 600; margin: 0 0 10px 0;">
+          Modelo de comercio:
+        </h3>
+        <p style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0;">
+          Monopolios estatales (Casa de Contratación). El Estado absorbe riesgos y captura rentas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <span>Economía Internacional | UMET</span>
+  <span id="slide-counter">1 / 7</span>
+</div>
+
+<script>
+  // Navegación simple con flechas
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+  
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
+      showSlide(current + 1);
+    } else if (e.key === 'ArrowLeft') {
+      showSlide(current - 1);
+    } else if (e.key === 'f' || e.key === 'F') {
+      document.documentElement.requestFullscreen?.();
+    } else if (e.key === 'Escape') {
+      document.exitFullscreen?.();
+    }
+  });
+  
+  // Click para avanzar
+  document.addEventListener('click', (e) => {
+    if (e.clientX > window.innerWidth / 2) {
+      showSlide(current + 1);
+    } else {
+      showSlide(current - 1);
+    }
+  });
+</script>
+
+</body>
+</html>

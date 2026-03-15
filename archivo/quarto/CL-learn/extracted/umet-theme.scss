@@ -1,0 +1,319 @@
+/*-- scss:defaults --*/
+
+// VARIABLES GLOBALES
+$primary: #1F4E79;
+$secondary: #0EA5E9;
+$accent: #10B981;
+$warning: #F59E0B;
+$error: #EF4444;
+$text-dark: #111827;
+$text-muted: #4B5563;
+$background: #F3F4F6;
+$white: #FFFFFF;
+
+// Espaciado
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Fuentes
+$font-family-sans-serif: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$presentation-font-size-root: 26px;
+$presentation-h1-font-size: 1.6em;
+$presentation-h2-font-size: 1.3em;
+$presentation-h3-font-size: 1.05em;
+
+// Tamaños de texto
+$font-size-lg: 1.2em;
+$font-size-md: 1em;
+$font-size-sm: 0.85em;
+$font-size-xs: 0.7em;
+$font-size-fuente: 0.55em;
+
+// Columnas
+$col-imagen: 63%;
+$col-texto: 35%;
+$col-gap: 20px;
+
+$link-color: $secondary;
+
+/*-- scss:rules --*/
+
+/* ===========================================
+   FIX CRÍTICO #1: Estructura base para fullscreen
+   El problema es que sin height explícito, flexbox no puede centrar
+   =========================================== */
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  height: 100% !important;          /* CRÍTICO: necesario para que flexbox funcione */
+  box-sizing: border-box !important;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===========================================
+   FIX CRÍTICO #2: Centrado vertical que funciona en fullscreen
+   USO: ## Título {.center-slide}
+   =========================================== */
+
+.reveal .slides section.center-slide {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+
+.reveal .slides section.center-slide > * {
+  max-width: 85%;
+  flex-shrink: 0;
+}
+
+.reveal .slides section.center-slide h2 {
+  margin-bottom: $spacing-lg;
+}
+
+/* Alternativa: clase .content-center como wrapper (tu versión original, mejorada) */
+.reveal .content-center {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;              /* Cambiado de min-height a height */
+  text-align: center;
+}
+
+.reveal .content-center > * {
+  max-width: 90%;
+}
+
+/* ===========================================
+   TÍTULOS Y TEXTO
+   =========================================== */
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: $primary;
+  font-weight: 600;
+  flex-shrink: 0;           /* Evita que el título se comprima */
+}
+
+.reveal h2 {
+  margin-bottom: $spacing-lg;
+}
+
+.reveal p {
+  margin-bottom: $spacing-sm;
+  line-height: 1.4;
+}
+
+.reveal li {
+  margin-bottom: 0.4em;
+  line-height: 1.4;
+}
+
+/* ===========================================
+   FIX CRÍTICO #3: Columnas que no se rompen
+   =========================================== */
+
+.reveal .columns {
+  display: flex !important;
+  gap: $col-gap;
+  align-items: flex-start;
+  margin-top: $spacing-sm;
+  flex-grow: 1;             /* Permite que las columnas ocupen el espacio */
+  width: 100%;
+}
+
+.reveal .column {
+  flex-shrink: 0;
+}
+
+.reveal .column:first-child {
+  flex: 0 0 $col-imagen;
+  max-width: $col-imagen;
+  display: flex;
+  flex-direction: column;
+}
+
+.reveal .column:last-child {
+  flex: 0 0 $col-texto;
+  max-width: $col-texto;
+}
+
+.reveal .column:last-child p,
+.reveal .column:last-child li {
+  font-size: $font-size-sm;
+}
+
+/* ===========================================
+   FIX CRÍTICO #4: Imágenes con tamaño controlado
+   =========================================== */
+
+/* Imágenes generales */
+.reveal section img {
+  max-height: 55vh;         /* Relativo al viewport, no px fijos */
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Imágenes en columnas (pueden ser más grandes) */
+.reveal .column img {
+  max-height: 58vh;
+  width: 100%;
+}
+
+/* Gráficos de Python/matplotlib */
+.reveal .cell-output-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.reveal .cell-output-display img,
+.reveal .cell-output-display svg {
+  max-height: 55vh;
+  width: auto;
+  max-width: 100%;
+}
+
+/* ===========================================
+   FIX CRÍTICO #5: Fuentes de imágenes/gráficos
+   USO: Fuente: FTWTHD  (después de la imagen, como texto normal)
+   =========================================== */
+
+/* El texto "Fuente:" después de un gráfico */
+.reveal .column > p:last-of-type,
+.reveal .cell-output-display + p {
+  font-size: $font-size-fuente;
+  color: $text-muted;
+  font-style: italic;
+  margin-top: $spacing-xs;
+  text-align: center;
+}
+
+/* Clase explícita para fuentes */
+.reveal .fuente,
+.reveal .img-source {
+  font-size: $font-size-fuente !important;
+  color: $text-muted !important;
+  font-style: italic;
+  margin-top: $spacing-xs;
+  text-align: center;
+  display: block;
+}
+
+/* ===========================================
+   TABLAS
+   =========================================== */
+
+.reveal table {
+  font-size: 0.85em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reveal table th {
+  background-color: $primary;
+  color: $white;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.reveal table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.reveal tr:nth-child(even) {
+  background-color: rgba($background, 0.5);
+}
+
+/* Tabla ASCII (como la del marco analítico) - mejor como tabla real */
+.reveal pre:not(.sourceCode) {
+  font-size: 0.75em;
+  background: transparent;
+  border: none;
+  font-family: monospace;
+}
+
+/* ===========================================
+   SLIDES DE SECCIÓN
+   =========================================== */
+
+.reveal section.section {
+  background-color: $primary;
+  color: $white;
+}
+
+.reveal section.section h2 {
+  color: $white;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* ===========================================
+   MATEMÁTICAS (MathJax)
+   =========================================== */
+
+.reveal .MathJax {
+  font-size: 1.1em;
+}
+
+/* Ecuaciones en bloque centradas */
+.reveal .math.display {
+  margin: $spacing-md 0;
+}
+
+/* ===========================================
+   UTILIDADES
+   =========================================== */
+
+/* Texto destacado */
+.reveal .highlight {
+  color: $accent;
+  font-weight: 600;
+}
+
+/* Caja de concepto */
+.reveal .concepto {
+  background: rgba($secondary, 0.1);
+  border-left: 4px solid $secondary;
+  padding: $spacing-md;
+  margin: $spacing-md 0;
+}
+
+/* r-fit-text de Reveal (ajusta texto al ancho) */
+.reveal .r-fit-text {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: $primary;
+  margin-bottom: $spacing-lg;
+}
+
+/* small para fuentes */
+.reveal small {
+  font-size: $font-size-fuente;
+  color: $text-muted;
+  display: block;
+  margin-top: $spacing-xs;
+}
+
+/* ===========================================
+   FOOTER
+   =========================================== */
+
+.reveal .slide-number {
+  font-size: 0.7em;
+}

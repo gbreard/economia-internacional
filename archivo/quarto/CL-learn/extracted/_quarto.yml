@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: output
+
+format:
+  revealjs:
+    theme: [default, estilos/umet-theme.scss]
+    slide-number: true
+    show-slide-number: all
+    transition: fade
+    transition-speed: fast
+    footer: "Economía Internacional | UMET"
+    chalkboard: true
+    controls: true
+    progress: true
+    history: true
+    center: false
+    center-title-slide: true
+    width: 1600
+    height: 900
+    margin: 0.05              # Reducido de 0.08
+    auto-stretch: false       # CRÍTICO: evita que Reveal estire elementos
+
+execute:
+  echo: false
+  warning: false
+  cache: true
+
+bibliography: referencias.bib
+lang: es

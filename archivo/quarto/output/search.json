@@ -1,0 +1,576 @@
+[
+  {
+    "objectID": "clases/clase01.html#pregunta-central-de-hoy",
+    "href": "clases/clase01.html#pregunta-central-de-hoy",
+    "title": "Economía Internacional",
+    "section": "Pregunta central de hoy",
+    "text": "Pregunta central de hoy\n\n\n\n\n\n\nPregunta guía\n\n\n¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en 30 años?\n\n\n\nEsta pregunta organiza toda la clase:\n\nVamos a medir ese crecimiento y colapso\nVamos a explicar qué fuerzas lo causaron\nVamos a conectar datos con historia"
+  },
+  {
+    "objectID": "clases/clase01.html#un-siglo-de-crecimiento-treinta-años-de-destrucción",
+    "href": "clases/clase01.html#un-siglo-de-crecimiento-treinta-años-de-destrucción",
+    "title": "Economía Internacional",
+    "section": "Un siglo de crecimiento, treinta años de destrucción",
+    "text": "Un siglo de crecimiento, treinta años de destrucción\n\n\n\n\n\nFuente: Federico-Tena World Trade Historical Database (Federico y Tena-Junguito 2019)\n\n\n\n\n\nLectura rápida:\n\n\n\nAño\nÍndice\nEvento\n\n\n\n\n1800\n2.4\nInicio\n\n\n1870\n25\n×10\n\n\n1913\n100\n×40 (base)\n\n\n1932\n95\n−29%"
+  },
+  {
+    "objectID": "clases/clase01.html#marco-analítico-tres-fuerzas",
+    "href": "clases/clase01.html#marco-analítico-tres-fuerzas",
+    "title": "Economia Internacional",
+    "section": "Marco analítico: tres fuerzas",
+    "text": "Marco analítico: tres fuerzas\nPara explicar cualquier período del comercio, preguntamos:\n\n\n\n\n\n\n\n\nFuerza\nPregunta clave\nEjemplos\n\n\n\n\nTecnología\n¿Cuánto cuesta mover bienes?\nVela → vapor → contenedor\n\n\nReglas\n¿Quién puede comerciar?\nMonopolios, aranceles, OMC\n\n\nPoder\n¿Quién garantiza estabilidad?\nHegemonía, marina, moneda\n\n\n\nIdea clave: Las tres operan juntas. Si una falla, el sistema se quiebra."
+  },
+  {
+    "objectID": "clases/clase01.html#medición-i-índice-de-comercio-mundial",
+    "href": "clases/clase01.html#medición-i-índice-de-comercio-mundial",
+    "title": "Economía Internacional",
+    "section": "Medición I — Índice de comercio mundial",
+    "text": "Medición I — Índice de comercio mundial\n\n\n\n\n\nÍndice 1913=100. Fuente: FTWTHD\n\n\n\n\n¿Por qué usar un índice?\n\nEvita problemas de inflación (precios corrientes)\nPermite comparar períodos largos\nEl año base (1913) es el pico pre-WWI"
+  },
+  {
+    "objectID": "clases/clase01.html#medición-ii-exportaciones-e-importaciones",
+    "href": "clases/clase01.html#medición-ii-exportaciones-e-importaciones",
+    "title": "Economía Internacional",
+    "section": "Medición II — Exportaciones e importaciones",
+    "text": "Medición II — Exportaciones e importaciones\n\n\n\n\n\nMillones de US$ corrientes. Fuente: FTWTHD\n\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\nCuidado: valores nominales (precios corrientes). Para comparar períodos largos, preferir índices."
+  },
+  {
+    "objectID": "clases/clase01.html#medición-iii-participación-regional",
+    "href": "clases/clase01.html#medición-iii-participación-regional",
+    "title": "Economía Internacional",
+    "section": "Medición III — Participación regional",
+    "text": "Medición III — Participación regional\n\n\n\n\n\n% del total mundial de exportaciones. Fuente: FTWTHD\n\n\n\n\nConexión con hegemonía: Europa (~65% en siglo XIX) organiza el comercio mundial."
+  },
+  {
+    "objectID": "clases/clase01.html#medición-iv-concentración-regional-hhi",
+    "href": "clases/clase01.html#medición-iv-concentración-regional-hhi",
+    "title": "Economía Internacional",
+    "section": "Medición IV — Concentración regional (HHI)",
+    "text": "Medición IV — Concentración regional (HHI)\n\n\n\n\n\nHHI sobre 5 regiones. Fuente: cálculos propios sobre FTWTHD\n\n\n\n\n\nHHI cae en siglo XIX → más integración\nHHI sube post-1914 → fragmentación"
+  },
+  {
+    "objectID": "clases/clase01.html#definiciones-operativas",
+    "href": "clases/clase01.html#definiciones-operativas",
+    "title": "Economía Internacional",
+    "section": "Definiciones operativas",
+    "text": "Definiciones operativas\n\n\nÍndice (nivel relativo) \\[I_t = 100 \\times \\frac{Comercio_t}{Comercio_{1913}}\\]\nParticipación regional \\[s_{r,t} = \\frac{X_{r,t}}{X_{mundo,t}}\\]\n\nConcentración (HHI) \\[HHI_t = \\sum_r (s_{r,t})^2\\]\nRango: \\(\\frac{1}{N}\\) (diversificado) → 1 (concentrado)\n\n\n\n\n\n\n\nNota\n\n\nCobertura: en 1800 hay ~30 polities con datos; en 1913 hay ~100. Cambios en cobertura afectan los niveles."
+  },
+  {
+    "objectID": "clases/clase01.html#antes-del-despegue-el-mundo-pre-industrial",
+    "href": "clases/clase01.html#antes-del-despegue-el-mundo-pre-industrial",
+    "title": "Economía Internacional",
+    "section": "Antes del despegue: el mundo pre-industrial",
+    "text": "Antes del despegue: el mundo pre-industrial\nEl comercio existía, pero era diferente (1500-1800)\n\nVolumen pequeño: metales preciosos, especias, esclavos\nRutas controladas por monopolios estatales\n\nCasa de Contratación (España)\nCompañías de Indias (Holanda, UK)\n\nSin industrialización = sin producción en masa\n\n\nEn 1800 el índice está en 2.4 — casi nada comparado con 1913 (=100)\nEl despegue requiere otra tecnología y otras reglas."
+  },
+  {
+    "objectID": "clases/clase01.html#el-despegue-qué-cambió",
+    "href": "clases/clase01.html#el-despegue-qué-cambió",
+    "title": "Economía Internacional",
+    "section": "1815-1870: El despegue — ¿qué cambió?",
+    "text": "1815-1870: El despegue — ¿qué cambió?\n\n\nTecnología\n\nVapor (1820s)\nFerrocarril\nTelégrafo (1850s)\n\n\nReglas\n\nUK elimina Corn Laws (1846)\nTratados con cláusula NMF\n\n\nPoder\n\nRoyal Navy\nLibra esterlina\nCity de Londres\n\n\n\nEvidencia: el índice pasa de 2.4 (1800) a 25 (1870) = se multiplica por 10"
+  },
+  {
+    "objectID": "clases/clase01.html#la-primera-globalización",
+    "href": "clases/clase01.html#la-primera-globalización",
+    "title": "Economía Internacional",
+    "section": "1870-1913: La primera globalización",
+    "text": "1870-1913: La primera globalización\n\nRed imperial británica (Navy League, 1922)Ideas clave:\n\nRutas marítimas controladas por Royal Navy\nCables submarinos = información instantánea\nEl índice se cuadruplica: 25 → 100"
+  },
+  {
+    "objectID": "clases/clase01.html#qué-significa-hegemonía-británica",
+    "href": "clases/clase01.html#qué-significa-hegemonía-británica",
+    "title": "Economia Internacional",
+    "section": "¿Qué significa “hegemonía británica”?",
+    "text": "¿Qué significa “hegemonía británica”?\n\n\n\n\n\n\n\n\nDimensión\nRol de UK\nEfecto\n\n\n\n\nProductiva\n“Taller del mundo”\nManufactura exportable\n\n\nFinanciera\nLibra + City de Londres\nCrédito y pagos internacionales\n\n\nLogística\nMarina mercante\nRutas predecibles\n\n\nReglas\nLibre comercio\nCorn Laws 1846, cláusula NMF\n\n\n\n\nHegemonía = capacidad de proveer bienes públicos internacionales (moneda estable, seguridad, reglas) que benefician al hegemón y a otros."
+  },
+  {
+    "objectID": "clases/clase01.html#la-guerra-destruye-el-sistema",
+    "href": "clases/clase01.html#la-guerra-destruye-el-sistema",
+    "title": "Economia Internacional",
+    "section": "1914-1918: La guerra destruye el sistema",
+    "text": "1914-1918: La guerra destruye el sistema\nAplicamos el marco Tecnología + Reglas + Poder:\n\n\n\n\n\n\n\n\nFuerza\nAntes de 1914\nDespués\n\n\n\n\nTecnología\nRutas abiertas\nBloqueos, guerra submarina\n\n\nReglas\nLibre comercio, patrón oro\nControles, abandono del oro\n\n\nPoder\nUK hegemónico\nUK debilitado, sistema fragmentado\n\n\n\n\nEvidencia: Índice cae de 100 (1913) a 75 (1918) = -25% en 4 años"
+  },
+  {
+    "objectID": "clases/clase01.html#la-gran-depresión",
+    "href": "clases/clase01.html#la-gran-depresión",
+    "title": "Economia Internacional",
+    "section": "1929-1932: La Gran Depresión",
+    "text": "1929-1932: La Gran Depresión\nSecuencia del colapso:\n\nCrisis bancaria en EUA → caída de demanda global\nRespuesta: proteccionismo (Ley Smoot-Hawley, 1930)\nRepresalias: cada país sube aranceles\nBloques monetarios: área libra, área dólar, área marco\nResultado: cada país intenta “exportar desempleo”\n\n\nEvidencia: Índice cae de 133 (1929) a 95 (1932) = -29% en solo 3 años"
+  },
+  {
+    "objectID": "clases/clase01.html#tres-lecciones-del-colapso",
+    "href": "clases/clase01.html#tres-lecciones-del-colapso",
+    "title": "Economia Internacional",
+    "section": "Tres lecciones del colapso",
+    "text": "Tres lecciones del colapso\n\nLección 1: La tecnología no alcanza\nLos barcos seguían existiendo en 1930. Pero el comercio cayó igual. Faltaban reglas y confianza.\nLección 2: Las reglas pueden destruir comercio\nAranceles altos + represalias = espiral descendente. Sin coordinación, todos pierden.\nLección 3: Sin hegemón, fragmentación\nUK ya no podía liderar. EUA no quería hacerlo (aún). Resultado: bloques rivales."
+  },
+  {
+    "objectID": "clases/clase01.html#eua-asume-el-rol-hegemónico",
+    "href": "clases/clase01.html#eua-asume-el-rol-hegemónico",
+    "title": "Economia Internacional",
+    "section": "1945-1973: EUA asume el rol hegemónico",
+    "text": "1945-1973: EUA asume el rol hegemónico\n\n\n\nDimensión\nUK (pre-1914)\nEUA (post-1945)\n\n\n\n\nMoneda\nLibra esterlina\nDólar (Bretton Woods)\n\n\nInstituciones\nTratados bilaterales\nFMI, Banco Mundial, GATT\n\n\nSeguridad\nRoyal Navy\nUS Navy + OTAN\n\n\nApertura\nUnilateral\nMultilateral (rondas GATT)\n\n\n\n\nEl comercio/PIB mundial supera el nivel de 1913 recién en los años 1970."
+  },
+  {
+    "objectID": "clases/clase01.html#la-segunda-globalización",
+    "href": "clases/clase01.html#la-segunda-globalización",
+    "title": "Economia Internacional",
+    "section": "1973-2008: La segunda globalización",
+    "text": "1973-2008: La segunda globalización\nCambios estructurales:\n\nFin de Bretton Woods (1971) → tipos de cambio flotantes\nContenedores, jets, internet → costos colapsan\nChina entra a la OMC (2001) → “fábrica del mundo”\n\n\nResultado:\n\nComercio crece 2x más rápido que el PIB\nTrade/GDP mundial: 25% (1970) → 60% (2008)"
+  },
+  {
+    "objectID": "clases/clase01.html#hoy-el-fin-de-la-globalización",
+    "href": "clases/clase01.html#hoy-el-fin-de-la-globalización",
+    "title": "Economía Internacional",
+    "section": "2008-hoy: ¿El fin de la globalización?",
+    "text": "2008-hoy: ¿El fin de la globalización?\n\n\n\nPeríodo\nEvento\nImpacto\n\n\n\n\n2008-09\nCrisis financiera\nComercio cae 12%\n\n\n2010-16\nRecuperación lenta\nComercio ≈ PIB\n\n\n2018-20\nGuerra comercial EUA-China\nAranceles, incertidumbre\n\n\n2020-22\nPandemia COVID\nDisrupción de cadenas\n\n\n2022-hoy\nGuerra Ucrania\nNearshoring, friendshoring\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\nPregunta abierta: ¿Estamos en otro colapso tipo 1914-1932 o es un ajuste temporal?"
+  },
+  {
+    "objectID": "clases/clase01.html#lo-que-nos-llevamos-de-esta-clase",
+    "href": "clases/clase01.html#lo-que-nos-llevamos-de-esta-clase",
+    "title": "Economía Internacional",
+    "section": "Lo que nos llevamos de esta clase",
+    "text": "Lo que nos llevamos de esta clase\n\n\nUn gráfico\nEl índice 1800-1938 es el mapa visual del curso: auge → pico → colapso\nUn marco analítico\nTecnología + Reglas + Poder\nAplicable a 1870, 1930, o 2024\n\nCuatro indicadores\n\nÍndice (nivel relativo)\nExportaciones/importaciones\nParticipación regional\nHHI (concentración)\n\nUna lección histórica\nLa integración no es automática ni irreversible"
+  },
+  {
+    "objectID": "clases/clase01.html#próxima-clase-balanza-de-pagos-y-tipo-de-cambio",
+    "href": "clases/clase01.html#próxima-clase-balanza-de-pagos-y-tipo-de-cambio",
+    "title": "Economía Internacional",
+    "section": "Próxima clase: Balanza de pagos y tipo de cambio",
+    "text": "Próxima clase: Balanza de pagos y tipo de cambio\nTemas de la Clase 2:\n\nCuenta corriente y cuenta financiera\nTipo de cambio nominal y real\n¿Qué significa “competitividad externa”?\nEnfoques desarrollistas sobre atraso cambiario\n\n\n\nLectura obligatoria:\nKrugman, Obstfeld, y Melitz (2022), Capítulo 1 (Introducción)\n\nLectura opcional:\nWTO (2024) o UNCTAD (2024)\nTraer un gráfico para comentar en clase"
+  },
+  {
+    "objectID": "clases/clase01.html#referencias",
+    "href": "clases/clase01.html#referencias",
+    "title": "Economia Internacional",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nKrugman, Paul R., Maurice Obstfeld, y Marc J. Melitz. 2022. Economía Internacional: Teoría y Política. 11.ª ed. Madrid: Pearson."
+  },
+  {
+    "objectID": "clases/clase01.html#objetivo-de-la-clase",
+    "href": "clases/clase01.html#objetivo-de-la-clase",
+    "title": "Economía Internacional",
+    "section": "Objetivo de la clase",
+    "text": "Objetivo de la clase\n\n\n\n\n\n\n¿Qué vamos a aprender hoy?\n\n\nConstruir un mapa mental común para entender el comercio internacional:\n\nEtapas históricas + hegemonías + medición\n\n\n\n\nAl terminar esta clase, deberías poder:\n\nUsar con soltura 4 indicadores básicos de comercio\nDescribir las grandes etapas históricas del comercio (siglo XVI → siglo XX)\nEntender la relación entre comercio, tecnología, reglas y poder"
+  },
+  {
+    "objectID": "clases/clase01.html#pregunta-central",
+    "href": "clases/clase01.html#pregunta-central",
+    "title": "Economía Internacional",
+    "section": "Pregunta central",
+    "text": "Pregunta central\n\n\n\n\n\n\nPregunta guía de hoy\n\n\n¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en apenas 30 años?\n\n\n\nEsta pregunta organiza toda la clase:\n\nVamos a medir ese crecimiento y colapso con datos\nVamos a explicar qué fuerzas lo causaron\nVamos a conectar la historia con los números"
+  },
+  {
+    "objectID": "clases/clase01.html#agenda",
+    "href": "clases/clase01.html#agenda",
+    "title": "Economía Internacional",
+    "section": "Agenda",
+    "text": "Agenda\n\n¿Qué medimos cuando decimos “comercio internacional”?\nIndicadores simples con datos históricos (1800–1938)\nEventos que rompen tendencias (guerras, crisis, políticas)\nGrandes etapas históricas (siglo XVI → siglo XX)\nHegemonías: Iberia → Reino Unido → Estados Unidos\nCómo conectamos historia y números"
+  },
+  {
+    "objectID": "clases/clase01.html#hechos-estilizados-lo-que-esperamos-ver-en-los-datos",
+    "href": "clases/clase01.html#hechos-estilizados-lo-que-esperamos-ver-en-los-datos",
+    "title": "Economía Internacional",
+    "section": "Hechos estilizados (lo que esperamos ver en los datos)",
+    "text": "Hechos estilizados (lo que esperamos ver en los datos)\nAntes de mirar los datos, algunas hipótesis:\n\nEl comercio mundial crece en el largo plazo, pero con “ondas” y caídas abruptas\nLas etapas históricas combinan: tecnología + reglas + poder (hegemonía)\nLa composición geográfica cambia: Europa domina el siglo XIX; luego aparecen nuevas regiones\nLa integración global no es lineal: 1914–45 rompe la primera globalización\nLos indicadores dependen de la cobertura estadística (qué países entran en el registro)"
+  },
+  {
+    "objectID": "clases/clase01.html#qué-es-un-indicador",
+    "href": "clases/clase01.html#qué-es-un-indicador",
+    "title": "Economía Internacional",
+    "section": "¿Qué es un indicador?",
+    "text": "¿Qué es un indicador?\n\n\n\n\n\n\nDefinición\n\n\nUn indicador es una medida cuantitativa que sintetiza información compleja en un número comparable.\n\n\n\nEn comercio internacional usamos indicadores para:\n\nComparar países, regiones o períodos\nIdentificar tendencias y rupturas\nTestear hipótesis sobre qué causa el crecimiento o la caída del comercio\n\nFuente de datos para esta clase: Federico-Tena World Trade Historical Database (FTWTHD), 1800-1938."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-1-índice-de-comercio-mundial",
+    "href": "clases/clase01.html#indicador-1-índice-de-comercio-mundial",
+    "title": "Economia Internacional",
+    "section": "Indicador 1: Índice de comercio mundial",
+    "text": "Indicador 1: Índice de comercio mundial\nDefinición:\n\\[I_t = 100 \\times \\frac{Comercio_t}{Comercio_{1913}}\\]\nInterpretación:\n\nEl año base es 1913 (pico antes de la Primera Guerra)\nSi \\(I_t = 50\\) → el comercio es la mitad del de 1913\nSi \\(I_t = 200\\) → el comercio es el doble del de 1913\n\n¿Por qué usar un índice? Evita problemas de inflación y permite comparar períodos largos."
+  },
+  {
+    "objectID": "clases/clase01.html#índice-de-comercio-mundial-1800-1938",
+    "href": "clases/clase01.html#índice-de-comercio-mundial-1800-1938",
+    "title": "Economia Internacional",
+    "section": "Índice de comercio mundial (1800-1938)",
+    "text": "Índice de comercio mundial (1800-1938)\n\n\n\n\n\n\n\n\n\n\n\n\nFuente: FTWTHD\n\n\nCómo leer el índice:\n\n1913 = 100 (año base)\nValor 50 = mitad del comercio de 1913\nValor 200 = doble del de 1913\n\nPuntos clave:\n\n1800: 2.4 (casi nada)\n1870: 25 (x10 en 70 años)\n1913: 100 (pico)\n1932: 95 (colapso -29%)"
+  },
+  {
+    "objectID": "clases/clase01.html#lectura-del-gráfico-puntos-clave",
+    "href": "clases/clase01.html#lectura-del-gráfico-puntos-clave",
+    "title": "Economía Internacional",
+    "section": "Lectura del gráfico: puntos clave",
+    "text": "Lectura del gráfico: puntos clave\n\n\n\nAño\nÍndice\nInterpretación\n\n\n\n\n1800\n2.4\nEl comercio era 2.4% del nivel de 1913\n\n\n1850\n10\nSe multiplicó por 4 en 50 años\n\n\n1870\n25\nSe multiplicó por 10 desde 1800\n\n\n1913\n100\nAño base — pico de la primera globalización\n\n\n1918\n75\nCaída del 25% por la Primera Guerra Mundial\n\n\n1929\n133\nNuevo pico antes de la Gran Depresión\n\n\n1932\n95\nColapso del 29% en solo 3 años\n\n\n1938\n114\nRecuperación parcial"
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-2-exportaciones-e-importaciones",
+    "href": "clases/clase01.html#indicador-2-exportaciones-e-importaciones",
+    "title": "Economía Internacional",
+    "section": "Indicador 2: Exportaciones e importaciones",
+    "text": "Indicador 2: Exportaciones e importaciones\n\n\n\n\n\nValores en millones de US$ corrientes. Fuente: FTWTHD\n\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\nCuidado: Estos son valores nominales (precios corrientes). La inflación afecta la comparación entre períodos. Por eso preferimos usar índices para análisis de largo plazo."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-3-participación-regional",
+    "href": "clases/clase01.html#indicador-3-participación-regional",
+    "title": "Economía Internacional",
+    "section": "Indicador 3: Participación regional",
+    "text": "Indicador 3: Participación regional\n\n\n\n\n\n\nDefinición\n\n\n\\[s_{r,t} = \\frac{X_{r,t}}{X_{mundo,t}} \\times 100\\]\nDonde:\n\n\\(s_{r,t}\\) = participación de la región \\(r\\) en el año \\(t\\) (en %)\n\\(X_{r,t}\\) = exportaciones de la región \\(r\\)\n\\(X_{mundo,t}\\) = exportaciones mundiales totales\n\n\n\n\nEste indicador nos dice quién comercia y cómo cambia la composición geográfica."
+  },
+  {
+    "objectID": "clases/clase01.html#participación-regional-en-exportaciones-1800-1938",
+    "href": "clases/clase01.html#participación-regional-en-exportaciones-1800-1938",
+    "title": "Economía Internacional",
+    "section": "Participación regional en exportaciones (1800-1938)",
+    "text": "Participación regional en exportaciones (1800-1938)\n\n\n\n\n\nParticipación de cada región en las exportaciones mundiales. Fuente: FTWTHD\n\n\n\n\nLectura: Europa representa ~65% del comercio mundial en el siglo XIX. Esto refleja la hegemonía británica."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-4-concentración-regional-hhi",
+    "href": "clases/clase01.html#indicador-4-concentración-regional-hhi",
+    "title": "Economía Internacional",
+    "section": "Indicador 4: Concentración regional (HHI)",
+    "text": "Indicador 4: Concentración regional (HHI)\n\n\n\n\n\n\nDefinición del Índice Herfindahl-Hirschman (HHI)\n\n\n\\[HHI_t = \\sum_{r} (s_{r,t})^2\\]\nDonde \\(s_{r,t}\\) es la participación de cada región (en decimales, no en %).\n\n\n\n¿Cómo se interpreta?\n\n\n\nValor HHI\nInterpretación\n\n\n\n\n0.20\nComercio muy diversificado (5 regiones iguales)\n\n\n0.25-0.40\nConcentración moderada\n\n\n0.50+\nComercio muy concentrado en pocas regiones\n\n\n1.00\nUna sola región tiene todo el comercio"
+  },
+  {
+    "objectID": "clases/clase01.html#concentración-regional-hhi-del-comercio-mundial",
+    "href": "clases/clase01.html#concentración-regional-hhi-del-comercio-mundial",
+    "title": "Economía Internacional",
+    "section": "Concentración regional (HHI) del comercio mundial",
+    "text": "Concentración regional (HHI) del comercio mundial\n\n\n\n\n\nHHI calculado sobre 5 regiones (África, Américas, Asia, Europa, Oceanía). Fuente: FTWTHD\n\n\n\n\nLectura: El HHI cae durante el siglo XIX (más integración), pero sube después de 1914 (fragmentación)."
+  },
+  {
+    "objectID": "clases/clase01.html#resumen-de-indicadores",
+    "href": "clases/clase01.html#resumen-de-indicadores",
+    "title": "Economía Internacional",
+    "section": "Resumen de indicadores",
+    "text": "Resumen de indicadores\n\n\n\n\n\n\n\n\n\nIndicador\nFórmula\n¿Qué mide?\n¿Qué vimos?\n\n\n\n\nÍndice\n\\(I_t = 100 \\times \\frac{C_t}{C_{1913}}\\)\nNivel relativo del comercio\nCreció 40x (1800-1913), cayó 29% (1929-32)\n\n\nParticipación\n\\(s_r = \\frac{X_r}{X_{total}}\\)\nQuién comercia\nEuropa dominó el siglo XIX\n\n\nHHI\n\\(\\sum s_r^2\\)\nConcentración\nMás diversificado hasta 1914, luego fragmentación\n\n\n\n\n\n\n\n\n\nAdvertencia metodológica\n\n\nLa cobertura estadística cambia: en 1800 hay ~30 países con datos; en 1913 hay ~100. Esto afecta los niveles, por eso usamos índices para comparar."
+  },
+  {
+    "objectID": "clases/clase01.html#periodización-histórica",
+    "href": "clases/clase01.html#periodización-histórica",
+    "title": "Economia Internacional",
+    "section": "Periodización histórica",
+    "text": "Periodización histórica\n\n\n\n\n\n\n\n\nPeríodo\nEtapa\nCaracterísticas\n\n\n\n\n1500-1650\nEconomía-mundo ibérica\nMonopolios, metales, rutas controladas\n\n\n1650-1815\nTransición\nAscenso de Holanda y UK\n\n\n1815-1913\nHegemonía británica\nIndustria, libre comercio, globalización\n\n\n1914-1945\nGuerras + colapso\nDesintegración del sistema\n\n\n1945-hoy\nOrden de posguerra\nInstituciones multilaterales"
+  },
+  {
+    "objectID": "clases/clase01.html#etapa-1-economía-mundo-ibérica-1500-1650",
+    "href": "clases/clase01.html#etapa-1-economía-mundo-ibérica-1500-1650",
+    "title": "Economia Internacional",
+    "section": "Etapa 1: Economía-mundo ibérica (1500-1650)",
+    "text": "Etapa 1: Economía-mundo ibérica (1500-1650)\n\n\n\n\nFuente: Mapas históricos\n\n\nRutas ibéricas siglo XVI:\n\nPortugal: ruta del Cabo → Asia\nEspaña: Atlántico → América\n\nModelo de comercio:\nMonopolios estatales (Casa de Contratación). El Estado absorbe riesgos y captura rentas."
+  },
+  {
+    "objectID": "clases/clase01.html#el-galeón-de-manila-primera-cadena-global",
+    "href": "clases/clase01.html#el-galeón-de-manila-primera-cadena-global",
+    "title": "Economia Internacional",
+    "section": "El Galeón de Manila: primera cadena global",
+    "text": "El Galeón de Manila: primera cadena global\n\n\n\n\nFuente: Mapa histórico\n\n\nEl circuito:\n\nManila: sedas de China\nAcapulco: descarga, carga plata\nSevilla: plata a Europa\n\nPrimera cadena global: Asia manufactura, América plata, Europa financia."
+  },
+  {
+    "objectID": "clases/clase01.html#flotas-y-seguridad-marítima",
+    "href": "clases/clase01.html#flotas-y-seguridad-marítima",
+    "title": "Economia Internacional",
+    "section": "Flotas y seguridad marítima",
+    "text": "Flotas y seguridad marítima\n\n\n\n\nFuente: Herman Moll, c.1720\n\n\nSistema de flotas:\n\nBarcos viajan en convoy (piratas)\nDos flotas anuales\nReunión en La Habana\n\nLección: El comercio requiere seguridad. Sin ella, no hay comercio de larga distancia."
+  },
+  {
+    "objectID": "clases/clase01.html#transición-de-iberia-a-la-era-británica",
+    "href": "clases/clase01.html#transición-de-iberia-a-la-era-británica",
+    "title": "Economía Internacional",
+    "section": "Transición: De Iberia a la era británica",
+    "text": "Transición: De Iberia a la era británica\n¿Qué cambió entre 1650 y 1815?\n\nSe amplía el comercio intra-europeo y se profundiza la intermediación financiera\nAparecen compañías, seguros y bolsas como infraestructura (menos “monopolio puro”)\nLa Revolución Industrial genera producción en masa para exportar\nUK combina: industria + marina + finanzas + reglas (libre comercio)\n\nImplicancia empírica: Esperamos ver aceleración del comercio en el siglo XIX y centralidad europea."
+  },
+  {
+    "objectID": "clases/clase01.html#etapa-2-hegemonía-británica-1815-1913",
+    "href": "clases/clase01.html#etapa-2-hegemonía-británica-1815-1913",
+    "title": "Economia Internacional",
+    "section": "Etapa 2: Hegemonía británica (1815-1913)",
+    "text": "Etapa 2: Hegemonía británica (1815-1913)\n\n\n\n\nFuente: Navy League, 1922\n\n\nRed imperial británica:\n\nRutas marítimas globales\nBases navales estratégicas\nEstaciones de carbón\n\nDiferencia con Iberia: UK usa libre comercio + marina + libra, no monopolios."
+  },
+  {
+    "objectID": "clases/clase01.html#tecnología-vapor-rutas-regulares",
+    "href": "clases/clase01.html#tecnología-vapor-rutas-regulares",
+    "title": "Economia Internacional",
+    "section": "Tecnología: vapor + rutas regulares",
+    "text": "Tecnología: vapor + rutas regulares\n\n\n\n\nFuente: Rand McNally, 1917\n\n\nRevolución del vapor:\n\nBarcos rápidos y predecibles\nRutas con horarios fijos\nMenor costo por tonelada\n\nDato: Costo de transporte cayó 70% (1840-1910)."
+  },
+  {
+    "objectID": "clases/clase01.html#infraestructura-de-información-cables-submarinos",
+    "href": "clases/clase01.html#infraestructura-de-información-cables-submarinos",
+    "title": "Economía Internacional",
+    "section": "Infraestructura de información: cables submarinos",
+    "text": "Infraestructura de información: cables submarinos\n\nRed global de cables telegráficos (Eastern Telegraph Co., 1901)Ideas clave:\n\nInformación más rápida → coordinación de precios, seguros y pagos\nLos hubs (Europa/UK) conectan comercio, finanzas y poder\nLa integración no es solo volumen, también es coordinación"
+  },
+  {
+    "objectID": "clases/clase01.html#la-gran-depresión-termina-la-globalización",
+    "href": "clases/clase01.html#la-gran-depresión-termina-la-globalización",
+    "title": "Economía Internacional",
+    "section": "1929-1932: La Gran Depresión termina la globalización",
+    "text": "1929-1932: La Gran Depresión termina la globalización\nSecuencia del colapso:\n\nCrisis bancaria en EUA → caída de demanda global\nRespuesta: proteccionismo competitivo (Ley Smoot-Hawley, 1930)\nRepresalias: cada país sube aranceles\nBloques monetarios: área libra, área dólar, área marco\nResultado: cada país intenta “exportar desempleo”\n\n\nEvidencia: El índice cae de 133 (1929) a 95 (1932) = −29% en solo 3 años\nEl comercio colapsa más rápido que la producción."
+  },
+  {
+    "objectID": "clases/clase01.html#tres-lecciones-del-colapso-1914-1932",
+    "href": "clases/clase01.html#tres-lecciones-del-colapso-1914-1932",
+    "title": "Economía Internacional",
+    "section": "Tres lecciones del colapso 1914-1932",
+    "text": "Tres lecciones del colapso 1914-1932\n\n\n\n\n\n\nLección 1: La tecnología no alcanza\n\n\nLos barcos seguían existiendo en 1930. Pero el comercio cayó igual.\nFaltaban reglas y confianza.\n\n\n\n\n\n\n\n\n\nLección 2: Las reglas pueden destruir comercio\n\n\nAranceles altos + represalias = espiral descendente.\nSin coordinación, todos pierden.\n\n\n\n\n\n\n\n\n\nLección 3: Sin hegemón, el sistema se fragmenta\n\n\nUK ya no podía liderar. EUA no quería hacerlo (aún).\nResultado: bloques rivales, no sistema global."
+  },
+  {
+    "objectID": "clases/clase01.html#pregunta-para-reflexionar",
+    "href": "clases/clase01.html#pregunta-para-reflexionar",
+    "title": "Economía Internacional",
+    "section": "Pregunta para reflexionar",
+    "text": "Pregunta para reflexionar\n\n\n\n\n\n\nPara discutir\n\n\n¿Estamos viendo algo similar hoy (2018-2024)?\n\nGuerra comercial EUA-China\nPandemia y disrupción de cadenas\n“Nearshoring”, “friendshoring”\n¿Fin de la globalización o ajuste temporal?"
+  },
+  {
+    "objectID": "clases/clase01.html#hoy-slowbalization",
+    "href": "clases/clase01.html#hoy-slowbalization",
+    "title": "Economia Internacional",
+    "section": "2008-hoy: ¿Slowbalization?",
+    "text": "2008-hoy: ¿Slowbalization?\n\n\n\nPeríodo\nEvento\nImpacto\n\n\n\n\n2008-09\nCrisis financiera\nComercio cae 12%\n\n\n2018-20\nGuerra comercial EUA-China\nAranceles, incertidumbre\n\n\n2020-22\nPandemia COVID-19\nDisrupción de cadenas\n\n\n2022-hoy\nGuerra Ucrania\nNearshoring, friendshoring\n\n\n\n\nPregunta abierta: ¿Estamos en un nuevo colapso tipo 1914-1932?"
+  },
+  {
+    "objectID": "clases/clase01.html#cómo-conectamos-historia-y-medición",
+    "href": "clases/clase01.html#cómo-conectamos-historia-y-medición",
+    "title": "Economia Internacional",
+    "section": "Cómo conectamos historia y medición",
+    "text": "Cómo conectamos historia y medición\nChecklist para analizar cualquier etapa:\n\nTecnología: ¿Cuánto cuesta mover bienes e información?\nReglas: ¿Quién puede comerciar y bajo qué condiciones?\nPoder: ¿Quién garantiza estabilidad?\nDatos: ¿Qué indicador usar? (índice, participación, HHI)"
+  },
+  {
+    "objectID": "clases/clase01.html#pregunta-que-queda-abierta",
+    "href": "clases/clase01.html#pregunta-que-queda-abierta",
+    "title": "Economia Internacional",
+    "section": "Pregunta que queda abierta",
+    "text": "Pregunta que queda abierta\n\n¿Qué determina si un país GANA o PIERDE con el comercio?\n\nLas teorías responden esto:\n\nSmith (Clase 3): ventajas absolutas\nRicardo (Clase 4): ventajas comparativas\nHeckscher-Ohlin (Clase 6): dotación de factores\nPrebisch (Clase 11): centro-periferia"
+  },
+  {
+    "objectID": "clases/clase01.html#pregunta-central-de-la-clase",
+    "href": "clases/clase01.html#pregunta-central-de-la-clase",
+    "title": "Economia Internacional",
+    "section": "Pregunta central de la clase",
+    "text": "Pregunta central de la clase\n\n¿Por qué el comercio mundial creció 40 veces entre 1800 y 1913, y luego colapsó en apenas 30 años?\n\nEsta pregunta organiza todo lo que veremos hoy:\n\nMedir ese crecimiento y colapso con datos\nExplicar qué fuerzas lo causaron\nConectar historia con números"
+  },
+  {
+    "objectID": "clases/clase01.html#objetivos-de-aprendizaje",
+    "href": "clases/clase01.html#objetivos-de-aprendizaje",
+    "title": "Economia Internacional",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\nAl terminar esta clase vas a poder:\n\n1. Usar 4 indicadores básicos de comercio internacional\n2. Describir las grandes etapas históricas (siglo XVI → siglo XX)\n3. Aplicar un marco analítico: Tecnología + Reglas + Poder"
+  },
+  {
+    "objectID": "clases/clase01.html#marco-analitico-tres-fuerzas",
+    "href": "clases/clase01.html#marco-analitico-tres-fuerzas",
+    "title": "Economia Internacional",
+    "section": "Marco analitico: tres fuerzas",
+    "text": "Marco analitico: tres fuerzas\nPara explicar cualquier periodo del comercio, preguntamos:\n\n\n\n\n\n\n\n\nFuerza\nPregunta clave\nEjemplos\n\n\n\n\nTecnologia\n¿Cuanto cuesta mover bienes?\nVela → vapor → contenedor\n\n\nReglas\n¿Quien puede comerciar?\nMonopolios, aranceles, OMC\n\n\nPoder\n¿Quien garantiza estabilidad?\nHegemonia, marina, moneda\n\n\n\n\nIdea clave: Las tres fuerzas operan juntas. Cuando una falla, el sistema puede quebrarse."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-1-indice-de-comercio-mundial",
+    "href": "clases/clase01.html#indicador-1-indice-de-comercio-mundial",
+    "title": "Economia Internacional",
+    "section": "Indicador 1: Indice de comercio mundial",
+    "text": "Indicador 1: Indice de comercio mundial\nDefinicion:\n\\[I_t = 100 \\times \\frac{Comercio_t}{Comercio_{1913}}\\]\nInterpretacion:\n\nEl año base es 1913 (pico antes de la Primera Guerra)\nSi \\(I_t = 50\\) → el comercio es la mitad del de 1913\nSi \\(I_t = 200\\) → el comercio es el doble del de 1913\n\n¿Por que usar un indice? Evita problemas de inflacion y permite comparar periodos largos."
+  },
+  {
+    "objectID": "clases/clase01.html#indice-de-comercio-mundial-1800-1938",
+    "href": "clases/clase01.html#indice-de-comercio-mundial-1800-1938",
+    "title": "Economia Internacional",
+    "section": "Indice de comercio mundial (1800-1938)",
+    "text": "Indice de comercio mundial (1800-1938)\n\n\n\n\n\n\n\n\n\n\n\n\nComo leer el indice:\n\n1913 = 100 (año base)\nValor 50 = mitad del comercio de 1913\nValor 200 = doble del de 1913\n\nPuntos clave:\n\n1800: 2.4 (casi nada)\n1870: 25 (x10 en 70 años)\n1913: 100 (pico)\n1932: 95 (colapso -29%)\n\nFuente: FTWTHD"
+  },
+  {
+    "objectID": "clases/clase01.html#lectura-del-grafico-puntos-clave",
+    "href": "clases/clase01.html#lectura-del-grafico-puntos-clave",
+    "title": "Economia Internacional",
+    "section": "Lectura del grafico: puntos clave",
+    "text": "Lectura del grafico: puntos clave\n\n\n\nAño\nIndice\nQue significa\n\n\n\n\n1800\n2.4\nComercio era 2.4% del nivel de 1913\n\n\n1870\n25\nSe multiplico por 10 desde 1800\n\n\n1913\n100\nAño base — pico de la primera globalizacion\n\n\n1929\n133\nNuevo pico antes de la Gran Depresion\n\n\n1932\n95\nColapso del 29% en solo 3 años\n\n\n\n\nConclusion: El comercio crecio exponencialmente hasta 1913, luego se desplomo."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-2-participacion-regional",
+    "href": "clases/clase01.html#indicador-2-participacion-regional",
+    "title": "Economia Internacional",
+    "section": "Indicador 2: Participacion regional",
+    "text": "Indicador 2: Participacion regional\nDefinicion:\n\\[s_{r,t} = \\frac{X_{r,t}}{X_{mundo,t}} \\times 100\\]\nDonde:\n\n\\(s_{r,t}\\) = participacion de la region \\(r\\) en el año \\(t\\) (en %)\n\\(X_{r,t}\\) = exportaciones de la region \\(r\\)\n\\(X_{mundo,t}\\) = exportaciones mundiales totales\n\n¿Que nos dice? Quien comercia y como cambia la composicion geografica."
+  },
+  {
+    "objectID": "clases/clase01.html#participacion-regional-1800-1938",
+    "href": "clases/clase01.html#participacion-regional-1800-1938",
+    "title": "Economia Internacional",
+    "section": "Participacion regional (1800-1938)",
+    "text": "Participacion regional (1800-1938)\n\n\n\n\n\n\n\n\n\n\n\n\nComo leerlo:\nCada linea = % del comercio mundial de esa region.\nDatos clave:\n\nEuropa: 60-70% (domina)\nAmericas: 10-20%\nAsia: 10-15%\n\nConclusion:\nLa “globalizacion” del siglo XIX era basicamente comercio europeo con el mundo.\nFuente: FTWTHD"
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-3-concentracion-hhi",
+    "href": "clases/clase01.html#indicador-3-concentracion-hhi",
+    "title": "Economia Internacional",
+    "section": "Indicador 3: Concentracion (HHI)",
+    "text": "Indicador 3: Concentracion (HHI)\nDefinicion del Indice Herfindahl-Hirschman:\n\\[HHI_t = \\sum_{r} (s_{r,t})^2\\]\nDonde \\(s_{r,t}\\) es la participacion de cada region en decimales (no en %).\n\n\n\nValor HHI\nInterpretacion\n\n\n\n\n0.20\nMuy diversificado (5 regiones iguales)\n\n\n0.25-0.40\nConcentracion moderada\n\n\n&gt; 0.50\nMuy concentrado en pocas regiones"
+  },
+  {
+    "objectID": "clases/clase01.html#concentracion-regional-hhi",
+    "href": "clases/clase01.html#concentracion-regional-hhi",
+    "title": "Economia Internacional",
+    "section": "Concentracion regional (HHI)",
+    "text": "Concentracion regional (HHI)\n\n\n\n\n\n\n\n\n\n\n\n\nComo leerlo:\n\nHHI alto (&gt;0.5) = concentrado\nHHI bajo (&lt;0.25) = diversificado\n\nTendencia:\n\n1800-1914: HHI cae (mas integracion)\nPost-1914: HHI sube (fragmentacion)\n\nLeccion: La globalizacion diversifico; las guerras fragmentaron.\nFuente: FTWTHD"
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-4-cobertura-estadistica",
+    "href": "clases/clase01.html#indicador-4-cobertura-estadistica",
+    "title": "Economia Internacional",
+    "section": "Indicador 4: Cobertura estadistica",
+    "text": "Indicador 4: Cobertura estadistica\n\n\n\n\n\n\n\n\n\n\n\n\n¿Que muestra?\nPaises con datos por año.\nDatos:\n\n1800: ~25 paises\n1913: ~120 paises\n\nAdvertencia:\nEl indice puede crecer porque hay mas comercio O porque hay mas paises en la base. Por eso usamos indices, no valores absolutos.\nFuente: Estimacion FTWTHD"
+  },
+  {
+    "objectID": "clases/clase01.html#periodizacion-historica",
+    "href": "clases/clase01.html#periodizacion-historica",
+    "title": "Economia Internacional",
+    "section": "Periodizacion historica",
+    "text": "Periodizacion historica\n\n\n\n\n\n\n\n\nPeriodo\nEtapa\nCaracteristicas\n\n\n\n\n1500-1650\nEconomia-mundo iberica\nMonopolios, metales, rutas controladas\n\n\n1650-1815\nTransicion\nAscenso de Holanda y UK\n\n\n1815-1913\nHegemonia britanica\nIndustria, libre comercio, globalizacion\n\n\n1914-1945\nGuerras + colapso\nDesintegracion del sistema\n\n\n1945-hoy\nOrden de posguerra\nInstituciones multilaterales"
+  },
+  {
+    "objectID": "clases/clase01.html#etapa-1-economia-mundo-iberica-1500-1650",
+    "href": "clases/clase01.html#etapa-1-economia-mundo-iberica-1500-1650",
+    "title": "Economia Internacional",
+    "section": "Etapa 1: Economia-mundo iberica (1500-1650)",
+    "text": "Etapa 1: Economia-mundo iberica (1500-1650)\n\n\n\n\nRutas ibericas siglo XVI:\n\nPortugal: ruta del Cabo → Asia\nEspaña: Atlantico → America\n\nModelo de comercio:\nMonopolios estatales (Casa de Contratacion). El Estado absorbe riesgos y captura rentas.\nFuente: Mapas historicos"
+  },
+  {
+    "objectID": "clases/clase01.html#el-galeon-de-manila-primera-cadena-global",
+    "href": "clases/clase01.html#el-galeon-de-manila-primera-cadena-global",
+    "title": "Economia Internacional",
+    "section": "El Galeon de Manila: primera cadena global",
+    "text": "El Galeon de Manila: primera cadena global\n\n\n\n\nEl circuito:\n\nManila: sedas de China\nAcapulco: descarga, carga plata\nSevilla: plata a Europa\n\nPrimera cadena global: Asia manufactura, America plata, Europa financia.\nFuente: Mapa historico"
+  },
+  {
+    "objectID": "clases/clase01.html#flotas-y-seguridad-maritima",
+    "href": "clases/clase01.html#flotas-y-seguridad-maritima",
+    "title": "Economia Internacional",
+    "section": "Flotas y seguridad maritima",
+    "text": "Flotas y seguridad maritima\n\n\n\n\nSistema de flotas:\n\nBarcos viajan en convoy (piratas)\nDos flotas anuales\nReunion en La Habana\n\nLeccion: El comercio requiere seguridad. Sin ella, no hay comercio de larga distancia.\nFuente: Herman Moll, c.1720"
+  },
+  {
+    "objectID": "clases/clase01.html#etapa-2-hegemonia-britanica-1815-1913",
+    "href": "clases/clase01.html#etapa-2-hegemonia-britanica-1815-1913",
+    "title": "Economia Internacional",
+    "section": "Etapa 2: Hegemonia britanica (1815-1913)",
+    "text": "Etapa 2: Hegemonia britanica (1815-1913)\n\n\n\n\nRed imperial britanica:\n\nRutas maritimas globales\nBases navales estrategicas\nEstaciones de carbon\n\nDiferencia con Iberia: UK usa libre comercio + marina + libra, no monopolios.\nFuente: Navy League, 1922"
+  },
+  {
+    "objectID": "clases/clase01.html#tecnologia-vapor-rutas-regulares",
+    "href": "clases/clase01.html#tecnologia-vapor-rutas-regulares",
+    "title": "Economia Internacional",
+    "section": "Tecnologia: vapor + rutas regulares",
+    "text": "Tecnologia: vapor + rutas regulares\n\n\n\n\nRevolucion del vapor:\n\nBarcos rapidos y predecibles\nRutas con horarios fijos\nMenor costo por tonelada\n\nDato: Costo de transporte cayo 70% (1840-1910).\nFuente: Rand McNally, 1917"
+  },
+  {
+    "objectID": "clases/clase01.html#infraestructura-cables-submarinos",
+    "href": "clases/clase01.html#infraestructura-cables-submarinos",
+    "title": "Economia Internacional",
+    "section": "Infraestructura: cables submarinos",
+    "text": "Infraestructura: cables submarinos\n\n\n\n\nFuente: Eastern Telegraph, 1901\n\n\nAntes: Info viajaba a velocidad del barco.\nDespués: Instantáneo.\nConsecuencias:\n\nPrecios se arbitran rápido\nSeguros y pagos a distancia\nLondres = centro financiero\n\nLección: Integración = mover bienes + información."
+  },
+  {
+    "objectID": "clases/clase01.html#que-significa-hegemonia-britanica",
+    "href": "clases/clase01.html#que-significa-hegemonia-britanica",
+    "title": "Economia Internacional",
+    "section": "¿Que significa “hegemonia britanica”?",
+    "text": "¿Que significa “hegemonia britanica”?\n\n\n\n\n\n\n\n\nDimension\nRol de UK\nEfecto\n\n\n\n\nProductiva\n“Taller del mundo”\nManufactura exportable\n\n\nFinanciera\nLibra + City de Londres\nCredito y pagos internacionales\n\n\nLogistica\nMarina mercante\nRutas predecibles\n\n\nReglas\nLibre comercio\nCorn Laws 1846, clausula NMF\n\n\n\n\nHegemonia = capacidad de proveer bienes publicos internacionales (moneda estable, seguridad, reglas) que benefician al hegemon y a otros."
+  },
+  {
+    "objectID": "clases/clase01.html#el-colapso-en-numeros",
+    "href": "clases/clase01.html#el-colapso-en-numeros",
+    "title": "Economia Internacional",
+    "section": "El colapso en numeros",
+    "text": "El colapso en numeros\n\n\n\n\n\n\n\n\n\n\n\n\nZoom 1900-1940:\nLas zonas sombreadas marcan las crisis.\nWWI (1914-18):\n\nIndice: 100 → 75\nCaida: -25% en 4 años\n\nGran Depresion (1929-32):\n\nIndice: 133 → 95\nCaida: -29% en 3 años\n\nEl comercio colapso mas rapido que la produccion.\nFuente: FTWTHD"
+  },
+  {
+    "objectID": "clases/clase01.html#la-gran-depresion",
+    "href": "clases/clase01.html#la-gran-depresion",
+    "title": "Economia Internacional",
+    "section": "1929-1932: La Gran Depresion",
+    "text": "1929-1932: La Gran Depresion\nSecuencia del colapso:\n\nCrisis bancaria en EUA → caida de demanda global\nRespuesta: proteccionismo (Ley Smoot-Hawley, 1930)\nRepresalias: cada pais sube aranceles\nBloques monetarios: area libra, area dolar, area marco\nResultado: cada pais intenta “exportar desempleo”\n\n\nEvidencia: Indice cae de 133 (1929) a 95 (1932) = -29% en solo 3 años"
+  },
+  {
+    "objectID": "clases/clase01.html#eua-asume-el-rol-hegemonico",
+    "href": "clases/clase01.html#eua-asume-el-rol-hegemonico",
+    "title": "Economia Internacional",
+    "section": "1945-1973: EUA asume el rol hegemonico",
+    "text": "1945-1973: EUA asume el rol hegemonico\n\n\n\nDimension\nUK (pre-1914)\nEUA (post-1945)\n\n\n\n\nMoneda\nLibra esterlina\nDolar (Bretton Woods)\n\n\nInstituciones\nTratados bilaterales\nFMI, Banco Mundial, GATT\n\n\nSeguridad\nRoyal Navy\nUS Navy + OTAN\n\n\nApertura\nUnilateral\nMultilateral (rondas GATT)\n\n\n\n\nEl comercio/PIB mundial supera el nivel de 1913 recien en los años 1970."
+  },
+  {
+    "objectID": "clases/clase01.html#la-segunda-globalizacion",
+    "href": "clases/clase01.html#la-segunda-globalizacion",
+    "title": "Economia Internacional",
+    "section": "1973-2008: La segunda globalizacion",
+    "text": "1973-2008: La segunda globalizacion\nCambios estructurales:\n\nFin de Bretton Woods (1971) → tipos de cambio flotantes\nContenedores, jets, internet → costos colapsan\nChina entra a la OMC (2001) → “fabrica del mundo”\n\n\nResultado:\n\nComercio crece 2x mas rapido que el PIB\nTrade/GDP mundial: 25% (1970) → 60% (2008)"
+  },
+  {
+    "objectID": "clases/clase01.html#como-conectamos-historia-y-medicion",
+    "href": "clases/clase01.html#como-conectamos-historia-y-medicion",
+    "title": "Economia Internacional",
+    "section": "Como conectamos historia y medicion",
+    "text": "Como conectamos historia y medicion\nChecklist para analizar cualquier etapa:\n\nTecnologia: ¿Cuanto cuesta mover bienes e informacion?\nReglas: ¿Quien puede comerciar y bajo que condiciones?\nPoder: ¿Quien garantiza estabilidad?\nDatos: ¿Que indicador usar? (indice, participacion, HHI)"
+  },
+  {
+    "objectID": "clases/clase01.html#lo-que-nos-llevamos",
+    "href": "clases/clase01.html#lo-que-nos-llevamos",
+    "title": "Economia Internacional",
+    "section": "Lo que nos llevamos",
+    "text": "Lo que nos llevamos\n\n\nUn gráfico\nEl índice 1800-1938: auge → pico → colapso\nUn marco\nTecnología + Reglas + Poder\nAplicable a 1870, 1930, o 2024\n\nCuatro indicadores\n\nÍndice (nivel relativo)\nParticipación regional\nHHI (concentración)\nCobertura estadística\n\nUna lección\nLa integración no es automática ni irreversible"
+  },
+  {
+    "objectID": "clases/clase01.html#proxima-clase-balanza-de-pagos",
+    "href": "clases/clase01.html#proxima-clase-balanza-de-pagos",
+    "title": "Economia Internacional",
+    "section": "Proxima clase: Balanza de pagos",
+    "text": "Proxima clase: Balanza de pagos\nTemas de la Clase 2:\n\nCuenta corriente y cuenta financiera\nTipo de cambio nominal y real\n¿Que significa “competitividad externa”?\n\n\nLectura recomendada: Krugman, Obstfeld, y Melitz (2022), Capitulo 1"
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-2-participación-regional",
+    "href": "clases/clase01.html#indicador-2-participación-regional",
+    "title": "Economia Internacional",
+    "section": "Indicador 2: Participación regional",
+    "text": "Indicador 2: Participación regional\nDefinición:\n\\[s_{r,t} = \\frac{X_{r,t}}{X_{mundo,t}} \\times 100\\]\nDonde:\n\n\\(s_{r,t}\\) = participación de la región \\(r\\) en el año \\(t\\) (en %)\n\\(X_{r,t}\\) = exportaciones de la región \\(r\\)\n\\(X_{mundo,t}\\) = exportaciones mundiales totales\n\n¿Qué nos dice? Quién comercia y cómo cambia la composición geográfica."
+  },
+  {
+    "objectID": "clases/clase01.html#participación-regional-1800-1938",
+    "href": "clases/clase01.html#participación-regional-1800-1938",
+    "title": "Economia Internacional",
+    "section": "Participación regional (1800-1938)",
+    "text": "Participación regional (1800-1938)\n\n\n\n\n\n\n\n\n\n\n\n\nFuente: FTWTHD\n\n\nCómo leerlo:\nCada línea = % del comercio mundial de esa región.\nDatos clave:\n\nEuropa: 60-70% (domina)\nAméricas: 10-20%\nAsia: 10-15%\n\nConclusión:\nLa “globalización” del siglo XIX era básicamente comercio europeo con el mundo."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-3-concentración-hhi",
+    "href": "clases/clase01.html#indicador-3-concentración-hhi",
+    "title": "Economia Internacional",
+    "section": "Indicador 3: Concentración (HHI)",
+    "text": "Indicador 3: Concentración (HHI)\nDefinición del Índice Herfindahl-Hirschman:\n\\[HHI_t = \\sum_{r} (s_{r,t})^2\\]\nDonde \\(s_{r,t}\\) es la participación de cada región en decimales (no en %).\n\n\n\nValor HHI\nInterpretación\n\n\n\n\n0.20\nMuy diversificado (5 regiones iguales)\n\n\n0.25-0.40\nConcentración moderada\n\n\n&gt; 0.50\nMuy concentrado en pocas regiones"
+  },
+  {
+    "objectID": "clases/clase01.html#concentración-regional-hhi",
+    "href": "clases/clase01.html#concentración-regional-hhi",
+    "title": "Economia Internacional",
+    "section": "Concentración regional (HHI)",
+    "text": "Concentración regional (HHI)\n\n\n\n\n\n\n\n\n\n\n\n\nFuente: FTWTHD\n\n\nCómo leerlo:\n\nHHI alto (&gt;0.5) = concentrado\nHHI bajo (&lt;0.25) = diversificado\n\nTendencia:\n\n1800-1914: HHI cae (más integración)\nPost-1914: HHI sube (fragmentación)\n\nLección: La globalización diversificó; las guerras fragmentaron."
+  },
+  {
+    "objectID": "clases/clase01.html#indicador-4-cobertura-estadística",
+    "href": "clases/clase01.html#indicador-4-cobertura-estadística",
+    "title": "Economia Internacional",
+    "section": "Indicador 4: Cobertura estadística",
+    "text": "Indicador 4: Cobertura estadística\n\n\n\n\n\n\n\n\n\n\n\n\nFuente: Estimación FTWTHD\n\n\n¿Qué muestra?\nPaíses con datos por año.\nDatos:\n\n1800: ~25 países\n1913: ~120 países\n\nAdvertencia:\nEl índice puede crecer porque hay más comercio O porque hay más países en la base. Por eso usamos índices, no valores absolutos."
+  },
+  {
+    "objectID": "clases/clase01.html#el-colapso-en-números",
+    "href": "clases/clase01.html#el-colapso-en-números",
+    "title": "Economia Internacional",
+    "section": "El colapso en números",
+    "text": "El colapso en números\n\n\n\n\n\n\n\n\n\n\n\n\nFuente: FTWTHD\n\n\nZoom 1900-1940:\nLas zonas sombreadas marcan las crisis.\nWWI (1914-18):\n\nÍndice: 100 → 75\nCaída: -25% en 4 años\n\nGran Depresión (1929-32):\n\nÍndice: 133 → 95\nCaída: -29% en 3 años\n\nEl comercio colapsó más rápido que la producción."
+  },
+  {
+    "objectID": "clases/clase01.html#próxima-clase-balanza-de-pagos",
+    "href": "clases/clase01.html#próxima-clase-balanza-de-pagos",
+    "title": "Economia Internacional",
+    "section": "Próxima clase: Balanza de pagos",
+    "text": "Próxima clase: Balanza de pagos\nTemas de la Clase 2:\n\nCuenta corriente y cuenta financiera\nTipo de cambio nominal y real\n¿Qué significa “competitividad externa”?\n\n\nLectura recomendada: Krugman, Obstfeld, y Melitz (2022), Capítulo 1"
+  }
+]

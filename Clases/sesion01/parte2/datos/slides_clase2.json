@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "clase": "Clase 2",
+    "titulo": "Los indicadores de la economía internacional",
+    "duracion": "2 horas",
+    "pregunta_central": "¿Cómo medimos y analizamos la inserción de un país en el mundo?",
+    "total_slides": 38
+  },
+  "slides": [
+    {
+      "numero": 1,
+      "tipo": "portada",
+      "titulo": "Economía Internacional — Clase 2",
+      "subtitulo": "Los indicadores para analizar la economía internacional",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "APERTURA (3 minutos)\n\nConectar con clase anterior:\n'La clase pasada vimos la HISTORIA del comercio. Hoy aprendemos a MEDIRLO.'\n\nPREGUNTA: '¿Alguien buscó el dato de cuenta corriente de Argentina?'\n\nHoy vamos a ver 9 indicadores que forman el 'kit de herramientas' del curso.\n\nAl final van a poder analizar cualquier país usando estos indicadores."
+    },
+    {
+      "numero": 2,
+      "tipo": "agenda",
+      "titulo": "Agenda: Los 9 indicadores",
+      "subtitulo": null,
+      "contenido": [
+        "Indicadores de comercio (1-4): volumen, participación, concentración, datos",
+        "Indicadores de competitividad (5-7): balanza, apertura, términos de intercambio",
+        "Indicadores de sostenibilidad (8-9): cuenta corriente, tipo de cambio real",
+        "Hechos estilizados: patrones que vemos con estos indicadores",
+        "Aplicación: Argentina y los desequilibrios globales"
+      ],
+      "visual": null,
+      "notas_docente": "ESTRUCTURA DE LA CLASE (2 minutos)\n\nLos 9 indicadores están organizados en 3 grupos:\n\n1. COMERCIO (1-4): Miden el comercio en sí\n   - Cuánto se comercia\n   - Quiénes comercian\n   - Qué tan concentrado está\n   - Qué tan buenos son los datos\n\n2. COMPETITIVIDAD (5-7): Miden si un país es competitivo\n   - Balanza comercial\n   - Apertura al mundo\n   - Términos de intercambio\n\n3. SOSTENIBILIDAD (8-9): Miden si la situación es sostenible\n   - Cuenta corriente\n   - Tipo de cambio real\n\nLos últimos dos son los más importantes para entender las crisis."
+    },
+    {
+      "numero": 3,
+      "tipo": "seccion",
+      "titulo": "Indicadores de comercio (1-4)",
+      "subtitulo": "Midiendo el comercio mundial",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nEmpezamos con los indicadores más básicos: los que miden el comercio en sí mismo."
+    },
+    {
+      "numero": 4,
+      "tipo": "formula",
+      "titulo": "Indicador 1: Índice de comercio mundial",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: I_t = 100 × (Comercio_t / Comercio_base)",
+        "Año base típico: 1913 = 100 (pico pre-guerra)",
+        "Si I_t = 200 → comercio es el doble del año base",
+        "Permite comparar a través del tiempo sin distorsión de precios"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 1: ÍNDICE DE COMERCIO (8 minutos)\n\n¿POR QUÉ UN ÍNDICE?\n- Los valores nominales mezclan precios y cantidades\n- US$100 de 1913 ≠ US$100 de 2024\n- El índice mide VARIACIÓN, no nivel absoluto\n\n¿POR QUÉ 1913?\n- Fue el pico de la primera globalización\n- Último año antes de la guerra\n- Referencia estándar en la literatura\n\nEJEMPLO:\n- 1800: índice ≈ 2 (casi nada)\n- 1913: índice = 100 (por definición)\n- 1932: índice ≈ 74 (cayó 26%)\n- 2024: índice ≈ 4000+ (400 veces más que 1913)\n\nCONEXIÓN CON CLASE 1: Esto es lo que vimos en el gráfico histórico."
+    },
+    {
+      "numero": 5,
+      "tipo": "grafico_texto",
+      "titulo": "Índice de comercio mundial (1800-1938)",
+      "subtitulo": "El comercio se multiplicó por 40 en un siglo",
+      "contenido": [
+        "1800: índice 2.4 (casi nada)",
+        "1870: índice 25 (x10 en 70 años)",
+        "1913: índice 100 (pico)",
+        "1932: índice 74 (colapso -26%)"
+      ],
+      "visual": "graficos/indice_comercio.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "LECTURA DEL GRÁFICO (5 minutos)\n\nIDENTIFICAR:\n- El crecimiento exponencial 1800-1913\n- El pico de 1913\n- El colapso post-1929\n\nPREGUNTA: '¿Por qué no se recuperó en los años 20?'\nRESPUESTA: Porque las reglas no volvieron (patrón oro inestable, aranceles altos)."
+    },
+    {
+      "numero": 6,
+      "tipo": "formula",
+      "titulo": "Indicador 2: Participación regional",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: s_r = (X_r / X_mundo) × 100",
+        "Mide qué porcentaje del comercio mundial tiene cada región",
+        "Permite ver quién 'gana' y quién 'pierde' participación",
+        "Europa dominó el siglo XIX; Asia crece en el XXI"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 2: PARTICIPACIÓN (5 minutos)\n\n¿QUÉ MIDE?\n- La 'torta' del comercio mundial\n- Qué porcentaje tiene cada región o país\n\n¿POR QUÉ IMPORTA?\n- Muestra cambios estructurales\n- Europa era 70% del comercio en 1900\n- Hoy es menos del 30%\n- Asia pasó de 10% a 40%\n\nEJEMPLO ARGENTINA:\n- 1900: participación significativa (top 10 exportador)\n- 2024: participación muy baja (<0.5% del comercio mundial)\n- Perdimos peso relativo"
+    },
+    {
+      "numero": 7,
+      "tipo": "grafico_texto",
+      "titulo": "Participación regional (1800-1938)",
+      "subtitulo": "Europa dominaba, América crecía",
+      "contenido": [
+        "Europa: de 70% a 60% (sigue dominando)",
+        "América: de 10% a 20% (crece con EEUU)",
+        "Asia: de 15% a 15% (estancada hasta post-WWII)",
+        "África/Oceanía: marginales"
+      ],
+      "visual": "graficos/participacion_regional.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "LECTURA DEL GRÁFICO (5 minutos)\n\nOBSERVAR:\n- El dominio europeo absoluto\n- El ascenso de América (básicamente EEUU)\n- Asia estancada en este período\n\nLO QUE VIENE DESPUÉS (no está en el gráfico):\n- Post-1945: EEUU domina\n- Post-1980: Asia crece explosivamente\n- Post-2000: China cambia todo"
+    },
+    {
+      "numero": 8,
+      "tipo": "formula",
+      "titulo": "Indicador 3: Concentración (HHI)",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: HHI = Σ(s_i)² donde s_i es la participación de cada país",
+        "Rango: 0 (muy diversificado) a 10.000 (un solo país)",
+        "HHI < 1.500: mercado competitivo",
+        "HHI > 2.500: mercado concentrado"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 3: CONCENTRACIÓN HHI (8 minutos)\n\n¿QUÉ MIDE?\n- Qué tan concentrado está el comercio\n- ¿Dominan pocos países o está diversificado?\n\nLA FÓRMULA:\n- Se eleva al cuadrado para penalizar concentración\n- Si un país tiene 50%, aporta 2.500 al HHI\n- Si 10 países tienen 10% cada uno, aportan 1.000 total\n\n¿POR QUÉ IMPORTA?\n- Comercio concentrado = más vulnerable\n- Si dependés de un solo socio, sos rehén\n- Argentina dependía de UK en 1900\n- Hoy muchos países dependen de China\n\nEJEMPLO:\n- HHI del comercio global ≈ 500 (bastante diversificado)\n- HHI de exportaciones de un país pequeño puede ser 3.000+ (concentrado)"
+    },
+    {
+      "numero": 9,
+      "tipo": "grafico_texto",
+      "titulo": "Concentración del comercio (HHI)",
+      "subtitulo": "El comercio se fue diversificando",
+      "contenido": [
+        "1800: HHI alto (pocos países comercian)",
+        "1913: HHI más bajo (más países participan)",
+        "Hoy: HHI bajo pero China crece rápido",
+        "Tendencia reciente: ¿reconcentración?"
+      ],
+      "visual": "graficos/hhi.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "LECTURA DEL GRÁFICO (5 minutos)\n\nOBSERVAR:\n- La caída del HHI a lo largo del tiempo\n- Significa que más países participan\n- El comercio se 'democratizó'\n\nPREGUNTA ACTUAL:\n'¿Estamos volviendo a concentrarnos con China?'\n\nRESPUESTA: Parcialmente. China tiene 15% del comercio mundial. No es como UK en 1900 (30%), pero es mucho."
+    },
+    {
+      "numero": 10,
+      "tipo": "grafico_texto",
+      "titulo": "Indicador 4: Cobertura de datos",
+      "subtitulo": "No todos los datos son iguales",
+      "contenido": [
+        "Mide qué % de países tienen datos confiables",
+        "1800: cobertura baja (pocos registros)",
+        "1913: cobertura alta (aduanas modernas)",
+        "Siempre reportar la cobertura de las fuentes"
+      ],
+      "visual": "graficos/cobertura.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "INDICADOR 4: COBERTURA (5 minutos)\n\n¿POR QUÉ IMPORTA?\n- Los datos históricos son estimaciones\n- Cuanto más atrás, menos confiables\n- Hay que ser críticos\n\nADVERTENCIAS:\n1. PRECIOS VS CANTIDADES: valores nominales mezclan ambos\n2. COMERCIO BRUTO: puede contar el mismo bien varias veces\n3. FUENTES DISTINTAS: datos de 1800 ≠ datos de 2000\n\nREGLA: Siempre preguntar '¿De dónde salen estos datos?'"
+    },
+    {
+      "numero": 11,
+      "tipo": "seccion",
+      "titulo": "Indicadores de competitividad (5-7)",
+      "subtitulo": "¿Es el país competitivo en el comercio mundial?",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nPasamos de medir el comercio GLOBAL a medir la COMPETITIVIDAD de un país.\n\nEstos indicadores responden: ¿Le va bien o mal a este país en el comercio internacional?"
+    },
+    {
+      "numero": 12,
+      "tipo": "formula",
+      "titulo": "Indicador 5: Balanza comercial",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: BC = X - M (exportaciones menos importaciones)",
+        "BC > 0: superávit comercial (exporta más)",
+        "BC < 0: déficit comercial (importa más)",
+        "Se mide en USD o como % del PIB"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 5: BALANZA COMERCIAL (5 minutos)\n\n¿QUÉ MIDE?\n- Si un país exporta más de lo que importa\n- Es la diferencia X - M\n\n¿ES MEJOR EL SUPERÁVIT?\n- No necesariamente\n- EEUU tiene déficit hace 40 años y no colapsa\n- Argentina tuvo superávit en 2002... por colapso de importaciones\n\nLO IMPORTANTE:\n- Que sea SOSTENIBLE\n- Que no dependa de endeudamiento infinito"
+    },
+    {
+      "numero": 13,
+      "tipo": "grafico_texto",
+      "titulo": "Balanza comercial Argentina (1960-2023)",
+      "subtitulo": "El espejo de las crisis",
+      "contenido": [
+        "Déficit en Convertibilidad (1991-2001)",
+        "Superávit récord post-crisis 2002",
+        "Ciclo: peso caro → déficit, peso barato → superávit",
+        "Volatilidad extrema comparado con otros países"
+      ],
+      "visual": "graficos/balanza_comercial_argentina.png",
+      "fuente": "Banco Mundial / INDEC",
+      "notas_docente": "LECTURA DEL GRÁFICO (8 minutos)\n\nIDENTIFICAR PERÍODOS:\n- Barras verdes = superávit\n- Barras rojas = déficit\n\nPATRÓN CLAVE:\n- Convertibilidad (1991-2001): déficit porque peso sobrevaluado\n- 2002: superávit récord (+15% PIB) por colapso de importaciones\n- 2003-2011: superávits sostenidos\n- 2017-2018: vuelve el déficit\n\nCONEXIÓN: La balanza comercial refleja el tipo de cambio real (indicador 9)."
+    },
+    {
+      "numero": 14,
+      "tipo": "grafico_texto",
+      "titulo": "Balanza comercial comparada (% PIB)",
+      "subtitulo": "Argentina, EEUU, Alemania, China, Brasil",
+      "contenido": [
+        "EEUU: déficit persistente (privilegio del dólar)",
+        "Alemania: superávit persistente (competitividad industrial)",
+        "China: superávit desde 2000 (fábrica del mundo)",
+        "Argentina: alta volatilidad (ciclo cambiario)"
+      ],
+      "visual": "graficos/balanza_comercial_comparativo.png",
+      "fuente": "Banco Mundial",
+      "notas_docente": "COMPARACIÓN INTERNACIONAL (5 minutos)\n\nPATRONES:\n- EEUU siempre negativo → puede porque emite dólares\n- Alemania siempre positivo → modelo exportador\n- Argentina y Brasil: volátiles\n\nPREGUNTA: '¿Por qué EEUU puede tener déficit permanente?'\nRESPUESTA: Porque emite la moneda de reserva mundial."
+    },
+    {
+      "numero": 15,
+      "tipo": "formula",
+      "titulo": "Indicador 6: Apertura comercial",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: Apertura = (X + M) / PIB × 100",
+        "Mide qué tan integrado está un país al comercio mundial",
+        "Países grandes (EEUU, Brasil): apertura baja (~25-30%)",
+        "Países pequeños (Singapur, Bélgica): apertura alta (>100%)"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 6: APERTURA (5 minutos)\n\n¿QUÉ MIDE?\n- Cuánto comercia un país respecto a su tamaño\n- (Exportaciones + Importaciones) / PIB\n\nLA TRAMPA DEL TAMAÑO:\n- EEUU tiene apertura baja (30%) porque su mercado interno es gigante\n- Singapur tiene apertura de 300% porque reexporta\n- No confundir APERTURA (indicador) con POLÍTICA (libre comercio vs proteccionismo)\n\nARGENTINA:\n- Apertura ~30% (similar a EEUU, Brasil)\n- ¿Por tamaño o por proteccionismo?\n- Un poco de ambos"
+    },
+    {
+      "numero": 16,
+      "tipo": "grafico_texto",
+      "titulo": "Apertura comercial comparada",
+      "subtitulo": "El indicador tiene trampas",
+      "contenido": [
+        "Singapur: 300-400% (re-exportación, es un hub)",
+        "Alemania: ~80% (industria exportadora)",
+        "China: 30-40% (mercado interno creció)",
+        "Argentina y EEUU: 25-35% (economías 'cerradas')"
+      ],
+      "visual": "graficos/apertura_comercial.png",
+      "fuente": "Banco Mundial",
+      "notas_docente": "LECTURA DEL GRÁFICO (8 minutos)\n\nLA TRAMPA DE SINGAPUR:\n- ¿Cómo puede tener 350% de apertura?\n- Porque es un HUB de re-exportación\n- El mismo bien se cuenta dos veces\n\nLA TRAMPA DEL TAMAÑO:\n- EEUU y Argentina parecen igual de 'cerrados'\n- Pero las razones son diferentes:\n  - EEUU: no NECESITA comerciar (mercado interno)\n  - Argentina: ELIGE no comerciar (proteccionismo)\n\nCHINA:\n- Pasó de 65% (2006) a 35% (2020)\n- ¿Por qué bajó? Su mercado interno creció"
+    },
+    {
+      "numero": 17,
+      "tipo": "formula",
+      "titulo": "Indicador 7: Términos del intercambio (ToT)",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: ToT = (Precio exportaciones / Precio importaciones) × 100",
+        "ToT > 100: mejora (las export valen más que las import)",
+        "ToT < 100: deterioro (las export valen menos)",
+        "Clave para países exportadores de commodities"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 7: TÉRMINOS DEL INTERCAMBIO (8 minutos)\n\n¿QUÉ MIDE?\n- El poder de compra de las exportaciones\n- ¿Cuántas importaciones puedo comprar con mis exportaciones?\n\nEJEMPLO SIMPLE:\n- Argentina exporta soja, importa autos\n- Si el precio de la soja sube y el del auto baja: ToT mejora\n- Si el precio de la soja baja y el del auto sube: ToT empeora\n\n¿POR QUÉ IMPORTA?\n- Afecta el ingreso real del país\n- ToT mejora = país 'se enriquece' sin producir más\n- ToT empeora = país 'se empobrece' produciendo lo mismo\n\nPREBISCH:\n- Su tesis: los ToT de la periferia se deterioran a largo plazo\n- Lo vamos a ver en detalle más adelante"
+    },
+    {
+      "numero": 18,
+      "tipo": "grafico_texto",
+      "titulo": "Términos del intercambio Argentina (1900-2023)",
+      "subtitulo": "Más de un siglo de historia",
+      "contenido": [
+        "1900-1930: ToT altos (belle époque agroexportadora)",
+        "1930-2000: deterioro secular (tesis Prebisch)",
+        "2003-2012: boom de commodities (+50%)",
+        "Post-2012: caída y volatilidad"
+      ],
+      "visual": "graficos/tot_argentina.png",
+      "fuente": "CEPAL / INDEC / Ferreres",
+      "notas_docente": "ESTE GRÁFICO ES CLAVE (10 minutos)\n\nHISTORIA EN TRES ACTOS:\n\nACTO 1 - BELLE ÉPOQUE (1900-1930):\n- ToT altos: carne y trigo valían mucho\n- Argentina entre los 10 más ricos\n\nACTO 2 - DETERIORO (1930-2000):\n- Nunca se recupera al nivel previo\n- ESTA ES LA TESIS PREBISCH\n\nACTO 3 - BOOM Y CAÍDA (2000-2023):\n- Boom de commodities: ToT suben 50%\n- Caída post-2012: vuelve la restricción externa\n\nPREGUNTA: 'Si los ToT hoy son iguales que en 1950, ¿por qué no somos igual de ricos?'\nRESPUESTA: Porque el resto del mundo creció más."
+    },
+    {
+      "numero": 19,
+      "tipo": "seccion",
+      "titulo": "Indicadores de sostenibilidad (8-9)",
+      "subtitulo": "¿Es sostenible la situación externa?",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nEstos son los indicadores más importantes para entender las CRISIS.\n\nResponden: ¿Puede el país mantener esta situación o va a explotar?"
+    },
+    {
+      "numero": 20,
+      "tipo": "grafico_texto",
+      "titulo": "La balanza de pagos: el marco",
+      "subtitulo": "Todas las transacciones con el exterior",
+      "contenido": [
+        "Cuenta Corriente: bienes, servicios, rentas",
+        "Cuenta Capital: transferencias, activos no financieros",
+        "Cuenta Financiera: inversiones, préstamos, reservas",
+        "Identidad: CC + CK + CF = 0"
+      ],
+      "visual": "graficos/balanza_pagos_estructura.png",
+      "fuente": "Elaboración propia",
+      "notas_docente": "LA BALANZA DE PAGOS (10 minutos)\n\nEL DIAGRAMA MUESTRA:\n\n1. CUENTA CORRIENTE:\n- Bienes (exportaciones - importaciones)\n- Servicios (turismo, fletes, software)\n- Rentas (intereses, dividendos)\n\n2. CUENTA CAPITAL:\n- Transferencias de capital\n- Activos no financieros\n- Generalmente pequeña\n\n3. CUENTA FINANCIERA:\n- Inversión directa (fábricas)\n- Inversión de cartera (bonos, acciones)\n- Préstamos\n- Variación de reservas\n\nLA IDENTIDAD:\nCC + CK + CF = 0\n\nSi CC < 0 (déficit), debe financiarse con CF > 0 (entrada de capitales o pérdida de reservas)."
+    },
+    {
+      "numero": 21,
+      "tipo": "formula",
+      "titulo": "Indicador 8: Cuenta corriente (% PIB)",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: CC/PIB × 100",
+        "Es el indicador de sostenibilidad más usado",
+        "CC < 0: el país gasta más divisas de las que genera",
+        "Déficits persistentes → eventualmente crisis"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 8: CUENTA CORRIENTE (8 minutos)\n\n¿QUÉ MIDE?\n- El balance externo total (no solo comercio de bienes)\n- Incluye servicios, rentas, transferencias\n\n¿POR QUÉ ES EL MÁS IMPORTANTE?\n- Resume toda la relación con el exterior\n- Si es negativo, estás perdiendo divisas\n- Hay que financiarlo con deuda o inversión\n\nREGLA PRÁCTICA:\n- CC > -3% PIB: probablemente sostenible\n- CC entre -3% y -5%: zona de riesgo\n- CC < -5%: insostenible a mediano plazo\n\nARGENTINA:\n- Tuvo -5% en 1998 → crisis 2001\n- Tuvo -5% en 2017 → crisis 2018\n- El patrón se repite"
+    },
+    {
+      "numero": 22,
+      "tipo": "grafico_texto",
+      "titulo": "Cuenta corriente Argentina (1990-2024)",
+      "subtitulo": "El termómetro de las crisis",
+      "contenido": [
+        "Déficit en Convertibilidad: financiado con deuda",
+        "Superávit 2002-2011: TC competitivo + commodities",
+        "Déficit 2017-2018: apreciación + sequía → crisis",
+        "La CC anticipa las crisis"
+      ],
+      "visual": "graficos/cc_argentina.png",
+      "fuente": "INDEC / BCRA",
+      "notas_docente": "LECTURA DEL GRÁFICO (8 minutos)\n\nIDENTIFICAR:\n- Barras verdes = superávit\n- Barras rojas = déficit\n\nLOS CICLOS:\n1. Convertibilidad: déficit persistente, financiado con deuda\n2. Crisis 2002: superávit récord por colapso de importaciones\n3. Post-crisis: superávits sostenidos\n4. Deterioro 2012-2015: déficit creciente\n5. 2017-2018: déficit → crisis\n\nPREGUNTA: '¿Por qué el déficit de Convertibilidad no explotó antes?'\nRESPUESTA: Porque entraba capital (inversiones, privatizaciones, deuda)."
+    },
+    {
+      "numero": 23,
+      "tipo": "grafico_texto",
+      "titulo": "La identidad ahorro-inversión",
+      "subtitulo": "Por qué el déficit fiscal termina en crisis externa",
+      "contenido": [
+        "CC = S - I (ahorro menos inversión)",
+        "CC = (S_priv - I_priv) + (T - G)",
+        "Déficit fiscal + bajo ahorro = déficit externo",
+        "Por eso el FMI siempre pide ajuste fiscal"
+      ],
+      "visual": "graficos/identidad_ahorro_inversion.png",
+      "fuente": "Elaboración propia",
+      "notas_docente": "LA IDENTIDAD AHORRO-INVERSIÓN (8 minutos)\n\nLA ECUACIÓN:\nCC = (S_privado - I_privado) + (T - G)\n\nEN PALABRAS:\n- La cuenta corriente = ahorro nacional - inversión\n- Se descompone en balance privado + balance fiscal\n\nCASO ARGENTINA:\n- Déficit fiscal crónico (T < G)\n- Ahorro privado bajo\n- Resultado: déficit de CC persistente\n- Se financia con deuda → crisis\n\nPOR ESO:\n- El FMI pide ajuste fiscal\n- Saben que déficit fiscal = déficit externo"
+    },
+    {
+      "numero": 24,
+      "tipo": "formula",
+      "titulo": "Indicador 9: Tipo de cambio real",
+      "subtitulo": null,
+      "contenido": [
+        "Fórmula: TCR = e × P* / P",
+        "e = tipo de cambio nominal",
+        "P* = precios externos, P = precios internos",
+        "TCR alto = peso barato (competitivo)",
+        "TCR bajo = peso caro (no competitivo)"
+      ],
+      "visual": null,
+      "notas_docente": "INDICADOR 9: TIPO DE CAMBIO REAL (10 minutos)\n\nLO MÁS IMPORTANTE DE LA CLASE\n\n¿QUÉ MIDE?\n- Si el país es 'caro' o 'barato' en dólares\n- Ajusta el TC nominal por inflación\n\nLA FÓRMULA:\nTCR = e × P* / P\n- e: pesos por dólar\n- P*: precios en EEUU\n- P: precios en Argentina\n\n¿POR QUÉ IMPORTA?\n- Si la inflación argentina es mayor que la devaluación\n- El TCR BAJA (peso se aprecia en términos reales)\n- Argentina se vuelve 'cara'\n- Las exportaciones sufren, las importaciones crecen\n\nEL CICLO ARGENTINO:\n- Estabilización → inflación baja pero no a cero\n- Dólar fijo o cuasi-fijo\n- TCR cae gradualmente\n- Eventualmente: crisis y devaluación\n- TCR salta → y el ciclo empieza de nuevo"
+    },
+    {
+      "numero": 25,
+      "tipo": "grafico_texto",
+      "titulo": "Tipo de cambio real Argentina (1997-2024)",
+      "subtitulo": "El indicador que anticipa las crisis",
+      "contenido": [
+        "Base 100 = promedio histórico",
+        "< 100 = peso apreciado (caro en dólares)",
+        "> 100 = peso depreciado (barato en dólares)",
+        "Patrón: apreciación gradual → devaluación brusca"
+      ],
+      "visual": "graficos/tcr_argentina.png",
+      "fuente": "BCRA (ITCRM)",
+      "notas_docente": "ESTE ES EL GRÁFICO MÁS IMPORTANTE (10 minutos)\n\nLOS CICLOS:\n\n1. CONVERTIBILIDAD (1997-2001):\n- TCR bajo (peso caro)\n- Se veía venir la crisis\n\n2. DEVALUACIÓN 2002:\n- TCR salta de 70 a 200+\n- Overshooting típico\n\n3. RECUPERACIÓN (2003-2008):\n- TCR alto = competitividad\n\n4. APRECIACIÓN (2008-2015):\n- Inflación + dólar planchado\n- TCR cae gradualmente\n\n5. 2015-2018:\n- Salida del cepo, devaluación\n- Luego apreciación rápida\n- Crisis 2018\n\nFRASE CLAVE: 'El tipo de cambio sube por ascensor y baja por escalera'"
+    },
+    {
+      "numero": 26,
+      "tipo": "grafico_texto",
+      "titulo": "Reservas internacionales Argentina",
+      "subtitulo": "El colchón contra las crisis",
+      "contenido": [
+        "Reservas = capacidad de defender el tipo de cambio",
+        "Caen antes de las crisis (2001, 2018)",
+        "Se acumulan en buenos tiempos (2003-2011)",
+        "Regla: mínimo 3 meses de importaciones"
+      ],
+      "visual": "graficos/reservas_argentina.png",
+      "fuente": "BCRA",
+      "notas_docente": "RESERVAS (5 minutos)\n\n¿QUÉ SON?\n- Dólares del Banco Central\n- Sirven para intervenir, pagar deuda, importar\n\nEL PATRÓN:\n- Suben cuando hay superávit\n- Caen cuando hay déficit o fuga\n- Son el 'canario en la mina'\n\nCUANDO LAS RESERVAS CAEN RÁPIDO:\n- El mercado huele sangre\n- La corrida se acelera\n- Fin del régimen cambiario"
+    },
+    {
+      "numero": 27,
+      "tipo": "seccion",
+      "titulo": "Hechos estilizados y desequilibrios",
+      "subtitulo": "¿Qué patrones vemos con estos indicadores?",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nYa tenemos las herramientas. Ahora veamos qué patrones revelan."
+    },
+    {
+      "numero": 28,
+      "tipo": "grafico_texto",
+      "titulo": "Desequilibrios globales: quién financia a quién",
+      "subtitulo": null,
+      "contenido": [
+        "EEUU: déficit persistente (importa capitales)",
+        "China, Alemania: superávit persistente (exportan capitales)",
+        "Este patrón es estable hace décadas",
+        "¿Es sostenible?"
+      ],
+      "visual": "graficos/desequilibrios_mapa.png",
+      "fuente": "FMI WEO",
+      "notas_docente": "DESEQUILIBRIOS GLOBALES (8 minutos)\n\nEL GRÁFICO MUESTRA:\n- Países en rojo: déficit de CC\n- Países en verde: superávit de CC\n\nEL PATRÓN:\n- EEUU siempre en déficit\n- Alemania, China siempre en superávit\n- Es un equilibrio estable (pero tenso)\n\nPREGUNTA: '¿Por qué EEUU no quiebra?'\nRESPUESTA: Porque emite dólares. Es el 'privilegio exorbitante'."
+    },
+    {
+      "numero": 29,
+      "tipo": "grafico_texto",
+      "titulo": "El privilegio exorbitante del dólar",
+      "subtitulo": "Por qué EEUU puede tener déficit permanente",
+      "contenido": [
+        "El dólar es ~60% de las reservas mundiales",
+        "El mundo QUIERE dólares",
+        "EEUU puede 'imprimir' la moneda de reserva",
+        "Ningún otro país tiene este privilegio"
+      ],
+      "visual": "graficos/dolar_reservas.png",
+      "fuente": "FMI COFER",
+      "notas_docente": "EL PRIVILEGIO (8 minutos)\n\nEL GRÁFICO MUESTRA:\n- Composición de reservas mundiales\n- Dólar domina con ~60%\n- Euro segundo con ~20%\n- Yuan apenas 3%\n\nPOR QUÉ IMPORTA:\n- EEUU puede tener déficit porque todos quieren dólares\n- Puede financiar su déficit 'gratis'\n- Es un poder geopolítico enorme\n\nARGENTINA NO TIENE ESTE PRIVILEGIO:\n- Cuando tenemos déficit, perdemos reservas\n- Eventualmente: crisis"
+    },
+    {
+      "numero": 30,
+      "tipo": "grafico_texto",
+      "titulo": "Asia: la lección de 1997",
+      "subtitulo": "De deudores a acreedores",
+      "contenido": [
+        "Antes de 1997: déficit, endeudamiento, TC fijo",
+        "Crisis 1997-98: colapso brutal",
+        "Después: superávit permanente, acumulan reservas",
+        "Lección: nunca más depender del capital externo"
+      ],
+      "visual": "graficos/asia_transformacion.png",
+      "fuente": "FMI WEO",
+      "notas_docente": "ASIA (8 minutos)\n\nLA HISTORIA:\n1. ANTES: déficit, deuda, crisis\n2. CRISIS 1997: colapso brutal\n3. DESPUÉS: nunca más\n\nLA LECCIÓN:\n- Asia aprendió del golpe\n- Ahora tienen superávit y reservas enormes\n- China: 3 billones de dólares en reservas\n\nARGENTINA:\n- Tuvo crisis parecida en 2001\n- Aprendió parcialmente (2003-2011)\n- Pero volvió al patrón anterior"
+    },
+    {
+      "numero": 31,
+      "tipo": "seccion",
+      "titulo": "El caso argentino",
+      "subtitulo": "Aplicación de todos los indicadores",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nAhora aplicamos TODO lo que vimos al caso que más nos importa: Argentina."
+    },
+    {
+      "numero": 32,
+      "tipo": "grafico_texto",
+      "titulo": "El ciclo argentino",
+      "subtitulo": "El patrón que se repite",
+      "contenido": [
+        "1. ESTABILIZACIÓN: ancla cambiaria, baja inflación",
+        "2. APRECIACIÓN: peso caro, déficit, endeudamiento",
+        "3. CRISIS: fuga, caen reservas, devaluación",
+        "4. RECUPERACIÓN: TC competitivo, superávit"
+      ],
+      "visual": "graficos/ciclo_argentino.png",
+      "fuente": "Elaboración propia",
+      "notas_docente": "EL CICLO (10 minutos)\n\nLAS 4 FASES:\n\n1. ESTABILIZACIÓN:\n- Gobierno ancla el TC para bajar inflación\n- Funciona al principio\n\n2. APRECIACIÓN:\n- Inflación > devaluación\n- TCR cae, peso se encarece\n- Déficit comercial y de CC\n\n3. CRISIS:\n- Mercado duda\n- Fuga de capitales\n- Reservas caen\n- Devaluación forzada\n\n4. RECUPERACIÓN:\n- TCR alto, superávit\n- Crecimiento\n- ... y el ciclo empieza de nuevo\n\nEJEMPLOS:\n- 1991-2001 → 2002\n- 2016-2018 → 2018"
+    },
+    {
+      "numero": 33,
+      "tipo": "grafico_texto",
+      "titulo": "La Convertibilidad: caso de estudio",
+      "subtitulo": "Todos los indicadores en acción",
+      "contenido": [
+        "TCR: cayó de 100 a 70 (peso 30% sobrevaluado)",
+        "CC: déficit persistente (-4% a -5% PIB)",
+        "Reservas: subieron y luego colapsaron",
+        "2002: devaluación, ajuste, recuperación"
+      ],
+      "visual": "graficos/convertibilidad_timeline.png",
+      "fuente": "BCRA / INDEC",
+      "notas_docente": "CONVERTIBILIDAD (10 minutos)\n\nLOS 3 INDICADORES:\n\n1. TCR:\n- 1991 = 100, 2001 = 70\n- Peso 30% sobrevaluado\n- La bomba de tiempo\n\n2. CUENTA CORRIENTE:\n- Déficit todos los años\n- Financiado con deuda\n- Insostenible\n\n3. RESERVAS:\n- Subieron hasta 1998\n- Cayeron desde 2000\n- Señal de alarma\n\nLA EXPLOSIÓN:\n- 2001: crisis\n- 2002: devaluación 200%\n- Superávit por colapso\n- Recuperación"
+    },
+    {
+      "numero": 34,
+      "tipo": "seccion",
+      "titulo": "Cierre",
+      "subtitulo": null,
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL CIERRE (1 minuto)"
+    },
+    {
+      "numero": 35,
+      "tipo": "grafico_texto",
+      "titulo": "Resumen: los 9 indicadores",
+      "subtitulo": null,
+      "contenido": [
+        "Comercio (1-4): índice, participación, HHI, cobertura",
+        "Competitividad (5-7): balanza, apertura, ToT",
+        "Sostenibilidad (8-9): cuenta corriente, TCR",
+        "Los últimos dos anticipan las crisis"
+      ],
+      "visual": "graficos/resumen_indicadores.png",
+      "fuente": null,
+      "notas_docente": "RESUMEN (3 minutos)\n\nRecapitular los 9 indicadores.\n\nLos estudiantes deben poder:\n1. Calcular cada indicador\n2. Interpretar qué significa\n3. Relacionarlos entre sí\n4. Aplicarlos al caso argentino"
+    },
+    {
+      "numero": 36,
+      "tipo": "texto",
+      "titulo": "Hechos estilizados: lo que aprendimos",
+      "subtitulo": null,
+      "contenido": [
+        "1. El comercio puede colapsar (1914-1945)",
+        "2. EEUU tiene déficit porque emite dólares",
+        "3. Los desequilibrios globales son estructurales",
+        "4. Argentina repite un ciclo predecible",
+        "5. El TCR y la CC anticipan las crisis"
+      ],
+      "visual": null,
+      "notas_docente": "HECHOS ESTILIZADOS (3 minutos)\n\nEstos son los PATRONES que vimos:\n\n1. El comercio no es automático\n2. Hay privilegios (dólar)\n3. Los desequilibrios persisten\n4. Argentina es predecible\n5. Los indicadores 8 y 9 son clave"
+    },
+    {
+      "numero": 37,
+      "tipo": "texto",
+      "titulo": "Próxima clase",
+      "subtitulo": "Teorías del comercio",
+      "contenido": [
+        "¿Por qué comercian los países?",
+        "La visión mercantilista: comercio como guerra",
+        "Adam Smith y las ventajas absolutas",
+        "El debate que sigue vigente"
+      ],
+      "visual": null,
+      "notas_docente": "PRÓXIMA CLASE (2 minutos)\n\nConectar:\n'Hasta ahora vimos HISTORIA e INDICADORES.'\n'La próxima clase: TEORÍA.'\n'¿Por qué los países comercian?'"
+    },
+    {
+      "numero": 38,
+      "tipo": "cierre",
+      "titulo": "¿Preguntas?",
+      "subtitulo": "Economía Internacional | Clase 2",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "CIERRE (5 minutos)\n\nAbrir espacio para preguntas.\n\nRecapitular:\n1. Los 9 indicadores son el kit de herramientas\n2. Los indicadores 8 y 9 anticipan crisis\n3. Argentina tiene un patrón predecible\n\n'Nos vemos la próxima clase con las teorías del comercio.'"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "clase": "Clase 1",
+    "titulo": "La evolución del comercio internacional",
+    "duracion": "2 horas",
+    "pregunta_central": "¿Cómo evolucionó el comercio mundial y qué fuerzas lo explican?",
+    "total_slides": 21
+  },
+  "slides": [
+    {
+      "numero": 1,
+      "tipo": "portada",
+      "titulo": "Economía Internacional — Clase 1",
+      "subtitulo": "La evolución del comercio mundial",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "APERTURA (5 minutos)\n\nPREGUNTA DISPARADORA: '¿Cuánto creen que creció el comercio mundial en los últimos 200 años?'\n\nLa respuesta (más de 400 veces) sorprende y muestra la magnitud del fenómeno.\n\nHoy vamos a recorrer la HISTORIA del comercio internacional:\n- Por qué creció tanto\n- Por qué colapsó (1914-1945)\n- Qué fuerzas lo explican\n\nLa próxima clase veremos CÓMO MEDIR todo esto con indicadores."
+    },
+    {
+      "numero": 2,
+      "tipo": "agenda",
+      "titulo": "Agenda: La evolución del comercio",
+      "subtitulo": null,
+      "contenido": [
+        "Pregunta central: ¿Cómo llegamos hasta acá?",
+        "Marco analítico: Tecnología + Reglas + Poder",
+        "Las 5 etapas del comercio mundial (1500-2024)",
+        "El gran colapso 1914-1945: lección histórica",
+        "Cierre: anticipar los indicadores"
+      ],
+      "visual": null,
+      "notas_docente": "ESTRUCTURA DE LA CLASE (2 minutos)\n\nEsta clase es HISTÓRICA. Vamos a entender QUÉ pasó antes de aprender a medirlo.\n\nEs como ver un documental antes de aprender a filmar. Primero la historia, después las herramientas.\n\nAl final de esta clase van a poder:\n1. Describir las 5 etapas del comercio internacional\n2. Explicar por qué creció y por qué colapsó\n3. Usar el marco Tecnología-Reglas-Poder para analizar cualquier período"
+    },
+    {
+      "numero": 3,
+      "tipo": "seccion",
+      "titulo": "El marco analítico",
+      "subtitulo": "Tres fuerzas que explican el comercio",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nAntes de ver la historia, necesitamos un MARCO para interpretarla.\n\nNo alcanza con describir qué pasó. Queremos entender POR QUÉ pasó."
+    },
+    {
+      "numero": 4,
+      "tipo": "texto",
+      "titulo": "Tecnología + Reglas + Poder",
+      "subtitulo": "El marco para entender cualquier período",
+      "contenido": [
+        "TECNOLOGÍA: barcos, ferrocarril, telégrafo, containers, internet",
+        "REGLAS: aranceles, tratados, moneda, instituciones (OMC, FMI)",
+        "PODER: hegemonía, imperios, capacidad de imponer reglas",
+        "Las tres deben alinearse para que el comercio florezca"
+      ],
+      "visual": null,
+      "notas_docente": "EL MARCO T-R-P (10 minutos)\n\nTECNOLOGÍA:\n- Reduce costos de transporte y comunicación\n- Ejemplos: vapor (1800s), telégrafo (1850s), container (1960s), internet (1990s)\n- Sin tecnología, el comercio a distancia es imposible\n\nREGLAS:\n- El comercio necesita previsibilidad\n- Aranceles bajos, moneda estable, contratos que se respetan\n- Ejemplos: patrón oro, Bretton Woods, OMC\n\nPODER:\n- Alguien tiene que hacer cumplir las reglas\n- Siglo XIX: Gran Bretaña\n- Siglo XX: Estados Unidos\n- Sin hegemonía, el sistema se fragmenta\n\nCLAVE: Las tres deben alinearse. Si falta una, el comercio no florece.\n\nEjemplo: Hoy tenemos la tecnología, pero las reglas están en disputa (guerra comercial EEUU-China) y el poder está fragmentándose."
+    },
+    {
+      "numero": 5,
+      "tipo": "seccion",
+      "titulo": "Las 5 etapas del comercio mundial",
+      "subtitulo": "De 1500 a 2024",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN (1 minuto)\n\nAhora vamos a aplicar el marco a la historia.\n\nVamos a ver 5 etapas, cada una con su combinación de Tecnología-Reglas-Poder."
+    },
+    {
+      "numero": 6,
+      "tipo": "texto",
+      "titulo": "Las 5 etapas: visión general",
+      "subtitulo": null,
+      "contenido": [
+        "1. Economía-mundo ibérica (1500-1650): plata, especias, imperios",
+        "2. Primera globalización (1800-1914): vapor, telégrafo, patrón oro",
+        "3. Colapso (1914-1945): guerras, proteccionismo, depresión",
+        "4. Bretton Woods (1945-1971): EEUU hegemón, tipos fijos, reconstrucción",
+        "5. Globalización financiera (1980-hoy): containers, OMC, China"
+      ],
+      "visual": null,
+      "notas_docente": "PANORAMA GENERAL (5 minutos)\n\nMostrar el 'mapa' antes de entrar en detalle.\n\nPATRÓN CLAVE:\n- Etapas 1, 2, 4, 5: comercio crece\n- Etapa 3: colapso brutal\n\nPREGUNTA: '¿Por qué el comercio colapsó entre 1914 y 1945?'\n\nVamos a responder esta pregunta en detalle."
+    },
+    {
+      "numero": 7,
+      "tipo": "texto",
+      "titulo": "Convergencia, divergencia y comercio",
+      "subtitulo": "¿Qué explica el crecimiento? ¿Tecnología o comercio?",
+      "contenido": [
+        "PIB per cápita = proxy de desarrollo. ¿Por qué unos países crecen y otros no?",
+        "Dos grandes explicaciones: cambio tecnológico (producir más/mejor) y apertura comercial (acceso a mercados, especialización)",
+        "¿El comercio causa crecimiento o el crecimiento genera comercio?",
+        "La evidencia: no hay respuesta única. Importa CÓMO te insertás, no solo SI te insertás"
+      ],
+      "visual": null,
+      "notas_docente": "CONVERGENCIA Y COMERCIO (10 minutos)\n\nEL DEBATE CENTRAL:\nEn economía del desarrollo hay una pregunta permanente: ¿qué explica que unos países sean ricos y otros pobres?\n\nDOS CANDIDATOS PRINCIPALES:\n\n1. TECNOLOGÍA / PRODUCTIVIDAD:\n- Solow: el crecimiento viene de la acumulación de capital y el progreso técnico\n- Los neoschumpeterianos: innovación, capacidades tecnológicas\n- Implicancia: lo importante es PRODUCIR MEJOR\n\n2. COMERCIO / APERTURA:\n- Ricardo, H-O: especializarse según ventajas comparativas genera ganancias\n- Apertura como motor: acceso a mercados grandes, competencia, transferencia tecnológica\n- Implicancia: lo importante es ABRIRSE AL MUNDO\n\nPERO LA REALIDAD ES MÁS COMPLEJA:\n- Hay países abiertos que crecieron mucho (Corea del Sur, China post-2001)\n- Hay países abiertos que NO crecieron (muchos de África Subsahariana)\n- Hay países que crecieron con protección (EEUU siglo XIX, Japón posguerra)\n\nLa clave no es SI te abrís, sino CÓMO te insertás:\n- ¿Exportás commodities o manufacturas?\n- ¿Tenés política industrial o te dejás llevar por el mercado?\n- ¿Absorbés tecnología del comercio o solo exportás materias primas?\n\nPREGUNTA: \"Argentina fue muy abierta en 1900 y era rica. ¿Por qué eso no alcanzó para seguir creciendo?\"\n(Respuesta: porque la inserción como exportador primario tenía límites - Prebisch, Unidad 4)\n\nCONEXIÓN: Este debate cruza TODO el curso. Las teorías clásicas (Unidades 2-3) dicen que el comercio siempre es bueno. Los estructuralistas (Unidad 4) dicen que depende. Los datos que vamos a ver ahora muestran que los dos tienen parte de razón."
+    },
+    {
+      "numero": 8,
+      "tipo": "grafico_texto",
+      "titulo": "La Gran Divergencia",
+      "subtitulo": "Reino Unido vs. China: 1000 años de historia",
+      "contenido": [
+        "Año 1000: China y Europa tenían un PIB per cápita similar (~$1.100)",
+        "Hasta 1800: diferencias pequeñas. China era una economía avanzada",
+        "Revolución Industrial: UK se dispara. Comercio + tecnología + imperio",
+        "Desde 1980: China converge aceleradamente (de $1.000 a $13.000 en 40 años)"
+      ],
+      "visual": "graficos/gran_divergencia_uk_china.png",
+      "fuente": "Maddison Project Database 2020",
+      "notas_docente": "LA GRAN DIVERGENCIA (10 minutos)\n\nLECTURA DEL GRÁFICO:\n- Eje Y: PIB per cápita en dólares de 2011 (PPP)\n- Eje X: desde el año 1000\n- Las franjas de color corresponden a las 5 etapas que ya vimos\n\nDATOS CLAVE:\n- Año 1000: UK ~$1.150, China ~$1.225. China ERA MÁS RICA\n- Año 1820: UK ~$2.100, China ~$1.000. Empieza la divergencia\n- Año 1913: UK ~$7.000, China ~$1.000. Brecha máxima: 7 a 1\n- Año 1950: UK ~$10.000, China ~$600. China toca fondo (guerras, revolución)\n- Año 2018: UK ~$38.000, China ~$13.000. Ratio 3 a 1 y cerrándose\n\n¿QUÉ EXPLICA LA DIVERGENCIA?\n- Revolución Industrial: tecnología aplicada a la producción\n- Pero también: COMERCIO imperial, acceso a materias primas baratas\n- Y PODER: la Royal Navy abrió mercados (guerras del opio)\n\n¿QUÉ EXPLICA LA CONVERGENCIA CHINA?\n- Apertura comercial post-1978 (Deng Xiaoping)\n- Pero CON política industrial, tipo de cambio competitivo, inversión en tecnología\n- No fue \"abrirse y ya\". Fue una inserción estratégica\n\nPREGUNTA: \"¿China convergió por abrirse al comercio o por su política industrial?\"\nRESPUESTA: Por las dos cosas. Se abrió pero con estrategia. Ese es el punto.\n\nCONEXIÓN: Kenneth Pomeranz (\"The Great Divergence\", 2000) argumenta que hasta 1750 no había diferencias significativas. La divergencia fue rápida y estuvo ligada al carbón y a las colonias americanas."
+    },
+    {
+      "numero": 9,
+      "tipo": "grafico_texto",
+      "titulo": "Trayectorias regionales",
+      "subtitulo": "Misma economía mundial, destinos muy distintos",
+      "contenido": [
+        "Europa Occidental: de $2.300 a $40.000 (x17 en 200 años)",
+        "Asia Oriental: estancada hasta 1950, después convergencia acelerada",
+        "América Latina: creció pero NO convergió. Siempre ~35% de Europa",
+        "África Subsahariana: divergencia persistente. Hoy ~9% de Europa"
+      ],
+      "visual": "graficos/trayectorias_regionales.png",
+      "fuente": "Maddison Project Database 2020",
+      "notas_docente": "TRAYECTORIAS REGIONALES (12 minutos)\n\nLECTURA DEL GRÁFICO:\n- 4 regiones, mismo período (1820-2018)\n- Las franjas coinciden con las etapas del comercio\n- Notar: todos crecieron, pero a ritmos MUY distintos\n\nEUROPA OCCIDENTAL (línea azul oscuro):\n- Crecimiento sostenido, se acelera con posguerra\n- De $2.300 (1820) a $40.000 (2018): se multiplicó por 17\n\nASIA ORIENTAL (línea roja):\n- Estancada hasta 1950 (guerras, colonialismo, revolución)\n- Despegue post-1960: Japón, Corea, Taiwán\n- Aceleración post-1980: China\n- De $1.100 (1820) a $16.300 (2018): se multiplicó por 15\n- Es LA historia de convergencia exitosa del siglo XX\n\nAMÉRICA LATINA (línea celeste):\n- Creció, pero siempre MENOS que Europa\n- En 1820 era ~40% de Europa. En 2018 sigue en ~35%\n- NO CONVERGIÓ. Creció pero no acortó la brecha\n- Argentina es un caso extremo: era 80% de Europa en 1900, hoy es ~35%\n\nÁFRICA SUBSAHARIANA (línea naranja):\n- Casi plana hasta 1950\n- En 1820 era ~35% de Europa. En 2018 es ~9%\n- DIVERGENCIA persistente\n\nPREGUNTAS PARA DISCUSIÓN:\n1. \"¿Por qué Asia Oriental convergió y América Latina no?\"\n   (Política industrial, educación, tipo de cambio competitivo, rol del Estado)\n2. \"¿El comercio ayudó o perjudicó a África?\"\n   (Debate: inserción primaria sin industrialización)\n3. \"¿Argentina es un caso de éxito o fracaso de la inserción comercial?\"\n   (Ambos: éxito en 1880-1930, fracaso en no diversificar después)\n\nCONEXIÓN: Este gráfico es el resumen visual de TODO el curso. Vamos a dedicar unidades enteras a explicar por qué las trayectorias son tan distintas."
+    },
+    {
+      "numero": 10,
+      "tipo": "grafico_texto",
+      "titulo": "Etapa 1: Economía-mundo ibérica (1500-1650)",
+      "subtitulo": "El primer sistema comercial global",
+      "contenido": [
+        "España y Portugal conectan 3 continentes",
+        "Flujos: plata americana → Europa → Asia",
+        "Especias, seda, porcelana de vuelta",
+        "Tecnología: carabela. Reglas: monopolio real. Poder: imperios ibéricos"
+      ],
+      "visual": "img/rutas_ibericas.png",
+      "fuente": "Mapas históricos",
+      "notas_docente": "ETAPA 1: ECONOMÍA-MUNDO IBÉRICA (12 minutos)\n\nEL MAPA MUESTRA:\n- Rutas españolas (rojo): América-España\n- Rutas portuguesas (azul): África-Asia\n- El Galeón de Manila: América-Asia directo\n\nLOS FLUJOS:\n1. Plata de Potosí → Sevilla → compra productos asiáticos\n2. Especias de Indonesia → Lisboa → Europa\n3. Esclavos de África → América (el lado oscuro)\n\nEL MARCO T-R-P:\n- TECNOLOGÍA: carabela, navegación astronómica\n- REGLAS: monopolio real (Casa de Contratación)\n- PODER: imperios ibéricos, bulas papales\n\nLIMITACIONES:\n- Volumen pequeño (solo bienes de lujo)\n- Muy costoso y lento\n- Beneficiaba a pocos\n\nPREGUNTA: '¿Por qué la plata americana terminaba en China?'\nRESPUESTA: Porque China producía lo que Europa quería (seda, porcelana) y solo aceptaba plata como pago."
+    },
+    {
+      "numero": 11,
+      "tipo": "grafico_texto",
+      "titulo": "El Galeón de Manila: primera ruta global",
+      "subtitulo": "1565-1815: 250 años de comercio transpacífico",
+      "contenido": [
+        "Acapulco → Manila → Acapulco (6 meses de viaje)",
+        "Plata mexicana por seda y porcelana china",
+        "Primera globalización real: conectó los 4 continentes",
+        "Monopolio español hasta la independencia de México"
+      ],
+      "visual": "img/galeon_manila.png",
+      "fuente": "Ilustración histórica",
+      "notas_docente": "EL GALEÓN DE MANILA (8 minutos)\n\nLA RUTA:\n- De Acapulco a Manila: 3-4 meses (con los vientos)\n- De Manila a Acapulco: 4-6 meses (contra los vientos)\n- Un viaje por año, máximo dos\n\nQUÉ SE COMERCIABA:\n- Ida: plata mexicana (pesos de a ocho)\n- Vuelta: seda, porcelana, especias, marfil\n\nIMPORTANCIA HISTÓRICA:\n- Primera ruta comercial verdaderamente GLOBAL\n- Conectó América con Asia directamente\n- El peso mexicano fue la primera moneda global\n\nEL FIN:\n- 1815: última travesía\n- México se independiza, se acaba el monopolio\n\nCONEXIÓN: El peso mexicano fue tan importante que el símbolo $ viene de ahí (las columnas de Hércules)."
+    },
+    {
+      "numero": 12,
+      "tipo": "grafico_texto",
+      "titulo": "Etapa 2: Primera globalización (1800-1914)",
+      "subtitulo": "El mundo se achica",
+      "contenido": [
+        "Revolución del transporte: vapor, ferrocarril",
+        "Revolución de la comunicación: telégrafo",
+        "Patrón oro: una moneda mundial de facto",
+        "Hegemonía británica: Pax Britannica"
+      ],
+      "visual": "graficos/indice_comercio.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "ETAPA 2: PRIMERA GLOBALIZACIÓN (15 minutos)\n\nEL GRÁFICO MUESTRA:\n- Comercio se multiplica por 40 entre 1800 y 1913\n- Crecimiento exponencial, no lineal\n- 1913 = pico (por eso lo usamos como base)\n\nEL MARCO T-R-P:\n\nTECNOLOGÍA:\n- Barco a vapor: más rápido, más confiable\n- Ferrocarril: conecta el interior de los continentes\n- Telégrafo: información en minutos, no meses\n- Refrigeración: Argentina exporta carne\n\nREGLAS:\n- Patrón oro: tipos de cambio fijos, confianza\n- Tratados comerciales: reducción de aranceles\n- Libre movimiento de personas (sin pasaportes)\n\nPODER:\n- Gran Bretaña como hegemón\n- Royal Navy garantiza rutas\n- Libra esterlina como moneda de reserva\n\nARGENTINA EN ESTA ETAPA:\n- Entre los 10 países más ricos del mundo\n- Exporta carne y granos a Gran Bretaña\n- Importa capitales y manufacturas\n- 'Granero del mundo'"
+    },
+    {
+      "numero": 13,
+      "tipo": "grafico_texto",
+      "titulo": "El telégrafo: la primera internet",
+      "subtitulo": "Información en minutos, no meses",
+      "contenido": [
+        "1866: primer cable transatlántico exitoso",
+        "1870: Londres conectada con Bombay",
+        "Precios se unifican: arbitraje instantáneo",
+        "Las noticias viajan más rápido que los barcos"
+      ],
+      "visual": "img/cables_eastern_1901.png",
+      "fuente": "Eastern Telegraph Company, 1901",
+      "notas_docente": "EL TELÉGRAFO (8 minutos)\n\nEL MAPA MUESTRA:\n- Red de cables submarinos de 1901\n- Centrado en Londres (el 'hub')\n- Cubre todos los continentes\n\nIMPACTO EN EL COMERCIO:\n\nANTES del telégrafo:\n- Un comerciante en Buenos Aires no sabía el precio en Londres\n- Enviaba un barco con trigo, esperaba 3 meses\n- Descubría el precio al llegar\n- Alto riesgo, altos márgenes\n\nDESPUÉS del telégrafo:\n- Precios conocidos en minutos\n- Arbitraje instantáneo\n- Márgenes se comprimen\n- Comercio más eficiente\n\nANALOGÍA: El telégrafo fue para el siglo XIX lo que internet es para nosotros. Cambió todo.\n\nPREGUNTA: '¿Quién controlaba los cables?'\nRESPUESTA: Empresas británicas, mayormente. Otro aspecto del poder hegemónico."
+    },
+    {
+      "numero": 14,
+      "tipo": "grafico_texto",
+      "titulo": "Etapa 3: El gran colapso (1914-1945)",
+      "subtitulo": "Cuando el sistema se rompió",
+      "contenido": [
+        "1914-1918: Primera Guerra Mundial",
+        "1930: Arancel Smoot-Hawley, espiral proteccionista",
+        "1931: Colapso del patrón oro",
+        "1939-1945: Segunda Guerra Mundial"
+      ],
+      "visual": "graficos/indice_colapso.png",
+      "fuente": "Federico-Tena World Trade Historical Database",
+      "notas_docente": "ETAPA 3: EL COLAPSO (15 minutos)\n\nESTE ES EL GRÁFICO MÁS IMPORTANTE DE LA CLASE\n\nQUÉ MUESTRA:\n- El comercio cae 26% entre 1929 y 1932\n- No se recupera hasta después de 1945\n- 30 años de retroceso\n\nPOR QUÉ COLAPSÓ (el marco T-R-P):\n\nTECNOLOGÍA: No cambió\n- Los barcos seguían funcionando\n- El telégrafo seguía funcionando\n\nREGLAS: Colapsaron\n- 1914: Se suspende el patrón oro\n- 1930: Smoot-Hawley sube aranceles a 20.000 productos\n- Represalias de todos los países\n- 1931: Gran Bretaña abandona el oro definitivamente\n\nPODER: Se fragmentó\n- Gran Bretaña ya no puede sostener el sistema\n- EEUU no quiere hacerlo todavía\n- Vacío hegemónico\n\nLA LECCIÓN:\n- La tecnología no alcanza\n- Sin reglas estables y poder hegemónico, el sistema colapsa\n- Esto explica por qué EEUU creó Bretton Woods después de 1945"
+    },
+    {
+      "numero": 15,
+      "tipo": "grafico_texto",
+      "titulo": "El poder detrás del comercio",
+      "subtitulo": "Sin hegemonía, el sistema se fragmenta",
+      "contenido": [
+        "Siglo XIX: Pax Britannica, Royal Navy",
+        "1914-1945: Vacío hegemónico, colapso",
+        "1945-1971: Pax Americana, Bretton Woods",
+        "2020s: ¿Transición hegemónica? ¿Fragmentación?"
+      ],
+      "visual": null,
+      "notas_docente": "EL ROL DEL PODER (10 minutos)\n\nLA TESIS:\nEl comercio internacional necesita un HEGEMÓN que:\n1. Provea la moneda de reserva\n2. Garantice las rutas comerciales\n3. Actúe como prestamista de última instancia\n4. Imponga las reglas (y las respete)\n\nSIGLO XIX - GRAN BRETAÑA:\n- Libra esterlina como moneda\n- Royal Navy protege las rutas\n- Banco de Inglaterra como prestamista\n- Libre comercio unilateral\n\n1914-1945 - VACÍO:\n- Gran Bretaña no puede, EEUU no quiere\n- Resultado: colapso\n\n1945-HOY - ESTADOS UNIDOS:\n- Dólar como moneda\n- US Navy en todos los océanos\n- FMI/Fed como prestamistas\n- GATT/OMC como reglas\n\n¿Y AHORA?:\n- China desafía el orden\n- EEUU se repliega (Trump, Biden)\n- ¿Vamos hacia un mundo fragmentado?\n\nPREGUNTA: '¿El sistema actual puede sobrevivir sin hegemonía clara?'"
+    },
+    {
+      "numero": 16,
+      "tipo": "texto",
+      "titulo": "Etapa 4: Bretton Woods (1945-1971)",
+      "subtitulo": "EEUU reconstruye el sistema",
+      "contenido": [
+        "1944: Conferencia de Bretton Woods",
+        "Dólar anclado al oro, otras monedas al dólar",
+        "FMI, Banco Mundial, GATT",
+        "Comercio crece pero con controles de capital"
+      ],
+      "visual": null,
+      "notas_docente": "ETAPA 4: BRETTON WOODS (10 minutos)\n\nEL NUEVO ORDEN:\nEEUU aprendió la lección de 1914-1945:\n- Sin orden internacional, todos pierden\n- Mejor ser hegemón que aislarse\n\nLAS INSTITUCIONES:\n- FMI: estabilidad cambiaria, prestamista\n- Banco Mundial: reconstrucción y desarrollo\n- GATT: reducción gradual de aranceles\n\nEL SISTEMA MONETARIO:\n- Dólar convertible a oro (35 USD/onza)\n- Otras monedas fijas respecto al dólar\n- Ajustes posibles pero infrecuentes\n\nCONTROLES DE CAPITAL:\n- A diferencia de 1870-1914, el capital no fluía libremente\n- Esto daba autonomía a los países\n- 'Embedded liberalism': comercio libre, finanzas controladas\n\nEL FIN:\n- 1971: Nixon cierra la ventanilla del oro\n- EEUU no puede sostener la convertibilidad\n- Comienza la era de tipos flotantes"
+    },
+    {
+      "numero": 17,
+      "tipo": "texto",
+      "titulo": "Etapa 5: Globalización financiera (1980-hoy)",
+      "subtitulo": "El mundo se achica (de nuevo)",
+      "contenido": [
+        "Desregulación financiera: capitales fluyen libremente",
+        "Revolución logística: containers, just-in-time",
+        "OMC (1995): reglas multilaterales",
+        "China entra a la OMC (2001): la fábrica del mundo"
+      ],
+      "visual": null,
+      "notas_docente": "ETAPA 5: GLOBALIZACIÓN FINANCIERA (12 minutos)\n\nLAS TRANSFORMACIONES:\n\n1. FINANZAS LIBRES:\n- 1980s: desregulación en EEUU y UK\n- Capitales fluyen sin restricciones\n- Beneficio: más inversión\n- Costo: crisis financieras (México 94, Asia 97, Argentina 01, Global 08)\n\n2. REVOLUCIÓN LOGÍSTICA:\n- Container (1960s): estandarización\n- Just-in-time: cadenas globales\n- Un iPhone tiene componentes de 40 países\n\n3. REGLAS MULTILATERALES:\n- OMC (1995): reemplaza al GATT\n- Mecanismo de solución de disputas\n- Más vinculante\n\n4. CHINA:\n- 2001: entra a la OMC\n- Se convierte en la fábrica del mundo\n- Cambia toda la economía global\n\n¿ESTAMOS EN UNA NUEVA ETAPA?:\n- Post-2008: crisis financiera global\n- Post-2016: Brexit, Trump, proteccionismo\n- Post-2020: pandemia, nearshoring\n- ¿Etapa 6: Desglobalización?"
+    },
+    {
+      "numero": 18,
+      "tipo": "seccion",
+      "titulo": "Cierre",
+      "subtitulo": null,
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "TRANSICIÓN AL CIERRE (1 minuto)"
+    },
+    {
+      "numero": 19,
+      "tipo": "texto",
+      "titulo": "Resumen: las 5 etapas",
+      "subtitulo": null,
+      "contenido": [
+        "1. Ibérica (1500-1650): plata, especias, imperios coloniales",
+        "2. Primera globalización (1800-1914): vapor, oro, Pax Britannica",
+        "3. Colapso (1914-1945): guerras, proteccionismo, vacío de poder",
+        "4. Bretton Woods (1945-1971): dólar-oro, instituciones, EEUU hegemón",
+        "5. Globalización financiera (1980-hoy): containers, OMC, China"
+      ],
+      "visual": null,
+      "notas_docente": "RESUMEN (3 minutos)\n\nRecapitular las 5 etapas con énfasis en:\n1. El patrón: crece-colapsa-crece\n2. El marco T-R-P explica cada etapa\n3. El poder hegemónico es clave\n\nPREGUNTAS PARA VERIFICAR COMPRENSIÓN:\n- '¿Por qué colapsó el comercio en 1914-1945?'\n- '¿Qué rol juega la tecnología?'\n- '¿Por qué EEUU creó Bretton Woods?'"
+    },
+    {
+      "numero": 20,
+      "tipo": "texto",
+      "titulo": "Próxima clase: los indicadores",
+      "subtitulo": "¿Cómo medimos todo esto?",
+      "contenido": [
+        "Hoy vimos QUÉ pasó en la historia del comercio",
+        "La próxima clase: CÓMO lo medimos",
+        "9 indicadores para analizar la economía internacional",
+        "Aplicación: Argentina y los desequilibrios globales"
+      ],
+      "visual": null,
+      "notas_docente": "ANTICIPAR CLASE 2 (3 minutos)\n\nConectar con la próxima clase:\n\n'Hoy vimos la película. La próxima clase aprendemos a filmar.'\n\nLos indicadores que vamos a ver:\n1-4: Miden el comercio (volumen, participación, concentración)\n5-7: Miden competitividad (balanza, apertura, ToT)\n8-9: Miden sostenibilidad (cuenta corriente, tipo de cambio)\n\nVamos a aplicarlos a:\n- Los hechos estilizados que vimos hoy\n- El caso argentino\n- Los desequilibrios globales actuales\n\nTAREA SUGERIDA:\n'Busquen el dato de cuenta corriente de Argentina para el último año disponible. ¿Es superávit o déficit?'"
+    },
+    {
+      "numero": 21,
+      "tipo": "cierre",
+      "titulo": "¿Preguntas?",
+      "subtitulo": "Economía Internacional | Clase 1",
+      "contenido": [],
+      "visual": null,
+      "notas_docente": "CIERRE (5 minutos)\n\nAbrir espacio para preguntas.\n\nSi no hay preguntas, recapitular:\n1. El comercio no es automático - requiere T+R+P\n2. Puede colapsar (1914-1945)\n3. Requiere un hegemón para funcionar\n\n'Nos vemos la próxima clase con los indicadores.'"
+    }
+  ]
+}
