@@ -15,6 +15,8 @@ Proyecto para diseñar y armar presentaciones de clases de Comercio Internaciona
 ```
 Economia Internacional/
 ├── CLAUDE.md                    # Este archivo de contexto
+├── .gitignore                   # Exclusiones de git (caches, temporales)
+├── index.html                   # Landing page del curso (GitHub Pages)
 │
 ├── programa/                    # Documentos del curso
 │   ├── Programa de la Asignatura.docx
@@ -35,19 +37,21 @@ Economia Internacional/
 │
 ├── evaluacion/                  # Evaluaciones por unidad
 │   ├── evaluacion_unidad1.md    # 5 preguntas MC (3 conceptuales + 2 con datos)
-│   ├── evaluacion_unidad2.md    # (pendiente)
+│   ├── evaluacion_unidad2.md    # 5 preguntas MC (3 conceptuales + 2 con datos)
 │   └── datos/                   # Excel con datos procesados y gráficos de verificación
 │       ├── U1_P4_apertura_comercial.xlsx
 │       ├── U1_P5_cuenta_corriente.xlsx
+│       ├── U2_P4_importaciones_avicolas.xlsx
+│       ├── U2_P5_tipo_cambio_real.xlsx
 │       └── generar_U{N}_P{M}.py # Scripts que generan los Excel
 │
 ├── datos_compartidos/           # Datos reutilizables entre clases
 │   └── [archivos FTWTHD por región: world, america, europe, asia, africa, oceania]
 │
-├── herramientas/                # Sistema de generación de slides
-│   ├── generar_html.py          # Generador JSON → HTML
+├── herramientas/                # Sistema de generación de slides (legacy JSON)
+│   ├── generar_html.py          # Generador JSON → HTML (NO se usa, ver generar_desde_md.py)
 │   ├── TEMPLATE.html            # Template manual
-│   └── README.md                # Documentación
+│   └── README.md                # Documentación (desactualizado)
 │
 ├── Clases/                      # 12 carpetas de sesión (⚠️ C mayúscula)
 │   ├── sesion01/              # Sesiones 1-3: dos partes (4hs = 2+2 con recreo)
@@ -65,6 +69,7 @@ Economia Internacional/
 │   │   ├── graficos/
 │   │   ├── img/
 │   │   └── presentacion/
+│   ├── sesion06-11/           # Esqueletos creados (carpetas vacías)
 │   └── sesion12/              # Coloquio
 │       └── consignas.md
 │
@@ -240,6 +245,102 @@ Al iniciar una clase nueva, **SIEMPRE leer el README.md de la unidad correspondi
 - [ ] Sesiones 6-11 — Por armar
 - [ ] Evaluaciones U3-U7 — Pendientes
 - [ ] Consignas del coloquio (sesión 12)
+
+---
+
+## Repositorio Git y Publicación Web
+
+### Repositorio
+
+El proyecto tiene su propio repositorio git local, independiente de cualquier otro repo.
+
+- **Ruta local**: `C:\Users\gbrea\OneDrive\Documentos\UMET\Economia Intenacional\.git`
+- **Remote**: `https://github.com/gbreard/economia-internacional`
+- **Repo público**: sí (necesario para GitHub Pages gratuito)
+
+#### Branches
+
+| Branch | Propósito | Estado |
+|--------|-----------|--------|
+| `master` | Snapshot base del proyecto al crear el repo | Estable, no se trabaja directamente acá |
+| `publicacion-web` | Branch activo de trabajo, sirve GitHub Pages | **Branch por defecto para desarrollo** |
+
+#### .gitignore
+
+Excluye: `__pycache__/`, `*.pyc`, temporales de Office (`~$*`), `nul`, `.claude/`, archivos de IDE (`.vscode/`, `.idea/`)
+
+Se incluyen todos los archivos del proyecto: PDFs de bibliografía, Excel de datos, PNGs, HTML, scripts.
+
+#### Commit inicial
+
+```
+ba2213f feat: commit inicial - Economia Internacional UMET
+         684 archivos, 264 MB total
+         - 55 PDFs (125.7 MB), 342 PNGs (61.7 MB), 19 XLSX (7.4 MB)
+         - 18 HTML, 60 scripts Python, 29 Markdown
+```
+
+### GitHub Pages
+
+- **URL del sitio**: https://gbreard.github.io/economia-internacional/
+- **Source**: branch `publicacion-web`, carpeta `/` (raíz)
+- **Deploy**: automático con cada `git push origin publicacion-web`
+- **Tiempo de build**: ~30 segundos
+
+#### Landing page (`index.html`)
+
+Portal de acceso para alumnos con:
+- Cards para cada sesión (S1-S5 con links, S6-S12 como "Próximamente")
+- Sección de bibliografía con links a manuales principales y carpetas por unidad
+- Tabla de evaluaciones con fechas de disponibilidad y deadline
+- Link al plan de clases
+- Responsive (se adapta a celulares)
+
+#### URLs de acceso para alumnos
+
+| Recurso | URL |
+|---------|-----|
+| Portal del curso | `https://gbreard.github.io/economia-internacional/` |
+| Sesión N (presentación) | `.../Clases/sesionNN/presentacion/index.html` |
+| Bibliografía unidad N | `.../bibliografia/unidadN/` |
+| PDF específico | `.../bibliografia/unidadN/nombre_archivo.pdf` |
+| Excel de evaluación | `.../evaluacion/datos/UN_PM_nombre.xlsx` |
+
+#### Límites de GitHub Pages (plan gratuito)
+
+| Concepto | Límite | Estado del proyecto |
+|----------|--------|---------------------|
+| Tamaño del sitio publicado | 1 GB | ~264 MB (26% usado) |
+| Ancho de banda mensual | 100 GB/mes | Muy por debajo |
+| Tamaño máximo por archivo | 100 MB (50 MB warning) | Max 17.2 MB (CEPAL Perspectivas) |
+| Builds por hora | 10 | Más que suficiente |
+
+#### Workflow de publicación
+
+```
+1. Trabajar en el branch publicacion-web
+2. Hacer cambios (nueva sesión, actualizar material, etc.)
+3. git add . && git commit -m "descripción del cambio"
+4. git push origin publicacion-web
+5. El sitio se actualiza automáticamente en ~30 segundos
+6. Verificar en https://gbreard.github.io/economia-internacional/
+```
+
+#### Actualizar landing page al agregar sesiones nuevas
+
+Cuando se complete una sesión nueva (ej: S6), actualizar `index.html`:
+1. Buscar el `<div class="session-card disabled">` de la sesión correspondiente
+2. Quitar la clase `disabled`
+3. Reemplazar `<span class="tag pending">Proximamente</span>` por el link y tag de slides:
+   ```html
+   <a href="Clases/sesion06/presentacion/index.html">Ver presentacion &rarr;</a>
+   <span class="tag">N slides</span>
+   ```
+4. Commit + push
+
+#### Nota sobre copyright de bibliografía
+
+Los PDFs están publicados en un repo **público**. Material de organismos internacionales (CEPAL, UNCTAD, OMC) y working papers académicos generalmente permiten distribución libre. Los libros editoriales (Krugman) están en zona gris — muchas cátedras los distribuyen así pero técnicamente hay riesgo de copyright. Si fuera necesario, se pueden excluir los PDFs editoriales del repo y distribuirlos por la plataforma de la UMET o Google Drive privado.
 
 ---
 
