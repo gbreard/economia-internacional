@@ -290,11 +290,13 @@ ba2213f feat: commit inicial - Economia Internacional UMET
 #### Landing page (`index.html`)
 
 Portal de acceso para alumnos con:
-- Cards para cada sesión (S1-S5 con links, S6-S12 como "Próximamente")
+- Cards para cada sesión (se habilitan progresivamente antes de cada clase)
 - Sección de bibliografía con links a manuales principales y carpetas por unidad
-- Tabla de evaluaciones con fechas de disponibilidad y deadline
-- Link al plan de clases
+- Tabla de evaluaciones con fechas de disponibilidad y deadline (links se agregan al liberar)
+- Links al programa: Programa de la Asignatura (.docx), Clases del programa (.docx) y Plan de clases (.pdf)
 - Responsive (se adapta a celulares)
+
+**Estrategia de liberación progresiva**: solo se publica la sesión que corresponde a la clase siguiente. Las demás aparecen como "Próximamente" aunque el material ya esté listo. Esto se controla editando el `index.html` antes de cada clase (ver instrucciones abajo).
 
 #### URLs de acceso para alumnos
 
