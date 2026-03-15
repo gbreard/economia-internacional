@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economía Internacional — UMET 2026</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #111827;
+            background: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700; }
+        header p { font-size: 1.1rem; opacity: 0.9; }
+        header .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-top: 0.8rem;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        .info-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin: -1.5rem auto 2rem;
+            padding: 1rem 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            max-width: 960px;
+        }
+        .info-bar .item {
+            text-align: center;
+            padding: 0.5rem 1rem;
+        }
+        .info-bar .item .label { font-size: 0.75rem; color: #4B5563; text-transform: uppercase; letter-spacing: 0.05em; }
+        .info-bar .item .value { font-size: 1.1rem; font-weight: 600; color: #1F4E79; }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #1F4E79;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .sessions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        .session-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            border-left: 4px solid #2E75B6;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .session-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transform: translateY(-2px);
+        }
+        .session-card.disabled {
+            border-left-color: #d1d5db;
+            opacity: 0.5;
+        }
+        .session-card .date { font-size: 0.8rem; color: #4B5563; }
+        .session-card .title { font-size: 1rem; font-weight: 600; color: #1F4E79; margin: 0.3rem 0; }
+        .session-card .unit { font-size: 0.75rem; color: #E8833A; font-weight: 600; text-transform: uppercase; }
+        .session-card a {
+            display: inline-block;
+            margin-top: 0.6rem;
+            color: #2E75B6;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .session-card a:hover { text-decoration: underline; }
+        .session-card .tag {
+            display: inline-block;
+            background: #f0f9ff;
+            color: #0EA5E9;
+            font-size: 0.7rem;
+            padding: 0.15rem 0.5rem;
+            border-radius: 10px;
+            font-weight: 600;
+            margin-top: 0.4rem;
+        }
+        .session-card .tag.pending {
+            background: #fef3c7;
+            color: #d97706;
+        }
+
+        .biblio-list { list-style: none; }
+        .biblio-list li {
+            background: white;
+            border-radius: 8px;
+            padding: 0.8rem 1.2rem;
+            margin-bottom: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .biblio-list li a { color: #2E75B6; text-decoration: none; font-weight: 500; }
+        .biblio-list li a:hover { text-decoration: underline; }
+        .biblio-list li .author { color: #4B5563; font-size: 0.9rem; }
+
+        .eval-table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+        .eval-table th { background: #1F4E79; color: white; padding: 0.8rem 1rem; text-align: left; font-size: 0.85rem; }
+        .eval-table td { padding: 0.7rem 1rem; border-bottom: 1px solid #f3f4f6; font-size: 0.9rem; }
+        .eval-table tr:last-child td { border-bottom: none; }
+        .eval-table a { color: #2E75B6; text-decoration: none; }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.6rem; }
+            .info-bar { flex-direction: column; align-items: center; }
+            .sessions-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Economia Internacional</h1>
+    <p>Licenciatura en Economia / Relaciones Internacionales</p>
+    <span class="badge">UMET — 1er cuatrimestre 2026</span>
+</header>
+
+<div class="info-bar">
+    <div class="item"><div class="label">Horario</div><div class="value">Jueves 18-22hs</div></div>
+    <div class="item"><div class="label">Duracion</div><div class="value">12 sesiones</div></div>
+    <div class="item"><div class="label">Periodo</div><div class="value">19/03 — 11/06</div></div>
+    <div class="item"><div class="label">Carga horaria</div><div class="value">44 horas</div></div>
+</div>
+
+<div class="container">
+
+    <h2>Clases</h2>
+    <div class="sessions-grid">
+
+        <div class="session-card">
+            <div class="unit">Unidad 1</div>
+            <div class="title">Hechos estilizados, balanza de pagos y tipo de cambio</div>
+            <div class="date">Sesion 1 — 19 de marzo</div>
+            <a href="Clases/sesion01/presentacion/index.html">Ver presentacion &rarr;</a>
+            <span class="tag">71 slides</span>
+        </div>
+
+        <div class="session-card">
+            <div class="unit">Unidad 2 — Parte 1</div>
+            <div class="title">Del mercantilismo a Ricardo</div>
+            <div class="date">Sesion 2 — 26 de marzo</div>
+            <a href="Clases/sesion02/presentacion/index.html">Ver presentacion &rarr;</a>
+            <span class="tag">35 slides</span>
+        </div>
+
+        <div class="session-card">
+            <div class="unit">Unidad 2 — Parte 2</div>
+            <div class="title">Del modelo neoclasico a Heckscher-Ohlin</div>
+            <div class="date">Sesion 3 — 9 de abril</div>
+            <a href="Clases/sesion03/presentacion/index.html">Ver presentacion &rarr;</a>
+            <span class="tag">43 slides</span>
+        </div>
+
+        <div class="session-card">
+            <div class="unit">Unidad 3 — Parte 1</div>
+            <div class="title">Rendimientos crecientes y competencia imperfecta</div>
+            <div class="date">Sesion 4 — 16 de abril</div>
+            <a href="Clases/sesion04/presentacion/index.html">Ver presentacion &rarr;</a>
+            <span class="tag">31 slides</span>
+        </div>
+
+        <div class="session-card">
+            <div class="unit">Unidad 3 — Parte 2</div>
+            <div class="title">Quien comercia, como y a que precio</div>
+            <div class="date">Sesion 5 — 23 de abril</div>
+            <a href="Clases/sesion05/presentacion/index.html">Ver presentacion &rarr;</a>
+            <span class="tag">30 slides</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Unidad 4 — Parte 1</div>
+            <div class="title">Prebisch y centro-periferia CEPAL</div>
+            <div class="date">Sesion 6 — 30 de abril</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Unidad 4 — Parte 2</div>
+            <div class="title">Intercambio desigual y ventajas dinamicas</div>
+            <div class="date">Sesion 7 — 7 de mayo</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Unidad 5 — Parte 1</div>
+            <div class="title">Movilidad de factores, ETN e IED</div>
+            <div class="date">Sesion 8 — 14 de mayo</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Unidad 5 — Parte 2</div>
+            <div class="title">Cadenas globales de valor</div>
+            <div class="date">Sesion 9 — 21 de mayo</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Unidad 6</div>
+            <div class="title">Politica comercial e integracion regional</div>
+            <div class="date">Sesion 10 — 28 de mayo</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Unidad 7</div>
+            <div class="title">Transformaciones recientes e insercion argentina</div>
+            <div class="date">Sesion 11 — 4 de junio</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+        <div class="session-card disabled">
+            <div class="unit">Coloquio</div>
+            <div class="title">Presentaciones grupales</div>
+            <div class="date">Sesion 12 — 11 de junio</div>
+            <span class="tag pending">Proximamente</span>
+        </div>
+
+    </div>
+
+    <h2>Bibliografia</h2>
+
+    <h3 style="font-size:1rem; color:#4B5563; margin:1rem 0 0.5rem;">Manuales principales</h3>
+    <ul class="biblio-list">
+        <li>
+            <a href="bibliografia/Krugman%20y%20Obstfeld%20-%209na%20edici%C3%B3n.pdf">Krugman, Obstfeld & Melitz — Economia Internacional: Teoria y Politica (9a ed.)</a>
+            <div class="author">Manual principal del curso</div>
+        </li>
+        <li>
+            <a href="bibliografia/Lugones-Teorias_del_Comercio_Internacional.pdf">Lugones, G. et al. — Teorias del Comercio Internacional</a>
+            <div class="author">Universidad Nacional de Quilmes</div>
+        </li>
+        <li>
+            <a href="bibliografia/LIC-PORTA-Integracion_Econo%20(1).pdf">Porta, F. (comp.) — Integracion Economica</a>
+            <div class="author">Universidad Nacional de Quilmes</div>
+        </li>
+    </ul>
+
+    <h3 style="font-size:1rem; color:#4B5563; margin:1.5rem 0 0.5rem;">Por unidad</h3>
+    <ul class="biblio-list">
+        <li><a href="bibliografia/unidad1/">Unidad 1</a> — Introduccion, hechos estilizados, BP y tipo de cambio</li>
+        <li><a href="bibliografia/unidad2/">Unidad 2</a> — Teorias clasicas y neoclasicas</li>
+        <li><a href="bibliografia/unidad3/">Unidad 3</a> — Nuevas teorias del comercio, IIT, dumping</li>
+        <li><a href="bibliografia/unidad4/">Unidad 4</a> — Comercio, estructura productiva y desarrollo</li>
+        <li><a href="bibliografia/unidad5/">Unidad 5</a> — ETN, IED y cadenas globales de valor</li>
+        <li><a href="bibliografia/unidad6/">Unidad 6</a> — Politica comercial e integracion regional</li>
+        <li><a href="bibliografia/unidad7/">Unidad 7</a> — Transformaciones recientes e insercion argentina</li>
+    </ul>
+
+    <h2>Evaluaciones</h2>
+    <table class="eval-table">
+        <thead>
+            <tr><th>Evaluacion</th><th>Contenido</th><th>Disponible</th><th>Deadline</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="evaluacion/evaluacion_unidad1.md">Unidad 1</a></td>
+                <td>5 preguntas MC</td>
+                <td>19/03</td>
+                <td>26/03</td>
+            </tr>
+            <tr>
+                <td><a href="evaluacion/evaluacion_unidad2.md">Unidad 2</a></td>
+                <td>5 preguntas MC</td>
+                <td>09/04</td>
+                <td>16/04</td>
+            </tr>
+            <tr><td>Unidad 3</td><td>—</td><td>23/04</td><td>30/04</td></tr>
+            <tr><td>Unidad 4</td><td>—</td><td>07/05</td><td>14/05</td></tr>
+            <tr><td>Unidad 5</td><td>—</td><td>21/05</td><td>28/05</td></tr>
+            <tr><td>Unidad 6</td><td>—</td><td>28/05</td><td>04/06</td></tr>
+            <tr><td>Unidad 7</td><td>—</td><td>04/06</td><td>11/06</td></tr>
+        </tbody>
+    </table>
+
+    <h2>Programa</h2>
+    <ul class="biblio-list">
+        <li><a href="programa/Plan_de_clases.pdf">Plan de clases</a> — Cronograma detallado del curso</li>
+    </ul>
+
+</div>
+
+<footer>
+    Economia Internacional — UMET 2026<br>
+    Licenciatura en Economia / Relaciones Internacionales
+</footer>
+
+</body>
+</html>
