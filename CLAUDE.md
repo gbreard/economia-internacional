@@ -17,6 +17,8 @@ Economia Internacional/
 ├── CLAUDE.md                    # Este archivo de contexto
 ├── .gitignore                   # Exclusiones de git (caches, temporales)
 ├── index.html                   # Landing page del curso (GitHub Pages)
+├── notebooks.html               # Subpágina: ejercicios con datos (instrucciones + links)
+├── asistente-ia.html            # Subpágina: NotebookLM como asistente de estudio
 │
 ├── programa/                    # Documentos del curso
 │   ├── Programa de la Asignatura.docx
@@ -24,16 +26,20 @@ Economia Internacional/
 │   └── Plan_de_clases.pdf
 │
 ├── bibliografia/                # Bibliografía organizada por unidad
+│   ├── index.html               # Página de descarga: manuales + links a unidades
 │   ├── Krugman y Obstfeld - 9na edición.pdf   # Manual principal (compartido)
 │   ├── Lugones-Teorias_del_Comercio_Internacional.pdf  # Lugones (compartido)
 │   ├── LIC-PORTA-Integracion_Econo (1).pdf    # Porta (compartido)
-│   ├── unidad1/               # README.md + PDFs específicos
-│   ├── unidad2/               # README.md + PDFs específicos
-│   ├── unidad3/               # README.md + PDFs específicos
-│   ├── unidad4/               # README.md + PDFs específicos
-│   ├── unidad5/               # README.md + PDFs específicos
-│   ├── unidad6/               # README.md + PDFs específicos
-│   └── unidad7/               # README.md + PDFs específicos
+│   ├── unidad1/               # index.html + README.md + PDFs específicos
+│   ├── unidad2/               # index.html + README.md + PDFs específicos
+│   ├── unidad3/               # index.html + README.md + PDFs específicos
+│   ├── unidad4/               # index.html + README.md + PDFs específicos
+│   ├── unidad5/               # index.html + README.md + PDFs específicos
+│   ├── unidad6/               # index.html + README.md + PDFs específicos
+│   └── unidad7/               # index.html + README.md + PDFs específicos
+│
+├── notebooks/                   # Ejercicios prácticos con Python (Google Colab)
+│   └── NB1_indicadores_comercio_mundial.ipynb
 │
 ├── evaluacion/                  # Evaluaciones por unidad
 │   ├── evaluacion_unidad1.md    # 5 preguntas MC (3 conceptuales + 2 con datos)
@@ -44,6 +50,9 @@ Economia Internacional/
 │       ├── U2_P4_importaciones_avicolas.xlsx
 │       ├── U2_P5_tipo_cambio_real.xlsx
 │       └── generar_U{N}_P{M}.py # Scripts que generan los Excel
+│
+├── docente/                     # ⚠️ EN .gitignore — NO se publica
+│   └── NB1_RESUELTO_indicadores_comercio_mundial.ipynb
 │
 ├── datos_compartidos/           # Datos reutilizables entre clases
 │   └── [archivos FTWTHD por región: world, america, europe, asia, africa, oceania]
@@ -249,6 +258,73 @@ Al iniciar una clase nueva, **SIEMPRE leer el README.md de la unidad correspondi
 - [ ] Consignas del coloquio (sesión 12)
 - [ ] Notebook 2 — Comercio intraindustrial / Grubel-Lloyd (para S5)
 - [ ] Notebook 3 — Efecto de un arancel / integración (para S10)
+
+---
+
+## Notebooks con Python (ejercicios prácticos con datos)
+
+### Filosofía
+
+Los notebooks son ejercicios **formativos** (sin nota obligatoria) donde los alumnos trabajan con datos reales descargados de fuentes oficiales. **No necesitan saber programar**: la idea es que usen herramientas de IA (ChatGPT, Claude, etc.) para generar el código, y que lo importante sea **formular bien la pregunta** e **interpretar económicamente** los resultados.
+
+### Plataforma
+
+- **Ejecución**: Google Colab (cero instalación, gratis, funciona en celular)
+- **Datos**: se descargan en tiempo real desde APIs oficiales (Banco Mundial, etc.), no desde archivos locales
+- **Entrega**: los alumnos descargan el .ipynb resuelto y lo suben al campus de la UMET
+
+### Estructura de cada notebook
+
+```
+BLOQUE 1 — Contexto (markdown)
+  Qué teoría estamos viendo, qué pregunta queremos responder
+
+BLOQUE 2 — Datos (código listo, ejecutable)
+  Conexión a API oficial, descarga, vista previa, descripción
+
+BLOQUE 3 — Desarrollo guiado (código + interpretación)
+  4-5 celdas con cálculos + gráficos + texto explicativo del docente
+
+BLOQUE 4 — TAREA (celdas vacías + consigna)
+  Consigna económica → alumno pide código a la IA → pega → ejecuta → interpreta
+
+BLOQUE 5 — Reflexión
+  3 preguntas de interpretación económica que escriben en markdown
+```
+
+### Plan de 3 notebooks
+
+| NB | Disponible con | Tema | Fuente de datos | Estado |
+|----|---------------|------|-----------------|--------|
+| **NB1** | Sesión 1 (U1) | Indicadores de comercio mundial | API Banco Mundial (10 países, 1960-2024) | **LISTO** |
+| **NB2** | Sesión 5 (U3) | Comercio intraindustrial (Grubel-Lloyd) | Por definir (COMTRADE o CEPAL) | Pendiente |
+| **NB3** | Sesión 10 (U6) | Efecto de un arancel + integración | Datos simulados/estilizados | Pendiente |
+
+### Archivos
+
+| Archivo | Ubicación | Público |
+|---------|-----------|---------|
+| Notebook para alumnos | `notebooks/NB1_indicadores_comercio_mundial.ipynb` | Sí (GitHub Pages + Colab) |
+| Solucionario docente | `docente/NB1_RESUELTO_indicadores_comercio_mundial.ipynb` | **NO** (en .gitignore) |
+| Subpágina de instrucciones | `notebooks.html` | Sí (GitHub Pages) |
+
+### Solucionarios docentes (carpeta `docente/`)
+
+La carpeta `docente/` está en `.gitignore` y **nunca se sube a GitHub**. Contiene las versiones resueltas de los notebooks con:
+- Código completo de todas las tareas
+- Interpretaciones modelo (respuestas esperadas)
+- Rúbrica de corrección (10 puntos, criterios por tarea)
+- Tiempo estimado de corrección: 3-5 minutos por alumno
+
+### Subpáginas web del curso
+
+| Página | URL | Contenido |
+|--------|-----|-----------|
+| Landing page | `index.html` | Portal principal con sesiones, bibliografía, herramientas, evaluaciones, programa |
+| Notebooks | `notebooks.html` | Qué son, cómo funcionan (8 pasos), FAQ, cards por notebook |
+| Asistente IA | `asistente-ia.html` | NotebookLM con bibliografía del curso, ejemplos de preguntas, tips |
+| Bibliografía raíz | `bibliografia/index.html` | Manuales compartidos + links a las 7 unidades |
+| Bibliografía unidad N | `bibliografia/unidadN/index.html` | PDFs descargables de cada unidad |
 
 ---
 
