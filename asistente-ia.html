@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de estudio con IA — Economia Internacional</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #111827;
+            background: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2rem; margin-bottom: 0.3rem; font-weight: 700; }
+        header p { font-size: 1rem; opacity: 0.9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { display: inline-block; margin-bottom: 1.5rem; color: #2E75B6; text-decoration: none; font-size: 0.9rem; }
+        .back:hover { text-decoration: underline; }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1F4E79;
+            margin: 2rem 0 0.8rem;
+        }
+        p { margin-bottom: 1rem; font-size: 0.95rem; color: #374151; }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid #0EA5E9;
+            border-radius: 12px;
+            padding: 1.5rem 1.8rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .ai-btn {
+            display: inline-block;
+            background: #0EA5E9;
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.2s, transform 0.1s;
+        }
+        .ai-btn:hover {
+            background: #0284C7;
+            transform: translateY(-1px);
+        }
+
+        .examples {
+            background: white;
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            margin: 1rem 0;
+        }
+        .examples h3 {
+            font-size: 1rem;
+            color: #1F4E79;
+            margin-bottom: 0.6rem;
+        }
+        .examples ul { list-style: none; padding: 0; }
+        .examples li {
+            font-size: 0.9rem;
+            color: #4B5563;
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .examples li::before {
+            content: '\2192';
+            position: absolute;
+            left: 0;
+            color: #0EA5E9;
+            font-weight: bold;
+        }
+
+        .tips {
+            background: white;
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            margin: 1rem 0;
+        }
+        .tips h3 {
+            font-size: 1rem;
+            color: #27AE60;
+            margin-bottom: 0.6rem;
+        }
+        .tips ul { padding-left: 1.2rem; }
+        .tips li {
+            font-size: 0.9rem;
+            color: #4B5563;
+            padding: 0.3rem 0;
+        }
+
+        .note {
+            font-size: 0.85rem;
+            color: #6b7280;
+            font-style: italic;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.5rem; }
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Asistente de estudio con IA</h1>
+    <p>Economia Internacional — UMET 2026</p>
+</header>
+
+<div class="container">
+
+    <a class="back" href="index.html">&larr; Volver al inicio</a>
+
+    <h2>Que es?</h2>
+    <p>
+        Cargamos todos los textos obligatorios y complementarios del curso en
+        <strong>NotebookLM de Google</strong>, un asistente de inteligencia artificial que permite
+        interactuar con la bibliografia. Pueden hacerle preguntas sobre cualquier tema de la
+        materia y les va a responder <strong>citando los textos exactos</strong> de donde saca
+        la informacion.
+    </p>
+    <p>
+        Es como tener un tutor disponible 24/7 que leyo toda la bibliografia del curso.
+    </p>
+
+    <div class="highlight-box">
+        <a class="ai-btn" href="https://notebooklm.google.com/notebook/0dea2be7-b55e-4699-8d0d-ddbb04552445" target="_blank">
+            Abrir Asistente de Bibliografia &rarr;
+        </a>
+        <p style="margin: 0.8rem 0 0; font-size: 0.85rem; color: #4B5563;">Requiere cuenta de Google</p>
+    </div>
+
+    <h2>Que puedo preguntarle?</h2>
+
+    <div class="examples">
+        <h3>Conceptos y teoria</h3>
+        <ul>
+            <li>"Explica la ventaja comparativa de Ricardo con un ejemplo numerico"</li>
+            <li>"Cual es la diferencia entre el modelo de H-O y el de factores especificos?"</li>
+            <li>"Que dice Prebisch sobre el deterioro de los terminos de intercambio?"</li>
+            <li>"Que es el indice de Grubel-Lloyd y como se calcula?"</li>
+        </ul>
+    </div>
+
+    <div class="examples">
+        <h3>Resumenes y comparaciones</h3>
+        <ul>
+            <li>"Resume el capitulo 6 de Krugman sobre economias de escala"</li>
+            <li>"Compara lo que dicen Krugman y Lugones sobre comercio intraindustrial"</li>
+            <li>"Cuales son los argumentos a favor y en contra de la proteccion comercial?"</li>
+            <li>"Que diferencias hay entre la vision neoclasica y la estructuralista del comercio?"</li>
+        </ul>
+    </div>
+
+    <div class="examples">
+        <h3>Preparar evaluaciones</h3>
+        <ul>
+            <li>"Haceme 5 preguntas de opcion multiple sobre la unidad 2"</li>
+            <li>"Que temas clave deberia saber para la evaluacion de la unidad 4?"</li>
+            <li>"Explica con un ejemplo como funciona el teorema de Stolper-Samuelson"</li>
+        </ul>
+    </div>
+
+    <h2>Tips para aprovecharlo mejor</h2>
+
+    <div class="tips">
+        <h3>Recomendaciones</h3>
+        <ul>
+            <li>Sean especificos en las preguntas: "Que dice Diamand sobre el tipo de cambio" es mejor que "Explica el tipo de cambio"</li>
+            <li>Pidan que cite las fuentes: "De que texto sacas eso?"</li>
+            <li>Usenlo para comparar autores: el asistente puede cruzar lo que dicen distintos textos sobre un mismo tema</li>
+            <li>Si una respuesta es muy larga, pidan: "Resume eso en 3 puntos"</li>
+            <li>Pueden pedirle que genere ejemplos numericos o graficos mentales para entender mejor los modelos</li>
+        </ul>
+    </div>
+
+    <p class="note">
+        <strong>Importante:</strong> El asistente responde exclusivamente en base a la bibliografia cargada del curso.
+        No inventa informacion ni busca en internet. Pero como toda herramienta de IA, puede cometer errores
+        de interpretacion. Usenlo como complemento de estudio, no como reemplazo de la lectura de los textos.
+    </p>
+
+</div>
+
+<footer>
+    Economia Internacional — UMET 2026<br>
+    Licenciatura en Economia
+</footer>
+
+</body>
+</html>

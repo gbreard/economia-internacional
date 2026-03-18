@@ -123,80 +123,6 @@
         .eval-table tr:last-child td { border-bottom: none; }
         .eval-table a { color: #2E75B6; text-decoration: none; }
 
-        .ai-section {
-            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-            border: 2px solid #0EA5E9;
-            border-radius: 12px;
-            padding: 1.8rem 2rem;
-            margin: 2rem 0;
-        }
-        .ai-section h2 {
-            color: #0EA5E9;
-            border-bottom: none;
-            margin: 0 0 0.5rem;
-            padding-bottom: 0;
-            font-size: 1.3rem;
-        }
-        .ai-section .subtitle {
-            color: #4B5563;
-            font-size: 0.95rem;
-            margin-bottom: 1.2rem;
-        }
-        .ai-section .description {
-            font-size: 0.9rem;
-            color: #374151;
-            margin-bottom: 1rem;
-        }
-        .ai-section .examples {
-            background: white;
-            border-radius: 8px;
-            padding: 1rem 1.2rem;
-            margin-bottom: 1.2rem;
-        }
-        .ai-section .examples h4 {
-            font-size: 0.85rem;
-            color: #1F4E79;
-            margin-bottom: 0.5rem;
-        }
-        .ai-section .examples ul {
-            list-style: none;
-            padding: 0;
-        }
-        .ai-section .examples li {
-            font-size: 0.85rem;
-            color: #4B5563;
-            padding: 0.3rem 0;
-            padding-left: 1.2rem;
-            position: relative;
-        }
-        .ai-section .examples li::before {
-            content: '\2192';
-            position: absolute;
-            left: 0;
-            color: #0EA5E9;
-        }
-        .ai-btn {
-            display: inline-block;
-            background: #0EA5E9;
-            color: white;
-            padding: 0.7rem 1.8rem;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: background 0.2s, transform 0.1s;
-        }
-        .ai-btn:hover {
-            background: #0284C7;
-            transform: translateY(-1px);
-        }
-        .ai-note {
-            font-size: 0.78rem;
-            color: #6b7280;
-            margin-top: 0.8rem;
-            font-style: italic;
-        }
-
         footer {
             text-align: center;
             padding: 2rem;
@@ -210,7 +136,6 @@
             header h1 { font-size: 1.6rem; }
             .info-bar { flex-direction: column; align-items: center; }
             .sessions-grid { grid-template-columns: 1fr; }
-            .ai-section { padding: 1.2rem 1rem; }
         }
     </style>
 </head>
@@ -218,7 +143,7 @@
 
 <header>
     <h1>Economia Internacional</h1>
-    <p>Licenciatura en Economia / Relaciones Internacionales</p>
+    <p>Licenciatura en Economia</p>
     <span class="badge">UMET — 1er cuatrimestre 2026</span>
 </header>
 
@@ -350,39 +275,10 @@
         <li><a href="bibliografia/unidad7/">Unidad 7</a> — Transformaciones recientes e insercion argentina</li>
     </ul>
 
-    <div class="ai-section">
-        <h2>Asistente de estudio con IA</h2>
-        <p class="subtitle">Toda la bibliografia del curso cargada en NotebookLM de Google</p>
-
-        <p class="description">
-            Cargamos los textos obligatorios y complementarios del curso en un asistente de inteligencia artificial.
-            Pueden hacerle preguntas sobre cualquier tema de la materia y les va a responder
-            <strong>citando los textos exactos</strong> de la bibliografia. Es como tener un tutor disponible 24/7
-            que leyo toda la bibliografia.
-        </p>
-
-        <div class="examples">
-            <h4>Ejemplos de preguntas que pueden hacerle:</h4>
-            <ul>
-                <li>"Explica la ventaja comparativa de Ricardo con un ejemplo numerico"</li>
-                <li>"Cual es la diferencia entre el modelo de H-O y el de factores especificos?"</li>
-                <li>"Que dice Prebisch sobre el deterioro de los terminos de intercambio?"</li>
-                <li>"Resume el capitulo 6 de Krugman sobre economias de escala"</li>
-                <li>"Que es el indice de Grubel-Lloyd y como se calcula?"</li>
-                <li>"Compara lo que dicen Krugman y Lugones sobre comercio intraindustrial"</li>
-            </ul>
-        </div>
-
-        <a class="ai-btn" href="https://notebooklm.google.com/notebook/0dea2be7-b55e-4699-8d0d-ddbb04552445" target="_blank">
-            Abrir Asistente de Bibliografia &rarr;
-        </a>
-
-        <p class="ai-note">
-            Requiere cuenta de Google. Las respuestas se basan exclusivamente en la bibliografia del curso.
-            Usenlo para estudiar, preparar las evaluaciones y profundizar en los temas que les interesen.
-            No reemplaza la lectura de los textos.
-        </p>
-    </div>
+    <h2>Herramientas de estudio</h2>
+    <ul class="biblio-list">
+        <li><a href="asistente-ia.html">Asistente de estudio con IA</a> — Toda la bibliografia cargada en NotebookLM para consultar</li>
+    </ul>
 
     <h2>Evaluaciones</h2>
     <table class="eval-table">
@@ -411,7 +307,7 @@
 
 <footer>
     Economia Internacional — UMET 2026<br>
-    Licenciatura en Economia / Relaciones Internacionales
+    Licenciatura en Economia
 </footer>
 
 </body>
