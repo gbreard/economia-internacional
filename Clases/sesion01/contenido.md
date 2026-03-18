@@ -2680,7 +2680,48 @@ Si algún alumno pregunta por la relación entre estos temas y las teorías del 
 
 ---
 
-#### Slide 71: Guía de lectura
+#### Slide 71: Asistente de estudio con IA
+**Tipo**: texto
+**Título**: Asistente de estudio con IA
+**Subtítulo**: Toda la bibliografía del curso cargada en NotebookLM
+
+**Contenido**:
+- Cargamos los textos obligatorios y complementarios en **NotebookLM de Google**
+- Pueden hacerle preguntas sobre cualquier tema y responde **citando los textos exactos**
+- Ejemplos: "Explicá la ventaja comparativa de Ricardo con un ejemplo numérico"
+- Ejemplos: "Qué dice Prebisch sobre el deterioro de los términos de intercambio?"
+- Link en la página del curso → sección "Herramientas de estudio"
+
+**Notas docente**:
+ASISTENTE DE ESTUDIO CON IA (3 minutos)
+
+Presentar NotebookLM como un tutor 24/7 que leyó toda la bibliografía.
+
+QUÉ ES:
+- NotebookLM es una herramienta de Google que permite cargar PDFs y hacerle preguntas
+- Le cargamos Krugman, Lugones, Porta, los papers de CEPAL, Prebisch, Diamand, todo
+- Cuando le preguntan algo, responde citando el texto exacto de donde saca la información
+
+CÓMO SE USA:
+- Entrar a la página del curso → 'Herramientas de estudio' → 'Asistente de estudio con IA'
+- Necesitan cuenta de Google (la misma de Gmail/Colab)
+- Hacerle preguntas en lenguaje natural
+
+PARA QUÉ SIRVE:
+- Preparar las lecturas: 'Resumime el capítulo 2 de Krugman'
+- Resolver dudas: 'Qué diferencia hay entre balanza comercial y cuenta corriente?'
+- Comparar autores: 'Qué dicen Krugman y Lugones sobre el comercio intraindustrial?'
+- Profundizar: 'Qué es el ITCRM del BCRA y cómo se calcula?'
+
+ADVERTENCIA:
+'Es una herramienta de estudio, no reemplaza la lectura. Puede cometer errores de interpretación como cualquier IA. Pero es muy útil para entender conceptos y preparar evaluaciones.'
+
+CONEXIÓN CON LA GUÍA DE LECTURA:
+'Las 7 preguntas que van a ver en el slide siguiente se las pueden hacer directamente al asistente. Pero la idea es que primero lean los textos y después usen el asistente para profundizar o resolver dudas.'
+
+---
+
+#### Slide 72: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 1
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -2707,7 +2748,7 @@ La pregunta transversal integra todo: es la pregunta del parcial. Si pueden resp
 
 ---
 
-#### Slide 72: Preguntas
+#### Slide 73: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 1
