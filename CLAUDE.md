@@ -241,10 +241,14 @@ Al iniciar una clase nueva, **SIEMPRE leer el README.md de la unidad correspondi
 - [x] Sistema de presentaciones HTML, notas docente, KaTeX configurados
 - [x] Reorganización de carpetas: `claseNN/` → `sesionNN/` completada
 
+- [x] Notebook 1 — Indicadores de comercio mundial (datos Banco Mundial, Google Colab)
+
 ### Por hacer
 - [ ] Sesiones 6-11 — Por armar
 - [ ] Evaluaciones U3-U7 — Pendientes
 - [ ] Consignas del coloquio (sesión 12)
+- [ ] Notebook 2 — Comercio intraindustrial / Grubel-Lloyd (para S5)
+- [ ] Notebook 3 — Efecto de un arancel / integración (para S10)
 
 ---
 
