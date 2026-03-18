@@ -810,37 +810,56 @@ CONEXIÓN CON HOY:
 **Subtítulo**: EEUU reconstruye el sistema
 
 **Contenido**:
-- 1944: Conferencia de Bretton Woods
-- Dólar anclado al oro, otras monedas al dólar
-- FMI, Banco Mundial, GATT
-- Comercio crece pero con controles de capital
+- Después de 30 años de guerras, depresión y proteccionismo, el mundo necesitaba nuevas reglas
+- 1944: 44 países se reúnen en Bretton Woods (New Hampshire, EEUU) para diseñar el orden económico de posguerra
+- Dólar anclado al oro ($35/onza), otras monedas fijas al dólar
+- Se crean tres instituciones: FMI (estabilidad cambiaria), Banco Mundial (reconstrucción) y GATT (reducción de aranceles)
+- Comercio crece con tipos de cambio estables pero con controles de capital
 
 **Notas docente**:
 ETAPA 4: BRETTON WOODS (10 minutos)
 
-EL CONTEXTO:
-1944: La guerra aún no termina, pero EEUU planifica el orden de posguerra.
-44 países se reúnen en New Hampshire.
+EL CONTEXTO — POR QUÉ SE HIZO:
+El período 1914-1944 fue catastrófico para la economía mundial:
+- WWI destruyó el patrón oro y la Pax Britannica
+- Los años 20 fueron inestables: hiperinflaciones (Alemania 1923), devaluaciones competitivas
+- La Gran Depresión (1929-33) generó proteccionismo feroz: aranceles Smoot-Hawley (EEUU), represalias en cadena
+- El comercio colapsó 26% entre 1929 y 1932 (lo vimos en el slide anterior)
+- WWII terminó de destruir la infraestructura productiva de Europa y Asia
+
+La lección era clara: sin reglas compartidas, el sistema colapsa.
+
+LA CONFERENCIA:
+1944: La guerra aún no termina, pero EEUU ya planifica el orden de posguerra.
+44 países se reúnen en un hotel de New Hampshire.
+Los dos arquitectos principales: Keynes (UK) y White (EEUU).
+Keynes quería una moneda internacional (bancor); White impuso el dólar.
+Ganó White porque EEUU tenía el poder (50% del PIB mundial, 2/3 del oro mundial).
 
 LAS INSTITUCIONES:
-1. FMI: Estabilidad cambiaria, préstamos de última instancia
-2. Banco Mundial: Reconstrucción y desarrollo
-3. GATT: Reducción gradual de aranceles (OMC desde 1995)
+1. FMI: Estabilidad cambiaria, préstamos de última instancia para países con problemas de balanza de pagos
+2. Banco Mundial: Reconstrucción de Europa y Japón, después desarrollo del Tercer Mundo
+3. GATT: Reducción gradual de aranceles mediante rondas de negociación (se convierte en OMC en 1995)
 
 EL SISTEMA MONETARIO:
-- Dólar fijo al oro ($35/onza)
-- Otras monedas fijas al dólar
-- Tipos de cambio ajustables pero estables
+- Dólar fijo al oro ($35/onza) — EEUU se compromete a cambiar dólares por oro
+- Otras monedas fijas al dólar (con bandas de ±1%)
+- Tipos de cambio ajustables pero estables — solo se devalúa con permiso del FMI
+- Controles de capital: los países pueden restringir movimientos financieros
 
 EL MARCO T-R-P:
-- TECNOLOGÍA: La misma que antes (barcos, telégrafo)
-- REGLAS: Nuevas y claras (FMI, GATT, tipos fijos)
-- PODER: EEUU como hegemón indiscutido
+- TECNOLOGÍA: La misma que antes (barcos, telégrafo, industrialización)
+- REGLAS: Nuevas, claras y multilaterales (FMI, GATT, tipos fijos) — es lo que faltó en 1918
+- PODER: EEUU como hegemón indiscutido — la diferencia con el período de entreguerras
 
 POR QUÉ FUNCIONÓ:
-- EEUU tenía el 50% del PIB mundial
+- EEUU tenía el 50% del PIB mundial y 2/3 del oro
 - Único país con capacidad industrial intacta
-- Interés en sistema abierto (exportar a Europa reconstruida)
+- Interés en sistema abierto (necesitaba mercados para exportar a Europa reconstruida)
+- Plan Marshall (1948): EEUU financia la reconstrucción europea con $13.000M (≈$170.000M de hoy)
+
+PREGUNTA: '¿Qué diferencia hay entre el período de entreguerras y Bretton Woods?'
+RESPUESTA: Las reglas. Después de la WWI no se crearon instituciones. Después de la WWII sí. Esa es la lección fundamental: el comercio no se sostiene solo — necesita reglas e instituciones.
 
 ---
 
