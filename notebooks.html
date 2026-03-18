@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios con datos — Economia Internacional</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #111827;
+            background: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2rem; margin-bottom: 0.3rem; font-weight: 700; }
+        header p { font-size: 1rem; opacity: 0.9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { display: inline-block; margin-bottom: 1.5rem; color: #2E75B6; text-decoration: none; font-size: 0.9rem; }
+        .back:hover { text-decoration: underline; }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1F4E79;
+            margin: 2rem 0 0.8rem;
+        }
+        h2:first-of-type { margin-top: 0; }
+        p { margin-bottom: 1rem; font-size: 0.95rem; color: #374151; }
+
+        .step-list {
+            list-style: none;
+            padding: 0;
+            counter-reset: step;
+        }
+        .step-list li {
+            background: white;
+            border-radius: 8px;
+            padding: 1rem 1.2rem 1rem 3.5rem;
+            margin-bottom: 0.6rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            position: relative;
+            font-size: 0.95rem;
+        }
+        .step-list li::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            left: 1.2rem;
+            top: 1rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            background: #1F4E79;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .notebook-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            border-left: 4px solid #0EA5E9;
+        }
+        .notebook-card .nb-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1F4E79;
+            margin-bottom: 0.3rem;
+        }
+        .notebook-card .nb-meta {
+            font-size: 0.8rem;
+            color: #4B5563;
+            margin-bottom: 0.6rem;
+        }
+        .notebook-card .nb-desc {
+            font-size: 0.9rem;
+            color: #374151;
+            margin-bottom: 0.8rem;
+        }
+        .notebook-card .nb-topics {
+            font-size: 0.85rem;
+            color: #4B5563;
+            margin-bottom: 0.8rem;
+        }
+        .notebook-card .nb-topics strong { color: #1F4E79; }
+        .colab-btn {
+            display: inline-block;
+            background: #0EA5E9;
+            color: white;
+            padding: 0.5rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        .colab-btn:hover { background: #0284C7; }
+
+        .notebook-card.disabled {
+            border-left-color: #d1d5db;
+            opacity: 0.5;
+        }
+        .tag-pending {
+            display: inline-block;
+            background: #fef3c7;
+            color: #d97706;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .info-box {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 8px;
+            padding: 1rem 1.2rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: #166534;
+        }
+        .info-box strong { color: #15803d; }
+
+        .warning-box {
+            background: #fefce8;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 1rem 1.2rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: #854d0e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.5rem; }
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ejercicios con datos</h1>
+    <p>Economia Internacional — UMET 2026</p>
+</header>
+
+<div class="container">
+
+    <a class="back" href="index.html">&larr; Volver al inicio</a>
+
+    <h2>Que son estos notebooks?</h2>
+    <p>
+        Son ejercicios practicos donde van a trabajar con <strong>datos reales</strong> descargados
+        de fuentes oficiales (Banco Mundial, CEPAL, UNCTAD) usando Python. Cada notebook tiene una
+        parte ya resuelta que explica los conceptos y muestra los resultados, y una parte de
+        <strong>tarea</strong> donde ustedes tienen que generar analisis propios.
+    </p>
+
+    <div class="info-box">
+        <strong>No necesitan saber programar.</strong>
+        La idea es que usen herramientas de IA (como ChatGPT) para generar el codigo
+        que necesiten. Lo importante es que sepan <strong>que pedirle a la IA</strong> y que puedan
+        <strong>interpretar economicamente</strong> los resultados.
+    </div>
+
+    <h2>Como funcionan?</h2>
+    <p>
+        Los notebooks se abren en <strong>Google Colab</strong>, una herramienta gratuita de Google
+        que permite ejecutar codigo Python en el navegador sin instalar nada.
+    </p>
+
+    <ol class="step-list">
+        <li>Hacer click en el boton <strong>"Abrir en Colab"</strong> del notebook que corresponda</li>
+        <li>En Colab, ir a <strong>Archivo → Guardar una copia en Drive</strong> (esto crea su version personal)</li>
+        <li>Ejecutar las celdas en orden leyendo las explicaciones (Shift+Enter o boton de Play)</li>
+        <li>Al llegar a las celdas de <strong>TAREA</strong>, usar ChatGPT u otra IA para generar el codigo</li>
+        <li>Escribir las <strong>interpretaciones economicas</strong> en las celdas de texto</li>
+        <li>Al terminar: <strong>Archivo → Descargar → Descargar .ipynb</strong></li>
+        <li>Renombrar el archivo como <strong>apellido_nombre_NBX.ipynb</strong></li>
+        <li>Subir al <strong>campus de la UMET</strong> en la seccion correspondiente</li>
+    </ol>
+
+    <div class="warning-box">
+        <strong>Importante:</strong> siempre trabajen sobre su propia copia (paso 2).
+        Si trabajan sobre el original, no van a poder guardar los cambios.
+        Necesitan cuenta de Google (la misma del mail de Gmail).
+    </div>
+
+    <h2>Notebooks del curso</h2>
+
+    <div class="notebook-card">
+        <div class="nb-title">Notebook 1: Indicadores de comercio mundial</div>
+        <div class="nb-meta">Unidad 1 — Disponible con la Sesion 1</div>
+        <p class="nb-desc">
+            Descarga datos en tiempo real desde la API del Banco Mundial para 10 paises (1960-2024).
+            Explora apertura comercial, exportaciones, importaciones y cuenta corriente.
+        </p>
+        <div class="nb-topics">
+            <strong>Temas:</strong> apertura comercial comparada, estructura del comercio en America Latina,
+            cuenta corriente (EEUU vs China vs Argentina), saldo comercial argentino
+        </div>
+        <a class="colab-btn" href="https://colab.research.google.com/github/gbreard/economia-internacional/blob/publicacion-web/notebooks/NB1_indicadores_comercio_mundial.ipynb" target="_blank">
+            Abrir en Colab &rarr;
+        </a>
+    </div>
+
+    <div class="notebook-card disabled">
+        <div class="nb-title">Notebook 2: Comercio intraindustrial (Grubel-Lloyd)</div>
+        <div class="nb-meta">Unidad 3 — Disponible con la Sesion 5</div>
+        <p class="nb-desc">
+            Calculo del indice de Grubel-Lloyd para el comercio Argentina-Brasil por sector.
+            Identificacion de comercio intraindustrial horizontal y vertical.
+        </p>
+        <span class="tag-pending">Proximamente</span>
+    </div>
+
+    <div class="notebook-card disabled">
+        <div class="nb-title">Notebook 3: Efecto de un arancel e integracion regional</div>
+        <div class="nb-meta">Unidad 6 — Disponible con la Sesion 10</div>
+        <p class="nb-desc">
+            Simulacion del efecto de aranceles sobre precios, produccion y bienestar.
+            Creacion y desvio de comercio en un esquema de integracion regional.
+        </p>
+        <span class="tag-pending">Proximamente</span>
+    </div>
+
+    <h2>Preguntas frecuentes</h2>
+
+    <div class="notebook-card" style="border-left-color: #E8833A;">
+        <div class="nb-title" style="font-size: 0.95rem;">No me anda el codigo, que hago?</div>
+        <p class="nb-desc" style="margin-bottom: 0;">
+            Primero asegurense de haber ejecutado todas las celdas anteriores en orden.
+            Si el error persiste, copien el mensaje de error y pegenlo en ChatGPT pidiendo
+            que lo explique y lo corrija.
+        </p>
+    </div>
+
+    <div class="notebook-card" style="border-left-color: #E8833A;">
+        <div class="nb-title" style="font-size: 0.95rem;">Puedo usar otra IA que no sea ChatGPT?</div>
+        <p class="nb-desc" style="margin-bottom: 0;">
+            Si, pueden usar cualquier asistente de IA: ChatGPT, Claude, Gemini, Copilot, etc.
+            Lo importante es que sepan formular bien la pregunta y verificar que el resultado
+            tenga sentido economico.
+        </p>
+    </div>
+
+    <div class="notebook-card" style="border-left-color: #E8833A;">
+        <div class="nb-title" style="font-size: 0.95rem;">Los notebooks son obligatorios?</div>
+        <p class="nb-desc" style="margin-bottom: 0;">
+            Son ejercicios formativos: les sirven para entender mejor los temas y practicar
+            con datos reales. La entrega se sube al campus.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    Economia Internacional — UMET 2026<br>
+    Licenciatura en Economia
+</footer>
+
+</body>
+</html>
