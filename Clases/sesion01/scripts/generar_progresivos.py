@@ -469,44 +469,44 @@ def prog_identidad_ahorro_inversion():
 # =====================================================================
 def prog_ciclo_argentino():
     print("\n[7/14] Ciclo argentino...")
-    centro_x, centro_y = 6, 5.5
-    radio = 3.5
+    centro_x, centro_y = 7, 6.5
+    radio = 3.2
 
     fases = [
         {'pos': (centro_x, centro_y + radio), 'color': D_VERDE, 'num': '1',
          'titulo': 'ESTABILIZACION', 'desc': 'Ancla cambiaria\nInflacion baja\nConfianza',
-         'desc_pos': (centro_x, centro_y + radio + 2.2)},
+         'desc_pos': (centro_x, centro_y + radio + 2.0), 'desc_ha': 'center'},
         {'pos': (centro_x + radio, centro_y), 'color': D_AMARILLO, 'num': '2',
          'titulo': 'APRECIACION', 'desc': 'Peso se encarece\nDeficit comercial\nEndeudamiento',
-         'desc_pos': (centro_x + radio + 2.2, centro_y)},
+         'desc_pos': (centro_x + radio + 1.5, centro_y - 1.8), 'desc_ha': 'center'},
         {'pos': (centro_x, centro_y - radio), 'color': D_ROJO, 'num': '3',
          'titulo': 'CRISIS', 'desc': 'Fuga de capitales\nCaen reservas\nDevaluacion',
-         'desc_pos': (centro_x, centro_y - radio - 2.2)},
+         'desc_pos': (centro_x, centro_y - radio - 2.0), 'desc_ha': 'center'},
         {'pos': (centro_x - radio, centro_y), 'color': D_AZUL_CL, 'num': '4',
          'titulo': 'RECUPERACION', 'desc': 'TC competitivo\nSuperavit\nCrecimiento',
-         'desc_pos': (centro_x - radio - 2.2, centro_y)},
+         'desc_pos': (centro_x - radio - 1.5, centro_y - 1.8), 'desc_ha': 'center'},
     ]
 
     arrows = [
-        # 1 -> 2
-        ((centro_x + 0.8, centro_y + 2.8), (centro_x + 2, centro_y + 2)),
-        # 2 -> 3
-        ((centro_x + 2.8, centro_y + 0.8), (centro_x + 2.8, centro_y - 0.8)),
-        # 3 -> 4
-        ((centro_x + 0.8, centro_y - 2.8), (centro_x - 0.8, centro_y - 2.8)),
-        # 4 -> 1
-        ((centro_x - 2.8, centro_y - 0.8), (centro_x - 2.8, centro_y + 0.8)),
+        # 1 -> 2 (arriba-derecha a derecha)
+        ((centro_x + 1.0, centro_y + radio - 0.6), (centro_x + radio - 0.6, centro_y + 1.0)),
+        # 2 -> 3 (derecha a abajo-derecha)
+        ((centro_x + radio - 0.6, centro_y - 1.0), (centro_x + 1.0, centro_y - radio + 0.6)),
+        # 3 -> 4 (abajo-izquierda a izquierda)
+        ((centro_x - 1.0, centro_y - radio + 0.6), (centro_x - radio + 0.6, centro_y - 1.0)),
+        # 4 -> 1 (izquierda a arriba-izquierda)
+        ((centro_x - radio + 0.6, centro_y + 1.0), (centro_x - 1.0, centro_y + radio - 0.6)),
     ]
 
     for paso in range(1, 5):
-        fig, ax = plt.subplots(figsize=(12, 10))
-        ax.set_xlim(0, 12)
-        ax.set_ylim(-0.5, 13)
+        fig, ax = plt.subplots(figsize=(14, 11))
+        ax.set_xlim(0, 14)
+        ax.set_ylim(-1.5, 14)
         ax.axis('off')
 
-        ax.text(6, 12.5, 'EL CICLO ARGENTINO', fontsize=22, fontweight='bold',
+        ax.text(7, 13.3, 'EL CICLO ARGENTINO', fontsize=22, fontweight='bold',
                 ha='center', color=D_AZUL)
-        ax.text(6, 12.0, 'El patron que se repite cada 10-15 anos', fontsize=12,
+        ax.text(7, 12.8, 'El patron que se repite cada 10-15 anos', fontsize=12,
                 ha='center', color=D_GRIS, style='italic')
 
         # Circulo de fondo
@@ -526,10 +526,10 @@ def prog_ciclo_argentino():
             ax.text(x, y - 0.1, f['titulo'], fontsize=9, fontweight='bold',
                     ha='center', va='center', color='white', zorder=3)
             dx, dy = f['desc_pos']
-            ax.text(dx, dy, f['desc'], fontsize=9, ha='center', va='center')
+            ax.text(dx, dy, f['desc'], fontsize=9, ha=f['desc_ha'], va='center')
 
         # Flechas (una menos que fases, + flecha cierre en paso 4)
-        arrow_props = dict(arrowstyle='->', color=D_GRIS, lw=2, connectionstyle='arc3,rad=0.3')
+        arrow_props = dict(arrowstyle='->', color=D_GRIS, lw=2, connectionstyle='arc3,rad=0.2')
         n_arrows = min(paso, 4) - 1  # paso1=0, paso2=1, paso3=2, paso4=3
         if paso >= 4:
             n_arrows = 4  # incluye 4->1
@@ -539,11 +539,11 @@ def prog_ciclo_argentino():
 
         # Ejemplos solo en paso 4
         if paso >= 4:
-            ax.text(6, 1.2, 'EJEMPLOS: 1991-2001 (Convertibilidad) \u2192 2002 (Crisis)',
+            ax.text(7, -0.1, 'EJEMPLOS: 1991-2001 (Convertibilidad) \u2192 2002 (Crisis)',
                     fontsize=10, ha='center', color=D_AZUL, fontweight='bold')
-            ax.text(6, 0.7, '2003-2011 (Recuperacion) \u2192 2012-2015 (Apreciacion) \u2192 2018 (Crisis)',
+            ax.text(7, -0.6, '2003-2011 (Recuperacion) \u2192 2012-2015 (Apreciacion) \u2192 2018 (Crisis)',
                     fontsize=10, ha='center', color=D_AZUL)
-            ax.text(6, 0.2, '\u00bf2024-?: \u00bfEn que fase estamos?',
+            ax.text(7, -1.1, '\u00bf2024-?: \u00bfEn que fase estamos?',
                     fontsize=10, ha='center', color=D_ROJO, fontweight='bold')
 
         plt.tight_layout()
