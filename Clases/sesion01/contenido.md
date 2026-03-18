@@ -2646,7 +2646,7 @@ ventajas comparativas. Es un debate que sigue vigente.
 
 ---
 
-#### Slide 69: Material complementario
+#### Slide 70: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Videos y documentales recomendados
@@ -2680,7 +2680,7 @@ Si algún alumno pregunta por la relación entre estos temas y las teorías del 
 
 ---
 
-#### Slide 70: Guía de lectura
+#### Slide 71: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 1
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -2707,7 +2707,7 @@ La pregunta transversal integra todo: es la pregunta del parcial. Si pueden resp
 
 ---
 
-#### Slide 71: Preguntas
+#### Slide 72: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 1
