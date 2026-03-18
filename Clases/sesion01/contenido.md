@@ -1490,6 +1490,7 @@ Empezamos con los indicadores más básicos: los que miden el comercio en sí mi
 **Título**: Indicador 1: Índice de comercio mundial
 
 **Contenido**:
+- **Mide cuánto creció o cayó el volumen de comercio mundial respecto a un año de referencia** (número índice, año base = 100)
 - Fórmula: I_t = 100 × (Comercio_t / Comercio_base)
 - Año base típico: 1913 = 100 (pico pre-guerra)
 - Si I_t = 200 → comercio es el doble del año base
@@ -1550,8 +1551,8 @@ RESPUESTA: Porque las reglas no volvieron (patrón oro inestable, aranceles alto
 **Título**: Indicador 2: Participación regional
 
 **Contenido**:
+- **Mide qué porción de la torta del comercio mundial le corresponde a cada región o país** (en % de las exportaciones mundiales)
 - Fórmula: s_r = (X_r / X_mundo) × 100
-- Mide qué porcentaje del comercio mundial tiene cada región
 - Permite ver quién "gana" y quién "pierde" participación
 - Europa dominó el siglo XIX; Asia crece en el XXI
 
@@ -1608,10 +1609,10 @@ LO QUE VIENE DESPUÉS (no está en el gráfico):
 **Título**: Indicador 3: Concentración (HHI)
 
 **Contenido**:
+- **Mide si el comercio mundial está dominado por pocos países o repartido entre muchos** (índice de 0 a 10.000)
 - Fórmula: HHI = Σ(s_i)² donde s_i es la participación de cada país
-- Rango: 0 (muy diversificado) a 10.000 (un solo país)
-- HHI < 1.500: mercado competitivo
-- HHI > 2.500: mercado concentrado
+- HHI < 1.500: mercado competitivo (muchos países participan)
+- HHI > 2.500: mercado concentrado (pocos países dominan)
 
 **Notas docente**:
 INDICADOR 3: CONCENTRACIÓN HHI (8 minutos)
@@ -1717,10 +1718,10 @@ Estos indicadores responden: ¿Le va bien o mal a este país en el comercio inte
 **Título**: Indicador 5: Balanza comercial
 
 **Contenido**:
+- **Mide si un país vende al mundo más de lo que le compra o al revés** (en millones de USD FOB, o como % del PIB)
 - Fórmula: BC = X - M (exportaciones menos importaciones)
 - BC > 0: superávit comercial (exporta más)
 - BC < 0: déficit comercial (importa más)
-- Se mide en USD o como % del PIB
 
 **Notas docente**:
 INDICADOR 5: BALANZA COMERCIAL (5 minutos)
@@ -1769,6 +1770,8 @@ PATRÓN CLAVE:
 
 CONEXIÓN: La balanza comercial refleja el tipo de cambio real (indicador 9).
 
+NOTEBOOK: En el Notebook 1 los alumnos van a calcular exactamente este saldo comercial (exportaciones - importaciones) para Argentina con datos del Banco Mundial. Van a ver estos mismos patrones y van a tener que interpretarlos.
+
 ---
 
 #### Slide 44: Gráfico balanza comparada
@@ -1796,6 +1799,8 @@ PATRONES:
 PREGUNTA: '¿Por qué EEUU puede tener déficit permanente?'
 RESPUESTA: Porque emite la moneda de reserva mundial.
 
+NOTEBOOK: El Notebook 1 compara estos mismos 5 países (Argentina, Brasil, Chile, China, EEUU, Alemania + Corea, India, México, Mundo). Los alumnos van a poder explorar las diferencias interactivamente.
+
 ---
 
 #### Slide 45: Indicador 6 - Apertura comercial
@@ -1803,8 +1808,8 @@ RESPUESTA: Porque emite la moneda de reserva mundial.
 **Título**: Indicador 6: Apertura comercial
 
 **Contenido**:
+- **Mide cuánto pesa el comercio internacional en la economía de un país** (en % del PIB)
 - Fórmula: Apertura = (X + M) / PIB × 100
-- Mide qué tan integrado está un país al comercio mundial
 - Países grandes (EEUU, Brasil): apertura baja (~25-30%)
 - Países pequeños (Singapur, Bélgica): apertura alta (>100%)
 
@@ -1824,6 +1829,8 @@ ARGENTINA:
 - Apertura ~30% (similar a EEUU, Brasil)
 - ¿Por tamaño o por proteccionismo?
 - Un poco de ambos
+
+NOTEBOOK: En el Notebook 1, la Tarea 1 les pide comparar la apertura de Argentina con el promedio de América Latina y con el promedio mundial. Van a ver que Argentina está consistentemente por debajo de ambos.
 
 ---
 
@@ -1859,6 +1866,8 @@ CHINA:
 - Pasó de 65% (2006) a 35% (2020)
 - ¿Por qué bajó? Su mercado interno creció
 
+NOTEBOOK: En el Notebook 1, la Tarea 2 les pide calcular cuánto cambió la apertura de cada país entre 1990 y 2020. La sorpresa es que México es el que más se globalizó (+38 pp, por el TLCAN) y Chile se "cerró" (-3 pp, porque su PIB creció más rápido que su comercio). Es un resultado contraintuitivo que genera buena discusión.
+
 ---
 
 #### Slide 47: Indicador 7 - ToT
@@ -1866,6 +1875,7 @@ CHINA:
 **Título**: Indicador 7: Términos del intercambio (ToT)
 
 **Contenido**:
+- **Mide cuántas importaciones puede comprar un país con sus exportaciones** (número índice, base 100)
 - Fórmula: ToT = (Precio exportaciones / Precio importaciones) × 100
 - ToT > 100: mejora (las export valen más que las import)
 - ToT < 100: deterioro (las export valen menos)
@@ -2000,10 +2010,10 @@ Si CC < 0 (déficit), debe financiarse con CF > 0 (entrada de capitales o pérdi
 **Título**: Indicador 8: Cuenta corriente (% PIB)
 
 **Contenido**:
+- **Mide si un país está ganando o perdiendo divisas en su relación con el resto del mundo** (en millones de USD, o como % del PIB)
 - Fórmula: CC/PIB × 100
-- Es el indicador de sostenibilidad más usado
-- CC < 0: el país gasta más divisas de las que genera
-- Déficits persistentes → eventualmente crisis
+- CC > 0: el país gana divisas (superávit)
+- CC < 0: el país pierde divisas (déficit) → si persiste, eventualmente crisis
 
 **Notas docente**:
 INDICADOR 8: CUENTA CORRIENTE (8 minutos)
@@ -2026,6 +2036,8 @@ ARGENTINA:
 - Tuvo -5% en 1998 → crisis 2001
 - Tuvo -5% en 2017 → crisis 2018
 - El patrón se repite
+
+NOTEBOOK: En el Notebook 1, el Bloque 4 grafica la cuenta corriente de EEUU, China, Alemania y Argentina juntos. Se ve muy bien el contraste entre el déficit persistente de EEUU, el superávit de Alemania/China, y la volatilidad de Argentina.
 
 ---
 
@@ -2059,6 +2071,8 @@ LOS CICLOS:
 
 PREGUNTA: '¿Por qué el déficit de Convertibilidad no explotó antes?'
 RESPUESTA: Porque entraba capital (inversiones, privatizaciones, deuda).
+
+NOTEBOOK: Estos mismos ciclos (déficit 90s, superávit 2002, déficit 2010s) son los que los alumnos van a identificar y explicar en la Tarea 3 del Notebook 1.
 
 ---
 
@@ -2111,9 +2125,9 @@ POR ESO:
 **Título**: Indicador 9: Tipo de cambio real
 
 **Contenido**:
+- **Mide si un país es caro o barato en dólares, ajustando por la inflación** (número índice; en Argentina se usa el ITCRM del BCRA)
 - Fórmula: TCR = e × P* / P
-- e = tipo de cambio nominal
-- P* = precios externos, P = precios internos
+- e = tipo de cambio nominal, P* = precios externos, P = precios internos
 - TCR alto = peso barato (competitivo)
 - TCR bajo = peso caro (no competitivo)
 
@@ -2521,6 +2535,7 @@ TRANSICIÓN: 'Ahora veamos dónde pueden encontrar los datos para calcular estos
 - Términos de intercambio (7): CEPAL / INDEC / Ferreres (series históricas)
 - Cuenta corriente y reservas (8): INDEC / BCRA / FMI (World Economic Outlook)
 - Tipo de cambio real (9): BCRA — Índice de TC Real Multilateral (ITCRM)
+- En el **Notebook 1** se conectan directo a la API del Banco Mundial para descargar y analizar estos datos
 
 **Notas docente**:
 FUENTES DE INFORMACIÓN (5 minutos)
@@ -2541,9 +2556,46 @@ CONSEJO PARA ESTUDIANTES:
 
 CONEXIÓN: En el examen puede haber preguntas donde necesiten saber de dónde sacar un dato específico.
 
+NOTEBOOK: Mencionar que en el Notebook 1 van a usar directamente la API del Banco Mundial (api.worldbank.org) para descargar apertura comercial, exportaciones, importaciones y cuenta corriente de 10 países. Van a ver cómo se hace una consulta a una fuente oficial de datos desde Python. 'Es como ir a data.worldbank.org pero en vez de hacer click, le piden a la computadora que descargue todo automáticamente.'
+
 ---
 
-#### Slide 67: Hechos estilizados
+#### Slide 67: Notebook 1 — Ejercicio con datos reales
+**Tipo**: texto
+**Título**: Notebook 1: Indicadores de comercio mundial
+**Subtítulo**: Ejercicio práctico con datos del Banco Mundial
+
+**Contenido**:
+- Descarga de datos en tiempo real desde la API del Banco Mundial (10 países, 1960-2024)
+- Apertura comercial, exportaciones, importaciones y cuenta corriente
+- **No hace falta saber programar**: usen ChatGPT u otra IA para generar el código
+- Lo importante es **formular bien la pregunta** e **interpretar los resultados**
+- Link en la página del curso → sección "Ejercicios con datos"
+
+**Notas docente**:
+NOTEBOOK 1 (5 minutos)
+
+Presentar el notebook como una herramienta para profundizar en los indicadores que acabamos de ver.
+
+PUNTOS CLAVE:
+- Se abre en Google Colab, no hay que instalar nada
+- Los datos se descargan en tiempo real del Banco Mundial (siempre actualizados)
+- Tiene una parte ya resuelta (la leen y ejecutan) y 3 tareas para completar
+- Para las tareas, pueden usar ChatGPT: le copian la consigna, le piden el código, lo pegan y lo ejecutan
+- Lo que importa no es el código sino la INTERPRETACIÓN ECONÓMICA
+
+INSTRUCCIONES:
+1. Entrar a la página del curso
+2. Ir a 'Ejercicios con datos (Notebooks)'
+3. Hacer click en 'Abrir en Colab'
+4. Guardar una copia en su Drive
+5. Completar las tareas y subir al campus
+
+'No se asusten con el código. Ustedes no tienen que programar. Tienen que saber qué preguntarle a la IA y después interpretar el resultado como economistas.'
+
+---
+
+#### Slide 68: Hechos estilizados: lo que aprendimos
 **Tipo**: texto
 **Título**: Hechos estilizados: lo que aprendimos
 
@@ -2567,7 +2619,7 @@ Estos son los PATRONES que vimos:
 
 ---
 
-#### Slide 68: Próxima clase
+#### Slide 69: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase
 **Subtítulo**: Teorías del comercio
