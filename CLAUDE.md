@@ -239,7 +239,7 @@ Al iniciar una clase nueva, **SIEMPRE leer el README.md de la unidad correspondi
 ## Estado de Avance
 
 ### Material listo
-- [x] **Sesión 1** (U1 completa) — 70 slides unificados, 32 gráficos + 6 imágenes. Presentación continua de 4hs (parte1+parte2 integradas)
+- [x] **Sesión 1** (U1 completa) — 73 slides unificados, 32 gráficos + 6 imágenes. Presentación continua de 4hs (parte1+parte2 integradas). Incluye: definiciones conceptuales con unidad de medida en los 9 indicadores, slide de Notebook 1, slide de NotebookLM, menciones al notebook en notas docente de indicadores 5-8
 - [x] **Sesión 2** (U2 pt1) — 34 slides unificados, 15 gráficos + 2 imágenes. Presentación continua de 4hs (parte1+parte2 integradas)
 - [x] **Sesión 3** (U2 pt2) — 43 slides unificados, 14 gráficos. Presentación continua de 4hs (parte1+parte2 integradas)
 - [x] **Sesión 4** (U3 pt1) — 30 slides, 13 gráficos + retrato Krugman. Ya era de 4hs
