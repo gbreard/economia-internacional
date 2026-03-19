@@ -42,7 +42,289 @@ APERTURA (2 minutos)
 
 ---
 
-#### Slide 2: Unidad 2 — ¿Por qué comercian los países?
+### Sección: Quiz de lecturas — Unidad 1
+
+#### Slide 2: Quiz de lecturas
+**Tipo**: seccion
+**Título**: ¿Leyeron la bibliografía?
+**Subtítulo**: 7 preguntas sobre Krugman, CEPAL y Frenkel
+
+**Notas docente**:
+QUIZ DE LECTURAS (15 minutos total para las 7 preguntas + discusión)
+
+'Antes de arrancar con el contenido nuevo, vamos a ver si leyeron la bibliografía que les dejé la clase pasada. Les voy a mostrar 7 preguntas de a una. No es con nota — la idea es que discutamos las respuestas y fijemos los conceptos clave de la Unidad 1.'
+
+'Piensen la respuesta en silencio, y cuando yo diga, levanten la mano para la opción que eligieron.'
+
+---
+
+#### Slide 3: P1 — Pregunta
+**Tipo**: centrado
+**Título**: P1 — Krugman cap 1
+
+**Contenido**:
+- **¿Cuál es el patrón más llamativo del comercio mundial según Krugman?**
+- A) Los países solo exportan lo que no consumen internamente
+- B) El comercio crece siempre al mismo ritmo que el PIB
+- C) Los países comercian principalmente con países lejanos y muy diferentes
+- D) La mayor parte del comercio es entre países desarrollados con economías similares
+
+**Notas docente**:
+Leer la pregunta. Pedir que piensen 15 segundos. Preguntar: '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+No revelar la respuesta todavía — pasar al siguiente slide.
+
+---
+
+#### Slide 4: P1 — Respuesta
+**Tipo**: texto
+**Título**: P1 — Respuesta: D
+**Subtítulo**: La mayor parte del comercio es entre países desarrollados similares
+
+**Contenido**:
+- Krugman destaca que el grueso del comercio es **Norte-Norte** (EEUU-Canadá, Alemania-Francia, EEUU-Japón)
+- Exportan e importan los **mismos tipos de productos**: autos por autos, químicos por químicos
+- Esto se llama **comercio intraindustrial** — lo vamos a ver en la Unidad 3
+- **A es falsa**: los países exportan parte de lo que producen, no solo el excedente
+- **B es falsa**: el comercio creció más rápido que el PIB (la apertura subió)
+- **C es falsa**: la proximidad y la similitud importan más que la diferencia
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+Revelar la respuesta D. Si muchos eligieron C, explicar que es la intuición más común pero incorrecta: 'Canadá es el principal socio de EEUU, no China. Alemania comercia más con Francia que con Brasil.'
+
+Conectar: 'Este patrón es lo que las teorías clásicas (Smith, Ricardo) NO explican bien. Para explicar por qué Alemania le vende autos a Francia y Francia le vende autos a Alemania, necesitamos las nuevas teorías del comercio — Krugman, que vemos en la Unidad 3.'
+
+---
+
+#### Slide 5: P2 — Pregunta
+**Tipo**: centrado
+**Título**: P2 — Krugman cap 2
+
+**Contenido**:
+- **¿Por qué la balanza de pagos siempre "cierra" (suma cero)?**
+- A) Porque el FMI la ajusta al final de cada año
+- B) Porque es un sistema de partida doble: todo pago genera un registro financiero equivalente
+- C) Porque los bancos centrales intervienen para equilibrarla
+- D) Porque los países no pueden tener déficit y superávit al mismo tiempo
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 6: P2 — Respuesta
+**Tipo**: texto
+**Título**: P2 — Respuesta: B
+**Subtítulo**: Partida doble — todo pago genera un registro financiero equivalente
+
+**Contenido**:
+- La BP es un sistema contable: si importás un auto por $30.000, tenés que pagar con algo (dólares, deuda, baja de reservas)
+- **CC + Cuenta Capital + Cuenta Financiera + Errores = 0**. Siempre. Por definición contable
+- **A es falsa**: el FMI no toca la BP de ningún país, solo presta en crisis
+- **C es falsa**: los bancos centrales intervienen pero eso es un movimiento más dentro de la BP
+- **D es falsa**: sí pueden — déficit de CC Y superávit de cuenta financiera al mismo tiempo (Argentina años 90)
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Es como una empresa: si compra algo, tiene que pagarlo de alguna forma. El balance siempre cierra porque es contabilidad, no porque alguien lo fuerce.'
+
+Ejemplo en pizarrón: Argentina importa autos → débito en CC → lo paga con deuda → crédito en cuenta financiera → suma = 0.
+
+---
+
+#### Slide 7: P3 — Pregunta
+**Tipo**: centrado
+**Título**: P3 — CEPAL 2002
+
+**Contenido**:
+- **Según la CEPAL, la globalización tiene múltiples dimensiones. ¿Cuáles?**
+- A) Comercial, militar y diplomática
+- B) Solo comercial y financiera
+- C) Solo financiera y tecnológica
+- D) Comercial, financiera, productiva, tecnológica, laboral y cultural
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 8: P3 — Respuesta
+**Tipo**: texto
+**Título**: P3 — Respuesta: D
+**Subtítulo**: La globalización es multidimensional
+
+**Contenido**:
+- La CEPAL identifica al menos **6 dimensiones**: comercial, financiera, productiva, tecnológica, laboral y cultural
+- Reducir la globalización al comercio de bienes es un error — las asimetrías son diferentes en cada dimensión
+- **A es falsa**: la dimensión militar es de relaciones internacionales, no del análisis económico de la CEPAL
+- **B es falsa**: es la visión reduccionista que la CEPAL critica explícitamente
+- **C es falsa**: omite la dimensión comercial, que sigue siendo central
+
+**Notas docente**:
+EXPLICACIÓN (1 minuto)
+
+'La CEPAL dice que cuando hablamos de globalización no es solo comercio. Es capital que se mueve, tecnología que se difunde (o no), gente que migra, y una cultura que se homogeneiza. Y las asimetrías son distintas en cada dimensión — eso lo vamos a ver con Prebisch en la Unidad 4.'
+
+---
+
+#### Slide 9: P4 — Pregunta
+**Tipo**: centrado
+**Título**: P4 — CEPAL 2002
+
+**Contenido**:
+- **¿Cuál es la principal asimetría que identifica la CEPAL en la globalización?**
+- A) Las exportaciones siempre son más caras que las importaciones
+- B) Los aranceles son más altos en Asia que en América Latina
+- C) Los países desarrollados fijan las reglas y los en desarrollo las reciben con escasa participación
+- D) Los países grandes comercian más que los pequeños
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 10: P4 — Respuesta
+**Tipo**: texto
+**Título**: P4 — Respuesta: C
+**Subtítulo**: Los países desarrollados fijan las reglas
+
+**Contenido**:
+- Las reglas del comercio (OMC), las finanzas (FMI) y la propiedad intelectual (TRIPS) fueron diseñadas por los países desarrollados
+- Los países en desarrollo participan pero con mucha **menor capacidad de negociación**
+- Base del argumento **estructuralista** que vemos en la Unidad 4 con Prebisch
+- **A es falsa**: no es una generalización válida, depende de cada país y momento
+- **B es falsa**: no es la asimetría principal — el problema es quién escribe las reglas, no los aranceles
+- **D es falsa**: es un hecho trivial, no una asimetría estructural
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'El punto de la CEPAL no es que los ricos comercian más — eso es obvio. El punto es que las REGLAS del juego las escriben ellos. La OMC, el FMI, el Banco Mundial — ¿quién los diseñó? EEUU y Europa en Bretton Woods, 1944. Los países del Sur se sientan a una mesa donde las reglas ya están escritas.'
+
+Conectar con Clase 1: 'Esto es el factor PODER del marco T-R-P.'
+
+---
+
+#### Slide 11: P5 — Pregunta
+**Tipo**: centrado
+**Título**: P5 — Frenkel 2008
+
+**Contenido**:
+- **Según Frenkel, ¿por qué un TCR competitivo favorece el desarrollo?**
+- A) Porque reduce automáticamente la inflación
+- B) Porque atrae más inversión extranjera en el sector financiero
+- C) Porque hace que las importaciones sean más baratas para la industria
+- D) Porque protege la industria nacional y estimula las exportaciones no tradicionales
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 12: P5 — Respuesta
+**Tipo**: texto
+**Título**: P5 — Respuesta: D
+**Subtítulo**: Protege la industria y estimula exportaciones no tradicionales
+
+**Contenido**:
+- TCR alto (peso barato) **encarece importaciones** → protege industria local
+- TCR alto **abarata exportaciones** → empresas que no podían exportar ahora pueden
+- Es una **política industrial vía precios relativos**
+- **A es falsa**: al contrario, Frenkel dice que un TCR competitivo GENERA inflación
+- **B es falsa**: la inversión financiera prefiere peso caro (carry trade), no peso barato
+- **C es falsa**: es exactamente al revés — TCR alto encarece las importaciones
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Ojo con las trampas: A y C dicen lo contrario de lo que pasa. Un peso barato encarece las importaciones — no las abarata. Y lejos de reducir la inflación, la genera.'
+
+Conectar con Clase 1: 'Esto es exactamente el indicador 9 que vimos — el TCR. Frenkel les dice por qué importa para el DESARROLLO, no solo para la coyuntura.'
+
+---
+
+#### Slide 13: P6 — Pregunta
+**Tipo**: centrado
+**Título**: P6 — Frenkel 2008
+
+**Contenido**:
+- **¿Cuál es la principal tensión de sostener un TCR competitivo según Frenkel?**
+- A) Genera presión inflacionaria que erosiona la competitividad ganada
+- B) Genera desempleo en el sector exportador
+- C) Obliga a subir las tasas de interés al máximo
+- D) Reduce las reservas internacionales del banco central
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 14: P6 — Respuesta
+**Tipo**: texto
+**Título**: P6 — Respuesta: A
+**Subtítulo**: La inflación erosiona la competitividad
+
+**Contenido**:
+- Para mantener TCR alto, el BCRA compra dólares → inyecta pesos → **presión inflacionaria**
+- Si la inflación sube, P sube → TCR = e × P*/P **baja** → se pierde la competitividad
+- Es un **círculo vicioso**: el TCR competitivo genera la inflación que lo destruye
+- **B es falsa**: al contrario, TCR competitivo favorece al sector exportador
+- **C es falsa**: tasas altas atraen capital especulativo que aprecia el peso — contradicción
+- **D es falsa**: al contrario, el BCRA compra dólares y SUBE las reservas
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+Este es el dilema central de la macro argentina: 'Querés un dólar alto para exportar, pero para mantenerlo comprás dólares, emitís pesos, sube la inflación, y el dólar deja de ser alto en términos reales. Es la historia argentina en un párrafo.'
+
+'B, C y D dicen lo contrario de lo que pasa. Es una buena forma de chequear si entendieron el mecanismo.'
+
+---
+
+#### Slide 15: P7 — Pregunta
+**Tipo**: centrado
+**Título**: P7 — Pregunta integradora
+
+**Contenido**:
+- **Cuando el peso se aprecia (TCR bajo), ¿qué pasa con la apertura comercial y la cuenta corriente?**
+- A) La apertura sube porque aumentan las exportaciones y mejora la cuenta corriente
+- B) La apertura baja porque se cierra la economía y la cuenta corriente mejora
+- C) La apertura sube por el aumento de importaciones, la CC se deteriora y se acumula deuda
+- D) No hay relación entre el TCR, la apertura y la cuenta corriente
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+Esta es la más difícil — integra los tres textos y la Clase 1.
+
+---
+
+#### Slide 16: P7 — Respuesta
+**Tipo**: texto
+**Título**: P7 — Respuesta: C
+**Subtítulo**: Importaciones suben, CC se deteriora, se acumula deuda
+
+**Contenido**:
+- Con peso caro: importaciones se abaratan y crecen, exportaciones se encarecen y caen
+- La **apertura puede subir** porque las importaciones crecen más de lo que caen las exportaciones
+- La **cuenta corriente se deteriora** (más M que X = déficit)
+- El déficit se financia con **deuda o caída de reservas**
+- Este es exactamente el patrón de la **Convertibilidad (1991-2001)** y de **2016-2018**
+- **A es falsa**: con peso caro las exportaciones caen, no suben
+- **B es falsa**: la apertura puede subir por el boom importador (Argentina 90s)
+- **D es falsa**: la relación TCR-apertura-CC es el corazón de la macroeconomía abierta
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Esta pregunta conecta todo: lo que leyeron en Frenkel, lo que vimos en la Clase 1 con los indicadores 6, 8 y 9, y lo que van a trabajar en el Notebook 1. Si pueden responder esta pregunta, entienden la Unidad 1 completa.'
+
+CIERRE DEL QUIZ: 'Bien, ya tenemos los conceptos frescos. Ahora pasemos a la clase de hoy: ¿POR QUÉ comercian los países? La primera respuesta viene de los mercantilistas...'
+
+---
+
+#### Slide 17: Unidad 2 — ¿Por qué comercian los países?
 **Tipo**: grafico_texto
 **Título**: Unidad 2: ¿Por qué comercian los países?
 **Subtítulo**: Dos clases, cuatro respuestas
@@ -71,7 +353,7 @@ CONEXIÓN CON CLASE 1: Recordar el marco T-R-P (Tecnología, Reglas, Poder) del 
 
 ---
 
-#### Slide 3: Agenda
+#### Slide 18: Agenda
 **Tipo**: agenda
 **Título**: Agenda de hoy
 
@@ -96,7 +378,7 @@ Presentar los bloques de la clase. Enfatizar que la primera parte es más narrat
 
 ### Sección: El debate mercantilista
 
-#### Slide 4: ¿Qué era el mercantilismo?
+#### Slide 19: ¿Qué era el mercantilismo?
 **Tipo**: grafico_progresivo
 **Título**: El mundo mercantilista (siglos XVI-XVIII)
 **Subtítulo**: Comercio como instrumento de poder
@@ -144,7 +426,7 @@ CONEXIÓN FUTURA: Los estructuralistas (Clase 6) van a retomar esta idea de que 
 
 ---
 
-#### Slide 5: Las políticas mercantilistas
+#### Slide 20: Las políticas mercantilistas
 **Tipo**: texto
 **Título**: Mercantilismo: políticas y lógica
 **Subtítulo**: El "manual" del comercio como poder
@@ -181,7 +463,7 @@ PREGUNTA: '¿Les suena algo de esto en el mundo actual? ¿Hay países que hoy us
 
 ---
 
-#### Slide 6: T-R-P: Mercantilismo vs Smith
+#### Slide 21: T-R-P: Mercantilismo vs Smith
 **Tipo**: grafico_progresivo
 **Título**: Tecnología, Reglas y Poder: dos visiones del comercio
 **Subtítulo**: El mismo marco de la Clase 1, distinto peso
@@ -219,7 +501,7 @@ CONEXIÓN FUTURA: Ricardo y los neoclásicos siguen en la línea de Smith (tecno
 
 ### Sección: Adam Smith (1776)
 
-#### Slide 7: Smith: del mercantilismo a la riqueza de las naciones
+#### Slide 22: Smith: del mercantilismo a la riqueza de las naciones
 **Tipo**: grafico_texto
 **Título**: Adam Smith (1776): una nueva idea de "riqueza"
 **Subtítulo**: De "cuánto oro entra" a "cuánto se produce"
@@ -264,7 +546,7 @@ PREGUNTA: '¿Conocen algún caso actual de país rico en recursos naturales pero
 
 ---
 
-#### Slide 8: División del trabajo: el microfundamento
+#### Slide 23: División del trabajo: el microfundamento
 **Tipo**: grafico_progresivo
 **Título**: División del trabajo: el motor de la productividad
 **Subtítulo**: El mecanismo central de Smith
@@ -312,7 +594,7 @@ PREGUNTA: '¿Qué tiene que ver esto con China? ¿Por qué una fábrica china pu
 
 ---
 
-#### Slide 9: El comercio amplía el mercado
+#### Slide 24: El comercio amplía el mercado
 **Tipo**: grafico_progresivo
 **Título**: "La división del trabajo está limitada por la extensión del mercado"
 **Subtítulo**: ¿Por qué el comercio internacional importa para Smith?
@@ -357,7 +639,7 @@ PREGUNTA: '¿Este mecanismo funciona para cualquier país o hay condiciones? ¿A
 
 ### Sección: Ventaja absoluta
 
-#### Slide 10: Ventaja absoluta: el primer modelo de comercio
+#### Slide 25: Ventaja absoluta: el primer modelo de comercio
 **Tipo**: grafico_progresivo
 **Título**: Ventaja absoluta: ¿por qué ambos ganan con el comercio?
 **Subtítulo**: Autarquía vs. comercio — la ganancia se hace visible
@@ -423,7 +705,7 @@ CONEXIÓN CON SMITH: 'La ventaja absoluta es la aplicación directa de la divisi
 
 ---
 
-#### Slide 11: Smith y la política comercial
+#### Slide 26: Smith y la política comercial
 **Tipo**: texto
 **Título**: Smith y la política comercial: no es dogma
 **Subtítulo**: Crítica a restricciones... con matices
@@ -454,7 +736,7 @@ CONEXIÓN: '¿Las sanciones de EEUU a China son "mercantilistas" o tienen lógic
 
 ### Sección: Los límites de Smith
 
-#### Slide 12: ¿Y si un país es mejor en todo?
+#### Slide 27: ¿Y si un país es mejor en todo?
 **Tipo**: grafico_progresivo
 **Título**: ¿Y si un país es mejor en todo?
 **Subtítulo**: El límite de la ventaja absoluta
@@ -510,7 +792,7 @@ RESOLUCIÓN: 'La respuesta la da Ricardo, y la vemos ahora mismo. Lo que importa
 
 ---
 
-#### Slide 13: Lo que Smith nos deja
+#### Slide 28: Lo que Smith nos deja
 **Tipo**: texto
 **Título**: Lo que Smith nos deja
 
@@ -533,7 +815,7 @@ Recapitular los 3 bloques de la primera parte:
 
 ---
 
-#### Slide 14: De Smith a Ricardo
+#### Slide 29: De Smith a Ricardo
 **Tipo**: seccion
 **Título**: De Smith a Ricardo
 **Subtítulo**: ¿Qué pasa cuando un país es mejor en todo?
@@ -551,7 +833,7 @@ TRANSICIÓN (3 minutos)
 
 ### Sección: Ricardo en contexto
 
-#### Slide 15: Retomamos: el problema que Smith dejó abierto
+#### Slide 30: Retomamos: el problema que Smith dejó abierto
 **Tipo**: centrado
 **Título**: El problema que Smith dejó abierto
 **Subtítulo**: País A es mejor que B en tela Y en vino. ¿B no comercia?
@@ -574,7 +856,7 @@ PREGUNTA RÁPIDA: '¿Alguien se quedó pensando en esto? ¿Cómo puede ser que B
 
 ---
 
-#### Slide 16: ¿Quién fue David Ricardo?
+#### Slide 31: ¿Quién fue David Ricardo?
 **Tipo**: grafico_texto
 **Título**: David Ricardo (1772-1823)
 **Subtítulo**: De corredor de bolsa a padre del libre comercio
@@ -610,7 +892,7 @@ PREGUNTA: '¿Les parece que importa que Ricardo haya sido rico? ¿Eso sesga su t
 
 ---
 
-#### Slide 17: Las Corn Laws: el comercio como política
+#### Slide 32: Las Corn Laws: el comercio como política
 **Tipo**: grafico_progresivo
 **Título**: Ricardo (1817): libre comercio en medio de un conflicto distributivo
 **Subtítulo**: Las Corn Laws y el precio del pan
@@ -667,7 +949,7 @@ Marx nace en 1818 y Ricardo muere en 1823 — se solapan 5 años pero Marx era u
 
 ---
 
-#### Slide 18: Ricardo y la distribución: ¿quién se queda con el ingreso?
+#### Slide 33: Ricardo y la distribución: ¿quién se queda con el ingreso?
 **Tipo**: texto
 **Título**: La gran pregunta de Ricardo: renta, salarios y ganancias
 **Subtítulo**: El comercio no es neutral — cambia la distribución
@@ -699,7 +981,7 @@ PREGUNTA: '¿Les suena este debate en Argentina? ¿Retenciones a exportaciones a
 
 ### Sección: El modelo ricardiano
 
-#### Slide 19: Autarquía y precios relativos
+#### Slide 34: Autarquía y precios relativos
 **Tipo**: texto
 **Título**: Autarquía: el punto de partida
 **Subtítulo**: Cada país solo, con sus propios precios
@@ -735,7 +1017,7 @@ PREGUNTA: 'Si un país produce solo para sí mismo, ¿qué determina el precio d
 
 ---
 
-#### Slide 20: Costos de oportunidad: el cálculo clave
+#### Slide 35: Costos de oportunidad: el cálculo clave
 **Tipo**: grafico_progresivo
 **Título**: Costos de oportunidad: ¿qué sacrifica cada país?
 **Subtítulo**: Los mismos números de hace un rato, distinta lectura
@@ -800,7 +1082,7 @@ CONFUSIÓN COMÚN: Los alumnos mezclan "eficiente" con "ventaja comparativa". In
 
 ---
 
-#### Slide 21: El precio mundial: ¿de dónde sale y qué rango tiene?
+#### Slide 36: El precio mundial: ¿de dónde sale y qué rango tiene?
 **Tipo**: grafico_progresivo
 **Título**: El precio mundial: ¿de dónde sale?
 **Subtítulo**: Cuando dos países se abren al comercio, aparece un precio internacional
@@ -868,7 +1150,7 @@ CONEXIÓN: 'Recuerden el indicador de Términos de Intercambio de la Clase 1 (Td
 
 ---
 
-#### Slide 22: Ventaja comparativa en acción: ahora sí, con números
+#### Slide 37: Ventaja comparativa en acción: ahora sí, con números
 **Tipo**: grafico_progresivo
 **Título**: Ventaja comparativa en acción: autarquía vs comercio
 **Subtítulo**: Con precio mundial P = 1,6, ambos terminan con más (dotación: 48 horas)
@@ -921,7 +1203,7 @@ PREGUNTA: '¿Por qué B se especializa en vino si A produce vino más barato en 
 
 ### Sección: Frontera de posibilidades y ganancias del comercio
 
-#### Slide 23: La Frontera de Posibilidades de Producción (PPF)
+#### Slide 38: La Frontera de Posibilidades de Producción (PPF)
 **Tipo**: formula
 **Título**: Frontera de Posibilidades de Producción (PPF)
 **Subtítulo**: Todo lo que un país puede producir con sus recursos
@@ -953,7 +1235,7 @@ LA CLAVE: en autarquía, solo podés consumir lo que producís → estás limita
 
 ---
 
-#### Slide 24: PPF País A: la ganancia del comercio
+#### Slide 39: PPF País A: la ganancia del comercio
 **Tipo**: grafico_progresivo
 **Título**: País A: consumir más allá de lo que puede producir
 **Subtítulo**: La línea de intercambio "sale" de la PPF
@@ -1012,7 +1294,7 @@ PREGUNTA: '¿Por qué la línea de intercambio es más plana que la PPF?'
 
 ---
 
-#### Slide 25: PPF País B: el país "peor en todo" también gana
+#### Slide 40: PPF País B: el país "peor en todo" también gana
 **Tipo**: grafico_progresivo
 **Título**: País B también gana: comercio como nueva frontera
 **Subtítulo**: Incluso siendo menos productivo en todo, B consume más con comercio
@@ -1069,7 +1351,7 @@ PREGUNTA: '¿Qué pasaría si el precio mundial fuera exactamente 1,33 o exactam
 
 ---
 
-#### Slide 26: Resumen del modelo ricardiano
+#### Slide 41: Resumen del modelo ricardiano
 **Tipo**: grafico_progresivo
 **Título**: Ricardo en un slide: el mecanismo completo
 **Subtítulo**: De la autarquía a las ganancias del comercio
@@ -1112,7 +1394,7 @@ CONEXIÓN CON PRIMERA PARTE: 'Ahora el panel derecho del gráfico del slide 12 s
 
 ### Sección: De la teoría a los datos
 
-#### Slide 27: Ventaja comparativa revelada (RCA)
+#### Slide 42: Ventaja comparativa revelada (RCA)
 **Tipo**: formula
 **Título**: ¿Cómo "vemos" la ventaja comparativa en datos?
 **Subtítulo**: Índice de Balassa (1965): Ventaja Comparativa Revelada (RCA)
@@ -1148,7 +1430,7 @@ PREGUNTA: '¿Si Argentina tiene RCA alto en soja, es porque tiene ventaja compar
 
 ---
 
-#### Slide 28: RCA en la práctica: Argentina, ¿especialización ricardiana?
+#### Slide 43: RCA en la práctica: Argentina, ¿especialización ricardiana?
 **Tipo**: grafico_progresivo
 **Título**: Argentina: ¿qué revela su patrón exportador?
 **Subtítulo**: Composición de exportaciones y especialización sectorial
@@ -1203,7 +1485,7 @@ CONEXIÓN CON CLASE 1: 'Recuerden los indicadores: la composición exportadora d
 
 ### Sección: Cierre
 
-#### Slide 29: ¿Qué explica Ricardo y qué deja abierto?
+#### Slide 44: ¿Qué explica Ricardo y qué deja abierto?
 **Tipo**: texto
 **Título**: Ricardo: motor potente, preguntas abiertas
 **Subtítulo**: Cada pregunta abre una clase futura
@@ -1234,7 +1516,7 @@ REPASAR CADA PREGUNTA:
 
 ---
 
-#### Slide 30: Resumen de la clase
+#### Slide 45: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que vimos hoy
 
@@ -1261,7 +1543,7 @@ Recapitular los grandes bloques de la clase completa:
 
 ---
 
-#### Slide 31: Bibliografía y lecturas
+#### Slide 46: Bibliografía y lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 **Subtítulo**: Bibliografía del curso
@@ -1281,7 +1563,7 @@ Estas lecturas están en el programa oficial del curso. Lugones es la referencia
 
 ---
 
-#### Slide 32: Guía de lectura
+#### Slide 47: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura: preguntas para orientar el estudio
 **Subtítulo**: Lugones Cap. 1 (pp. 13-30) y Krugman Cap. 3
@@ -1304,7 +1586,7 @@ Las primeras tres preguntas cubren el recorrido mercantilismo-Smith-Ricardo. Las
 
 ---
 
-#### Slide 33: Material complementario
+#### Slide 48: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Videos y documentales recomendados
@@ -1333,7 +1615,7 @@ Links para compartir con los alumnos:
 
 ---
 
-#### Slide 34: Próxima clase
+#### Slide 49: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase: modelo neoclásico y Heckscher-Ohlin
 **Subtítulo**: Clase 3 — 9 de abril
@@ -1354,7 +1636,7 @@ PRÓXIMA CLASE (2 minutos)
 
 ---
 
-#### Slide 35: Preguntas
+#### Slide 50: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 2
