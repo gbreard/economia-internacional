@@ -1414,8 +1414,9 @@ CONEXIÓN CON PRIMERA PARTE: 'Ahora el panel derecho del gráfico del slide 12 s
 **Subtítulo**: Índice de Balassa (1965): Ventaja Comparativa Revelada (RCA)
 
 **Contenido**:
-- Ricardo habla de ventajas comparativas → pero ¿cómo las medimos?
-- **Béla Balassa** (1965): propone "revelar" la ventaja a partir de lo que efectivamente se exporta
+- Ricardo habla de ventajas comparativas → pero ¿cómo las medimos en datos reales?
+- **Béla Balassa** (1928-1991): economista húngaro-estadounidense, propuso "revelar" la ventaja comparativa a partir de lo que los países efectivamente exportan
+- Paper fundacional: *"Trade Liberalisation and Revealed Comparative Advantage"* (1965, The Manchester School)
 - $RCA_{i,k} = \frac{X_{i,k} / X_{i}}{X_{w,k} / X_{w}}$ → participación del producto en exportaciones del país vs del mundo
 - **RCA > 1**: el país exporta ese bien más que el promedio mundial → **especialización**
 - **RCA < 1**: el país está menos especializado que el mundo en ese bien
