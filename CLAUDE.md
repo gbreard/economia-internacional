@@ -378,6 +378,11 @@ Portal de acceso para alumnos con:
 
 **Estrategia de liberación progresiva**: solo se publica la sesión que corresponde a la clase siguiente. Las demás aparecen como "Próximamente" aunque el material ya esté listo. Esto se controla editando el `index.html` antes de cada clase (ver instrucciones abajo).
 
+**⚠️ REGLA DE PUSH: Las presentaciones que incluyen quiz de lecturas (preguntas + respuestas al inicio) NO se pushean a GitHub hasta DESPUÉS de la fecha de la clase.** Si se pushean antes, los alumnos pueden ver las respuestas en el repo público. Workflow:
+1. Commitear localmente (`git commit`) — OK
+2. **NO pushear** (`git push`) hasta después de la clase
+3. Una vez dada la clase, pushear y habilitar en `index.html`
+
 #### URLs de acceso para alumnos
 
 | Recurso | URL |
