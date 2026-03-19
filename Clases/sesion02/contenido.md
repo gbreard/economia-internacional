@@ -324,7 +324,21 @@ CIERRE DEL QUIZ: 'Bien, ya tenemos los conceptos frescos. Ahora pasemos a la cla
 
 ---
 
-#### Slide 17: Unidad 2 — ¿Por qué comercian los países?
+### Sección: Contenido de la clase
+
+#### Slide 17: Comienza la clase
+**Tipo**: seccion
+**Título**: Unidad 2 — Teorías clásicas del comercio
+**Subtítulo**: Del mercantilismo a Ricardo
+
+**Notas docente**:
+TRANSICIÓN (1 minuto)
+
+'Bien, con los conceptos de la Unidad 1 frescos, arrancamos con el contenido de hoy: ¿POR QUÉ comercian los países?'
+
+---
+
+#### Slide 18: Unidad 2 — ¿Por qué comercian los países?
 **Tipo**: grafico_texto
 **Título**: Unidad 2: ¿Por qué comercian los países?
 **Subtítulo**: Dos clases, cuatro respuestas
@@ -353,7 +367,7 @@ CONEXIÓN CON CLASE 1: Recordar el marco T-R-P (Tecnología, Reglas, Poder) del 
 
 ---
 
-#### Slide 18: Agenda
+#### Slide 19: Agenda
 **Tipo**: agenda
 **Título**: Agenda de hoy
 
@@ -378,7 +392,7 @@ Presentar los bloques de la clase. Enfatizar que la primera parte es más narrat
 
 ### Sección: El debate mercantilista
 
-#### Slide 19: ¿Qué era el mercantilismo?
+#### Slide 20: ¿Qué era el mercantilismo?
 **Tipo**: grafico_progresivo
 **Título**: El mundo mercantilista (siglos XVI-XVIII)
 **Subtítulo**: Comercio como instrumento de poder
@@ -426,7 +440,7 @@ CONEXIÓN FUTURA: Los estructuralistas (Clase 6) van a retomar esta idea de que 
 
 ---
 
-#### Slide 20: Las políticas mercantilistas
+#### Slide 21: Las políticas mercantilistas
 **Tipo**: texto
 **Título**: Mercantilismo: políticas y lógica
 **Subtítulo**: El "manual" del comercio como poder
@@ -463,7 +477,7 @@ PREGUNTA: '¿Les suena algo de esto en el mundo actual? ¿Hay países que hoy us
 
 ---
 
-#### Slide 21: T-R-P: Mercantilismo vs Smith
+#### Slide 22: T-R-P: Mercantilismo vs Smith
 **Tipo**: grafico_progresivo
 **Título**: Tecnología, Reglas y Poder: dos visiones del comercio
 **Subtítulo**: El mismo marco de la Clase 1, distinto peso
@@ -501,7 +515,7 @@ CONEXIÓN FUTURA: Ricardo y los neoclásicos siguen en la línea de Smith (tecno
 
 ### Sección: Adam Smith (1776)
 
-#### Slide 22: Smith: del mercantilismo a la riqueza de las naciones
+#### Slide 23: Smith: del mercantilismo a la riqueza de las naciones
 **Tipo**: grafico_texto
 **Título**: Adam Smith (1776): una nueva idea de "riqueza"
 **Subtítulo**: De "cuánto oro entra" a "cuánto se produce"
@@ -546,7 +560,7 @@ PREGUNTA: '¿Conocen algún caso actual de país rico en recursos naturales pero
 
 ---
 
-#### Slide 23: División del trabajo: el microfundamento
+#### Slide 24: División del trabajo: el microfundamento
 **Tipo**: grafico_progresivo
 **Título**: División del trabajo: el motor de la productividad
 **Subtítulo**: El mecanismo central de Smith
@@ -594,7 +608,7 @@ PREGUNTA: '¿Qué tiene que ver esto con China? ¿Por qué una fábrica china pu
 
 ---
 
-#### Slide 24: El comercio amplía el mercado
+#### Slide 25: El comercio amplía el mercado
 **Tipo**: grafico_progresivo
 **Título**: "La división del trabajo está limitada por la extensión del mercado"
 **Subtítulo**: ¿Por qué el comercio internacional importa para Smith?
@@ -639,7 +653,7 @@ PREGUNTA: '¿Este mecanismo funciona para cualquier país o hay condiciones? ¿A
 
 ### Sección: Ventaja absoluta
 
-#### Slide 25: Ventaja absoluta: el primer modelo de comercio
+#### Slide 26: Ventaja absoluta: el primer modelo de comercio
 **Tipo**: grafico_progresivo
 **Título**: Ventaja absoluta: ¿por qué ambos ganan con el comercio?
 **Subtítulo**: Autarquía vs. comercio — la ganancia se hace visible
@@ -705,7 +719,7 @@ CONEXIÓN CON SMITH: 'La ventaja absoluta es la aplicación directa de la divisi
 
 ---
 
-#### Slide 26: Smith y la política comercial
+#### Slide 27: Smith y la política comercial
 **Tipo**: texto
 **Título**: Smith y la política comercial: no es dogma
 **Subtítulo**: Crítica a restricciones... con matices
@@ -736,7 +750,7 @@ CONEXIÓN: '¿Las sanciones de EEUU a China son "mercantilistas" o tienen lógic
 
 ### Sección: Los límites de Smith
 
-#### Slide 27: ¿Y si un país es mejor en todo?
+#### Slide 28: ¿Y si un país es mejor en todo?
 **Tipo**: grafico_progresivo
 **Título**: ¿Y si un país es mejor en todo?
 **Subtítulo**: El límite de la ventaja absoluta
@@ -792,7 +806,7 @@ RESOLUCIÓN: 'La respuesta la da Ricardo, y la vemos ahora mismo. Lo que importa
 
 ---
 
-#### Slide 28: Lo que Smith nos deja
+#### Slide 29: Lo que Smith nos deja
 **Tipo**: texto
 **Título**: Lo que Smith nos deja
 
@@ -815,7 +829,7 @@ Recapitular los 3 bloques de la primera parte:
 
 ---
 
-#### Slide 29: De Smith a Ricardo
+#### Slide 30: De Smith a Ricardo
 **Tipo**: seccion
 **Título**: De Smith a Ricardo
 **Subtítulo**: ¿Qué pasa cuando un país es mejor en todo?
@@ -833,7 +847,7 @@ TRANSICIÓN (3 minutos)
 
 ### Sección: Ricardo en contexto
 
-#### Slide 30: Retomamos: el problema que Smith dejó abierto
+#### Slide 31: Retomamos: el problema que Smith dejó abierto
 **Tipo**: centrado
 **Título**: El problema que Smith dejó abierto
 **Subtítulo**: País A es mejor que B en tela Y en vino. ¿B no comercia?
@@ -856,7 +870,7 @@ PREGUNTA RÁPIDA: '¿Alguien se quedó pensando en esto? ¿Cómo puede ser que B
 
 ---
 
-#### Slide 31: ¿Quién fue David Ricardo?
+#### Slide 32: ¿Quién fue David Ricardo?
 **Tipo**: grafico_texto
 **Título**: David Ricardo (1772-1823)
 **Subtítulo**: De corredor de bolsa a padre del libre comercio
@@ -892,7 +906,7 @@ PREGUNTA: '¿Les parece que importa que Ricardo haya sido rico? ¿Eso sesga su t
 
 ---
 
-#### Slide 32: Las Corn Laws: el comercio como política
+#### Slide 33: Las Corn Laws: el comercio como política
 **Tipo**: grafico_progresivo
 **Título**: Ricardo (1817): libre comercio en medio de un conflicto distributivo
 **Subtítulo**: Las Corn Laws y el precio del pan
@@ -949,7 +963,7 @@ Marx nace en 1818 y Ricardo muere en 1823 — se solapan 5 años pero Marx era u
 
 ---
 
-#### Slide 33: Ricardo y la distribución: ¿quién se queda con el ingreso?
+#### Slide 34: Ricardo y la distribución: ¿quién se queda con el ingreso?
 **Tipo**: texto
 **Título**: La gran pregunta de Ricardo: renta, salarios y ganancias
 **Subtítulo**: El comercio no es neutral — cambia la distribución
@@ -981,7 +995,7 @@ PREGUNTA: '¿Les suena este debate en Argentina? ¿Retenciones a exportaciones a
 
 ### Sección: El modelo ricardiano
 
-#### Slide 34: Autarquía y precios relativos
+#### Slide 35: Autarquía y precios relativos
 **Tipo**: texto
 **Título**: Autarquía: el punto de partida
 **Subtítulo**: Cada país solo, con sus propios precios
@@ -1017,7 +1031,7 @@ PREGUNTA: 'Si un país produce solo para sí mismo, ¿qué determina el precio d
 
 ---
 
-#### Slide 35: Costos de oportunidad: el cálculo clave
+#### Slide 36: Costos de oportunidad: el cálculo clave
 **Tipo**: grafico_progresivo
 **Título**: Costos de oportunidad: ¿qué sacrifica cada país?
 **Subtítulo**: Los mismos números de hace un rato, distinta lectura
@@ -1082,7 +1096,7 @@ CONFUSIÓN COMÚN: Los alumnos mezclan "eficiente" con "ventaja comparativa". In
 
 ---
 
-#### Slide 36: El precio mundial: ¿de dónde sale y qué rango tiene?
+#### Slide 37: El precio mundial: ¿de dónde sale y qué rango tiene?
 **Tipo**: grafico_progresivo
 **Título**: El precio mundial: ¿de dónde sale?
 **Subtítulo**: Cuando dos países se abren al comercio, aparece un precio internacional
@@ -1150,7 +1164,7 @@ CONEXIÓN: 'Recuerden el indicador de Términos de Intercambio de la Clase 1 (Td
 
 ---
 
-#### Slide 37: Ventaja comparativa en acción: ahora sí, con números
+#### Slide 38: Ventaja comparativa en acción: ahora sí, con números
 **Tipo**: grafico_progresivo
 **Título**: Ventaja comparativa en acción: autarquía vs comercio
 **Subtítulo**: Con precio mundial P = 1,6, ambos terminan con más (dotación: 48 horas)
@@ -1203,7 +1217,7 @@ PREGUNTA: '¿Por qué B se especializa en vino si A produce vino más barato en 
 
 ### Sección: Frontera de posibilidades y ganancias del comercio
 
-#### Slide 38: La Frontera de Posibilidades de Producción (PPF)
+#### Slide 39: La Frontera de Posibilidades de Producción (PPF)
 **Tipo**: formula
 **Título**: Frontera de Posibilidades de Producción (PPF)
 **Subtítulo**: Todo lo que un país puede producir con sus recursos
@@ -1235,7 +1249,7 @@ LA CLAVE: en autarquía, solo podés consumir lo que producís → estás limita
 
 ---
 
-#### Slide 39: PPF País A: la ganancia del comercio
+#### Slide 40: PPF País A: la ganancia del comercio
 **Tipo**: grafico_progresivo
 **Título**: País A: consumir más allá de lo que puede producir
 **Subtítulo**: La línea de intercambio "sale" de la PPF
@@ -1294,7 +1308,7 @@ PREGUNTA: '¿Por qué la línea de intercambio es más plana que la PPF?'
 
 ---
 
-#### Slide 40: PPF País B: el país "peor en todo" también gana
+#### Slide 41: PPF País B: el país "peor en todo" también gana
 **Tipo**: grafico_progresivo
 **Título**: País B también gana: comercio como nueva frontera
 **Subtítulo**: Incluso siendo menos productivo en todo, B consume más con comercio
@@ -1351,7 +1365,7 @@ PREGUNTA: '¿Qué pasaría si el precio mundial fuera exactamente 1,33 o exactam
 
 ---
 
-#### Slide 41: Resumen del modelo ricardiano
+#### Slide 42: Resumen del modelo ricardiano
 **Tipo**: grafico_progresivo
 **Título**: Ricardo en un slide: el mecanismo completo
 **Subtítulo**: De la autarquía a las ganancias del comercio
@@ -1394,7 +1408,7 @@ CONEXIÓN CON PRIMERA PARTE: 'Ahora el panel derecho del gráfico del slide 12 s
 
 ### Sección: De la teoría a los datos
 
-#### Slide 42: Ventaja comparativa revelada (RCA)
+#### Slide 43: Ventaja comparativa revelada (RCA)
 **Tipo**: formula
 **Título**: ¿Cómo "vemos" la ventaja comparativa en datos?
 **Subtítulo**: Índice de Balassa (1965): Ventaja Comparativa Revelada (RCA)
@@ -1430,7 +1444,7 @@ PREGUNTA: '¿Si Argentina tiene RCA alto en soja, es porque tiene ventaja compar
 
 ---
 
-#### Slide 43: RCA en la práctica: Argentina, ¿especialización ricardiana?
+#### Slide 44: RCA en la práctica: Argentina, ¿especialización ricardiana?
 **Tipo**: grafico_progresivo
 **Título**: Argentina: ¿qué revela su patrón exportador?
 **Subtítulo**: Composición de exportaciones y especialización sectorial
@@ -1485,7 +1499,7 @@ CONEXIÓN CON CLASE 1: 'Recuerden los indicadores: la composición exportadora d
 
 ### Sección: Cierre
 
-#### Slide 44: ¿Qué explica Ricardo y qué deja abierto?
+#### Slide 45: ¿Qué explica Ricardo y qué deja abierto?
 **Tipo**: texto
 **Título**: Ricardo: motor potente, preguntas abiertas
 **Subtítulo**: Cada pregunta abre una clase futura
@@ -1516,7 +1530,7 @@ REPASAR CADA PREGUNTA:
 
 ---
 
-#### Slide 45: Resumen de la clase
+#### Slide 46: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que vimos hoy
 
@@ -1543,7 +1557,7 @@ Recapitular los grandes bloques de la clase completa:
 
 ---
 
-#### Slide 46: Bibliografía y lecturas
+#### Slide 47: Bibliografía y lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 **Subtítulo**: Bibliografía del curso
@@ -1563,7 +1577,7 @@ Estas lecturas están en el programa oficial del curso. Lugones es la referencia
 
 ---
 
-#### Slide 47: Guía de lectura
+#### Slide 48: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura: preguntas para orientar el estudio
 **Subtítulo**: Lugones Cap. 1 (pp. 13-30) y Krugman Cap. 3
@@ -1586,7 +1600,7 @@ Las primeras tres preguntas cubren el recorrido mercantilismo-Smith-Ricardo. Las
 
 ---
 
-#### Slide 48: Material complementario
+#### Slide 49: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Videos y documentales recomendados
@@ -1615,7 +1629,7 @@ Links para compartir con los alumnos:
 
 ---
 
-#### Slide 49: Próxima clase
+#### Slide 50: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase: modelo neoclásico y Heckscher-Ohlin
 **Subtítulo**: Clase 3 — 9 de abril
@@ -1636,7 +1650,7 @@ PRÓXIMA CLASE (2 minutos)
 
 ---
 
-#### Slide 50: Preguntas
+#### Slide 51: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 2
