@@ -6,7 +6,7 @@ Proyecto para diseñar y armar presentaciones de clases de Comercio Internaciona
 ## Datos del Curso
 - **Carrera**: Licenciatura en Economía / Relaciones Internacionales
 - **Carga horaria**: 44 horas de contenido + coloquio + recuperatorio
-- **Duración**: 12 semanas (19/03 al 11/06), jueves 18 a 22hs
+- **Duración**: 12 semanas (26/03 al 18/06), jueves 18 a 22hs
 - **Frecuencia**: 1 sesión semanal de 4 horas
 - **Correlativas**: Microeconomía, Macroeconomía
 
@@ -118,20 +118,20 @@ Esta pregunta guía todo el curso y se aborda desde distintas perspectivas en ca
 
 | Evaluación | Se abre después de | Deadline |
 |------------|---------------------|----------|
-| Eval U1 | Sesión 1 (19/03) | 26/03 |
-| Eval U2 | Sesión 3 (09/04) | 16/04 |
-| Eval U3 | Sesión 5 (23/04) | 30/04 |
-| Eval U4 | Sesión 7 (07/05) | 14/05 |
-| Eval U5 | Sesión 9 (21/05) | 28/05 |
-| Eval U6 | Sesión 10 (28/05) | 04/06 |
-| Eval U7 | Sesión 11 (04/06) | 11/06 |
+| Eval U1 | Sesión 1 (26/03) | 02/04 |
+| Eval U2 | Sesión 3 (16/04) | 23/04 |
+| Eval U3 | Sesión 5 (30/04) | 07/05 |
+| Eval U4 | Sesión 7 (14/05) | 21/05 |
+| Eval U5 | Sesión 9 (28/05) | 04/06 |
+| Eval U6 | Sesión 10 (04/06) | 11/06 |
+| Eval U7 | Sesión 11 (11/06) | 18/06 |
 
-### Coloquio final (Sesión 12 — 11/06)
+### Coloquio final (Sesión 12 — 18/06)
 - Presentaciones **grupales** de casos reales
 - Asignar casos en sesión 9 o 10 (dar 2-3 semanas de preparación)
 - Evaluativo: aprobado/desaprobado
 
-### Recuperatorio (18/06)
+### Recuperatorio (25/06)
 - MC presencial para quienes reprobaron alguna evaluación
 
 ## Bibliografía por Unidad
@@ -170,21 +170,21 @@ Al iniciar una clase nueva, **SIEMPRE leer el README.md de la unidad correspondi
 
 | Sesión | Fecha | Unidad | Contenido | Estado |
 |--------|-------|--------|-----------|--------|
-| **S1** | 19/03 | **U1 completa** | Hechos estilizados + BdP + TC | LISTA (parte1+parte2) |
-| **S2** | 26/03 | **U2 pt1** | Mercantilistas/Smith + Ricardo | LISTA (parte1+parte2) |
+| **S1** | 26/03 | **U1 completa** | Hechos estilizados + BdP + TC | LISTA (parte1+parte2) |
 | — | 02/04 | **FERIADO** | — | — |
-| **S3** | 09/04 | **U2 pt2** | Neoclásico estándar + H-O (cierra U2) | LISTA (parte1+parte2) |
-| **S4** | 16/04 | **U3 pt1** | Krugman + IIT + GL + NGE | LISTA (30 slides, 4hs) |
-| **S5** | 23/04 | **U3 pt2** | IIT profundización + Vernon + Melitz + Dumping (cierra U3) | LISTA (30 slides, 7 gráficos) |
-| **S6** | 30/04 | **U4 pt1** | Prebisch + centro-periferia CEPAL | POR ARMAR |
-| **S7** | 07/05 | **U4 pt2** | Intercambio desigual + ventajas dinámicas (cierra U4) | POR ARMAR |
-| **S8** | 14/05 | **U5 pt1** | Movilidad de factores + ETN/IED + intro CGV | POR ARMAR |
-| **S9** | 21/05 | **U5 pt2** | CGV en profundidad + CGV en AL/Argentina (cierra U5) | POR ARMAR |
-| **S10** | 28/05 | **U6 completa** | Política comercial + Integración regional (cierra U6) | POR ARMAR |
-| **S11** | 04/06 | **U7 completa** | Guerra comercial + transición verde + Argentina (cierra U7) | POR ARMAR |
-| **S12** | 11/06 | **Coloquio** | Presentaciones grupales de casos | — |
-| — | 18/06 | Recuperatorio | MC presencial | — |
-| — | 25/06 | Libre | Consulta / cierre administrativo | — |
+| **S2** | 09/04 | **U2 pt1** | Mercantilistas/Smith + Ricardo | LISTA (parte1+parte2) |
+| **S3** | 16/04 | **U2 pt2** | Neoclásico estándar + H-O (cierra U2) | LISTA (parte1+parte2) |
+| **S4** | 23/04 | **U3 pt1** | Krugman + IIT + GL + NGE | LISTA (30 slides, 4hs) |
+| **S5** | 30/04 | **U3 pt2** | IIT profundización + Vernon + Melitz + Dumping (cierra U3) | LISTA (30 slides, 7 gráficos) |
+| **S6** | 07/05 | **U4 pt1** | Prebisch + centro-periferia CEPAL | POR ARMAR |
+| **S7** | 14/05 | **U4 pt2** | Intercambio desigual + ventajas dinámicas (cierra U4) | POR ARMAR |
+| **S8** | 21/05 | **U5 pt1** | Movilidad de factores + ETN/IED + intro CGV | POR ARMAR |
+| **S9** | 28/05 | **U5 pt2** | CGV en profundidad + CGV en AL/Argentina (cierra U5) | POR ARMAR |
+| **S10** | 04/06 | **U6 completa** | Política comercial + Integración regional (cierra U6) | POR ARMAR |
+| **S11** | 11/06 | **U7 completa** | Guerra comercial + transición verde + Argentina (cierra U7) | POR ARMAR |
+| **S12** | 18/06 | **Coloquio** | Presentaciones grupales de casos | — |
+| — | 25/06 | Recuperatorio | MC presencial | — |
+| — | 02/07 | Libre | Consulta / cierre administrativo | — |
 
 ### Detalle por sesión
 
