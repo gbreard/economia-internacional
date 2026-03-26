@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo final — Economia Internacional</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #111827;
+            background: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2rem; margin-bottom: 0.3rem; font-weight: 700; }
+        header p { font-size: 1rem; opacity: 0.9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { display: inline-block; margin-bottom: 1.5rem; color: #2E75B6; text-decoration: none; font-size: 0.9rem; }
+        .back:hover { text-decoration: underline; }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1F4E79;
+            margin: 2rem 0 0.8rem;
+        }
+        h2:first-of-type { margin-top: 0; }
+        p, li { font-size: 0.95rem; color: #374151; }
+        p { margin-bottom: 1rem; }
+
+        .timeline {
+            list-style: none;
+            padding: 0;
+            counter-reset: step;
+        }
+        .timeline li {
+            background: white;
+            border-radius: 8px;
+            padding: 1rem 1.2rem 1rem 3.5rem;
+            margin-bottom: 0.6rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            position: relative;
+            font-size: 0.95rem;
+        }
+        .timeline li::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            left: 1.2rem;
+            top: 1rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            background: #1F4E79;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .topic-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            border-left: 4px solid #2E75B6;
+            cursor: pointer;
+            transition: box-shadow 0.2s;
+        }
+        .topic-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        .topic-card .topic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .topic-card .topic-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1F4E79;
+        }
+        .topic-card .topic-units {
+            font-size: 0.7rem;
+            color: #E8833A;
+            font-weight: 600;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .topic-card .topic-arrow {
+            color: #9ca3af;
+            font-size: 0.9rem;
+            transition: transform 0.2s;
+        }
+        .topic-card.open .topic-arrow {
+            transform: rotate(90deg);
+        }
+        .topic-card .topic-detail {
+            display: none;
+            margin-top: 0.8rem;
+            padding-top: 0.8rem;
+            border-top: 1px solid #f3f4f6;
+            font-size: 0.9rem;
+            color: #374151;
+            line-height: 1.7;
+        }
+        .topic-card.open .topic-detail {
+            display: block;
+        }
+        .topic-detail strong { color: #1F4E79; }
+
+        .req-list {
+            list-style: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .req-list li {
+            margin-bottom: 0.4rem;
+            font-size: 0.95rem;
+        }
+
+        .structure-list {
+            list-style: none;
+            padding: 0;
+            counter-reset: slide;
+        }
+        .structure-list li {
+            background: white;
+            border-radius: 6px;
+            padding: 0.6rem 1rem 0.6rem 2.8rem;
+            margin-bottom: 0.4rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+            position: relative;
+            font-size: 0.9rem;
+        }
+        .structure-list li::before {
+            counter-increment: slide;
+            content: counter(slide);
+            position: absolute;
+            left: 1rem;
+            top: 0.6rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #2E75B6;
+        }
+
+        .info-box {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 8px;
+            padding: 1rem 1.2rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: #166534;
+        }
+        .info-box strong { color: #15803d; }
+
+        .eval-box {
+            background: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-radius: 8px;
+            padding: 1rem 1.2rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: #0c4a6e;
+        }
+        .eval-box strong { color: #0369a1; }
+
+        .warning-box {
+            background: #fefce8;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 1rem 1.2rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: #854d0e;
+        }
+
+        .section-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            border-left: 4px solid #0EA5E9;
+        }
+        .section-card .sc-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1F4E79;
+            margin-bottom: 0.5rem;
+        }
+
+        .dynamics-list {
+            list-style: none;
+            padding: 0;
+            counter-reset: dyn;
+        }
+        .dynamics-list li {
+            padding: 0.5rem 0 0.5rem 2.5rem;
+            position: relative;
+            font-size: 0.95rem;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .dynamics-list li:last-child { border-bottom: none; }
+        .dynamics-list li::before {
+            counter-increment: dyn;
+            content: counter(dyn);
+            position: absolute;
+            left: 0.5rem;
+            top: 0.5rem;
+            width: 1.4rem;
+            height: 1.4rem;
+            background: #0EA5E9;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.5rem; }
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trabajo final</h1>
+    <p>Economia Internacional — UMET 2026</p>
+</header>
+
+<div class="container">
+
+    <a class="back" href="index.html">&larr; Volver al inicio</a>
+
+    <h2>De que se trata?</h2>
+    <p>
+        Cada estudiante debera realizar una <strong>presentacion oral con soporte visual</strong>
+        (PowerPoint, PDF o equivalente) sobre un caso de insercion internacional vinculado
+        con los contenidos de la materia: un sector, una cadena productiva, una empresa,
+        un pais o un acuerdo regional, preferentemente con referencia a <strong>Argentina o America Latina</strong>.
+    </p>
+    <p>
+        La modalidad es <strong>individual</strong>. Se permite trabajar en colaboracion con otros estudiantes
+        e incluso elegir la misma tematica, siempre que cada uno se concentre en un topico
+        o angulo diferente del mismo tema.
+    </p>
+
+    <div class="info-box">
+        <strong>El objetivo</strong> es formular una pregunta clara, analizar un caso concreto
+        y aplicar conceptos de la materia para construir una interpretacion propia,
+        apoyada en bibliografia y evidencia empirica.
+    </div>
+
+    <h2>Cronograma</h2>
+    <ol class="timeline">
+        <li><strong>26 de marzo (Sesion 1)</strong> — Presentacion de temas y consigna</li>
+        <li><strong>2 de abril</strong> — Entrega en campus de propuesta inicial (1 carilla en Word)</li>
+        <li><strong>~9 de abril (Sesion 2)</strong> — Devolucion del docente con feedback</li>
+        <li><strong>4 de junio</strong> — Entrega de la presentacion + ficha tecnica en campus</li>
+        <li><strong>~5-6 de junio</strong> — El docente asigna evaluador y envia guia de evaluacion</li>
+        <li><strong>18 de junio (Sesion 12)</strong> — Coloquio: presentacion + defensa + rol evaluador</li>
+    </ol>
+
+    <h2>Propuesta inicial (entrega: 2 de abril)</h2>
+    <p>Entregar por campus un documento Word de <strong>una carilla</strong> con:</p>
+    <ul class="req-list">
+        <li>Nombre del estudiante</li>
+        <li>Tema elegido (de la lista o propuesta propia)</li>
+        <li>Pregunta de investigacion preliminar</li>
+        <li>Fuentes de informacion y datos que planean usar</li>
+        <li>Autores o marcos teoricos que piensan utilizar</li>
+    </ul>
+    <p>El docente revisara las propuestas y devolvera feedback antes de la Sesion 2.</p>
+
+    <h2>Temas sugeridos</h2>
+    <p>
+        Las preguntas guia, ejes, autores y datos son <strong>orientativos</strong>.
+        Se valora especialmente que el estudiante formule preguntas propias, incorpore autores
+        no listados aqui o proponga un recorte original. Tambien pueden proponer un tema diferente,
+        previa aprobacion de la catedra.
+    </p>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">1. Complejo automotriz Argentina-Brasil en el Mercosur</div>
+                <div class="topic-units">U3, U5, U6</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> El comercio automotriz regional, genera especializacion eficiente, dependencia de ETN o ambas cosas?<br>
+            <strong>Ejes posibles:</strong> comercio intraindustrial, integracion regional, comercio intrafirma, tipo de cambio bilateral<br>
+            <strong>Autores/marcos:</strong> Krugman y comercio intraindustrial (U3); Porta e integracion productiva (U6); ETN y comercio intrafirma (U5)<br>
+            <strong>Datos sugeridos:</strong> comercio bilateral del sector, produccion y ventas, participacion de terminales extranjeras, contenido importado, empleo
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">2. Litio argentino y cadenas de valor verdes</div>
+                <div class="topic-units">U4, U5, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> Argentina participa solo como proveedora de recursos o puede capturar eslabones de mayor valor en la cadena del litio?<br>
+            <strong>Ejes posibles:</strong> recursos naturales e IED, CGV, upgrading, politica industrial, transicion energetica<br>
+            <strong>Autores/marcos:</strong> Prebisch y estructuralismo (U4); CGV y gobernanza (U5); ventajas comparativas dinamicas (U4)<br>
+            <strong>Datos sugeridos:</strong> exportaciones de litio (volumen, valor, destino), proyectos de inversion, encadenamientos locales, comparacion con Chile y Bolivia
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">3. Tierra del Fuego y la industria electronica</div>
+                <div class="topic-units">U4, U6</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> El regimen de Tierra del Fuego fue una experiencia de aprendizaje productivo o principalmente de ensamblaje protegido?<br>
+            <strong>Ejes posibles:</strong> industria naciente, proteccion efectiva, estructura de costos, balanza comercial sectorial, aprendizaje tecnologico<br>
+            <strong>Autores/marcos:</strong> industria naciente y politica comercial (U6); ventajas dinamicas y learning by doing (U4); proteccion efectiva (U6)<br>
+            <strong>Datos sugeridos:</strong> importaciones de insumos vs. exportaciones, empleo, valor agregado local, regimen promocional, comparacion con Manaos (Brasil)
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">4. Antidumping y proteccion en una rama industrial argentina</div>
+                <div class="topic-units">U3, U6</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> Las medidas de defensa comercial protegieron empleo y capacidades productivas o solo encarecieron productos?<br>
+            <strong>Ejes posibles:</strong> dumping y discriminacion de precios, proteccion efectiva, distribucion entre productores/consumidores/Estado, reglas OMC<br>
+            <strong>Autores/marcos:</strong> competencia imperfecta y dumping (U3); instrumentos de politica comercial (U6); efectos distributivos (U4)<br>
+            <strong>Datos sugeridos:</strong> medidas antidumping aplicadas (CNCE), produccion y empleo antes/despues, precios, importaciones por origen
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">5. Prebisch-Singer aplicado a una canasta exportadora latinoamericana</div>
+                <div class="topic-units">U4, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> Sigue siendo util la tesis del deterioro de los terminos del intercambio para la insercion externa actual?<br>
+            <strong>Ejes posibles:</strong> centro-periferia, terminos del intercambio, reprimarizacion, composicion exportadora, desarrollo desigual<br>
+            <strong>Autores/marcos:</strong> Prebisch y Singer (U4); estructuralismo CEPAL (U4); debates sobre reprimarizacion (U7)<br>
+            <strong>Datos sugeridos:</strong> precios internacionales de commodities, composicion exportadora, relacion de precios manufacturas/primarios, series largas de TDI
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">6. Acuerdo UE-Mercosur: oportunidades y amenazas para Argentina</div>
+                <div class="topic-units">U4, U6, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> El acuerdo amplia el acceso a mercados o expone a la industria argentina a una competencia insostenible?<br>
+            <strong>Ejes posibles:</strong> creacion y desvio de comercio, proteccion efectiva, asimetrias entre bloques, cuotas, ganadores y perdedores sectoriales<br>
+            <strong>Autores/marcos:</strong> integracion economica (U6, Porta); politica comercial (U6); estructura productiva desequilibrada (U4, Diamand)<br>
+            <strong>Datos sugeridos:</strong> comercio bilateral Argentina-UE, aranceles y cronograma de desgravacion, sectores sensibles, cuotas pactadas
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">7. Guerra comercial EE.UU.-China: efectos sobre un sector argentino/latinoamericano</div>
+                <div class="topic-units">U5, U6, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> La disputa entre potencias abrio oportunidades para la region o profundizo la dependencia?<br>
+            <strong>Ejes posibles:</strong> geopolitica del comercio, desvio de comercio, friend-shoring/nearshoring, reconfiguracion de CGV<br>
+            <strong>Autores/marcos:</strong> transformaciones recientes (U7); desvio de comercio (U6); CGV y relocalizacion (U5)<br>
+            <strong>Datos sugeridos:</strong> exportaciones del sector antes/despues de 2018, aranceles aplicados, cambios de destino comercial, IED recibida
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">8. Tipo de cambio real e insercion internacional de Argentina</div>
+                <div class="topic-units">U1, U4, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> Como incidio el tipo de cambio real sobre la estructura exportadora, la industria y la restriccion externa?<br>
+            <strong>Ejes posibles:</strong> competitividad, estructura productiva desequilibrada, desindustrializacion/reindustrializacion, politica cambiaria<br>
+            <strong>Autores/marcos:</strong> Diamand (U4); Frenkel y TCR (U1); Bresser-Pereira y tipo de cambio de desarrollo (U4)<br>
+            <strong>Datos sugeridos:</strong> ITCRM (BCRA), exportaciones e importaciones por rubro, saldo comercial, composicion sectorial, empleo industrial
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">9. Agroalimentos argentinos y barreras sanitarias/fitosanitarias</div>
+                <div class="topic-units">U6, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> Las barreras no arancelarias al agro argentino responden a proteccion sanitaria legitima o son proteccionismo encubierto?<br>
+            <strong>Ejes posibles:</strong> MNA, barreras tecnicas y sanitarias (SPS/TBT), acceso a mercados, OMC, politica comercial<br>
+            <strong>Autores/marcos:</strong> instrumentos de politica comercial y MNA (U6); CBAM y nuevas barreras (U7)<br>
+            <strong>Datos sugeridos:</strong> casos concretos (limones a EE.UU., carne a UE, biodiesel), evolucion de exportaciones, medidas aplicadas, resoluciones OMC
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">10. Comercio, genero y desigualdad distributiva</div>
+                <div class="topic-units">U3, U4, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> La apertura comercial afecta de manera diferenciada a hombres y mujeres en el mercado de trabajo?<br>
+            <strong>Ejes posibles:</strong> efectos distributivos del comercio, empleo por genero y sector, brecha salarial, sectores transables<br>
+            <strong>Autores/marcos:</strong> Stolper-Samuelson (U3); enfoques estructuralistas sobre desigualdad (U4); UNCTAD y comercio y genero (U7)<br>
+            <strong>Datos sugeridos:</strong> empleo femenino/masculino por sector, brecha salarial, composicion sectorial del empleo, datos CEPAL/OIT
+        </div>
+    </div>
+
+    <div class="topic-card" onclick="this.classList.toggle('open')">
+        <div class="topic-header">
+            <div>
+                <div class="topic-title">11. Integracion energetica regional en America del Sur</div>
+                <div class="topic-units">U5, U6, U7</div>
+            </div>
+            <span class="topic-arrow">&#9654;</span>
+        </div>
+        <div class="topic-detail">
+            <strong>Pregunta guia:</strong> La integracion energetica puede funcionar como plataforma de integracion productiva o queda limitada a commodities?<br>
+            <strong>Ejes posibles:</strong> IED en energia, infraestructura de integracion, Vaca Muerta, geopolitica energetica<br>
+            <strong>Autores/marcos:</strong> integracion economica (U6, Porta); CGV en recursos naturales (U5); transicion verde (U7)<br>
+            <strong>Datos sugeridos:</strong> flujos de energia entre paises, proyectos de inversion, exportaciones de gas/petroleo, acuerdos bilaterales, interconexion electrica
+        </div>
+    </div>
+
+    <h2>Requisitos de la presentacion</h2>
+
+    <ul class="req-list">
+        <li>8 a 10 diapositivas de contenido (sin contar portada y fuentes)</li>
+        <li>No mas de 5 lineas por diapositiva, salvo cuadros, graficos o citas</li>
+        <li>Al menos 2 graficos, cuadros o tablas elaborados por el estudiante a partir de fuentes reales</li>
+        <li>Ultima diapositiva con bibliografia y fuentes</li>
+        <li>Formular una pregunta de investigacion clara, no meramente descriptiva</li>
+        <li>Utilizar al menos dos marcos teoricos o autores del curso</li>
+        <li>Incluir una discusion de politica economica</li>
+        <li>Presentar una conclusion propia con balance critico</li>
+    </ul>
+
+    <h2>Estructura sugerida</h2>
+    <ol class="structure-list">
+        <li>Titulo y pregunta del trabajo</li>
+        <li>Relevancia del caso elegido</li>
+        <li>Marco conceptual / enfoque 1</li>
+        <li>Marco conceptual / enfoque 2</li>
+        <li>Evidencia empirica 1</li>
+        <li>Evidencia empirica 2</li>
+        <li>Analisis e interpretacion</li>
+        <li>Discusion de politica economica</li>
+        <li>Conclusion</li>
+        <li>Fuentes y bibliografia</li>
+    </ol>
+
+    <h2>Exposicion, defensa oral y rol de evaluador</h2>
+    <p>
+        Ademas de presentar su propio trabajo, cada estudiante tendra asignado el trabajo de un companero
+        para evaluar. La asignacion la realizara el docente buscando que los temas sean cercanos
+        para enriquecer el dialogo.
+    </p>
+    <p>
+        El objetivo no es "poner nota" al companero, sino generar un intercambio
+        que permita a ambos <strong>internalizar mejor las tematicas</strong>.
+        El evaluador aprende tanto como el presentador.
+    </p>
+
+    <div class="section-card">
+        <div class="sc-title">Dinamica del coloquio</div>
+        <ol class="dynamics-list">
+            <li>El estudiante presenta su trabajo (8-10 minutos)</li>
+            <li>El evaluador asignado realiza sus preguntas (3-5 minutos)</li>
+            <li>El docente realiza preguntas adicionales (3-5 minutos)</li>
+            <li>Dialogo abierto si el tiempo lo permite</li>
+        </ol>
+    </div>
+
+    <div class="section-card">
+        <div class="sc-title">Guia para el evaluador</div>
+        <p style="margin-top: 0.5rem; margin-bottom: 0.5rem;"><strong>Parte A — Analisis de la presentacion</strong></p>
+        <ul class="req-list">
+            <li>La pregunta de investigacion esta claramente formulada? Es analitica o descriptiva?</li>
+            <li>Los marcos teoricos elegidos son pertinentes para el caso? Estan bien aplicados?</li>
+            <li>Las fuentes de datos son confiables y estan correctamente citadas?</li>
+            <li>Los graficos o tablas respaldan el argumento o son decorativos?</li>
+            <li>La conclusion se desprende del analisis o es generica?</li>
+        </ul>
+        <p style="margin-bottom: 0.5rem;"><strong>Parte B — Investigacion propia del evaluador</strong></p>
+        <ul class="req-list">
+            <li>Buscar al menos <strong>una fuente adicional</strong> relevante para el tema del companero y explicar que aportaria</li>
+            <li>Identificar <strong>un aspecto no abordado</strong> y formular una pregunta al respecto</li>
+            <li>Preparar al menos <strong>2 preguntas para la defensa oral</strong>: una sobre el marco teorico y una sobre la evidencia</li>
+        </ul>
+    </div>
+
+    <h2>Uso de herramientas de IA</h2>
+    <div class="info-box">
+        <strong>Se permite</strong> usar IA para lluvia de ideas, organizacion preliminar, mejora de redaccion y busqueda de fuentes.
+    </div>
+    <div class="warning-box">
+        <strong>No se permite</strong> delegar en IA la interpretacion de los datos, la construccion del argumento central,
+        la formulacion de conclusiones ni la respuesta a las preguntas de la defensa oral.
+        Todo uso de IA debera ser declarado brevemente en la ficha tecnica.
+    </div>
+
+    <h2>Criterios de evaluacion</h2>
+    <div class="eval-box">
+        Se evaluara:
+        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
+            <li>Claridad de la pregunta y delimitacion del tema</li>
+            <li>Manejo de conceptos y autores del curso</li>
+            <li>Calidad de la evidencia empirica y las fuentes</li>
+            <li>Capacidad de analisis y argumentacion propia</li>
+            <li>Discusion de politica economica</li>
+            <li>Claridad de la exposicion oral y capacidad de responder preguntas</li>
+            <li>Desempeno como evaluador de un companero</li>
+        </ul>
+    </div>
+    <p>
+        No se aceptaran trabajos puramente descriptivos. No sera suficiente resumir bibliografia
+        o copiar informacion de internet. Se valorara especialmente la capacidad de
+        <strong>relacionar teoria, datos y politica economica</strong>.
+    </p>
+
+</div>
+
+<footer>
+    Economia Internacional — UMET 2026<br>
+    Licenciatura en Economia
+</footer>
+
+</body>
+</html>
