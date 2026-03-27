@@ -17,6 +17,7 @@ Economia Internacional/
 ├── CLAUDE.md                    # Este archivo de contexto
 ├── .gitignore                   # Exclusiones de git (caches, temporales)
 ├── index.html                   # Landing page del curso (GitHub Pages)
+├── coloquio.html                # Subpágina: consigna trabajo final, temas, guía evaluador
 ├── notebooks.html               # Subpágina: ejercicios con datos (instrucciones + links)
 ├── asistente-ia.html            # Subpágina: NotebookLM como asistente de estudio
 │
@@ -127,9 +128,37 @@ Esta pregunta guía todo el curso y se aborda desde distintas perspectivas en ca
 | Eval U7 | Sesión 11 (11/06) | 18/06 |
 
 ### Coloquio final (Sesión 12 — 18/06)
-- Presentaciones **grupales** de casos reales
-- Asignar casos en sesión 9 o 10 (dar 2-3 semanas de preparación)
-- Evaluativo: aprobado/desaprobado
+- Presentaciones **individuales** aplicadas (PPT 8-10 slides + defensa oral)
+- Se permite colaboración y misma temática, pero cada estudiante trabaja un ángulo diferente
+- **Evaluación entre pares**: cada estudiante evalúa el trabajo de un compañero (temas cercanos)
+- El evaluador debe: analizar la presentación (Parte A) + investigar por su cuenta (Parte B: fuente adicional + preguntas)
+- Dinámica: presentación (8-10 min) → preguntas del evaluador (3-5 min) → preguntas del docente (3-5 min)
+- Rúbrica interna (no se publica): 55% presentación, 20% defensa oral, 25% rol evaluador
+- Archivos: `Clases/sesion12/consignas.md` (público), `docente/rubrica_coloquio.md` (privado)
+- Página web: `coloquio.html`
+
+#### Cronograma del coloquio
+| Fecha | Instancia |
+|-------|-----------|
+| 26/03 (S1) | Presentación de temas y consigna |
+| 09/04 | Entrega propuesta inicial (1 carilla Word en campus) |
+| ~16/04 (S3) | Devolución del docente con feedback |
+| 04/06 | Entrega PPT + ficha técnica en campus |
+| ~05-06/06 | Docente asigna evaluador + envía guía |
+| 18/06 (S12) | Coloquio |
+
+#### 11 temas sugeridos
+1. Complejo automotriz Argentina-Brasil en el Mercosur (U3, U5, U6)
+2. Litio argentino y cadenas de valor verdes (U4, U5, U7)
+3. Tierra del Fuego y la industria electrónica (U4, U6)
+4. Antidumping y protección en una rama industrial argentina (U3, U6)
+5. Prebisch-Singer aplicado a una canasta exportadora latinoamericana (U4, U7)
+6. Acuerdo UE-Mercosur: oportunidades y amenazas para Argentina (U4, U6, U7)
+7. Guerra comercial EE.UU.-China: efectos sobre un sector argentino/latinoamericano (U5, U6, U7)
+8. Tipo de cambio real e inserción internacional de Argentina (U1, U4, U7)
+9. Agroalimentos argentinos y barreras sanitarias/fitosanitarias (U6, U7)
+10. Comercio, género y desigualdad distributiva (U3, U4, U7)
+11. Integración energética regional en América del Sur (U5, U6, U7)
 
 ### Recuperatorio (25/06)
 - MC presencial para quienes reprobaron alguna evaluación
@@ -255,7 +284,7 @@ Al iniciar una clase nueva, **SIEMPRE leer el README.md de la unidad correspondi
 ### Por hacer
 - [ ] Sesiones 6-11 — Por armar
 - [ ] Evaluaciones U3-U7 — Pendientes
-- [ ] Consignas del coloquio (sesión 12)
+- [x] Consignas del coloquio (sesión 12) — individual, evaluación entre pares, 11 temas
 - [ ] Notebook 2 — Comercio intraindustrial / Grubel-Lloyd (para S5)
 - [ ] Notebook 3 — Efecto de un arancel / integración (para S10)
 
@@ -321,6 +350,7 @@ La carpeta `docente/` está en `.gitignore` y **nunca se sube a GitHub**. Contie
 | Página | URL | Contenido |
 |--------|-----|-----------|
 | Landing page | `index.html` | Portal principal con sesiones, bibliografía, herramientas, evaluaciones, programa |
+| Coloquio | `coloquio.html` | Consigna del trabajo final, 11 temas (cards colapsables), cronograma, guía evaluador, requisitos |
 | Notebooks | `notebooks.html` | Qué son, cómo funcionan (8 pasos), FAQ, cards por notebook |
 | Asistente IA | `asistente-ia.html` | NotebookLM con bibliografía del curso, ejemplos de preguntas, tips |
 | Bibliografía raíz | `bibliografia/index.html` | Manuales compartidos + links a las 7 unidades |
