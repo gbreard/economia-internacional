@@ -1510,9 +1510,10 @@ Empezamos con los indicadores más básicos: los que miden el comercio en sí mi
 
 **Contenido**:
 - **Mide cuánto creció o cayó el volumen de comercio mundial respecto a un año de referencia** (número índice, año base = 100)
-- Fórmula: I_t = 100 × (Comercio_t / Comercio_base)
+- Fórmula: $I_t = 100 \times \frac{Comercio_t}{Comercio_{base}}$
+- $I_t$ = índice en el año $t$ | $Comercio_t$ = volumen de comercio en el año $t$ | $Comercio_{base}$ = volumen en el año base
 - Año base típico: 1913 = 100 (pico pre-guerra)
-- Si I_t = 200 → comercio es el doble del año base
+- Si $I_t = 200$ → comercio es el doble del año base
 - Permite comparar a través del tiempo sin distorsión de precios
 
 **Notas docente**:
@@ -1571,7 +1572,8 @@ RESPUESTA: Porque las reglas no volvieron (patrón oro inestable, aranceles alto
 
 **Contenido**:
 - **Mide qué porción de la torta del comercio mundial le corresponde a cada región o país** (en % de las exportaciones mundiales)
-- Fórmula: s_r = (X_r / X_mundo) × 100
+- Fórmula: $s_r = \frac{X_r}{X_{mundo}} \times 100$
+- $s_r$ = participación de la región $r$ (en %) | $X_r$ = exportaciones de la región | $X_{mundo}$ = exportaciones mundiales totales
 - Permite ver quién "gana" y quién "pierde" participación
 - Europa dominó el siglo XIX; Asia crece en el XXI
 
@@ -1628,10 +1630,11 @@ LO QUE VIENE DESPUÉS (no está en el gráfico):
 **Título**: Indicador 3: Concentración (HHI)
 
 **Contenido**:
-- **Mide si el comercio mundial está dominado por pocos países o repartido entre muchos** (índice de 0 a 10.000)
-- Fórmula: HHI = Σ(s_i)² donde s_i es la participación de cada país
-- HHI < 1.500: mercado competitivo (muchos países participan)
-- HHI > 2.500: mercado concentrado (pocos países dominan)
+- **Mide si el comercio mundial está dominado por pocos países o repartido entre muchos** (índice de 0 a 1)
+- Fórmula: $HHI = \sum (s_i)^2$
+- $HHI$ = índice Herfindahl-Hirschman (de 0 a 1) | $s_i$ = participación del país/región $i$ en las exportaciones mundiales (como proporción, ej: 0.15 = 15%)
+- $HHI < 0.15$: mercado diversificado (muchos participan)
+- $HHI > 0.25$: mercado concentrado (pocos dominan)
 
 **Notas docente**:
 INDICADOR 3: CONCENTRACIÓN HHI (8 minutos)
@@ -1641,9 +1644,15 @@ INDICADOR 3: CONCENTRACIÓN HHI (8 minutos)
 - ¿Dominan pocos países o está diversificado?
 
 LA FÓRMULA:
+- Cada participación se expresa como proporción (15% = 0.15)
 - Se eleva al cuadrado para penalizar concentración
-- Si un país tiene 50%, aporta 2.500 al HHI
-- Si 10 países tienen 10% cada uno, aportan 1.000 total
+- Si una región tiene 50% (0.50), aporta 0.25 al HHI
+- Si 10 regiones tienen 10% cada una, aportan 0.10 total
+- Mínimo teórico: 0 (infinitos actores iguales) | Máximo: 1 (uno solo domina)
+
+EJEMPLO NUMÉRICO EN PIZARRÓN:
+- 4 regiones iguales (25% cada una): HHI = 4 × 0.25² = 0.25
+- 1 región con 60% + 4 con 10%: HHI = 0.36 + 4×0.01 = 0.40
 
 ¿POR QUÉ IMPORTA?
 - Comercio concentrado = más vulnerable
@@ -1651,37 +1660,41 @@ LA FÓRMULA:
 - Argentina dependía de UK en 1900
 - Hoy muchos países dependen de China
 
-EJEMPLO:
-- HHI del comercio global ≈ 500 (bastante diversificado)
-- HHI de exportaciones de un país pequeño puede ser 3.000+ (concentrado)
+DATO ACTUAL:
+- HHI del comercio global por regiones ≈ 0.25 (moderado)
+- En 1800 era ~0.70 (Europa dominaba sola)
 
 ---
 
 #### Slide 39: Gráfico HHI
 **Tipo**: grafico_texto
-**Título**: Concentración del comercio (HHI)
+**Título**: Concentración regional del comercio (HHI)
 
 **Contenido**:
-- 1800: HHI alto (pocos países comercian)
-- 1913: HHI más bajo (más países participan)
-- Hoy: HHI bajo pero China crece rápido
-- Tendencia reciente: ¿reconcentración?
+- Calculado por **regiones** (Europa, Asia, Am. del Norte, etc.) para mantener consistencia de la serie larga
+- 1800: HHI ~0.7 — Europa domina el comercio mundial
+- 1913: diversificación pre-WWI, más regiones participan
+- 2000: mínimo histórico (~0.22) — globalización plena
+- 2023: leve repunte — Asia alcanza 36%, ¿reconcentración?
 
 **Gráfico**: graficos/hhi.png
-**Fuente**: Federico-Tena World Trade Historical Database
+**Fuente**: FTWTHD (1800-1938), OMC/UNCTAD (1950-2023)
 
 **Notas docente**:
 LECTURA DEL GRÁFICO (5 minutos)
 
 OBSERVAR:
-- La caída del HHI a lo largo del tiempo
-- Significa que más países participan
-- El comercio se 'democratizó'
+- La caída del HHI de 0.7 a 0.22 en dos siglos
+- Significa que más regiones participan del comercio
+- El comercio se 'democratizó' regionalmente
+- Pero desde ~2010 hay un leve repunte: Asia concentra cada vez más
 
 PREGUNTA ACTUAL:
-'¿Estamos volviendo a concentrarnos con China?'
+'¿Estamos volviendo a concentrarnos?'
 
-RESPUESTA: Parcialmente. China tiene 15% del comercio mundial. No es como UK en 1900 (30%), pero es mucho.
+RESPUESTA: Parcialmente. Asia pasó de 13% (1950) a 36% (2023). No es como Europa en 1800 (que dominaba sola), pero la tendencia es clara. China sola tiene 14% del comercio mundial — más que toda América Latina.
+
+NOTA: el gráfico usa regiones (como el FTWTHD) para mantener consistencia en la serie larga. Si se hiciera por país, el HHI sería más bajo pero la tendencia sería la misma.
 
 ---
 
@@ -1738,9 +1751,10 @@ Estos indicadores responden: ¿Le va bien o mal a este país en el comercio inte
 
 **Contenido**:
 - **Mide si un país vende al mundo más de lo que le compra o al revés** (en millones de USD FOB, o como % del PIB)
-- Fórmula: BC = X - M (exportaciones menos importaciones)
-- BC > 0: superávit comercial (exporta más)
-- BC < 0: déficit comercial (importa más)
+- Fórmula: $BC = X - M$
+- $BC$ = balanza comercial (en millones de USD o % del PIB) | $X$ = exportaciones | $M$ = importaciones
+- $BC > 0$: superávit comercial (exporta más)
+- $BC < 0$: déficit comercial (importa más)
 
 **Notas docente**:
 INDICADOR 5: BALANZA COMERCIAL (5 minutos)
@@ -1828,7 +1842,8 @@ NOTEBOOK: El Notebook 1 compara estos mismos 5 países (Argentina, Brasil, Chile
 
 **Contenido**:
 - **Mide cuánto pesa el comercio internacional en la economía de un país** (en % del PIB)
-- Fórmula: Apertura = (X + M) / PIB × 100
+- Fórmula: $Apertura = \frac{X + M}{PIB} \times 100$
+- $X$ = exportaciones | $M$ = importaciones | $PIB$ = producto interno bruto (todo en USD corrientes)
 - Países grandes (EEUU, Brasil): apertura baja (~25-30%)
 - Países pequeños (Singapur, Bélgica): apertura alta (>100%)
 
@@ -1895,9 +1910,10 @@ NOTEBOOK: En el Notebook 1, la Tarea 2 les pide calcular cuánto cambió la aper
 
 **Contenido**:
 - **Mide cuántas importaciones puede comprar un país con sus exportaciones** (número índice, base 100)
-- Fórmula: ToT = (Precio exportaciones / Precio importaciones) × 100
-- ToT > 100: mejora (las export valen más que las import)
-- ToT < 100: deterioro (las export valen menos)
+- Fórmula: $ToT = \frac{P_{exportaciones}}{P_{importaciones}} \times 100$
+- $ToT$ = términos del intercambio (número índice) | $P_{exportaciones}$ = índice de precios de lo que vendemos | $P_{importaciones}$ = índice de precios de lo que compramos
+- $ToT > 100$: mejora (las export valen más que las import)
+- $ToT < 100$: deterioro (las export valen menos)
 - Clave para países exportadores de commodities
 
 **Notas docente**:
@@ -2030,9 +2046,10 @@ Si CC < 0 (déficit), debe financiarse con CF > 0 (entrada de capitales o pérdi
 
 **Contenido**:
 - **Mide si un país está ganando o perdiendo divisas en su relación con el resto del mundo** (en millones de USD, o como % del PIB)
-- Fórmula: CC/PIB × 100
-- CC > 0: el país gana divisas (superávit)
-- CC < 0: el país pierde divisas (déficit) → si persiste, eventualmente crisis
+- Fórmula: $\frac{CC}{PIB} \times 100$
+- $CC$ = saldo de cuenta corriente (en millones de USD) | $PIB$ = producto interno bruto
+- $CC > 0$: el país gana divisas (superávit)
+- $CC < 0$: el país pierde divisas (déficit) → si persiste, eventualmente crisis
 
 **Notas docente**:
 INDICADOR 8: CUENTA CORRIENTE (8 minutos)
@@ -2098,89 +2115,152 @@ NOTEBOOK: Estos mismos ciclos (déficit 90s, superávit 2002, déficit 2010s) so
 #### Slide 53: Identidad ahorro-inversión
 **Tipo**: grafico_progresivo
 **Título**: La identidad ahorro-inversión
-**Subtítulo**: Por qué el déficit fiscal termina en crisis externa
+**Subtítulo**: De la contabilidad nacional al sector externo
 
 **Paso 1**:
 **Gráfico**: graficos/identidad_ahorro_inversion_paso1.png
 **Contenido**:
-- CC = (S - I) = (S_priv - I_priv) + (T - G)
+- $CC = (S_{privado} - I) + (T - G)$
 
 **Paso 2**:
 **Gráfico**: graficos/identidad_ahorro_inversion_paso2.png
 **Contenido**:
-- Balance externo = Balance privado + Balance fiscal
+- $CC$ = Cuenta Corriente | $(S_{priv} - I)$ = resultado privado | $(T - G)$ = resultado fiscal
 
 **Paso 3**:
 **Gráfico**: graficos/identidad_ahorro_inversion_paso3.png
 **Contenido**:
-- Argentina: déficit fiscal + bajo ahorro privado = déficit externo → crisis de balanza de pagos
+- Déficit fiscal → más demanda interna → más importaciones → déficit externo → necesidad de financiamiento
+
+**Paso 4**:
+**Gráfico**: graficos/identidad_ahorro_inversion_paso4.png
+**Contenido**:
+- Argentina: déficit fiscal persistente + bajo ahorro privado → déficit de CC → endeudamiento → crisis
 
 **Fuente**: Elaboración propia
 
 **Notas docente**:
-LA IDENTIDAD AHORRO-INVERSIÓN (8 minutos)
+LA IDENTIDAD AHORRO-INVERSIÓN (10 minutos)
 
-LA ECUACIÓN:
-CC = (S_privado - I_privado) + (T - G)
+PASO 1 — LA IDENTIDAD (2 minutos)
+'Esto NO es una teoría, es una identidad contable. Siempre se cumple, como 1+1=2.'
+La cuenta corriente es, por definición, igual al ahorro nacional menos la inversión.
+Se puede descomponer en dos partes: lo que hace el sector privado (ahorra menos de lo que invierte, o al revés) y lo que hace el gobierno (recauda más o menos de lo que gasta).
 
-EN PALABRAS:
-- La cuenta corriente = ahorro nacional - inversión
-- Se descompone en balance privado + balance fiscal
+PASO 2 — LOS TRES BALANCES (3 minutos)
+Definir cada variable:
+- CC = saldo de cuenta corriente (lo que vimos en el indicador 8)
+- S_priv = ahorro de familias y empresas
+- I = inversión (pública y privada)
+- T = recaudación tributaria
+- G = gasto público
 
-CASO ARGENTINA:
-- Déficit fiscal crónico (T < G)
-- Ahorro privado bajo
-- Resultado: déficit de CC persistente
-- Se financia con deuda → crisis
+PREGUNTA: '¿Qué pasa con la CC si el gobierno gasta más de lo que recauda y el sector privado no compensa?'
+RESPUESTA: Aparece déficit externo.
 
-POR ESO:
-- El FMI pide ajuste fiscal
-- Saben que déficit fiscal = déficit externo
+PASO 3 — EL MECANISMO (3 minutos)
+OJO: la identidad es contable, no causal. Pero hay un mecanismo económico:
+- Déficit fiscal → el gobierno gasta más de lo que recauda
+- Eso genera más demanda interna (consumo + gasto público)
+- Más demanda interna → más importaciones / presión sobre el tipo de cambio
+- Si el sector privado no compensa ahorrando más → aparece déficit de CC
+- El déficit de CC hay que financiarlo (deuda externa, IED, reservas)
+
+IMPORTANTE: No es automático ni inevitable. Depende de: tipo de cambio (fijo vs flotante), acceso a financiamiento externo, comportamiento del sector privado. Por eso decimos "puede generar" déficit externo, no "siempre genera".
+
+PASO 4 — ARGENTINA (2 minutos)
+El caso argentino es paradigmático porque se dan las dos condiciones:
+- Déficit fiscal crónico (T < G, salvo 2003-2008)
+- Ahorro privado relativamente bajo
+- Resultado: déficit de CC recurrente → financiado con deuda → crisis cuando se corta el financiamiento
+
+EJEMPLOS: Convertibilidad (déficit fiscal + CC → 2001), 2016-2018 (idem con Macri)
+
+CONEXIÓN: 'Esto explica por qué el FMI siempre pide ajuste fiscal. No es ideología: es que en la identidad, si baja (T-G), sube CC. Es aritmética.'
 
 ---
 
-#### Slide 54: Indicador 9 - TCR
+#### Slide 54: Indicador 9 - TCR bilateral
 **Tipo**: formula
 **Título**: Indicador 9: Tipo de cambio real
 
 **Contenido**:
-- **Mide si un país es caro o barato en dólares, ajustando por la inflación** (número índice; en Argentina se usa el ITCRM del BCRA)
-- Fórmula: TCR = e × P* / P
-- e = tipo de cambio nominal, P* = precios externos, P = precios internos
-- TCR alto = peso barato (competitivo)
-- TCR bajo = peso caro (no competitivo)
+- **Mide si un país es caro o barato en dólares, ajustando por la inflación**
+- Fórmula bilateral: $TCR_i = \frac{E_i \times P_i^*}{P}$
+- $E_i$ = tipo de cambio nominal con el país $i$ | $P_i^*$ = nivel de precios del país $i$ | $P$ = nivel de precios de Argentina
+- $TCR$ alto = peso barato (competitivo) | $TCR$ bajo = peso caro (no competitivo)
+- Pero Argentina comercia con muchos países → necesitamos un indicador **multilateral**
 
 **Notas docente**:
-INDICADOR 9: TIPO DE CAMBIO REAL (10 minutos)
+INDICADOR 9: TIPO DE CAMBIO REAL — PARTE 1 (5 minutos)
 
-LO MÁS IMPORTANTE DE LA CLASE
+LO MÁS IMPORTANTE DE LA CLASE — arrancamos con la versión simple.
 
 ¿QUÉ MIDE?
 - Si el país es 'caro' o 'barato' en dólares
-- Ajusta el TC nominal por inflación
+- Ajusta el TC nominal por inflación relativa
 
-LA FÓRMULA:
-TCR = e × P* / P
-- e: pesos por dólar
-- P*: precios en EEUU
+LA FÓRMULA BILATERAL:
+TCR_i = E_i × P*_i / P
+- E_i: pesos por unidad de moneda del país i
+- P*_i: precios en el país i
 - P: precios en Argentina
 
-¿POR QUÉ IMPORTA?
-- Si la inflación argentina es mayor que la devaluación
-- El TCR BAJA (peso se aprecia en términos reales)
-- Argentina se vuelve 'cara'
-- Las exportaciones sufren, las importaciones crecen
+EJEMPLO NUMÉRICO EN PIZARRÓN:
+- Supongamos E = 1000 $/USD, P* = 100 (EEUU), P = 200 (Argentina)
+- TCR = 1000 × 100 / 200 = 500
+- Si Argentina tiene 50% de inflación y el dólar sube 20%:
+- E = 1200, P = 300, P* = 102
+- TCR = 1200 × 102 / 300 = 408 → el peso se apreció en términos reales
 
-EL CICLO ARGENTINO:
-- Estabilización → inflación baja pero no a cero
-- Dólar fijo o cuasi-fijo
-- TCR cae gradualmente
-- Eventualmente: crisis y devaluación
-- TCR salta → y el ciclo empieza de nuevo
+TRANSICIÓN: 'Esto mide contra un solo país. Pero Argentina comercia con Brasil, China, Europa, EEUU... ¿Cómo hacemos? Necesitamos un promedio ponderado. Eso es el ITCRM.'
 
 ---
 
-#### Slide 55: Gráfico TCR Argentina
+#### Slide 55: ITCRM
+**Tipo**: formula
+**Título**: ITCRM: el indicador que usa el BCRA
+
+**Contenido**:
+- El **ITCRM** es un promedio ponderado de los TCR bilaterales con cada socio comercial
+- Fórmula: $ITCRM = \prod_{i} (TCR_i)^{w_i}$
+- $TCR_i$ = tipo de cambio real bilateral con el país $i$ | $w_i$ = peso del país $i$ en el comercio argentino (exportaciones + importaciones)
+- **Tres cosas lo mueven**: ↑ dólar → ↑ ITCRM | ↑ inflación argentina → ↓ ITCRM | ↑ inflación socios → ↑ ITCRM
+- **Lo calcula y publica el BCRA diariamente** — serie descargable en bcra.gob.ar
+
+**Notas docente**:
+ITCRM — PARTE 2 (5 minutos)
+
+TRANSICIÓN DESDE SLIDE ANTERIOR: 'Vimos el TCR bilateral. Ahora, el BCRA toma ese cálculo, lo hace con cada socio comercial, y pondera por el peso de cada país en nuestro comercio. Eso es el ITCRM.'
+
+¿QUÉ ES EL ITCRM?
+- Índice de Tipo de Cambio Real Multilateral
+- Un promedio geométrico ponderado de los TCR bilaterales
+- Las ponderaciones reflejan la participación de cada socio en el comercio argentino
+
+¿ES UN DATO "DADO" O UNA CONSTRUCCIÓN?
+- En la práctica: sí, es un dato oficial. El BCRA lo publica todos los días, se descarga de su web y se usa directamente.
+- Pero en rigor: es un indicador construido. El BCRA define qué países incluye, qué ponderaciones usa, qué índices de precios toma y cuál es el año base.
+- Dos ITCRM distintos podrían existir si se cambian ponderaciones, países o índices de precios. Pero hay uno solo "oficial" y es el que se usa en análisis empírico.
+
+¿QUÉ LO MUEVE? (preguntar a los alumnos antes de mostrar)
+1. Tipo de cambio nominal: si sube el dólar → sube el ITCRM → más competitivo
+2. Inflación local: si sube la inflación argentina → baja el ITCRM → menos competitivo
+3. Inflación de socios: si sube la inflación en Brasil o Europa → sube el ITCRM → más competitivo
+
+EJEMPLO CLAVE PARA ARGENTINA:
+- Argentina devalúa → ITCRM sube (competitividad)
+- Pero si después hay inflación alta → el ITCRM vuelve a bajar ("se come la devaluación")
+- Por eso se habla de "ganar competitividad" (sube) vs "atraso cambiario" (baja)
+
+PREGUNTA PARA ESTUDIANTES: '¿Por qué no alcanza con devaluar para ser competitivo?'
+RESPUESTA: Porque si la inflación es alta, el efecto se diluye. La competitividad real requiere que el TCR se sostenga, no solo que pegue un salto.
+
+CONEXIÓN: En el gráfico que viene a continuación van a ver cómo el ITCRM se movió en Argentina desde 1997. Van a poder identificar las fases del ciclo que ya vimos: Convertibilidad (atraso), 2002 (salto), kirchnerismo (erosión gradual), Macri (salto y erosión), Milei (apreciación acelerada).
+
+---
+
+#### Slide 56: Gráfico TCR Argentina
 **Tipo**: grafico_texto
 **Título**: Tipo de cambio real Argentina (1997-2024)
 **Subtítulo**: El indicador que anticipa las crisis
@@ -2223,7 +2303,7 @@ FRASE CLAVE: 'El tipo de cambio sube por ascensor y baja por escalera'
 
 ---
 
-#### Slide 56: Gráfico reservas
+#### Slide 57: Gráfico reservas
 **Tipo**: grafico_texto
 **Título**: Reservas internacionales Argentina
 **Subtítulo**: El colchón contra las crisis
@@ -2258,7 +2338,7 @@ CUANDO LAS RESERVAS CAEN RÁPIDO:
 
 ### Sección: Hechos estilizados y desequilibrios
 
-#### Slide 57: Sección hechos estilizados
+#### Slide 58: Sección hechos estilizados
 **Tipo**: seccion
 **Título**: Hechos estilizados y desequilibrios
 **Subtítulo**: ¿Qué patrones vemos con estos indicadores?
@@ -2270,7 +2350,7 @@ Ya tenemos las herramientas. Ahora veamos qué patrones revelan.
 
 ---
 
-#### Slide 58: Desequilibrios globales
+#### Slide 59: Desequilibrios globales
 **Tipo**: grafico_texto
 **Título**: Desequilibrios globales: quién financia a quién
 
@@ -2300,7 +2380,7 @@ RESPUESTA: Porque emite dólares. Es el 'privilegio exorbitante'.
 
 ---
 
-#### Slide 59: Privilegio del dólar
+#### Slide 60: Privilegio del dólar
 **Tipo**: grafico_texto
 **Título**: El privilegio exorbitante del dólar
 **Subtítulo**: Por qué EEUU puede tener déficit permanente
@@ -2334,7 +2414,7 @@ ARGENTINA NO TIENE ESTE PRIVILEGIO:
 
 ---
 
-#### Slide 60: Asia post-1997
+#### Slide 61: Asia post-1997
 **Tipo**: grafico_progresivo
 **Título**: Asia: la lección de 1997
 **Subtítulo**: De deudores a acreedores
@@ -2378,7 +2458,7 @@ ARGENTINA:
 
 ### Sección: El caso argentino
 
-#### Slide 61: Sección caso argentino
+#### Slide 62: Sección caso argentino
 **Tipo**: seccion
 **Título**: El caso argentino
 **Subtítulo**: Aplicación de todos los indicadores
@@ -2390,7 +2470,7 @@ Ahora aplicamos TODO lo que vimos al caso que más nos importa: Argentina.
 
 ---
 
-#### Slide 62: El ciclo argentino
+#### Slide 63: El ciclo argentino
 **Tipo**: grafico_progresivo
 **Título**: El ciclo argentino
 **Subtítulo**: El patrón que se repite
@@ -2448,7 +2528,7 @@ EJEMPLOS:
 
 ---
 
-#### Slide 63: Convertibilidad
+#### Slide 64: Convertibilidad
 **Tipo**: grafico_progresivo
 **Título**: La Convertibilidad: caso de estudio
 **Subtítulo**: Todos los indicadores en acción
@@ -2500,7 +2580,7 @@ LA EXPLOSIÓN:
 
 ### Sección: Cierre
 
-#### Slide 64: Sección cierre
+#### Slide 65: Sección cierre
 **Tipo**: seccion
 **Título**: Cierre
 
@@ -2509,7 +2589,7 @@ TRANSICIÓN AL CIERRE (1 minuto)
 
 ---
 
-#### Slide 65: Resumen indicadores
+#### Slide 66: Resumen indicadores
 **Tipo**: grafico_progresivo
 **Título**: Resumen: los 9 indicadores
 
@@ -2543,7 +2623,7 @@ TRANSICIÓN: 'Ahora veamos dónde pueden encontrar los datos para calcular estos
 
 ---
 
-#### Slide 66: Fuentes de información
+#### Slide 67: Fuentes de información
 **Tipo**: texto
 **Título**: ¿Dónde buscar estos datos?
 **Subtítulo**: Fuentes principales por indicador
@@ -2579,7 +2659,7 @@ NOTEBOOK: Mencionar que en el Notebook 1 van a usar directamente la API del Banc
 
 ---
 
-#### Slide 67: Notebook 1 — Ejercicio con datos reales
+#### Slide 68: Notebook 1 — Ejercicio con datos reales
 **Tipo**: texto
 **Título**: Notebook 1: Indicadores de comercio mundial
 **Subtítulo**: Ejercicio práctico con datos del Banco Mundial
@@ -2614,7 +2694,7 @@ INSTRUCCIONES:
 
 ---
 
-#### Slide 68: Hechos estilizados: lo que aprendimos
+#### Slide 69: Hechos estilizados: lo que aprendimos
 **Tipo**: texto
 **Título**: Hechos estilizados: lo que aprendimos
 
@@ -2638,7 +2718,7 @@ Estos son los PATRONES que vimos:
 
 ---
 
-#### Slide 69: Próxima clase
+#### Slide 70: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase
 **Subtítulo**: Teorías del comercio
@@ -2665,7 +2745,7 @@ ventajas comparativas. Es un debate que sigue vigente.
 
 ---
 
-#### Slide 70: Material complementario
+#### Slide 71: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Videos y documentales recomendados
@@ -2699,7 +2779,7 @@ Si algún alumno pregunta por la relación entre estos temas y las teorías del 
 
 ---
 
-#### Slide 71: Asistente de estudio con IA
+#### Slide 72: Asistente de estudio con IA
 **Tipo**: texto
 **Título**: Asistente de estudio con IA
 **Subtítulo**: Toda la bibliografía del curso cargada en NotebookLM
@@ -2740,7 +2820,7 @@ CONEXIÓN CON LA GUÍA DE LECTURA:
 
 ---
 
-#### Slide 72: Guía de lectura
+#### Slide 73: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 1
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -2767,7 +2847,7 @@ La pregunta transversal integra todo: es la pregunta del parcial. Si pueden resp
 
 ---
 
-#### Slide 73: Preguntas
+#### Slide 74: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 1

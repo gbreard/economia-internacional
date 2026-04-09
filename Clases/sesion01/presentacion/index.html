@@ -1040,9 +1040,10 @@
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
         <li style="margin-bottom: 14px;"><strong>Mide cuánto creció o cayó el volumen de comercio mundial respecto a un año de referencia</strong> (número índice, año base = 100)</li>
-        <li style="margin-bottom: 14px;">Fórmula: I_t = 100 × (Comercio_t / Comercio_base)</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(I_t = 100 \times \frac{Comercio_t}{Comercio_{base}}\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(I_t\)</span> = índice en el año <span class="katex-inline">\(t\)</span> | <span class="katex-inline">\(Comercio_t\)</span> = volumen de comercio en el año <span class="katex-inline">\(t\)</span> | <span class="katex-inline">\(Comercio_{base}\)</span> = volumen en el año base</li>
         <li style="margin-bottom: 14px;">Año base típico: 1913 = 100 (pico pre-guerra)</li>
-        <li style="margin-bottom: 14px;">Si I_t = 200 → comercio es el doble del año base</li>
+        <li style="margin-bottom: 14px;">Si <span class="katex-inline">\(I_t = 200\)</span> → comercio es el doble del año base</li>
         <li style="margin-bottom: 14px;">Permite comparar a través del tiempo sin distorsión de precios</li>
     </ul>
   </section>
@@ -1089,7 +1090,8 @@
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
         <li style="margin-bottom: 14px;"><strong>Mide qué porción de la torta del comercio mundial le corresponde a cada región o país</strong> (en % de las exportaciones mundiales)</li>
-        <li style="margin-bottom: 14px;">Fórmula: s_r = (X_r / X_mundo) × 100</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(s_r = \frac{X_r}{X_{mundo}} \times 100\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(s_r\)</span> = participación de la región <span class="katex-inline">\(r\)</span> (en %) | <span class="katex-inline">\(X_r\)</span> = exportaciones de la región | <span class="katex-inline">\(X_{mundo}\)</span> = exportaciones mundiales totales</li>
         <li style="margin-bottom: 14px;">Permite ver quién "gana" y quién "pierde" participación</li>
         <li style="margin-bottom: 14px;">Europa dominó el siglo XIX; Asia crece en el XXI</li>
     </ul>
@@ -1136,14 +1138,15 @@
     </h2>
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
-        <li style="margin-bottom: 14px;"><strong>Mide si el comercio mundial está dominado por pocos países o repartido entre muchos</strong> (índice de 0 a 10.000)</li>
-        <li style="margin-bottom: 14px;">Fórmula: HHI = Σ(s_i)² donde s_i es la participación de cada país</li>
-        <li style="margin-bottom: 14px;">HHI &lt; 1.500: mercado competitivo (muchos países participan)</li>
-        <li style="margin-bottom: 14px;">HHI &gt; 2.500: mercado concentrado (pocos países dominan)</li>
+        <li style="margin-bottom: 14px;"><strong>Mide si el comercio mundial está dominado por pocos países o repartido entre muchos</strong> (índice de 0 a 1)</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(HHI = \sum (s_i)^2\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(HHI\)</span> = índice Herfindahl-Hirschman (de 0 a 1) | <span class="katex-inline">\(s_i\)</span> = participación del país/región <span class="katex-inline">\(i\)</span> en las exportaciones mundiales (como proporción, ej: 0.15 = 15%)</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(HHI &lt; 0.15\)</span>: mercado diversificado (muchos participan)</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(HHI &gt; 0.25\)</span>: mercado concentrado (pocos dominan)</li>
     </ul>
   </section>
 
-  <!-- SLIDE 39: Concentración del comercio (HHI) -->
+  <!-- SLIDE 39: Concentración regional del comercio (HHI) -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1153,20 +1156,21 @@
     height: 100vh; width: 100vw;
   ">
     <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
-      Concentración del comercio (HHI)
+      Concentración regional del comercio (HHI)
     </h2>
     <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
       <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
-        <img src="../graficos/hhi.png" alt="Concentración del comercio (HHI)"
+        <img src="../graficos/hhi.png" alt="Concentración regional del comercio (HHI)"
              style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
-        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Federico-Tena World Trade Historical Database</div>
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: FTWTHD (1800-1938), OMC/UNCTAD (1950-2023)</div>
       </div>
       <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
         <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
-          <li style="margin-bottom: 6px;">1800: HHI alto (pocos países comercian)</li>
-          <li style="margin-bottom: 6px;">1913: HHI más bajo (más países participan)</li>
-          <li style="margin-bottom: 6px;">Hoy: HHI bajo pero China crece rápido</li>
-          <li style="margin-bottom: 6px;">Tendencia reciente: ¿reconcentración?</li>
+          <li style="margin-bottom: 6px;">Calculado por <strong>regiones</strong> (Europa, Asia, Am. del Norte, etc.) para mantener consistencia de la serie larga</li>
+          <li style="margin-bottom: 6px;">1800: HHI ~0.7 — Europa domina el comercio mundial</li>
+          <li style="margin-bottom: 6px;">1913: diversificación pre-WWI, más regiones participan</li>
+          <li style="margin-bottom: 6px;">2000: mínimo histórico (~0.22) — globalización plena</li>
+          <li style="margin-bottom: 6px;">2023: leve repunte — Asia alcanza 36%, ¿reconcentración?</li>
         </ul>
       </div>
     </div>
@@ -1227,9 +1231,10 @@
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
         <li style="margin-bottom: 14px;"><strong>Mide si un país vende al mundo más de lo que le compra o al revés</strong> (en millones de USD FOB, o como % del PIB)</li>
-        <li style="margin-bottom: 14px;">Fórmula: BC = X - M (exportaciones menos importaciones)</li>
-        <li style="margin-bottom: 14px;">BC &gt; 0: superávit comercial (exporta más)</li>
-        <li style="margin-bottom: 14px;">BC &lt; 0: déficit comercial (importa más)</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(BC = X - M\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(BC\)</span> = balanza comercial (en millones de USD o % del PIB) | <span class="katex-inline">\(X\)</span> = exportaciones | <span class="katex-inline">\(M\)</span> = importaciones</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(BC &gt; 0\)</span>: superávit comercial (exporta más)</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(BC &lt; 0\)</span>: déficit comercial (importa más)</li>
     </ul>
   </section>
 
@@ -1304,7 +1309,8 @@
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
         <li style="margin-bottom: 14px;"><strong>Mide cuánto pesa el comercio internacional en la economía de un país</strong> (en % del PIB)</li>
-        <li style="margin-bottom: 14px;">Fórmula: Apertura = (X + M) / PIB × 100</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(Apertura = \frac{X + M}{PIB} \times 100\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(X\)</span> = exportaciones | <span class="katex-inline">\(M\)</span> = importaciones | <span class="katex-inline">\(PIB\)</span> = producto interno bruto (todo en USD corrientes)</li>
         <li style="margin-bottom: 14px;">Países grandes (EEUU, Brasil): apertura baja (~25-30%)</li>
         <li style="margin-bottom: 14px;">Países pequeños (Singapur, Bélgica): apertura alta (&gt;100%)</li>
     </ul>
@@ -1352,9 +1358,10 @@
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
         <li style="margin-bottom: 14px;"><strong>Mide cuántas importaciones puede comprar un país con sus exportaciones</strong> (número índice, base 100)</li>
-        <li style="margin-bottom: 14px;">Fórmula: ToT = (Precio exportaciones / Precio importaciones) × 100</li>
-        <li style="margin-bottom: 14px;">ToT &gt; 100: mejora (las export valen más que las import)</li>
-        <li style="margin-bottom: 14px;">ToT &lt; 100: deterioro (las export valen menos)</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(ToT = \frac{P_{exportaciones}}{P_{importaciones}} \times 100\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(ToT\)</span> = términos del intercambio (número índice) | <span class="katex-inline">\(P_{exportaciones}\)</span> = índice de precios de lo que vendemos | <span class="katex-inline">\(P_{importaciones}\)</span> = índice de precios de lo que compramos</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(ToT &gt; 100\)</span>: mejora (las export valen más que las import)</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(ToT &lt; 100\)</span>: deterioro (las export valen menos)</li>
         <li style="margin-bottom: 14px;">Clave para países exportadores de commodities</li>
     </ul>
   </section>
@@ -1462,9 +1469,10 @@
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
         <li style="margin-bottom: 14px;"><strong>Mide si un país está ganando o perdiendo divisas en su relación con el resto del mundo</strong> (en millones de USD, o como % del PIB)</li>
-        <li style="margin-bottom: 14px;">Fórmula: CC/PIB × 100</li>
-        <li style="margin-bottom: 14px;">CC &gt; 0: el país gana divisas (superávit)</li>
-        <li style="margin-bottom: 14px;">CC &lt; 0: el país pierde divisas (déficit) → si persiste, eventualmente crisis</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(\frac{CC}{PIB} \times 100\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(CC\)</span> = saldo de cuenta corriente (en millones de USD) | <span class="katex-inline">\(PIB\)</span> = producto interno bruto</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(CC &gt; 0\)</span>: el país gana divisas (superávit)</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(CC &lt; 0\)</span>: el país pierde divisas (déficit) → si persiste, eventualmente crisis</li>
     </ul>
   </section>
 
@@ -1499,7 +1507,7 @@
 
   <!-- SLIDE 53: La identidad ahorro-inversión -->
 
-  <section class="slide" data-steps="3" style="
+  <section class="slide" data-steps="4" style="
     background-color: #FFFFFF;
     display: flex; flex-direction: column;
     padding: 20px 35px 15px 35px;
@@ -1509,7 +1517,7 @@
     <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
       La identidad ahorro-inversión
     </h2>
-    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">Por qué el déficit fiscal termina en crisis externa</div>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">De la contabilidad nacional al sector externo</div>
       <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
         <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
           <img src="../graficos/identidad_ahorro_inversion_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
@@ -1517,7 +1525,7 @@
         </div>
         <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
           <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
-            <li style="margin-bottom: 6px;">CC = (S - I) = (S_priv - I_priv) + (T - G)</li>
+            <li style="margin-bottom: 6px;"><span class="katex-inline">\(CC = (S_{privado} - I) + (T - G)\)</span></li>
           </ul>
         </div>
       </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
@@ -1527,7 +1535,7 @@
         </div>
         <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
           <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
-            <li style="margin-bottom: 6px;">Balance externo = Balance privado + Balance fiscal</li>
+            <li style="margin-bottom: 6px;"><span class="katex-inline">\(CC\)</span> = Cuenta Corriente | <span class="katex-inline">\((S_{priv} - I)\)</span> = resultado privado | <span class="katex-inline">\((T - G)\)</span> = resultado fiscal</li>
           </ul>
         </div>
       </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
@@ -1537,12 +1545,22 @@
         </div>
         <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
           <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
-            <li style="margin-bottom: 6px;">Argentina: déficit fiscal + bajo ahorro privado = déficit externo → crisis de balanza de pagos</li>
+            <li style="margin-bottom: 6px;">Déficit fiscal → más demanda interna → más importaciones → déficit externo → necesidad de financiamiento</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="3" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/identidad_ahorro_inversion_paso4.png" alt="Paso 4" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Elaboración propia</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+            <li style="margin-bottom: 6px;">Argentina: déficit fiscal persistente + bajo ahorro privado → déficit de CC → endeudamiento → crisis</li>
           </ul>
         </div>
       </div>
     <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
-      Paso <span class="step-current">1</span> / 3
+      Paso <span class="step-current">1</span> / 4
     </div>
   </section>
 
@@ -1558,15 +1576,35 @@
     </h2>
     
     <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
-        <li style="margin-bottom: 14px;"><strong>Mide si un país es caro o barato en dólares, ajustando por la inflación</strong> (número índice; en Argentina se usa el ITCRM del BCRA)</li>
-        <li style="margin-bottom: 14px;">Fórmula: TCR = e × P* / P</li>
-        <li style="margin-bottom: 14px;">e = tipo de cambio nominal, P* = precios externos, P = precios internos</li>
-        <li style="margin-bottom: 14px;">TCR alto = peso barato (competitivo)</li>
-        <li style="margin-bottom: 14px;">TCR bajo = peso caro (no competitivo)</li>
+        <li style="margin-bottom: 14px;"><strong>Mide si un país es caro o barato en dólares, ajustando por la inflación</strong></li>
+        <li style="margin-bottom: 14px;">Fórmula bilateral: <span class="katex-inline">\(TCR_i = \frac{E_i \times P_i^*}{P}\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(E_i\)</span> = tipo de cambio nominal con el país <span class="katex-inline">\(i\)</span> | <span class="katex-inline">\(P_i^*\)</span> = nivel de precios del país <span class="katex-inline">\(i\)</span> | <span class="katex-inline">\(P\)</span> = nivel de precios de Argentina</li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(TCR\)</span> alto = peso barato (competitivo) | <span class="katex-inline">\(TCR\)</span> bajo = peso caro (no competitivo)</li>
+        <li style="margin-bottom: 14px;">Pero Argentina comercia con muchos países → necesitamos un indicador <strong>multilateral</strong></li>
     </ul>
   </section>
 
-  <!-- SLIDE 55: Tipo de cambio real Argentina (1997-2024) -->
+  <!-- SLIDE 55: ITCRM: el indicador que usa el BCRA -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 40px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.8rem; font-weight: 600; margin: 0 0 20px 0;">
+      ITCRM: el indicador que usa el BCRA
+    </h2>
+    
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.8; padding-left: 1.5em; flex-grow: 1;">
+        <li style="margin-bottom: 14px;">El <strong>ITCRM</strong> es un promedio ponderado de los TCR bilaterales con cada socio comercial</li>
+        <li style="margin-bottom: 14px;">Fórmula: <span class="katex-inline">\(ITCRM = \prod_{i} (TCR_i)^{w_i}\)</span></li>
+        <li style="margin-bottom: 14px;"><span class="katex-inline">\(TCR_i\)</span> = tipo de cambio real bilateral con el país <span class="katex-inline">\(i\)</span> | <span class="katex-inline">\(w_i\)</span> = peso del país <span class="katex-inline">\(i\)</span> en el comercio argentino (exportaciones + importaciones)</li>
+        <li style="margin-bottom: 14px;"><strong>Tres cosas lo mueven</strong>: ↑ dólar → ↑ ITCRM | ↑ inflación argentina → ↓ ITCRM | ↑ inflación socios → ↑ ITCRM</li>
+        <li style="margin-bottom: 14px;"><strong>Lo calcula y publica el BCRA diariamente</strong> — serie descargable en bcra.gob.ar</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 56: Tipo de cambio real Argentina (1997-2024) -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1595,7 +1633,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 56: Reservas internacionales Argentina -->
+  <!-- SLIDE 57: Reservas internacionales Argentina -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1624,7 +1662,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 57: Hechos estilizados y desequilibrios -->
+  <!-- SLIDE 58: Hechos estilizados y desequilibrios -->
 
   <section class="slide" style="
     background-color: #1F4E79;
@@ -1636,7 +1674,7 @@
     <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">¿Qué patrones vemos con estos indicadores?</div>
   </section>
 
-  <!-- SLIDE 58: Desequilibrios globales: quién financia a quién -->
+  <!-- SLIDE 59: Desequilibrios globales: quién financia a quién -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1665,7 +1703,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 59: El privilegio exorbitante del dólar -->
+  <!-- SLIDE 60: El privilegio exorbitante del dólar -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1694,7 +1732,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 60: Asia: la lección de 1997 -->
+  <!-- SLIDE 61: Asia: la lección de 1997 -->
 
   <section class="slide" data-steps="3" style="
     background-color: #FFFFFF;
@@ -1743,7 +1781,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 61: El caso argentino -->
+  <!-- SLIDE 62: El caso argentino -->
 
   <section class="slide" style="
     background-color: #1F4E79;
@@ -1755,7 +1793,7 @@
     <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Aplicación de todos los indicadores</div>
   </section>
 
-  <!-- SLIDE 62: El ciclo argentino -->
+  <!-- SLIDE 63: El ciclo argentino -->
 
   <section class="slide" data-steps="4" style="
     background-color: #FFFFFF;
@@ -1814,7 +1852,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 63: La Convertibilidad: caso de estudio -->
+  <!-- SLIDE 64: La Convertibilidad: caso de estudio -->
 
   <section class="slide" data-steps="3" style="
     background-color: #FFFFFF;
@@ -1863,7 +1901,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 64: Cierre -->
+  <!-- SLIDE 65: Cierre -->
 
   <section class="slide" style="
     background-color: #1F4E79;
@@ -1875,7 +1913,7 @@
     
   </section>
 
-  <!-- SLIDE 65: Resumen: los 9 indicadores -->
+  <!-- SLIDE 66: Resumen: los 9 indicadores -->
 
   <section class="slide" data-steps="3" style="
     background-color: #FFFFFF;
@@ -1924,7 +1962,7 @@
     </div>
   </section>
 
-  <!-- SLIDE 66: ¿Dónde buscar estos datos? -->
+  <!-- SLIDE 67: ¿Dónde buscar estos datos? -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1945,7 +1983,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 67: Notebook 1: Indicadores de comercio mundial -->
+  <!-- SLIDE 68: Notebook 1: Indicadores de comercio mundial -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1965,7 +2003,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 68: Hechos estilizados: lo que aprendimos -->
+  <!-- SLIDE 69: Hechos estilizados: lo que aprendimos -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -1985,7 +2023,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 69: Próxima clase -->
+  <!-- SLIDE 70: Próxima clase -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -2005,7 +2043,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 70: Material complementario -->
+  <!-- SLIDE 71: Material complementario -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -2026,7 +2064,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 71: Asistente de estudio con IA -->
+  <!-- SLIDE 72: Asistente de estudio con IA -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -2046,7 +2084,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 72: Guía de lectura — Unidad 1 -->
+  <!-- SLIDE 73: Guía de lectura — Unidad 1 -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -2068,7 +2106,7 @@
     </ul>
   </section>
 
-  <!-- SLIDE 73: ¿Preguntas? -->
+  <!-- SLIDE 74: ¿Preguntas? -->
 
   <section class="slide" style="
     background-color: #FFFFFF;
@@ -2085,7 +2123,7 @@
 
 <div class="footer">
   <span>Economía Internacional | UMET | Clase 1</span>
-  <span id="slide-counter">1 / 73</span>
+  <span id="slide-counter">1 / 74</span>
 </div>
 
 <script>

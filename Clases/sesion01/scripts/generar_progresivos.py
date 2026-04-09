@@ -373,88 +373,139 @@ def prog_balanza_pagos_estructura():
 
 
 # =====================================================================
-# 6. IDENTIDAD AHORRO-INVERSION (3 pasos)
-#    Paso 1: Solo formula
-#    Paso 2: + 3 cajas de balances
-#    Paso 3: + ejemplo Argentina
+# 6. IDENTIDAD AHORRO-INVERSION (4 pasos)
+#    Paso 1: La identidad con variables definidas
+#    Paso 2: Los tres balances (cajas con definiciones)
+#    Paso 3: El mecanismo causal (cadena de flechas)
+#    Paso 4: El caso Argentina
 # =====================================================================
 def prog_identidad_ahorro_inversion():
     print("\n[6/14] Identidad ahorro-inversion...")
 
-    for paso in range(1, 4):
-        fig, ax = plt.subplots(figsize=(14, 10))
+    for paso in range(1, 5):
+        fig, ax = plt.subplots(figsize=(14, 11))
         ax.set_xlim(0, 14)
-        ax.set_ylim(0, 12)
+        ax.set_ylim(0, 13)
         ax.axis('off')
 
         # Titulo
-        ax.text(7, 11.5, 'LA IDENTIDAD AHORRO-INVERSION', fontsize=22,
+        ax.text(7, 12.5, 'LA IDENTIDAD AHORRO-INVERSION', fontsize=22,
                 fontweight='bold', ha='center', color=D_AZUL)
-        ax.text(7, 10.9, 'Por que la cuenta corriente refleja los balances internos',
+        ax.text(7, 12.0, 'De la contabilidad nacional al sector externo',
                 fontsize=12, ha='center', color=D_GRIS, style='italic')
 
+        # --- PASO 1: Formula + definiciones ---
         # Formula box (siempre visible)
-        formula_box = mpatches.FancyBboxPatch((1, 8.5), 12, 2, boxstyle='round,pad=0.05',
+        formula_box = mpatches.FancyBboxPatch((1, 9.5), 12, 2, boxstyle='round,pad=0.05',
                     facecolor='#F0F0F0', edgecolor=D_AZUL, linewidth=2)
         ax.add_patch(formula_box)
-        ax.text(7, 9.5, 'CC  =  (S - I)  =  (S_priv - I_priv)  +  (T - G)',
-                fontsize=20, fontweight='bold', ha='center', va='center',
+        ax.text(7, 10.5, 'CC  =  ( S_priv  \u2212  I )  +  ( T  \u2212  G )',
+                fontsize=22, fontweight='bold', ha='center', va='center',
                 family='monospace', color='#333')
 
+        # Definiciones debajo de la formula (siempre visibles)
+        defs_y = 9.0
+        ax.text(2.5, defs_y, 'CC = Cuenta Corriente', fontsize=12,
+                ha='center', color=D_AZUL, fontweight='bold')
+        ax.text(5.8, defs_y, 'S_priv = Ahorro privado', fontsize=12,
+                ha='center', color=D_VERDE, fontweight='bold')
+        ax.text(9.2, defs_y, 'I = Inversion', fontsize=12,
+                ha='center', color=D_VERDE, fontweight='bold')
+        ax.text(12, defs_y, 'T = Impuestos', fontsize=12,
+                ha='center', color=D_NARANJA, fontweight='bold')
+        ax.text(2.5, defs_y - 0.5, '(sector externo)', fontsize=11,
+                ha='center', color=D_GRIS)
+        ax.text(5.8, defs_y - 0.5, '(familias + empresas)', fontsize=11,
+                ha='center', color=D_GRIS)
+        ax.text(9.2, defs_y - 0.5, '(publica + privada)', fontsize=11,
+                ha='center', color=D_GRIS)
+        ax.text(12, defs_y - 0.5, 'G = Gasto publico', fontsize=12,
+                ha='center', color=D_NARANJA, fontweight='bold')
+
+        # Nota: identidad contable
+        ax.text(7, 7.9, 'Es una identidad contable: siempre se cumple, como 1+1=2',
+                fontsize=11, ha='center', color=D_GRIS, style='italic')
+
         if paso >= 2:
+            # --- PASO 2: Tres cajas de balances ---
             # Balance Externo (azul)
-            b1 = mpatches.FancyBboxPatch((0.5, 4.5), 4, 3.5, boxstyle='round,pad=0.03',
+            b1 = mpatches.FancyBboxPatch((0.5, 4.5), 3.8, 3, boxstyle='round,pad=0.03',
                         facecolor='#DEEBF7', edgecolor=D_AZUL_CL, linewidth=2)
             ax.add_patch(b1)
-            ax.text(2.5, 7.5, 'BALANCE', fontsize=13, fontweight='bold', ha='center', color=D_AZUL)
-            ax.text(2.5, 7.0, 'EXTERNO', fontsize=13, fontweight='bold', ha='center', color=D_AZUL)
-            ax.text(2.5, 6.2, 'CC', fontsize=18, fontweight='bold', ha='center', color='#333')
-            ax.text(2.5, 5.6, 'Cuenta Corriente', fontsize=9, ha='center', color=D_GRIS)
-            ax.text(2.5, 5.1, 'CC > 0: superavit', fontsize=9, ha='center', color=D_VERDE)
-            ax.text(2.5, 4.7, 'CC < 0: deficit', fontsize=9, ha='center', color=D_ROJO)
+            ax.text(2.4, 7.0, 'SECTOR', fontsize=13, fontweight='bold', ha='center', color=D_AZUL)
+            ax.text(2.4, 6.5, 'EXTERNO', fontsize=13, fontweight='bold', ha='center', color=D_AZUL)
+            ax.text(2.4, 5.8, 'CC', fontsize=20, fontweight='bold', ha='center', color='#333')
+            ax.text(2.4, 5.2, 'Cuenta Corriente', fontsize=11, ha='center', color=D_GRIS)
+            ax.text(2.4, 4.7, 'CC > 0: superavit', fontsize=11, ha='center', color=D_VERDE)
 
             # Signo =
-            ax.text(4.8, 6.2, '=', fontsize=22, fontweight='bold', ha='center', color='#333')
+            ax.text(4.6, 5.8, '=', fontsize=22, fontweight='bold', ha='center', color='#333')
 
-            # Balance Privado (verde)
-            b2 = mpatches.FancyBboxPatch((5.2, 4.5), 4, 3.5, boxstyle='round,pad=0.03',
+            # Resultado Privado (verde)
+            b2 = mpatches.FancyBboxPatch((5.0, 4.5), 4, 3, boxstyle='round,pad=0.03',
                         facecolor='#E2F0D9', edgecolor=D_VERDE, linewidth=2)
             ax.add_patch(b2)
-            ax.text(7.2, 7.5, 'BALANCE', fontsize=13, fontweight='bold', ha='center', color=D_VERDE)
-            ax.text(7.2, 7.0, 'PRIVADO', fontsize=13, fontweight='bold', ha='center', color=D_VERDE)
-            ax.text(7.2, 6.2, 'S_priv - I_priv', fontsize=15, fontweight='bold',
+            ax.text(7.0, 7.0, 'RESULTADO', fontsize=13, fontweight='bold', ha='center', color=D_VERDE)
+            ax.text(7.0, 6.5, 'PRIVADO', fontsize=13, fontweight='bold', ha='center', color=D_VERDE)
+            ax.text(7.0, 5.8, 'S_priv \u2212 I', fontsize=18, fontweight='bold',
                     ha='center', color='#333', family='monospace')
-            ax.text(7.2, 5.6, 'Ahorro - Inversion', fontsize=9, ha='center', color=D_GRIS)
-            ax.text(7.2, 5.1, 'privados', fontsize=9, ha='center', color=D_GRIS)
-            ax.text(7.2, 4.7, '(familias + empresas)', fontsize=8, ha='center', color=D_GRIS)
+            ax.text(7.0, 5.2, 'Ahorro \u2212 Inversion', fontsize=11, ha='center', color=D_GRIS)
+            ax.text(7.0, 4.7, '(familias + empresas)', fontsize=11, ha='center', color=D_GRIS)
 
             # Signo +
-            ax.text(9.5, 6.2, '+', fontsize=22, fontweight='bold', ha='center', color='#333')
+            ax.text(9.3, 5.8, '+', fontsize=22, fontweight='bold', ha='center', color='#333')
 
-            # Balance Fiscal (naranja)
-            b3 = mpatches.FancyBboxPatch((9.8, 4.5), 4, 3.5, boxstyle='round,pad=0.03',
+            # Resultado Fiscal (naranja)
+            b3 = mpatches.FancyBboxPatch((9.7, 4.5), 3.8, 3, boxstyle='round,pad=0.03',
                         facecolor='#FFF2CC', edgecolor=D_NARANJA, linewidth=2)
             ax.add_patch(b3)
-            ax.text(11.8, 7.5, 'BALANCE', fontsize=13, fontweight='bold', ha='center', color=D_NARANJA)
-            ax.text(11.8, 7.0, 'FISCAL', fontsize=13, fontweight='bold', ha='center', color=D_NARANJA)
-            ax.text(11.8, 6.2, 'T - G', fontsize=18, fontweight='bold', ha='center', color='#333')
-            ax.text(11.8, 5.6, 'Impuestos - Gasto', fontsize=9, ha='center', color=D_GRIS)
-            ax.text(11.8, 5.1, 'T > G: superavit', fontsize=9, ha='center', color=D_VERDE)
-            ax.text(11.8, 4.7, 'T < G: deficit', fontsize=9, ha='center', color=D_ROJO)
+            ax.text(11.6, 7.0, 'RESULTADO', fontsize=13, fontweight='bold', ha='center', color=D_NARANJA)
+            ax.text(11.6, 6.5, 'FISCAL', fontsize=13, fontweight='bold', ha='center', color=D_NARANJA)
+            ax.text(11.6, 5.8, 'T \u2212 G', fontsize=20, fontweight='bold', ha='center', color='#333')
+            ax.text(11.6, 5.2, 'Recaudacion \u2212 Gasto', fontsize=11, ha='center', color=D_GRIS)
+            ax.text(11.6, 4.7, '(gobierno)', fontsize=11, ha='center', color=D_GRIS)
 
         if paso >= 3:
-            # Ejemplo Argentina
-            arg_box = mpatches.FancyBboxPatch((1, 0.8), 12, 3.2, boxstyle='round,pad=0.05',
+            # --- PASO 3: Mecanismo causal (cadena de flechas) ---
+            mec_box = mpatches.FancyBboxPatch((0.5, 1.8), 13, 2.3, boxstyle='round,pad=0.05',
+                        facecolor='#FFF8F0', edgecolor='#C0C0C0', linewidth=1.5)
+            ax.add_patch(mec_box)
+            ax.text(7, 3.7, 'EL MECANISMO: del deficit fiscal al deficit externo',
+                    fontsize=14, fontweight='bold', ha='center', color=D_AZUL)
+
+            # Cadena con flechas
+            pasos_mec = [
+                ('Deficit\nfiscal\n(T < G)', D_NARANJA),
+                ('\u2192', '#333'),
+                ('Mas demanda\ninterna', D_GRIS),
+                ('\u2192', '#333'),
+                ('Mas\nimportaciones', D_AZUL_CL),
+                ('\u2192', '#333'),
+                ('Deficit\nexterno\n(CC < 0)', D_ROJO),
+                ('\u2192', '#333'),
+                ('Necesidad de\nfinanciamiento\nexterno', D_ROJO),
+            ]
+            x_pos = 1.0
+            for txt, col in pasos_mec:
+                if txt == '\u2192':
+                    ax.text(x_pos, 2.7, txt, fontsize=18, fontweight='bold',
+                            ha='center', va='center', color=col)
+                    x_pos += 0.7
+                else:
+                    ax.text(x_pos, 2.7, txt, fontsize=11, fontweight='bold',
+                            ha='center', va='center', color=col)
+                    x_pos += 1.7
+
+        if paso >= 4:
+            # --- PASO 4: Caso Argentina ---
+            arg_box = mpatches.FancyBboxPatch((0.5, 0.1), 13, 1.4, boxstyle='round,pad=0.05',
                         facecolor='#FDEDEC', edgecolor=D_ROJO, linewidth=2)
             ax.add_patch(arg_box)
-            ax.text(7, 3.5, 'EJEMPLO ARGENTINA (tipico)', fontsize=14,
-                    fontweight='bold', ha='center', color=D_ROJO)
-            ax.text(7, 2.7, 'Deficit fiscal (T < G)  +  Poco ahorro privado  =  Deficit externo (CC < 0)',
+            ax.text(7, 1.1, 'ARGENTINA: deficit fiscal persistente + bajo ahorro privado'
+                    '  \u2192  deficit de CC  \u2192  endeudamiento  \u2192  crisis',
                     fontsize=12, ha='center', fontweight='bold', color='#333')
-            ax.text(7, 2.0, 'El deficit fiscal "se financia" con dolares del exterior (deuda o inversion)',
-                    fontsize=10, ha='center', color=D_GRIS)
-            ax.text(7, 1.4, 'Por eso deficit fiscal persistente = crisis de balanza de pagos',
-                    fontsize=10, ha='center', color=D_GRIS, style='italic')
+            ax.text(7, 0.5, 'Convertibilidad (1991-2001)  |  Macri (2016-2018)  |  Patron recurrente',
+                    fontsize=11, ha='center', color=D_GRIS)
 
         plt.tight_layout()
         save(fig, 'identidad_ahorro_inversion', paso)
@@ -521,12 +572,12 @@ def prog_ciclo_argentino():
             x, y = f['pos']
             circ = plt.Circle((x, y), 1.2, color=f['color'], fill=True, alpha=0.9, zorder=2)
             ax.add_patch(circ)
-            ax.text(x, y + 0.5, f['num'], fontsize=20, fontweight='bold',
+            ax.text(x, y + 0.5, f['num'], fontsize=24, fontweight='bold',
                     ha='center', va='center', color='white', zorder=3)
-            ax.text(x, y - 0.1, f['titulo'], fontsize=9, fontweight='bold',
+            ax.text(x, y - 0.1, f['titulo'], fontsize=11, fontweight='bold',
                     ha='center', va='center', color='white', zorder=3)
             dx, dy = f['desc_pos']
-            ax.text(dx, dy, f['desc'], fontsize=9, ha=f['desc_ha'], va='center')
+            ax.text(dx, dy, f['desc'], fontsize=12, ha=f['desc_ha'], va='center')
 
         # Flechas (una menos que fases, + flecha cierre en paso 4)
         arrow_props = dict(arrowstyle='->', color=D_GRIS, lw=2, connectionstyle='arc3,rad=0.2')
@@ -540,11 +591,11 @@ def prog_ciclo_argentino():
         # Ejemplos solo en paso 4
         if paso >= 4:
             ax.text(7, -0.1, 'EJEMPLOS: 1991-2001 (Convertibilidad) \u2192 2002 (Crisis)',
-                    fontsize=10, ha='center', color=D_AZUL, fontweight='bold')
+                    fontsize=13, ha='center', color=D_AZUL, fontweight='bold')
             ax.text(7, -0.6, '2003-2011 (Recuperacion) \u2192 2012-2015 (Apreciacion) \u2192 2018 (Crisis)',
-                    fontsize=10, ha='center', color=D_AZUL)
+                    fontsize=13, ha='center', color=D_AZUL)
             ax.text(7, -1.1, '\u00bf2024-?: \u00bfEn que fase estamos?',
-                    fontsize=10, ha='center', color=D_ROJO, fontweight='bold')
+                    fontsize=13, ha='center', color=D_ROJO, fontweight='bold')
 
         plt.tight_layout()
         save(fig, 'ciclo_argentino', paso)

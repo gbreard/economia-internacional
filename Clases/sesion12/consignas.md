@@ -16,12 +16,12 @@ Formular una pregunta clara, analizar un caso concreto y aplicar conceptos de la
 
 | Fecha | Instancia |
 |-------|-----------|
-| 26/03 (Sesion 1) | Presentacion de temas y consigna |
-| 09/04 | Deadline: entrega en campus de propuesta (1 carilla en Word) |
-| ~16/04 (Sesion 3) | Devolucion del docente con feedback y aprobacion del tema |
-| 04/06 | Deadline: entrega de PPT + ficha tecnica en campus |
-| ~05-06/06 | El docente asigna evaluador a cada estudiante y envia guia de evaluacion |
-| 18/06 (Sesion 12) | Coloquio: presentacion + defensa + rol evaluador |
+| 26/03 y 09/04 (Sesion 1) | Presentacion de temas y consigna |
+| 16/04 | Deadline: entrega en campus de propuesta (1 carilla en Word) |
+| ~23/04 (Sesion 3) | Devolucion del docente con feedback y aprobacion del tema |
+| 11/06 | Deadline: entrega de PPT + ficha tecnica en campus |
+| ~12-13/06 | El docente asigna evaluador a cada estudiante y envia guia de evaluacion |
+| 25/06 (Sesion 12) | Coloquio: presentacion + defensa + rol evaluador |
 
 ## Propuesta inicial (entrega 02/04)
 
