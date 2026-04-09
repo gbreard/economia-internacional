@@ -470,7 +470,7 @@ def prog_identidad_ahorro_inversion():
             mec_box = mpatches.FancyBboxPatch((0.5, 1.8), 13, 2.3, boxstyle='round,pad=0.05',
                         facecolor='#FFF8F0', edgecolor='#C0C0C0', linewidth=1.5)
             ax.add_patch(mec_box)
-            ax.text(7, 3.7, 'EL MECANISMO: del deficit fiscal al deficit externo',
+            ax.text(7, 3.7, 'EL MECANISMO (si el sector privado no compensa)',
                     fontsize=14, fontweight='bold', ha='center', color=D_AZUL)
 
             # Cadena con flechas
@@ -483,7 +483,7 @@ def prog_identidad_ahorro_inversion():
                 ('\u2192', '#333'),
                 ('Deficit\nexterno\n(CC < 0)', D_ROJO),
                 ('\u2192', '#333'),
-                ('Necesidad de\nfinanciamiento\nexterno', D_ROJO),
+                ('Necesidad de\nfinanciamiento', D_ROJO),
             ]
             x_pos = 1.0
             for txt, col in pasos_mec:
@@ -501,9 +501,9 @@ def prog_identidad_ahorro_inversion():
             arg_box = mpatches.FancyBboxPatch((0.5, 0.1), 13, 1.4, boxstyle='round,pad=0.05',
                         facecolor='#FDEDEC', edgecolor=D_ROJO, linewidth=2)
             ax.add_patch(arg_box)
-            ax.text(7, 1.1, 'ARGENTINA: deficit fiscal persistente + bajo ahorro privado'
-                    '  \u2192  deficit de CC  \u2192  endeudamiento  \u2192  crisis',
-                    fontsize=12, ha='center', fontweight='bold', color='#333')
+            ax.text(7, 1.1, 'ARGENTINA: deficit fiscal + bajo ahorro privado  \u2192  deficit de CC'
+                    '  \u2192  financiamiento con deuda  \u2192  vulnerabilidad  \u2192  crisis',
+                    fontsize=11, ha='center', fontweight='bold', color='#333')
             ax.text(7, 0.5, 'Convertibilidad (1991-2001)  |  Macri (2016-2018)  |  Patron recurrente',
                     fontsize=11, ha='center', color=D_GRIS)
 
@@ -1064,6 +1064,108 @@ def prog_indice_colapso():
 # =====================================================================
 # MAIN
 # =====================================================================
+# =====================================================================
+# 15. CRISIS EXTERNA - SLIDE INTEGRADOR (3 pasos)
+#    Paso 1: Origen (ahorro-inversion → deficit CC)
+#    Paso 2: + Financiamiento (IED vs deuda vs reservas)
+#    Paso 3: + Crisis (sudden stop → devaluacion → recesion)
+# =====================================================================
+def prog_crisis_externa():
+    print("\n[15/15] Crisis externa (integrador)...")
+
+    bloques = [
+        {'x': 1.5, 'y': 6, 'w': 3.2, 'h': 4.5, 'color': D_AZUL_CL, 'bg': '#DEEBF7',
+         'titulo': 'ORIGEN', 'lineas': [
+             ('Deficit fiscal (T<G)', 12, D_NARANJA),
+             ('+ Bajo ahorro privado', 12, D_GRIS),
+             ('', 0, ''),
+             ('= Deficit de CC', 13, D_ROJO),
+         ]},
+        {'x': 5.5, 'y': 6, 'w': 3.5, 'h': 4.5, 'color': D_NARANJA, 'bg': '#FFF2CC',
+         'titulo': 'FINANCIAMIENTO', 'lineas': [
+             ('IED (estable)', 12, D_VERDE),
+             ('Deuda/cartera (volatil)', 12, D_ROJO),
+             ('Reservas (finitas)', 12, D_GRIS),
+             ('', 0, ''),
+             ('Mientras hay', 11, '#333'),
+             ('financiamiento', 11, '#333'),
+             ('no hay crisis', 12, D_VERDE),
+         ]},
+        {'x': 9.8, 'y': 6, 'w': 3.5, 'h': 4.5, 'color': D_ROJO, 'bg': '#FDEDEC',
+         'titulo': 'CRISIS', 'lineas': [
+             ('Se corta el', 12, D_ROJO),
+             ('financiamiento', 12, D_ROJO),
+             ('', 0, ''),
+             ('Caen reservas', 12, '#333'),
+             ('Devaluacion', 12, '#333'),
+             ('Recesion', 12, '#333'),
+         ]},
+    ]
+
+    for paso in range(1, 4):
+        fig, ax = plt.subplots(figsize=(14, 10))
+        ax.set_xlim(0, 14)
+        ax.set_ylim(0, 13)
+        ax.axis('off')
+
+        ax.text(7, 12.5, 'DE LOS DESEQUILIBRIOS A LA CRISIS EXTERNA',
+                fontsize=20, fontweight='bold', ha='center', color=D_AZUL)
+        ax.text(7, 11.9, 'El modelo completo para Argentina',
+                fontsize=12, ha='center', color=D_GRIS, style='italic')
+
+        n_bloques = min(paso, 3)
+        for i in range(n_bloques):
+            b = bloques[i]
+            # Caja
+            box = mpatches.FancyBboxPatch((b['x'], b['y']), b['w'], b['h'],
+                        boxstyle='round,pad=0.05', facecolor=b['bg'],
+                        edgecolor=b['color'], linewidth=2.5)
+            ax.add_patch(box)
+
+            # Titulo del bloque
+            ax.text(b['x'] + b['w']/2, b['y'] + b['h'] - 0.5, b['titulo'],
+                    fontsize=15, fontweight='bold', ha='center', color=b['color'])
+
+            # Lineas de contenido
+            y_line = b['y'] + b['h'] - 1.2
+            for txt, fs, col in b['lineas']:
+                if txt:
+                    ax.text(b['x'] + b['w']/2, y_line, txt,
+                            fontsize=fs, ha='center', color=col, fontweight='bold')
+                y_line -= 0.55
+
+            # Flecha entre bloques
+            if i < n_bloques - 1:
+                next_b = bloques[i+1]
+                ax.annotate('', xy=(next_b['x'] - 0.1, next_b['y'] + next_b['h']/2),
+                           xytext=(b['x'] + b['w'] + 0.1, b['y'] + b['h']/2),
+                           arrowprops=dict(arrowstyle='->', color=D_GRIS, lw=3))
+
+        if paso >= 2:
+            # Nota sobre financiamiento
+            ax.text(7.25, 5.3, 'Este es el punto clave: de que depende si hay crisis o no',
+                    fontsize=12, ha='center', color=D_NARANJA, fontweight='bold', style='italic')
+
+        if paso >= 3:
+            # Frase de cierre
+            cierre_box = mpatches.FancyBboxPatch((1, 1.5), 12, 2.8, boxstyle='round,pad=0.05',
+                        facecolor='#F8F9FA', edgecolor=D_AZUL, linewidth=2)
+            ax.add_patch(cierre_box)
+
+            ax.text(7, 3.6, 'Argentina no entra en crisis por tener deficit externo,',
+                    fontsize=14, ha='center', fontweight='bold', color='#333')
+            ax.text(7, 3.0, 'sino porque depende de financiamiento externo inestable.',
+                    fontsize=14, ha='center', fontweight='bold', color=D_ROJO)
+
+            ax.text(7, 2.1, '1990s: deficit + capitales \u2192 se sostiene  |  2001: se cortan \u2192 crisis',
+                    fontsize=11, ha='center', color=D_GRIS)
+            ax.text(7, 1.7, '2017: deficit + capitales \u2192 se sostiene  |  2018: se cortan \u2192 crisis',
+                    fontsize=11, ha='center', color=D_GRIS)
+
+        plt.tight_layout()
+        save(fig, 'crisis_externa', paso)
+
+
 if __name__ == '__main__':
     print("=" * 60)
     print("GENERANDO GRAFICOS PROGRESIVOS - CLASE 1")
@@ -1086,6 +1188,7 @@ if __name__ == '__main__':
     prog_trayectorias_regionales()
     prog_resumen_indicadores()
     prog_indice_colapso()
+    prog_crisis_externa()
 
     print("\n" + "=" * 60)
     print("LISTO! 43 PNGs progresivos generados.")

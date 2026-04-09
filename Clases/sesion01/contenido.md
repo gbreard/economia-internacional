@@ -2008,7 +2008,7 @@ Responden: ¿Puede el país mantener esta situación o va a explotar?
 **Paso 3**:
 **Gráfico**: graficos/balanza_pagos_estructura_paso3.png
 **Contenido**:
-- Identidad fundamental: CC + CK + CF = 0
+- Identidad: $CC + CK + CF = 0$ — siempre se cumple, no explica causalidad, solo cómo se financian los desequilibrios
 
 **Fuente**: Elaboración propia
 
@@ -2028,15 +2028,18 @@ EL DIAGRAMA MUESTRA:
 - Generalmente pequeña
 
 3. CUENTA FINANCIERA:
-- Inversión directa (fábricas)
-- Inversión de cartera (bonos, acciones)
+- Inversión directa (fábricas) — más estable
+- Inversión de cartera (bonos, acciones) — más volátil
 - Préstamos
 - Variación de reservas
 
 LA IDENTIDAD:
 CC + CK + CF = 0
 
-Si CC < 0 (déficit), debe financiarse con CF > 0 (entrada de capitales o pérdida de reservas).
+Si CC < 0 (déficit) → requiere financiamiento externo (capitales o reservas).
+Pero OJO: la cuenta financiera no solo financia; muchas veces origina el desequilibrio externo (entrada masiva de capitales → apreciación → déficit de CC).
+
+CLAVE: La identidad siempre se cumple. No explica causalidad, solo cómo se financian los desequilibrios.
 
 ---
 
@@ -2045,11 +2048,12 @@ Si CC < 0 (déficit), debe financiarse con CF > 0 (entrada de capitales o pérdi
 **Título**: Indicador 8: Cuenta corriente (% PIB)
 
 **Contenido**:
-- **Mide si un país está ganando o perdiendo divisas en su relación con el resto del mundo** (en millones de USD, o como % del PIB)
+- **Mide el balance externo total de un país con el resto del mundo** (en millones de USD, o como % del PIB)
 - Fórmula: $\frac{CC}{PIB} \times 100$
 - $CC$ = saldo de cuenta corriente (en millones de USD) | $PIB$ = producto interno bruto
-- $CC > 0$: el país gana divisas (superávit)
-- $CC < 0$: el país pierde divisas (déficit) → si persiste, eventualmente crisis
+- $CC > 0$: superávit (el país genera más divisas de las que usa)
+- $CC < 0$: déficit (el país necesita financiamiento externo)
+- El déficit no implica crisis por sí mismo: depende de cómo se financia
 
 **Notas docente**:
 INDICADOR 8: CUENTA CORRIENTE (8 minutos)
@@ -2060,18 +2064,21 @@ INDICADOR 8: CUENTA CORRIENTE (8 minutos)
 
 ¿POR QUÉ ES EL MÁS IMPORTANTE?
 - Resume toda la relación con el exterior
-- Si es negativo, estás perdiendo divisas
-- Hay que financiarlo con deuda o inversión
+- Si es negativo, necesitás financiamiento externo
+- No siempre es malo: depende de cómo se financia (IED estable vs deuda volátil)
 
 REGLA PRÁCTICA:
 - CC > -3% PIB: probablemente sostenible
 - CC entre -3% y -5%: zona de riesgo
-- CC < -5%: insostenible a mediano plazo
+- CC < -5%: difícilmente sostenible si depende de financiamiento volátil
 
 ARGENTINA:
-- Tuvo -5% en 1998 → crisis 2001
-- Tuvo -5% en 2017 → crisis 2018
-- El patrón se repite
+- Tuvo -5% en 1998 → se sostuvo mientras entraron capitales → crisis cuando se cortaron (2001)
+- Tuvo -5% en 2017 → idem → crisis cuando se cortaron (2018)
+- El patrón: no es el déficit lo que genera la crisis, sino la dependencia de financiamiento inestable
+
+PREGUNTA: '¿Por qué EEUU puede tener déficit persistente sin crisis?'
+RESPUESTA: Porque el dólar es moneda de reserva — siempre hay demanda de activos en dólares. Argentina no tiene ese privilegio.
 
 NOTEBOOK: En el Notebook 1, el Bloque 4 grafica la cuenta corriente de EEUU, China, Alemania y Argentina juntos. Se ve muy bien el contraste entre el déficit persistente de EEUU, el superávit de Alemania/China, y la volatilidad de Argentina.
 
@@ -2080,13 +2087,14 @@ NOTEBOOK: En el Notebook 1, el Bloque 4 grafica la cuenta corriente de EEUU, Chi
 #### Slide 52: Gráfico CC Argentina
 **Tipo**: grafico_texto
 **Título**: Cuenta corriente Argentina (1990-2024)
-**Subtítulo**: El termómetro de las crisis
+**Subtítulo**: La CC como indicador de vulnerabilidad externa
 
 **Contenido**:
-- Déficit en Convertibilidad: financiado con deuda
-- Superávit 2002-2011: TC competitivo + commodities
-- Déficit 2017-2018: apreciación + sequía → crisis
-- La CC anticipa las crisis
+- Convertibilidad: déficit alto + entrada de capitales → se sostiene
+- 2001: se corta el financiamiento → crisis
+- 2002-2011: superávit (TC competitivo + commodities)
+- 2017-18: déficit + capitales → se sostiene → se cortan → crisis
+- La CC muestra desequilibrios que pueden volverse críticos si se corta el financiamiento
 
 **Gráfico**: graficos/cc_argentina.png
 **Fuente**: INDEC / BCRA
@@ -2098,15 +2106,19 @@ IDENTIFICAR:
 - Barras verdes = superávit
 - Barras rojas = déficit
 
-LOS CICLOS:
-1. Convertibilidad: déficit persistente, financiado con deuda
-2. Crisis 2002: superávit récord por colapso de importaciones
-3. Post-crisis: superávits sostenidos
-4. Deterioro 2012-2015: déficit creciente
-5. 2017-2018: déficit → crisis
+LOS CICLOS (esta es la narrativa clave):
+1. Convertibilidad (1991-2001): déficit persistente + entrada de capitales (privatizaciones, deuda) → se sostiene
+2. 2001: se corta el financiamiento (sudden stop) → crisis → devaluación
+3. 2002-2011: superávit (TC competitivo + boom de commodities + desendeudamiento)
+4. 2012-2015: deterioro gradual, cepo cambiario
+5. 2017-2018: déficit + entrada de capitales (Macri, deuda) → se sostiene → se cortan → crisis
 
 PREGUNTA: '¿Por qué el déficit de Convertibilidad no explotó antes?'
-RESPUESTA: Porque entraba capital (inversiones, privatizaciones, deuda).
+RESPUESTA: Porque entraba capital. El déficit se sostuvo mientras hubo financiamiento. La crisis ocurrió cuando el financiamiento se cortó, no cuando el déficit apareció.
+
+CONCEPTO CLAVE (sin necesidad de usar el término técnico):
+'Los desequilibrios pueden sostenerse mientras haya financiamiento. La crisis ocurre cuando ese financiamiento se corta.'
+(Si quieren el nombre técnico: esto se llama "sudden stop" — parada súbita de capitales.)
 
 NOTEBOOK: Estos mismos ciclos (déficit 90s, superávit 2002, déficit 2010s) son los que los alumnos van a identificar y explicar en la Tarea 3 del Notebook 1.
 
@@ -2130,12 +2142,12 @@ NOTEBOOK: Estos mismos ciclos (déficit 90s, superávit 2002, déficit 2010s) so
 **Paso 3**:
 **Gráfico**: graficos/identidad_ahorro_inversion_paso3.png
 **Contenido**:
-- Déficit fiscal → más demanda interna → más importaciones → déficit externo → necesidad de financiamiento
+- Déficit fiscal → más demanda interna → más importaciones → déficit externo (si el sector privado no compensa)
 
 **Paso 4**:
 **Gráfico**: graficos/identidad_ahorro_inversion_paso4.png
 **Contenido**:
-- Argentina: déficit fiscal persistente + bajo ahorro privado → déficit de CC → endeudamiento → crisis
+- Argentina: déficit fiscal persistente + bajo ahorro privado → déficit de CC → si se financia con deuda volátil → vulnerabilidad y crisis
 
 **Fuente**: Elaboración propia
 
@@ -2180,7 +2192,63 @@ CONEXIÓN: 'Esto explica por qué el FMI siempre pide ajuste fiscal. No es ideol
 
 ---
 
-#### Slide 54: Indicador 9 - TCR bilateral
+#### Slide 54: De los desequilibrios a la crisis externa
+**Tipo**: grafico_progresivo
+**Título**: De los desequilibrios macro a la crisis externa
+**Subtítulo**: El modelo completo para Argentina
+
+**Paso 1**:
+**Gráfico**: graficos/crisis_externa_paso1.png
+**Contenido**:
+- Origen: déficit fiscal + bajo ahorro → déficit de cuenta corriente
+
+**Paso 2**:
+**Gráfico**: graficos/crisis_externa_paso2.png
+**Contenido**:
+- Financiamiento: IED (estable) vs deuda/cartera (volátil) vs reservas
+
+**Paso 3**:
+**Gráfico**: graficos/crisis_externa_paso3.png
+**Contenido**:
+- Crisis: cuando se corta el financiamiento → caída de reservas → devaluación → recesión
+
+**Fuente**: Elaboración propia
+
+**Notas docente**:
+SLIDE INTEGRADOR — DE LOS DESEQUILIBRIOS A LA CRISIS (8 minutos)
+
+Este es el slide que conecta todo lo anterior. Ir despacio.
+
+PASO 1 — ORIGEN (2 minutos)
+'Ya vimos que CC = (S_priv - I) + (T - G). Si hay déficit fiscal y bajo ahorro privado, aparece déficit externo. Eso ya lo sabemos.'
+
+PASO 2 — FINANCIAMIENTO (3 minutos)
+'Ahora, lo nuevo: el déficit de CC hay que financiarlo. Y no es lo mismo cómo.'
+- IED (Inversión Extranjera Directa): viene a quedarse, es más estable. Ejemplo: una automotriz que abre una planta.
+- Deuda y cartera: bonos, préstamos, flujos de portfolio. Entran rápido y salen rápido. Ejemplo: fondos de inversión que compran bonos argentinos.
+- Reservas: el BCRA puede vender dólares para cubrir el déficit, pero se agotan.
+
+PREGUNTA CLAVE: '¿De qué depende si hay crisis o no?'
+RESPUESTA: De la composición del financiamiento. Si es IED, se banca. Si es deuda volátil, es cuestión de tiempo.
+
+PASO 3 — CRISIS (3 minutos)
+'Mientras hay financiamiento, el esquema se sostiene. Pero cuando cambia el contexto (suben tasas en EEUU, cae la confianza, un shock externo), los capitales se van.'
+- Se corta el financiamiento (sudden stop)
+- Caen las reservas
+- Devaluación forzada
+- Recesión
+
+FRASE DE CIERRE (ESCRIBIRLA EN EL PIZARRÓN):
+'Argentina no entra en crisis por tener déficit externo, sino porque depende de financiamiento externo inestable.'
+
+EJEMPLOS:
+- 1990s: déficit + capitales → se sostiene → 2001: se cortan → crisis
+- 2017: déficit + capitales → se sostiene → 2018: se cortan → crisis
+- ¿2024-?: ¿En qué fase estamos?
+
+---
+
+#### Slide 55: Indicador 9 - TCR bilateral
 **Tipo**: formula
 **Título**: Indicador 9: Tipo de cambio real
 
@@ -2217,7 +2285,7 @@ TRANSICIÓN: 'Esto mide contra un solo país. Pero Argentina comercia con Brasil
 
 ---
 
-#### Slide 55: ITCRM
+#### Slide 58: ITCRM
 **Tipo**: formula
 **Título**: ITCRM: el indicador que usa el BCRA
 
@@ -2260,7 +2328,7 @@ CONEXIÓN: En el gráfico que viene a continuación van a ver cómo el ITCRM se 
 
 ---
 
-#### Slide 56: Gráfico TCR Argentina
+#### Slide 58: Gráfico TCR Argentina
 **Tipo**: grafico_texto
 **Título**: Tipo de cambio real Argentina (1997-2024)
 **Subtítulo**: El indicador que anticipa las crisis
@@ -2303,7 +2371,7 @@ FRASE CLAVE: 'El tipo de cambio sube por ascensor y baja por escalera'
 
 ---
 
-#### Slide 57: Gráfico reservas
+#### Slide 59: Gráfico reservas
 **Tipo**: grafico_texto
 **Título**: Reservas internacionales Argentina
 **Subtítulo**: El colchón contra las crisis
@@ -2338,7 +2406,7 @@ CUANDO LAS RESERVAS CAEN RÁPIDO:
 
 ### Sección: Hechos estilizados y desequilibrios
 
-#### Slide 58: Sección hechos estilizados
+#### Slide 60: Sección hechos estilizados
 **Tipo**: seccion
 **Título**: Hechos estilizados y desequilibrios
 **Subtítulo**: ¿Qué patrones vemos con estos indicadores?
@@ -2350,7 +2418,7 @@ Ya tenemos las herramientas. Ahora veamos qué patrones revelan.
 
 ---
 
-#### Slide 59: Desequilibrios globales
+#### Slide 61: Desequilibrios globales
 **Tipo**: grafico_texto
 **Título**: Desequilibrios globales: quién financia a quién
 
@@ -2380,7 +2448,7 @@ RESPUESTA: Porque emite dólares. Es el 'privilegio exorbitante'.
 
 ---
 
-#### Slide 60: Privilegio del dólar
+#### Slide 62: Privilegio del dólar
 **Tipo**: grafico_texto
 **Título**: El privilegio exorbitante del dólar
 **Subtítulo**: Por qué EEUU puede tener déficit permanente
@@ -2414,7 +2482,7 @@ ARGENTINA NO TIENE ESTE PRIVILEGIO:
 
 ---
 
-#### Slide 61: Asia post-1997
+#### Slide 63: Asia post-1997
 **Tipo**: grafico_progresivo
 **Título**: Asia: la lección de 1997
 **Subtítulo**: De deudores a acreedores
@@ -2458,7 +2526,7 @@ ARGENTINA:
 
 ### Sección: El caso argentino
 
-#### Slide 62: Sección caso argentino
+#### Slide 64: Sección caso argentino
 **Tipo**: seccion
 **Título**: El caso argentino
 **Subtítulo**: Aplicación de todos los indicadores
@@ -2470,7 +2538,7 @@ Ahora aplicamos TODO lo que vimos al caso que más nos importa: Argentina.
 
 ---
 
-#### Slide 63: El ciclo argentino
+#### Slide 65: El ciclo argentino
 **Tipo**: grafico_progresivo
 **Título**: El ciclo argentino
 **Subtítulo**: El patrón que se repite
@@ -2528,7 +2596,7 @@ EJEMPLOS:
 
 ---
 
-#### Slide 64: Convertibilidad
+#### Slide 66: Convertibilidad
 **Tipo**: grafico_progresivo
 **Título**: La Convertibilidad: caso de estudio
 **Subtítulo**: Todos los indicadores en acción
@@ -2580,7 +2648,7 @@ LA EXPLOSIÓN:
 
 ### Sección: Cierre
 
-#### Slide 65: Sección cierre
+#### Slide 67: Sección cierre
 **Tipo**: seccion
 **Título**: Cierre
 
@@ -2589,7 +2657,7 @@ TRANSICIÓN AL CIERRE (1 minuto)
 
 ---
 
-#### Slide 66: Resumen indicadores
+#### Slide 68: Resumen indicadores
 **Tipo**: grafico_progresivo
 **Título**: Resumen: los 9 indicadores
 
@@ -2623,7 +2691,7 @@ TRANSICIÓN: 'Ahora veamos dónde pueden encontrar los datos para calcular estos
 
 ---
 
-#### Slide 67: Fuentes de información
+#### Slide 69: Fuentes de información
 **Tipo**: texto
 **Título**: ¿Dónde buscar estos datos?
 **Subtítulo**: Fuentes principales por indicador
@@ -2659,7 +2727,7 @@ NOTEBOOK: Mencionar que en el Notebook 1 van a usar directamente la API del Banc
 
 ---
 
-#### Slide 68: Notebook 1 — Ejercicio con datos reales
+#### Slide 70: Notebook 1 — Ejercicio con datos reales
 **Tipo**: texto
 **Título**: Notebook 1: Indicadores de comercio mundial
 **Subtítulo**: Ejercicio práctico con datos del Banco Mundial
@@ -2694,7 +2762,7 @@ INSTRUCCIONES:
 
 ---
 
-#### Slide 69: Hechos estilizados: lo que aprendimos
+#### Slide 71: Hechos estilizados: lo que aprendimos
 **Tipo**: texto
 **Título**: Hechos estilizados: lo que aprendimos
 
@@ -2718,7 +2786,7 @@ Estos son los PATRONES que vimos:
 
 ---
 
-#### Slide 70: Próxima clase
+#### Slide 72: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase
 **Subtítulo**: Teorías del comercio
@@ -2745,7 +2813,7 @@ ventajas comparativas. Es un debate que sigue vigente.
 
 ---
 
-#### Slide 71: Material complementario
+#### Slide 73: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Videos y documentales recomendados
@@ -2779,7 +2847,7 @@ Si algún alumno pregunta por la relación entre estos temas y las teorías del 
 
 ---
 
-#### Slide 72: Asistente de estudio con IA
+#### Slide 74: Asistente de estudio con IA
 **Tipo**: texto
 **Título**: Asistente de estudio con IA
 **Subtítulo**: Toda la bibliografía del curso cargada en NotebookLM
@@ -2820,7 +2888,7 @@ CONEXIÓN CON LA GUÍA DE LECTURA:
 
 ---
 
-#### Slide 73: Guía de lectura
+#### Slide 75: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 1
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -2847,7 +2915,7 @@ La pregunta transversal integra todo: es la pregunta del parcial. Si pueden resp
 
 ---
 
-#### Slide 74: Preguntas
+#### Slide 75: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 1
