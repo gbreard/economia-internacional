@@ -61,9 +61,9 @@ QUIZ DE LECTURAS (15 minutos total para las 7 preguntas + discusión)
 #### Slide 3: P1 — Pregunta
 **Tipo**: centrado
 **Título**: P1 — Krugman cap 1
+**Subtítulo**: ¿Cuál es el patrón más llamativo del comercio mundial según Krugman?
 
 **Contenido**:
-- **¿Cuál es el patrón más llamativo del comercio mundial según Krugman?**
 - A) Los países solo exportan lo que no consumen internamente
 - B) El comercio crece siempre al mismo ritmo que el PIB
 - C) Los países comercian principalmente con países lejanos y muy diferentes
@@ -81,12 +81,11 @@ No revelar la respuesta todavía — pasar al siguiente slide.
 **Subtítulo**: La mayor parte del comercio es entre países desarrollados similares
 
 **Contenido**:
-- Krugman destaca que el grueso del comercio es **Norte-Norte** (EEUU-Canadá, Alemania-Francia, EEUU-Japón)
-- Exportan e importan los **mismos tipos de productos**: autos por autos, químicos por químicos
-- Esto se llama **comercio intraindustrial** — lo vamos a ver en la Unidad 3
-- **A es falsa**: los países exportan parte de lo que producen, no solo el excedente
-- **B es falsa**: el comercio creció más rápido que el PIB (la apertura subió)
-- **C es falsa**: la proximidad y la similitud importan más que la diferencia
+- Krugman destaca que el grueso del comercio es **Norte-Norte** (EEUU-Canadá, Alemania-Francia, EEUU-Japón). Exportan e importan los **mismos tipos de productos**: autos por autos, químicos por químicos. Esto se llama **comercio intraindustrial** — lo vamos a ver en la Unidad 3
+- **¿Por qué no las otras?**
+- A: los países exportan parte de lo que producen, no solo el excedente
+- B: el comercio creció más rápido que el PIB (la apertura subió)
+- C: la proximidad y la similitud importan más que la diferencia
 
 **Notas docente**:
 EXPLICACIÓN (2 minutos)
@@ -100,9 +99,9 @@ Conectar: 'Este patrón es lo que las teorías clásicas (Smith, Ricardo) NO exp
 #### Slide 5: P2 — Pregunta
 **Tipo**: centrado
 **Título**: P2 — Krugman cap 2
+**Subtítulo**: ¿Por qué la balanza de pagos siempre "cierra" (suma cero)?
 
 **Contenido**:
-- **¿Por qué la balanza de pagos siempre "cierra" (suma cero)?**
 - A) Porque el FMI la ajusta al final de cada año
 - B) Porque es un sistema de partida doble: todo pago genera un registro financiero equivalente
 - C) Porque los bancos centrales intervienen para equilibrarla
@@ -119,11 +118,11 @@ Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
 **Subtítulo**: Partida doble — todo pago genera un registro financiero equivalente
 
 **Contenido**:
-- La BP es un sistema contable: si importás un auto por $30.000, tenés que pagar con algo (dólares, deuda, baja de reservas)
-- **CC + Cuenta Capital + Cuenta Financiera + Errores = 0**. Siempre. Por definición contable
-- **A es falsa**: el FMI no toca la BP de ningún país, solo presta en crisis
-- **C es falsa**: los bancos centrales intervienen pero eso es un movimiento más dentro de la BP
-- **D es falsa**: sí pueden — déficit de CC Y superávit de cuenta financiera al mismo tiempo (Argentina años 90)
+- La BP es un sistema contable: si importás un auto por $30.000, tenés que pagar con algo (dólares, deuda, baja de reservas). **CC + Cuenta Capital + Cuenta Financiera + Errores = 0**. Siempre. Por definición contable
+- **¿Por qué no las otras?**
+- A: el FMI no toca la BP de ningún país, solo presta en crisis
+- C: los bancos centrales intervienen pero eso es un movimiento más dentro de la BP
+- D: sí pueden — déficit de CC Y superávit de cuenta financiera al mismo tiempo (Argentina años 90)
 
 **Notas docente**:
 EXPLICACIÓN (2 minutos)
@@ -137,9 +136,9 @@ Ejemplo en pizarrón: Argentina importa autos → débito en CC → lo paga con 
 #### Slide 7: P3 — Pregunta
 **Tipo**: centrado
 **Título**: P3 — CEPAL 2002
+**Subtítulo**: Según la CEPAL, la globalización tiene múltiples dimensiones. ¿Cuáles?
 
 **Contenido**:
-- **Según la CEPAL, la globalización tiene múltiples dimensiones. ¿Cuáles?**
 - A) Comercial, militar y diplomática
 - B) Solo comercial y financiera
 - C) Solo financiera y tecnológica
@@ -156,11 +155,11 @@ Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
 **Subtítulo**: La globalización es multidimensional
 
 **Contenido**:
-- La CEPAL identifica al menos **6 dimensiones**: comercial, financiera, productiva, tecnológica, laboral y cultural
-- Reducir la globalización al comercio de bienes es un error — las asimetrías son diferentes en cada dimensión
-- **A es falsa**: la dimensión militar es de relaciones internacionales, no del análisis económico de la CEPAL
-- **B es falsa**: es la visión reduccionista que la CEPAL critica explícitamente
-- **C es falsa**: omite la dimensión comercial, que sigue siendo central
+- La CEPAL identifica al menos **6 dimensiones**: comercial, financiera, productiva, tecnológica, laboral y cultural. Reducir la globalización al comercio de bienes es un error — las asimetrías son diferentes en cada dimensión
+- **¿Por qué no las otras?**
+- A: la dimensión militar es de relaciones internacionales, no del análisis económico de la CEPAL
+- B: es la visión reduccionista que la CEPAL critica explícitamente
+- C: omite la dimensión comercial, que sigue siendo central
 
 **Notas docente**:
 EXPLICACIÓN (1 minuto)
@@ -172,9 +171,9 @@ EXPLICACIÓN (1 minuto)
 #### Slide 9: P4 — Pregunta
 **Tipo**: centrado
 **Título**: P4 — CEPAL 2002
+**Subtítulo**: ¿Cuál es la principal asimetría que identifica la CEPAL en la globalización?
 
 **Contenido**:
-- **¿Cuál es la principal asimetría que identifica la CEPAL en la globalización?**
 - A) Las exportaciones siempre son más caras que las importaciones
 - B) Los aranceles son más altos en Asia que en América Latina
 - C) Los países desarrollados fijan las reglas y los en desarrollo las reciben con escasa participación
@@ -191,12 +190,11 @@ Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
 **Subtítulo**: Los países desarrollados fijan las reglas
 
 **Contenido**:
-- Las reglas del comercio (OMC), las finanzas (FMI) y la propiedad intelectual (TRIPS) fueron diseñadas por los países desarrollados
-- Los países en desarrollo participan pero con mucha **menor capacidad de negociación**
-- Base del argumento **estructuralista** que vemos en la Unidad 4 con Prebisch
-- **A es falsa**: no es una generalización válida, depende de cada país y momento
-- **B es falsa**: no es la asimetría principal — el problema es quién escribe las reglas, no los aranceles
-- **D es falsa**: es un hecho trivial, no una asimetría estructural
+- Las reglas del comercio (OMC), las finanzas (FMI) y la propiedad intelectual (TRIPS) fueron diseñadas por los países desarrollados. Los países en desarrollo participan pero con mucha **menor capacidad de negociación**. Base del argumento **estructuralista** que vemos en la Unidad 4 con Prebisch
+- **¿Por qué no las otras?**
+- A: no es una generalización válida, depende de cada país y momento
+- B: no es la asimetría principal — el problema es quién escribe las reglas, no los aranceles
+- D: es un hecho trivial, no una asimetría estructural
 
 **Notas docente**:
 EXPLICACIÓN (2 minutos)
@@ -210,9 +208,9 @@ Conectar con Clase 1: 'Esto es el factor PODER del marco T-R-P.'
 #### Slide 11: P5 — Pregunta
 **Tipo**: centrado
 **Título**: P5 — Frenkel 2008
+**Subtítulo**: Según Frenkel, ¿por qué un TCR competitivo favorece el desarrollo?
 
 **Contenido**:
-- **Según Frenkel, ¿por qué un TCR competitivo favorece el desarrollo?**
 - A) Porque reduce automáticamente la inflación
 - B) Porque atrae más inversión extranjera en el sector financiero
 - C) Porque hace que las importaciones sean más baratas para la industria
@@ -229,12 +227,11 @@ Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
 **Subtítulo**: Protege la industria y estimula exportaciones no tradicionales
 
 **Contenido**:
-- TCR alto (peso barato) **encarece importaciones** → protege industria local
-- TCR alto **abarata exportaciones** → empresas que no podían exportar ahora pueden
-- Es una **política industrial vía precios relativos**
-- **A es falsa**: al contrario, Frenkel dice que un TCR competitivo GENERA inflación
-- **B es falsa**: la inversión financiera prefiere peso caro (carry trade), no peso barato
-- **C es falsa**: es exactamente al revés — TCR alto encarece las importaciones
+- TCR alto (peso barato) **encarece importaciones** → protege industria local. TCR alto **abarata exportaciones** → empresas que no podían exportar ahora pueden. Es una **política industrial vía precios relativos**
+- **¿Por qué no las otras?**
+- A: al contrario, Frenkel dice que un TCR competitivo GENERA inflación
+- B: la inversión financiera prefiere peso caro (carry trade), no peso barato
+- C: es exactamente al revés — TCR alto encarece las importaciones
 
 **Notas docente**:
 EXPLICACIÓN (2 minutos)
@@ -248,9 +245,9 @@ Conectar con Clase 1: 'Esto es exactamente el indicador 9 que vimos — el TCR. 
 #### Slide 13: P6 — Pregunta
 **Tipo**: centrado
 **Título**: P6 — Frenkel 2008
+**Subtítulo**: ¿Cuál es la principal tensión de sostener un TCR competitivo según Frenkel?
 
 **Contenido**:
-- **¿Cuál es la principal tensión de sostener un TCR competitivo según Frenkel?**
 - A) Genera presión inflacionaria que erosiona la competitividad ganada
 - B) Genera desempleo en el sector exportador
 - C) Obliga a subir las tasas de interés al máximo
@@ -267,12 +264,11 @@ Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
 **Subtítulo**: La inflación erosiona la competitividad
 
 **Contenido**:
-- Para mantener TCR alto, el BCRA compra dólares → inyecta pesos → **presión inflacionaria**
-- Si la inflación sube, P sube → TCR = e × P*/P **baja** → se pierde la competitividad
-- Es un **círculo vicioso**: el TCR competitivo genera la inflación que lo destruye
-- **B es falsa**: al contrario, TCR competitivo favorece al sector exportador
-- **C es falsa**: tasas altas atraen capital especulativo que aprecia el peso — contradicción
-- **D es falsa**: al contrario, el BCRA compra dólares y SUBE las reservas
+- Para mantener TCR alto, el BCRA compra dólares → inyecta pesos → **presión inflacionaria**. Si la inflación sube, $P$ sube → $TCR = e \times P^*/P$ **baja** → se pierde la competitividad. Es un **círculo vicioso**: el TCR competitivo genera la inflación que lo destruye
+- **¿Por qué no las otras?**
+- B: al contrario, TCR competitivo favorece al sector exportador
+- C: tasas altas atraen capital especulativo que aprecia el peso — contradicción
+- D: al contrario, el BCRA compra dólares y SUBE las reservas
 
 **Notas docente**:
 EXPLICACIÓN (2 minutos)
@@ -286,9 +282,9 @@ Este es el dilema central de la macro argentina: 'Querés un dólar alto para ex
 #### Slide 15: P7 — Pregunta
 **Tipo**: centrado
 **Título**: P7 — Pregunta integradora
+**Subtítulo**: Cuando el peso se aprecia (TCR bajo), ¿qué pasa con la apertura comercial y la cuenta corriente?
 
 **Contenido**:
-- **Cuando el peso se aprecia (TCR bajo), ¿qué pasa con la apertura comercial y la cuenta corriente?**
 - A) La apertura sube porque aumentan las exportaciones y mejora la cuenta corriente
 - B) La apertura baja porque se cierra la economía y la cuenta corriente mejora
 - C) La apertura sube por el aumento de importaciones, la CC se deteriora y se acumula deuda
@@ -306,14 +302,11 @@ Esta es la más difícil — integra los tres textos y la Clase 1.
 **Subtítulo**: Importaciones suben, CC se deteriora, se acumula deuda
 
 **Contenido**:
-- Con peso caro: importaciones se abaratan y crecen, exportaciones se encarecen y caen
-- La **apertura puede subir** porque las importaciones crecen más de lo que caen las exportaciones
-- La **cuenta corriente se deteriora** (más M que X = déficit)
-- El déficit se financia con **deuda o caída de reservas**
-- Este es exactamente el patrón de la **Convertibilidad (1991-2001)** y de **2016-2018**
-- **A es falsa**: con peso caro las exportaciones caen, no suben
-- **B es falsa**: la apertura puede subir por el boom importador (Argentina 90s)
-- **D es falsa**: la relación TCR-apertura-CC es el corazón de la macroeconomía abierta
+- Con peso caro: importaciones se abaratan y crecen, exportaciones se encarecen y caen. La **apertura puede subir** porque las importaciones crecen más de lo que caen las exportaciones. La **cuenta corriente se deteriora** (más M que X = déficit). El déficit se financia con **deuda o caída de reservas**. Este es el patrón de la **Convertibilidad (1991-2001)** y de **2016-2018**
+- **¿Por qué no las otras?**
+- A: con peso caro las exportaciones caen, no suben
+- B: la apertura puede subir por el boom importador (Argentina 90s)
+- D: la relación TCR-apertura-CC es el corazón de la macroeconomía abierta
 
 **Notas docente**:
 EXPLICACIÓN (2 minutos)
@@ -527,7 +520,7 @@ CONEXIÓN FUTURA: Ricardo y los neoclásicos siguen en la línea de Smith (tecno
 - El problema no es "vender más que el otro" sino **producir más con el mismo trabajo**
 
 **Imagen**: img/wealth_of_nations.jpg
-**Fuente**: Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (1776)
+**Fuente**: Adam Smith, The Wealth of Nations (1776)
 
 **Notas docente**:
 SMITH: EL CAMBIO DE MÉTRICA (10 minutos)
@@ -1225,6 +1218,7 @@ PREGUNTA: '¿Por qué B se especializa en vino si A produce vino más barato en 
 **Contenido**:
 - **PPF** = combinaciones máximas de producción dados los recursos
 - Con 48 horas de trabajo, la restricción es: $a_{LT} \times T + a_{LV} \times V = L$
+- $a_{LT}$ = horas de trabajo por unidad de Tela | $a_{LV}$ = horas por unidad de Vino | $T$ = cantidad de Tela | $V$ = cantidad de Vino | $L$ = horas totales disponibles
 - **País A** (Tela=1h, Vino=2h): $T + 2V = 48$ → máx T = 48, máx V = 24
 - **País B** (Tela=6h, Vino=8h): $6T + 8V = 48$ → máx T = 8, máx V = 6
 - La **pendiente** de la PPF = costo de oportunidad = precio relativo en autarquía
@@ -1414,10 +1408,10 @@ CONEXIÓN CON PRIMERA PARTE: 'Ahora el panel derecho del gráfico del slide 12 s
 **Subtítulo**: Índice de Balassa (1965): Ventaja Comparativa Revelada (RCA)
 
 **Contenido**:
-- Ricardo habla de ventajas comparativas → pero ¿cómo las medimos en datos reales?
-- **Béla Balassa** (1928-1991): economista húngaro-estadounidense, propuso "revelar" la ventaja comparativa a partir de lo que los países efectivamente exportan
-- Paper fundacional: *"Trade Liberalisation and Revealed Comparative Advantage"* (1965, The Manchester School)
-- $RCA_{i,k} = \frac{X_{i,k} / X_{i}}{X_{w,k} / X_{w}}$ → participación del producto en exportaciones del país vs del mundo
+- **Béla Balassa** (1965): propuso "revelar" la ventaja comparativa a partir de lo que los países efectivamente exportan
+- $RCA_{i,k} = \frac{X_{i,k} / X_{i}}{X_{w,k} / X_{w}}$
+- $X_{i,k}$ = export. del país $i$ del producto $k$ | $X_i$ = export. totales del país $i$
+- $X_{w,k}$ = export. mundiales del producto $k$ | $X_w$ = export. mundiales totales
 - **RCA > 1**: el país exporta ese bien más que el promedio mundial → **especialización**
 - **RCA < 1**: el país está menos especializado que el mundo en ese bien
 
@@ -1633,7 +1627,7 @@ Links para compartir con los alumnos:
 #### Slide 50: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase: modelo neoclásico y Heckscher-Ohlin
-**Subtítulo**: Clase 3 — 9 de abril
+**Subtítulo**: Sesión 3 — 23 de abril
 
 **Contenido**:
 - ¿Y si la ventaja comparativa no viene de la tecnología sino de los **factores de producción**?

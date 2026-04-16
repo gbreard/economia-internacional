@@ -53,7 +53,7 @@ def fix_limite_smith():
 
     for j, label in enumerate(cols):
         ax_table.text(col_x[j] + 0.5, row_y[0], label, ha='center', va='center',
-                      fontsize=9, fontweight='bold', color=AZUL_OSCURO)
+                      fontsize=11, fontweight='bold', color=AZUL_OSCURO)
 
     ax_table.plot([col_x[0], col_x[-1] + 1.0], [row_y[0] - 0.25, row_y[0] - 0.25],
                   color='#CCCCCC', linewidth=1)
@@ -68,13 +68,13 @@ def fix_limite_smith():
                 color = '#444444'
             weight = 'bold' if j == 0 or '✓' in val or val == '—' else 'normal'
             ax_table.text(col_x[j] + 0.5, row_y[i + 1], val, ha='center', va='center',
-                          fontsize=9, fontweight=weight, color=color)
+                          fontsize=11, fontweight=weight, color=color)
 
     ax_table.text(8.5, 1.8, 'A gana en\nTela Y Vino', ha='center', va='center',
-                  fontsize=9, fontweight='bold', color=ROJO,
+                  fontsize=11, fontweight='bold', color=ROJO,
                   bbox=dict(boxstyle='round,pad=0.3', facecolor='#FEF3C7', edgecolor=AMARILLO))
     ax_table.text(8.5, 0.8, 'Dotación:\n12 horas\ncada país', ha='center', va='center',
-                  fontsize=8, color=GRIS, style='italic',
+                  fontsize=11, color=GRIS, style='italic',
                   bbox=dict(boxstyle='round,pad=0.3', facecolor='#F5F5F5', edgecolor='#DDDDDD'))
 
     # Panel izquierdo: Autarquía
@@ -104,16 +104,16 @@ def fix_limite_smith():
     ax_aut.set_title('En autarquía', fontsize=13, fontweight='bold', color='#555555', pad=12)
     ax_aut.set_xticks(x)
     ax_aut.set_xticklabels(categories, fontsize=12)
-    ax_aut.set_ylabel('Unidades producidas / consumidas', fontsize=9, color='#777777')
+    ax_aut.set_ylabel('Unidades producidas / consumidas', fontsize=11, color='#777777')
     ax_aut.set_ylim(0, 8)
     ax_aut.legend(fontsize=10, loc='upper right')
 
     ax_aut.text(0.5, 0.93, 'Cada país reparte sus 12 hs\nmitad tela, mitad vino',
                 transform=ax_aut.transAxes, ha='center', va='top',
-                fontsize=8, color=GRIS, style='italic')
+                fontsize=11, color=GRIS, style='italic')
 
     ax_aut.annotate('A produce\n6× más tela\ny 4× más vino',
-                    xy=(0.15, 4.5), fontsize=9, color=ROJO, fontweight='bold',
+                    xy=(0.15, 4.5), fontsize=11, color=ROJO, fontweight='bold',
                     ha='center',
                     bbox=dict(boxstyle='round,pad=0.3', facecolor='#FEF3C7',
                               edgecolor=AMARILLO, alpha=0.9))
@@ -161,18 +161,18 @@ def fix_limite_smith():
     ax_com.text(5, 2.3, 'La respuesta la da RICARDO (más adelante):',
                 ha='center', va='center', fontsize=10, fontweight='bold', color=VERDE)
     ax_com.text(5, 1.6, 'No importa quién es más barato en absoluto\nsino qué SACRIFICA cada uno → costo de oportunidad',
-                ha='center', va='center', fontsize=9, color='#2E7D32')
+                ha='center', va='center', fontsize=11, color='#2E7D32')
 
     # Flecha entre paneles
     fig.text(0.50, 0.39, '→', ha='center', va='center', fontsize=40, color=ROJO,
              fontweight='bold')
     fig.text(0.50, 0.33, '¿Especialización?\n¿Intercambio?', ha='center', va='center',
-             fontsize=9, color=ROJO, fontweight='bold')
+             fontsize=11, color=ROJO, fontweight='bold')
 
     # Pie
     fig.text(0.50, 0.01,
              'Elaboración propia  •  El límite de la ventaja absoluta: no explica el comercio entre países muy desiguales',
-             ha='center', fontsize=8, color='#888888', style='italic')
+             ha='center', fontsize=11, color='#888888', style='italic')
 
     fig.savefig(os.path.join(OUTPUT_DIR, 'limite_smith.png'), dpi=150,
                 bbox_inches='tight', facecolor='white', edgecolor='none')
@@ -209,7 +209,7 @@ def _draw_terminos_base(ax, show_pb=False, show_pw=False, show_explain=False):
     ax.plot(xp_a, line_y, 'o', color=AZUL_MEDIO, markersize=12, zorder=5)
     ax.plot([xp_a, xp_a], [line_y - 0.35, line_y + 0.35], color=AZUL_MEDIO, linewidth=3, zorder=4)
     ax.text(xp_a, line_y - 0.55, '2,0', ha='center', fontsize=11, fontweight='bold', color=AZUL_MEDIO)
-    ax.text(xp_a, line_y + 0.55, 'Autarquía A\n(costo V en A)', ha='center', fontsize=9,
+    ax.text(xp_a, line_y + 0.55, 'Autarquía A\n(costo V en A)', ha='center', fontsize=11,
             fontweight='bold', color=AZUL_MEDIO)
 
     if show_pb:
@@ -218,7 +218,7 @@ def _draw_terminos_base(ax, show_pb=False, show_pw=False, show_explain=False):
         ax.plot(xp_b, line_y, 'o', color=NARANJA, markersize=12, zorder=5)
         ax.plot([xp_b, xp_b], [line_y - 0.35, line_y + 0.35], color=NARANJA, linewidth=3, zorder=4)
         ax.text(xp_b, line_y - 0.55, '1,33', ha='center', fontsize=11, fontweight='bold', color=NARANJA)
-        ax.text(xp_b, line_y + 0.55, 'Autarquía B\n(costo V en B)', ha='center', fontsize=9,
+        ax.text(xp_b, line_y + 0.55, 'Autarquía B\n(costo V en B)', ha='center', fontsize=11,
                 fontweight='bold', color=NARANJA)
 
         # Zona de comercio
@@ -234,9 +234,9 @@ def _draw_terminos_base(ax, show_pb=False, show_pw=False, show_explain=False):
 
         # Extremos
         ax.text(val_to_x(0.7), line_y + 0.55, 'B no quiere\ncomerciar',
-                ha='center', fontsize=8, color=GRIS, style='italic')
+                ha='center', fontsize=11, color=GRIS, style='italic')
         ax.text(val_to_x(2.4), line_y + 0.55, 'A no quiere\ncomerciar',
-                ha='center', fontsize=8, color=GRIS, style='italic')
+                ha='center', fontsize=11, color=GRIS, style='italic')
 
     if show_pw:
         xp_pw = val_to_x(1.6)
@@ -253,17 +253,17 @@ def _draw_terminos_base(ax, show_pb=False, show_pw=False, show_explain=False):
         ax.text(0.3, explain_y,
                 '• A (comprador de V): en autarquía, 1V le cuesta 2T.\n'
                 '  Con comercio a 1,6: ahorra 0,4T por cada vino. ✓',
-                fontsize=9, color=AZUL_OSCURO, va='top')
+                fontsize=11, color=AZUL_OSCURO, va='top')
         # B (debajo, con más separación)
         ax.text(0.3, explain_y - 0.7,
                 '• B (vendedor de V): en autarquía, 1V le cuesta 1,33T.\n'
                 '  Con comercio a 1,6: gana 0,27T extra por cada vino. ✓',
-                fontsize=9, color='#C0392B', va='top')
+                fontsize=11, color='#C0392B', va='top')
 
     # Pie
     pie_y = -1.7 if show_explain else -1.4
     ax.text(1.5, pie_y, 'Elaboración propia  •  El rango 1,33 < P < 2 es la condición para que ambos prefieran comerciar',
-            ha='center', fontsize=8, color='#888888', style='italic')
+            ha='center', fontsize=11, color='#888888', style='italic')
 
 
 def fix_terminos_intercambio():
@@ -350,7 +350,7 @@ def _draw_resumen_base(ax, n_visible=2, show_conclusion=False):
                                                linewidth=2, zorder=3)
             ax.add_patch(box)
             ax.text(x + box_w / 2, y, label, ha='center', va='center',
-                    fontsize=9.5, fontweight='bold', color=text_color, zorder=4)
+                    fontsize=11.5, fontweight='bold', color=text_color, zorder=4)
 
             # *** FIX: etiquetas más grandes (10 en vez de 8) ***
             ax.text(x + box_w / 2, y - box_h / 2 - 0.35, examples[i],

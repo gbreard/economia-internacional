@@ -95,16 +95,16 @@ def prog_ciclo_mercantilista():
             # Description
             if node['angle'] == 90:
                 ax.text(x, y + 0.95, node['desc'], ha='center', va='center',
-                        fontsize=8, color='#666666', style='italic', zorder=4)
+                        fontsize=11, color='#666666', style='italic', zorder=4)
             elif node['angle'] == 270:
                 ax.text(x, y - 0.95, node['desc'], ha='center', va='center',
-                        fontsize=8, color='#666666', style='italic', zorder=4)
+                        fontsize=11, color='#666666', style='italic', zorder=4)
             elif node['angle'] == 0:
                 ax.text(x + 1.05, y, node['desc'], ha='left', va='center',
-                        fontsize=8, color='#666666', style='italic', zorder=4)
+                        fontsize=11, color='#666666', style='italic', zorder=4)
             else:
                 ax.text(x - 1.05, y, node['desc'], ha='right', va='center',
-                        fontsize=8, color='#666666', style='italic', zorder=4)
+                        fontsize=11, color='#666666', style='italic', zorder=4)
 
         # Arrows
         if paso == 1:
@@ -135,7 +135,7 @@ def prog_ciclo_mercantilista():
                     bbox=dict(boxstyle='round,pad=0.3', facecolor='#F0F4F8',
                               edgecolor=AZUL_OSCURO, alpha=0.3))
 
-        fig.text(0.5, 0.02, 'Elaboración propia', ha='center', fontsize=8,
+        fig.text(0.5, 0.02, 'Elaboración propia', ha='center', fontsize=11,
                  color='#888888', style='italic')
         save(fig, 'ciclo_mercantilista', paso)
 
@@ -189,7 +189,7 @@ def prog_trp():
         else:
             ax.set_xlim(0, 12)
             ax.set_ylim(-0.5, 3.5)
-            ax.text(6, 1.5, '?', ha='center', va='center', fontsize=80,
+            ax.text(6, 1.5, '?', ha='center', va='center', fontsize=110,
                     fontweight='bold', color='#DDDDDD')
             ax.set_title('¿Otra visión?', fontsize=14, fontweight='bold', color='#CCCCCC', pad=15)
             ax.invert_yaxis()
@@ -204,7 +204,7 @@ def prog_trp():
         fig.suptitle('Tecnología — Reglas — Poder: dos visiones del comercio',
                      fontsize=13, fontweight='bold', color=AZUL_OSCURO, y=0.98)
         fig.text(0.5, 0.01, 'Elaboración propia a partir del marco T-R-P (Clase 1)',
-                 ha='center', fontsize=8, color='#888888', style='italic')
+                 ha='center', fontsize=11, color='#888888', style='italic')
         fig.tight_layout(rect=[0, 0.04, 1, 0.93])
         save(fig, 'trp_mercantilismo_smith', paso)
 
@@ -286,7 +286,7 @@ def prog_division_trabajo():
                         fontsize=9, color='#444444')
 
         fig.text(0.5, 0.01, 'Elaboración propia basada en A. Smith, La Riqueza de las Naciones (1776)',
-                 ha='center', fontsize=8, color='#888888', style='italic')
+                 ha='center', fontsize=11, color='#888888', style='italic')
         save(fig, 'division_trabajo_diagrama', paso)
 
 
@@ -333,9 +333,9 @@ def prog_comercio_britanico():
 
         if paso >= 3:
             ax.axvline(x=1815, color=GRIS, linestyle=':', alpha=0.5)
-            ax.text(1815, 1800, 'Fin guerras\nnapoleónicas\n(1815)', ha='center', fontsize=8, color=GRIS)
+            ax.text(1815, 1800, 'Fin guerras\nnapoleónicas\n(1815)', ha='center', fontsize=11, color=GRIS)
             ax.axvline(x=1846, color=GRIS, linestyle=':', alpha=0.5)
-            ax.text(1846, 1900, 'Derogación\nCorn Laws\n(1846)', ha='center', fontsize=8, color=GRIS)
+            ax.text(1846, 1900, 'Derogación\nCorn Laws\n(1846)', ha='center', fontsize=11, color=GRIS)
             ax.annotate(f'Comercio total\nse multiplica ×{total[-1]/total[0]:.1f}',
                         xy=(1865, total[-1]), xytext=(1835, 2100),
                         fontsize=10, fontweight='bold', color=NARANJA,
@@ -358,7 +358,7 @@ def prog_comercio_britanico():
         ax.tick_params(colors='#555555', labelsize=10)
         ax.grid(axis='y', alpha=0.3, color='#CCCCCC')
         fig.text(0.5, 0.01, 'Fuente: Federico-Tena World Trade Historical Database (FTWTHD)',
-                 ha='center', fontsize=8, color='#888888', style='italic')
+                 ha='center', fontsize=11, color='#888888', style='italic')
         fig.tight_layout(rect=[0, 0.03, 1, 0.95])
         save(fig, 'comercio_britanico_1800', paso)
 
@@ -416,7 +416,7 @@ def prog_limite_smith():
                       fontsize=9, fontweight='bold', color=ROJO,
                       bbox=dict(boxstyle='round,pad=0.3', facecolor='#FEF3C7', edgecolor=AMARILLO_W))
         ax_table.text(8.5, 0.8, 'Dotación:\n12 horas\ncada país', ha='center', va='center',
-                      fontsize=8, color=GRIS, style='italic',
+                      fontsize=11, color=GRIS, style='italic',
                       bbox=dict(boxstyle='round,pad=0.3', facecolor='#F5F5F5', edgecolor='#DDDDDD'))
 
         # Panel izquierdo: Autarquía (always visible)
@@ -449,7 +449,7 @@ def prog_limite_smith():
         ax_aut.legend(fontsize=10, loc='upper right')
         ax_aut.text(0.5, 0.93, 'Cada país reparte sus 12 hs\nmitad tela, mitad vino',
                     transform=ax_aut.transAxes, ha='center', va='top',
-                    fontsize=8, color=GRIS, style='italic')
+                    fontsize=11, color=GRIS, style='italic')
         ax_aut.annotate('A produce\n6× más tela\ny 4× más vino',
                         xy=(0.15, 4.5), fontsize=9, color=ROJO, fontweight='bold', ha='center',
                         bbox=dict(boxstyle='round,pad=0.3', facecolor='#FEF3C7',
@@ -510,7 +510,7 @@ def prog_limite_smith():
 
         fig.text(0.50, 0.01,
                  'Elaboración propia  •  El límite de la ventaja absoluta',
-                 ha='center', fontsize=8, color='#888888', style='italic')
+                 ha='center', fontsize=11, color='#888888', style='italic')
         save(fig, 'limite_smith', paso)
 
 
@@ -615,7 +615,7 @@ def prog_rca_argentina():
         fig.text(0.5, 0.01,
                  'Elaboración propia a partir de datos WITS/Banco Mundial  •  '
                  'RCA = (Xij/Xi) / (Xwj/Xw)  •  Valores aproximados 2019',
-                 ha='center', fontsize=8, color='#888888', style='italic')
+                 ha='center', fontsize=11, color='#888888', style='italic')
         plt.tight_layout(rect=[0, 0.03, 1, 0.94])
         save(fig, 'rca_argentina', paso)
 

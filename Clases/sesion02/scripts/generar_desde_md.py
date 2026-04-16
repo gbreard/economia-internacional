@@ -203,6 +203,7 @@ def render_portada(s, active):
 
 def render_centrado(s, active):
     items = '\n'.join(f'        <li style="margin-bottom: 12px;">{render_formula_content(c)}</li>' for c in s.get('contenido', []))
+    sub = f'<p style="color: #111827; font-size: 1.3rem; font-weight: 600; margin-bottom: 30px; text-align: center; max-width: 80%;">{format_md(esc(s.get("subtitulo", "")))}</p>' if s.get('subtitulo') else ''
     return f'''
   <section class="slide{active}" style="
     background-color: #FFFFFF;
@@ -212,6 +213,7 @@ def render_centrado(s, active):
     <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
       {esc(s.get('titulo', ''))}
     </h2>
+    {sub}
     <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
 {items}
     </ul>
