@@ -28,3 +28,11 @@ nul
 
 # Material del docente (solucionarios, no publicar)
 docente/
+
+# Entregas de alumnos y datos personales (no publicar)
+evaluacion/entregas/
+evaluacion/coloquio/propuestas/
+evaluacion/coloquio/presentaciones/
+evaluacion/coloquio/evaluadores/
+evaluacion/coloquio/feedback/
+evaluacion/coloquio/alumnos.xlsx
