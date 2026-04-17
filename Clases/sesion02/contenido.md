@@ -31,7 +31,7 @@ Listo
 **Tipo**: portada
 **Título**: Economía Internacional — Clase 2
 **Subtítulo**: Del mercantilismo a Ricardo: productividad, costos relativos y ganancias del comercio
-**Fecha**: 26 de marzo de 2026
+**Fecha**: 16 de abril de 2026
 
 **Notas docente**:
 APERTURA (2 minutos)
