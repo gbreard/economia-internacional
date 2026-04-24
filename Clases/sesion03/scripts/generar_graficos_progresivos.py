@@ -122,20 +122,21 @@ def dos_paises_autarquia(paso):
         fig, ax1 = plt.subplots(1, 1, figsize=(7, 5.5))
     else:
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.5))
+    show_b = paso >= 2
 
-    # Pais A (siempre)
-    x_a = 100 * np.cos(theta)**0.55
-    y_a = 60 * np.sin(theta)**0.85
+    # Pais A (siempre) - abundante en K -> PPF muy sesgada hacia Tela
+    x_a = 100 * np.cos(theta)**0.4
+    y_a = 50 * np.sin(theta)**1.2
     ax1.plot(x_a, y_a, color=AZUL_OSCURO, linewidth=2.5, zorder=3)
     ax1.fill_between(x_a, y_a, alpha=0.05, color=AZUL_OSCURO)
-    idx_a = 65
+    idx_a = 80
     xa, ya = x_a[idx_a], y_a[idx_a]
     ax1.plot(xa, ya, 'o', color=ROJO, markersize=10, zorder=5)
     ax1.text(xa+2, ya+3, 'E_A', fontsize=12, fontweight='bold', color=ROJO)
     ka = xa * ya
-    t_ci = np.linspace(20, 95, 200)
+    t_ci = np.linspace(20, 98, 200)
     y_ci_a = ka / t_ci
-    mask_a = (y_ci_a > 5) & (y_ci_a < 58)
+    mask_a = (y_ci_a > 5) & (y_ci_a < 48)
     ax1.plot(t_ci[mask_a], y_ci_a[mask_a], color=VERDE, linewidth=1.5, zorder=2)
     dx = x_a[idx_a+1] - x_a[idx_a-1]
     dy = y_a[idx_a+1] - y_a[idx_a-1]
@@ -146,30 +147,31 @@ def dos_paises_autarquia(paso):
     ax1.text(xa+22, ya + slope_a*22 - 5, f'Pt/Pa bajo\n(tela barata)',
             fontsize=9, color=NARANJA, fontweight='bold', ha='center')
     ax1.set_xlim(-5, 115)
-    ax1.set_ylim(-5, 70)
+    ax1.set_ylim(-5, 115)
     ax1.set_xlabel('Tela', fontsize=12, fontweight='bold')
     ax1.set_ylabel('Alimentos', fontsize=12, fontweight='bold')
     ax1.set_title('Pais A: abundante en Capital (K)',
                  fontsize=13, fontweight='bold', color=AZUL_OSCURO, pad=12)
     limpiar_ejes(ax1)
-    ax1.text(5, 65, 'K/L alto\n-> PPF sesgada\nhacia Tela',
+    ax1.text(5, 108, 'K/L alto\n-> PPF sesgada\nhacia Tela',
             fontsize=9, color=AZUL_OSCURO, fontweight='bold',
             bbox=dict(boxstyle='round,pad=0.4', facecolor='#DBEAFE',
                      edgecolor=AZUL_MEDIO, alpha=0.9))
 
-    if paso == 2:
-        x_b = 60 * np.cos(theta)**0.85
-        y_b = 100 * np.sin(theta)**0.55
+    if show_b:
+        # Pais B - abundante en L -> PPF muy sesgada hacia Alimentos
+        x_b = 50 * np.cos(theta)**1.2
+        y_b = 100 * np.sin(theta)**0.4
         ax2.plot(x_b, y_b, color=NARANJA, linewidth=2.5, zorder=3)
         ax2.fill_between(x_b, y_b, alpha=0.05, color=NARANJA)
-        idx_b = 65
+        idx_b = 80
         xb, yb = x_b[idx_b], y_b[idx_b]
         ax2.plot(xb, yb, 'o', color=ROJO, markersize=10, zorder=5)
         ax2.text(xb+2, yb+3, 'E_B', fontsize=12, fontweight='bold', color=ROJO)
         kb = xb * yb
-        t_ci2 = np.linspace(10, 58, 200)
+        t_ci2 = np.linspace(5, 48, 200)
         y_ci_b = kb / t_ci2
-        mask_b = (y_ci_b > 10) & (y_ci_b < 95)
+        mask_b = (y_ci_b > 10) & (y_ci_b < 98)
         ax2.plot(t_ci2[mask_b], y_ci_b[mask_b], color=VERDE, linewidth=1.5, zorder=2)
         dx2 = x_b[idx_b+1] - x_b[idx_b-1]
         dy2 = y_b[idx_b+1] - y_b[idx_b-1]
@@ -179,14 +181,14 @@ def dos_paises_autarquia(paso):
         ax2.plot(x_pb, y_pb, '--', color=AZUL_MEDIO, linewidth=2, zorder=4)
         ax2.text(xb-5, yb + slope_b*(-5) + 5, f'Pt/Pa alto\n(tela cara)',
                 fontsize=9, color=AZUL_MEDIO, fontweight='bold', ha='center')
-        ax2.set_xlim(-5, 75)
-        ax2.set_ylim(-5, 120)
+        ax2.set_xlim(-5, 115)
+        ax2.set_ylim(-5, 115)
         ax2.set_xlabel('Tela', fontsize=12, fontweight='bold')
         ax2.set_ylabel('Alimentos', fontsize=12, fontweight='bold')
         ax2.set_title('Pais B: abundante en Trabajo (L)',
                      fontsize=13, fontweight='bold', color=NARANJA, pad=12)
         limpiar_ejes(ax2)
-        ax2.text(35, 112, 'L/K alto\n-> PPF sesgada\nhacia Alimentos',
+        ax2.text(5, 108, 'L/K alto\n-> PPF sesgada\nhacia Alimentos',
                 fontsize=9, color=NARANJA, fontweight='bold',
                 bbox=dict(boxstyle='round,pad=0.4', facecolor='#FEF3C7',
                          edgecolor=NARANJA, alpha=0.9))
@@ -299,64 +301,102 @@ def comercio_ppf_curva(paso):
 # 4. Dotaciones PPF (Slide 23) - 2 pasos
 # ============================================================
 def dotaciones_ppf(paso):
-    t = np.linspace(0, 1, 200)
+    theta = np.linspace(0, np.pi/2, 200)
 
-    if paso == 1:
-        fig, ax1 = plt.subplots(1, 1, figsize=(7, 5.5))
-    else:
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.5))
+    # Siempre dos paneles (paso 1 = solo PPFs, paso 2 = +E_A, paso 3 = +E_B)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5.5))
 
-    # Pais A (siempre)
-    xa = 100 * (1 - t**1.8)
-    ya = 65 * t**0.8
+    # Mismos ejes para ambos paneles (facilita comparar pendientes)
+    xlim = (-5, 110)
+    ylim = (-5, 110)
+
+    # --- Pais A: K-abundante → PPF sesgada hacia X (concava) ---
+    xa = 100 * np.cos(theta)**0.4
+    ya = 50 * np.sin(theta)**1.2
     ax1.plot(xa, ya, color=AZUL_OSCURO, linewidth=2.5)
     ax1.fill_between(xa, ya, alpha=0.08, color=AZUL_MEDIO)
-    idx_a = 80
-    ax1.plot(xa[idx_a], ya[idx_a], 'o', color=NARANJA, markersize=10, zorder=5)
-    ax1.annotate('$E^A$ (autarquia)', xy=(xa[idx_a], ya[idx_a]),
-                 xytext=(xa[idx_a]-25, ya[idx_a]+8), fontsize=10, color=NARANJA,
-                 arrowprops=dict(arrowstyle='->', color=NARANJA, lw=1.5))
-    ax1.plot([85, 20], [10, 55], '--', color=ROJO, linewidth=1.5, alpha=0.7)
-    ax1.text(22, 57, '$P_X/P_Y$ bajo\n(X barato)', fontsize=9, color=ROJO, ha='left')
     ax1.set_title('Pais A (K-abundante)', fontsize=14, fontweight='bold',
                  color=AZUL_OSCURO, pad=12)
     ax1.set_xlabel('Bien X (K-intensivo)', fontsize=11, color=GRIS)
     ax1.set_ylabel('Bien Y (L-intensivo)', fontsize=11, color=GRIS)
     estilo_ho(ax1)
-    ax1.set_xlim(-5, 110)
-    ax1.set_ylim(-5, 75)
-    ax1.text(60, 65, 'K/L alto\n-> X relativamente\n   barato', fontsize=9,
+    ax1.set_xlim(xlim)
+    ax1.set_ylim(ylim)
+    ax1.text(10, 100, 'K/L alto\n-> PPF sesgada\n   hacia X', fontsize=9,
              bbox=dict(boxstyle='round,pad=0.4', facecolor='#EBF5FB',
                       edgecolor=AZUL_MEDIO), ha='center', va='top')
 
-    if paso == 2:
-        xb = 60 * (1 - t**0.8)
-        yb = 100 * t**1.8
-        ax2.plot(xb, yb, color=VERDE, linewidth=2.5)
-        ax2.fill_between(xb, yb, alpha=0.08, color=VERDE)
-        idx_b = 120
-        ax2.plot(xb[idx_b], yb[idx_b], 'o', color=NARANJA, markersize=10, zorder=5)
-        ax2.annotate('$E^B$ (autarquia)', xy=(xb[idx_b], yb[idx_b]),
-                     xytext=(xb[idx_b]+5, yb[idx_b]-12), fontsize=10, color=NARANJA,
-                     arrowprops=dict(arrowstyle='->', color=NARANJA, lw=1.5))
-        ax2.plot([50, 10], [20, 80], '--', color=ROJO, linewidth=1.5, alpha=0.7)
-        ax2.text(12, 83, '$P_X/P_Y$ alto\n(X caro)', fontsize=9, color=ROJO, ha='left')
-        ax2.set_title('Pais B (L-abundante)', fontsize=14, fontweight='bold',
-                     color=AZUL_OSCURO, pad=12)
-        ax2.set_xlabel('Bien X (K-intensivo)', fontsize=11, color=GRIS)
-        ax2.set_ylabel('Bien Y (L-intensivo)', fontsize=11, color=GRIS)
-        estilo_ho(ax2)
-        ax2.set_xlim(-5, 70)
-        ax2.set_ylim(-5, 110)
-        ax2.text(40, 100, 'K/L bajo\n-> Y relativamente\n   barato', fontsize=9,
-                 bbox=dict(boxstyle='round,pad=0.4', facecolor='#EAFAF1',
-                          edgecolor=VERDE), ha='center', va='top')
+    # Paso 2+: agregar equilibrio E_A con tangente corta
+    if paso >= 2:
+        idx_a = 80
+        exa, eya = xa[idx_a], ya[idx_a]
+        ax1.plot(exa, eya, 'o', color=NARANJA, markersize=11, zorder=5)
+        # Tangente corta centrada en E_A
+        dx_a = xa[idx_a+1] - xa[idx_a-1]
+        dy_a = ya[idx_a+1] - ya[idx_a-1]
+        slope_a = dy_a / dx_a
+        tang_len = 18
+        x_tang_a = np.array([exa - tang_len, exa + tang_len])
+        y_tang_a = eya + slope_a * (x_tang_a - exa)
+        ax1.plot(x_tang_a, y_tang_a, '--', color=ROJO, linewidth=2, alpha=0.8, zorder=4)
+        # Etiquetas claras
+        ax1.annotate('$E^A$', xy=(exa, eya),
+                     xytext=(exa + 8, eya + 8), fontsize=13, fontweight='bold',
+                     color=NARANJA, zorder=6)
+        ax1.annotate('Pendiente plana\n$P_X/P_Y$ bajo\n(X barato en A)',
+                     xy=(x_tang_a[1], y_tang_a[1]),
+                     xytext=(65, 75), fontsize=9, color=ROJO, fontweight='bold',
+                     ha='center',
+                     arrowprops=dict(arrowstyle='->', color=ROJO, lw=1.2))
 
-    suptitle = ('Pais A: dotaciones y precios en autarquia' if paso == 1
-                else 'Dotaciones y precios relativos en autarquia')
-    fig.suptitle(suptitle, fontsize=15, fontweight='bold', color=AZUL_OSCURO, y=0.98)
-    plt.tight_layout(rect=[0, 0.02, 1, 0.93])
-    fig.text(0.5, 0.01, 'Fuente: Elaboracion propia', ha='center', fontsize=8, color=GRIS)
+    # --- Pais B: L-abundante → PPF sesgada hacia Y (concava) ---
+    xb = 50 * np.cos(theta)**1.2
+    yb = 100 * np.sin(theta)**0.4
+    ax2.plot(xb, yb, color=VERDE, linewidth=2.5)
+    ax2.fill_between(xb, yb, alpha=0.08, color=VERDE)
+    ax2.set_title('Pais B (L-abundante)', fontsize=14, fontweight='bold',
+                 color=AZUL_OSCURO, pad=12)
+    ax2.set_xlabel('Bien X (K-intensivo)', fontsize=11, color=GRIS)
+    ax2.set_ylabel('Bien Y (L-intensivo)', fontsize=11, color=GRIS)
+    estilo_ho(ax2)
+    ax2.set_xlim(xlim)
+    ax2.set_ylim(ylim)
+    ax2.text(65, 100, 'K/L bajo\n-> PPF sesgada\n   hacia Y', fontsize=9,
+             bbox=dict(boxstyle='round,pad=0.4', facecolor='#EAFAF1',
+                      edgecolor=VERDE), ha='center', va='top')
+
+    # Paso 3: agregar equilibrio E_B con tangente corta
+    if paso >= 3:
+        idx_b = 80
+        exb, eyb = xb[idx_b], yb[idx_b]
+        ax2.plot(exb, eyb, 'o', color=NARANJA, markersize=11, zorder=5)
+        # Tangente corta centrada en E_B
+        dx_b = xb[idx_b+1] - xb[idx_b-1]
+        dy_b = yb[idx_b+1] - yb[idx_b-1]
+        slope_b = dy_b / dx_b
+        tang_len_b = 12
+        x_tang_b = np.array([exb - tang_len_b, exb + tang_len_b])
+        y_tang_b = eyb + slope_b * (x_tang_b - exb)
+        ax2.plot(x_tang_b, y_tang_b, '--', color=ROJO, linewidth=2, alpha=0.8, zorder=4)
+        # Etiquetas claras
+        ax2.annotate('$E^B$', xy=(exb, eyb),
+                     xytext=(exb + 8, eyb - 10), fontsize=13, fontweight='bold',
+                     color=NARANJA, zorder=6)
+        ax2.annotate('Pendiente empinada\n$P_X/P_Y$ alto\n(X caro en B)',
+                     xy=(x_tang_b[0], y_tang_b[0]),
+                     xytext=(55, 75), fontsize=9, color=ROJO, fontweight='bold',
+                     ha='center',
+                     arrowprops=dict(arrowstyle='->', color=ROJO, lw=1.2))
+        fig.text(0.5, 0.01, 'Pendiente plana en A vs empinada en B  ->  $P_X/P_Y$ difiere  ->  base para el comercio',
+                ha='center', fontsize=11, color=ROJO, fontweight='bold')
+
+    suptitles = {
+        1: 'Dotaciones y forma de la PPF',
+        2: 'Dotaciones y precios en autarquia (Pais A)',
+        3: 'Dotaciones y precios relativos en autarquia'
+    }
+    fig.suptitle(suptitles[paso], fontsize=15, fontweight='bold', color=AZUL_OSCURO, y=0.98)
+    plt.tight_layout(rect=[0, 0.04, 1, 0.93])
     fig.savefig(OUT / f'dotaciones_ppf_paso{paso}.png', dpi=150,
                bbox_inches='tight', facecolor='white')
     plt.close()
@@ -395,17 +435,22 @@ def precio_mundial_ho(paso):
         ax.text(pw, y_line - 0.15, 'Precio\nmundial', fontsize=9, ha='center',
                 color=NARANJA, va='top')
 
-        ax.annotate('', xy=(pw - 0.3, y_line - 0.45), xytext=(pa + 0.3, y_line - 0.45),
+        # Flecha A (arriba)
+        y_arrow_a = y_line - 0.42
+        ax.annotate('', xy=(pw - 0.3, y_arrow_a), xytext=(pa + 0.3, y_arrow_a),
                     arrowprops=dict(arrowstyle='->', color=AZUL_OSCURO, lw=2))
-        ax.text((pa + pw) / 2, y_line - 0.55, 'A: sube $P_X/P_Y$\n-> exporta X',
-                fontsize=10, ha='center', color=AZUL_OSCURO, fontweight='bold')
-        ax.annotate('', xy=(pw + 0.3, y_line - 0.45), xytext=(pb - 0.3, y_line - 0.45),
+        ax.text((pa + pw) / 2, y_arrow_a - 0.08, 'A: sube $P_X/P_Y$  ->  exporta X',
+                fontsize=10, ha='center', va='top', color=AZUL_OSCURO, fontweight='bold')
+
+        # Flecha B (abajo, separada)
+        y_arrow_b = y_line - 0.75
+        ax.annotate('', xy=(pw + 0.3, y_arrow_b), xytext=(pb - 0.3, y_arrow_b),
                     arrowprops=dict(arrowstyle='->', color=VERDE, lw=2))
-        ax.text((pb + pw) / 2, y_line - 0.55, 'B: baja $P_X/P_Y$\n-> exporta Y',
-                fontsize=10, ha='center', color=VERDE, fontweight='bold')
+        ax.text((pb + pw) / 2, y_arrow_b - 0.08, 'B: baja $P_X/P_Y$  ->  exporta Y',
+                fontsize=10, ha='center', va='top', color=VERDE, fontweight='bold')
 
     ax.set_xlim(-0.5, 10.5)
-    ax.set_ylim(-0.8 if paso >= 3 else -0.2, 1.0)
+    ax.set_ylim(-1.1 if paso >= 3 else -0.2, 1.0)
     ax.axis('off')
 
     titles = {
@@ -415,7 +460,6 @@ def precio_mundial_ho(paso):
     }
     ax.set_title(titles[paso], fontsize=14, fontweight='bold', color=AZUL_OSCURO, pad=15)
 
-    fig.text(0.5, 0.02, 'Fuente: Elaboracion propia', ha='center', fontsize=8, color=GRIS)
     fig.savefig(OUT / f'precio_mundial_ho_paso{paso}.png', dpi=150,
                bbox_inches='tight', facecolor='white')
     plt.close()
@@ -481,7 +525,6 @@ def stolper_samuelson_cadena(paso):
     }
     ax.set_title(titles[paso], fontsize=14, fontweight='bold', color=AZUL_OSCURO, pad=15)
 
-    fig.text(0.5, 0.02, 'Fuente: Elaboracion propia', ha='center', fontsize=8, color=GRIS)
     fig.savefig(OUT / f'stolper_samuelson_cadena_paso{paso}.png', dpi=150,
                bbox_inches='tight', facecolor='white')
     plt.close()
@@ -493,9 +536,9 @@ def stolper_samuelson_cadena(paso):
 # ============================================================
 def rybczynski_efecto(paso):
     if paso == 1:
-        fig, ax1 = plt.subplots(1, 1, figsize=(7, 5.5))
+        fig, ax1 = plt.subplots(1, 1, figsize=(7, 6))
     else:
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5.5))
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
 
     categorias = ['Bien X\n(K-intensivo)', 'Bien Y\n(L-intensivo)']
     antes = [50, 50]
@@ -505,10 +548,10 @@ def rybczynski_efecto(paso):
     # Panel 1: aumento K (siempre)
     despues1 = [80, 35]
     ax1.bar(x_pos - width/2, antes, width, color=AZUL_MEDIO, label='Antes', alpha=0.7)
-    ax1.bar(x_pos + width/2, despues1, width, color=NARANJA, label='Despues de $\\uparrow$K')
-    ax1.annotate('$\\uparrow\\uparrow$', xy=(0 + width/2, 82), fontsize=16,
+    ax1.bar(x_pos + width/2, despues1, width, color=NARANJA, label='Despues de $\\uparrow$ K')
+    ax1.annotate('$\\uparrow\\uparrow$', xy=(0 + width/2, 83), fontsize=16,
                 fontweight='bold', color=VERDE, ha='center')
-    ax1.annotate('$\\downarrow$', xy=(1 + width/2, 37), fontsize=16,
+    ax1.annotate('$\\downarrow$', xy=(1 + width/2, 38), fontsize=16,
                 fontweight='bold', color=ROJO, ha='center')
     ax1.set_title('Shock: $\\uparrow$ Capital (K)', fontsize=14, fontweight='bold',
                  color=AZUL_OSCURO, pad=12)
@@ -516,19 +559,19 @@ def rybczynski_efecto(paso):
     estilo_ho(ax1)
     ax1.set_xticks(x_pos)
     ax1.set_xticklabels(categorias, fontsize=10)
-    ax1.set_ylim(0, 100)
-    ax1.legend(fontsize=9, loc='upper right')
-    ax1.text(0.5, 92, 'Mas K -> X sube mas\nque proporcionalmente,\nY cae', fontsize=9,
+    ax1.set_ylim(0, 120)
+    ax1.legend(fontsize=9, loc='lower right')
+    ax1.text(0.5, 108, 'Mas K  ->  X sube mas que\nproporcionalmente, Y cae', fontsize=9,
              ha='center', bbox=dict(boxstyle='round,pad=0.4', facecolor='#FEF9E7',
                                     edgecolor=NARANJA), transform=ax1.transData)
 
     if paso == 2:
         despues2 = [35, 80]
         ax2.bar(x_pos - width/2, antes, width, color=AZUL_MEDIO, label='Antes', alpha=0.7)
-        ax2.bar(x_pos + width/2, despues2, width, color=VERDE, label='Despues de $\\uparrow$L')
-        ax2.annotate('$\\downarrow$', xy=(0 + width/2, 37), fontsize=16,
+        ax2.bar(x_pos + width/2, despues2, width, color=VERDE, label='Despues de $\\uparrow$ L')
+        ax2.annotate('$\\downarrow$', xy=(0 + width/2, 38), fontsize=16,
                     fontweight='bold', color=ROJO, ha='center')
-        ax2.annotate('$\\uparrow\\uparrow$', xy=(1 + width/2, 82), fontsize=16,
+        ax2.annotate('$\\uparrow\\uparrow$', xy=(1 + width/2, 83), fontsize=16,
                     fontweight='bold', color=VERDE, ha='center')
         ax2.set_title('Shock: $\\uparrow$ Trabajo (L)', fontsize=14, fontweight='bold',
                      color=AZUL_OSCURO, pad=12)
@@ -536,9 +579,9 @@ def rybczynski_efecto(paso):
         estilo_ho(ax2)
         ax2.set_xticks(x_pos)
         ax2.set_xticklabels(categorias, fontsize=10)
-        ax2.set_ylim(0, 100)
-        ax2.legend(fontsize=9, loc='upper right')
-        ax2.text(0.5, 92, 'Mas L -> Y sube mas\nque proporcionalmente,\nX cae', fontsize=9,
+        ax2.set_ylim(0, 120)
+        ax2.legend(fontsize=9, loc='lower left')
+        ax2.text(0.5, 108, 'Mas L  ->  Y sube mas que\nproporcionalmente, X cae', fontsize=9,
                  ha='center', bbox=dict(boxstyle='round,pad=0.4', facecolor='#EAFAF1',
                                         edgecolor=VERDE), transform=ax2.transData)
 
@@ -546,7 +589,6 @@ def rybczynski_efecto(paso):
                 else 'Teorema de Rybczynski: shock de dotaciones -> cambio estructural')
     fig.suptitle(suptitle, fontsize=14, fontweight='bold', color=AZUL_OSCURO, y=0.98)
     plt.tight_layout(rect=[0, 0.04, 1, 0.93])
-    fig.text(0.5, 0.01, 'Fuente: Elaboracion propia', ha='center', fontsize=8, color=GRIS)
     fig.savefig(OUT / f'rybczynski_efecto_paso{paso}.png', dpi=150,
                bbox_inches='tight', facecolor='white')
     plt.close()
@@ -642,16 +684,16 @@ if __name__ == '__main__':
     for p in range(1, 3):
         ppf_recta_vs_curva(p)
 
-    print("\n2. Dos paises en autarquia (2 pasos)")
-    for p in range(1, 3):
+    print("\n2. Dos paises en autarquia (3 pasos)")
+    for p in range(1, 4):
         dos_paises_autarquia(p)
 
     print("\n3. Comercio con PPF curva (3 pasos)")
     for p in range(1, 4):
         comercio_ppf_curva(p)
 
-    print("\n4. Dotaciones PPF (2 pasos)")
-    for p in range(1, 3):
+    print("\n4. Dotaciones PPF (3 pasos)")
+    for p in range(1, 4):
         dotaciones_ppf(p)
 
     print("\n5. Precio mundial H-O (3 pasos)")

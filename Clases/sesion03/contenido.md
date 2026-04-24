@@ -27,20 +27,24 @@ Listo
 
 | Archivo | Slide | Descripción | Estado |
 |---------|-------|-------------|--------|
-| ppf_recta_vs_curva.png | 9 | PPF lineal (Ricardo) vs PPF cóncava (neoclásico) | ✓ Existe |
-| rendimientos_decrecientes.png | 10 | Diagrama: por qué 2 factores + rend. decrec. = PPF curva | ✓ Existe |
-| equilibrio_autarquia.png | 12 | PPF + curva de indiferencia + tangencia = precio relativo | ✓ Existe |
-| dos_paises_autarquia.png | 13 | Dos paneles mostrando distintos precios relativos en autarquía | ✓ Existe |
-| oferta_demanda_relativa.png | 15 | OR, OR*, DR → precio de equilibrio mundial | ✓ Existe |
-| comercio_ppf_curva.png | 16 | PPF + línea de precios mundiales + punto de consumo fuera PPF | ✓ Existe |
-| resumen_ricardo_vs_neoclasico.png | 18 | Tabla visual comparativa de los dos modelos | ✓ Existe |
-| dotaciones_ppf.png | 23 | Dotaciones → PPF → precios relativos en autarquía (H-O) | ✓ Existe |
-| precio_mundial_ho.png | 24 | Apertura comercial: precio mundial entre autarquías | ✓ Existe |
-| stolper_samuelson_cadena.png | 27 | Cadena causal: precio → sector → factor → distribución | ✓ Existe |
-| rybczynski_efecto.png | 29 | Efecto de cambio en dotaciones sobre producción | ✓ Existe |
-| teoremas_ho_tabla.png | 31 | Tabla resumen de los tres teoremas H-O | ✓ Existe |
-| leontief_paradoja.png | 33 | Datos de Leontief: K/L en exportaciones vs importaciones EEUU | ✓ Existe |
-| argentina_exportaciones.png | 36 | Composición exportaciones argentinas por intensidad factorial | ✓ Existe |
+| ppf_recta_vs_curva.png | 25 | PPF lineal (Ricardo) vs PPF cóncava (neoclásico) | ✓ Existe |
+| rendimientos_decrecientes.png | 26 | Diagrama: por qué 2 factores + rend. decrec. = PPF curva | ✓ Existe |
+| equilibrio_autarquia.png | 28 | PPF + curva de indiferencia + tangencia = precio relativo | ✓ Existe |
+| dos_paises_autarquia.png | 29 | Dos paneles mostrando distintos precios relativos en autarquía | ✓ Existe |
+| precio_autarquia.png | 30 | PPF + curva indiferencia + tangencia: TMT = TMS = Pt/Pa | ✓ Existe |
+| oferta_demanda_relativa.png | 31 | OR, OR*, DR → precio de equilibrio mundial | ✓ Existe |
+| comercio_ppf_curva.png | 32 | PPF + línea de precios mundiales + punto de consumo fuera PPF | ✓ Existe |
+| resumen_ricardo_vs_neoclasico.png | 34 | Tabla visual comparativa de los dos modelos | ✓ Existe |
+| setup_ho.png | 38 | Diagrama setup 2×2×2: países, factores, bienes, supuestos | ✓ Existe |
+| dotaciones_ppf.png | 39 | Dotaciones → PPF → precios relativos en autarquía (H-O) | ✓ Existe |
+| precio_mundial_ho.png | 40 | Apertura comercial: precio mundial entre autarquías | ✓ Existe |
+| stolper_samuelson_cadena.png | 42 | Cadena causal: precio → sector → factor → distribución | ✓ Existe |
+| stolper_samuelson.png | 43 | Diagrama S-S por país: quién gana y quién pierde | ✓ Existe |
+| rybczynski_efecto.png | 45 | Efecto de cambio en dotaciones sobre producción | ✓ Existe |
+| teoremas_ho_tabla.png | 47 | Tabla resumen de los tres teoremas H-O | ✓ Existe |
+| leontief_metodo.png | 49 | Método I-O de Leontief: matriz + rastreo K/L + paradoja | ✓ Existe |
+| leontief_paradoja.png | 50 | Datos de Leontief: K/L en exportaciones vs importaciones EEUU | ✓ Existe |
+| argentina_exportaciones.png | 53 | Composición exportaciones argentinas por intensidad factorial | ✓ Existe |
 
 ---
 
@@ -52,7 +56,7 @@ Listo
 **Tipo**: portada
 **Título**: Economía Internacional — Clase 3
 **Subtítulo**: Del modelo neoclásico a Heckscher-Ohlin: dotaciones, distribución y evidencia
-**Fecha**: 9 de abril de 2026
+**Fecha**: 23 de abril de 2026
 
 **Notas docente**:
 APERTURA (2 minutos)
@@ -61,7 +65,271 @@ APERTURA (2 minutos)
 
 ---
 
-#### Slide 2: ¿Qué nos dejó Ricardo?
+#### Slide 2: Quiz de lecturas
+**Tipo**: seccion
+**Título**: ¿Leyeron la bibliografía?
+**Subtítulo**: 7 preguntas sobre Lugones Cap. 1 y Krugman Cap. 3
+
+**Notas docente**:
+QUIZ DE LECTURAS (15 minutos total para las 7 preguntas + discusión)
+
+'Antes de arrancar con el contenido nuevo, vamos a chequear las lecturas que les dejé la clase pasada: Lugones capítulo 1 y Krugman capítulo 3. Son 7 preguntas de opción múltiple, sin nota. La idea es discutir las respuestas y fijar los conceptos que vamos a necesitar hoy.'
+
+'Piensen la respuesta en silencio, y cuando yo diga, levanten la mano para la opción que eligieron.'
+
+---
+
+#### Slide 3: P1 — Pregunta
+**Tipo**: centrado
+**Título**: P1 — Smith vs mercantilistas
+**Subtítulo**: ¿Qué entiende Smith por "riqueza" y en qué se diferencia de la visión mercantilista?
+
+**Contenido**:
+- A) Para Smith la riqueza es la acumulación de oro y plata, igual que para los mercantilistas
+- B) Los mercantilistas miden riqueza por metales preciosos; Smith la redefine como la capacidad productiva de un país (bienes y servicios que puede generar)
+- C) Smith y los mercantilistas coinciden en que la riqueza depende de tener superávit comercial permanente
+- D) Para Smith la riqueza es el stock de capital financiero; para los mercantilistas es la tierra
+
+**Notas docente**:
+Leer la pregunta. Pedir que piensen 15 segundos. Preguntar: '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+No revelar la respuesta todavía — pasar al siguiente slide.
+
+---
+
+#### Slide 4: P1 — Respuesta
+**Tipo**: texto
+**Título**: P1 — Respuesta: B
+**Subtítulo**: Smith redefine la riqueza como capacidad productiva
+
+**Contenido**:
+- Los mercantilistas medían la riqueza por la **acumulación de metales preciosos** (oro, plata) → el comercio era un juego de suma cero. Smith rompe con esto: la riqueza de una nación es el **flujo de bienes y servicios** que puede producir. Más producción = más riqueza, independientemente del oro acumulado
+- **¿Por qué no las otras?**
+- A: invierte a Smith — él rechaza explícitamente la ecuación riqueza = metales
+- C: Smith critica la obsesión por el superávit; para él, el comercio es de suma positiva
+- D: la tierra es la medida de riqueza de los fisiócratas, no de los mercantilistas
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Este es el quiebre fundamental: los mercantilistas pensaban que si vos importás, perdés riqueza porque sale oro del país. Smith dice: no, la riqueza es lo que PRODUCÍS. Si importás algo más barato de lo que te sale producirlo, liberás recursos para producir otra cosa. El comercio no es un juego de suma cero — es de suma positiva.'
+
+---
+
+#### Slide 5: P2 — Pregunta
+**Tipo**: centrado
+**Título**: P2 — División del trabajo y comercio
+**Subtítulo**: ¿Por qué la división del trabajo depende del tamaño del mercado? ¿Qué rol cumple el comercio?
+
+**Contenido**:
+- A) La división del trabajo no depende del mercado; depende solo de la tecnología disponible
+- B) Un mercado más grande permite mayor especialización porque hay demanda suficiente para justificar producir una sola cosa; el comercio amplía el mercado más allá de las fronteras
+- C) El comercio reduce la división del trabajo porque obliga a producir lo que demanda el exterior
+- D) La división del trabajo solo funciona dentro de una fábrica, no entre países
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 6: P2 — Respuesta
+**Tipo**: texto
+**Título**: P2 — Respuesta: B
+**Subtítulo**: El comercio amplía el mercado → más especialización → más productividad
+
+**Contenido**:
+- Es la cadena causal central de Smith: mercado más grande → cada productor puede especializarse más → sube la productividad → todos ganan. **El comercio internacional amplía el mercado** más allá del tamaño del país. Por eso Smith defiende el libre comercio: no es ideología, es que un mercado más grande permite más división del trabajo
+- **¿Por qué no las otras?**
+- A: Smith dice explícitamente que la extensión del mercado es el LÍMITE de la división del trabajo
+- C: al contrario — el comercio permite MAYOR especialización, no menor
+- D: Smith aplica el principio de la fábrica de alfileres a países enteros
+
+**Notas docente**:
+EXPLICACIÓN (1 minuto)
+
+'Piensen en la fábrica de alfileres: si vendés 100 alfileres por día, no justifica tener 10 operarios especializados. Si vendés 100.000, sí. El comercio internacional hace que tu mercado pase de 45 millones (Argentina) a miles de millones. ESA es la lógica de Smith.'
+
+---
+
+#### Slide 7: P3 — Pregunta
+**Tipo**: centrado
+**Título**: P3 — Ventaja absoluta vs comparativa
+**Subtítulo**: ¿Cuál es la diferencia entre ventaja absoluta y ventaja comparativa? ¿Por qué la segunda es más potente?
+
+**Contenido**:
+- A) Son lo mismo: el país que produce más barato tiene ambas ventajas
+- B) Ventaja absoluta = producir con menos recursos; ventaja comparativa = menor costo de oportunidad. La comparativa es más potente porque demuestra que TODOS los países pueden ganar con el comercio, incluso los menos eficientes
+- C) La ventaja comparativa solo aplica cuando ambos países tienen el mismo nivel de desarrollo
+- D) La ventaja absoluta es de Ricardo y la comparativa es de Smith
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 8: P3 — Respuesta
+**Tipo**: texto
+**Título**: P3 — Respuesta: B
+**Subtítulo**: La ventaja comparativa incluye a TODOS los países
+
+**Contenido**:
+- **Ventaja absoluta** (Smith): producir un bien con menos recursos que otro país. Problema: ¿qué pasa con un país que no tiene ventaja absoluta en nada? Smith no puede explicar por qué comerciaría
+- **Ventaja comparativa** (Ricardo): especializarse donde el costo de oportunidad es MENOR. Incluso si un país es peor en todo, tiene ventaja comparativa en algo. **Siempre hay base para el comercio mutuamente beneficioso**
+- **¿Por qué no las otras?**
+- A: un país puede tener ventaja absoluta en todo pero comparativa solo en algunos bienes
+- C: aplica a cualquier par de países, sin importar desarrollo
+- D: es al revés — absoluta es de Smith, comparativa es de Ricardo
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Este es EL concepto más importante del curso. Si se llevan una sola idea, es esta: no necesitás ser el mejor en algo para ganar con el comercio. Necesitás especializarte en lo que te sale RELATIVAMENTE menos costoso. Es contraintuitivo — por eso Ricardo es un genio.'
+
+---
+
+#### Slide 9: P4 — Pregunta
+**Tipo**: centrado
+**Título**: P4 — Modelo ricardiano
+**Subtítulo**: En el modelo ricardiano, ¿de dónde surgen las diferencias de precios relativos entre países?
+
+**Contenido**:
+- A) De las diferencias en dotaciones de capital y trabajo (modelo H-O)
+- B) De las diferencias en productividad del trabajo (tecnología), que generan distintos costos de oportunidad
+- C) De las diferencias en tamaño del mercado interno
+- D) De la intervención del gobierno en los precios
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 10: P4 — Respuesta
+**Tipo**: texto
+**Título**: P4 — Respuesta: B
+**Subtítulo**: Diferencias de productividad del trabajo → distintos costos de oportunidad
+
+**Contenido**:
+- En Ricardo hay **un solo factor** (trabajo) y la tecnología difiere entre países. Si en un país se necesitan 10 horas para hacer vino y 20 para hacer tela, el costo de oportunidad del vino es 0,5 telas. En otro país con tecnología distinta, esos costos son diferentes → **precios relativos distintos** → base para el comercio
+- **¿Por qué no las otras?**
+- A: las dotaciones de factores son la respuesta de H-O, no de Ricardo — eso lo vemos hoy
+- C: el tamaño del mercado importa en Smith y en Krugman (Unidad 3), no en Ricardo
+- D: Ricardo supone mercados competitivos sin intervención estatal
+
+**Notas docente**:
+EXPLICACIÓN (1 minuto)
+
+'Ojo con A — es la trampa más común. Las dotaciones de factores (mucho capital, poco trabajo) es H-O, que vemos en la segunda parte de hoy. Ricardo solo usa diferencias de TECNOLOGÍA (productividad del trabajo). Es importante porque son dos explicaciones distintas de por qué los países comercian.'
+
+---
+
+#### Slide 11: P5 — Pregunta
+**Tipo**: centrado
+**Título**: P5 — Precio mundial
+**Subtítulo**: ¿Qué condiciones debe cumplir el precio mundial para que ambos países ganen con el comercio?
+
+**Contenido**:
+- A) Debe ser igual al precio de autarquía del país más grande
+- B) Debe estar entre los precios relativos de autarquía de ambos países
+- C) Debe ser fijado por un organismo internacional (OMC o FMI)
+- D) Debe ser menor que el costo de producción de ambos países
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 12: P5 — Respuesta
+**Tipo**: texto
+**Título**: P5 — Respuesta: B
+**Subtítulo**: El precio mundial debe estar ENTRE los precios de autarquía
+
+**Contenido**:
+- Si el país A tiene precio relativo de autarquía $P_A$ y el país B tiene $P_B$, el precio mundial $P_W$ debe cumplir: $P_A < P_W < P_B$. Así, A exporta el bien donde tenía precio más bajo (ahora vende más caro) y B importa ese bien (ahora compra más barato). **Ambos mejoran respecto a la autarquía**
+- **¿Por qué no las otras?**
+- A: si el precio mundial coincide con el de un país, ese país no gana ni pierde — solo gana el otro
+- C: el precio mundial surge de la oferta y demanda relativa mundial, no de un organismo
+- D: no tiene sentido económico — algún país tiene que poder producir el bien
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Este concepto es clave para hoy: cuando veamos el modelo neoclásico estándar, vamos a ver exactamente este mecanismo en un gráfico — el precio mundial como línea de presupuesto que permite consumir fuera de la PPF. Si el precio está entre los dos de autarquía, ambos ganan.'
+
+---
+
+#### Slide 13: P6 — Pregunta
+**Tipo**: centrado
+**Título**: P6 — PPF y ganancias del comercio
+**Subtítulo**: ¿Qué es la PPF y por qué con comercio se puede consumir "fuera" de ella?
+
+**Contenido**:
+- A) La PPF muestra las combinaciones máximas de producción; con comercio se puede consumir fuera porque el país se endeuda
+- B) La PPF muestra las combinaciones máximas de producción; con comercio el país se especializa, exporta e importa a precios mundiales, alcanzando combinaciones de CONSUMO inalcanzables en autarquía
+- C) Con comercio la PPF se desplaza hacia afuera porque aumenta la cantidad de factores
+- D) La PPF no cambia y el consumo tampoco — el comercio solo redistribuye, no crea riqueza
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+
+---
+
+#### Slide 14: P6 — Respuesta
+**Tipo**: texto
+**Título**: P6 — Respuesta: B
+**Subtítulo**: Especialización + comercio = consumo fuera de la PPF
+
+**Contenido**:
+- La PPF marca el límite de lo que un país puede **producir**. Sin comercio, produce = consume. Con comercio: se especializa (produce más de un bien, menos de otro), exporta el excedente e importa lo que no produce. La **línea de precios mundiales** permite alcanzar combinaciones de consumo **fuera de la PPF** — esa es la ganancia del comercio
+- **¿Por qué no las otras?**
+- A: no es deuda — es intercambio voluntario. Exportás algo para importar otra cosa
+- C: la PPF no se mueve (los factores no cambian); lo que cambia es el conjunto de consumo posible
+- D: el comercio SÍ crea riqueza en el agregado — ambos países consumen más
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Este concepto es fundamental para hoy. En la primera parte de la clase vamos a ver exactamente este gráfico: la PPF curva, la línea de precios mundiales como tangente, y el punto de consumo fuera de la frontera. Si entienden esto, entienden el modelo neoclásico estándar.'
+
+---
+
+#### Slide 15: P7 — Pregunta
+**Tipo**: centrado
+**Título**: P7 — Pregunta integradora
+**Subtítulo**: Pensando en Argentina: ¿su patrón exportador refleja ventajas comparativas genuinas o hay otros factores en juego?
+
+**Contenido**:
+- A) Argentina exporta lo que exporta puramente por ventaja comparativa ricardiana: es más productiva en soja y granos, punto
+- B) El patrón exportador refleja ventajas comparativas (abundancia de tierra fértil) pero también decisiones de política (tipo de cambio, aranceles, retenciones), historia (ISI, desindustrialización) y demanda externa (China). No es solo productividad
+- C) Argentina no tiene ventajas comparativas en nada; exporta commodities porque no sabe hacer otra cosa
+- D) Las ventajas comparativas no aplican a países en desarrollo — son una teoría para países ricos
+
+**Notas docente**:
+Leer la pregunta. '¿Quién eligió la A? ¿La B? ¿La C? ¿La D?'
+Esta es la más difícil — integra teoría con realidad argentina.
+
+---
+
+#### Slide 16: P7 — Respuesta
+**Tipo**: texto
+**Título**: P7 — Respuesta: B
+**Subtítulo**: Ventajas comparativas + política + historia + demanda externa
+
+**Contenido**:
+- Argentina tiene **ventajas comparativas genuinas** en producción agropecuaria (tierra fértil, clima, pampa húmeda). Pero el patrón exportador también refleja: **tipo de cambio** (peso apreciado desincentiva industria), **política comercial** (retenciones al agro, protección industrial), **historia** (décadas de ISI + desindustrialización), y **demanda china** que reforzó la especialización primaria
+- **¿Por qué no las otras?**
+- A: reduccionista — ignora que la política y la historia moldean el patrón comercial
+- C: Argentina SÍ tiene ventajas comparativas en agro, no es que "no sabe hacer otra cosa"
+- D: las ventajas comparativas aplican a todos los países — otra cosa es que sean suficientes para explicar todo
+
+**Notas docente**:
+EXPLICACIÓN (2 minutos)
+
+'Esta pregunta anticipa todo lo que viene en el curso: H-O diría que Argentina exporta agro porque tiene ABUNDANCIA DE TIERRA. Pero Prebisch (Unidad 4) diría que eso la condena a la periferia. Diamand diría que el tipo de cambio es clave. Y en la Unidad 7 vamos a ver la reprimarización post-2000 por la demanda china. Hoy empezamos a armar esas capas.'
+
+CIERRE DEL QUIZ: 'Bien, con los conceptos frescos, ahora pasemos a la clase de hoy. Vamos a dar un salto: ¿qué pasa cuando el mundo tiene más de un factor de producción?'
+
+---
+
+#### Slide 17: ¿Qué nos dejó Ricardo?
 **Tipo**: centrado
 **Título**: Repaso rápido: ¿qué sabemos hasta acá?
 **Subtítulo**: Los clásicos nos dieron un motor potente... pero con limitaciones
@@ -85,7 +353,7 @@ REPASO (3 minutos)
 
 ---
 
-#### Slide 3: Agenda
+#### Slide 18: Agenda
 **Tipo**: agenda
 **Título**: Agenda de hoy
 
@@ -110,7 +378,7 @@ AGENDA (2 minutos)
 
 ### Sección: Las limitaciones de Ricardo
 
-#### Slide 4: ¿Qué no puede explicar Ricardo?
+#### Slide 19: ¿Qué no puede explicar Ricardo?
 **Tipo**: texto
 **Título**: Cinco limitaciones del modelo ricardiano
 **Subtítulo**: Un motor potente... pero incompleto
@@ -145,38 +413,63 @@ PREGUNTA: '¿Cuál de estas limitaciones les parece más grave? ¿Cuál limita m
 
 ### Sección: Contexto histórico — La revolución marginalista
 
-#### Slide 5: De la economía política a la economía "científica"
+#### Slide 20: ¿Qué significa "marginal" en economía?
+**Tipo**: texto
+**Título**: Antes de avanzar: ¿qué significa "marginal"?
+**Subtítulo**: No significa "poco importante" — significa adicional, incremental
+
+**Contenido**:
+- **Utilidad marginal**: satisfacción que te da una unidad MÁS de consumo
+- **Costo marginal**: costo de producir una unidad MÁS
+- **Producto marginal**: cuánto produce un trabajador ADICIONAL
+- La idea central: los agentes deciden comparando **beneficio marginal vs costo marginal**. Consumís hasta que utilidad marginal = precio. Producís hasta que costo marginal = precio
+- Esto resuelve la **paradoja del agua y los diamantes**: el agua es útil pero barata (utilidad marginal baja, hay mucha); los diamantes son menos útiles pero caros (utilidad marginal alta, hay pocos). El valor depende del **margen**, no del total
+
+**Notas docente**:
+¿QUÉ ES MARGINAL? (5 minutos)
+
+'Antes de ver a los marginalistas, necesitamos entender qué significa marginal. En economía, marginal NO significa poco importante — significa ADICIONAL o INCREMENTAL.'
+
+EJEMPLO EN PIZARRÓN:
+'Imaginen que tienen mucha sed. El primer vaso de agua les da un montón de satisfacción. El segundo, bastante. El tercero, algo. El décimo... ya ni lo quieren. La UTILIDAD MARGINAL — la satisfacción del vaso ADICIONAL — va cayendo. Eso es pensar en el margen.'
+
+LA PARADOJA DEL AGUA Y LOS DIAMANTES:
+'Adam Smith se preguntaba: ¿por qué el agua, que es esencial para la vida, es barata, y los diamantes, que son un lujo, son carísimos? Los clásicos no podían resolverlo bien con la teoría del valor-trabajo. Los marginalistas sí: el agua es barata porque hay MUCHA — la utilidad de un litro más es baja. Los diamantes son caros porque hay POCOS — la utilidad de un diamante más es alta. El precio refleja la utilidad MARGINAL, no la utilidad TOTAL.'
+
+CONEXIÓN: 'Esto es lo que cambia todo. Cuando pasemos al modelo neoclásico, las curvas de indiferencia, la PPF curva, los precios relativos — todo se basa en decisiones en el margen.'
+
+---
+
+#### Slide 21: La revolución marginalista
 **Tipo**: texto
 **Título**: La revolución marginalista (1870s): un cambio de paradigma
 **Subtítulo**: De Smith y Ricardo a una nueva forma de pensar la economía
 
 **Contenido**:
-- **1871-1874**: tres autores publican casi al mismo tiempo ideas similares: **Jevons** (Inglaterra), **Menger** (Austria), **Walras** (Suiza)
-- Cambian el **eje del análisis**: de clases sociales (renta, salarios, ganancias) a **individuos** que eligen en el margen
-- Del **valor-trabajo** (el valor de un bien depende del trabajo para producirlo) al **valor-utilidad** (depende de cuánto lo valora el consumidor)
-- Nueva herramienta: **equilibrio general** — todos los mercados se determinan simultáneamente
-- En comercio internacional: se puede reformular la ventaja comparativa **sin depender** de la teoría del valor-trabajo
+- **1871-1874**: tres autores publican casi al mismo tiempo: **Jevons** (Inglaterra), **Menger** (Austria), **Walras** (Suiza)
+- **Antes** (clásicos): el valor viene del **trabajo incorporado**; el análisis es por clases sociales (renta, salarios, ganancias)
+- **Después** (marginalistas): el valor viene de la **utilidad marginal y la escasez**; el análisis es de **individuos que deciden en el margen**
+- Nueva herramienta: **equilibrio general** (Walras) — todos los mercados se determinan simultáneamente
+- Para comercio internacional: se puede reformular la ventaja comparativa **sin depender** de la teoría del valor-trabajo → abre la puerta a Haberler y H-O
 
 **Notas docente**:
-REVOLUCIÓN MARGINALISTA (8 minutos)
+REVOLUCIÓN MARGINALISTA (5 minutos)
 
-'Esto es un cambio de paradigma — como pasar de Newton a Einstein, pero en economía.'
-
-CONTEXTO: Los clásicos (Smith, Ricardo, Marx) pensaban en CLASES SOCIALES: terratenientes, capitalistas, trabajadores. El valor de un bien venía del trabajo necesario para producirlo (teoría del valor-trabajo). Los marginalistas dicen: no, el valor viene de la utilidad que le da el ÚLTIMO consumidor (utilidad marginal).
+'Ahora que saben qué es marginal, veamos quiénes son los marginalistas y por qué fue una revolución.'
 
 LOS TRES MARGINALISTAS:
 - William Stanley Jevons (1835-1882): inglés, The Theory of Political Economy (1871). Matemático, busca hacer de la economía una ciencia exacta.
 - Carl Menger (1840-1921): austríaco, Grundsätze (1871). Funda la escuela austríaca. Más filosófico, menos matemático.
 - Léon Walras (1834-1910): franco-suizo, Éléments (1874). Crea el equilibrio general: un sistema de ecuaciones donde TODOS los mercados se equilibran al mismo tiempo.
 
-¿POR QUÉ IMPORTA PARA COMERCIO?
-'Porque con esta nueva caja de herramientas podés tener más de un factor, podés tener preferencias de los consumidores, podés tener equilibrio simultáneo de todos los mercados. No necesitás que el valor venga del trabajo — podés usar costos de oportunidad directamente.'
+EN UNA FRASE: 'Se llaman marginalistas porque explican la economía a partir de decisiones tomadas en el margen — cambios incrementales —, no en términos agregados o totales. Los clásicos preguntaban: ¿cómo se DISTRIBUYE el ingreso entre clases? Los marginalistas preguntan: ¿cómo se ASIGNAN recursos escasos entre usos alternativos?'
 
-DATO PARA EL AULA: 'Los clásicos preguntaban: ¿cómo se DISTRIBUYE el ingreso entre clases? Los marginalistas preguntan: ¿cómo se ASIGNAN recursos escasos entre usos alternativos? Es un cambio de pregunta fundamental.'
+¿POR QUÉ IMPORTA PARA COMERCIO?
+'Porque con esta caja de herramientas podés tener más de un factor, preferencias de consumidores, equilibrio simultáneo. No necesitás que el valor venga del trabajo — podés usar costos de oportunidad directamente. Eso es lo que hace Haberler en el siguiente slide.'
 
 ---
 
-#### Slide 6: Haberler y el puente al modelo estándar
+#### Slide 22: Haberler y el puente al modelo estándar
 **Tipo**: texto
 **Título**: Gottfried Haberler (1900-1995): la PPF sin valor-trabajo
 **Subtítulo**: El puente técnico de Ricardo al modelo neoclásico
@@ -207,7 +500,7 @@ CONEXIÓN CON LA CLASE: 'Haberler es el que arma la caja de herramientas que vam
 
 ---
 
-#### Slide 7: El entreguerras: ¿libre comercio en un mundo que se cierra?
+#### Slide 23: El entreguerras: ¿libre comercio en un mundo que se cierra?
 **Tipo**: texto
 **Título**: Contexto: las teorías nacen en un mundo convulsionado
 **Subtítulo**: 1919-1939: proteccionismo, crisis y colapso del comercio
@@ -242,7 +535,7 @@ PREGUNTA: '¿No les parece raro que las teorías a favor del libre comercio se e
 
 ---
 
-#### Slide 8: La tríada tecnología-poder-comercio en el modelo neoclásico
+#### Slide 24: La tríada tecnología-poder-comercio en el modelo neoclásico
 **Tipo**: texto
 **Título**: La tríada en el período neoclásico
 **Subtítulo**: ¿Qué cambia en cada pilar respecto de Ricardo?
@@ -276,7 +569,7 @@ PREGUNTA: '¿Les parece que las dotaciones son realmente "naturales"? ¿O se con
 
 ### Sección: El salto técnico — De 1 factor a 2
 
-#### Slide 9: La PPF recta vs la PPF curva
+#### Slide 25: La PPF recta vs la PPF curva
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué cambia cuando hay más de un factor?
 **Subtítulo**: La frontera de posibilidades de producción se curva
@@ -317,7 +610,7 @@ CONSECUENCIA CLAVE — ESPECIALIZACIÓN PARCIAL:
 
 ---
 
-#### Slide 10: ¿Por qué se curva? Rendimientos decrecientes
+#### Slide 26: ¿Por qué se curva? Rendimientos decrecientes
 **Tipo**: grafico_progresivo
 **Título**: Rendimientos decrecientes: la razón técnica de la PPF curva
 **Subtítulo**: Al reasignar factores, la productividad marginal baja
@@ -344,19 +637,19 @@ RENDIMIENTOS DECRECIENTES (5 minutos)
 
 'La razón técnica de que la PPF se curve es que los factores no son perfectamente sustituibles entre sectores.'
 
-EJEMPLO DIDÁCTICO:
-'Imaginemos que tenemos dos fábricas: una de ropa (intensiva en trabajo) y una de autos (intensiva en capital/maquinaria). Si cierro un poco la fábrica de ropa y mando trabajadores a la de autos, al principio funcionan bien — pueden operar máquinas que estaban subutilizadas. Pero si sigo mandando trabajadores, empiezan a sobrar personas y no hay suficientes máquinas para todos. La productividad marginal cae.'
+EJEMPLO CON EL GRÁFICO:
+'Miren el gráfico. Arrancamos en la zona plana de la PPF: si paso recursos de alimentos a tela, gano +21 unidades de tela y pierdo solo 4 de alimentos. El costo de oportunidad es bajo — estoy moviendo factores que se adaptan bien al sector textil.'
 
-'Al revés: si mando capital de autos a ropa, al principio ayuda (mejores máquinas de coser). Pero llega un punto donde tener más máquinas sin suficientes costureras no agrega nada.'
+'Pero ahora miren la zona empinada: para ganar apenas +12 de tela tengo que sacrificar 33 alimentos. ¿Por qué? Porque los factores que quedan en alimentos son los que PEOR se adaptan a la producción de tela. Hay un desajuste: sobra capital agrícola, falta trabajo especializado en textiles. La productividad marginal de cada factor adicional que muevo CAE.'
 
-FORMALIZACIÓN SIMPLE:
-'La productividad marginal de cada factor DISMINUYE a medida que se agrega más de ese factor manteniendo el otro constante. Esto es lo que los economistas llaman rendimientos decrecientes del factor.'
+CLAVE:
+'Esto es lo que los economistas llaman rendimientos decrecientes del factor: la productividad marginal DISMINUYE a medida que se agrega más de ese factor manteniendo el otro constante. El costo de oportunidad de producir tela CRECE a medida que producimos más tela — y eso es lo que curva la PPF.'
 
-CONEXIÓN: 'Esto es lo que hace que la PPF sea cóncava (curvada hacia el origen). Y eso tiene una consecuencia enorme para el comercio: la especialización ya no es total.'
+CONEXIÓN: 'Esto tiene una consecuencia enorme para el comercio: la especialización ya no es total. Como el costo de oportunidad sube, llega un punto donde no conviene seguir reasignando — el país produce AMBOS bienes pero en distinta proporción. Especialización PARCIAL.'
 
 ---
 
-#### Slide 11: Los supuestos del modelo neoclásico estándar
+#### Slide 27: Los supuestos del modelo neoclásico estándar
 **Tipo**: texto
 **Título**: Los supuestos: ¿en qué mundo estamos?
 **Subtítulo**: Un modelo 2 × 2 × 2
@@ -396,7 +689,7 @@ PREGUNTA RETÓRICA: '¿Les parecen realistas estos supuestos? Obviamente no del 
 
 ### Sección: Equilibrio en autarquía
 
-#### Slide 12: Preferencias y equilibrio: la curva de indiferencia
+#### Slide 28: Preferencias y equilibrio: la curva de indiferencia
 **Tipo**: grafico_progresivo
 **Título**: Lo que faltaba en Ricardo: las preferencias de los consumidores
 **Subtítulo**: Curvas de indiferencia + PPF = equilibrio en autarquía
@@ -445,7 +738,7 @@ DATO CONCEPTUAL:
 
 ---
 
-#### Slide 13: Dos países, dos equilibrios de autarquía
+#### Slide 29: Dos países, dos equilibrios de autarquía
 **Tipo**: grafico_progresivo
 **Título**: Distintas dotaciones → distintos precios en autarquía
 **Subtítulo**: La fuente del comercio ya no es la tecnología — son los recursos
@@ -497,17 +790,21 @@ PREGUNTA: '¿La diferencia de dotaciones les parece más realista que la diferen
 
 ---
 
-#### Slide 14: De la autarquía al precio relativo
-**Tipo**: formula
+#### Slide 30: De la autarquía al precio relativo
+**Tipo**: grafico_texto
 **Título**: ¿Cómo se determina el precio relativo en autarquía?
 **Subtítulo**: El precio es donde la oferta (PPF) se encuentra con la demanda (preferencias)
 
+**Gráfico**: graficos/precio_autarquia.png
+
 **Contenido**:
 - En el punto de tangencia: $TMT = TMS = P_T / P_A$
-- **TMT** (Tasa Marginal de Transformación): pendiente de la PPF = cuántos alimentos sacrifico por 1 tela más (lado de la **producción**)
-- **TMS** (Tasa Marginal de Sustitución): pendiente de la curva de indiferencia = cuántos alimentos estoy **dispuesto** a ceder por 1 tela más (lado del **consumo**)
-- **Precio relativo**: cuando TMT = TMS, el mercado está en equilibrio
-- Cada país tiene su propio precio de autarquía → si difieren → base para el comercio
+- **TMT**: pendiente de la PPF = cuántos alimentos sacrifico por 1 tela más (**producción**)
+- **TMS**: pendiente de la curva de indiferencia = cuántos alimentos estoy dispuesto a ceder por 1 tela más (**consumo**)
+- Cuando TMT = TMS → **equilibrio**
+- Cada país tiene su propio precio → si difieren → **base para el comercio**
+
+**Fuente**: Elaboración propia
 
 **Notas docente**:
 FORMALIZACIÓN (5 minutos)
@@ -534,7 +831,7 @@ CONFUSIÓN COMÚN: 'TMT no es lo mismo que TMS. TMT es producción (lo que podé
 
 ### Sección: Del equilibrio interno al comercio
 
-#### Slide 15: Oferta y demanda relativa mundiales
+#### Slide 31: Oferta y demanda relativa mundiales
 **Tipo**: grafico_progresivo
 **Título**: ¿Cómo se determina el precio mundial?
 **Subtítulo**: Oferta relativa (OR), demanda relativa (DR) y equilibrio
@@ -587,7 +884,7 @@ CONEXIÓN CON RICARDO:
 
 ---
 
-#### Slide 16: Comercio con PPF curva: especialización parcial
+#### Slide 32: Comercio con PPF curva: especialización parcial
 **Tipo**: grafico_progresivo
 **Título**: Ganancias del comercio: consumir fuera de la PPF
 **Subtítulo**: Con comercio, el país puede consumir combinaciones que no podía producir
@@ -638,7 +935,7 @@ PREGUNTA: '¿Por qué la especialización no es total como en Ricardo?'
 
 ---
 
-#### Slide 17: ¿Qué determina en qué se especializa cada país?
+#### Slide 33: ¿Qué determina en qué se especializa cada país?
 **Tipo**: texto
 **Título**: El anticipo de Heckscher-Ohlin
 **Subtítulo**: La dotación de factores como fuente de ventaja comparativa
@@ -671,7 +968,7 @@ CONEXIÓN CON LA TRÍADA:
 
 ### Sección: Cierre de la primera mitad
 
-#### Slide 18: Ricardo vs modelo neoclásico estándar
+#### Slide 34: Ricardo vs modelo neoclásico estándar
 **Tipo**: grafico_texto
 **Título**: Tabla comparativa: ¿qué cambia?
 **Subtítulo**: Dos modelos, un mismo objetivo: explicar el comercio
@@ -710,7 +1007,7 @@ TRANSICIÓN: 'Ya tenemos la caja de herramientas neoclásica armada. Ahora le po
 
 ### Sección: Heckscher-Ohlin
 
-#### Slide 19: Sección Heckscher-Ohlin
+#### Slide 35: Sección Heckscher-Ohlin
 **Tipo**: seccion
 **Título**: Heckscher-Ohlin
 **Subtítulo**: ¿Quién gana y quién pierde con el comercio?
@@ -724,7 +1021,7 @@ Entramos a la parte más política de la Unidad 2: dotaciones, distribución, y 
 
 ---
 
-#### Slide 20: De Ricardo a Heckscher-Ohlin
+#### Slide 36: De Ricardo a Heckscher-Ohlin
 **Tipo**: texto
 **Título**: De Ricardo a Heckscher-Ohlin: cuando el conflicto distributivo entra al modelo
 
@@ -743,7 +1040,7 @@ CONEXIÓN: En la Clase 2 vimos la lógica "tecnología → comercio". Ahora la f
 
 ---
 
-#### Slide 21: El trío sueco-americano: Heckscher, Ohlin y Samuelson
+#### Slide 37: El trío sueco-americano: Heckscher, Ohlin y Samuelson
 **Tipo**: texto
 **Título**: Heckscher, Ohlin y Samuelson — El trío que armó el edificio H-O
 
@@ -764,20 +1061,21 @@ ANÉCDOTA: "Heckscher trae la intuición. Ohlin dice 'ahora lo pongo en sistema'
 
 ### Sección: El modelo Heckscher-Ohlin
 
-#### Slide 22: El modelo H-O: setup 2x2x2
-**Tipo**: formula
+#### Slide 38: El modelo H-O: setup 2x2x2
+**Tipo**: grafico_texto
 **Título**: El modelo Heckscher-Ohlin: setup 2×2×2
 **Subtítulo**: Los supuestos que aíslan el mecanismo de dotaciones
 
+**Gráfico**: graficos/setup_ho.png
+
 **Contenido**:
-- **2 países**: A y B
-- **2 bienes**: $X$ (capital-intensivo) e $Y$ (trabajo-intensivo)
-- **2 factores**: Trabajo ($L$) y Capital ($K$)
-- **Supuestos**: tecnología igual, competencia perfecta, rendimientos constantes
-- Factores **móviles dentro** del país, **inmóviles entre** países
-- Preferencias iguales (para aislar el efecto dotaciones)
-- **Abundancia relativa**: A tiene mayor $K/L$ que B
-- **Intensidad factorial**: $X$ requiere mayor $K/L$ que $Y$
+- **2 países**: A (K-abundante) y B (L-abundante)
+- **2 bienes**: $X$ (K-intensivo) e $Y$ (L-intensivo)
+- **2 factores**: Capital ($K$) y Trabajo ($L$)
+- **Supuestos**: misma tecnología, competencia perfecta, rendimientos constantes
+- **Predicción**: cada país exporta el bien intensivo en su factor **abundante**
+
+**Fuente**: Elaboración propia
 
 **Notas docente**:
 (5 minutos) "Es deliberadamente simple porque queremos aislar un mecanismo: cómo las dotaciones relativas determinan costos, precios y comercio."
@@ -788,7 +1086,7 @@ EJEMPLO Argentina-friendly: "Podemos pensar K/L como tierra-trabajo si queremos.
 
 ---
 
-#### Slide 23: Dotaciones, costos y precios relativos en autarquía
+#### Slide 39: Dotaciones, costos y precios relativos en autarquía
 **Tipo**: grafico_progresivo
 **Título**: Dotaciones → costos → precios relativos en autarquía
 
@@ -822,7 +1120,7 @@ CONEXIÓN con primera parte: "En el modelo neoclásico estándar vimos que el co
 
 ---
 
-#### Slide 24: Apertura comercial: precio mundial y patrón de comercio
+#### Slide 40: Apertura comercial: precio mundial y patrón de comercio
 **Tipo**: grafico_progresivo
 **Título**: Apertura comercial en H-O: precio mundial y patrón de comercio
 
@@ -855,88 +1153,116 @@ RESPUESTA: Depende de los tamaños relativos de los países. Si A es muy grande,
 
 ---
 
-#### Slide 25: La predicción central de H-O
+#### Slide 41: La predicción central de H-O
 **Tipo**: centrado
 **Título**: Teorema de Heckscher-Ohlin
+**Subtítulo**: La predicción central del modelo
 
 **Contenido**:
-- Un país exporta el bien que usa intensivamente su **factor relativamente abundante**
-- e importa el bien que usa intensivamente su **factor relativamente escaso**
-- El patrón de comercio sale de **dotaciones + intensidades factoriales**, no de tecnología
+- Un país exporta el bien que usa intensivamente su **factor relativamente abundante** e importa el bien que usa intensivamente su **factor relativamente escaso**
+- **Diferencia con Ricardo**: el patrón de comercio sale de las **dotaciones**, no de la tecnología (que acá es igual entre países)
+- **Ejemplo**: Argentina (abundante en tierra) exporta alimentos (intensivos en tierra) e importa maquinaria (intensiva en capital)
+- **La pregunta que abre**: si el comercio cambia precios relativos, y los bienes usan factores de forma distinta... **¿quién gana y quién pierde dentro del país?**
 
 **Notas docente**:
-(3 minutos) Slide corto pero contundente. Leerlo despacio y dejar que se asiente. La diferencia con Ricardo es clara: en Ricardo el comercio viene de productividades distintas; en H-O viene de dotaciones distintas (con misma tecnología).
-CONEXIÓN POLÍTICA: "Y ahora viene lo más importante: si el comercio cambia el precio relativo de los bienes, y esos bienes usan factores de manera distinta, entonces el comercio termina cambiando la remuneración relativa de los factores. Ahí entramos en el bloque de teoremas."
-TRANSICIÓN: "Ricardo se presta fácil para decir 'el comercio genera ganancias agregadas'. H-O permite sumar la pregunta incómoda pero central: ¿quién se queda con esas ganancias?"
+(3 minutos) Slide corto pero contundente. Leerlo despacio y dejar que se asiente.
+
+CLAVE: 'La diferencia con Ricardo es clara: en Ricardo el comercio viene de productividades distintas; en H-O viene de dotaciones distintas CON MISMA TECNOLOGÍA. Son dos explicaciones distintas del mismo fenómeno.'
+
+CONEXIÓN POLÍTICA: 'Y ahora viene lo más importante: si el comercio cambia el precio relativo de los bienes, y esos bienes usan factores de manera distinta, entonces el comercio termina cambiando la remuneración relativa de los factores. Ahí entramos en el bloque de teoremas.'
+
+TRANSICIÓN: 'Ricardo se presta fácil para decir el comercio genera ganancias agregadas. H-O permite sumar la pregunta incómoda pero central: ¿quién se queda con esas ganancias?'
 
 ---
 
 ### Sección: Los teoremas de H-O
 
-#### Slide 26: Stolper-Samuelson: el comercio cambia la distribución
-**Tipo**: formula
-**Título**: Teorema de Stolper-Samuelson
-**Subtítulo**: Cuando cambia el precio del bien, cambia el ingreso de los factores
-
-**Contenido**:
-- Supuesto: $X$ es K-intensivo, $Y$ es L-intensivo
-- Con apertura, en país K-abundante (A): sube $P_X/P_Y$
-- **Resultado**:
-- ↑ retorno real del capital ($r$) — el factor usado intensivamente en $X$
-- ↓ salario real del trabajo ($w$) — el otro factor
-- En país L-abundante (B): ocurre lo **inverso** (↑ $w$, ↓ $r$)
-- **Traducción política**: apertura comercial = ganadores y perdedores **por factor**
-
-**Notas docente**:
-(6 minutos) "Este es el corazón político del modelo."
-INTUICIÓN: "Si en A sube Px/Py, el sector X se expande. Para expandirse necesita relativamente más capital. Sube la demanda por capital → sube r. El factor escaso (trabajo) queda relativamente peor."
-CLAVE: "Es un resultado en términos REALES: no es 'sube el salario nominal', sino 'qué puede comprar ese salario'. Por eso importa para conflicto social."
-EJEMPLO NUMÉRICO SIMPLE: "Sector X (capital-intensivo): produce usando 3K + 1L. Sector Y (trabajo-intensivo): produce usando 1K + 3L. Si sube el precio de X, el sector compite por K → sube r. El ajuste general implica que w cae en términos reales."
-PREGUNTA: "¿Por qué en la vida real los trabajadores de países ricos no siempre pierden con la apertura?"
-RESPUESTA: Porque el modelo es de largo plazo con factores homogéneos. En la práctica hay skills, sectores específicos, y políticas compensatorias.
-
----
-
-#### Slide 27: Stolper-Samuelson en gráfico: la cadena causal
+#### Slide 42: Stolper-Samuelson: la cadena causal
 **Tipo**: grafico_progresivo
 **Título**: Stolper-Samuelson: del precio del bien al ingreso del factor
+**Subtítulo**: Primero el mecanismo — después quién gana y quién pierde
 
 **Paso 1**:
 **Gráfico**: graficos/stolper_samuelson_cadena_paso1.png
 **Contenido**:
-- Con apertura comercial, el precio relativo del bien cambia
-- En el país K-abundante: sube $P_X/P_Y$ (X se vuelve relativamente más caro)
+- Con apertura comercial, el **precio relativo** de un bien cambia
+- Ejemplo: en el país K-abundante, sube el precio del bien K-intensivo (se vuelve más rentable producirlo)
 
 **Paso 2**:
 **Gráfico**: graficos/stolper_samuelson_cadena_paso2.png
 **Contenido**:
-- El sector X se vuelve más rentable → se **expande**
-- Necesita más de los factores que usa intensivamente
+- El sector más rentable **se expande**: las empresas producen más de ese bien
+- Para expandirse, necesita más del factor que usa intensivamente (capital)
 
 **Paso 3**:
 **Gráfico**: graficos/stolper_samuelson_cadena_paso3.png
 **Contenido**:
-- Al expandirse X, sube la **demanda del factor K** (usado intensivamente en X)
-- La competencia por K se intensifica
+- Sube la **demanda de capital** → todos lo quieren → su retorno sube
+- El otro sector (L-intensivo) se contrae → sobra trabajo relativo
 
 **Paso 4**:
 **Gráfico**: graficos/stolper_samuelson_cadena_paso4.png
 **Contenido**:
-- ↑ retorno al capital ($r$) / ↓ salario real ($w$)
-- **País A** (K-abundante): gana K, pierde L — **País B**: resultado inverso
+- **Resultado**: sube el retorno del capital (r), baja el salario real (w)
+- El factor usado intensivamente en el bien cuyo precio subió **gana**; el otro **pierde**
 - Si sabés qué precios cambian, podés anticipar **quién apoya y quién resiste** la apertura
 
 **Fuente**: Elaboración propia
 
 **Notas docente**:
-(5 minutos) "La forma de pensarlo es: precio del bien → expansión sectorial → demanda de factor → cambio en remuneración."
-EJEMPLO ARGENTINA: "Si armás un H-O 'a lo bruto' con tierra/recursos como factor abundante y trabajo urbano como el otro: una apertura que favorece bienes tierra-intensivos (agro/alimentos/energía) tiende a subir la renta del factor abundante y a generar tensión distributiva sobre otros grupos."
-OJO: "Argentina real tiene mil mediaciones: tipo de cambio, retenciones, sindicatos, informalidad. Justamente ahí está lo bueno para el debate: el teorema te da la fuerza de base y después discutís cómo instituciones y política la moderan."
-OTRO EJEMPLO: "China (abundante en trabajo no calificado) + apertura exportadora manufacturera: suba de salarios y expansión del empleo industrial. EE.UU./Europa: aumento del skill premium y presión sobre no calificados."
+CADENA CAUSAL (6 minutos)
+
+'Antes de ver quién gana en cada país, entendamos el mecanismo paso a paso. Es una cadena de dominó.'
+
+PASO A PASO EN LENGUAJE SIMPLE:
+'Precio sube → ese sector crece → necesita más de su factor → ese factor gana. Simple. Pero potente: con esto podés predecir conflictos sociales.'
+
+EJEMPLO NUMÉRICO SIMPLE: 'Sector X (capital-intensivo): produce usando 3K + 1L. Sector Y (trabajo-intensivo): produce usando 1K + 3L. Si sube el precio de X, el sector compite por K → sube r. El ajuste general implica que w cae en términos reales.'
+
+CLAVE: 'Es un resultado en términos REALES: no es sube el salario nominal, sino qué puede comprar ese salario. Por eso importa para conflicto social.'
+
+PREGUNTA: 'Si Argentina abre el comercio y sube el precio de los alimentos (bien tierra-intensivo), ¿quién gana? ¿Los dueños de la tierra o los trabajadores urbanos?'
+(Respuesta: los dueños de la tierra — es exactamente la lógica de Stolper-Samuelson aplicada a Argentina.)
+
+TRANSICIÓN: 'Ahora que entendemos el mecanismo, veamos qué pasa en cada tipo de país.'
 
 ---
 
-#### Slide 28: Tadeusz Rybczynski — El "one-hit wonder" de la LSE
+#### Slide 43: Stolper-Samuelson aplicado: ¿quién gana en cada país?
+**Tipo**: grafico_texto
+**Título**: ¿Quién gana y quién pierde con el comercio?
+**Subtítulo**: Aplicación del mecanismo a los dos países del modelo
+
+**Gráfico**: graficos/stolper_samuelson.png
+
+**Contenido**:
+- País A (K-abundante): apertura → sube precio de X → **ganan los capitalistas, pierden los trabajadores**
+- País B (L-abundante): apertura → baja precio de X → **ganan los trabajadores, pierden los capitalistas**
+- **Regla general**: el comercio beneficia al factor **abundante** y perjudica al **escaso**
+- **Traducción política**: la apertura genera ganadores y perdedores — por eso genera conflicto
+- **Siguiente pregunta**: Stolper-Samuelson analiza qué pasa cuando cambian los **precios**. Pero ¿qué pasa cuando cambian las **dotaciones**?
+
+**Fuente**: Elaboración propia
+
+**Notas docente**:
+APLICACIÓN POR PAÍS (5 minutos)
+
+'Ahora que entendemos la cadena, veamos qué dice para cada país.'
+
+EJEMPLO ARGENTINA: 'Si armás un H-O a lo bruto con tierra como factor abundante y trabajo urbano como el otro: una apertura que favorece bienes tierra-intensivos (agro, alimentos, energía) tiende a subir la renta de la tierra y a generar tensión distributiva sobre los trabajadores urbanos. ¿Les suena? Retenciones al campo, conflicto 2008...'
+
+OJO: 'Argentina real tiene mil mediaciones: tipo de cambio, retenciones, sindicatos, informalidad. Justamente ahí está lo bueno para el debate: el teorema te da la fuerza de base y después discutís cómo las instituciones y la política la moderan.'
+
+OTRO EJEMPLO: 'China (abundante en trabajo no calificado) + apertura exportadora manufacturera: suba de salarios y expansión del empleo industrial. EE.UU./Europa: aumento del skill premium y presión sobre no calificados.'
+
+PREGUNTA: '¿Por qué en la vida real los trabajadores de países ricos no siempre pierden con la apertura?'
+RESPUESTA: 'Porque el modelo es de largo plazo con factores homogéneos. En la práctica hay skills, sectores específicos, y políticas compensatorias. Eso lo vemos con el modelo de factores específicos más adelante.'
+
+TRANSICIÓN A RYBCZYNSKI: 'Stolper-Samuelson responde qué pasa cuando cambian los PRECIOS. Pero hay otra pregunta igual de importante: ¿qué pasa cuando cambian las DOTACIONES? Si un país descubre petróleo, o recibe una ola migratoria, o acumula capital por décadas de inversión... ¿cómo se reacomoda la estructura productiva? Eso es exactamente lo que responde Rybczynski.'
+
+---
+
+#### Slide 44: Tadeusz Rybczynski — El "one-hit wonder" de la LSE
 **Tipo**: texto
 **Título**: Tadeusz Rybczynski (1923-1998)
 
@@ -955,7 +1281,7 @@ TRANSICIÓN: "Veamos qué dice ese teorema."
 
 ---
 
-#### Slide 29: Teorema de Rybczynski: dotaciones y estructura productiva
+#### Slide 45: Teorema de Rybczynski: dotaciones y estructura productiva
 **Tipo**: grafico_progresivo
 **Título**: Teorema de Rybczynski: shock de dotaciones → cambio estructural
 
@@ -982,18 +1308,18 @@ CONEXIÓN: "Stolper-Samuelson te dice quién gana/pierde con precios. Rybczynski
 
 ---
 
-#### Slide 30: Equalización de precios de factores (FPE)
-**Tipo**: formula
-**Título**: FPE: ¿el comercio iguala salarios y retornos?
-**Subtítulo**: El resultado más provocador del paquete H-O
+#### Slide 46: Tercer teorema: Igualación de Precios de Factores (FPE)
+**Tipo**: texto
+**Título**: Tercer teorema: ¿el comercio iguala salarios entre países?
+**Subtítulo**: Factor Price Equalization (FPE) — el resultado más provocador del modelo H-O
 
 **Contenido**:
-- Con libre comercio: tienden a igualarse precios de bienes ($P_X^A = P_X^B$)
-- Si además: misma tecnología, mismos bienes producidos, competencia perfecta, sin costos de comercio
-- **Entonces**: $w^A \to w^B$ y $r^A \to r^B$ — salarios y retornos tienden a igualarse entre países
-- **Intuición**: precios de bienes → disciplinan costos → disciplinan precios de factores
-- **Warning**: resultado extremo que depende de supuestos muy fuertes
-- **Utilidad pedagógica**: sirve como benchmark para discutir **qué fricciones** impiden la igualación
+- **Lógica**: libre comercio → precios de bienes se igualan → costos de producción se alinean → **precios de factores convergen** entre países
+- **Resultado**: sin que migren trabajadores ni capital, el comercio de bienes tiende a igualar salarios y retornos al capital entre países
+- **Supuestos necesarios** (muy fuertes): misma tecnología, mismos bienes producidos, competencia perfecta, cero costos de comercio
+- **Pregunta clave**: si esto fuera cierto, ¿por qué un obrero en Bangladesh gana 10 veces menos que uno en Alemania?
+- **Respuesta**: porque fallan casi todos los supuestos — tecnología distinta, aranceles, fletes, instituciones, informalidad
+- **Utilidad**: no como predicción literal, sino como **benchmark** para identificar qué fricciones impiden la convergencia
 
 **Notas docente**:
 (5 minutos) "Este teorema parece decir algo casi absurdo: el comercio puede igualar salarios entre países aun cuando no migren trabajadores ni capital. La lógica: si los precios de bienes se igualan y la tecnología es la misma, los sistemas de costos se alinean."
@@ -1004,29 +1330,41 @@ RESPUESTA: Porque fallan casi todos los supuestos: tecnología distinta, costos 
 
 ---
 
-#### Slide 31: Resumen de los teoremas H-O
+#### Slide 47: Resumen del edificio H-O
 **Tipo**: grafico_texto
-**Título**: Los tres teoremas en perspectiva
+**Título**: El modelo H-O y sus tres teoremas
+**Subtítulo**: Un modelo, tres experimentos mentales distintos — todos de Samuelson
 **Gráfico**: graficos/teoremas_ho_tabla.png
 **Fuente**: Elaboración propia
 
 **Contenido**:
-- **Stolper-Samuelson**: shock de precios → cambio en distribución del ingreso
-- **Rybczynski**: shock de dotaciones → cambio en estructura productiva
-- **FPE**: comercio de bienes → convergencia de precios de factores (bajo supuestos fuertes)
-- Los tres parten del mismo modelo 2×2×2 pero hacen experimentos mentales distintos
-- Juntos arman un edificio coherente: dotaciones → precios → comercio → distribución
+- **Modelo H-O** (predicción central): dotaciones → patrón de comercio (qué exporta cada país)
+- **Teorema 1 — Stolper-Samuelson** (1941): si cambian los precios → cambia la distribución del ingreso
+- **Teorema 2 — Rybczynski** (1955): si cambian las dotaciones → cambia la estructura productiva
+- **Teorema 3 — FPE** (Samuelson, 1948): el comercio de bienes → convergencia de precios de factores
+- Los tres son extensiones formalizadas por **Samuelson** dentro del mismo modelo 2×2×2
 
 **Notas docente**:
-(3 minutos) Slide de consolidación. Pedir a los alumnos que identifiquen: ¿qué mueve cada teorema? ¿Qué resultado predice?
-TABLA MENTAL: "S-S: muevo precio → miro ingresos. Rybczynski: muevo dotación → miro producción. FPE: muevo bienes → miro convergencia de factores."
-TRANSICIÓN: "Ahora viene la pregunta incómoda: ¿qué dice la evidencia? ¿El mundo real se parece a H-O? Acá entra Leontief y su paradoja."
+RESUMEN DEL EDIFICIO H-O (4 minutos)
+
+'Este slide consolida todo el bloque. Un modelo base (H-O) y tres teoremas derivados. Los tres los formaliza Samuelson — por eso a veces se habla del modelo Heckscher-Ohlin-Samuelson.'
+
+EJERCICIO RÁPIDO CON LOS ALUMNOS:
+'Voy a decir una pregunta y ustedes me dicen qué parte del edificio H-O responde:'
+1. '¿Qué exporta Argentina?' → Predicción central de H-O
+2. '¿Quién gana con la apertura en Argentina?' → Stolper-Samuelson
+3. '¿Qué pasa si Argentina descubre petróleo masivo?' → Rybczynski
+4. '¿Por qué los salarios argentinos no convergen con los alemanes?' → FPE (y sus fallos)
+
+TABLA MENTAL: 'S-S: muevo precio → miro ingresos. Rybczynski: muevo dotación → miro producción. FPE: muevo bienes → miro convergencia de factores.'
+
+TRANSICIÓN: 'Tenemos un edificio teórico hermoso. Pero ¿funciona? ¿El mundo real se parece a lo que dice H-O? Acá entra Leontief y su paradoja — el primer test empírico del modelo, y el resultado que nadie esperaba.'
 
 ---
 
 ### Sección: Evidencia y críticas
 
-#### Slide 32: Wassily Leontief — Nobel, insumo-producto y una paradoja
+#### Slide 48: Wassily Leontief — Nobel, insumo-producto y una paradoja
 **Tipo**: texto
 **Título**: Wassily Leontief (1906-1999)
 
@@ -1042,11 +1380,45 @@ TRANSICIÓN: "Ahora viene la pregunta incómoda: ¿qué dice la evidencia? ¿El 
 (4 minutos) "Leontief es una figura enorme. No es un 'one-hit wonder' como Rybczynski: su contribución principal son las matrices insumo-producto, que son una herramienta para toda la economía, no solo comercio. El Nobel se lo dan por eso."
 CONTEXTO: "En 1953, con EE.UU. como el caso 'obvio' de país capital-abundante, decide testear H-O. Si H-O es cierto, EE.UU. debería exportar bienes capital-intensivos. Usa su propia herramienta (matrices I-O) para medir los requerimientos de factores. Y le da al revés."
 DATO: "Compara capital por trabajador en un millón de dólares de exportaciones vs un millón de dólares de sustitutos de importaciones. Las exportaciones de EE.UU. parecían más trabajo-intensivas."
-TRANSICIÓN: "Veamos qué encontró exactamente y por qué es tan importante para la teoría."
+TRANSICIÓN: "Veamos primero cómo hizo la medición — su método es tan importante como el resultado."
 
 ---
 
-#### Slide 33: La Paradoja de Leontief (1953)
+#### Slide 49: El método de Leontief: medir K y L en el comercio
+**Tipo**: grafico_texto
+**Título**: ¿Cómo midió Leontief el contenido factorial del comercio?
+**Subtítulo**: Matrices insumo-producto aplicadas a exportaciones e importaciones
+
+**Gráfico**: graficos/leontief_metodo.png
+
+**Contenido**:
+- **Paso 1**: construir la matriz insumo-producto (qué insumos usa cada sector)
+- **Paso 2**: rastrear cuánto capital (K) y trabajo (L) hay "embebido" en $1M de exportaciones vs $1M de sustitutos de importación
+- **Paso 3**: comparar K/L → exportaciones = $14.000/trabajador, importaciones = $18.000/trabajador
+- **Resultado**: las exportaciones de EE.UU. son más **trabajo-intensivas** que sus importaciones
+
+**Fuente**: Leontief (1953), datos de EE.UU. 1947
+
+**Notas docente**:
+EL MÉTODO (5 minutos)
+
+'Antes de ver la paradoja, entendamos cómo Leontief hizo la medición. Es un método brillante.'
+
+EXPLICAR EL DIAGRAMA:
+'Leontief tenía la matriz insumo-producto de EE.UU. — él mismo la había construido. Cada columna dice: para producir $1 de autos, necesito $0.30 de acero, $0.10 de caucho, $0.05 de electricidad, etc. Y al final de la cadena, cuántas horas de trabajo y cuántas unidades de capital.'
+
+'Con eso, tomó $1 millón de exportaciones de EE.UU. y rastreó TODO el capital y trabajo que hacía falta para producirlas — incluyendo los insumos de los insumos. Después hizo lo mismo con los bienes que EE.UU. importaba pero podría producir (sustitutos de importación).'
+
+RESULTADO: 'K/L de exportaciones = $14.000 por trabajador. K/L de sustitutos de importación = $18.000 por trabajador. Las exportaciones requerían MENOS capital por trabajador que las importaciones.'
+
+PREGUNTA: '¿Qué esperaban encontrar según H-O?'
+(Respuesta: lo contrario — que las exportaciones fueran más capital-intensivas, porque EE.UU. es el país más capital-abundante del mundo.)
+
+TRANSICIÓN: 'Veamos el gráfico con los datos originales de Leontief.'
+
+---
+
+#### Slide 50: La Paradoja de Leontief (1953)
 **Tipo**: grafico_texto
 **Título**: La Paradoja de Leontief: cuando el test empírico no calza
 **Gráfico**: graficos/leontief_paradoja.png
@@ -1068,7 +1440,7 @@ CONEXIÓN: "Leontief nos fuerza a pensar H-O como una base teórica útil, pero 
 
 ---
 
-#### Slide 34: ¿Por qué "falla" H-O? Cinco explicaciones
+#### Slide 51: ¿Por qué "falla" H-O? Cinco explicaciones
 **Tipo**: texto
 **Título**: Explicaciones de la Paradoja de Leontief y límites de H-O
 
@@ -1089,7 +1461,7 @@ CONCLUSIÓN PEDAGÓGICA: "Leontief nos fuerza a pensar H-O como una base teóric
 
 ---
 
-#### Slide 35: Modelo de Factores Específicos: corto plazo y conflicto sectorial
+#### Slide 52: Modelo de Factores Específicos: corto plazo y conflicto sectorial
 **Tipo**: formula
 **Título**: Factores específicos: cuando el conflicto es por sector
 **Subtítulo**: ¿Qué pasa en el corto plazo, cuando los factores no se mueven fácilmente?
@@ -1111,7 +1483,7 @@ CONEXIÓN: "Largo plazo → conflicto por factor (S-S). Corto plazo → conflict
 
 ---
 
-#### Slide 36: Aplicación: Argentina y el conflicto distributivo del comercio
+#### Slide 53: Aplicación: Argentina y el conflicto distributivo del comercio
 **Tipo**: grafico_texto
 **Título**: Argentina: dotaciones, apertura y conflicto distributivo
 **Gráfico**: graficos/argentina_exportaciones.png
@@ -1138,7 +1510,7 @@ PREGUNTAS PARA DEBATE (elegir 1-2):
 
 ### Sección: Cierre
 
-#### Slide 37: Resumen de la clase
+#### Slide 54: Resumen de la clase
 **Tipo**: texto
 **Título**: ¿Qué nos llevamos hoy?
 **Subtítulo**: Del modelo neoclásico estándar a Heckscher-Ohlin — Un recorrido completo
@@ -1167,7 +1539,7 @@ PREGUNTA DE CIERRE: "Si el comercio genera ganadores y perdedores, ¿qué polít
 
 ---
 
-#### Slide 38: Evaluación Unidad 2
+#### Slide 55: Evaluación Unidad 2
 **Tipo**: texto
 **Título**: Evaluación — Unidad 2
 **Subtítulo**: Teorías clásicas y neoclásicas del comercio internacional
@@ -1184,7 +1556,7 @@ PREGUNTA DE CIERRE: "Si el comercio genera ganadores y perdedores, ¿qué polít
 
 ---
 
-#### Slide 39: Próxima clase
+#### Slide 56: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase: Rendimientos crecientes y competencia imperfecta
 **Subtítulo**: Unidad 3 — Nuevas teorías del comercio
@@ -1200,7 +1572,7 @@ PREGUNTA DE CIERRE: "Si el comercio genera ganadores y perdedores, ¿qué polít
 
 ---
 
-#### Slide 40: Material complementario
+#### Slide 57: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Para profundizar los temas de esta clase
@@ -1223,7 +1595,7 @@ MATERIAL COMPLEMENTARIO (2 minutos)
 
 ---
 
-#### Slide 41: Lecturas y bibliografía
+#### Slide 58: Lecturas y bibliografía
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 **Subtítulo**: Bibliografía del curso — Unidad 2
@@ -1248,19 +1620,19 @@ LECTURAS (2 minutos)
 
 ---
 
-#### Slide 42: Guía de lectura — Unidad 2
+#### Slide 59: Guía de lectura — Unidad 2
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 2
 **Subtítulo**: Preguntas orientadoras para la bibliografía
 
 **Contenido**:
-- ¿Cuál es la diferencia fundamental entre ventaja absoluta (Smith) y ventaja comparativa (Ricardo)?
-- ¿Por qué la PPF del modelo neoclásico es curva y no recta como en Ricardo?
-- En el modelo H-O, ¿de dónde viene la ventaja comparativa si la tecnología es igual entre países?
-- ¿Qué predice Stolper-Samuelson sobre ganadores y perdedores del comercio?
-- ¿Qué encontró Leontief y por qué se llama "paradoja"?
-- ¿Cómo se aplica H-O al caso argentino (dotaciones, conflicto distributivo)?
-- ¿Qué diferencia hay entre el conflicto por factor (S-S) y por sector (factores específicos)?
+- ¿Cuál es la diferencia fundamental entre ventaja absoluta (Smith) y ventaja comparativa (Ricardo)? → *Lugones cap. 1, pp. 13-20; Krugman cap. 3*
+- ¿Por qué la PPF del modelo neoclásico es curva y no recta como en Ricardo? → *Krugman cap. 5, sección "El modelo estándar"*
+- En el modelo H-O, ¿de dónde viene la ventaja comparativa si la tecnología es igual entre países? → *Lugones cap. 1, pp. 24-30; Krugman cap. 5*
+- ¿Qué predice Stolper-Samuelson sobre ganadores y perdedores del comercio? → *Krugman cap. 5; Lugones cap. 1, pp. 27-29*
+- ¿Qué encontró Leontief y por qué se llama "paradoja"? → *Lugones cap. 1, pp. 29-30; Leontief (1953)*
+- ¿Cómo se aplica H-O al caso argentino (dotaciones, conflicto distributivo)? → *Krugman cap. 5; Lugones cap. 1*
+- ¿Qué diferencia hay entre el conflicto por factor (S-S) y por sector (factores específicos)? → *Krugman caps. 4-5*
 
 **Notas docente**:
 GUÍA DE LECTURA (1 minuto)
@@ -1271,7 +1643,7 @@ GUÍA DE LECTURA (1 minuto)
 
 ---
 
-#### Slide 43: Preguntas
+#### Slide 60: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional — Clase 3

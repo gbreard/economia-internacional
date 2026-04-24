@@ -387,7 +387,6 @@ def grafico_teoremas_tabla():
     ax.set_title('Los teoremas del modelo Heckscher-Ohlin',
                  fontsize=15, fontweight='bold', color=AZUL_OSCURO, pad=15)
 
-    fig.text(0.5, 0.02, 'Fuente: Elaboración propia', ha='center', fontsize=8, color=GRIS)
     plt.savefig(os.path.join(OUT, 'teoremas_ho_tabla.png'), dpi=150, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     plt.close()

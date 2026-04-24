@@ -30,6 +30,7 @@ nul
 docente/
 
 # Entregas de alumnos y datos personales (no publicar)
+notebooks/Entrega*/
 evaluacion/entregas/
 evaluacion/coloquio/propuestas/
 evaluacion/coloquio/presentaciones/
