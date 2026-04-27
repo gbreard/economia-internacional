@@ -158,10 +158,14 @@ Esta pregunta guía todo el curso y se aborda desde distintas perspectivas en ca
 |-------|-----------|
 | 26/03 y 09/04 (S1) | Presentación de temas y consigna |
 | 16/04 | Entrega propuesta inicial (1 carilla Word en campus) |
-| ~23/04 (S3) | Devolución del docente con feedback |
-| 11/06 | Entrega PPT + ficha técnica en campus |
-| ~12-13/06 | Docente asigna evaluador + envía guía |
+| ~27/04 | Devolución del docente con feedback |
+| 28/05 | Borrador PPT (optativo, para recibir feedback antes de la final) |
+| ~01-04/06 | Devolución docente del borrador |
+| 18/06 | Entrega PPT final + ficha técnica en campus |
+| ~19-20/06 | Docente asigna evaluador + envía guía |
 | 25/06 (S12) | Coloquio |
+| 02/07 | Recuperatorio |
+| **04/07** | **Cierre obligatorio de actas en SIU Guaraní** |
 
 #### 11 temas sugeridos
 1. Complejo automotriz Argentina-Brasil en el Mercosur (U3, U5, U6)

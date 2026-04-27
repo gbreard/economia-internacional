@@ -71,19 +71,27 @@ Mapa de la clase: hecho estilizado (comercio entre similares) → la tríada com
 **Título**: ¿Qué no explica bien Heckscher-Ohlin?
 
 **Contenido**:
-- Gran parte del comercio mundial es entre **países parecidos** (no solo Norte-Sur)
-- Mucho comercio es **intraindustrial**: el mismo sector exporta e importa (autos por autos, químicos por químicos)
+- Hasta acá vimos comercio **interindustrial**: cada país exporta bienes de un sector e importa bienes de otro (trigo por autos, cobre por maquinaria) — esto explican Ricardo y H-O
+- Pero gran parte del comercio mundial es entre **países parecidos** (no solo Norte-Sur)
+- Y mucho comercio es de **ida y vuelta dentro del mismo sector**: autos por autos, químicos por químicos
 - Con rendimientos crecientes aparecen: **escala, variedad y poder de mercado**
 - Los modelos clásicos asumen **rendimientos constantes** y **competencia perfecta** → no capturan esto
 - Pregunta guía: ***¿por qué comerciar si somos similares?***
 
 **Notas docente**:
 EL PUENTE DESDE H-O (5 minutos)
-"Hasta acá, el comercio se explicó por diferencias: tecnología (Ricardo) o dotaciones (H-O). Pero en el mundo real vemos muchísimo intercambio entre economías parecidas y dentro del mismo sector. Para entender eso, necesitamos salir de competencia perfecta y meter rendimientos crecientes, diferenciación y competencia imperfecta."
+"Antes de arrancar, pongámosle nombre a lo que vimos hasta acá. Ricardo y H-O explican un tipo de comercio que se llama INTERINDUSTRIAL. Inter = entre sectores distintos. Argentina exporta soja, importa maquinaria. Son bienes de sectores diferentes. Ese es el comercio que explican las teorías clásicas."
+
+"Pero en el mundo real vemos otro fenómeno: países parecidos que intercambian bienes del MISMO sector. Alemania exporta autos a Francia y Francia exporta autos a Alemania. Eso no es trigo por vino — es VW por Peugeot. A ese tipo de comercio lo vamos a llamar INTRAINDUSTRIAL. Intra = dentro del mismo sector. Y para explicarlo necesitamos herramientas nuevas: rendimientos crecientes, diferenciación y competencia imperfecta."
+
+"Guárdense estos dos nombres porque los vamos a usar toda la clase:
+- Interindustrial = trigo por autos (Ricardo, H-O)
+- Intraindustrial = VW por Peugeot (Krugman)"
 
 Ejemplos rápidos para el aula:
-- Autos Alemania-Francia: no es trigo por vino, es VW por Peugeot
-- Electrónica intra-UE: semiconductores, componentes
+- Autos Alemania-Francia: no es trigo por vino, es VW por Peugeot → intraindustrial
+- Argentina exporta soja a China, importa electrónica → interindustrial
+- Argentina-Brasil intercambian pickups por sedanes → intraindustrial
 - Alimentos de marca entre vecinos: Argentina-Brasil intercambian galletitas, lácteos, bebidas
 
 PREGUNTA PARA ESTUDIANTES: "Si Argentina y Brasil tienen dotaciones parecidas en muchos sectores, ¿por qué comercian tanto entre sí?"
@@ -192,9 +200,20 @@ CONFUSIÓN COMÚN: "Ojo: competencia monopolística NO es monopolio. Hay muchas 
 
 ---
 
-### Sección: Rendimientos crecientes y modelo Krugman
+### Sección: El modelo de Krugman
 
-#### Slide 7: Rendimientos crecientes: la intuición clave
+#### Slide 7: El modelo de Krugman
+**Tipo**: seccion
+**Título**: El modelo de Krugman
+**Subtítulo**: Rendimientos crecientes, diferenciación y comercio intraindustrial
+
+**Notas docente**:
+TRANSICIÓN (1 minuto)
+"Ya vimos el problema: H-O no explica el comercio entre países similares. Ahora vamos a armar la solución. Krugman combina tres ingredientes: rendimientos crecientes, diferenciación de productos y competencia monopolística. Con eso va a explicar por qué existe el comercio intraindustrial."
+
+---
+
+#### Slide 8: Rendimientos crecientes: la intuición clave
 **Tipo**: grafico_texto
 **Título**: Rendimientos crecientes = costos medios que caen con la escala
 **Gráfico**: graficos/costo_medio.png
@@ -227,7 +246,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué sectores se les ocurren donde los costos fijo
 
 ---
 
-#### Slide 8: Economías de escala internas vs externas
+#### Slide 9: Economías de escala internas vs externas
 **Tipo**: grafico_texto
 **Título**: Dos tipos de economías de escala
 **Gráfico**: graficos/internas_externas.png
@@ -264,7 +283,7 @@ REMATE: "Internas → el actor central es la empresa. Externas → el actor cent
 
 ---
 
-#### Slide 9: Escala y especialización sin ventaja comparativa
+#### Slide 10: Escala y especialización sin ventaja comparativa
 **Tipo**: texto
 **Título**: Con rendimientos crecientes puede haber comercio sin ventaja comparativa tradicional
 
@@ -290,14 +309,15 @@ PREGUNTA PARA ESTUDIANTES: "¿Se les ocurre algún sector donde Argentina produc
 
 ---
 
-#### Slide 10: Comercio intraindustrial: el hecho a explicar
+#### Slide 11: Comercio intraindustrial: el hecho a explicar
 **Tipo**: grafico_texto
 **Título**: El hecho estilizado: comercio "ida y vuelta" en el mismo sector
 **Gráfico**: graficos/comercio_intraindustrial.png
 **Fuente**: Elaboración propia
 
 **Contenido**:
-- En muchos sectores, los países **exportan e importan** dentro del mismo rubro
+- Recordemos: el comercio **interindustrial** es trigo por autos (distintos sectores, Ricardo/H-O)
+- Ahora el otro tipo: comercio **intraindustrial** — los países **exportan e importan dentro del mismo sector**
 - No es "lo mismo por lo mismo": son **variedades** (modelo, calidad, diseño, marca) y componentes
 - Con diferenciación + costos fijos, cada firma produce **una variedad** y necesita mercado grande
 - El comercio permite: más **variedades** disponibles y menores **costos** por escala
@@ -305,7 +325,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Se les ocurre algún sector donde Argentina produc
 
 **Notas docente**:
 COMERCIO INTRAINDUSTRIAL (7 minutos)
-"Hasta recién parecía que la escala llevaría a concentrar todo en un solo lado. Pero el mundo muestra algo distinto: comercio de ida y vuelta dentro del mismo sector."
+"Retomemos la distinción que hicimos al principio. Interindustrial = entre sectores distintos (trigo por autos). Ahora vamos a ver el intraindustrial = dentro del mismo sector (auto por auto). ¿Suena absurdo? No, porque no es el MISMO auto — son variedades distintas."
 
 DEFINICIÓN CLARA:
 "Comercio intraindustrial significa que dentro del mismo rubro los países exportan e importan al mismo tiempo. Ejemplo típico: autos por autos, químicos por químicos, alimentos procesados por alimentos procesados."
@@ -319,7 +339,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Saben qué porcentaje del comercio mundial es intr
 
 ---
 
-#### Slide 11: El mecanismo Krugman en 4 pasos
+#### Slide 12: El mecanismo Krugman en 4 pasos
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué el comercio "ida y vuelta" es lógico?
 
@@ -362,7 +382,7 @@ CONFUSIÓN COMÚN: "Ojo: esto NO dice que las dotaciones no importan. Dice que A
 
 ---
 
-#### Slide 12: Ganancias del comercio: variedad y escala
+#### Slide 13: Ganancias del comercio: variedad y escala
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué ganamos con abrir el comercio en este modelo?
 
@@ -398,7 +418,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Pueden pensar en algún producto que antes venía 
 
 ---
 
-#### Slide 13: Tabla comparativa de teorías
+#### Slide 14: Tabla comparativa de teorías
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué explica cada teoría del comercio?
 
@@ -439,9 +459,46 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué teoría usarían para explicar que Argentina 
 
 ---
 
-### Sección: Medición del comercio intraindustrial
+### Sección: Medir el comercio intraindustrial
 
-#### Slide 14: Índice de Grubel-Lloyd
+#### Slide 15: Medir el comercio intraindustrial
+**Tipo**: seccion
+**Título**: Medir el comercio intraindustrial
+**Subtítulo**: Grubel-Lloyd, evidencia comparada y el caso argentino
+
+**Notas docente**:
+TRANSICIÓN (1 minuto)
+"Ya tenemos la teoría. Ahora la pregunta empírica: ¿cómo medimos cuánto comercio intraindustrial hay? Para eso vamos a ver el índice de Grubel-Lloyd, comparar regiones y bloques, y hacernos la pregunta clave: ¿dónde queda Argentina en este mapa?"
+
+---
+
+#### Slide 16: ¿Qué vieron Grubel y Lloyd?
+**Tipo**: grafico_texto
+**Título**: La sorpresa que motivó el índice
+**Gráfico**: graficos/grubel_lloyd_contexto.png
+**Fuente**: Datos: RBA (1991) a partir de Grubel & Lloyd (1975)
+
+**Contenido**:
+- 1957: se firma el **Tratado de Roma** → nace la CEE (hoy UE). Se eliminan aranceles entre los 6 miembros
+- Los economistas esperaban **especialización inter-sectorial** (como predecía H-O): Francia en vino, Alemania en autos...
+- Pero pasó lo contrario: el comercio creció **dentro de los mismos sectores** — Francia y Alemania seguían haciendo ambas cosas, pero intercambiándolas
+- **Herbert Grubel** (canadiense) y **Peter Lloyd** (australiano) documentaron esto en su libro de 1975
+- Crearon un índice simple para medir cuánto comercio es "ida y vuelta" dentro del mismo sector
+- Cuatro años después, **Krugman (1979)** les dio la explicación teórica: economías de escala + diferenciación
+
+**Notas docente**:
+CONTEXTO GRUBEL-LLOYD (5 minutos)
+"Antes de ver la fórmula, entendamos de dónde sale. En 1957 se crea la Comunidad Económica Europea: 6 países eliminan aranceles entre sí. El comercio se cuadruplica en 10 años. Hasta ahí, todo previsible."
+
+"Lo sorprendente es CÓMO creció. Los economistas esperaban que cada país se especializara en un sector distinto — H-O puro: Francia en lo suyo, Alemania en lo suyo. Pero cuando miraron los datos, Francia y Alemania seguían produciendo autos las dos, químicos las dos, maquinaria las dos. Solo que se intercambiaban VARIEDADES: Renault por VW, un químico por otro."
+
+"Grubel y Lloyd miraron estos datos y dijeron: necesitamos una forma de medir esto. Así nació el índice GL en 1975. Miren el panel derecho: entre 1965 y 1975, el índice GL subió en TODOS los países de la CEE. Bélgica y Francia llegaron a 50% — la mitad de su comercio era intraindustrial."
+
+"La pregunta que quedó abierta: ¿por qué pasa esto? Cuatro años después, Krugman (1979) dio la respuesta: economías de escala + diferenciación de productos. Lo que vimos recién."
+
+---
+
+#### Slide 17: Índice de Grubel-Lloyd
 **Tipo**: grafico_texto
 **Título**: ¿Cómo medimos el comercio intraindustrial?
 **Gráfico**: graficos/grubel_lloyd_ejemplo.png
@@ -458,7 +515,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué teoría usarían para explicar que Argentina 
 
 **Notas docente**:
 ÍNDICE DE GRUBEL-LLOYD (10 minutos)
-"Ahora pasamos de la teoría a la medición. ¿Cómo sé si el comercio de un país o un sector es intraindustrial o interindustrial? Con el índice de Grubel-Lloyd."
+"Ya vimos qué observaron Grubel y Lloyd: que el comercio europeo crecía dentro de los mismos sectores. Ahora veamos la herramienta que crearon para medirlo. Es una fórmula muy simple."
 
 FÓRMULA EXPLICADA:
 "El índice mide cuánto se solapan las exportaciones y las importaciones en un sector. Si exporto 80 e importo 60 en autos, hay mucho solapamiento: el comercio va en ambas direcciones. El índice da 0.86, muy alto."
@@ -480,7 +537,7 @@ REFERENCIA: "El indicador fue propuesto por Grubel y Lloyd en 1975 y sigue siend
 
 ---
 
-#### Slide 15: IIT horizontal vs vertical
+#### Slide 18: IIT horizontal vs vertical
 **Tipo**: texto
 **Título**: No todo el comercio intraindustrial es igual
 
@@ -514,7 +571,7 @@ REFERENCIA: "Lucángeli (2007), en la bibliografía obligatoria, aplica esta dis
 
 ---
 
-#### Slide 16: Evidencia comparada: ¿dónde hay más IIT?
+#### Slide 19: Evidencia comparada: ¿dónde hay más IIT?
 **Tipo**: grafico_texto
 **Título**: El índice Grubel-Lloyd varía mucho según los socios comerciales
 **Gráfico**: graficos/iit_comparado.png
@@ -546,7 +603,7 @@ PATRÓN:
 
 ---
 
-#### Slide 17: Caso Mercosur autos: Krugman en acción
+#### Slide 20: Caso Mercosur autos: Krugman en acción
 **Tipo**: grafico_texto
 **Título**: Argentina-Brasil: el comercio automotriz como caso paradigmático
 **Gráfico**: graficos/mercosur_autos.png
@@ -580,9 +637,51 @@ PREGUNTA: "¿El PAM es proteccionismo o es una herramienta para generar escala? 
 
 ---
 
+#### Slide 21: Argentina y el comercio intraindustrial: ¿excepción o patrón?
+**Tipo**: grafico_texto
+**Título**: ¿Dónde queda Argentina en este nuevo mapa?
+**Gráfico**: graficos/rca_argentina.png
+**Fuente**: Elaboración propia a partir de WITS/Banco Mundial (circa 2019)
+
+**Contenido**:
+- Con el **mundo**: el comercio argentino es mayoritariamente **interindustrial** — exporta primarios (RCA 4-8), importa manufacturas (RCA < 1)
+- Con **Brasil**: aparece IIT significativo, pero concentrado en **autos** (GL ~0,75) y algo en químicos y alimentos procesados
+- El IIT automotriz **no es espontáneo**: es resultado del régimen **PAM** (política + integración regional)
+- Fuera de autos, el GL Argentina-Brasil es bajo (~0,35) — vuelve al patrón interindustrial
+- **Pregunta**: ¿Argentina puede ampliar su comercio intraindustrial o está estructuralmente limitada al patrón primario-exportador?
+
+**Notas docente**:
+ARGENTINA Y EL IIT (10 minutos)
+
+"Acá es donde todo se conecta. ¿Se acuerdan del Notebook 2? Calcularon el RCA de Balassa para Argentina: 7 en alimentos, 0.3 en manufacturas. Eso es un patrón INTERINDUSTRIAL de manual: Argentina exporta lo que le dice H-O (bienes intensivos en tierra) e importa lo que no tiene ventaja (manufacturas intensivas en capital)."
+
+"Ahora miren los autos. Es el ÚNICO sector donde Argentina tiene IIT alto con Brasil. ¿Y por qué? No por ventaja comparativa ni por dotaciones. Es por POLÍTICA: el régimen PAM del Mercosur creó las condiciones para que Argentina y Brasil se especialicen en variedades distintas (pickups acá, sedanes allá) con escala ampliada. Sin el PAM, probablemente Argentina sería solo importadora de autos."
+
+DATO CLAVE:
+"Fuera de autos, el GL de Argentina con Brasil es ~0.35. O sea, incluso con nuestro socio más cercano e integrado, la mayor parte del comercio sigue siendo interindustrial. Argentina le vende trigo y aceite a Brasil, Brasil le vende electrónica y maquinaria a Argentina."
+
+PREGUNTA PARA ESTUDIANTES:
+"¿Por qué Argentina logró IIT en autos pero no en electrónica o maquinaria? ¿Qué condiciones hicieron falta? ¿Se podrían replicar en otros sectores?"
+
+CONEXIÓN HACIA ADELANTE:
+"Esta pregunta — ¿se puede cambiar el patrón de inserción? — es exactamente lo que vamos a discutir en la Unidad 4 con Prebisch y los estructuralistas. Ellos van a decir que el patrón interindustrial de los países periféricos no es 'natural' sino resultado de la historia y la estructura productiva. Y que se puede (y se debe) intentar cambiarlo."
+
+---
+
 ### Sección: Implicancias
 
-#### Slide 18: ¿Quién gana y quién pierde?
+#### Slide 22: Implicancias
+**Tipo**: seccion
+**Título**: Implicancias
+**Subtítulo**: Ganadores, perdedores y el tamaño del mercado
+
+**Notas docente**:
+TRANSICIÓN (1 minuto)
+"Ahora que tenemos la teoría y los datos, preguntémonos: ¿quién gana y quién pierde con este tipo de comercio? ¿Es lo mismo que en H-O? Y una pregunta que importa mucho para Argentina: ¿el tamaño del mercado determina quién produce qué?"
+
+---
+
+#### Slide 23: ¿Quién gana y quién pierde?
 **Tipo**: texto
 **Título**: Ganancias agregadas, ajustes reales: firmas, empleo y territorio
 
@@ -616,7 +715,7 @@ CONEXIÓN CON ARGENTINA: "Esto ayuda a pensar por qué la apertura puede cerrar 
 
 ---
 
-#### Slide 19: El efecto home-market y el mercado efectivo
+#### Slide 24: El efecto home-market y el mercado efectivo
 **Tipo**: texto
 **Título**: ¿Por qué el tamaño del mercado importa tanto?
 
@@ -651,7 +750,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué hubiera pasado con la industria automotriz ar
 
 ---
 
-#### Slide 20: Nueva Geografía Económica: centro-periferia
+#### Slide 25: Nueva Geografía Económica: centro-periferia
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué la producción se concentra en "polos"?
 
@@ -690,7 +789,7 @@ EJEMPLOS CONCRETOS:
 
 ---
 
-#### Slide 21: Implicancias de política
+#### Slide 26: Implicancias de política
 **Tipo**: texto
 **Título**: Política económica con escala y concentración: oportunidades y riesgos
 
@@ -722,7 +821,7 @@ ADVERTENCIA:
 
 ---
 
-#### Slide 22: ¿Cuándo aplica mejor esta teoría?
+#### Slide 27: ¿Cuándo aplica mejor esta teoría?
 **Tipo**: texto
 **Título**: Qué explica bien este enfoque (y qué no)
 
@@ -754,7 +853,18 @@ CONEXIÓN CON UNIDAD 4: "Más adelante, en la Unidad 4, vamos a ver la visión e
 
 ### Sección: Nueva Geografía Económica
 
-#### Slide 23: Fuerzas centrípetas vs centrífugas
+#### Slide 28: Nueva Geografía Económica
+**Tipo**: seccion
+**Título**: Nueva Geografía Económica
+**Subtítulo**: ¿Por qué la producción se concentra en ciertos lugares?
+
+**Notas docente**:
+TRANSICIÓN (1 minuto)
+"Último bloque. Las mismas fuerzas que explican el comercio intraindustrial — rendimientos crecientes y costos de transporte — también explican por qué la producción se concentra geográficamente. Esto es la Nueva Geografía Económica, el otro gran aporte de Krugman, por el que ganó el Nobel en 2008."
+
+---
+
+#### Slide 29: Fuerzas centrípetas vs centrífugas
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué fuerzas empujan la concentración y qué la frena?
 
@@ -804,7 +914,7 @@ CLAVE: "El resultado de la NGE depende del balance entre estas fuerzas. Y ese ba
 
 ---
 
-#### Slide 24: El modelo centro-periferia de Krugman (1991)
+#### Slide 30: El modelo centro-periferia de Krugman (1991)
 **Tipo**: grafico_progresivo
 **Título**: El modelo formal: cómo emerge la estructura centro-periferia
 
@@ -850,7 +960,7 @@ PREGUNTA PARA ESTUDIANTES: "Si la globalización baja los costos de transporte, 
 
 ---
 
-#### Slide 25: Evidencia empírica de la NGE
+#### Slide 31: Evidencia empírica de la NGE
 **Tipo**: texto
 **Título**: La concentración territorial en el mundo real
 
@@ -879,7 +989,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Conocen algún caso donde una ciudad o región hay
 
 ---
 
-#### Slide 26: NGE y Argentina: la concentración territorial
+#### Slide 32: NGE y Argentina: la concentración territorial
 **Tipo**: texto
 **Título**: Argentina: un caso extremo de concentración económica
 
@@ -917,7 +1027,7 @@ DATO: "Vaca Muerta es un caso interesante: un shock de recursos naturales que po
 
 ### Sección: Cierre
 
-#### Slide 27: Resumen de la clase
+#### Slide 33: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que nos llevamos hoy
 
@@ -940,7 +1050,7 @@ Repasar rápido los puntos del slide. Esta fue una clase densa — es importante
 
 ---
 
-#### Slide 28: Material complementario
+#### Slide 34: Material complementario
 **Tipo**: texto
 **Título**: Para profundizar
 
@@ -963,7 +1073,7 @@ Mencionar brevemente cada recurso:
 
 ---
 
-#### Slide 29: Lecturas
+#### Slide 35: Lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 
@@ -991,7 +1101,7 @@ LECTURAS (3 minutos)
 
 ---
 
-#### Slide 30: Guía de lectura
+#### Slide 36: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 3 (primera parte)
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -1012,7 +1122,7 @@ GUÍA DE LECTURA (2 minutos)
 
 ---
 
-#### Slide 31: Próxima clase
+#### Slide 37: Próxima clase
 **Tipo**: centrado
 **Título**: Próxima clase: Comercio intraindustrial — profundización y dumping
 
