@@ -110,22 +110,38 @@ Esta pregunta guía todo el curso y se aborda desde distintas perspectivas en ca
 
 ## Evaluación del Curso
 
-### MC asincrónico en plataforma (7 evaluaciones)
-- 5 preguntas MC por unidad (3 conceptuales + 2 con datos reales)
-- Se abren al cerrar la unidad, deadline 1 semana
+### Evaluaciones por unidad (notebooks integrados)
+- Desde U2: la evaluación MC se integra dentro del notebook de la unidad (un solo archivo .ipynb)
+- Estructura: Parte 1 (MC conceptuales) + Parte 2 (procesamiento de datos + MC basadas en resultados) + Reflexión
+- Se evalúa principalmente la **interpretación económica**, no el código
+- Escala: 0-100
+- Deadline: 2 semanas desde la apertura
 - "Parcial 1" = promedio evals U1-U3
 - "Parcial 2" = promedio evals U4-U7
-- **Para promocionar**: todas las evaluaciones con 7 o más
+- **Para promocionar**: todas las evaluaciones con 70 o más
 
-| Evaluación | Se abre después de | Deadline |
-|------------|---------------------|----------|
-| Eval U1 | Sesión 1 (09/04) | 16/04 |
-| Eval U2 | Sesión 3 (23/04) | 30/04 |
-| Eval U3 | Sesión 5 (07/05) | 14/05 |
-| Eval U4 | Sesión 7 (21/05) | 28/05 |
-| Eval U5 | Sesión 9 (04/06) | 11/06 |
-| Eval U6 | Sesión 10 (11/06) | 18/06 |
-| Eval U7 | Sesión 11 (18/06) | 25/06 |
+| Evaluación | Formato | Se abre después de | Deadline |
+|------------|---------|---------------------|----------|
+| NB1 (U1) | Notebook (solo tareas) | Sesión 1 (09/04) | 23/04 |
+| NB2/Eval U2 | Notebook integrado (3 MC + 2 datos + reflexión) | Sesión 3 (24/04) | 08/05 |
+| Eval U3 | Por definir | Sesión 5 (07/05) | 21/05 |
+| Eval U4 | Por definir | Sesión 7 (21/05) | 04/06 |
+| Eval U5 | Por definir | Sesión 9 (04/06) | 18/06 |
+| Eval U6 | Por definir | Sesión 10 (11/06) | 25/06 |
+| Eval U7 | Por definir | Sesión 11 (18/06) | 02/07 |
+
+### Quiz de inicio de clase (participación)
+- Desde S4: se toman 7 preguntas al inicio de cada clase sobre las lecturas asignadas
+- Las preguntas salen de la **guía de lectura** del slide final de la clase anterior
+- Herramienta: **AhaSlides** (quiz interactivo en vivo, alumnos participan desde el celular sin cuenta)
+- No lleva nota numérica, se registra participación
+- Archivo de notas: `docente/notas.md` (fichas por alumno con todas las evaluaciones)
+
+### Registro de notas
+- Archivo centralizado: `docente/notas.md`
+- Contiene ficha por alumno con: NB, evaluaciones, quizzes, observaciones
+- Escala 0-100 para evaluaciones
+- Es confidencial (está en `docente/`, excluido del repo por .gitignore)
 
 ### Coloquio final (Sesión 12 — 25/06)
 - Presentaciones **individuales** aplicadas (PPT 8-10 slides + defensa oral)
