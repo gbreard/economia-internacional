@@ -136,38 +136,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué tiene de raro que Alemania le exporte autos a
 
 ---
 
-#### Slide 5: Paul Krugman — El arquitecto de la Nueva Teoría del Comercio
-**Tipo**: grafico_texto
-**Título**: Paul Krugman (1953-)
-**Imagen**: img/krugman.jpg
-**Fuente**: Foto oficial Casa Blanca (dominio público)
-
-**Contenido**:
-- Economista estadounidense, **Nobel de Economía 2008**
-- Premio por su análisis de **patrones de comercio** y **localización de actividad económica**
-- En los años 1979-1980 formalizó la **Nueva Teoría del Comercio**: comercio por escala y diferenciación, no solo por dotaciones
-- Discute con Ricardo/H-O: mostró que puede haber comercio entre **países idénticos**
-- Observaba el auge del comercio intraindustrial entre economías desarrolladas similares (UE, EEUU-Canadá)
-- También desarrolló la **Nueva Geografía Económica** (centro-periferia, 1991)
-- Columnista influyente del New York Times; polemista activo en debates de política comercial
-
-**Notas docente**:
-BIOGRAFÍA KRUGMAN (5 minutos)
-Paul Krugman nació en 1953, estudió en Yale y MIT. Su contribución clave fue formalizar algo que los economistas intuían pero no podían modelar: que gran parte del comercio entre países desarrollados no se explicaba por diferencias en dotaciones sino por economías de escala y diferenciación de productos.
-
-CONTEXTO HISTÓRICO: En los años 70-80, la evidencia mostraba que el comercio entre países ricos (la tríada que acabamos de ver) crecía explosivamente, y era mayormente intraindustrial. Los modelos de competencia perfecta no podían explicar esto. Krugman tomó herramientas de la teoría de organización industrial (competencia monopolística de Dixit-Stiglitz) y las aplicó al comercio internacional.
-
-¿CON QUIÉN DISCUTE? Con el "núcleo" de la teoría tradicional: Ricardo y H-O asumen rendimientos constantes y competencia perfecta. Krugman introduce rendimientos crecientes y competencia imperfecta como motor del comercio.
-
-ANÉCDOTA: El propio Krugman cuenta que la idea le vino al notar que el comercio EEUU-Canadá en manufacturas similares era enorme, algo que H-O no podía explicar bien.
-
-CITA: "Las economías de escala internas son, en la práctica, la fuerza principal detrás del comercio intraindustrial."
-
-CONEXIÓN: Krugman tiene dos grandes contribuciones: la Nueva Teoría del Comercio (1979-80) y la Nueva Geografía Económica (1991). Hoy vemos ambas.
-
----
-
-#### Slide 6: Edward Chamberlin y la competencia monopolística (1933)
+#### Slide 5: Edward Chamberlin y la competencia monopolística (1933)
 **Tipo**: grafico_texto
 **Título**: Edward Chamberlin (1899-1967)
 **Imagen**: img/chamberlin.jpg
@@ -199,7 +168,7 @@ DATO: Su libro tuvo 8 ediciones en vida. Chamberlin fue candidato al Nobel pero 
 
 ---
 
-#### Slide 7: Dixit-Stiglitz (1977) — Formalizar el amor por la variedad
+#### Slide 6: Dixit-Stiglitz (1977) — Formalizar el amor por la variedad
 **Tipo**: formula
 **Título**: Dixit y Stiglitz: la herramienta matemática que faltaba
 
@@ -243,6 +212,37 @@ CONFUSIÓN COMÚN: "Ojo: competencia monopolística NO es monopolio. Hay muchas 
 ---
 
 ### Sección: El modelo de Krugman
+
+#### Slide 7: Paul Krugman — El arquitecto de la Nueva Teoría del Comercio
+**Tipo**: grafico_texto
+**Título**: Paul Krugman (1953-)
+**Imagen**: img/krugman.jpg
+**Fuente**: Foto oficial Casa Blanca (dominio público)
+
+**Contenido**:
+- Economista estadounidense, **Nobel de Economía 2008**
+- Premio por su análisis de **patrones de comercio** y **localización de actividad económica**
+- En los años 1979-1980 formalizó la **Nueva Teoría del Comercio**: comercio por escala y diferenciación, no solo por dotaciones
+- Discute con Ricardo/H-O: mostró que puede haber comercio entre **países idénticos**
+- Observaba el auge del comercio intraindustrial entre economías desarrolladas similares (UE, EEUU-Canadá)
+- También desarrolló la **Nueva Geografía Económica** (centro-periferia, 1991)
+- Columnista influyente del New York Times; polemista activo en debates de política comercial
+
+**Notas docente**:
+BIOGRAFÍA KRUGMAN (5 minutos)
+Paul Krugman nació en 1953, estudió en Yale y MIT. Su contribución clave fue formalizar algo que los economistas intuían pero no podían modelar: que gran parte del comercio entre países desarrollados no se explicaba por diferencias en dotaciones sino por economías de escala y diferenciación de productos.
+
+CONTEXTO HISTÓRICO: En los años 70-80, la evidencia mostraba que el comercio entre países ricos (la tríada que acabamos de ver) crecía explosivamente, y era mayormente intraindustrial. Los modelos de competencia perfecta no podían explicar esto. Krugman tomó las herramientas que acabamos de ver — la competencia monopolística de Chamberlin y la formalización de Dixit-Stiglitz — y las aplicó al comercio internacional.
+
+¿CON QUIÉN DISCUTE? Con el "núcleo" de la teoría tradicional: Ricardo y H-O asumen rendimientos constantes y competencia perfecta. Krugman introduce rendimientos crecientes y competencia imperfecta como motor del comercio.
+
+ANÉCDOTA: El propio Krugman cuenta que la idea le vino al notar que el comercio EEUU-Canadá en manufacturas similares era enorme, algo que H-O no podía explicar bien.
+
+CITA: "Las economías de escala internas son, en la práctica, la fuerza principal detrás del comercio intraindustrial."
+
+CONEXIÓN: "Ya vimos a Chamberlin (la estructura de mercado), a Dixit-Stiglitz (la formalización matemática). Krugman es el que toma todo eso y lo convierte en una teoría del comercio internacional. Tiene dos grandes contribuciones: la Nueva Teoría del Comercio (1979-80) y la Nueva Geografía Económica (1991). Hoy vemos ambas."
+
+---
 
 #### Slide 8: Krugman (1979) — De Dixit-Stiglitz al comercio internacional
 **Tipo**: texto
