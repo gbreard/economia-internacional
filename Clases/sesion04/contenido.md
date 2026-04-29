@@ -605,7 +605,63 @@ REFERENCIA: "El indicador fue propuesto por Grubel y Lloyd en 1975 y sigue siend
 
 ---
 
-#### Slide 20: IIT horizontal vs vertical
+#### Slide 20: La intuición del GL: simetría entre X y M
+**Tipo**: grafico_texto
+**Título**: Cuanto más parecidos son X y M, más intraindustrial
+**Gráfico**: graficos/gl_espectro.png
+**Fuente**: Elaboración propia
+
+**Contenido**:
+- **GL = 0** (extremo izquierdo): solo exporta o solo importa en ese sector → comercio **puro interindustrial**
+- **GL = 1** (extremo derecho): exporta e importa por igual → comercio **puro intraindustrial**
+- Soja: Argentina exporta 100, importa 0 → GL = 0 (interindustrial de manual)
+- Autos Mercosur: exporta 80, importa 60 → GL = 0,86 (alto IIT — ida y vuelta)
+- **Regla**: cuanto más simétrico es el comercio en un sector, más alto el GL
+
+**Notas docente**:
+INTUICIÓN DEL GL — ESPECTRO (5 minutos)
+"Antes de avanzar, asegurémonos de que la intuición del GL quede clara. Miren el espectro: a la izquierda tenemos GL = 0, puro interindustrial. Argentina exporta soja y no importa nada de soja. Es comercio de una sola dirección."
+
+"A la derecha, GL = 1, puro intraindustrial. Un caso hipotético donde X = M exactamente. En la práctica nunca es exactamente 1, pero los autos del Mercosur están cerca: X = 80, M = 60, GL = 0,86. Hay mucho comercio de ida y vuelta."
+
+"Lo que mide el GL es exactamente eso: cuánto solapamiento hay entre lo que exportás y lo que importás en un mismo sector. Solapamiento alto → intraindustrial. Solapamiento bajo → interindustrial."
+
+PREGUNTA RÁPIDA: "Si Argentina exporta 50 de vino e importa 50 de vino, ¿cuánto da el GL?" (Respuesta: GL = 1 — puro IIT. Pero ojo: ¿es el mismo vino? Probablemente no: exporta Malbec premium e importa vino de mesa chileno. Eso es IIT vertical, que vemos en el próximo slide.)
+
+---
+
+#### Slide 21: La geometría del GL: la diagonal como referencia
+**Tipo**: grafico_texto
+**Título**: Cerca de la diagonal = intraindustrial
+**Gráfico**: graficos/gl_scatter.png
+**Fuente**: Elaboración propia
+
+**Contenido**:
+- Eje X = exportaciones, Eje Y = importaciones de un sector
+- La **diagonal** (45°) representa X = M → **GL = 1** (intraindustrial puro)
+- Cuanto más **lejos de la diagonal**, más interindustrial (un flujo domina)
+- Soja: pegada al eje X (exporta mucho, importa nada) → GL = 0
+- Autos: cerca de la diagonal → GL = 0,86
+- La **distancia perpendicular** a la diagonal es el componente interindustrial del comercio
+- Regla visual: ***diagonal = ida y vuelta, ejes = una sola dirección***
+
+**Notas docente**:
+GEOMETRÍA DEL GL — SCATTER (5 minutos)
+"Este gráfico muestra la misma idea del espectro pero con más riqueza. En el eje X ponemos las exportaciones de un sector, en el eje Y las importaciones. La diagonal es la línea donde X = M."
+
+"¿Dónde está la soja? Pegada al eje X, lejos de la diagonal. Argentina exporta 100 de soja y no importa nada. Es el caso extremo de comercio interindustrial: todo va en una dirección."
+
+"¿Y los autos del Mercosur? Cerca de la diagonal. Exporta 80, importa 60. El comercio va en las dos direcciones — es intraindustrial."
+
+"La regla geométrica es simple: cuanto más cerca de la diagonal, más intraindustrial. Cuanto más pegado a uno de los ejes, más interindustrial. Y la distancia perpendicular a la diagonal mide exactamente el componente interindustrial."
+
+"¿Y si un sector está arriba de la diagonal? Significa que importa más de lo que exporta. Argentina en electrónica, por ejemplo, estaría arriba de la diagonal y lejos de ella — importador neto, interindustrial."
+
+CONEXIÓN: "Ahora que saben leer el GL y entender su lógica, vamos a ver una distinción importante: no todo el IIT es igual. Hay IIT horizontal (variedades de calidad similar) y vertical (variedades de calidad distinta)."
+
+---
+
+#### Slide 22: IIT horizontal vs vertical
 **Tipo**: texto
 **Título**: No todo el comercio intraindustrial es igual
 
@@ -639,7 +695,7 @@ REFERENCIA: "Lucángeli (2007), en la bibliografía obligatoria, aplica esta dis
 
 ---
 
-#### Slide 21: Evidencia comparada: ¿dónde hay más IIT?
+#### Slide 23: Evidencia comparada: ¿dónde hay más IIT?
 **Tipo**: grafico_texto
 **Título**: El índice Grubel-Lloyd varía mucho según los socios comerciales
 **Gráfico**: graficos/iit_comparado.png
@@ -671,7 +727,7 @@ PATRÓN:
 
 ---
 
-#### Slide 22: Caso Mercosur autos: Krugman en acción
+#### Slide 24: Caso Mercosur autos: Krugman en acción
 **Tipo**: grafico_texto
 **Título**: Argentina-Brasil: el comercio automotriz como caso paradigmático
 **Gráfico**: graficos/mercosur_autos.png
@@ -705,7 +761,7 @@ PREGUNTA: "¿El PAM es proteccionismo o es una herramienta para generar escala? 
 
 ---
 
-#### Slide 23: Argentina y el comercio intraindustrial: ¿excepción o patrón?
+#### Slide 25: Argentina y el comercio intraindustrial: ¿excepción o patrón?
 **Tipo**: grafico_texto
 **Título**: ¿Dónde queda Argentina en este nuevo mapa?
 **Gráfico**: graficos/rca_argentina.png
@@ -738,7 +794,7 @@ CONEXIÓN HACIA ADELANTE:
 
 ### Sección: Implicancias
 
-#### Slide 24: Implicancias
+#### Slide 26: Implicancias
 **Tipo**: seccion
 **Título**: Implicancias
 **Subtítulo**: Ganadores, perdedores y el tamaño del mercado
@@ -749,7 +805,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 25: ¿Quién gana y quién pierde?
+#### Slide 27: ¿Quién gana y quién pierde?
 **Tipo**: texto
 **Título**: Ganancias agregadas, ajustes reales: firmas, empleo y territorio
 
@@ -783,7 +839,7 @@ CONEXIÓN CON ARGENTINA: "Esto ayuda a pensar por qué la apertura puede cerrar 
 
 ---
 
-#### Slide 26: El efecto home-market y el mercado efectivo
+#### Slide 28: El efecto home-market y el mercado efectivo
 **Tipo**: texto
 **Título**: ¿Por qué el tamaño del mercado importa tanto?
 
@@ -818,7 +874,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué hubiera pasado con la industria automotriz ar
 
 ---
 
-#### Slide 27: Nueva Geografía Económica: centro-periferia
+#### Slide 29: Nueva Geografía Económica: centro-periferia
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué la producción se concentra en "polos"?
 
@@ -857,7 +913,7 @@ EJEMPLOS CONCRETOS:
 
 ---
 
-#### Slide 28: Implicancias de política
+#### Slide 30: Implicancias de política
 **Tipo**: texto
 **Título**: Política económica con escala y concentración: oportunidades y riesgos
 
@@ -889,7 +945,7 @@ ADVERTENCIA:
 
 ---
 
-#### Slide 29: ¿Cuándo aplica mejor esta teoría?
+#### Slide 31: ¿Cuándo aplica mejor esta teoría?
 **Tipo**: texto
 **Título**: Qué explica bien este enfoque (y qué no)
 
@@ -921,7 +977,7 @@ CONEXIÓN CON UNIDAD 4: "Más adelante, en la Unidad 4, vamos a ver la visión e
 
 ### Sección: Nueva Geografía Económica
 
-#### Slide 30: Nueva Geografía Económica
+#### Slide 32: Nueva Geografía Económica
 **Tipo**: seccion
 **Título**: Nueva Geografía Económica
 **Subtítulo**: ¿Por qué la producción se concentra en ciertos lugares?
@@ -932,7 +988,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 31: Fuerzas centrípetas vs centrífugas
+#### Slide 33: Fuerzas centrípetas vs centrífugas
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué fuerzas empujan la concentración y qué la frena?
 
@@ -982,7 +1038,7 @@ CLAVE: "El resultado de la NGE depende del balance entre estas fuerzas. Y ese ba
 
 ---
 
-#### Slide 32: El modelo centro-periferia de Krugman (1991)
+#### Slide 34: El modelo centro-periferia de Krugman (1991)
 **Tipo**: grafico_progresivo
 **Título**: El modelo formal: cómo emerge la estructura centro-periferia
 
@@ -1028,7 +1084,7 @@ PREGUNTA PARA ESTUDIANTES: "Si la globalización baja los costos de transporte, 
 
 ---
 
-#### Slide 33: Evidencia empírica de la NGE
+#### Slide 35: Evidencia empírica de la NGE
 **Tipo**: texto
 **Título**: La concentración territorial en el mundo real
 
@@ -1057,7 +1113,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Conocen algún caso donde una ciudad o región hay
 
 ---
 
-#### Slide 34: NGE y Argentina: la concentración territorial
+#### Slide 36: NGE y Argentina: la concentración territorial
 **Tipo**: texto
 **Título**: Argentina: un caso extremo de concentración económica
 
@@ -1095,7 +1151,7 @@ DATO: "Vaca Muerta es un caso interesante: un shock de recursos naturales que po
 
 ### Sección: Cierre
 
-#### Slide 35: Resumen de la clase
+#### Slide 37: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que nos llevamos hoy
 
@@ -1118,7 +1174,7 @@ Repasar rápido los puntos del slide. Esta fue una clase densa — es importante
 
 ---
 
-#### Slide 36: Material complementario
+#### Slide 38: Material complementario
 **Tipo**: texto
 **Título**: Para profundizar
 
@@ -1141,7 +1197,7 @@ Mencionar brevemente cada recurso:
 
 ---
 
-#### Slide 37: Lecturas
+#### Slide 39: Lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 
@@ -1169,7 +1225,7 @@ LECTURAS (3 minutos)
 
 ---
 
-#### Slide 38: Guía de lectura
+#### Slide 40: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 3 (primera parte)
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -1190,7 +1246,7 @@ GUÍA DE LECTURA (2 minutos)
 
 ---
 
-#### Slide 39: Próxima clase
+#### Slide 41: Próxima clase
 **Tipo**: centrado
 **Título**: Próxima clase: Comercio intraindustrial — profundización y dumping
 
