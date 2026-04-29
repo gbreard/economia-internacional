@@ -167,34 +167,76 @@ CONEXIÓN: Krugman tiene dos grandes contribuciones: la Nueva Teoría del Comerc
 
 ---
 
-#### Slide 6: Competencia monopolística — la estructura de mercado que necesitamos
-**Tipo**: formula
-**Título**: Competencia monopolística: entre monopolio y competencia perfecta
+#### Slide 6: Edward Chamberlin y la competencia monopolística (1933)
+**Tipo**: grafico_texto
+**Título**: Edward Chamberlin (1899-1967)
+**Imagen**: img/chamberlin.jpg
+**Fuente**: Wikimedia Commons, CC BY-SA 4.0
 
 **Contenido**:
-- **Competencia perfecta**: muchas firmas, producto idéntico, precio dado → no hay variedad ni escala
-- **Monopolio**: una firma, un producto → no hay variedad ni comercio
-- **Competencia monopolística** (Chamberlin 1933): muchas firmas, cada una produce una **variedad diferenciada**
-- Cada firma enfrenta una **demanda con pendiente negativa** (tiene algo de poder de mercado por diferenciación)
-- Pero hay **libre entrada**: si hay ganancias, entran firmas → ganancias tienden a cero en el largo plazo
-- **Dixit-Stiglitz (1977)**: formalizaron la utilidad con "amor por la variedad" → $U = \left(\sum_{i=1}^{n} c_i^\rho\right)^{1/\rho}$
-- **Krugman (1979)**: aplicó Dixit-Stiglitz al comercio → la **Nueva Teoría del Comercio**
-- Clave: esta estructura permite **rendimientos crecientes internos** + **muchas firmas** + **variedad**
+- Economista estadounidense, **Harvard** toda su carrera (1937-1967)
+- Publicó *The Theory of Monopolistic Competition* (1933) — su obra fundamental
+- Idea central: los mercados reales no son **ni competencia perfecta ni monopolio** — son algo intermedio
+- Muchas firmas, pero cada una produce una **variedad diferenciada** (marca, diseño, ubicación)
+- Cada firma tiene algo de **poder de mercado** (puede subir el precio sin perder todos los clientes)
+- Pero hay **libre entrada**: si hay ganancias, entran competidores → ganancias tienden a cero
+- Coincidencia histórica: el mismo año, **Joan Robinson** (Cambridge, UK) publicó *The Economics of Imperfect Competition* — conclusiones parecidas, de forma independiente
 
 **Notas docente**:
-COMPETENCIA MONOPOLÍSTICA (10 minutos)
-"Antes de entrar al modelo de Krugman, necesitamos entender la estructura de mercado que usa. No es competencia perfecta (porque necesitamos diferenciación y costos fijos) ni monopolio (porque hay muchas firmas). Es competencia monopolística."
+CHAMBERLIN Y LA COMPETENCIA MONOPOLÍSTICA (10 minutos)
 
-EXPLICACIÓN PASO A PASO:
-"En competencia perfecta, todos producen lo mismo y nadie tiene poder de mercado. En monopolio, una sola firma domina. Competencia monopolística es el punto medio: muchas firmas, pero cada una tiene un producto ligeramente diferente. Pensá en restaurantes: hay muchos, pero cada uno tiene su menú, su estilo, su ubicación. O en autos: hay muchas marcas, pero un VW Golf no es lo mismo que un Peugeot 308."
+QUIÉN ERA: Edward Hastings Chamberlin (1899-1967) fue un economista estadounidense que hizo toda su carrera en Harvard. Su libro de 1933, The Theory of Monopolistic Competition, cambió la forma de pensar los mercados. Antes de Chamberlin, la teoría económica tenía dos modelos: competencia perfecta (muchas firmas, producto idéntico) y monopolio (una sola firma). Chamberlin mostró que la mayoría de los mercados reales no encajan en ninguno de los dos: hay muchas firmas, pero cada una tiene un producto ligeramente diferente.
 
-DIXIT-STIGLITZ:
-"En 1977, dos economistas — Dixit y Stiglitz — formalizaron matemáticamente la idea de que los consumidores valoran la variedad. Su función de utilidad dice: prefiero consumir un poco de muchas variedades que mucho de una sola. Esto se conoce como 'amor por la variedad' (love of variety)."
+CONTRA QUIÉN DISCUTE: Chamberlin discute directamente con el marco de competencia perfecta de Alfred Marshall, que era el paradigma dominante en economía. Marshall asumía que las firmas producen bienes idénticos — pero en la realidad, un restaurante no es igual a otro, un auto no es igual a otro. Chamberlin formaliza esa diferenciación.
 
-"La fórmula del slide es la utilidad CES (elasticidad de sustitución constante). El parámetro rho controla cuánto valoro la variedad: cuanto más bajo, más valoro tener opciones distintas."
+COINCIDENCIA CON ROBINSON: Joan Robinson (1903-1983), economista de Cambridge, publicó The Economics of Imperfect Competition el mismo año, 1933. Llegaron a conclusiones parecidas de forma independiente. Robinson era más heterodoxa — terminó simpatizando con posiciones marxistas y post-keynesianas. Chamberlin se mantuvo dentro de la ortodoxia neoclásica.
 
-KRUGMAN 1979:
-"Lo genial de Krugman fue tomar este marco y aplicarlo al comercio: si los consumidores valoran la variedad, y producir cada variedad tiene un costo fijo, entonces abrir el comercio agranda el mercado, permite más variedades y menor costo por unidad. ¡Comercio entre países idénticos!"
+CONEXIÓN CON LOS MARXISTAS: La pregunta que a veces surge es: ¿qué relación tiene Chamberlin con la teoría marxista del monopolio? Chamberlin NO era marxista. Pero su trabajo demostró que la competencia perfecta es una ficción — las firmas tienen poder de mercado real. Los economistas marxistas de la escuela de Monthly Review (Paul Sweezy, Paul Baran) usaron esa idea para argumentar que el capitalismo tiende inevitablemente a la concentración monopolista. Sweezy en "Monopoly Capital" (1966) se apoyó en la noción de poder de mercado que Chamberlin había formalizado. Pero Chamberlin les dio la herramienta sin compartir la conclusión política: él quería describir la realidad con más precisión, no cuestionar el sistema.
+
+PREGUNTA PARA ESTUDIANTES: "Si cada firma tiene algo de poder de mercado, ¿eso es bueno o malo para los consumidores? ¿Más variedad compensa precios más altos?"
+
+DATO: Su libro tuvo 8 ediciones en vida. Chamberlin fue candidato al Nobel pero murió en 1967, un año antes de que se creara el premio de economía.
+
+---
+
+#### Slide 7: Dixit-Stiglitz (1977) — Formalizar el amor por la variedad
+**Tipo**: formula
+**Título**: Dixit y Stiglitz: la herramienta matemática que faltaba
+
+**Contenido**:
+- **Avinash Dixit** (1944-, indio-estadounidense, Princeton) y **Joseph Stiglitz** (1943-, Nobel 2001)
+- Problema de los 70s: los economistas sabían que los consumidores valoran la variedad, pero no podían modelarlo formalmente
+- Dixit y Stiglitz (1977) crearon la función de utilidad **CES** (elasticidad de sustitución constante):
+- $U = \left(\sum_{i=1}^{n} c_i^\rho\right)^{1/\rho}$ donde $0 < \rho < 1$
+- **"Amor por la variedad"**: prefiero consumir un poco de muchas variedades que mucho de una sola
+- El parámetro $\rho$ controla cuánto valoro la variedad: cuanto más bajo, más valoro tener opciones distintas
+- La elasticidad de sustitución es $\sigma = \frac{1}{1-\rho}$ — mide cuán sustituibles son las variedades entre sí
+- **Resultado clave**: en equilibrio, el número de variedades $n$ depende del **tamaño del mercado** — mercado más grande → más variedades
+- Se convirtió en el modelo de referencia ("workhorse model") de toda la economía de competencia imperfecta
+
+**Notas docente**:
+DIXIT-STIGLITZ (10 minutos)
+
+QUIÉNES ERAN:
+Avinash Dixit (1944-) es un economista indio-estadounidense que hizo su carrera en Princeton. Es uno de los teóricos más elegantes de la microeconomía moderna. Joseph Stiglitz (1943-) es más conocido: ganó el Nobel en 2001 por su trabajo sobre asimetría de información (no por este paper, sino por sus aportes sobre mercados con información imperfecta). Pero el paper de 1977 con Dixit es probablemente el más citado de toda su carrera.
+
+EL PROBLEMA QUE RESOLVIERON:
+"En los años 70, los economistas tenían un problema técnico: sabían que los consumidores valoran la variedad (Chamberlin lo había dicho en los 30s), pero no tenían una función de utilidad manejable que lo capturara. Las funciones estándar (Cobb-Douglas, funciones aditivas) no lo resolvían bien cuando había costos fijos y un número variable de productos."
+
+"Dixit y Stiglitz crearon la función CES que ven en el slide. Es una suma de todas las variedades disponibles, elevada a una potencia. Lo elegante es que captura dos cosas a la vez: (1) me gusta consumir de todas las variedades, y (2) puedo sustituir parcialmente entre variedades, pero no del todo."
+
+LA FÓRMULA EN SIMPLE:
+"No se asusten por la fórmula. Lo que dice es: mi felicidad depende de cuántas variedades consumo y cuánto de cada una. Si hay 10 variedades de helado, soy más feliz probando un poco de cada una que comiendo mucho de una sola. Eso es 'amor por la variedad'."
+
+"El parámetro rho (ρ) es clave: si ρ está cerca de 1, las variedades son casi iguales (me da lo mismo una u otra). Si ρ es bajo, cada variedad es muy diferente y valoro mucho tener acceso a todas."
+
+CONTRA QUIÉN DISCUTEN:
+"Discuten con la teoría estándar que asumía bienes homogéneos o que trataba las variedades como bienes completamente separados. Antes de Dixit-Stiglitz, si querías modelar 100 variedades, necesitabas 100 ecuaciones. Ellos lo resolvieron con una sola función que escala con n (el número de variedades)."
+
+POR QUÉ IMPORTA PARA EL COMERCIO:
+"El resultado clave es que el número de variedades en equilibrio depende del tamaño del mercado. Mercado más grande → más firmas pueden cubrir sus costos fijos → más variedades. Esto es exactamente lo que Krugman necesitaba para explicar por qué abrir el comercio (= agrandar el mercado) genera más variedad."
+
+DATO: Este paper se publicó en la American Economic Review en 1977. Hoy tiene más de 20.000 citas — es uno de los papers más citados de la historia de la economía. Prácticamente toda la nueva teoría del comercio, la nueva geografía económica y la macroeconomía de variedades se construyen sobre Dixit-Stiglitz.
 
 CONFUSIÓN COMÚN: "Ojo: competencia monopolística NO es monopolio. Hay muchas firmas, y la libre entrada elimina ganancias extraordinarias en el largo plazo. Es 'monopolística' porque cada firma tiene algo de poder de mercado por diferenciación, pero 'competencia' porque hay muchos competidores."
 
@@ -202,18 +244,44 @@ CONFUSIÓN COMÚN: "Ojo: competencia monopolística NO es monopolio. Hay muchas 
 
 ### Sección: El modelo de Krugman
 
-#### Slide 7: El modelo de Krugman
+#### Slide 8: Krugman (1979) — De Dixit-Stiglitz al comercio internacional
+**Tipo**: texto
+**Título**: El salto de Krugman: Dixit-Stiglitz + dos países = Nueva Teoría del Comercio
+
+**Contenido**:
+- En 1979, Krugman tomó el modelo Dixit-Stiglitz y le agregó **dos países con comercio**
+- El marco ya estaba armado: competencia monopolística + amor por la variedad + costos fijos + libre entrada
+- La pregunta de Krugman: ***¿qué pasa cuando dos economías con esta estructura se abren al comercio?***
+- **Resultado**: mercado más grande → más variedades posibles + menor costo por variedad → los consumidores ganan
+- Esto genera comercio entre **países idénticos** — sin necesidad de diferencias en dotaciones ni tecnología
+- La clave: el comercio no viene de "ser distintos" sino de que **el mercado se agranda** con la apertura
+- Krugman cita a Dixit-Stiglitz como la base técnica de toda su teoría
+
+**Notas docente**:
+EL SALTO DE KRUGMAN (5 minutos)
+
+"Ahora viene la jugada genial. Chamberlin nos dio la estructura de mercado (competencia monopolística). Dixit y Stiglitz nos dieron la herramienta matemática (la función CES con amor por la variedad). Pero ninguno de los dos habló de comercio internacional."
+
+"Krugman en 1979 tomó ese modelo y le agregó un ingrediente simple: dos países que pueden comerciar entre sí. ¿Qué pasa? El mercado se duplica. Más mercado significa que más variedades pueden cubrir sus costos fijos. Resultado: hay más variedades disponibles Y cada variedad se produce a mayor escala (menor costo). Los consumidores de ambos países ganan."
+
+"Y lo más importante: esto funciona incluso si los dos países son IDÉNTICOS en dotaciones, tecnología, tamaño, todo. No hace falta que uno sea 'mejor' en algo. El comercio surge de la escala y la variedad, no de las diferencias. Eso es lo revolucionario."
+
+CONEXIÓN: "Ahora vamos a desmenuzar este mecanismo paso a paso. Pero ya tienen la arquitectura completa: Chamberlin (1933) → Dixit-Stiglitz (1977) → Krugman (1979). Tres décadas para armar el edificio."
+
+---
+
+#### Slide 9: El modelo de Krugman
 **Tipo**: seccion
 **Título**: El modelo de Krugman
 **Subtítulo**: Rendimientos crecientes, diferenciación y comercio intraindustrial
 
 **Notas docente**:
 TRANSICIÓN (1 minuto)
-"Ya vimos el problema: H-O no explica el comercio entre países similares. Ahora vamos a armar la solución. Krugman combina tres ingredientes: rendimientos crecientes, diferenciación de productos y competencia monopolística. Con eso va a explicar por qué existe el comercio intraindustrial."
+"Ya tenemos las bases teóricas: Chamberlin nos dio la competencia monopolística, Dixit-Stiglitz la formalizaron con amor por la variedad, y Krugman la aplicó al comercio. Ahora vamos a ver cómo funciona el modelo paso a paso: rendimientos crecientes, costos fijos, el mecanismo completo y las ganancias del comercio."
 
 ---
 
-#### Slide 8: Rendimientos crecientes: la intuición clave
+#### Slide 10: Rendimientos crecientes: la intuición clave
 **Tipo**: grafico_texto
 **Título**: Rendimientos crecientes = costos medios que caen con la escala
 **Gráfico**: graficos/costo_medio.png
@@ -246,7 +314,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué sectores se les ocurren donde los costos fijo
 
 ---
 
-#### Slide 9: Economías de escala internas vs externas
+#### Slide 11: Economías de escala internas vs externas
 **Tipo**: grafico_texto
 **Título**: Dos tipos de economías de escala
 **Gráfico**: graficos/internas_externas.png
@@ -283,7 +351,7 @@ REMATE: "Internas → el actor central es la empresa. Externas → el actor cent
 
 ---
 
-#### Slide 10: Escala y especialización sin ventaja comparativa
+#### Slide 12: Escala y especialización sin ventaja comparativa
 **Tipo**: texto
 **Título**: Con rendimientos crecientes puede haber comercio sin ventaja comparativa tradicional
 
@@ -309,7 +377,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Se les ocurre algún sector donde Argentina produc
 
 ---
 
-#### Slide 11: Comercio intraindustrial: el hecho a explicar
+#### Slide 13: Comercio intraindustrial: el hecho a explicar
 **Tipo**: grafico_texto
 **Título**: El hecho estilizado: comercio "ida y vuelta" en el mismo sector
 **Gráfico**: graficos/comercio_intraindustrial.png
@@ -339,7 +407,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Saben qué porcentaje del comercio mundial es intr
 
 ---
 
-#### Slide 12: El mecanismo Krugman en 4 pasos
+#### Slide 14: El mecanismo Krugman en 4 pasos
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué el comercio "ida y vuelta" es lógico?
 
@@ -382,7 +450,7 @@ CONFUSIÓN COMÚN: "Ojo: esto NO dice que las dotaciones no importan. Dice que A
 
 ---
 
-#### Slide 13: Ganancias del comercio: variedad y escala
+#### Slide 15: Ganancias del comercio: variedad y escala
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué ganamos con abrir el comercio en este modelo?
 
@@ -418,7 +486,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Pueden pensar en algún producto que antes venía 
 
 ---
 
-#### Slide 14: Tabla comparativa de teorías
+#### Slide 16: Tabla comparativa de teorías
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué explica cada teoría del comercio?
 
@@ -461,7 +529,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué teoría usarían para explicar que Argentina 
 
 ### Sección: Medir el comercio intraindustrial
 
-#### Slide 15: Medir el comercio intraindustrial
+#### Slide 17: Medir el comercio intraindustrial
 **Tipo**: seccion
 **Título**: Medir el comercio intraindustrial
 **Subtítulo**: Grubel-Lloyd, evidencia comparada y el caso argentino
@@ -472,7 +540,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 16: ¿Qué vieron Grubel y Lloyd?
+#### Slide 18: ¿Qué vieron Grubel y Lloyd?
 **Tipo**: grafico_texto
 **Título**: La sorpresa que motivó el índice
 **Gráfico**: graficos/grubel_lloyd_contexto.png
@@ -498,7 +566,7 @@ CONTEXTO GRUBEL-LLOYD (5 minutos)
 
 ---
 
-#### Slide 17: Índice de Grubel-Lloyd
+#### Slide 19: Índice de Grubel-Lloyd
 **Tipo**: grafico_texto
 **Título**: ¿Cómo medimos el comercio intraindustrial?
 **Gráfico**: graficos/grubel_lloyd_ejemplo.png
@@ -537,7 +605,7 @@ REFERENCIA: "El indicador fue propuesto por Grubel y Lloyd en 1975 y sigue siend
 
 ---
 
-#### Slide 18: IIT horizontal vs vertical
+#### Slide 20: IIT horizontal vs vertical
 **Tipo**: texto
 **Título**: No todo el comercio intraindustrial es igual
 
@@ -571,7 +639,7 @@ REFERENCIA: "Lucángeli (2007), en la bibliografía obligatoria, aplica esta dis
 
 ---
 
-#### Slide 19: Evidencia comparada: ¿dónde hay más IIT?
+#### Slide 21: Evidencia comparada: ¿dónde hay más IIT?
 **Tipo**: grafico_texto
 **Título**: El índice Grubel-Lloyd varía mucho según los socios comerciales
 **Gráfico**: graficos/iit_comparado.png
@@ -603,7 +671,7 @@ PATRÓN:
 
 ---
 
-#### Slide 20: Caso Mercosur autos: Krugman en acción
+#### Slide 22: Caso Mercosur autos: Krugman en acción
 **Tipo**: grafico_texto
 **Título**: Argentina-Brasil: el comercio automotriz como caso paradigmático
 **Gráfico**: graficos/mercosur_autos.png
@@ -637,7 +705,7 @@ PREGUNTA: "¿El PAM es proteccionismo o es una herramienta para generar escala? 
 
 ---
 
-#### Slide 21: Argentina y el comercio intraindustrial: ¿excepción o patrón?
+#### Slide 23: Argentina y el comercio intraindustrial: ¿excepción o patrón?
 **Tipo**: grafico_texto
 **Título**: ¿Dónde queda Argentina en este nuevo mapa?
 **Gráfico**: graficos/rca_argentina.png
@@ -670,7 +738,7 @@ CONEXIÓN HACIA ADELANTE:
 
 ### Sección: Implicancias
 
-#### Slide 22: Implicancias
+#### Slide 24: Implicancias
 **Tipo**: seccion
 **Título**: Implicancias
 **Subtítulo**: Ganadores, perdedores y el tamaño del mercado
@@ -681,7 +749,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 23: ¿Quién gana y quién pierde?
+#### Slide 25: ¿Quién gana y quién pierde?
 **Tipo**: texto
 **Título**: Ganancias agregadas, ajustes reales: firmas, empleo y territorio
 
@@ -715,7 +783,7 @@ CONEXIÓN CON ARGENTINA: "Esto ayuda a pensar por qué la apertura puede cerrar 
 
 ---
 
-#### Slide 24: El efecto home-market y el mercado efectivo
+#### Slide 26: El efecto home-market y el mercado efectivo
 **Tipo**: texto
 **Título**: ¿Por qué el tamaño del mercado importa tanto?
 
@@ -750,7 +818,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué hubiera pasado con la industria automotriz ar
 
 ---
 
-#### Slide 25: Nueva Geografía Económica: centro-periferia
+#### Slide 27: Nueva Geografía Económica: centro-periferia
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué la producción se concentra en "polos"?
 
@@ -789,7 +857,7 @@ EJEMPLOS CONCRETOS:
 
 ---
 
-#### Slide 26: Implicancias de política
+#### Slide 28: Implicancias de política
 **Tipo**: texto
 **Título**: Política económica con escala y concentración: oportunidades y riesgos
 
@@ -821,7 +889,7 @@ ADVERTENCIA:
 
 ---
 
-#### Slide 27: ¿Cuándo aplica mejor esta teoría?
+#### Slide 29: ¿Cuándo aplica mejor esta teoría?
 **Tipo**: texto
 **Título**: Qué explica bien este enfoque (y qué no)
 
@@ -853,7 +921,7 @@ CONEXIÓN CON UNIDAD 4: "Más adelante, en la Unidad 4, vamos a ver la visión e
 
 ### Sección: Nueva Geografía Económica
 
-#### Slide 28: Nueva Geografía Económica
+#### Slide 30: Nueva Geografía Económica
 **Tipo**: seccion
 **Título**: Nueva Geografía Económica
 **Subtítulo**: ¿Por qué la producción se concentra en ciertos lugares?
@@ -864,7 +932,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 29: Fuerzas centrípetas vs centrífugas
+#### Slide 31: Fuerzas centrípetas vs centrífugas
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué fuerzas empujan la concentración y qué la frena?
 
@@ -914,7 +982,7 @@ CLAVE: "El resultado de la NGE depende del balance entre estas fuerzas. Y ese ba
 
 ---
 
-#### Slide 30: El modelo centro-periferia de Krugman (1991)
+#### Slide 32: El modelo centro-periferia de Krugman (1991)
 **Tipo**: grafico_progresivo
 **Título**: El modelo formal: cómo emerge la estructura centro-periferia
 
@@ -960,7 +1028,7 @@ PREGUNTA PARA ESTUDIANTES: "Si la globalización baja los costos de transporte, 
 
 ---
 
-#### Slide 31: Evidencia empírica de la NGE
+#### Slide 33: Evidencia empírica de la NGE
 **Tipo**: texto
 **Título**: La concentración territorial en el mundo real
 
@@ -989,7 +1057,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Conocen algún caso donde una ciudad o región hay
 
 ---
 
-#### Slide 32: NGE y Argentina: la concentración territorial
+#### Slide 34: NGE y Argentina: la concentración territorial
 **Tipo**: texto
 **Título**: Argentina: un caso extremo de concentración económica
 
@@ -1027,7 +1095,7 @@ DATO: "Vaca Muerta es un caso interesante: un shock de recursos naturales que po
 
 ### Sección: Cierre
 
-#### Slide 33: Resumen de la clase
+#### Slide 35: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que nos llevamos hoy
 
@@ -1050,7 +1118,7 @@ Repasar rápido los puntos del slide. Esta fue una clase densa — es importante
 
 ---
 
-#### Slide 34: Material complementario
+#### Slide 36: Material complementario
 **Tipo**: texto
 **Título**: Para profundizar
 
@@ -1073,7 +1141,7 @@ Mencionar brevemente cada recurso:
 
 ---
 
-#### Slide 35: Lecturas
+#### Slide 37: Lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 
@@ -1101,7 +1169,7 @@ LECTURAS (3 minutos)
 
 ---
 
-#### Slide 36: Guía de lectura
+#### Slide 38: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 3 (primera parte)
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -1122,7 +1190,7 @@ GUÍA DE LECTURA (2 minutos)
 
 ---
 
-#### Slide 37: Próxima clase
+#### Slide 39: Próxima clase
 **Tipo**: centrado
 **Título**: Próxima clase: Comercio intraindustrial — profundización y dumping
 
