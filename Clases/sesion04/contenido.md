@@ -50,8 +50,8 @@ APERTURA (2 minutos)
 - **Bloque 1 — Motivación**: ¿qué no explica H-O? La tríada, Krugman y la competencia monopolística
 - **Bloque 2 — El modelo**: rendimientos crecientes, comercio intraindustrial, mecanismo Krugman, ganancias
 - **Bloque 3 — Medición**: índice Grubel-Lloyd, IIT horizontal vs vertical, evidencia comparada, caso Mercosur
-- **Bloque 4 — Implicancias**: ganadores/perdedores, home-market effect, centro-periferia, política
-- **Bloque 5 — Nueva Geografía Económica**: fuerzas centrípetas/centrífugas, modelo K-1991, evidencia, Argentina
+- **Bloque 4 — Implicancias**: ganadores/perdedores, home-market effect, concentración geográfica, política
+- **Bloque 5 — Nueva Geografía Económica**: fuerzas centrípetas/centrífugas, modelo K-1991, 5 casos empíricos (UE, EEUU, China, México, mundo espinoso), Argentina (mapa + 145 años de historia)
 - **Cierre**: resumen, material complementario, lecturas, próxima clase
 
 **Notas docente**:
@@ -919,7 +919,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué hubiera pasado con la industria automotriz ar
 
 ---
 
-#### Slide 30: Nueva Geografía Económica: centro-periferia
+#### Slide 30: Centro-periferia como implicancia
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué la producción se concentra en "polos"?
 
@@ -943,18 +943,15 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué hubiera pasado con la industria automotriz ar
 - Ejemplo: AMBA, Córdoba automotriz, núcleo industrial UE
 
 **Notas docente**:
-NUEVA GEOGRAFÍA ECONÓMICA — INTRODUCCIÓN (8 minutos)
-"Krugman no solo explica comercio intraindustrial: también explica por qué la producción se concentra en ciertos territorios. Este es su segundo gran aporte: la Nueva Geografía Económica (NGE), por la que también recibió el Nobel."
+CENTRO-PERIFERIA COMO IMPLICANCIA (8 minutos)
+"Una implicancia importante del modelo de Krugman es que la producción no solo se concentra en pocas firmas (variedades), también se concentra geográficamente. Acá lo planteamos como observación: hay un centro que acumula industria y servicios, y una periferia que queda rezagada."
 
-MECANISMO CIRCULAR:
+MECANISMO CIRCULAR (intuición, sin formalizar todavía):
 "Si hay escala, conviene producir en menos lugares. Si además hay costos de transporte, estar cerca de un mercado grande y de proveedores genera ventajas adicionales. Eso dispara un círculo virtuoso para el centro — y puede ser un círculo vicioso para la periferia."
 
-EJEMPLOS CONCRETOS:
-- Europa: muchas industrias se concentran en el 'núcleo' europeo (Benelux, Alemania, norte de Italia). No es que el resto no produzca nada, pero el núcleo acumula proveedores, logística, capital humano y demanda.
-- EEUU: el corredor automotriz alrededor de los Grandes Lagos (Michigan, Ohio, Indiana) concentró automotriz y autopartes por trayectoria histórica.
-- China: la industria exportadora se concentró en la costa (Shenzhen, Guangzhou, Shanghai), cerca de puertos y cadenas globales.
+PREGUNTA-PUENTE PARA ESTUDIANTES: "¿Conocen casos donde la producción se concentra en una región específica del país o del mundo? ¿Por qué creen que pasa eso?"
 
-"Acá abrimos un bloque más detallado sobre NGE: vamos a ver las fuerzas que explican la concentración, el modelo formal, y el caso argentino."
+"Acá lo dejamos como pregunta abierta — la respuesta formal viene en el último bloque de la clase, cuando veamos la Nueva Geografía Económica de Krugman: las fuerzas centrípetas y centrífugas, el modelo de bifurcación de 1991 y la evidencia empírica con casos concretos (Europa, EEUU, China, Argentina)."
 
 ---
 
@@ -1110,22 +1107,47 @@ CLAVE: "El resultado de la NGE depende del balance entre estas fuerzas. Y ese ba
 MODELO CENTRO-PERIFERIA KRUGMAN 1991 (12 minutos)
 "Este es el paper que completó el Nobel de Krugman. Es un modelo elegante que explica cómo emerge la estructura centro-periferia de forma endógena — es decir, sin asumir que una región es 'mejor' que otra."
 
+CÓMO LEER EL GRÁFICO (el alumno ve un diagrama de bifurcación, conviene guiarlo paso a paso):
+"El eje horizontal es el costo de transporte: a la izquierda están los costos altos, a la derecha los bajos. El eje vertical pregunta una sola cosa: ¿qué porcentaje de la manufactura termina en la Región 1? El otro porcentaje queda en la Región 2."
+
 SETUP:
-"Imaginemos dos regiones idénticas. Hay dos sectores: agricultura (con rendimientos constantes y trabajadores que no se mueven) y manufactura (con rendimientos crecientes y trabajadores que pueden mudarse)."
+"Imaginemos dos regiones idénticas. Hay dos sectores: agricultura (con rendimientos constantes y trabajadores que no se mueven) y manufactura (con rendimientos crecientes y trabajadores que pueden mudarse). El parámetro clave es el costo de transporte τ (tau)."
 
-"El parámetro clave es el costo de transporte τ (tau). Miremos el gráfico de bifurcación."
+PASO 1 — COSTOS ALTOS (zona azul, izquierda):
+"Es tan caro mover bienes que cada región tiene que producir lo suyo. Importar es prohibitivo. Resultado: la manufactura se reparte 50-50. Es un equilibrio ESTABLE: si por algún motivo se desbalanceara, la economía vuelve sola al 50-50."
 
-TRES ZONAS:
-1. "τ alto (costos de transporte altos): no conviene concentrar porque el flete se come las ventajas de escala. La manufactura se reparte 50-50 entre las dos regiones. Equilibrio simétrico."
+PASO 2 — EL PUNTO DE BIFURCACIÓN (punto rojo):
+"A medida que τ baja (vamos a la derecha), las fuerzas centrípetas (mercado, proveedores, escala) empiezan a pesar más. Hay un umbral exacto — el punto rojo — donde el régimen cambia."
 
-2. "τ bajo (costos de transporte bajos): las fuerzas centrípetas dominan. Toda la manufactura se va a una región, que se convierte en el centro. La otra queda como periferia agrícola."
+"Aclaración para el aula: bifurcación es un término matemático que significa 'punto en el que el sistema deja de tener una solución única y pasa a tener varias'. No hace falta que lo entiendan formalmente — lo que importa es que hay un antes y un después."
 
-3. "τ intermedio: acá está lo más interesante — la zona de bifurcación. El equilibrio simétrico se vuelve inestable. Un pequeño shock (una inversión, una política, un accidente histórico) puede 'inclinar' toda la manufactura hacia un lado. Es irreversible: una vez que se inclina, la causación acumulativa refuerza la concentración."
+PASO 3 — COSTOS BAJOS (zona naranja, derecha):
+"Acá pasan dos cosas a la vez:"
 
-IMPLICACIÓN PARADÓJICA:
-"La globalización (que baja costos de transporte) puede aumentar la concentración, no reducirla. Al bajar τ, las fuerzas centrípetas dominan y la manufactura se concentra en los centros."
+"PRIMERO, el equilibrio 50-50 sigue existiendo en los papeles (la línea negra punteada). Pero ahora es INESTABLE. Metáfora: imaginen una pelota en la cima de una colina. Matemáticamente puede estar ahí — pero el más mínimo viento la tira para un lado o para el otro. Cualquier shock pequeño (una inversión, una política, un accidente histórico) rompe el 50-50."
+
+"SEGUNDO, aparecen DOS resultados estables nuevos (las dos curvas verdes que se abren):"
+- Resultado A: la Región 1 se queda con TODA la manufactura (sube al 100%) → es el centro. La 2 queda como periferia agrícola.
+- Resultado B: lo opuesto — Región 1 pierde todo (cae a 0%) → es periferia. Región 2 es centro.
+
+"Las dos flechas rojas en el gráfico muestran exactamente eso: desde el 50-50 inestable, un shock empuja hacia A o hacia B. Cuál de los dos resultados sale, no lo decide el modelo: lo decide la historia, la política, el azar."
+
+CLAVE PARA SUBRAYAR:
+"Las dos regiones son IDÉNTICAS al principio. El modelo no asume que una sea mejor que la otra. La diferencia entre centro y periferia EMERGE del proceso, no estaba en los datos iniciales. Y una vez que emerge, se autosostiene por causación acumulativa: el centro atrae más proveedores, más trabajadores, más mercado — y eso refuerza la posición."
+
+EJEMPLOS PARA CONECTAR:
+- ¿Por qué Silicon Valley está en California y no en Iowa? Por accidente inicial (Stanford + DARPA) que se autosostuvo.
+- ¿Por qué Shenzhen y no otra ciudad china? Por decisión política de Deng Xiaoping (ZEE 1980) que disparó el círculo virtuoso.
+- ¿Por qué Córdoba es polo automotriz argentino? Porque Frondizi instaló IKA ahí en 1955, y los proveedores se quedaron.
+
+IMPLICACIÓN PARADÓJICA — LA FRASE QUE LES TIENE QUE QUEDAR:
+"La globalización baja los costos de transporte. Uno pensaría que eso DISPERSA la producción (si transportar es barato, ¿para qué concentrarse?). Pero el modelo dice lo OPUESTO: al bajar τ se cruza el punto de bifurcación, y la concentración AUMENTA. En los próximos slides vamos a ver 5 casos empíricos (UE, EEUU, China, México, mundo espinoso) que confirman exactamente eso: las regiones se concentraron MÁS, no menos, con la apertura comercial."
 
 PREGUNTA PARA ESTUDIANTES: "Si la globalización baja los costos de transporte, ¿por qué no se dispersa más la producción? ¿Cuál de las fuerzas del slide anterior explica que pase lo contrario?"
+(Respuesta sugerida: las fuerzas centrípetas — encadenamientos hacia atrás y adelante, mercado, escala — dominan cuando τ es bajo. Al revés de lo que sugiere la intuición, abrir refuerza al que ya tenía masa crítica.)
+
+CONEXIÓN CON ARGENTINA:
+"Esto es central para entender por qué el AMBA concentra ~37% del PIB y por qué políticas tipo 'descentralización industrial' fracasaron repetidamente. Las fuerzas centrípetas no son una elección de política, son una consecuencia de los rendimientos crecientes. Cambiarlas requiere shocks deliberados y sostenidos en el tiempo."
 
 ---
 
@@ -1158,45 +1180,338 @@ PREGUNTA PARA ESTUDIANTES: "¿Conocen algún caso donde una ciudad o región hay
 
 ---
 
-#### Slide 37: NGE y Argentina: la concentración territorial
-**Tipo**: texto
-**Título**: Argentina: un caso extremo de concentración económica
+#### Slide 37: Caso 1 — Europa: la Banana Azul
+**Tipo**: grafico_texto
+**Título**: Europa: la "Banana Azul"
+**Subtítulo**: Corredor Londres → Benelux → Rin → Suiza → norte de Italia
+
+**Imagen**: img/banana_azul_europa.png
 
 **Contenido**:
-- **AMBA** (Buenos Aires + conurbano): ~37% del PIB nacional con ~35% de la población
-- Concentra: servicios avanzados, finanzas, logística, consumo, sede de empresas, universidades
-- **Pampa húmeda** (Buenos Aires, Santa Fe, Córdoba): agroindustria, puertos (Rosario-San Lorenzo), soja/maíz/trigo
-- **Córdoba**: polo automotriz/metalmecánico desde los años 50 (path dependence: IKA → Renault/Fiat/VW)
-- **Interior profundo**: densidad industrial muy baja, economías primarias, menor acceso a mercados
-- La **ISI** (1930-1976) reforzó la concentración: las industrias se instalaron cerca del puerto, el mercado y la infraestructura
-- Debate actual: ¿se puede revertir la concentración? Infraestructura, conectividad, ZFI, descentralización fiscal — pero las fuerzas centrípetas son muy potentes
+- Concentra **industria avanzada, servicios financieros, sedes corporativas e innovación**
+- El resto de Europa produce, pero la **densidad económica** es radicalmente distinta
+- Resultado de siglos de **path dependence**: rutas comerciales medievales → Revolución Industrial → mercado único europeo
+- Las fuerzas centrípetas (proveedores, mercado, talento, capital) se refuerzan generación tras generación
+- Con la integración europea (1957 →), bajaron los costos de transacción → la concentración se profundizó (paradoja Krugman 1991)
+
+**Fuente**: Natural Earth (1:50m). Elaboración propia.
 
 **Notas docente**:
-NGE Y ARGENTINA (10 minutos)
-"Argentina es un caso extremo de concentración territorial, y la NGE ayuda a entenderlo."
+EUROPA — LA BANANA AZUL (8 minutos)
+"Los geógrafos económicos hablan de la 'banana azul': un corredor que va de Londres, baja por Benelux, sigue por el Rin (Alemania occidental), cruza Suiza y termina en el norte de Italia (Milán, Turín)."
 
-AMBA:
-"Buenos Aires y el conurbano concentran más de un tercio del PIB. No es solo tamaño poblacional: es densidad económica. Los servicios financieros, las sedes corporativas, la logística, las universidades de investigación, los servicios profesionales — todo se concentra ahí. Y eso se retroalimenta: las empresas se instalan donde están los clientes, los proveedores y el talento. Y el talento va donde están las empresas."
+QUÉ CONCENTRA EL CORREDOR:
+"Concentra la mayor parte de la industria avanzada, los servicios financieros, las sedes corporativas y la innovación de toda Europa. La City de Londres, la región del Ruhr, el cluster químico-farmacéutico de Basilea, el distrito industrial del norte de Italia."
 
-CAUSAS HISTÓRICAS:
-"La concentración no es nueva. Viene del modelo agroexportador (puerto de Buenos Aires), se reforzó con la ISI (las industrias se instalaron cerca del puerto y del mercado de consumo más grande), y se mantiene porque las fuerzas centrípetas son muy potentes."
+NO ES QUE EL RESTO NO PRODUZCA:
+"España, Polonia, Hungría producen mucho — automotriz, electrodomésticos, agroindustria. Pero la **densidad económica** del corredor es radicalmente distinta: PIB per cápita, productividad, salarios, I+D por habitante."
 
-CÓRDOBA — UN CASO DE PATH DEPENDENCE:
-"El polo automotriz de Córdoba es un ejemplo perfecto de path dependence. En 1955, el gobierno instaló IKA (Industrias Kaiser Argentina) en Córdoba. Esa decisión inicial atrajo proveedores de autopartes, formó mano de obra especializada, creó escuelas técnicas. Cuando IKA cerró, la infraestructura y el know-how ya estaban: vinieron Renault, Fiat, VW. Hoy Córdoba es el segundo polo automotriz de Argentina. ¿Hubiera pasado si Kaiser se hubiera instalado en Tucumán? Probablemente no."
+POR QUÉ — PATH DEPENDENCE:
+"Esto no es de hoy. Las rutas comerciales medievales (la Hansa, las ferias de Champagne, el comercio del Rin) ya conectaban estas ciudades. La Revolución Industrial arrancó en Inglaterra y se difundió por el corredor. Cada generación reforzó la siguiente."
 
-EL INTERIOR:
-"Las provincias del norte tienen densidad industrial muy baja. No es solo falta de recursos: es falta de masa crítica. Sin mercado grande, sin proveedores especializados, sin pool de trabajadores, las fuerzas centrípetas no arrancan. Es el lado oscuro de la NGE: la periferia puede quedar 'atrapada' en baja densidad."
+PARADOJA KRUGMAN:
+"Acá está la paradoja: la integración europea bajó los costos de transacción (aranceles, fronteras, moneda común). Uno pensaría que eso dispersaría la producción. Pero pasó lo contrario: bajó τ, las fuerzas centrípetas dominaron, y el corredor se consolidó. El sur de Italia y el este de Alemania no se 'industrializaron desde cero' como se esperaba."
+
+PREGUNTA PARA ESTUDIANTES: "¿Qué consecuencias tiene esto para las regiones europeas que quedaron afuera del corredor? ¿Qué políticas habría que pensar?"
+(Respuesta sugerida: fondos de cohesión europeos, infraestructura, capacidades. Pero el resultado real ha sido mixto.)
+
+---
+
+#### Slide 38: Caso 2 — EEUU: del Rust Belt al Sun Belt
+**Tipo**: grafico_texto
+**Título**: EEUU: del Manufacturing Belt al Sun Belt
+**Subtítulo**: La concentración no desaparece — migra
+
+**Imagen**: img/manufacturing_belt_eeuu.png
+
+**Contenido**:
+- **Manufacturing belt clásico** (1900-1970): Grandes Lagos — Detroit, Chicago, Pittsburgh, Cleveland — siderurgia, automotriz, maquinaria
+- **Rust belt** (1970 en adelante): declive industrial, despoblamiento, "ciudades fantasma" — competencia japonesa, deslocalización, automatización
+- **Sun belt** (desde los 70): sur y suroeste — energía (Texas), tecnología (Silicon Valley), aeroespacial, finanzas, agro
+- La concentración **migró** pero no desapareció: nuevos polos absorbieron la actividad económica
+- Silicon Valley: DARPA + Stanford (1950s) → capital de riesgo → talento → autosustentado (path dependence en estado puro)
+
+**Fuente**: Natural Earth (1:10m admin-1). Elaboración propia.
+
+**Notas docente**:
+EEUU — DEL RUST BELT AL SUN BELT (8 minutos)
+"EEUU tiene el caso más documentado de path dependence en la historia económica."
+
+EL MANUFACTURING BELT (1900-1970):
+"Pittsburgh era acero, Detroit era autos, Chicago era todo (carne, granos, manufactura). Estas ciudades crecieron con la segunda revolución industrial. Tenían carbón, hierro, los Grandes Lagos para transporte, mano de obra inmigrante. Concentraban casi toda la manufactura del país."
+
+EL DECLIVE — RUST BELT (1970 →):
+"En los 70 vino el shock: competencia japonesa (autos), shock del petróleo, automatización, cambio tecnológico. Las ciudades industriales se vaciaron: Detroit perdió la mitad de su población. Pittsburgh reconvirtió hacia salud y educación. Otras nunca se recuperaron."
+
+EL ASCENSO DEL SUN BELT:
+"Mientras el norte declinaba, el sur y el suroeste crecían. Texas con energía y servicios, California con tecnología, Florida con turismo y finanzas, Atlanta como hub logístico del sureste. La concentración no desapareció, migró."
+
+SILICON VALLEY — PATH DEPENDENCE PURO:
+"Silicon Valley es el caso de manual. Empezó con investigación militar en Stanford y la base de Moffett Field (DARPA financió los primeros chips). Fairchild Semiconductor y luego Intel se instalaron ahí. Eso atrajo a más empresas, capital de riesgo, talento de las universidades. Hoy es imposible 'mover' Silicon Valley a otro lugar — la red de proveedores, abogados especializados en IPOs, headhunters, ingenieros, financistas, está toda ahí."
+
+LA LECCIÓN:
+"La política industrial de EEUU NO eligió ganadores explícitamente. Pero hubo política — DARPA, NASA, NIH, el sistema universitario público — que sin querer 'encendió' polos. Path dependence hizo el resto."
+
+PREGUNTA PARA ESTUDIANTES: "¿Conocen casos en Argentina donde una decisión inicial 'encendió' un polo industrial?"
+(Respuesta sugerida: IKA en Córdoba 1955, polo electrónico en Tierra del Fuego, Vaca Muerta — algunos tomaron, otros no.)
+
+---
+
+#### Slide 39: Caso 3 — China: la franja costera
+**Tipo**: grafico_texto
+**Título**: China: ~60% del PIB industrial en ~15% del territorio
+**Subtítulo**: Delta del Río Perla y delta del Yangtze como motores
+
+**Imagen**: img/china_gdp_coastal.png
+
+**Contenido**:
+- **Provincias costeras** (Liaoning a Hainan): concentran la industria exportadora del país
+- Dos megapolos: **Delta del Río Perla** (Shenzhen, Guangzhou) y **Delta del Yangtze** (Shanghai)
+- **Shenzhen**: pueblo pesquero en 1980 → metrópoli de 17 millones en 2020
+- Catalizador: **Zonas Económicas Especiales** (Deng Xiaoping, 1980) → IED → proveedores → más IED
+- Brecha persistente: PIB per cápita ~4-5× mayor en provincias costeras que en las occidentales
+- Es el caso **más reciente y más espectacular** de causación acumulativa en la historia económica
+
+**Fuente**: Natural Earth (1:10m admin-1). Elaboración propia.
+
+**Notas docente**:
+CHINA — LA FRANJA COSTERA (8 minutos)
+"El caso más espectacular de concentración reciente en la historia económica mundial."
+
+LOS NÚMEROS:
+"China tiene el ~60% de su PIB industrial en la franja costera, que es solo el ~15% del territorio. La brecha de PIB per cápita entre las provincias costeras y las occidentales es de 4 a 5 veces."
+
+LAS DOS MEGAPOLES:
+"Hay dos polos principales: el delta del Río Perla en el sur (Guangdong) — Shenzhen, Guangzhou, Dongguan — y el delta del Yangtze en el centro-este — Shanghai, Suzhou, Hangzhou. Más Beijing-Tianjin en el norte como tercer polo."
+
+SHENZHEN — DE PUEBLO A METRÓPOLI EN 30 AÑOS:
+"En 1980 era un pueblo pesquero al lado de Hong Kong con 30 mil habitantes. Hoy tiene 17 millones de habitantes y es la 'fábrica del mundo' en electrónica. Esto NO es producto de fuerzas espontáneas: fue una decisión política."
+
+DENG XIAOPING Y LAS ZEE:
+"En 1980 Deng Xiaoping creó las Zonas Económicas Especiales (ZEE): áreas con régimen tributario y regulatorio especial para atraer IED. Shenzhen, Zhuhai, Xiamen, Shantou. Después se ampliaron a más ciudades costeras. Esto fue el shock inicial: bajó las barreras a la inversión extranjera SOLO en esas ciudades."
+
+EL EFECTO BOLA DE NIEVE:
+"Las primeras inversiones (Hong Kong, Taiwán, Japón) llegaron por ventaja arancelaria. Pero después aparecieron proveedores especializados. Después capital humano (universidades técnicas, formación profesional). Después capital de riesgo. Hoy Shenzhen tiene Huawei, Tencent, BYD — empresas globales nacidas ahí."
+
+LA OTRA CARA — EL INTERIOR:
+"Las provincias del oeste (Xinjiang, Tíbet, Gansu, Yunnan) quedaron atrás. China lanzó el programa 'Western Development' en 2000, gastó cientos de miles de millones en infraestructura, pero las fuerzas centrípetas son tan poderosas que la brecha sigue."
+
+LA LECCIÓN PARA ARGENTINA:
+"China muestra que la concentración SE PUEDE encender con política deliberada — pero también muestra que una vez encendida, las fuerzas se autosostienen, y revertir es muy difícil. Argentina tuvo experiencias parciales (Tierra del Fuego, polos automotrices) pero sin la intensidad ni la duración del caso chino."
+
+PREGUNTA PARA ESTUDIANTES: "Si un gobierno argentino quisiera 'encender' un polo industrial en una provincia rezagada, ¿qué tendría que hacer? ¿Qué condiciones se necesitan?"
+
+---
+
+#### Slide 40: Caso 4 — México: la frontera norte
+**Tipo**: grafico_texto
+**Título**: México: la frontera norte como polo industrial
+**Subtítulo**: Maquiladoras (1965) → NAFTA (1994) → T-MEC (2020)
+
+**Imagen**: img/mexico_frontera_norte.png
+
+**Contenido**:
+- Seis estados fronterizos concentran el cluster: **Baja California, Sonora, Chihuahua, Coahuila, Nuevo León, Tamaulipas**
+- Polos: Tijuana, Mexicali, Cd. Juárez, Monterrey, Reynosa, Matamoros — autopartes, electrónica, electrodomésticos
+- Tres olas de path dependence: **BIP 1965 → maquilas iniciales → NAFTA 1994 → boom IED → T-MEC 2020 + nearshoring post-COVID**
+- Brecha sur-norte: PIB per cápita **2-3 veces mayor** en estados fronterizos
+- Caso paradigmático para Argentina: integración asimétrica con un vecino más grande (paralelo Mercosur)
+
+**Fuente**: Natural Earth (1:10m admin-1). Elaboración propia.
+
+**Notas docente**:
+MÉXICO — LA FRONTERA NORTE (8 minutos)
+"México es uno de los casos más limpios de NGE en América Latina, y es el más conectado con la situación argentina porque también es un país de tamaño medio que se integró asimétricamente con un vecino mucho más grande (EEUU)."
+
+LA FRANJA MAQUILADORA:
+"La industria mexicana moderna está mayormente concentrada en seis estados fronterizos con EEUU. Esto NO ocurrió por casualidad — fue el resultado de bajar τ (costo de transporte/transacción) entre México y EEUU."
+
+LAS TRES OLAS (path dependence en cámara lenta):
+
+1. PRIMERA OLA — BIP 1965:
+"En 1965 México lanzó el Programa de Industrialización Fronteriza para absorber el desempleo del fin del programa Bracero. Permitía a empresas extranjeras instalar fábricas (maquiladoras) en una franja de 20 km desde la frontera, importar insumos sin aranceles, ensamblarlos y reexportar el producto terminado a EEUU. Las primeras se instalaron en Tijuana y Cd. Juárez."
+
+2. SEGUNDA OLA — NAFTA 1994:
+"NAFTA fue el shock que multiplicó la concentración. Eliminó aranceles, dio reglas estables a 30 años, y disparó una avalancha de IED estadounidense, japonesa y europea. La industria automotriz se reorganizó: motores en Detroit, ensamble en Saltillo y Hermosillo, autopartes en toda la franja. Cd. Juárez pasó de 400 mil habitantes en 1990 a 1,5 millones en 2010."
+
+3. TERCERA OLA — T-MEC + NEARSHORING (2020 →):
+"COVID y la guerra comercial EEUU-China impulsaron el nearshoring: trasladar producción desde Asia a México. Monterrey y Saltillo recibieron oleadas de inversión asiática. Tesla anunció una megafábrica en Monterrey en 2023."
+
+LA BRECHA SUR-NORTE:
+"El sur de México (Chiapas, Oaxaca, Guerrero) quedó atrás. Las fuerzas centrípetas se activaron en el norte y el sur quedó fuera del circuito. PIB per cápita en Nuevo León: ~25 mil USD. En Chiapas: ~6 mil USD. La brecha es 4×."
+
+POR QUÉ IMPORTA PARA ARGENTINA:
+"Argentina-Brasil dentro del Mercosur tiene paralelos con México-EEUU dentro del NAFTA: país medio integrado con vecino más grande, especialización por proximidad, polos automotrices, brecha territorial dentro del país. Pero también diferencias importantes: NAFTA fue mucho más asimétrico (EEUU es 15× Argentina-Brasil), México NO compite con EEUU en industria sino que se complementa, y la frontera mexicana tuvo coordinación de política pública sostenida durante décadas."
+
+PREGUNTA PARA ESTUDIANTES: "¿Por qué creen que las maquiladoras se concentraron en la frontera y no se difundieron al resto del país? ¿Qué pasaría si se intentara replicar el modelo en el sur de México?"
+(Respuesta sugerida: τ no era simétrico — la frontera tenía costo de transporte casi nulo a EEUU. El sur, aunque tuviera mano de obra barata, estaba lejos del mercado. Sin proximidad, las fuerzas centrípetas no se activan.)
+
+---
+
+#### Slide 41: Caso 5 — El mundo "espinoso" (Florida, 2005)
+**Tipo**: grafico_texto
+**Título**: El mundo "espinoso": donde se concentra la innovación global
+**Subtítulo**: La globalización no aplanó el mundo — lo hizo más concentrado
+
+**Imagen**: img/mundo_espinoso.png
+
+**Contenido**:
+- Richard Florida (2005, *The World is Spiky*) responde a Friedman (*The World is Flat*): la globalización **NO aplanó el mundo**
+- La innovación, las patentes, la I+D y la producción avanzada se concentran en **~20-30 mega-aglomeraciones urbanas globales**
+- Top 5 mega-clusters: **Bay Area, NY-Boston, Londres, Tokyo, Shanghai**
+- Asia emerge fuerte: Shenzhen, Seúl, Singapur, Bangalore — desplaza el centro de gravedad innovador desde el Atlántico Norte al Pacífico
+- El "valle" entre los picos es ancho: **el resto del planeta exporta mayoritariamente bienes de menor complejidad o recursos naturales**
+- Confirma la paradoja de Krugman a escala global: **bajar τ concentra, no dispersa**
+
+**Fuente**: Natural Earth (1:50m). Clasificación estilizada basada en Florida (2005), Global Innovation Index, Z/Yen GFCI, Startup Genome.
+
+**Notas docente**:
+EL MUNDO ESPINOSO (8 minutos)
+"Cierro el bloque de evidencia con un caso global, no nacional. Es la síntesis empírica más fuerte de la NGE."
+
+EL DEBATE FLORIDA vs FRIEDMAN:
+"En 2005, Thomas Friedman publicó 'The World is Flat' — un best-seller que decía que internet, los contenedores, la digitalización habían aplanado el mundo: ahora cualquier empresa, en cualquier lugar, podía competir globalmente. Bangalore = Boston, en su frase."
+
+"Richard Florida respondió ese mismo año con 'The World is Spiky' (el mundo es espinoso). Mostró que sí, los costos de comunicación y transporte cayeron — pero la actividad económica avanzada se concentró MÁS, no menos. La innovación, las patentes, la inversión de capital de riesgo, las publicaciones científicas, las sedes corporativas — todo se aglomera en unas pocas decenas de ciudades."
+
+LA EVIDENCIA — LO QUE MUESTRA EL MAPA:
+"Si miran el mapa, ven una constelación: 5 mega-clusters (Bay Area, NY-Boston, Londres, Tokyo, Shanghai), unos 8-10 clusters principales y unos 7-10 emergentes. Eso es prácticamente toda la innovación del planeta. Lo que NO está marcado — toda África subsahariana, casi toda América Latina, casi toda Asia central, gran parte de Europa del Este — es 'valle'."
+
+LOS NÚMEROS CONCRETOS:
+- Bay Area (Silicon Valley + SF): ~50% de los unicornios tecnológicos mundiales
+- 10 ciudades concentran el ~60% de la inversión global de venture capital
+- 20 ciudades concentran el ~80% de las patentes registradas en sectores de frontera
+
+EL DESPLAZAMIENTO ASIA:
+"Hace 20 años, el mapa hubiera tenido a Tokyo y poco más en Asia. Hoy: Shenzhen, Seúl, Singapur, Bangalore, Beijing — Asia emergió como el segundo polo innovador, desplazando el centro de gravedad. Eso es nuevo y va a redefinir la geopolítica del siglo XXI."
+
+LA PARADOJA — REFORZADA:
+"Esto es la paradoja de Krugman a escala global. Cuanto más cae τ (transporte y comunicaciones), más se concentra la actividad de mayor valor agregado. Internet no descentralizó la innovación — la concentró. ¿Por qué? Porque las fuerzas centrípetas (proveedores, capital humano, capital de riesgo, redes de conocimiento tácito) son más poderosas que el ahorro de costos de movimiento."
+
+CONEXIÓN CON CLÁSICOS Y NEOCLÁSICOS:
+"Esto es importante: ¿qué hacen Smith, Ricardo o Heckscher-Ohlin con este mapa? Muy poco. Ricardo te explica por qué Argentina exporta soja y Suiza exporta relojes (ventaja comparativa). H-O te explica por qué Bangladesh hace textiles (mucho trabajo, poco capital) y Alemania maquinaria (mucho capital, mucho conocimiento). Pero NINGUNA de las dos te explica por qué la innovación de IA está en Bay Area y NO en otra ciudad. Para eso hace falta Krugman. La NGE es la teoría que pinta este mapa."
+
+POR QUÉ IMPORTA PARA AMÉRICA LATINA:
+"Mirar el mapa con ojos latinoamericanos es duro: solo 1 ciudad (San Pablo, en tier 3) figura como cluster de innovación en toda la región. Buenos Aires, Santiago, Bogotá no aparecen. Eso plantea una pregunta política central: ¿es posible 'encender' un cluster innovador en la región? ¿Qué condiciones se necesitan?"
+
+PREGUNTA PARA ESTUDIANTES: "Si quisieran 'encender' un cluster de innovación en Buenos Aires (o cualquier ciudad latinoamericana), ¿qué condiciones harían falta? ¿Por qué no ha pasado?"
+(Pistas: capital de riesgo, universidades de investigación de primer nivel, masa crítica de talento, estabilidad institucional de 20+ años, mercado regional grande, conexión con cluster mundial. Casos parciales: Tel Aviv lo logró con políticas activas + diáspora; Bangalore con outsourcing + universidades; Shenzhen con ZEE + IED. Argentina tuvo intentos parciales — software, biotecnología — pero faltó masa crítica y estabilidad.)
+
+CIERRE DEL BLOQUE:
+"Acabamos de ver 5 casos: la Banana Azul europea, el Manufacturing Belt-Sun Belt estadounidense, la franja costera china, la frontera norte mexicana, el mundo espinoso global. Todos confirman lo mismo: la concentración territorial NO es excepción, es la regla. Y solo se entiende con la teoría de Krugman, no con Smith, Ricardo o H-O. Ahora vamos al caso que más nos interesa: Argentina."
+
+---
+
+#### Slide 42: Caso 6 — Argentina: concentración territorial
+**Tipo**: grafico_texto
+**Título**: Argentina: un caso extremo de concentración económica
+**Subtítulo**: AMBA + 7 polos sectoriales especializados
+
+**Imagen**: img/argentina_concentracion.png
+
+**Contenido**:
+- **AMBA** (CABA + conurbano): ~**37% del PIB** con ~35% de la población — concentra servicios, finanzas, sedes corporativas, universidades
+- **Pampa Húmeda** (BA, SF, Córdoba, La Pampa): agroindustria, puertos Rosario-San Lorenzo (~70% de embarques de granos del país)
+- **Polos sectoriales especializados**: Córdoba (auto), Mendoza (vino), Bahía Blanca (petroquímico), Neuquén-Vaca Muerta (hidrocarburos), Ushuaia/TdF (electrónica subsidiada)
+- **Patagonia**: alto PBG per cápita por hidrocarburos y minería, pero baja densidad poblacional
+- **NOA y NEA**: el "interior profundo" — baja densidad industrial, economías primarias, menor acceso a mercados
+- Solo **3 jurisdicciones** (CABA, BA, Córdoba) generan **~60% del PIB** de Argentina
+
+**Fuente**: Natural Earth (1:10m admin-1) + INDEC (PBG provincial 2022, estilizado). Elaboración propia.
+
+**Notas docente**:
+ARGENTINA — VISTA GEOGRÁFICA (8 minutos)
+"Acá tenemos a Argentina con la lente de la NGE. Lo primero que salta a la vista: el país está partido por la mitad. Buenos Aires (provincia + ciudad) más Santa Fe y Córdoba — la Pampa Húmeda — concentra la actividad económica. El NOA y el NEA quedan en el extremo bajo. La Patagonia tiene PBG per cápita alto pero solo por hidrocarburos en pocas localidades."
+
+AMBA — EL POLO DOMINANTE:
+"AMBA es la mancha más densa. Concentra ~37% del PIB con ~35% de la población. La frase clave: NO es solo tamaño poblacional, es densidad económica. Los servicios financieros, las sedes corporativas, la logística, las universidades de investigación, los servicios profesionales — todo se aglomera ahí. Y se retroalimenta: las empresas se instalan donde están los clientes, los proveedores y el talento. Y el talento va donde están las empresas."
+
+LOS 7 POLOS QUE MARQUÉ EN EL MAPA:
+"Cada punto del mapa es un cluster sectorial con su propia historia de path dependence:"
+
+1. CABA (servicios/finanzas): el cluster financiero del país, sedes corporativas, software/SBC.
+2. Rosario-San Lorenzo (agroexportador): la franja portuaria que concentra ~70% de los embarques de granos. Sin esa infraestructura, no hay complejo sojero.
+3. Córdoba (automotriz): IKA 1955 → Renault → Fiat → VW. Path dependence puro.
+4. Mendoza (vitivinicultura): siglos de tradición vitivinícola + irrigación + clima. Nodo del Cuyo.
+5. Bahía Blanca (petroquímico): Polo petroquímico de PBB Polisur, históricamente conectado al gas neuquino.
+6. Neuquén-Vaca Muerta (hidrocarburos): el shock más reciente — segundo yacimiento de shale del mundo, en plena fase de aglomeración.
+7. Ushuaia/Tierra del Fuego (electrónica): cluster de ensamble con régimen de promoción industrial (Ley 19.640, 1972) — un polo "encendido" por política, no por geografía.
+
+EL INTERIOR PROFUNDO:
+"Las provincias del NOA (Salta, Jujuy, Tucumán, Catamarca, Stgo del Estero, La Rioja) y NEA (Chaco, Corrientes, Formosa, Misiones) tienen densidad industrial muy baja. No es solo falta de recursos: es falta de **masa crítica**. Sin mercado grande, sin proveedores especializados, sin pool de trabajadores, las fuerzas centrípetas no arrancan. Es el lado oscuro de la NGE: la periferia puede quedar 'atrapada' en baja densidad."
+
+EL DATO QUE QUE TIENE QUE QUEDAR:
+"Solo 3 jurisdicciones — CABA, Buenos Aires y Córdoba — generan el ~60% del PIB de Argentina. Las 21 provincias restantes se reparten el otro 40%. Eso es concentración extrema."
+
+PREGUNTA PARA ESTUDIANTES: "Si miran el mapa, ¿en cuál de los 7 polos imaginan que las fuerzas centrípetas son más fuertes? ¿Cuál podría desaparecer si cambia el régimen?"
+(Pista: el cluster de TdF depende de un régimen tributario excepcional. Si se elimina, las fuerzas centrífugas — distancia, costos logísticos — se imponen rápidamente. Vaca Muerta depende del precio del gas y de la infraestructura nueva. CABA, Rosario, Córdoba están "encendidos" hace décadas y son mucho más resilientes.)
+
+TRANSICIÓN AL SLIDE SIGUIENTE:
+"Esta foto del mapa es el resultado de 145 años de historia. Vamos a verla en cámara rápida."
+
+---
+
+#### Slide 43: Argentina — la concentración en perspectiva histórica
+**Tipo**: grafico_texto
+**Título**: 145 años de concentración territorial: 4 regímenes, una constante
+**Subtítulo**: La path dependence en cámara rápida
+
+**Imagen**: graficos/timeline_concentracion_argentina.png
+
+**Contenido**:
+- **1880-1930 — Modelo agroexportador**: BA puerto = nodo único, ferrocarril en abanico, frigoríficos en Rosario → AMBA emerge como centro absoluto
+- **1930-1976 — ISI**: cordón industrial GBA (textil, metalmecánica), IKA Córdoba 1955, YPF crea enclaves petroleros → AMBA refuerza, Córdoba emerge
+- **1976-2002 — Apertura**: cierran textiles e industria pesada, CABA se "terciariza" hacia servicios/finanzas → AMBA cambia de mix pero no pierde peso
+- **2002-hoy — Soja, servicios, hidrocarburos**: boom granos refuerza Pampa Húmeda, Vaca Muerta enciende Neuquén, software en CABA → multipolar pero **aún más concentrado**
+- **Path dependence en acción**: cada régimen agrega capas a la concentración previa, ningún régimen la revierte
+- Ningún cambio de modelo económico logró descentralizar — confirma la fuerza de los mecanismos NGE
+
+**Fuente**: Elaboración propia.
+
+**Notas docente**:
+LA CONCENTRACIÓN EN CÁMARA RÁPIDA (8 minutos)
+"Acabamos de ver el mapa hoy. Pero esta concentración no se hizo en un día — se construyó capa por capa durante 145 años. Veamos las 4 fases."
+
+FASE 1 — 1880-1930 — MODELO AGROEXPORTADOR:
+"Argentina se conecta al mundo como exportadora de granos y carnes. La estructura productiva se organiza alrededor del puerto de Buenos Aires. Los ferrocarriles británicos se construyen en abanico, todos confluyendo a BA. Rosario emerge como segundo puerto/frigorífico. El interior queda como periferia rural. El AMBA nace ya concentrado — no por industria, sino por servicios portuarios, comerciales y financieros del modelo agroexportador."
+
+"Dato clave: en 1914, BA tenía ~20% de la población argentina. Hoy AMBA tiene ~35%. La concentración EMPEZÓ acá."
+
+FASE 2 — 1930-1976 — ISI:
+"La crisis del 30 cierra los mercados externos. Argentina se vuelca al mercado interno. Las industrias necesitan estar cerca del mercado más grande (AMBA) → se forma el cordón industrial del Gran Buenos Aires: textiles, metalmecánica, electrodomésticos."
+
+"En paralelo, política activa: Frondizi instala IKA en Córdoba en 1955 → ese shock 'enciende' el polo automotriz. YPF crea enclaves petroleros en Comodoro Rivadavia (Chubut), Plaza Huincul (Neuquén). Estos son los embriones de los polos sectoriales actuales."
+
+"AMBA se RE-concentra (ya tenía servicios, ahora suma industria). Aparecen 2-3 polos secundarios. La concentración se profundiza."
+
+FASE 3 — 1976-2002 — APERTURA Y DESINDUSTRIALIZACIÓN:
+"Apertura comercial, valorización financiera, convertibilidad. Las industrias del cordón GBA cierran masivamente. El interior industrial (Tucumán azucarero, Chaco textil) sufre todavía más. CABA se 'terciariza': pierde fábricas, gana bancos, oficinas, servicios profesionales."
+
+"Paradójicamente: AMBA NO pierde peso. Cambia de mix (industria → servicios) pero mantiene concentración. ¿Por qué? Porque las fuerzas centrípetas no son sectoriales, son territoriales. Los servicios financieros y avanzados se aglomeran exactamente con la misma lógica que las fábricas."
+
+FASE 4 — 2002-HOY — POSCONVERTIBILIDAD Y MULTIPOLARIDAD APARENTE:
+"El boom de la soja refuerza la Pampa Húmeda — especialmente el corredor Rosario-San Lorenzo. Vaca Muerta enciende Neuquén-Río Negro. La industria del software crece en CABA. La electrónica de TdF se expande con la Ley 19.640."
+
+"Pareciera multipolar — y en cierto modo lo es. Pero si miran los números, la concentración del PIB en CABA + BA + Córdoba aumentó, no bajó. Cada nuevo polo se sumó a los viejos sin reemplazarlos. Eso es path dependence en acción."
+
+EL MENSAJE QUE TIENE QUE QUEDAR:
+"Cuatro regímenes económicos completamente distintos — agroexportador, ISI, apertura, posconvertibilidad. Distintas ideologías, distintas políticas, distintos socios comerciales. Y sin embargo, una constante: Buenos Aires en el centro. La política económica cambia, la geografía no."
+
+"Esto NO es un destino — es una consecuencia de las fuerzas centrípetas (escala, mercado, proveedores, talento). Para revertirla habría que aplicar shocks deliberados y sostenidos durante décadas, como hizo China con las ZEE o México con el BIP. Argentina nunca lo intentó con esa intensidad."
 
 DEBATE PARA EL AULA:
-"¿Se puede revertir la concentración? Algunos dicen que con infraestructura (rutas, trenes, conectividad digital) se pueden reducir los costos de transporte y hacer viable la producción en el interior. Otros dicen que las fuerzas de aglomeración son tan potentes que solo se puede complementar, no revertir. ¿Qué piensan?"
+"¿Se puede revertir la concentración? Algunos dicen que con infraestructura (rutas, trenes, conectividad digital, polos científico-tecnológicos como Bariloche) se pueden reducir los costos de transporte y hacer viable la producción en el interior. Otros dicen que las fuerzas de aglomeración son tan potentes que solo se puede complementar, no revertir. ¿Qué piensan?"
 
-DATO: "Vaca Muerta es un caso interesante: un shock de recursos naturales que podría 'encender' un polo en la Patagonia. Pero ¿generará encadenamientos industriales o solo extracción?"
+DATO PARA ANCLAR LA DISCUSIÓN: "Vaca Muerta es la prueba en vivo. Si en 20 años Neuquén-Río Negro se convierten en un polo industrial completo (con encadenamientos de proveedores, capital humano, servicios), habrá funcionado como caso de NGE positivo. Si solo extrae hidrocarburos sin generar encadenamientos, será otro caso de 'enclave' como Comodoro en los 60s."
+
+CONEXIÓN CON LA TEORÍA DE KRUGMAN:
+"Vuelvo al inicio: ¿por qué necesitamos a Krugman para entender esto? Smith, Ricardo y H-O dicen que Argentina exporta soja porque tiene ventaja comparativa en agro. Eso es cierto, PERO no explica por qué el agro se concentra en la Pampa Húmeda y por qué los servicios y la industria se concentran en AMBA. Para esa parte hace falta NGE: rendimientos crecientes + costos de transporte + path dependence. Esa es la combinación que pinta el mapa argentino."
 
 ---
 
 ### Sección: Cierre
 
-#### Slide 38: Resumen de la clase
+#### Slide 44: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que nos llevamos hoy
 
@@ -1219,7 +1534,7 @@ Repasar rápido los puntos del slide. Esta fue una clase densa — es importante
 
 ---
 
-#### Slide 39: Material complementario
+#### Slide 45: Material complementario
 **Tipo**: texto
 **Título**: Para profundizar
 
@@ -1242,7 +1557,7 @@ Mencionar brevemente cada recurso:
 
 ---
 
-#### Slide 40: Lecturas
+#### Slide 46: Lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 
@@ -1270,7 +1585,7 @@ LECTURAS (3 minutos)
 
 ---
 
-#### Slide 41: Guía de lectura
+#### Slide 47: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 3 (primera parte)
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -1291,7 +1606,7 @@ GUÍA DE LECTURA (2 minutos)
 
 ---
 
-#### Slide 42: Próxima clase
+#### Slide 48: Próxima clase
 **Tipo**: centrado
 **Título**: Próxima clase: Comercio intraindustrial — profundización y dumping
 
@@ -1334,11 +1649,19 @@ PRÓXIMA CLASE (2 minutos)
 | centro_periferia_paso{1-3}.png | Centro-periferia progresivo (3 pasos) | ✓ Existe |
 | centripetas_centrifugas_paso{1,2}.png | Centrípetas/centrífugas progresivo (2 pasos) | ✓ Existe |
 | bifurcacion_nge_paso{1-3}.png | Bifurcación NGE progresivo (3 pasos) | ✓ Existe |
+| timeline_concentracion_argentina.png | Línea de tiempo 1880-2024: 4 fases de la concentración argentina | ✓ Existe |
 
 ### Imágenes
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | krugman.jpg | Retrato de Paul Krugman (Casa Blanca, dominio público) | ✓ Existe |
+| chamberlin.jpg | Retrato de Edward Chamberlin | ✓ Existe |
+| banana_azul_europa.png | Mapa Europa: corredor Londres-Milán resaltado (Natural Earth) | ✓ Existe |
+| manufacturing_belt_eeuu.png | Mapa EEUU: rust belt vs sun belt (Natural Earth) | ✓ Existe |
+| china_gdp_coastal.png | Mapa China: provincias costeras vs interior (Natural Earth) | ✓ Existe |
+| mexico_frontera_norte.png | Mapa México: 6 estados fronterizos (cluster maquilador, Natural Earth) | ✓ Existe |
+| mundo_espinoso.png | Mapamundi (Robinson) con ~20 ciudades-cluster de innovación (Florida 2005) | ✓ Existe |
+| argentina_concentracion.png | Mapa Argentina: PBG p.c. por provincia + 7 polos sectoriales (Natural Earth) | ✓ Existe |
 
 ---
 

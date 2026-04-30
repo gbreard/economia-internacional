@@ -117,8 +117,8 @@ def prog_centripetas_centrifugas():
     ]
 
     for paso in range(1, 3):
-        fig, ax = plt.subplots(figsize=(11, 8))
-        ax.set_xlim(0, 12); ax.set_ylim(-0.8, 9.5); ax.axis('off')
+        fig, ax = plt.subplots(figsize=(11, 8.5))
+        ax.set_xlim(0, 12); ax.set_ylim(-0.8, 10.5); ax.axis('off')
         ax.set_title('Fuerzas centripetas vs centrifugas en la NGE',
                      fontsize=15, fontweight='bold', color=AZUL_OSCURO, pad=15)
 
@@ -143,9 +143,9 @@ def prog_centripetas_centrifugas():
                 arrowprops=dict(arrowstyle='->', color=AZUL_MEDIO, lw=1.8,
                                 connectionstyle='arc3,rad=0.15'))
 
-        ax.text(1.6, 8.6, 'CENTRIPETAS', ha='center', fontsize=13,
+        ax.text(1.6, 9.7, 'CENTRIPETAS', ha='center', fontsize=13,
                 fontweight='bold', color=AZUL_MEDIO)
-        ax.text(1.6, 8.1, '(hacia la concentracion)', ha='center',
+        ax.text(1.6, 9.1, '(hacia la concentracion)', ha='center',
                 fontsize=9, color=AZUL_MEDIO, style='italic')
 
         # Reservar espacio para centrífugas (invisible en paso 1)
@@ -164,9 +164,9 @@ def prog_centripetas_centrifugas():
                                 connectionstyle='arc3,rad=-0.15', alpha=alpha_cf),
                 alpha=alpha_cf)
 
-        ax.text(10.4, 8.6, 'CENTRIFUGAS', ha='center', fontsize=13,
+        ax.text(10.4, 9.7, 'CENTRIFUGAS', ha='center', fontsize=13,
                 fontweight='bold', color=ROJO, alpha=alpha_cf)
-        ax.text(10.4, 8.1, '(hacia la dispersion)', ha='center',
+        ax.text(10.4, 9.1, '(hacia la dispersion)', ha='center',
                 fontsize=9, color=ROJO, style='italic', alpha=alpha_cf)
 
         # Texto inferior — siempre reservar espacio
@@ -209,7 +209,7 @@ def prog_bifurcacion_nge():
         # Paso 1: dispersión
         ax.axvspan(tau_break, 2.5, alpha=0.05, color=AZUL_MEDIO)
         ax.plot(tau[mask_high], np.full(mask_high.sum(), 0.5), color=AZUL_MEDIO,
-                linewidth=3, label='Equilibrio estable')
+                linewidth=3, label='50-50 ESTABLE\n(reparto igualitario)')
         ax.text(1.85, 0.05, 'DISPERSION\n(simetria)', ha='center', fontsize=10,
                 fontweight='bold', color=AZUL_MEDIO, style='italic')
         ax.annotate('50-50\n(reparto igual)', xy=(1.85, 0.52), xytext=(2.0, 0.72),
@@ -219,13 +219,14 @@ def prog_bifurcacion_nge():
         # Paso 2+: bifurcación + equilibrio inestable
         if paso >= 2:
             ax.plot(tau[mask_low], np.full(mask_low.sum(), 0.5), color=GRIS,
-                    linewidth=2, linestyle='--', label='Equilibrio inestable')
+                    linewidth=2, linestyle='--',
+                    label='50-50 INESTABLE\n(un shock lo rompe)')
             ax.plot(tau_break, 0.5, 'o', color=ROJO, markersize=12, zorder=5)
             ax.annotate('Punto de\nbifurcacion', xy=(tau_break, 0.5),
-                        xytext=(tau_break+0.35, 0.65), fontsize=10, fontweight='bold',
+                        xytext=(tau_break+0.35, 0.72), fontsize=10, fontweight='bold',
                         color=ROJO, arrowprops=dict(arrowstyle='->', color=ROJO, lw=1.5))
 
-        # Paso 3+: ramas concentración + anotaciones
+        # Paso 3+: ramas concentración + anotaciones + shocks
         # Always render annotations to reserve space (alpha=0 when hidden)
         a3 = 1.0 if paso >= 3 else 0.0
         if paso >= 3:
@@ -234,13 +235,31 @@ def prog_bifurcacion_nge():
             ax.plot(tau[mask_low], rama_inf[mask_low], color=VERDE, linewidth=3)
             ax.text(0.65, 0.05, 'CONCENTRACION\n(centro-periferia)', ha='center',
                     fontsize=10, fontweight='bold', color=NARANJA, style='italic')
+
+            # Flechas de "shock" desde el 50-50 inestable hacia las dos ramas
+            tau_shock = 0.95
+            idx_shock = np.argmin(np.abs(tau - tau_shock))
+            y_sup = rama_sup[idx_shock]
+            y_inf = rama_inf[idx_shock]
+            # Flecha hacia arriba
+            ax.annotate('', xy=(tau_shock, y_sup - 0.02), xytext=(tau_shock, 0.5),
+                        arrowprops=dict(arrowstyle='->', color=ROJO, lw=2.2))
+            # Flecha hacia abajo
+            ax.annotate('', xy=(tau_shock, y_inf + 0.02), xytext=(tau_shock, 0.5),
+                        arrowprops=dict(arrowstyle='->', color=ROJO, lw=2.2))
+            # Etiqueta shock por arriba, fuera del area de flechas
+            ax.annotate('shock\n(historia, politica, azar)',
+                        xy=(tau_shock, 0.5), xytext=(tau_shock + 0.18, 0.42),
+                        fontsize=9, color=ROJO, fontweight='bold', style='italic',
+                        ha='left', va='center')
+
         # These bbox annotations extend the canvas — render invisible in early pasos
-        ann1 = ax.annotate('Region 1 = centro\n(toda la manufactura)', xy=(0.3, 0.95),
+        ann1 = ax.annotate('Resultado A:\nR1 = centro (100%)', xy=(0.3, 0.95),
             fontsize=9, color=VERDE, fontweight='bold',
             bbox=dict(boxstyle='round,pad=0.2', facecolor='#D4EDDA',
                       edgecolor=VERDE, alpha=0.8 * a3))
         ann1.set_alpha(a3)
-        ann2 = ax.annotate('Region 1 = periferia\n(solo agricultura)', xy=(0.3, 0.08),
+        ann2 = ax.annotate('Resultado B:\nR1 = periferia (0%)', xy=(0.3, 0.08),
             fontsize=9, color=VERDE, fontweight='bold',
             bbox=dict(boxstyle='round,pad=0.2', facecolor='#D4EDDA',
                       edgecolor=VERDE, alpha=0.8 * a3))
@@ -253,7 +272,8 @@ def prog_bifurcacion_nge():
             ha='center', fontsize=10, color=ROJO, fontweight='bold', style='italic',
             alpha=footer_alpha)
 
-        ax.legend(loc='center right', fontsize=9, framealpha=0.9)
+        ax.legend(loc='upper left', fontsize=9, framealpha=0.95,
+                  bbox_to_anchor=(0.02, 0.99))
         fig.savefig(OUT / f'bifurcacion_nge_paso{paso}.png', dpi=150,
                     bbox_inches='tight', facecolor='white')
         plt.close()

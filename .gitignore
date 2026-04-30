@@ -29,6 +29,9 @@ nul
 # Material del docente (solucionarios, no publicar)
 docente/
 
+# Natural Earth: shapefiles unzipped se trackean, los .zip originales no
+datos_compartidos/naturalearth/*.zip
+
 # Entregas de alumnos y datos personales (no publicar)
 notebooks/Entrega*/
 evaluacion/entregas/
