@@ -605,7 +605,52 @@ REFERENCIA: "El indicador fue propuesto por Grubel y Lloyd en 1975 y sigue siend
 
 ---
 
-#### Slide 20: La intuición del GL: simetría entre X y M
+#### Slide 20: ¿Cómo se calcula el GL en la práctica?
+**Tipo**: texto
+**Título**: Tres niveles de cálculo del índice GL
+
+**Contenido**:
+- **Nivel 1 — Un sector, comercio total**: $GL_i$ de Argentina en "vehículos" con el mundo. Sumás todas las X y M del sector, sin importar el socio
+- **Nivel 2 — Un sector, bilateral**: $GL_i$ de Argentina en "vehículos" **con Brasil**. Solo mirás el comercio con un socio específico
+- **Nivel 3 — Todos los sectores, promedio ponderado**: el GL "total" de un país o par bilateral. Se promedian los $GL_i$ sectoriales ponderando por peso:
+- $GL_{total} = \sum_i \frac{(X_i + M_i)}{\sum_j(X_j + M_j)} \cdot GL_i$
+- ⚠️ **Problema de agregación**: el resultado **depende de cuán fino definís el sector**
+- Con categorías gruesas ("manufacturas") el GL sale **alto** — dentro de "manufacturas" hay de todo
+- Con categorías finas (HS 6 dígitos, ej: "autopartes de transmisión") el GL sale **bajo** — es más probable que solo exportés o solo importés
+- **Regla práctica**: usar HS 2 o 4 dígitos para un balance razonable entre detalle y ruido
+
+**Notas docente**:
+CÓMO SE CALCULA EN LA PRÁCTICA (8 minutos)
+"Ya saben la fórmula. Ahora la pregunta práctica: ¿cómo lo aplico si quiero calcular el GL de Argentina? Hay tres niveles."
+
+NIVEL 1 — UN SECTOR, COMERCIO TOTAL:
+"El más simple. Tomás un sector — por ejemplo 'vehículos' (capítulo 87 del Sistema Armonizado) — y sumás TODAS las exportaciones e importaciones de Argentina en ese sector, sin importar con quién comercie. ¿Cuánto exporta Argentina en autos al mundo? ¿Cuánto importa? Con eso calculás el GL."
+
+"Ejemplo: Argentina exporta US$ 8.000M en vehículos al mundo e importa US$ 6.000M → GL = 1 - 2.000/14.000 = 0,86."
+
+NIVEL 2 — UN SECTOR, BILATERAL:
+"A veces querés saber cuánto IIT hay entre Argentina y Brasil específicamente. Mismo cálculo pero filtrás solo el comercio con Brasil."
+
+"Ejemplo: Argentina exporta US$ 5.000M en autos A BRASIL e importa US$ 4.000M DE BRASIL → GL bilateral = 1 - 1.000/9.000 = 0,89. Es más alto que el global porque el comercio automotriz con Brasil es más simétrico que con el resto del mundo."
+
+NIVEL 3 — GL TOTAL (PROMEDIO PONDERADO):
+"Para tener un número resumen — 'el GL del Mercosur es 0,35' o 'el GL de la UE es 0,65' — calculás el GL de CADA sector y después hacés un promedio ponderado. Los sectores con más comercio pesan más."
+
+"La fórmula del promedio ponderado parece complicada pero es intuitiva: el GL de autos (que mueve US$ 14.000M) pesa más que el GL de 'instrumentos musicales' (que mueve US$ 50M)."
+
+EL PROBLEMA DE AGREGACIÓN:
+"Y acá viene una trampa importante que Grubel y Lloyd ya advirtieron en 1975. Si definís los sectores de forma gruesa — por ejemplo 'manufacturas' como un solo sector — el GL sale alto porque dentro de 'manufacturas' estás sumando autos, químicos, electrónica, textiles, todo junto. Hay mucha X y mucha M en la misma categoría."
+
+"Pero si desagregás mucho — a 6 dígitos del HS, como 'autopartes de transmisión para vehículos de más de 1500cc' — el GL baja porque es muy probable que Argentina solo exporte o solo importe en esa categoría tan específica."
+
+"Regla práctica: HS 2 dígitos (97 capítulos) o HS 4 dígitos (~1.200 partidas) dan un balance razonable. Es lo que usan la mayoría de los estudios empíricos, incluido Lucángeli (2007) para el Mercosur."
+
+PARA LOS QUE QUIERAN CALCULARLO:
+"Si quieren calcular el GL para su trabajo del coloquio — y varios de ustedes van a trabajar con comercio bilateral — los datos están en COMTRADE. Se descargan las X y M por capítulo HS para el par de países que les interese, calculan el GL sector por sector, y después promedian. En el notebook de fuentes de datos que les compartimos tienen el código para conectarse a COMTRADE."
+
+---
+
+#### Slide 21: La intuición del GL: simetría entre X y M
 **Tipo**: grafico_texto
 **Título**: Cuanto más parecidos son X y M, más intraindustrial
 **Gráfico**: graficos/gl_espectro.png
@@ -630,7 +675,7 @@ PREGUNTA RÁPIDA: "Si Argentina exporta 50 de vino e importa 50 de vino, ¿cuán
 
 ---
 
-#### Slide 21: La geometría del GL: la diagonal como referencia
+#### Slide 22: La geometría del GL: la diagonal como referencia
 **Tipo**: grafico_texto
 **Título**: Cerca de la diagonal = intraindustrial
 **Gráfico**: graficos/gl_scatter.png
@@ -661,7 +706,7 @@ CONEXIÓN: "Ahora que saben leer el GL y entender su lógica, vamos a ver una di
 
 ---
 
-#### Slide 22: IIT horizontal vs vertical
+#### Slide 23: IIT horizontal vs vertical
 **Tipo**: texto
 **Título**: No todo el comercio intraindustrial es igual
 
@@ -695,7 +740,7 @@ REFERENCIA: "Lucángeli (2007), en la bibliografía obligatoria, aplica esta dis
 
 ---
 
-#### Slide 23: Evidencia comparada: ¿dónde hay más IIT?
+#### Slide 24: Evidencia comparada: ¿dónde hay más IIT?
 **Tipo**: grafico_texto
 **Título**: El índice Grubel-Lloyd varía mucho según los socios comerciales
 **Gráfico**: graficos/iit_comparado.png
@@ -727,7 +772,7 @@ PATRÓN:
 
 ---
 
-#### Slide 24: Caso Mercosur autos: Krugman en acción
+#### Slide 25: Caso Mercosur autos: Krugman en acción
 **Tipo**: grafico_texto
 **Título**: Argentina-Brasil: el comercio automotriz como caso paradigmático
 **Gráfico**: graficos/mercosur_autos.png
@@ -761,7 +806,7 @@ PREGUNTA: "¿El PAM es proteccionismo o es una herramienta para generar escala? 
 
 ---
 
-#### Slide 25: Argentina y el comercio intraindustrial: ¿excepción o patrón?
+#### Slide 26: Argentina y el comercio intraindustrial: ¿excepción o patrón?
 **Tipo**: grafico_texto
 **Título**: ¿Dónde queda Argentina en este nuevo mapa?
 **Gráfico**: graficos/rca_argentina.png
@@ -794,7 +839,7 @@ CONEXIÓN HACIA ADELANTE:
 
 ### Sección: Implicancias
 
-#### Slide 26: Implicancias
+#### Slide 27: Implicancias
 **Tipo**: seccion
 **Título**: Implicancias
 **Subtítulo**: Ganadores, perdedores y el tamaño del mercado
@@ -805,7 +850,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 27: ¿Quién gana y quién pierde?
+#### Slide 28: ¿Quién gana y quién pierde?
 **Tipo**: texto
 **Título**: Ganancias agregadas, ajustes reales: firmas, empleo y territorio
 
@@ -839,7 +884,7 @@ CONEXIÓN CON ARGENTINA: "Esto ayuda a pensar por qué la apertura puede cerrar 
 
 ---
 
-#### Slide 28: El efecto home-market y el mercado efectivo
+#### Slide 29: El efecto home-market y el mercado efectivo
 **Tipo**: texto
 **Título**: ¿Por qué el tamaño del mercado importa tanto?
 
@@ -874,7 +919,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Qué hubiera pasado con la industria automotriz ar
 
 ---
 
-#### Slide 29: Nueva Geografía Económica: centro-periferia
+#### Slide 30: Nueva Geografía Económica: centro-periferia
 **Tipo**: grafico_progresivo
 **Título**: ¿Por qué la producción se concentra en "polos"?
 
@@ -913,7 +958,7 @@ EJEMPLOS CONCRETOS:
 
 ---
 
-#### Slide 30: Implicancias de política
+#### Slide 31: Implicancias de política
 **Tipo**: texto
 **Título**: Política económica con escala y concentración: oportunidades y riesgos
 
@@ -945,7 +990,7 @@ ADVERTENCIA:
 
 ---
 
-#### Slide 31: ¿Cuándo aplica mejor esta teoría?
+#### Slide 32: ¿Cuándo aplica mejor esta teoría?
 **Tipo**: texto
 **Título**: Qué explica bien este enfoque (y qué no)
 
@@ -977,7 +1022,7 @@ CONEXIÓN CON UNIDAD 4: "Más adelante, en la Unidad 4, vamos a ver la visión e
 
 ### Sección: Nueva Geografía Económica
 
-#### Slide 32: Nueva Geografía Económica
+#### Slide 33: Nueva Geografía Económica
 **Tipo**: seccion
 **Título**: Nueva Geografía Económica
 **Subtítulo**: ¿Por qué la producción se concentra en ciertos lugares?
@@ -988,7 +1033,7 @@ TRANSICIÓN (1 minuto)
 
 ---
 
-#### Slide 33: Fuerzas centrípetas vs centrífugas
+#### Slide 34: Fuerzas centrípetas vs centrífugas
 **Tipo**: grafico_progresivo
 **Título**: ¿Qué fuerzas empujan la concentración y qué la frena?
 
@@ -1038,7 +1083,7 @@ CLAVE: "El resultado de la NGE depende del balance entre estas fuerzas. Y ese ba
 
 ---
 
-#### Slide 34: El modelo centro-periferia de Krugman (1991)
+#### Slide 35: El modelo centro-periferia de Krugman (1991)
 **Tipo**: grafico_progresivo
 **Título**: El modelo formal: cómo emerge la estructura centro-periferia
 
@@ -1084,7 +1129,7 @@ PREGUNTA PARA ESTUDIANTES: "Si la globalización baja los costos de transporte, 
 
 ---
 
-#### Slide 35: Evidencia empírica de la NGE
+#### Slide 36: Evidencia empírica de la NGE
 **Tipo**: texto
 **Título**: La concentración territorial en el mundo real
 
@@ -1113,7 +1158,7 @@ PREGUNTA PARA ESTUDIANTES: "¿Conocen algún caso donde una ciudad o región hay
 
 ---
 
-#### Slide 36: NGE y Argentina: la concentración territorial
+#### Slide 37: NGE y Argentina: la concentración territorial
 **Tipo**: texto
 **Título**: Argentina: un caso extremo de concentración económica
 
@@ -1151,7 +1196,7 @@ DATO: "Vaca Muerta es un caso interesante: un shock de recursos naturales que po
 
 ### Sección: Cierre
 
-#### Slide 37: Resumen de la clase
+#### Slide 38: Resumen de la clase
 **Tipo**: texto
 **Título**: Lo que nos llevamos hoy
 
@@ -1174,7 +1219,7 @@ Repasar rápido los puntos del slide. Esta fue una clase densa — es importante
 
 ---
 
-#### Slide 38: Material complementario
+#### Slide 39: Material complementario
 **Tipo**: texto
 **Título**: Para profundizar
 
@@ -1197,7 +1242,7 @@ Mencionar brevemente cada recurso:
 
 ---
 
-#### Slide 39: Lecturas
+#### Slide 40: Lecturas
 **Tipo**: texto
 **Título**: Lecturas para esta clase
 
@@ -1225,7 +1270,7 @@ LECTURAS (3 minutos)
 
 ---
 
-#### Slide 40: Guía de lectura
+#### Slide 41: Guía de lectura
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 3 (primera parte)
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -1246,7 +1291,7 @@ GUÍA DE LECTURA (2 minutos)
 
 ---
 
-#### Slide 41: Próxima clase
+#### Slide 42: Próxima clase
 **Tipo**: centrado
 **Título**: Próxima clase: Comercio intraindustrial — profundización y dumping
 
