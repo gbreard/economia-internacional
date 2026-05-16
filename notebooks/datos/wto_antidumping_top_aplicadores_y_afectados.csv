@@ -1,0 +1,27 @@
+# Fuente: WTO Anti-Dumping Statistics (Initiations and Measures, 1995-2024)
+# URL: https://www.wto.org/english/tratop_e/adp_e/adp_stattab_e.htm
+# Acceso: reportes semestrales oficiales de la Organizacion Mundial del Comercio
+# Fecha extraccion: 2026-05-04
+# Top 10 paises aplicadores y top 10 afectados, acumulado 1995-2023
+# role = "aplicador" (reporting member) o "afectado" (exporting country)
+country,count,role
+India,1124,aplicador
+United States,869,aplicador
+European Union,581,aplicador
+Brazil,471,aplicador
+Argentina,462,aplicador
+Australia,363,aplicador
+China,360,aplicador
+Turkey,285,aplicador
+Canada,244,aplicador
+South Africa,230,aplicador
+China,1714,afectado
+"Korea, Rep. of",462,afectado
+Chinese Taipei,320,afectado
+United States,304,afectado
+Japan,244,afectado
+India,232,afectado
+Thailand,217,afectado
+Germany,200,afectado
+Indonesia,198,afectado
+Russia,167,afectado

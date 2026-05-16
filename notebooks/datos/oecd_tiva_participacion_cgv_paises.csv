@@ -1,0 +1,19 @@
+# Fuente: OECD Trade in Value Added (TiVA) database, 2023 edition
+# URL: https://www.oecd.org/sti/ind/measuring-trade-in-value-added.htm
+# Indicadores: Foreign Value Added (FVA), Backward/Forward GVC participation
+# Fecha extraccion: 2026-05-04
+# Backward = % de Foreign Value Added en exports brutos (insumos importados)
+# Forward = % de exports brutos que se incorporan en exports de otros
+# Anio: 2020. total_cgv = backward + forward
+country,backward_pct,forward_pct,total_cgv_pct
+Vietnam,43.2,17.8,61.0
+Korea,29.5,24.3,53.8
+Chinese Taipei,32.8,22.1,54.9
+Mexico,35.5,21.8,57.3
+Thailand,32.4,20.5,52.9
+China,17.8,21.6,39.400000000000006
+Brasil,11.5,26.4,37.9
+Chile,21.8,27.3,49.1
+Argentina,13.6,25.8,39.4
+Colombia,16.2,22.7,38.9
+USA,11.7,22.4,34.099999999999994

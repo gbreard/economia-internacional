@@ -1,0 +1,20 @@
+# Fuente: OECD Trade in Value Added (TiVA) database, 2023 edition
+# URL: https://www.oecd.org/sti/ind/measuring-trade-in-value-added.htm
+# Indicadores: Foreign Value Added (FVA), Backward/Forward GVC participation
+# Fecha extraccion: 2026-05-04
+# Indicador: Foreign Value Added share of gross exports (EXGR_FVASH)
+# Sector: ISIC D26 - Computer, electronic and optical equipment
+# Anio: 2020
+# Mayor % = mas valor importado en lo que exporta = mas dependencia de cadenas globales
+country,fva_share_pct
+Vietnam,50.2
+Hungary,46.8
+Mexico,43.5
+Czech Republic,42.1
+Malaysia,40.6
+Thailand,35.7
+Chinese Taipei,35.2
+Korea,29.1
+China,27.4
+Japan,18.3
+USA,10.5

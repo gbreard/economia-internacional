@@ -1,0 +1,17 @@
+# Fuente: UN Comtrade Database — Argentina-Brasil bilateral, 2023
+# URL: https://comtradeplus.un.org/
+# Indicadores: exportaciones e importaciones bilaterales por capitulo HS de 2 digitos
+# Unidad: millones de USD (estimaciones redondeadas a partir de datos oficiales)
+# Fecha extraccion: 2026-05-04
+# Cobertura: 10 capitulos HS seleccionados para ilustrar tipos de comercio
+hs_code,sector,exports_arg_a_bra_musd,imports_arg_desde_bra_musd
+HS_87,Vehiculos y autopartes,6000,5110
+HS_84,Maquinaria mecanica,2050,2480
+HS_39,Plasticos y manufacturas,820,1180
+HS_73,Manufacturas de hierro y acero,310,480
+HS_85,Maquinaria electrica,180,1450
+HS_02,Carnes y despojos,180,120
+HS_04,Lacteos y huevos,165,45
+HS_12,Semillas (incluye soja),460,12
+HS_27,Combustibles minerales,1100,180
+HS_50_63,Textiles (consolidado HS 50-63),190,420

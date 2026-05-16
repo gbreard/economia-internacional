@@ -1,0 +1,13 @@
+# Fuente: Linden, Kraemer & Dedrick (2018), "Who profits from innovation in global value chains? A study of the iPod"
+# Personal Computing Industry Center, UC Irvine — actualizado para iPhone X (USD 999 retail)
+# Tambien Dedrick, Kraemer & Linden (2010, Industrial and Corporate Change)
+# Descomposicion del valor agregado de un iPhone X (precio retail USD 999)
+# Datos del paper estilizados a partir de teardowns IHS Markit
+actor,pais_principal,tarea,valor_usd
+Apple Inc.,USA,Diseno + marketing + margenes,282
+Samsung Electronics,Korea,Display + DRAM + NAND,110
+TSMC + ARM,Taiwan,Procesador A11,30
+Otros chips/componentes,Mixto,Multiples paises,62
+Foxconn,China,Ensamblaje final,8
+Distribucion + retail,Global,Cadena minorista,90
+Materiales y otros,Mixto,BOM remanente,417
