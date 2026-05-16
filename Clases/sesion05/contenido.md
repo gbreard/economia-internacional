@@ -24,11 +24,13 @@ Listo
 
 ## Contenido
 
+### Sección: Apertura
+
 #### Slide 1: Portada
 **Tipo**: portada
 **Título**: Economía Internacional — Clase 5
 **Subtítulo**: ¿Quién comercia, cómo y a qué precio?
-**Fecha**: 23 de abril de 2026
+**Fecha**: 14 de mayo de 2026
 
 **Notas docente**:
 APERTURA (2 minutos)
@@ -62,26 +64,40 @@ REPASO Y PREGUNTAS (3 minutos)
 
 #### Slide 3: Agenda
 **Tipo**: agenda
-**Título**: Cuatro preguntas, una historia
+**Título**: Cinco bloques, una historia
 
 **Contenido**:
-- **¿Qué lo determina?** — Por qué el IIT es alto entre ARG-BRA y bajo entre ARG-Nigeria
-- **¿Dónde se produce?** — Vernon: el producto viaja del innovador al imitador
-- **¿Quién exporta?** — Melitz: no todas las firmas son iguales, solo las mejores exportan
+- **Bloque 1 — ¿Qué determina el IIT?**: por qué es alto entre ARG-BRA y bajo entre ARG-Nigeria
+- **Bloque 2 — ¿Dónde se produce?**: Vernon — el producto viaja del innovador al imitador
+- **Bloque 3 — ¿Quién exporta?**: Melitz — no todas las firmas son iguales, solo las mejores exportan
 - *Recreo*
-- **¿A qué precio?** — Dumping: cuando el precio de exportación es "demasiado bajo"
-- **¿Qué se comercia realmente?** — Del comercio de bienes al comercio de tareas
-- **Cierre**: resumen U3 completa, evaluación, lecturas
+- **Bloque 4 — ¿Cuándo es dumping?**: precio "demasiado bajo" + defensa comercial (AD, CVD, salvaguardia)
+- **Bloque 5 — Comercio de tareas**: del comercio de bienes a la fragmentación productiva (anticipa U5)
+- **Cierre**: síntesis U3, evaluación, lecturas
 
 **Notas docente**:
 AGENDA (2 minutos)
-"Son 4 horas. Cuatro preguntas que se encadenan. Arrancamos con los determinantes del IIT y un caso empírico. Eso nos lleva a preguntarnos dónde se produce cada cosa — Vernon. De ahí pasamos a quién exporta — Melitz. Después del recreo, a qué precio — dumping. Y cerramos con una idea que cambia todo: quizás no se comercian bienes, se comercian tareas."
+"Son 4 horas organizadas en cinco bloques. Cada bloque cierra con una pregunta abierta que dispara el siguiente — la idea es que se vea la lógica encadenada, no slides sueltos."
+
+"Bloque 1: arrancamos con los determinantes del IIT y un caso empírico (ARG-BRA en autos). Bloque 2: eso nos lleva a preguntarnos dónde se produce cada cosa — Vernon y el ciclo del producto. Bloque 3: de ahí pasamos a quién exporta — Melitz y las firmas heterogéneas. Después del recreo, Bloque 4: a qué precio — dumping y defensa comercial. Bloque 5 — y cerramos con una idea que cambia toda la discusión: quizás no se comercian bienes, se comercian tareas."
 
 "Si al final de la clase pueden leer una noticia sobre antidumping o sobre una empresa que decide exportar y decir 'esto se entiende con lo que vimos', la clase está lograda."
 
 ---
 
-#### Slide 4: ¿Qué determina el nivel de IIT?
+### Sección: Bloque 1 — ¿Qué determina el IIT?
+
+#### Slide 4: Bloque 1 — ¿Qué determina el IIT?
+**Tipo**: seccion
+**Título**: Bloque 1 — ¿Qué determina el IIT?
+**Subtítulo**: Krugman explica por qué hay IIT, pero no explica cuánto
+
+**Notas docente**:
+APERTURA DE BLOQUE 1 (1 minuto)
+"Empezamos por la primera pregunta: el modelo de Krugman explicó por qué hay comercio intraindustrial — pero no explicó qué tan alto va a ser. ¿Por qué Argentina y Brasil tienen GL = 0,92 en autos pero solo 0,15 con China en electrónica? Hay determinantes específicos. Vamos a verlos."
+
+---
+#### Slide 5: ¿Qué determina el nivel de IIT?
 **Tipo**: texto
 **Título**: Determinantes del comercio intraindustrial
 **Subtítulo**: ¿Por qué el IIT es alto entre algunos países y bajo entre otros?
@@ -121,7 +137,7 @@ PREGUNTA PARA ESTUDIANTES: "Si Argentina firmara un TLC con la UE, ¿esperarían
 
 ---
 
-#### Slide 5: Argentina-Brasil: todos los determinantes en acción
+#### Slide 6: Argentina-Brasil: todos los determinantes en acción
 **Tipo**: grafico_texto
 **Título**: Argentina-Brasil: el IIT más alto de la región
 **Gráfico**: graficos/arg_bra_autos_2024.png
@@ -153,7 +169,19 @@ TRANSICIÓN: "Fíjense en un detalle del caso: Toyota tiene la planta de Hilux e
 
 ---
 
-#### Slide 6: Raymond Vernon — El economista de las multinacionales
+### Sección: Bloque 2 — ¿Dónde se produce el bien?
+
+#### Slide 7: Bloque 2 — ¿Dónde se produce a lo largo de su vida?
+**Tipo**: seccion
+**Título**: Bloque 2 — ¿Dónde se produce a lo largo de su vida?
+**Subtítulo**: Toyota fabrica Hilux en Zárate Y Corolla en San Pablo: ¿por qué se mueve la producción?
+
+**Notas docente**:
+APERTURA DE BLOQUE 2 (1 minuto)
+"Cerramos el primero: el IIT alto entre Argentina y Brasil en autos se explica por todos los determinantes operando juntos. Pero les dejé un detalle pendiente: Toyota tiene la planta de Hilux en Zárate y la de Corolla en San Pablo. ¿Por qué produce una cosa acá y otra allá? ¿Por qué la producción se MUEVE geográficamente? La respuesta la dio Raymond Vernon en 1966."
+
+---
+#### Slide 8: Raymond Vernon — El economista de las multinacionales
 **Tipo**: texto
 **Título**: Raymond Vernon (1913-1999)
 **Subtítulo**: Harvard Business School — Comercio, inversión y multinacionales
@@ -178,7 +206,7 @@ ANÉCDOTA: Vernon dirigió el famoso 'New York Metropolitan Region Study' en los
 
 ---
 
-#### Slide 7: El ciclo del producto — Tres fases
+#### Slide 9: El ciclo del producto — Tres fases
 **Tipo**: grafico_texto
 **Título**: El producto viaja: innovación → maduración → estandarización
 **Gráfico**: graficos/vernon_ciclo_producto.png
@@ -212,7 +240,7 @@ EJEMPLO EN PIZARRÓN: "Textiles: Inglaterra los inventó (revolución industrial
 
 ---
 
-#### Slide 8: Vernon hoy — ¿Sigue vigente?
+#### Slide 10: Vernon hoy — ¿Sigue vigente?
 **Tipo**: texto
 **Título**: Crítica y actualización del modelo de Vernon
 **Subtítulo**: Útil pero incompleto
@@ -247,7 +275,7 @@ TRANSICIÓN: "Vernon nos mostró que la producción se mueve. Pero él pensó en
 
 ---
 
-#### Slide 9: Un dato que rompe la intuición
+#### Slide 11: Un dato que rompe la intuición
 **Tipo**: centrado
 **Título**: Si el comercio es tan beneficioso... ¿por qué tan pocas firmas exportan?
 
@@ -285,7 +313,19 @@ PREGUNTA PARA ESTUDIANTES: "¿Por qué creen que la mayoría de las empresas no 
 
 ---
 
-#### Slide 10: Marc Melitz — El teórico de las firmas que exportan
+### Sección: Bloque 3 — ¿Quién exporta y quién no?
+
+#### Slide 12: Bloque 3 — ¿Quién exporta y quién no?
+**Tipo**: seccion
+**Título**: Bloque 3 — ¿Quién exporta y quién no?
+**Subtítulo**: Si solo el 18% de las firmas exporta, ¿qué tienen de especial las que sí?
+
+**Notas docente**:
+APERTURA DE BLOQUE 3 (1 minuto)
+"Vernon nos mostró que la producción se mueve. Pero él pensó en productos. Las decisiones reales las toman las firmas. Y acá viene algo que rompe todo lo que asumimos hasta ahora: las firmas dentro de un mismo sector no son iguales. La mayoría ni siquiera exporta. Si el comercio es tan beneficioso como dicen Ricardo, H-O y Krugman... ¿por qué solo el 18% participa? Esta pregunta la respondió Marc Melitz en 2003."
+
+---
+#### Slide 13: Marc Melitz — El teórico de las firmas que exportan
 **Tipo**: texto
 **Título**: Marc Melitz (1968-)
 **Subtítulo**: Harvard — Firmas heterogéneas y comercio internacional
@@ -311,7 +351,7 @@ BIOGRAFÍA MELITZ (3 minutos)
 
 ---
 
-#### Slide 11: Firmas distintas, destinos distintos
+#### Slide 14: Firmas distintas, destinos distintos
 **Tipo**: grafico_texto
 **Título**: El mecanismo de selección de Melitz
 **Gráfico**: graficos/melitz_seleccion.png
@@ -345,7 +385,7 @@ EJEMPLO: "Toyota Argentina produce y vende localmente la Hilux. La exporta a Bra
 
 ---
 
-#### Slide 12: ¿Qué pasa cuando se abre el comercio?
+#### Slide 15: ¿Qué pasa cuando se abre el comercio?
 **Tipo**: grafico_texto
 **Título**: Apertura = selección: las mejores crecen, las peores salen
 **Gráfico**: graficos/melitz_apertura.png
@@ -380,7 +420,7 @@ CONEXIÓN CON STOLPER-SAMUELSON (Clase 3): "En H-O, los perdedores eran factores
 
 ---
 
-#### Slide 13: De Ricardo a Melitz — Tres capas de realismo
+#### Slide 16: De Ricardo a Melitz — Tres capas de realismo
 **Tipo**: grafico_texto
 **Título**: Cómo evolucionó la teoría del comercio
 **Gráfico**: graficos/evolucion_teorias.png
@@ -413,7 +453,19 @@ TRANSICIÓN: "Ahora bien. Melitz nos mostró que las firmas exportadoras son dis
 
 ---
 
-#### Slide 14: Dumping: cuando el precio de exportación es "demasiado bajo"
+### Sección: Bloque 4 — ¿Cuándo el precio bajo es dumping?
+
+#### Slide 17: Bloque 4 — ¿Cuándo el precio bajo es dumping?
+**Tipo**: seccion
+**Título**: Bloque 4 — ¿Cuándo el precio bajo es dumping?
+**Subtítulo**: Si el precio externo < interno, ¿es trampa, subsidio o competencia legítima?
+
+**Notas docente**:
+APERTURA DE BLOQUE 4 (1 minuto)
+"Melitz nos mostró que las firmas exportadoras son distintas: más productivas, fijan precios distintos en el mercado externo. Pero entonces aparece una pregunta política sensible: si una empresa china exporta a la mitad de precio que vende en su país, ¿es dumping desleal o simplemente competencia? Argentina aplica antidumping desde hace décadas — ¿está siempre justificado? Acá necesitamos distinguir tres cosas que se confunden todo el tiempo: dumping, subsidios y competencia legítima."
+
+---
+#### Slide 18: Dumping: cuando el precio de exportación es "demasiado bajo"
 **Tipo**: texto
 **Título**: Dumping = precio de exportación < "valor normal"
 **Subtítulo**: No todo precio bajo es dumping
@@ -452,7 +504,7 @@ EJEMPLO: "Si una firma vende a 100 en su mercado y exporta a 70, solo puede sost
 
 ---
 
-#### Slide 15: Las tres condiciones del dumping
+#### Slide 19: Las tres condiciones del dumping
 **Tipo**: texto
 **Título**: La tríada del dumping
 **Subtítulo**: Tres condiciones necesarias — todas conectan con lo que ya vimos
@@ -484,7 +536,7 @@ CONDICIONES (5 minutos)
 
 ---
 
-#### Slide 16: El dumping en el modelo de Krugman-Melitz
+#### Slide 20: El dumping en el modelo de Krugman-Melitz
 **Tipo**: texto
 **Título**: El dumping como resultado "natural"
 **Subtítulo**: Krugman Cap 8: cuando el dumping surge del modelo
@@ -514,7 +566,7 @@ MODELO KRUGMAN (5 minutos)
 
 ---
 
-#### Slide 17: Cuatro formas de dumping — No todas son iguales
+#### Slide 21: Cuatro formas de dumping — No todas son iguales
 **Tipo**: texto
 **Título**: Mismo síntoma, causas distintas
 **Subtítulo**: El mecanismo importa para la respuesta de política
@@ -550,7 +602,7 @@ TIPOLOGÍAS (8 minutos)
 
 ---
 
-#### Slide 18: Efectos del dumping — ¿Quién gana y quién pierde?
+#### Slide 22: Efectos del dumping — ¿Quién gana y quién pierde?
 **Tipo**: texto
 **Título**: Efectos económicos: corto plazo vs largo plazo
 **Subtítulo**: El dilema de política
@@ -580,7 +632,7 @@ EFECTOS (5 minutos)
 
 ---
 
-#### Slide 19: Tres instrumentos, tres diagnósticos
+#### Slide 23: Tres instrumentos, tres diagnósticos
 **Tipo**: texto
 **Título**: ¿Qué puede hacer el Estado?
 **Subtítulo**: El instrumento depende del diagnóstico
@@ -612,7 +664,7 @@ Salvaguardias: "Se aplican ante un shock de importaciones, aunque no haya dumpin
 
 ---
 
-#### Slide 20: Del síntoma al instrumento
+#### Slide 24: Del síntoma al instrumento
 **Tipo**: grafico_texto
 **Título**: ¿Qué instrumento usar?
 **Gráfico**: graficos/dumping_arbol.png
@@ -645,7 +697,7 @@ Paso 4 — ¿Shock de importaciones?: "Si no hay dumping ni subsidio, pero hay u
 
 ---
 
-#### Slide 21: Caso aplicado — ¿Corresponde defensa comercial?
+#### Slide 25: Caso aplicado — ¿Corresponde defensa comercial?
 **Tipo**: texto
 **Título**: Mini caso: Sector X del país A (datos estilizados)
 **Subtítulo**: Diagnóstico con el árbol de decisión
@@ -678,7 +730,95 @@ TRANSICIÓN: "Bien. Hasta acá respondimos cuatro preguntas: qué determina el I
 
 ---
 
-#### Slide 22: Del comercio de bienes al comercio de tareas
+#### Slide 26: Antidumping en el mundo — 4 décadas de explosión
+**Tipo**: grafico_texto
+**Título**: El antidumping en cifras: ~250 medidas/año, picos en crisis
+**Subtítulo**: WTO Anti-Dumping Statistics — 1995-2023
+
+**Imagen**: graficos/dumping_mundial_serie_y_ranking.png
+
+**Contenido**:
+- **Volumen total**: ~250 iniciaciones/año en promedio mundial
+- **Picos**: crisis asiática (2001), post-China en OMC (2013), COVID (2020 — record de 348)
+- **Top 5 aplicadores**: India, EEUU, UE, Brasil, **Argentina** (5° mundial — sorprende para una economía chica)
+- **Top 5 afectados**: China (1714, lejos), Corea, Taiwán, EEUU, Japón
+- **Patrón**: el antidumping no es un fenómeno "raro" — es el instrumento de defensa comercial **más usado** del sistema multilateral
+- Datos completos en `notebooks/datos/wto_antidumping_*.csv` (para analizar en notebook)
+
+**Fuente**: WTO Anti-Dumping Statistics (https://www.wto.org/english/tratop_e/adp_e/adp_stattab_e.htm)
+
+**Notas docente**:
+ANTIDUMPING EN EL MUNDO (5 minutos)
+"Hasta acá el dumping era teoría. Veamos qué pasa en la práctica."
+
+LECTURA DEL GRÁFICO:
+"Panel izquierdo: serie histórica de iniciaciones AD por año desde 1995 (creación de la OMC). Vemos un volumen base de ~200-250/año, con picos en momentos de crisis: 2001 (post-burbuja Asia, dumping de acero), 2013 (después del shock chino post-OMC), 2020 (COVID, todos protegieron sus industrias). El máximo histórico fue 2020 con 348 iniciaciones."
+
+"Panel derecho: top 10 aplicadores acumulado 1995-2023. India lidera con 1124 medidas. Argentina aparece quinta — eso es destacable: somos una economía chica pero usamos AD intensamente."
+
+DATO PARA ANCLAR:
+"China es el blanco principal del mundo: 1714 medidas iniciadas contra exportadores chinos, casi 4 veces más que el segundo (Corea). Esto NO es casualidad: es el reflejo de la integración china al sistema multilateral en 2001 + su escala industrial + el patrón de subsidios estatales."
+
+PARA EL NOTEBOOK DEL ALUMNO:
+"En `notebooks/datos/` están los CSVs de WTO. Pueden por ejemplo cruzar con datos de comercio bilateral para calcular 'intensidad AD' = medidas/comercio. Es buen ejercicio para Eval U3."
+
+PREGUNTA PARA ESTUDIANTES: "¿Por qué creen que países muy chicos como Argentina están entre los top aplicadores? ¿Y por qué China no aparece en el top de aplicadores hasta hace pocos años?"
+(Pista: AD es defensa de industria nacional. Países chicos lo usan como instrumento principal porque no tienen otros. China hasta hace poco era exportador, no industria a defender — ahora cambió.)
+
+---
+
+#### Slide 27: Argentina y el antidumping
+**Tipo**: grafico_texto
+**Título**: Argentina aplica casi 1 medida cada 3 semanas (acumulado 1995-2023)
+**Subtítulo**: 462 medidas iniciadas — China es el origen del 50%
+
+**Imagen**: graficos/dumping_argentina.png
+
+**Contenido**:
+- **462 medidas iniciadas** desde 1995 — quinta posición mundial
+- **China concentra el 50%** de las medidas argentinas (229 casos)
+- **Brasil** segundo lugar pero lejos (51, 11%) — paradoja: socio Mercosur que también nos demanda con AD
+- Otros principales: Corea, Taiwán, India, Indonesia (~15 países representan el 90%)
+- **Sectores típicos** (informes CNCE): acero, productos químicos, plásticos, textiles, bicicletas, electrodomésticos
+- Las medidas vigentes detalladas en informe anual de la **CNCE** (las veremos en S10/Política Comercial)
+
+**Fuente**: WTO Anti-Dumping Statistics + CNCE (Comisión Nacional de Comercio Exterior, Argentina)
+
+**Notas docente**:
+ARGENTINA Y EL ANTIDUMPING (5 minutos)
+"Argentina es uno de los grandes usuarios del AD a nivel mundial. Para una economía de su tamaño, es desproporcionadamente activa."
+
+LECTURA DEL GRÁFICO:
+"China concentra la mitad de las medidas argentinas. Esto es coherente con el patrón mundial: China es el blanco favorito post-2001."
+
+"Brasil es el segundo origen — y eso es interesante porque es nuestro socio principal del Mercosur. La excepción al librecambio interno se da cuando un sector argentino siente daño concreto (caso típico: línea blanca, calzado, textiles). El Mercosur permite medidas AD intra-bloque solo en condiciones excepcionales."
+
+SECTORES MÁS ACTIVOS:
+"Los informes de la CNCE muestran que los sectores con más medidas son acero (productos planos/largos), químicos básicos, plásticos y textiles. Son sectores con escala importante, sensibles a la competencia importada y con asociaciones empresariales activas en pedir defensa."
+
+NOTA SOBRE FUENTES:
+"Los datos completos de WTO están en `notebooks/datos/wto_antidumping_argentina_origen.csv`. Para datos detallados de medidas vigentes hoy (con productos, fechas, países, márgenes específicos), la CNCE publica informes anuales. Vamos a verlos con detalle en la Sesión 10 — Política Comercial."
+
+PREGUNTA PARA ESTUDIANTES: "¿Por qué creen que un país aplica AD a un socio del bloque (Brasil)? ¿No es contradictorio con la integración?"
+(Respuesta sugerida: la integración no elimina el AD, lo regula. El Mercosur permite AD intra-bloque en casos excepcionales. La paradoja es que la integración profunda exige asimetrías productivas que pueden requerir defensa puntual.)
+
+DATO ADICIONAL: "El sesgo anti-China es global, pero no por casualidad: China subsidia con créditos blandos, energía barata y régimen tributario especial — todo legítimo desde su perspectiva, pero distorsionante desde la perspectiva del importador. Es una de las grandes tensiones del sistema multilateral hoy."
+
+---
+
+### Sección: Bloque 5 — Comercio de tareas
+
+#### Slide 28: Bloque 5 — ¿Y si no se mueven los bienes, sino las tareas?
+**Tipo**: seccion
+**Título**: Bloque 5 — ¿Y si no se mueven los bienes, sino las tareas?
+**Subtítulo**: Las firmas no mueven la fábrica entera — fragmentan la producción
+
+**Notas docente**:
+APERTURA DE BLOQUE 5 (1 minuto)
+"Hasta acá respondimos cuatro preguntas: qué determina el IIT, dónde se produce, quién exporta, a qué precio. Pero hay una última pregunta — quizás la más importante para entender el mundo de hoy. Las firmas no exportan o no exportan — eso es Melitz. Tampoco mudan la fábrica entera — eso es solo una caricatura. Lo que las firmas hacen REALMENTE es decidir qué TAREAS hacer adentro y cuáles mandar al exterior. Esa es la fragmentación del proceso productivo, y es lo que abre la discusión de cadenas globales de valor que vamos a profundizar en la Unidad 5."
+
+---
+#### Slide 29: Del comercio de bienes al comercio de tareas
 **Tipo**: texto
 **Título**: Trading Tasks — El comercio de tareas
 **Subtítulo**: Grossman & Rossi-Hansberg (2008), AER
@@ -708,7 +848,7 @@ TRADING TASKS (7 minutos)
 
 ---
 
-#### Slide 23: ¿Quién hace cada tarea?
+#### Slide 30: ¿Quién hace cada tarea?
 **Tipo**: grafico_texto
 **Título**: El enfoque de tareas — Una nueva forma de pensar
 **Gráfico**: graficos/comercio_tareas.png
@@ -744,7 +884,9 @@ PREGUNTA PARA ESTUDIANTES: "Piensen en una empresa argentina que conozcan. ¿Qu�
 
 ---
 
-#### Slide 24: Unidad 3 completa — ¿Qué aprendimos?
+### Sección: Cierre
+
+#### Slide 31: Unidad 3 completa — ¿Qué aprendimos?
 **Tipo**: texto
 **Título**: De los países a las firmas, de los bienes a las tareas
 **Subtítulo**: El recorrido de la Unidad 3
@@ -769,28 +911,50 @@ RESUMEN (5 minutos)
 
 ---
 
-#### Slide 25: Evaluación Unidad 3
+#### Slide 32: Evaluación Unidad 3
 **Tipo**: texto
 **Título**: Evaluación Unidad 3
-**Subtítulo**: Se abre hoy, deadline 30 de abril
+**Subtítulo**: Se abre hoy, deadline miércoles 28 de mayo (2 semanas)
 
 **Contenido**:
-- **5 preguntas multiple choice** en la plataforma
-- 3 conceptuales + 2 con procesamiento de datos
-- Cubre **Clases 4 y 5**: Krugman, IIT, GL, NGE, Vernon, Melitz, dumping
-- Se abre al terminar esta clase
-- Deadline: **miércoles 30 de abril** (1 semana)
-- Parcial 1 = promedio evaluaciones U1 + U2 + U3
+- **5 preguntas multiple choice + reflexión final**, integradas en un notebook Jupyter
+- **Parte 1**: 3 preguntas conceptuales (Krugman, Melitz, dumping)
+- **Parte 2**: 2 preguntas con procesamiento de datos reales (WTO antidumping + comercio bilateral ARG-BRA → cálculo GL por sector)
+- **Reflexión final**: diagnóstico teórico del caso argentino (5-10 líneas)
+- Archivo: `notebooks/Eval_U3_Krugman_Melitz_Dumping.ipynb`
+- Datos en `notebooks/datos/`: WTO Anti-Dumping + UN Comtrade ARG-BRA bilateral por capítulo HS
+- **Bonus quiz AhaSlides de hoy**: hasta +1 punto si participaron + acertaron ≥ 70%
 
 **Notas docente**:
-EVALUACIÓN (2 minutos)
-"La evaluación de la Unidad 3 se abre hoy. Son 5 preguntas MC en la plataforma. Tres conceptuales y dos que requieren procesar datos reales. Tienen una semana, hasta el 30 de abril."
+EVALUACIÓN U3 (3 minutos)
+"La evaluación de la Unidad 3 ya está disponible. Es un notebook Jupyter que combina cinco preguntas multiple choice más una reflexión final. La pueden bajar del campus o de GitHub Pages."
 
-"Recuerden que el Parcial 1 es el promedio de las evaluaciones de las Unidades 1, 2 y 3. Así que esta evaluación completa el primer parcial."
+ESTRUCTURA:
+"Parte 1 — tres preguntas conceptuales sobre lo que vimos: el mecanismo de Krugman, el modelo de Melitz, y cómo distinguir dumping de competencia legítima. Estas se contestan con lo que aprendieron en clase y con la bibliografía (Lugones cap 2.1, Krugman caps 7-8, Bernard et al. 2007)."
+
+"Parte 2 — dos preguntas con datos. Acá tienen que ejecutar el código que viene cargado en el notebook. Primer bloque: los CSV de WTO antidumping que vimos hoy en los slides 26-27 (origen de medidas argentinas). Segundo bloque: comercio bilateral Argentina-Brasil por capítulo HS, donde van a calcular el **índice Grubel-Lloyd** para 10 sectores y ver qué bienes tienen IIT alto (manufacturas industriales — Krugman) vs IIT bajo (commodities — Ricardo/H-O). El notebook hace los cálculos por ustedes — la tarea de ustedes es **interpretar** los resultados y elegir la opción correcta con justificación."
+
+"Reflexión final — 5 a 10 líneas conectando ambos bloques de datos con el caso argentino. Pueden articular usando los conceptos que más les hayan llegado."
+
+CONDICIONES Y PUNTAJE:
+"Escala 0-100. Para promocionar la unidad necesitan ≥ 70. Cada pregunta MC vale 15 puntos (75 en total) y la reflexión vale 25 puntos."
+
+"Y recuerden lo del quiz AhaSlides de inicio de clase: si participaron hoy y acertaron al menos 4 de las 5 preguntas (70%+), suman +1 punto al puntaje de esta evaluación (cap final en 100)."
+
+DEADLINE:
+"Tienen hasta el **miércoles 28 de mayo** para entregar. Suben el notebook completo (.ipynb) al campus UMET. Es importante que ejecuten todas las celdas antes de descargar, para que los gráficos queden visibles."
+
+CONEXIÓN CON PARCIAL 1:
+"El Parcial 1 es el promedio de las evaluaciones de U1 + U2 + U3. Con esta evaluación cierran ese parcial."
+
+PREGUNTAS DEL AULA:
+- "¿Se puede consultar con compañeros?" — Sí, pueden discutir entre ustedes, pero las respuestas finales son individuales. Justificaciones idénticas se consideran copia.
+- "¿Se puede usar IA?" — Sí para entender conceptos o generar código adicional, pero las respuestas MC y la reflexión deben ser propias. La nota cae fuerte si la reflexión es genérica/templete de ChatGPT.
+- "¿Y si no se ejecutan los datos?" — La parte 1 es teórica, no requiere datos. La parte 2 sí los necesita pero el notebook trae los CSVs cargados — no hay que descargar nada nuevo.
 
 ---
 
-#### Slide 26: Material complementario
+#### Slide 33: Material complementario
 **Tipo**: texto
 **Título**: Material complementario
 **Subtítulo**: Para profundizar
@@ -811,7 +975,7 @@ MATERIAL COMPLEMENTARIO (2 minutos)
 
 ---
 
-#### Slide 27: Lecturas — Unidad 3
+#### Slide 34: Lecturas — Unidad 3
 **Tipo**: texto
 **Título**: Lecturas — Unidad 3
 **Subtítulo**: Obligatorias y complementarias
@@ -834,7 +998,7 @@ LECTURAS (2 minutos)
 
 ---
 
-#### Slide 28: Guía de lectura — Unidad 3
+#### Slide 35: Guía de lectura — Unidad 3
 **Tipo**: texto
 **Título**: Guía de lectura — Unidad 3
 **Subtítulo**: Preguntas orientadoras para la bibliografía
@@ -855,10 +1019,10 @@ GUÍA DE LECTURA (1 minuto)
 
 ---
 
-#### Slide 29: Próxima clase
+#### Slide 36: Próxima clase
 **Tipo**: texto
 **Título**: Próxima clase: Unidad 4 — Prebisch y el estructuralismo
-**Subtítulo**: Clase 6, jueves 30 de abril
+**Subtítulo**: Clase 6, jueves 21 de mayo
 
 **Contenido**:
 - Cambiamos de perspectiva: de las "nuevas teorías" al enfoque **estructuralista latinoamericano**
@@ -878,7 +1042,7 @@ PRÓXIMA CLASE (2 minutos)
 
 ---
 
-#### Slide 30: Preguntas
+#### Slide 37: Preguntas
 **Tipo**: cierre
 **Título**: ¿Preguntas?
 **Subtítulo**: Economía Internacional | Clase 5
