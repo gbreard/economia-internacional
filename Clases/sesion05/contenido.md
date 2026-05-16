@@ -921,7 +921,7 @@ RESUMEN (5 minutos)
 - **Parte 1**: 3 preguntas conceptuales (Krugman, Melitz, dumping)
 - **Parte 2**: 2 preguntas con procesamiento de datos reales (WTO antidumping + comercio bilateral ARG-BRA → cálculo GL por sector)
 - **Reflexión final**: diagnóstico teórico del caso argentino (5-10 líneas)
-- Archivo: `notebooks/Eval_U3_Krugman_Melitz_Dumping.ipynb`
+- Archivo: `notebooks/NB3_grubel_lloyd_y_antidumping.ipynb` (página de descarga: notebooks.html)
 - Datos en `notebooks/datos/`: WTO Anti-Dumping + UN Comtrade ARG-BRA bilateral por capítulo HS
 - **Bonus quiz AhaSlides de hoy**: hasta +1 punto si participaron + acertaron ≥ 70%
 
