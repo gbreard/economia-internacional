@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 6</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true}]});"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    body.print-mode .prog-step { display: flex !important; }
+    body.print-mode .step-indicator { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+      .prog-step { display: flex !important; }
+      .step-indicator { display: none !important; }
+      .slide img, .slide ul { animation: none !important; }
+      [data-bi] { display: list-item !important; }
+    }
+    /* Transitions for graphic slides */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInSoft {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .slide.active img {
+      animation: fadeSlideUp 0.7s ease-out 0.15s both;
+    }
+    .slide.active ul {
+      animation: fadeInSoft 0.5s ease-out 0.3s both;
+    }
+    body.print-mode .slide img,
+    body.print-mode .slide ul { animation: none !important; opacity: 1 !important; }
+    body.print-mode [data-bi] { display: list-item !important; }
+    /* Two-column layout for dense slides */
+    .dos-columnas { column-count: 2; column-gap: 40px; }
+    .dos-columnas > li { break-inside: avoid; }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Economía Internacional — Clase 6 -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional — Clase 6
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Prebisch y centro-periferia (CEPAL)
+    </div>
+    <div style="color: #4B5563; font-size: 1.2rem; margin: 0 0 15px 0;">21 de mayo de 2026</div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: Lo que dejamos en la Clase 5 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Lo que dejamos en la Clase 5
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Unidad 3 cerrada — hoy cambiamos de tradición teórica</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Krugman, Vernon, Melitz, dumping y comercio de tareas</strong>: el marco de las <strong>Nuevas Teorías del Comercio</strong></li>
+<li style="margin-bottom: 12px;">Tradición común: comercio entre <strong>países similares</strong>, con <strong>escala</strong>, <strong>variedades</strong>, <strong>firmas heterogéneas</strong></li>
+<li style="margin-bottom: 12px;">Conclusión central: comercio = <strong>fuente de ganancias mutuas</strong> (con ganadores y perdedores internos, pero ganancia agregada)</li>
+<li style="margin-bottom: 12px;"><strong>Hoy cambiamos de tradición</strong>: del marco anglosajón (Ricardo → Krugman → Melitz) al <strong>estructuralismo latinoamericano</strong></li>
+<li style="margin-bottom: 12px;"><strong>La pregunta cambia</strong>: ya no es "¿por qué comerciamos?" sino "¿quién gana, quién pierde, y por qué unos países se desarrollan y otros no?"</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 3: ¿Qué vamos a ver hoy? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      ¿Qué vamos a ver hoy?
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+<li style="margin-bottom: 15px;"><strong>Bloque 1 — Crisis de la teoría clásica</strong>: ¿por qué Ricardo y H-O no explican lo que pasó con América Latina?</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 2 — Prebisch y centro-periferia</strong>: la tesis del deterioro de los términos del intercambio y sus mecanismos</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 3 — Estrategia ISI</strong>: industrialización por sustitución, instrumentos, restricción externa argentina (Diamand)</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 4 — Críticas y actualidad</strong>: evidencia mixta, reprimarización, CGV y nueva centro-periferia</li>
+<li style="margin-bottom: 15px;"><strong>Cierre</strong>: lecturas U4, guía de lectura, próxima clase</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: ¿Qué pasó con América Latina después de 1929? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 8px 0; flex-shrink: 0;">
+      ¿Qué pasó con América Latina después de 1929?
+    </h2>
+    <h3 style="color:#4B5563; font-weight:400; font-size:1.05rem; margin: 0 0 12px 0; flex-shrink: 0;">Video disparador — la tesis Prebisch-Singer</h3>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 0; gap: 12px;">
+        <a href="https://www.youtube.com/watch?v=sqUQQX1dTx8&t=0s" target="_blank" rel="noopener" style="display: block; position: relative; width: 100%; max-width: 720px; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.15); text-decoration: none;">
+          <img src="https://i.ytimg.com/vi/sqUQQX1dTx8/maxresdefault.jpg" alt="Thumbnail del video"
+               style="width: 100%; height: 100%; object-fit: cover; display: block;"
+               onerror="this.src='https://i.ytimg.com/vi/sqUQQX1dTx8/hqdefault.jpg'">
+          <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.25);">
+            <div style="background: rgba(255,0,0,0.95); width: 88px; height: 62px; border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 14px rgba(0,0,0,0.3);">
+              <div style="width: 0; height: 0; border-left: 26px solid white; border-top: 16px solid transparent; border-bottom: 16px solid transparent; margin-left: 8px;"></div>
+            </div>
+          </div>
+        </a>
+        <div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap; justify-content: center;">
+          <a href="https://www.youtube.com/watch?v=sqUQQX1dTx8&t=0s" target="_blank" rel="noopener" style="font-size: 0.9rem; color: white; background: #1F4E79; text-decoration: none; padding: 8px 18px; border-radius: 6px; font-weight: 600;">
+            ▶ Abrir en YouTube
+          </a>
+          
+        <div style="background: #E74C3C; color: white; padding: 14px 22px; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(231,76,60,0.3);">
+          <div style="font-size: 0.7rem; opacity: 0.9; letter-spacing: 0.5px; text-transform: uppercase;">⏸ Pausar el video en</div>
+          <div style="font-size: 2.2rem; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums;">4:30</div>
+        </div>
+        </div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 10px;"><strong>Crisis del 29</strong>: cae el valor de las exportaciones primarias, AL pierde ingresos fiscales</li>
+<li style="margin-bottom: 10px;"><strong>Tesis Prebisch-Singer</strong>: los precios de materias primas caen vs los de manufacturas → <strong>deterioro de los términos del intercambio</strong></li>
+<li style="margin-bottom: 10px;"><strong>Tres mecanismos</strong> del deterioro:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>Elasticidad de la demanda</strong>: la demanda de manufacturas crece más que la de primarios cuando sube el ingreso</li>
+<li style="margin-bottom: 4px;"><strong>Competencia entre productores</strong>: más países compiten en commodities, tira el precio para abajo</li>
+<li style="margin-bottom: 4px;"><strong>Cambio técnico</strong>: los primarios son reemplazados por sintéticos</li>
+</ul></li>
+<li style="margin-bottom: 10px;"><strong>Implicancia política</strong>: la periferia tiene que <strong>industrializarse</strong> y necesita un <strong>Estado activo</strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 5: Bloque 1 — Crisis de la teoría clásica -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 1 — Crisis de la teoría clásica
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Si Ricardo y H-O tenían razón, ¿por qué AL no se desarrolló?</div>
+  </section>
+
+  <!-- SLIDE 6: La paradoja -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      La paradoja
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+<li style="margin-bottom: 12px;"><em>...¿por qué algunos países comercian durante un siglo y NO se desarrollan?</em></li>
+<li style="margin-bottom: 12px;"><em>...¿por qué otros países, que en los 50 eran más pobres que Argentina, hoy son potencias industriales?</em></li>
+<li style="margin-bottom: 12px;"><em>...¿por qué Argentina, Brasil y México siguen exportando lo MISMO que exportaban en 1900 (carnes, granos, minerales)?</em></li>
+<li style="margin-bottom: 12px;"><strong><em>La teoría clásica no responde estas preguntas.</em></strong></li>
+<li style="margin-bottom: 12px;"><strong>Prebisch va a proponer una respuesta estructural: el comercio NO es neutral.</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 7: Lo que nos enseñó la teoría clásica -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Lo que nos enseñó la teoría clásica
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Repaso rápido antes de cuestionarla</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Ricardo (1817)</strong>: ventaja comparativa → cada país se especializa en lo que produce con menor costo de oportunidad</li>
+<li style="margin-bottom: 10px;"><strong>Heckscher-Ohlin (1933)</strong>: las ventajas vienen de las <strong>dotaciones factoriales</strong> (tierra, trabajo, capital)</li>
+<li style="margin-bottom: 10px;"><strong>Conclusión</strong> (ambos): la especialización es <strong>eficiente</strong> y el comercio genera <strong>ganancias mutuas</strong></li>
+<li style="margin-bottom: 10px;"><strong>Implicancia política</strong>: si tu país tiene mucha tierra (Argentina), especializate en agro. Si tiene mucho trabajo barato (Bangladesh), especializate en textiles.</li>
+<li style="margin-bottom: 10px;"><em>El comercio nivela: los países que comercian deberían converger en sus niveles de ingreso (modelos posteriores: Solow, equalización de precios de factores)</em></li>
+<li style="margin-bottom: 10px;"><strong>Esta es la lógica que Prebisch va a cuestionar.</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 8: La gran divergencia: PIB per cápita 1950-2018 -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      La gran divergencia: PIB per cápita 1950-2018
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/pib_pc_no_convergencia.png" alt="La gran divergencia: PIB per cápita 1950-2018"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Maddison Project Database 2020 — Bolt &amp; van Zanden (2020)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Predicción de la teoría clásica</strong>: el comercio iguala (lentamente) los niveles de ingreso</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Realidad</strong>: Argentina pasó de 7.762 USD (1950) a 18.556 USD (2018). <strong>Solo 2,4× en 70 años</strong></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Corea del Sur</strong>: pasó de <strong>854 USD</strong> (más pobre que Bolivia) a <strong>38.110 USD</strong> en 2018. <strong>44× en 70 años</strong></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>EEUU</strong> pasó de 15.240 a 55.335 USD: brecha con Argentina se <strong>agrandó</strong>, no se cerró</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;">¿Qué hicieron distinto Corea, Japón y Alemania? Cambiaron lo que producían. Argentina no.</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Esto es el "hecho estilizado" central</strong> que motivó la teoría estructuralista</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 9: Si comerciar fuera neutral, los precios relativos no deberían tener tendencia -->
+
+  <section class="slide" data-bullets="7" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Si comerciar fuera neutral, los precios relativos no deberían tener tendencia
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/tdi_america_latina.png" alt="Si comerciar fuera neutral, los precios relativos no deberían tener tendencia"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: CEPALSTAT — Indicador 883: Relación de precios de intercambio de bienes, f.o.b. (base 2018=100)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Términos del intercambio</strong> = precio de lo que exportás / precio de lo que importás</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;">Si suben: con la misma exportación, podés importar más → ganás</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;">Si caen: necesitás exportar más para importar lo mismo → perdés</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Argentina y Brasil</strong>: cayeron 40-50% en los 80-90s (la "década perdida"), recuperaron con el súper-ciclo de commodities (2003-2014), bajaron después</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>La intuición de Prebisch</strong> ya en 1949: los TdI de los exportadores de commodities <strong>tienden a caer en el largo plazo</strong></li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;">En los 70 años desde Prebisch, la evidencia es <strong>más mixta</strong> — pero el problema sigue siendo central</li>
+<li data-bi="6" style="display: none; margin-bottom: 6px;"><strong>Si Prebisch tiene aunque sea parcialmente razón → el comercio NO es neutral</strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 10: Bloque 2 — Prebisch y centro-periferia -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 2 — Prebisch y centro-periferia
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">La teoría que conectó los dos hechos empíricos del Bloque 1</div>
+  </section>
+
+  <!-- SLIDE 11: Raúl Prebisch — el economista que cuestionó a Ricardo desde el Sur -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Raúl Prebisch — el economista que cuestionó a Ricardo desde el Sur
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 33%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../img/prebisch.jpg" alt="Raúl Prebisch — el economista que cuestionó a Ricardo desde el Sur"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Argentino</strong> (Tucumán, 1901). Estudió economía en la UBA</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Director del Banco Central de la República Argentina</strong> (1935-1943) — el primer BCRA fue creado por él</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Primer Secretario Ejecutivo de la CEPAL</strong> (1950-1963) — desde Santiago de Chile escribió su tesis fundacional</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Primer Secretario General de la UNCTAD</strong> (1964-1969) — llevó la agenda estructuralista al sistema de la ONU</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Obra clave</strong>: <em>"El desarrollo económico de América Latina y algunos de sus principales problemas"</em> (1949) — conocido como <strong>El Manifiesto Latinoamericano</strong></li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;">Pensador "<strong>tardío</strong>" — toda su obra teórica empezó después de los 50 años, basada en su experiencia práctica como funcionario</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 12: El mundo dividido en dos posiciones estructurales -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      El mundo dividido en dos posiciones estructurales
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/centro_periferia_esquema.png" alt="El mundo dividido en dos posiciones estructurales"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Centro y Periferia NO son categorías geográficas</strong> ni morales</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;">Son <strong>posiciones estructurales</strong> dentro del capitalismo mundial — dos formas distintas de participar en la economía global</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Centro</strong>: produce manufacturas, genera innovación, controla finanzas y marcas, sindicatos fuertes</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Periferia</strong>: produce commodities, importa tecnología, salarios flexibles, depende de divisas</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;">Resultado clave: <strong>el centro retiene las ganancias de productividad, la periferia las transfiere vía precios bajos</strong></li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;">Esta asimetría es <strong>estructural</strong>: persiste aunque cambien los gobiernos, las políticas o los regímenes económicos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 13: 33 años después: ¿cambió la estructura exportadora de AL? -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      33 años después: ¿cambió la estructura exportadora de AL?
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/estructura_exportadora_al.png" alt="33 años después: ¿cambió la estructura exportadora de AL?"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: CEPALSTAT — Indicador 4252: Composición exportadora América Latina</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;">AL en 1990: 80% primarios + 20% manufacturas</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;">AL en 2023: 50% primarios + 50% manufacturas — <strong>mejoró aparentemente</strong></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>PERO</strong>: el dato regional incluye a <strong>México</strong>, que exporta mayoritariamente manufacturas (maquilas con NAFTA/T-MEC)</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;">Sin México, AL sigue siendo <strong>claramente primaria</strong> (~70% commodities)</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;">Argentina, Brasil, Chile, Perú: exportadores de soja, mineral de hierro, cobre, plata, petróleo, carne — <strong>lo mismo que en 1900</strong></li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;">El "patrón estructural" sigue 75 años después de Prebisch — solo México y algunos países con NAFTA rompieron la regla</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 14: Primer mecanismo del deterioro: la demanda no crece igual -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Primer mecanismo del deterioro: la demanda no crece igual
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Por qué los precios de commodities suben menos que los de manufacturas</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Elasticidad-ingreso de la demanda</strong>: cuánto crece la demanda de un bien cuando crece el ingreso</li>
+<li style="margin-bottom: 10px;"><strong>Primarios</strong> (alimentos, materias primas): elasticidad <strong>BAJA</strong> (~0,3-0,6) — la familia no duplica su consumo de café o soja si gana el doble (techo biológico)</li>
+<li style="margin-bottom: 10px;"><strong>Manufacturas y servicios</strong>: elasticidad <strong>ALTA</strong> (~1,2-2,5) — sí compra más electrónica, autos, viajes</li>
+<li style="margin-bottom: 10px;"><strong>Resultado mundial</strong>: cuando crece la economía global, la demanda de manufacturas crece más rápido que la de commodities</li>
+<li style="margin-bottom: 10px;"><strong>Implicancia de precios</strong>: los precios de manufacturas suben más que los de commodities → <strong>caída de los términos del intercambio para la periferia</strong></li>
+<li style="margin-bottom: 10px;">Esta tendencia se conoce como la <strong>Ley de Engel aplicada al comercio internacional</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 15: Segundo mecanismo: cómo se distribuyen las ganancias de productividad -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Segundo mecanismo: cómo se distribuyen las ganancias de productividad
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Por qué en el centro suben los salarios y en la periferia bajan los precios</div>
+    <ul style="font-size: 1.0rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;">En el <strong>centro</strong>: cuando aumenta la productividad de la industria, los <strong>sindicatos fuertes</strong> logran que los salarios suban en proporción</li>
+<li style="margin-bottom: 10px;">Resultado: la ganancia de productividad queda <strong>dentro</strong> del centro (vía salarios + ganancias empresariales)</li>
+<li style="margin-bottom: 10px;">En la <strong>periferia</strong>: cuando aumenta la productividad agrícola, los <strong>salarios NO suben</strong> (mercado laboral flexible, exceso de oferta rural)</li>
+<li style="margin-bottom: 10px;">Resultado: la ganancia de productividad <strong>se traslada al precio</strong> (que cae) → beneficia al <strong>comprador extranjero</strong>, no al productor local</li>
+<li style="margin-bottom: 10px;">Asimetría clave: <strong>mismo aumento de productividad, distinto destino de las ganancias</strong></li>
+<li style="margin-bottom: 10px;">En el centro: trabajadores y empresarios capturan productividad</li>
+<li style="margin-bottom: 10px;">En la periferia: consumidores extranjeros (del centro) capturan productividad</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 16: La conclusión política de Prebisch -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      La conclusión política de Prebisch
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+<li style="margin-bottom: 12px;">El comercio internacional <strong>NO es un mecanismo neutral</strong> que distribuye igualitariamente las ganancias del progreso técnico</li>
+<li style="margin-bottom: 12px;">Por la combinación de <strong>elasticidades</strong> (mecanismo 1) y <strong>mercado laboral asimétrico</strong> (mecanismo 2), el comercio <strong>transfiere valor del Sur al Norte</strong></li>
+<li style="margin-bottom: 12px;">Esta transferencia es <strong>estructural</strong> — no depende de la malicia de nadie ni del régimen político</li>
+<li style="margin-bottom: 12px;"><strong><em>La periferia exporta lo que produce, importa lo que necesita, y financia lo que le falta</em></strong></li>
+<li style="margin-bottom: 12px;"><strong>Implicancia política</strong>: si la teoría clásica recomienda especializarse según ventaja comparativa, Prebisch recomienda <strong>CAMBIAR LA ESTRUCTURA</strong></li>
+<li style="margin-bottom: 12px;">Esa será la estrategia ISI — el tema del Bloque 3</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 17: Bloque 3 — Estrategia ISI -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 3 — Estrategia ISI
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Si la estructura del comercio reproduce la desigualdad — hay que cambiar la estructura</div>
+  </section>
+
+  <!-- SLIDE 18: La estrategia ISI: industrializar para escapar de la periferia -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      La estrategia ISI: industrializar para escapar de la periferia
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Industrialización por Sustitución de Importaciones (1930-1976 en AL)</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Diagnóstico</strong>: la periferia transfiere ganancias de productividad al centro vía precios bajos de commodities</li>
+<li style="margin-bottom: 10px;"><strong>Solución de CEPAL</strong>: cambiar la estructura productiva — producir internamente lo que antes se importaba</li>
+<li style="margin-bottom: 10px;"><strong>Por qué "sustitución de importaciones"</strong>: AL ya tenía mercado para esos bienes (los importaba). Producirlos localmente protege divisas y crea industria + empleo + capacidades</li>
+<li style="margin-bottom: 10px;"><strong>No es autarquía</strong> — sigue habiendo comercio (commodities afuera, manufacturas adentro), pero el país captura las ganancias de productividad de su propia industrialización</li>
+<li style="margin-bottom: 10px;"><strong>La idea pedagógica clave: aprender haciendo</strong> (learning by doing). La industria local arranca subóptima — pero con tiempo, gana escala, aprende, mejora</li>
+<li style="margin-bottom: 10px;"><strong>Por eso necesita protección temporal</strong>: la "industria infantil" no puede competir con la maduración del centro hasta que aprenda. Después se abre.</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 19: Industrializar progresivamente, etapa por etapa -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Industrializar progresivamente, etapa por etapa
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/etapas_isi.png" alt="Industrializar progresivamente, etapa por etapa"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Síntesis basada en Prebisch (1949), Lugones cap 5, Cimoli &amp; Porcile (2014)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Etapa 1</strong> (1930-1950): bienes de consumo <strong>no duradero</strong> — textiles, alimentos, calzado, muebles. Tecnología simple</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Etapa 2</strong> (1950-1965): bienes de consumo <strong>duradero</strong> — autos, electrodomésticos, maquinaria liviana. Escala media, necesita inversión</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Etapa 3</strong> (1965-1980): bienes <strong>intermedios y de capital</strong> — acero, petroquímica, maquinaria pesada. Tecnología compleja, mucha escala</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>El "salto" más difícil</strong> es de Etapa 2 a Etapa 3: requiere capacidades técnicas, capital y escala que no se acumulan automáticamente</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Argentina</strong>: llegó a Etapa 2 + parte de Etapa 3 (Atucha, SOMISA, Alpargatas, IKA-Renault). <strong>Brasil y México</strong>: avanzaron más</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Corea, Taiwán</strong>: completaron las 3 etapas + saltaron a <strong>electrónica avanzada</strong> antes del 2000 — el "milagro asiático"</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 20: PIB per cápita Argentina 1900-2018: tres modelos económicos -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      PIB per cápita Argentina 1900-2018: tres modelos económicos
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/pib_argentina_modelos_economicos.png" alt="PIB per cápita Argentina 1900-2018: tres modelos económicos"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Maddison Project Database 2020</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>1900-1930 — Modelo agroexportador</strong>: crecimiento moderado, PIB pc pasa de USD 4.000 a USD 6.000 (50%)</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>1930-1976 — Período ISI</strong>: crecimiento sostenido, PIB pc pasa de USD 6.000 a USD 12.000 (<strong>100% en 46 años</strong>)</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>1976-2002 — Apertura y reformas</strong>: estancamiento + crisis. PIB pc oscila entre USD 9.000 y 13.000 sin tendencia clara al alza</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>2002-2018 — Post-convertibilidad + soja</strong>: recuperación pero sin convergencia. PIB pc llega a USD 18.500 (gracias al boom de commodities)</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Hitos clave</strong>: Crisis 29 → inicio ISI; IKA Córdoba 1955; Golpe 1976 → fin ISI + apertura; Crisis 2001</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Conclusión empírica argentina</strong>: durante la ISI, Argentina creció el doble. Después se estancó. Eso pone un piso al debate sobre la ISI.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 21: Marcelo Diamand: la teoría argentina sobre nuestro propio problema -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Marcelo Diamand: la teoría argentina sobre nuestro propio problema
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Por qué la economía argentina entra en crisis cada vez que crece</div>
+    <ul style="font-size: 1.0rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Marcelo Diamand</strong> (1927-1995): economista argentino, ingeniero, empresario industrial. Discípulo de Prebisch pero con enfoque más argentino</li>
+<li style="margin-bottom: 10px;"><strong>Tesis central</strong> (1972): la economía argentina tiene una <strong>"estructura productiva desequilibrada" (EPD)</strong></li>
+<li style="margin-bottom: 10px;">Hay <strong>dos sectores</strong> con productividades MUY distintas: el sector <strong>agropecuario</strong> (alta productividad mundial) y la <strong>industria</strong> (baja productividad mundial)</li>
+<li style="margin-bottom: 10px;">El agro genera divisas eficientemente. La industria depende de importar insumos pero NO genera divisas suficientes</li>
+<li style="margin-bottom: 10px;"><strong>Implicancia para tipo de cambio</strong>: con un solo tipo de cambio, <strong>es imposible favorecer simultáneamente</strong> a los dos sectores</li>
+<li style="margin-bottom: 10px;">TC alto (devaluado): bueno para industria, pero genera inflación porque encarece las importaciones que la industria necesita</li>
+<li style="margin-bottom: 10px;">TC bajo (apreciado): mata la industria pero abarata insumos importados (efímeramente)</li>
+<li style="margin-bottom: 10px;"><strong>Solución de Diamand</strong>: tipo de cambio múltiple o retenciones — un instrumento dual</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 22: Por qué la economía argentina entra en crisis cada vez que crece -->
+
+  <section class="slide" data-steps="5" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 5px 0; flex-shrink: 0;">
+      Por qué la economía argentina entra en crisis cada vez que crece
+    </h2>
+    <div style="color: #4B5563; font-size: 1rem; margin-bottom: 8px; flex-shrink: 0;">La restricción externa como mecanismo recurrente — avanzá paso a paso</div>
+      <div class="prog-step" data-step="0" style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_stop_go_paso1.png" alt="Paso 1" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Esquema conceptual basado en Diamand (1972) "La estructura productiva desequilibrada argentina y el tipo de cambio"</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 6px;"><strong>Fase 1 — Crecimiento</strong>: la industria se expande</li>
+<li style="margin-bottom: 6px;">Demanda más <strong>insumos importados</strong> y bienes de capital (maquinaria, autopartes, químicos)</li>
+<li style="margin-bottom: 6px;">El consumo también crece y demanda importaciones</li>
+<li style="margin-bottom: 6px;">Pero la industria argentina <strong>no genera divisas suficientes</strong> — las divisas las pone el agro</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="1" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_stop_go_paso2.png" alt="Paso 2" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Esquema conceptual basado en Diamand (1972) "La estructura productiva desequilibrada argentina y el tipo de cambio"</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 6px;"><strong>Fase 2 — Restricción externa</strong>: aparece el cuello de botella</li>
+<li style="margin-bottom: 6px;">Las importaciones que demanda la industria &gt; exportaciones del agro</li>
+<li style="margin-bottom: 6px;"><strong>Déficit comercial</strong> y caen las reservas del BCRA</li>
+<li style="margin-bottom: 6px;">La economía no puede crecer más allá de cierto punto <strong>sin perder reservas</strong> (<em>bottleneck externo</em>)</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="2" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_stop_go_paso3.png" alt="Paso 3" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Esquema conceptual basado en Diamand (1972) "La estructura productiva desequilibrada argentina y el tipo de cambio"</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 6px;"><strong>Fase 3 — Devaluación + STOP</strong>: el BCRA se queda sin reservas y devalúa</li>
+<li style="margin-bottom: 6px;">Las importaciones se encarecen → la industria se frena (depende de insumos importados)</li>
+<li style="margin-bottom: 6px;">Suben los precios, <strong>caen los salarios reales</strong>, cae el consumo</li>
+<li style="margin-bottom: 6px;"><strong>Recesión</strong>: eso es el "STOP" del ciclo</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="3" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_stop_go_paso4.png" alt="Paso 4" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Esquema conceptual basado en Diamand (1972) "La estructura productiva desequilibrada argentina y el tipo de cambio"</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 6px;"><strong>Fase 4 — Ajuste</strong>: el peso devaluado vuelve rentables las exportaciones del agro</li>
+<li style="margin-bottom: 6px;">El agro factura mucho, pero esos pesos <strong>no se reinvierten en industria</strong> (van a activos financieros, dólares, tierra)</li>
+<li style="margin-bottom: 6px;">Salarios reales bajos vuelven "competitiva" la mano de obra → entran divisas de nuevo</li>
+<li style="margin-bottom: 6px;">Se sale de la recesión</li>
+          </ul>
+        </div>
+      </div>      <div class="prog-step" data-step="4" style="display: none; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+        <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+          <img src="../graficos/ciclo_stop_go_paso5.png" alt="Paso 5" style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+          <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px;">Fuente: Esquema conceptual basado en Diamand (1972) "La estructura productiva desequilibrada argentina y el tipo de cambio"</div>
+        </div>
+        <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+          <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 6px;"><strong>El ciclo se cierra y vuelve a empezar</strong> — cada 5 a 7 años</li>
+<li style="margin-bottom: 6px;">Argentina arquetípica: 1948-52, 1958-62, 1973-75, 1980-82, 1991-95, 2008-10, 2015-18, 2022-24</li>
+<li style="margin-bottom: 6px;"><strong>La causa de fondo</strong> según Diamand: la <strong>EPD</strong> (estructura productiva desequilibrada)</li>
+<li style="margin-bottom: 6px;">Solución estructural: completar la industrialización para que <strong>la industria también genere divisas</strong> — eso es lo que no se logró</li>
+          </ul>
+        </div>
+      </div>
+    <div class="step-indicator" style="text-align: center; font-size: 0.8rem; color: #2E75B6; padding-top: 4px; flex-shrink: 0;">
+      Paso <span class="step-current">1</span> / 5
+    </div>
+  </section>
+
+  <!-- SLIDE 23: Bloque 4 — Críticas y actualidad -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 4 — Críticas y actualidad
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">¿La tesis Prebisch-Singer resiste 75 años de evidencia? ¿Qué dice el siglo XXI?</div>
+  </section>
+
+  <!-- SLIDE 24: ¿Tenía razón Prebisch? — Críticas técnicas y empíricas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 8px 0; flex-shrink: 0;">
+      ¿Tenía razón Prebisch? — Críticas técnicas y empíricas
+    </h2>
+    <h3 style="color:#4B5563; font-weight:400; font-size:1.05rem; margin: 0 0 12px 0; flex-shrink: 0;">Volvemos al video (segunda parte): los datos en discusión</h3>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 0; gap: 12px;">
+        <a href="https://www.youtube.com/watch?v=sqUQQX1dTx8&t=270s" target="_blank" rel="noopener" style="display: block; position: relative; width: 100%; max-width: 720px; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.15); text-decoration: none;">
+          <img src="https://i.ytimg.com/vi/sqUQQX1dTx8/maxresdefault.jpg" alt="Thumbnail del video"
+               style="width: 100%; height: 100%; object-fit: cover; display: block;"
+               onerror="this.src='https://i.ytimg.com/vi/sqUQQX1dTx8/hqdefault.jpg'">
+          <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.25);">
+            <div style="background: rgba(255,0,0,0.95); width: 88px; height: 62px; border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 14px rgba(0,0,0,0.3);">
+              <div style="width: 0; height: 0; border-left: 26px solid white; border-top: 16px solid transparent; border-bottom: 16px solid transparent; margin-left: 8px;"></div>
+            </div>
+          </div>
+        </a>
+        <div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap; justify-content: center;">
+          <a href="https://www.youtube.com/watch?v=sqUQQX1dTx8&t=270s" target="_blank" rel="noopener" style="font-size: 0.9rem; color: white; background: #1F4E79; text-decoration: none; padding: 8px 18px; border-radius: 6px; font-weight: 600;">
+            ▶ Abrir en YouTube
+          </a>
+          
+        <div style="background: #E74C3C; color: white; padding: 14px 22px; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(231,76,60,0.3);">
+          <div style="font-size: 0.7rem; opacity: 0.9; letter-spacing: 0.5px; text-transform: uppercase;">⏸ Pausar el video en</div>
+          <div style="font-size: 2.2rem; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums;">9:00</div>
+        </div>
+        </div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.92rem; color: #111827; line-height: 1.5; margin: 0; padding-left: 1.2em;">
+<li style="margin-bottom: 10px;"><strong>Crítica 1 — Calidad de los datos</strong>: el índice original de Prebisch usaba precios británicos de importación/exportación. Sesgos por costos de transporte y por mejora de calidad de manufacturas (Viner 1953)</li>
+<li style="margin-bottom: 10px;"><strong>Crítica 2 — Resultados sensibles al período</strong>: la caída de los TdI depende fuerte de dónde empieza y dónde termina la serie</li>
+<li style="margin-bottom: 10px;"><strong>Crítica 3 — Commodity supercycles</strong>: hay subas y bajas largas (Erten &amp; Ocampo 2013) — no es solo tendencia</li>
+<li style="margin-bottom: 10px;"><strong>Pero</strong>: estudios modernos (Harvey et al. 2010, <em>cuatro siglos de evidencia</em>) en general <strong>confirman</strong> una caída tendencial, aunque más leve de lo que decía Prebisch</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 25: La tesis tras 75 años: ¿qué sobrevivió y qué fue refutado? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      La tesis tras 75 años: ¿qué sobrevivió y qué fue refutado?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Tres críticas — y por qué ninguna la tumba del todo</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Crítica 1 — Los datos eran malos (Viner 1953, Spraos 1980)</strong>: el índice de Prebisch tenía sesgos por costos de transporte y mejoras de calidad → al corregir, la caída se reduce ~50% pero <strong>no desaparece</strong></li>
+<li style="margin-bottom: 12px;"><strong>Crítica 2 — El commodity boom 2003-2014 parecía romper la tesis</strong>: precios récord de soja, hierro, cobre, petróleo por demanda china → <strong>falsa alarma</strong>: post-2014 los precios volvieron a caer</li>
+<li style="margin-bottom: 12px;"><strong>Crítica 3 — Lo que importa NO es el precio, es la productividad (Singer)</strong>: aún si los precios fueran neutrales, las ganancias de productividad se quedan en el centro por estructuras institucionales (sindicatos fuertes, mark-ups) — esto <strong>no se refuta con datos de precios</strong></li>
+<li style="margin-bottom: 12px;"><strong>Lo que sí sigue siendo cierto</strong>: la <strong>volatilidad</strong> de los TdI primarios es mucho mayor que la de manufacturas → la periferia carga con la incertidumbre macro</li>
+<li style="margin-bottom: 12px;"><strong>Síntesis (Ocampo 2022)</strong>: Prebisch no estaba todo el tiempo en lo correcto, pero su intuición central — <em>qué exportás importa</em> — fue confirmada por la literatura moderna (Hausmann-Hwang-Rodrik 2007, Hidalgo-Hausmann 2009)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 26: La maldición de China — la subida de los primarios 2003-2014 -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      La maldición de China — la subida de los primarios 2003-2014
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/reprimarizacion_al.png" alt="La maldición de China — la subida de los primarios 2003-2014"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Elaboración propia a partir de CEPALSTAT (Indicador 4252) y Erten &amp; Ocampo (2013)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;">AL excluyendo México: % primarios en exportaciones <strong>sube</strong> de ~55% en 2000 a ~70% en 2013 (boom de la soja, el hierro y el cobre)</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;">Argentina: la soja pasó del 8% al 25% de las exportaciones entre 2002 y 2012</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;">Brasil: el hierro y la soja desplazaron manufacturas — su industria pierde peso (Rodrik habla de <em>premature deindustrialization</em>)</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>El boom hizo competitiva la primarización</strong> — términos del intercambio favorables disuadieron de industrializar (lo opuesto de lo que Prebisch recomendaba)</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;">Post-2014: el ciclo se cierra, precios caen, déficit comercial vuelve, pero la <strong>estructura primarizada ya está consolidada</strong></li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Paradoja</strong>: la región creció (PIB +50% 2003-2013) pero su estructura productiva retrocedió a la de 1900</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 27: La división Norte-Sur del siglo XXI: capacidades, no commodities -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      La división Norte-Sur del siglo XXI: capacidades, no commodities
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Lo que separa al centro de la periferia ya no son los productos, son las capacidades</div>
+    <ul style="font-size: 1.0rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Cimoli &amp; Porcile (2014)</strong>: la frontera centro-periferia se desplazó — ya no es "exportar manufacturas vs commodities", es <strong>qué tipo de manufacturas y qué capacidades subyacen</strong></li>
+<li style="margin-bottom: 10px;"><strong>Centro</strong>: dueño de patentes, diseña productos, controla I+D — EEUU, UE, Japón, Corea (entró al club post-1990)</li>
+<li style="margin-bottom: 10px;"><strong>Periferia</strong>: ensambla productos diseñados afuera, paga regalías por patentes, importa bienes de capital — AL, África, gran parte de Asia</li>
+<li style="margin-bottom: 10px;"><strong>El verdadero indicador hoy</strong>: % de exportaciones de <strong>alta tecnología</strong> (HT), patentes per cápita, complejidad económica (ECI de Hidalgo-Hausmann)</li>
+<li style="margin-bottom: 10px;">Argentina, Brasil, Chile, México: HT &lt; 10% de exportaciones, ECI <strong>negativo</strong> (debajo del promedio mundial)</li>
+<li style="margin-bottom: 10px;">Corea, Alemania, Japón, Singapur: HT &gt; 25%, ECI muy positivo</li>
+<li style="margin-bottom: 10px;"><strong>La paradoja del agro argentino</strong>: exporta soja con tecnología moderna (no-till, GPS, semillas transgénicas) pero la <strong>tecnología se importa</strong> — Argentina paga regalías a Monsanto, no las cobra</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 28: El centro diseña, la periferia ensambla -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      El centro diseña, la periferia ensambla
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cadenas globales de valor: ¿oportunidad de upgrading o nueva forma de dependencia?</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;">En el siglo XXI, la producción se fragmentó en <strong>cadenas globales de valor (CGV)</strong>: cada eslabón se localiza donde es más rentable</li>
+<li style="margin-bottom: 10px;"><strong>Patrón típico de las CGV</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: disc;">
+<li style="margin-bottom: 4px;"><strong>Diseño + I+D</strong>: centro (EEUU, UE, Japón, Corea)</li>
+<li style="margin-bottom: 4px;"><strong>Componentes de alto valor</strong>: centro / Asia oriental</li>
+<li style="margin-bottom: 4px;"><strong>Ensamblaje</strong>: periferia (México, China meridional hasta 2015, Bangladesh, Vietnam, Honduras)</li>
+<li style="margin-bottom: 4px;"><strong>Marca + marketing</strong>: centro</li>
+</ul></li>
+<li style="margin-bottom: 10px;">La <strong>curva de la sonrisa</strong> (<em>smile curve</em>): el valor agregado se concentra en los extremos (diseño y marca), no en el medio (ensamble) — la periferia se queda en el medio</li>
+<li style="margin-bottom: 10px;">Casos: <strong>México</strong> en autopartes y maquila (NAFTA/T-MEC), <strong>Bangladesh</strong> en textiles (Zara, H&amp;M), <strong>China meridional</strong> hasta 2015 (Apple), <strong>Honduras</strong> en maquila textil</li>
+<li style="margin-bottom: 10px;"><strong>Argentina</strong>: poca integración en CGV — exporta soja directo a destino final (cadena corta), no participa de cadenas largas de manufactura</li>
+<li style="margin-bottom: 10px;"><strong>¿Sirven las CGV?</strong> Debate abierto: para algunos (Banco Mundial 2020), permiten upgrading. Para estructuralistas (Cimoli, Gereffi), reproducen asimetría sin upgrading real</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 29: ¿La próxima frontera centro-periferia? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      ¿La próxima frontera centro-periferia?
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+<li style="margin-bottom: 12px;">La periferia <strong>exporta datos crudos</strong> (gratis, vía plataformas)</li>
+<li style="margin-bottom: 12px;">El centro <strong>vende servicios procesados</strong> (Netflix, ChatGPT, Office)</li>
+<li style="margin-bottom: 12px;">Couldry &amp; Mejias (2019): <em>data colonialism</em> = Prebisch 2.0</li>
+<li style="margin-bottom: 12px;"><strong>¿Argentina va a producir IA o ser consumidora eterna?</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 30: Recapitulando la clase -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Recapitulando la clase
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Los 4 hilos que dejan abiertos para profundizar en S7</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Bloque 1</strong>: la teoría clásica (Ricardo, H-O) no explica por qué AL no converge → necesitamos otra teoría</li>
+<li style="margin-bottom: 10px;"><strong>Bloque 2</strong>: Prebisch propone centro-periferia y deterioro de los TdI por dos mecanismos: elasticidad-ingreso de la demanda y distribución asimétrica de las ganancias de productividad</li>
+<li style="margin-bottom: 10px;"><strong>Bloque 3</strong>: la respuesta política fue la ISI — funcionó con límites; Diamand explica el ciclo Stop-Go argentino</li>
+<li style="margin-bottom: 10px;"><strong>Bloque 4</strong>: la tesis se sostiene parcialmente con datos modernos; la centro-periferia hoy es <strong>tecnológica</strong>, no productiva (CGV, IA)</li>
+<li style="margin-bottom: 10px;"><strong>Idea-clave del día</strong>: <em>qué exportás importa</em> (Hausmann-Hwang-Rodrik 2007) — la estructura productiva no es neutral para el desarrollo</li>
+<li style="margin-bottom: 10px;"><strong>Lo que no resolvimos</strong>: ¿cómo se construye competitividad industrial? ¿Hay forma de salir? Eso es S7</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 31: S7 (28/05) — Profundizar el marco estructuralista y dinámico -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      S7 (28/05) — Profundizar el marco estructuralista y dinámico
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cómo se cierran los hilos de hoy</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Hilo 1 — Emmanuel y el intercambio desigual</strong>: profundiza el mecanismo 2 de Prebisch — no es solo el precio, son los <strong>salarios</strong> asimétricos los que reproducen la transferencia de valor</li>
+<li style="margin-bottom: 12px;"><strong>Hilo 2 — Ventajas comparativas dinámicas</strong>: respuesta a Diamand — Lista, Kaldor, <em>learning by doing</em>, cómo se construye competitividad industrial sin caer en Stop-Go</li>
+<li style="margin-bottom: 12px;"><strong>Hilo 3 — Neoschumpeterianos + capacidades tecnológicas</strong>: profundiza Cimoli-Porcile y el ECI — por qué la estructura productiva del pasado condiciona la del futuro (<em>path dependence</em>)</li>
+<li style="margin-bottom: 12px;"><strong>Cierre de la Unidad 4</strong>: respuesta integrada a "¿quién gana y quién pierde con el comercio?"</li>
+<li style="margin-bottom: 12px;">En S7 además abrimos la <strong>Evaluación U4</strong> (notebook integrado)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 32: Material complementario para U4 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Material complementario para U4
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Documentales, videos, podcasts para profundizar</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;">🎬 <strong>Documental: "Prebisch, el hombre de la CEPAL"</strong> (CEPAL, 2017) — 30 min, biografía y archivo histórico</li>
+<li style="margin-bottom: 10px;">📺 <strong>TED Talk: Hausmann — "The trouble with growth diagnostics"</strong> (Harvard / YouTube) — la matriz de complejidad económica explicada visualmente</li>
+<li style="margin-bottom: 10px;">📺 <strong>Charla: Diamand y la estructura productiva desequilibrada</strong> (Centro Cultural de la Cooperación, YouTube) — análisis de la EPD en clave actual</li>
+<li style="margin-bottom: 10px;">🎬 <strong>Documental: "The True Cost"</strong> (2015) — la cadena global de la fast fashion: Bangladesh, India, Camboya. Muestra la división Norte-Sur en CGV textiles</li>
+<li style="margin-bottom: 10px;">📰 <strong>Podcast: "Odd Lots" (Bloomberg) — varios episodios sobre commodity supercycles y la China shock</strong> (en inglés)</li>
+<li style="margin-bottom: 10px;">📰 <strong>Boletín "El cohete a la luna" — columnas de Diego Coatz, Andrés Asiain, Carlos Heller</strong> — análisis estructuralistas de coyuntura argentina</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 33: Bibliografía obligatoria y complementaria — Unidad 4 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Bibliografía obligatoria y complementaria — Unidad 4
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Lo que tienen que leer antes de S7 está marcado con ⭐</div>
+    <ul style="font-size: 1.0rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;">⭐ <strong>Lugones, G. et al.</strong> — <em>Teorías del Comercio Internacional</em>, Caps. 2.2-2.3 y 5 (intercambio desigual, deterioro de TdI, comercio y desarrollo)</li>
+<li style="margin-bottom: 10px;">⭐ <strong>Prebisch (1950)</strong> — "El desarrollo económico de la América Latina y algunos de sus principales problemas" — el manifiesto fundacional de la CEPAL</li>
+<li style="margin-bottom: 10px;">⭐ <strong>Diamand (1972)</strong> — "La estructura productiva desequilibrada argentina y el tipo de cambio" — el clásico argentino sobre Stop-Go</li>
+<li style="margin-bottom: 10px;"><strong>Ocampo (2022)</strong> — "La visión centro-periferia hoy" — actualización del marco al siglo XXI</li>
+<li style="margin-bottom: 10px;"><strong>Hausmann, Hwang &amp; Rodrik (2007)</strong> — "What You Export Matters" — la formalización moderna de "qué exportás importa"</li>
+<li style="margin-bottom: 10px;"><em>Complementarias</em>: Hickel et al. (2022) sobre intercambio desigual moderno, Rodrik (2016) sobre desindustrialización prematura, CEPAL 2012 sobre cambio estructural, Hidalgo-Hausmann (2009) sobre complejidad económica</li>
+<li style="margin-bottom: 10px;">📁 Todo disponible en `bibliografia/unidad4/` del campus</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 34: 6 preguntas para guiar la lectura -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      6 preguntas para guiar la lectura
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Estas son las preguntas del quiz inicial de S7 (5 al azar de estas 6)</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>1.</strong> Según Prebisch (1950), ¿por qué el comercio internacional <strong>reproduce</strong> la desigualdad entre centro y periferia en lugar de igualar ingresos como predice H-O?</li>
+<li style="margin-bottom: 10px;"><strong>2.</strong> ¿Cuáles son los <strong>dos mecanismos</strong> principales del deterioro de los términos del intercambio según Prebisch?</li>
+<li style="margin-bottom: 10px;"><strong>3.</strong> Según Diamand (1972), ¿qué significa que Argentina tiene una <strong>Estructura Productiva Desequilibrada (EPD)</strong> y cuál es el rol del tipo de cambio?</li>
+<li style="margin-bottom: 10px;"><strong>4.</strong> Describa las 4 fases del <strong>ciclo Stop-Go</strong> argentino según Diamand</li>
+<li style="margin-bottom: 10px;"><strong>5.</strong> ¿Qué crítica le hace Singer al argumento de los términos del intercambio, y por qué su crítica <strong>no se refuta solo con datos de precios</strong>?</li>
+<li style="margin-bottom: 10px;"><strong>6.</strong> ¿En qué se diferencia la "centro-periferia tecnológica" (Cimoli &amp; Porcile, Ocampo 2022) de la centro-periferia clásica de Prebisch?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 35: ¿Preguntas? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.5rem; font-weight: 600;">
+      ¿Preguntas?
+    </h1>
+    <div style="color: #4B5563; font-size: 1.3rem; margin-top: 20px;">Sesión 6 — Bloque 1 de la Unidad 4 — Nos vemos el 28/05 con S7</div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 6</span>
+  <span id="slide-counter">1 / 35</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let currentStep = 0;
+  let currentBullet = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function getTotalSteps(idx) {
+    const attr = slides[idx].getAttribute('data-steps');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showStep(slideIdx, stepIdx) {
+    const steps = slides[slideIdx].querySelectorAll('.prog-step');
+    if (steps.length === 0) return;
+    steps.forEach((s, i) => {
+      s.style.display = i === stepIdx ? 'flex' : 'none';
+    });
+    const cur = slides[slideIdx].querySelector('.step-current');
+    if (cur) cur.textContent = stepIdx + 1;
+  }
+
+  function getTotalBullets(idx) {
+    const attr = slides[idx].getAttribute('data-bullets');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showBullets(slideIdx, upTo) {
+    const bullets = slides[slideIdx].querySelectorAll('[data-bi]');
+    bullets.forEach((b, i) => {
+      b.style.display = i <= upTo ? '' : 'none';
+    });
+  }
+
+  function showSlide(n, fromEnd) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0) {
+      currentStep = fromEnd ? totalSteps - 1 : 0;
+      showStep(current, currentStep);
+    } else {
+      currentStep = 0;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0) {
+      currentBullet = fromEnd ? totalBullets - 1 : 0;
+      showBullets(current, currentBullet);
+    } else {
+      currentBullet = 0;
+    }
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function advance() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep < totalSteps - 1) {
+      currentStep++;
+      showStep(current, currentStep);
+      return;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0 && currentBullet < totalBullets - 1) {
+      currentBullet++;
+      showBullets(current, currentBullet);
+      return;
+    }
+    showSlide(current + 1, false);
+  }
+
+  function goBack() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep > 0) {
+      currentStep--;
+      showStep(current, currentStep);
+      return;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0 && currentBullet > 0) {
+      currentBullet--;
+      showBullets(current, currentBullet);
+      return;
+    }
+    showSlide(current - 1, true);
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+      document.querySelectorAll('[data-bi]').forEach(b => b.style.display = '');
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+      const totalSteps = getTotalSteps(current);
+      if (totalSteps > 0) showStep(current, currentStep);
+      const totalBullets = getTotalBullets(current);
+      if (totalBullets > 0) showBullets(current, currentBullet);
+      for (let i = 0; i < slides.length; i++) {
+        if (i !== current) {
+          const tb = getTotalBullets(i);
+          if (tb > 0) showBullets(i, 0);
+        }
+      }
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') advance();
+    else if (e.key === 'ArrowLeft') goBack();
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0, false);
+    else if (e.key === 'End') showSlide(slides.length - 1, true);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) advance();
+      else goBack();
+    }
+  });
+</script>
+
+</body>
+</html>
