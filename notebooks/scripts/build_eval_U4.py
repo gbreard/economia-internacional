@@ -143,7 +143,22 @@ Según la tesis Prebisch-Singer, los precios de las materias primas se deteriora
 
 a) Inflación monetaria persistente en los países del centro + apreciación de sus monedas + barreras arancelarias en la periferia
 
-b) **Baja elasticidad-ingreso de la demanda de primarios + competencia desorganizada entre productores periféricos + sustitución tecnológica por insumos sintéticos**
+b) Baja elasticidad-ingreso de la demanda de primarios + competencia desorganizada entre productores periféricos + sustitución tecnológica por insumos sintéticos
+
+c) Sobreproducción agrícola por subsidios + caída de los costos de transporte + entrada de Asia al mercado mundial
+
+d) Diferencias culturales en preferencias de consumo + ciclos climáticos + especulación financiera con commodities
+"""
+
+P1_DOC = """## Pregunta 1 — Los mecanismos del deterioro de los términos del intercambio (Prebisch-Singer)
+
+Según la tesis Prebisch-Singer, los precios de las materias primas se deterioran en el largo plazo respecto de los precios de las manufacturas industriales.
+
+**¿Cuál combinación describe MEJOR los tres mecanismos que explican ese deterioro?**
+
+a) Inflación monetaria persistente en los países del centro + apreciación de sus monedas + barreras arancelarias en la periferia
+
+b) **Baja elasticidad-ingreso de la demanda de primarios + competencia desorganizada entre productores periféricos + sustitución tecnológica por insumos sintéticos** ✅
 
 c) Sobreproducción agrícola por subsidios + caída de los costos de transporte + entrada de Asia al mercado mundial
 
@@ -153,6 +168,23 @@ d) Diferencias culturales en preferencias de consumo + ciclos climáticos + espe
 P1_RESP = """**Mi respuesta**: [escribir letra: a, b, c o d]
 
 **Justificación** (2-3 oraciones, mencionando explícitamente al menos **dos** de los tres mecanismos):
+
+"""
+
+P1_RESP_DOC = """**Mi respuesta**: **b**
+
+**Justificación modelo**:
+
+Los tres mecanismos del deterioro según Prebisch (1950) y Singer (1950) son: (1) **baja elasticidad-ingreso** de la demanda de primarios — cuando crece el ingreso mundial, la demanda de alimentos y materias primas crece menos que proporcionalmente, mientras la de manufacturas crece más; (2) **competencia desorganizada entre productores periféricos** — muchos países compiten entre sí en commodities tirando los precios para abajo, mientras en el centro las manufacturas tienen mayor poder de mercado y los salarios industriales más altos por sindicalización; (3) **sustitución tecnológica** — los avances técnicos en el centro reemplazan insumos naturales por sintéticos (caucho sintético, fibras artificiales, nitrógeno fijado). La opción (a) confunde con teorías monetarias, (c) son fenómenos post-1980 ajenos al argumento original, y (d) descarta el análisis estructural.
+
+---
+
+**Notas para el docente**:
+- Si el alumno solo dice "los precios bajan" sin nombrar mecanismos: 5/15.
+- Si nombra solo elasticidades: 8/15.
+- Si nombra dos de los tres mecanismos correctamente: 12/15.
+- Si los nombra los tres y los explica: 15/15.
+- Distractor (a) es plausible si el alumno solo leyó por encima — confunde Prebisch con un argumento monetarista.
 
 """
 
@@ -168,7 +200,24 @@ Según el diagnóstico de **Marcelo Diamand (1972)** sobre la **estructura produ
 
 a) El sector agropecuario perdió competitividad internacional porque el clima fue desfavorable
 
-b) **Como la industria local no es competitiva al tipo de cambio del agro, la expansión del ingreso aumenta las importaciones de bienes industriales más rápido que las exportaciones primarias → escasez de dólares y devaluación (ciclo *stop-go*)**
+b) Como la industria local no es competitiva al tipo de cambio del agro, la expansión del ingreso aumenta las importaciones de bienes industriales más rápido que las exportaciones primarias → escasez de dólares y devaluación (ciclo *stop-go*)
+
+c) El crédito internacional se cortó por la situación geopolítica global, generando salida de capitales especulativos
+
+d) La población consumió más que su ingreso, generando déficit fiscal y necesidad de imprimir pesos
+"""
+
+P2_DOC = """---
+
+## Pregunta 2 — Diamand y la estructura productiva desequilibrada (escenario aplicado)
+
+**Escenario**: Argentina entra en una fase expansiva. El gobierno baja los impuestos al consumo, suben los salarios y la economía crece al 5% anual durante dos años. La industria local trabaja al 90% de capacidad. Al tercer año, las reservas del Banco Central caen y aparece presión devaluatoria.
+
+Según el diagnóstico de **Marcelo Diamand (1972)** sobre la **estructura productiva desequilibrada (EPD)** argentina, ¿cuál es la causa estructural más probable de la crisis de reservas?
+
+a) El sector agropecuario perdió competitividad internacional porque el clima fue desfavorable
+
+b) **Como la industria local no es competitiva al tipo de cambio del agro, la expansión del ingreso aumenta las importaciones de bienes industriales más rápido que las exportaciones primarias → escasez de dólares y devaluación (ciclo *stop-go*)** ✅
 
 c) El crédito internacional se cortó por la situación geopolítica global, generando salida de capitales especulativos
 
@@ -178,6 +227,22 @@ d) La población consumió más que su ingreso, generando déficit fiscal y nece
 P2_RESP = """**Mi respuesta**: [escribir letra: a, b, c o d]
 
 **Justificación** (2-3 oraciones, mencionando los conceptos de **estructura productiva desequilibrada** y **tipo de cambio**):
+
+"""
+
+P2_RESP_DOC = """**Mi respuesta**: **b**
+
+**Justificación modelo**:
+
+La Argentina de Diamand tiene dos sectores productores de transables con productividades muy distintas: el agro (competitivo internacionalmente al tipo de cambio bajo del sector exportador) y la industria (que para sobrevivir necesita un tipo de cambio más alto o protección arancelaria). Esto es lo que él llama **estructura productiva desequilibrada (EPD)**. Cuando la economía crece, la demanda de bienes industriales sube y la industria tira de las **importaciones** (insumos, maquinaria, bienes finales) más rápido de lo que el agro puede aumentar sus exportaciones. El resultado mecánico es escasez de dólares → presión devaluatoria → ajuste recesivo. Es decir: el crecimiento mismo activa la restricción externa. La opción (a) culpa al clima ignorando lo estructural; (c) y (d) son problemas reales pero no explican por qué crecer genera la crisis.
+
+---
+
+**Notas para el docente**:
+- Si solo dice "faltan dólares por crecer" sin EPD: 5/15.
+- Si menciona EPD pero no el rol del TC: 8/15.
+- Si articula EPD + TC + arrastre de importaciones por crecimiento: 15/15.
+- Es la pregunta más argentina del notebook — el alumno debería poder citar al menos un episodio del stop-go histórico (1958-59, 1962-63, 1975-76, 1981-82, 1989, 2001, 2018).
 
 """
 
@@ -195,7 +260,24 @@ a) Un producto es complejo si su precio internacional es alto y volátil
 
 b) Un producto es complejo si requiere mucho capital físico por unidad producida
 
-c) **Un producto es complejo si lo exportan pocos países y, además, los que lo exportan son países diversificados (que también exportan muchos otros productos) — la complejidad está en las capacidades necesarias para producirlo, no en el bien en sí**
+c) Un producto es complejo si lo exportan pocos países y, además, los que lo exportan son países diversificados (que también exportan muchos otros productos) — la complejidad está en las capacidades necesarias para producirlo, no en el bien en sí
+
+d) Un producto es complejo cuando tiene una larga cadena de valor con muchos proveedores internacionales (medida por TiVA-OECD)
+"""
+
+P3_DOC = """---
+
+## Pregunta 3 — ¿Qué hace que un producto sea "complejo" según Hidalgo y Hausmann?
+
+César Hidalgo y Ricardo Hausmann (2009, PNAS) construyen el **Índice de Complejidad Económica (ECI)** para medir las capacidades productivas de un país. Su pregunta de fondo es: ¿qué hace que un producto sea más "complejo" que otro?
+
+**¿Cuál de las siguientes afirmaciones describe MEJOR la metodología de complejidad de Hidalgo-Hausmann?**
+
+a) Un producto es complejo si su precio internacional es alto y volátil
+
+b) Un producto es complejo si requiere mucho capital físico por unidad producida
+
+c) **Un producto es complejo si lo exportan pocos países y, además, los que lo exportan son países diversificados (que también exportan muchos otros productos) — la complejidad está en las capacidades necesarias para producirlo, no en el bien en sí** ✅
 
 d) Un producto es complejo cuando tiene una larga cadena de valor con muchos proveedores internacionales (medida por TiVA-OECD)
 """
@@ -203,6 +285,22 @@ d) Un producto es complejo cuando tiene una larga cadena de valor con muchos pro
 P3_RESP = """**Mi respuesta**: [escribir letra: a, b, c o d]
 
 **Justificación** (2-3 oraciones, mencionando **diversidad** y **ubicuidad** que son los dos componentes que itera el algoritmo de Hidalgo-Hausmann):
+
+"""
+
+P3_RESP_DOC = """**Mi respuesta**: **c**
+
+**Justificación modelo**:
+
+El algoritmo de Hidalgo-Hausmann (PNAS 2009) parte de dos métricas observables del comercio internacional: la **diversidad** de cada país (cuántos productos exporta con ventaja comparativa revelada) y la **ubicuidad** de cada producto (cuántos países lo exportan). Iterando estas métricas — el ECI de un país depende del ECI medio de los productos que exporta, y el PCI de un producto depende del ECI medio de los países que lo exportan — emerge una medida de capacidades. Un chip avanzado es complejo porque pocos países pueden hacerlo (baja ubicuidad) y porque esos países exportan muchas otras cosas (alta diversidad). El café es simple por lo contrario. La complejidad no está en el bien sino en las capacidades requeridas para producirlo, muchas de ellas tácitas y acumulativas. Las opciones (a) y (b) confunden complejidad con valor monetario o intensidad de capital; (d) confunde ECI con TiVA-OECD (medida CGV, otra cosa).
+
+---
+
+**Notas para el docente**:
+- Si solo dice "lo exportan pocos países": 7/15.
+- Si menciona diversidad + ubicuidad: 12/15.
+- Si articula la iteración y por qué emergen capacidades tácitas: 15/15.
+- Distractor (d) es el más sutil — separa el alumno que entendió HH del que confundió U4 (capacidades) con U5 (CGV).
 
 """
 
@@ -344,7 +442,24 @@ Con los gráficos *small multiples* y la tabla de cambios 1980-2024, respondan:
 
 a) Los TDI cayeron de forma generalizada en toda América Latina entre 1980 y 2024, confirmando exactamente la tesis Prebisch-Singer en su versión más fuerte
 
-b) **Los TDI subieron en todos los países entre 1980 y 2024, pero el aumento fue muy heterogéneo: los exportadores de commodities mineros (Chile, Perú) y energía (Brasil, Colombia) ganaron más del 45%, mientras que México y Argentina (con canastas más diversificadas y manufacturadas) ganaron menos del 10% — la tesis simple necesita matices, pero la idea de que la composición exportadora importa se confirma**
+b) Los TDI subieron en todos los países entre 1980 y 2024, pero el aumento fue muy heterogéneo: los exportadores de commodities mineros (Chile, Perú) y energía (Brasil, Colombia) ganaron más del 45%, mientras que México y Argentina (con canastas más diversificadas y manufacturadas) ganaron menos del 10% — la tesis simple necesita matices, pero la idea de que la composición exportadora importa se confirma
+
+c) Los TDI argentinos cayeron sistemáticamente, mostrando que Argentina sufre Prebisch-Singer mientras el resto de la región no
+
+d) Los TDI no tienen ninguna relación con la composición exportadora — son ruido aleatorio que depende solo del precio del petróleo
+"""
+
+P4_DOC = """---
+
+### Pregunta 4 — ¿Qué dicen los datos TDI sobre Prebisch-Singer?
+
+Con los gráficos *small multiples* y la tabla de cambios 1980-2024, respondan:
+
+**¿Cuál afirmación describe MEJOR el patrón observado en los datos?**
+
+a) Los TDI cayeron de forma generalizada en toda América Latina entre 1980 y 2024, confirmando exactamente la tesis Prebisch-Singer en su versión más fuerte
+
+b) **Los TDI subieron en todos los países entre 1980 y 2024, pero el aumento fue muy heterogéneo: los exportadores de commodities mineros (Chile, Perú) y energía (Brasil, Colombia) ganaron más del 45%, mientras que México y Argentina (con canastas más diversificadas y manufacturadas) ganaron menos del 10% — la tesis simple necesita matices, pero la idea de que la composición exportadora importa se confirma** ✅
 
 c) Los TDI argentinos cayeron sistemáticamente, mostrando que Argentina sufre Prebisch-Singer mientras el resto de la región no
 
@@ -354,6 +469,22 @@ d) Los TDI no tienen ninguna relación con la composición exportadora — son r
 P4_RESP = """**Mi respuesta**: [escribir letra: a, b, c o d]
 
 **Justificación** (2-3 oraciones, mencionando **al menos dos países específicos** con su cambio % de la tabla):
+
+"""
+
+P4_RESP_DOC = """**Mi respuesta**: **b**
+
+**Justificación modelo**:
+
+Los datos CEPAL 1980-2024 contradicen la versión simple de Prebisch-Singer: TODOS los países subieron sus TDI en el período (entre +9% y +52%). Pero la dispersión es muy grande y se ordena casi perfectamente por composición exportadora: **Chile** (+52,4 %, cobre y litio) y **Brasil** (+49,7 %, soja, hierro, petróleo) lideran las ganancias por el *super-ciclo de commodities* 2003-2014; **Argentina** (+9,2 %) y **México** (+8,8 %) — canastas más diversificadas con peso manufacturero — apenas ganan. La conclusión heterodoxa moderna (Ocampo 2022) es que la versión simple de Prebisch necesita matices — los precios de commodities tienen ciclos largos —, pero la idea central de que **la composición de la canasta determina la trayectoria de los términos del intercambio** se confirma robustamente.
+
+---
+
+**Notas para el docente**:
+- Si nombra solo un país: 10/15.
+- Si nombra dos países con su % correcto: 13/15.
+- Si conecta heterogeneidad con composición exportadora: 15/15.
+- Error común: confundir "TDI subieron" con "Prebisch se equivocó" (omite el componente cíclico y la heterogeneidad). Penalizar levemente esa interpretación simplista.
 
 """
 
@@ -503,7 +634,24 @@ Con los small multiples y el gráfico de ratios respecto a EE.UU., respondan:
 
 a) Todos los países convergieron a EE.UU. — la economía mundial avanza hacia la igualación de niveles de ingreso, como predice el modelo neoclásico de Solow
 
-b) **Corea del Sur convergió de forma espectacular (su PIB pc pasó de 6% a 69% del de EE.UU. y creció más de 40 veces), mientras Argentina divergió (de 51% a 34% de EE.UU., creciendo solo 2.4 veces). El resto de AL tuvo una trayectoria intermedia — la convergencia es posible pero NO automática**
+b) Corea del Sur convergió de forma espectacular (su PIB pc pasó de 6% a 69% del de EE.UU. y creció más de 40 veces), mientras Argentina divergió (de 51% a 34% de EE.UU., creciendo solo 2.4 veces). El resto de AL tuvo una trayectoria intermedia — la convergencia es posible pero NO automática
+
+c) Argentina convergió levemente con EE.UU. gracias a su industrialización por sustitución de importaciones (ISI)
+
+d) Corea creció mucho pero sin acortar la distancia con EE.UU., porque EE.UU. también creció a la misma velocidad
+"""
+
+P5_DOC = """---
+
+### Pregunta 5 — Convergencia y divergencia: ¿qué muestra Maddison?
+
+Con los small multiples y el gráfico de ratios respecto a EE.UU., respondan:
+
+**¿Cuál afirmación describe MEJOR el patrón observado en los datos Maddison 1950-2018?**
+
+a) Todos los países convergieron a EE.UU. — la economía mundial avanza hacia la igualación de niveles de ingreso, como predice el modelo neoclásico de Solow
+
+b) **Corea del Sur convergió de forma espectacular (su PIB pc pasó de 6% a 69% del de EE.UU. y creció más de 40 veces), mientras Argentina divergió (de 51% a 34% de EE.UU., creciendo solo 2.4 veces). El resto de AL tuvo una trayectoria intermedia — la convergencia es posible pero NO automática** ✅
 
 c) Argentina convergió levemente con EE.UU. gracias a su industrialización por sustitución de importaciones (ISI)
 
@@ -513,6 +661,22 @@ d) Corea creció mucho pero sin acortar la distancia con EE.UU., porque EE.UU. t
 P5_RESP = """**Mi respuesta**: [escribir letra: a, b, c o d]
 
 **Justificación** (2-3 oraciones, mencionando **valores concretos** de la tabla de ratios para al menos dos países, e identificando qué teoría heterodoxa explica mejor estas trayectorias):
+
+"""
+
+P5_RESP_DOC = """**Mi respuesta**: **b**
+
+**Justificación modelo**:
+
+Maddison muestra dos patrones opuestos: **Corea del Sur** pasa de PIB pc relativo a EE.UU. de 0,06 (1950) a 0,69 (2018) y multiplica su PIB pc por 44,6 — convergencia espectacular; **Argentina** retrocede de 0,51 a 0,34 (Δ = −0,17) y solo crece x2,4 — divergencia clara. La opción (a) es falsa empíricamente (no toda AL converge); (c) es factualmente incorrecta (Argentina divergió, no convergió); (d) ignora los datos. La teoría que explica mejor estas trayectorias divergentes NO es el modelo neoclásico de convergencia incondicional sino el enfoque **neoschumpeteriano + ventajas dinámicas (Kaldor/List)**: Corea construyó capacidades tecnológicas acumulativas con política industrial activa (HCI plan + metas exportadoras + tipo de cambio competitivo), Argentina no las sostuvo y entró en un proceso de regresión estructural (consistente con el ECI argentino cayendo de 0,2 a −0,4 según Atlas of Economic Complexity).
+
+---
+
+**Notas para el docente**:
+- Si solo dice "Corea creció mucho": 7/15.
+- Si cita ratios de la tabla: 12/15.
+- Si nombra teoría heterodoxa que lo explica (neoschumpeterianos, Hidalgo-Hausmann, Kaldor): 15/15.
+- Conexión bonus: alumno que cita el ECI cae argentino del cierre de S7 → buena señal de integración U4 completa.
 
 """
 
@@ -585,15 +749,23 @@ REFL_DOCENTE = """---
 
 
 def build_notebook(docente: bool = False):
+    # En la versión docente: preguntas marcadas con ✅ + respuestas y justificaciones modelo escritas.
+    # En la versión alumno: opciones neutras (sin marcar correcta) + celdas de respuesta vacías.
+    p1, p1r = (P1_DOC, P1_RESP_DOC) if docente else (P1, P1_RESP)
+    p2, p2r = (P2_DOC, P2_RESP_DOC) if docente else (P2, P2_RESP)
+    p3, p3r = (P3_DOC, P3_RESP_DOC) if docente else (P3, P3_RESP)
+    p4, p4r = (P4_DOC, P4_RESP_DOC) if docente else (P4, P4_RESP)
+    p5, p5r = (P5_DOC, P5_RESP_DOC) if docente else (P5, P5_RESP)
+
     cells = [
         md(PORTADA),
         md(INTRO_PARTE1),
-        md(P1),
-        md(P1_RESP),
-        md(P2),
-        md(P2_RESP),
-        md(P3),
-        md(P3_RESP),
+        md(p1),
+        md(p1r),
+        md(p2),
+        md(p2r),
+        md(p3),
+        md(p3r),
         md(INTRO_PARTE2),
         code(SETUP),
         md(BLOQUE1_INTRO),
@@ -601,16 +773,16 @@ def build_notebook(docente: bool = False):
         code(BLOQUE1_SMALLMULT),
         md(BLOQUE1_TAREA),
         code(BLOQUE1_TABLA),
-        md(P4),
-        md(P4_RESP),
+        md(p4),
+        md(p4r),
         md(BLOQUE2_INTRO),
         code(BLOQUE2_CARGA),
         code(BLOQUE2_SMALLMULT),
         md(BLOQUE2_TAREA),
         code(BLOQUE2_CALC),
         code(BLOQUE2_VIS_RATIOS),
-        md(P5),
-        md(P5_RESP),
+        md(p5),
+        md(p5r),
         md(REFLEXION),
     ]
 
