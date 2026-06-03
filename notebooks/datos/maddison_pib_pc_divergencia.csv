@@ -1,0 +1,15 @@
+# Fuente: Maddison Project Database 2020
+# Bolt, J. & van Zanden, J.L. (2020) — University of Groningen
+# URL: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020
+# Unidad: USD 2011 PPA (paridad de poder adquisitivo, dólares constantes de 2011)
+# Selección de paises representativos AL vs OCDE + Corea como caso de convergencia exitosa
+# Fecha extracción: 2026-05-17
+anio,Argentina,Brasil,Chile,México,AL_promedio,Estados_Unidos,Alemania,Japón,Corea_del_Sur
+1950,7762,1672,3974,3979,3120,15240,5040,2160,854
+1960,8851,2587,4762,4961,4035,17780,10550,5460,1219
+1970,11066,4118,6275,7269,5723,22850,16770,14310,2167
+1980,12305,7607,6710,9869,8002,26970,22360,19550,4509
+1990,9810,8645,8607,10238,8338,35430,28010,30340,10656
+2000,12377,10184,14313,12671,10566,45380,36930,33700,22055
+2010,18419,14546,19268,14820,14523,49270,41030,36050,32412
+2018,18556,14282,24468,17336,15734,55335,47502,39800,38110
