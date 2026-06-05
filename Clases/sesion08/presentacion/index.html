@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía Internacional - Clase 8</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}, {left: '\\[', right: '\\]', display: true}]});"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .slides-container { width: 100%; height: 100%; position: relative; }
+    .slide {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+    .footer {
+      position: fixed; bottom: 15px; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      padding: 0 25px; font-size: 0.85rem; color: #4B5563; z-index: 100;
+    }
+    body.print-mode { overflow: auto !important; height: auto !important; }
+    body.print-mode .slides-container { height: auto !important; position: relative !important; }
+    body.print-mode .slide {
+      position: relative !important; opacity: 1 !important; visibility: visible !important;
+      page-break-after: always !important; margin-bottom: 20px !important;
+      border: 1px solid #e5e7eb !important; top: auto !important; left: auto !important;
+    }
+    body.print-mode .footer { display: none !important; }
+    body.print-mode .prog-step { display: flex !important; }
+    body.print-mode .step-indicator { display: none !important; }
+    .print-banner {
+      display: none; background: #1F4E79; color: white;
+      padding: 10px 20px; text-align: center; font-size: 0.9rem;
+    }
+    body.print-mode .print-banner { display: block !important; position: relative !important; }
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { overflow: visible !important; height: auto !important; }
+      .slides-container { height: auto !important; display: block !important; }
+      .slide {
+        position: relative !important; opacity: 1 !important; visibility: visible !important;
+        page-break-after: always !important; border: none !important; margin: 0 !important;
+        top: auto !important; left: auto !important; width: 100% !important; height: 100vh !important;
+      }
+      .footer, .print-banner { display: none !important; }
+      .prog-step { display: flex !important; }
+      .step-indicator { display: none !important; }
+      .slide img, .slide ul { animation: none !important; }
+      [data-bi] { display: list-item !important; }
+    }
+    /* Transitions for graphic slides */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInSoft {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .slide.active img {
+      animation: fadeSlideUp 0.7s ease-out 0.15s both;
+    }
+    .slide.active ul {
+      animation: fadeInSoft 0.5s ease-out 0.3s both;
+    }
+    body.print-mode .slide img,
+    body.print-mode .slide ul { animation: none !important; opacity: 1 !important; }
+    body.print-mode [data-bi] { display: list-item !important; }
+    /* Two-column layout for dense slides */
+    .dos-columnas { column-count: 2; column-gap: 40px; }
+    .dos-columnas > li { break-inside: avoid; }
+  </style>
+</head>
+<body>
+
+<div class="print-banner">
+  MODO IMPRESIÓN - <strong>P</strong> para volver | <strong>Ctrl+P</strong> para PDF
+</div>
+
+<div class="slides-container">
+
+
+  <!-- SLIDE 1: Economía Internacional — Clase 8 -->
+
+  <section class="slide active" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.2rem; font-weight: 600; margin: 0 0 20px 0;">
+      Economía Internacional — Clase 8
+    </h1>
+    <div style="color: #111827; font-size: 1.5rem; margin: 0 0 30px 0;">
+      Empresas transnacionales, IED y cadenas globales de valor
+    </div>
+    <div style="color: #4B5563; font-size: 1.2rem; margin: 0 0 15px 0;">4 de junio de 2026</div>
+    <div style="color: #4B5563; font-size: 1.15rem;">
+      UMET - Licenciatura en Economía | 2026
+    </div>
+  </section>
+
+  <!-- SLIDE 2: Lo que dejamos en S7 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Lo que dejamos en S7
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cerramos U4 con tres respuestas heterodoxas — hoy abrimos U5 con otra pregunta</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Emmanuel — intercambio desigual</strong>: el comercio transfiere valor de la periferia al centro vía diferencias salariales — <em>"los pobres son pobres porque les pagan poco por lo que producen"</em></li>
+<li style="margin-bottom: 12px;"><strong>Ventajas dinámicas (List, Kaldor)</strong>: las ventajas comparativas se <strong>construyen</strong> produciendo (learning by doing), no se heredan</li>
+<li style="margin-bottom: 12px;"><strong>Neoschumpeterianos</strong>: el desarrollo depende de <strong>capacidades tecnológicas</strong> acumuladas — complejidad económica (Hidalgo-Hausmann), desindustrialización prematura (Rodrik)</li>
+<li style="margin-bottom: 12px;"><strong>Brecha salarial global (S7)</strong>: China pasó de &lt; 2 USD/h en 2005 a &gt; 6.5 en 2023 → estrategia <em>China+1</em> (Vietnam, Bangladesh, México)</li>
+<li style="margin-bottom: 12px;">Quedaron preguntas: ¿quién organiza esa producción global? ¿Cómo se distribuye el valor dentro de la cadena? → <strong>eso responde la Unidad 5</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 3: La pregunta de la Unidad 5 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px 80px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2.2rem; font-weight: 600; margin: 0 0 30px 0; text-align: center;">
+      La pregunta de la Unidad 5
+    </h2>
+    <ul style="font-size: 1.2rem; color: #111827; line-height: 1.7; padding-left: 1.5em; text-align: left; max-width: 80%;">
+<li style="margin-bottom: 12px;"><em>¿Cómo cambia la teoría del comercio internacional cuando la unidad de análisis deja de ser el país y pasa a ser la <strong>firma transnacional</strong>?</em></li>
+<li style="margin-bottom: 12px;">Tres respuestas equivalen a tres corpus teóricos:</li>
+<li style="margin-bottom: 12px;"><strong>Teoría de la ETN</strong> (Hymer, Dunning, Buckley &amp; Casson): por qué las firmas se internacionalizan</li>
+<li style="margin-bottom: 12px;"><strong>Comercio intra-firma + fragmentación productiva</strong> (Grossman &amp; Rossi-Hansberg): el comercio mundial se vuelve comercio de tareas</li>
+<li style="margin-bottom: 12px;"><strong>Cadenas globales de valor</strong> (Gereffi): cómo se organiza y cómo se distribuye el valor</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 4: ¿Qué vamos a ver hoy? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 50px 60px;
+  ">
+    <h2 style="color: #1F4E79; font-size: 2rem; font-weight: 600; margin: 0 0 30px 0;">
+      ¿Qué vamos a ver hoy?
+    </h2>
+    <ul style="font-size: 1.3rem; color: #111827; line-height: 1.6; padding-left: 1.5em;">
+<li style="margin-bottom: 15px;"><strong>Bloque 1 — Puente</strong>: ¿alcanza con mirar solo países? Lo que las teorías tradicionales dejan sin explicar</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 2 — Teoría de la ETN</strong>: Mundell, Hymer, Buckley &amp; Casson, Dunning OLI</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 3 — IED en profundidad</strong>: definición, motivaciones (4 tipos), modos de entrada, datos globales y argentinos</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 4 — Comercio intra-firma + fragmentación</strong>: precios de transferencia, offshoring, comercio de tareas</li>
+<li style="margin-bottom: 15px;"><strong>Bloque 5 — CGV intro</strong>: Gereffi, participación, gobernanza, smile curve, upgrading</li>
+<li style="margin-bottom: 15px;"><strong>Cierre</strong>: síntesis + lecturas U5 + guía S9</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 5: Bloque 1 — ¿Alcanza con mirar solo países? -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 1 — ¿Alcanza con mirar solo países?
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Pregunta del bloque: ¿la teoría del comercio puede seguir tratando al país como única unidad de análisis?</div>
+  </section>
+
+  <!-- SLIDE 6: Lo que respondieron las teorías que vimos -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Lo que respondieron las teorías que vimos
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cinco respuestas distintas a la misma pregunta</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Ricardo (U2)</strong> — diferencias de <strong>productividad relativa</strong>: cada país se especializa donde tiene ventaja comparativa</li>
+<li style="margin-bottom: 10px;"><strong>Heckscher-Ohlin (U2)</strong> — diferencias en <strong>dotación factorial</strong>: cada país exporta lo que usa intensivamente de su factor abundante</li>
+<li style="margin-bottom: 10px;"><strong>Krugman (U3)</strong> — <strong>economías de escala</strong> + diferenciación: países similares comercian variedades dentro de los mismos sectores</li>
+<li style="margin-bottom: 10px;"><strong>Melitz (U3)</strong> — <strong>firmas heterogéneas</strong>: dentro de cada sector, solo las firmas más productivas exportan</li>
+<li style="margin-bottom: 10px;"><strong>Estructuralistas + neoschumpeterianos (U4)</strong> — el comercio reproduce <strong>estructuras desiguales</strong> centro-periferia</li>
+<li style="margin-bottom: 10px;"><strong>Pero todas estas teorías comparten un supuesto</strong>: la unidad de análisis es el <strong>país</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 7: Tres hechos que rompen la imagen de "países que comercian" -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Tres hechos que rompen la imagen de "países que comercian"
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">La empresa global aparece como actor irreductible</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Hecho 1 — Una porción del comercio mundial es intra-firma</strong>: filiales de la misma ETN comerciando entre sí. UNCTAD estima que ~80% del comercio mundial pasa por cadenas coordinadas por ETN, y ~33% es comercio intra-firma puro</li>
+<li style="margin-bottom: 12px;"><strong>Hecho 2 — Los productos no son "de un país"</strong>: un iPhone tiene chips de Corea, lentes de Japón, ensamblaje en China, software de EE.UU., baterías de China. ¿De qué país es?</li>
+<li style="margin-bottom: 12px;"><strong>Hecho 3 — Las ETN son comparables a Estados</strong>: las ventas de Walmart (~USD 650 mil millones) superan el PIB de cualquier país de AL salvo Brasil y México</li>
+<li style="margin-bottom: 12px;"><strong>Implicancia teórica</strong>: hay un actor — la <strong>empresa transnacional</strong> — cuya escala y poder no es captado por las teorías centradas en países</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 8: La unidad de análisis se desplaza -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      La unidad de análisis se desplaza
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cuatro niveles que conviven en el comercio internacional</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Nivel país</strong> (Ricardo, H-O, Prebisch): ventajas comparativas, dotaciones, posición estructural</li>
+<li style="margin-bottom: 10px;"><strong>Nivel firma</strong> (Melitz, Hymer, Dunning): heterogeneidad, ventajas específicas, decisión de internacionalización</li>
+<li style="margin-bottom: 10px;"><strong>Nivel red</strong> (Gereffi, UNCTAD): cadena de valor, gobernanza, posición en la red productiva</li>
+<li style="margin-bottom: 10px;"><strong>Nivel tarea</strong> (Grossman &amp; Rossi-Hansberg): la decisión de qué actividad realizar dónde y por quién</li>
+<li style="margin-bottom: 10px;"><strong>No se reemplazan — se superponen</strong>: cada teoría ilumina un aspecto. La novedad es agregar firmas, redes y tareas, no descartar países</li>
+<li style="margin-bottom: 10px;"><strong>Argentina exporta soja (país, Ricardo) pero también Cargill exporta soja desde Argentina (firma, Dunning) en una cadena que termina en una procesadora en China (red, Gereffi) cumpliendo la tarea de "abastecer de aceite vegetal" (tarea, G&amp;RH)</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 9: Bloque 2 — Teoría de la ETN -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 2 — Teoría de la ETN
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Pregunta del bloque: ¿por qué una empresa decide producir afuera en vez de exportar desde su país?</div>
+  </section>
+
+  <!-- SLIDE 10: La mirada neoclásica: IED como movimiento de capital -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      La mirada neoclásica: IED como movimiento de capital
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">El marco que Hymer va a romper</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Robert Mundell (1957)</strong> — <em>International Trade and Factor Mobility</em> — extiende H-O</li>
+<li style="margin-bottom: 12px;"><strong>Pregunta</strong>: si los <strong>factores de producción</strong> pueden moverse entre países, ¿qué pasa con el comercio?</li>
+<li style="margin-bottom: 12px;"><strong>Resultado teórico</strong>: bajo supuestos H-O, <strong>IED y comercio son sustitutos perfectos</strong>
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">Si el capital fluye desde el país abundante en capital al país abundante en trabajo, los salarios y la tasa de retorno se igualan internacionalmente</li>
+<li style="margin-bottom: 4px;">El comercio que antes existía ya no es necesario: el mismo equilibrio se alcanza con movilidad de factores</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Implicancia neoclásica</strong>: la IED es una variable de <strong>arbitraje financiero</strong> — el capital va donde la tasa de retorno es mayor</li>
+<li style="margin-bottom: 12px;"><strong>El problema</strong>: la firma es una <strong>caja negra</strong>. La teoría no distingue entre flujo de capital (financiero) y flujo de control productivo (la IED real)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 11: Stephen Hymer — la ruptura fundacional -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Stephen Hymer — la ruptura fundacional
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../img/hymer_retrato.jpg" alt="Stephen Hymer — la ruptura fundacional"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Wikipedia / archivo MIT</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Economista canadiense</strong>, doctorado en MIT bajo la dirección de Charles Kindleberger</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Tesis doctoral 1960</strong>: <em>The International Operations of National Firms</em> — durante años ignorada por el mainstream</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Murió joven a los 39 años</strong> en accidente de tránsito (1974); su tesis fue publicada póstumamente en <strong>1976</strong></li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Tradición marxista</strong>: leyó a Marx, Baran, Sweezy; pensaba a la ETN como instrumento de <strong>poder oligopólico</strong></li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Idea central</strong>: la IED <strong>no es flujo financiero</strong>; es <strong>decisión estratégica de control</strong> de mercados, tecnología y proveedores</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Cita memorable</strong>: <em>"el capital extranjero no es solo capital; es marca, tecnología, organización y poder de mercado"</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 12: ¿Por qué una firma extranjera supera la desventaja de operar afuera? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      ¿Por qué una firma extranjera supera la desventaja de operar afuera?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Hymer: necesita ventajas propias que compensen</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Desventaja inherente</strong> de la firma extranjera: no conoce mercado, regulación, cultura, redes locales</li>
+<li style="margin-bottom: 10px;"><strong>Pregunta de Hymer</strong>: si la desventaja existe, ¿por qué hay tantas IED?</li>
+<li style="margin-bottom: 10px;"><strong>Respuesta</strong>: las ETN tienen <strong>ventajas específicas</strong> que compensan — tangibles (tecnología, patentes, escala) e intangibles (marca, management, redes)</li>
+<li style="margin-bottom: 10px;"><strong>Crítica al marco neoclásico</strong>: la IED NO es arbitraje de tasas — es <strong>ejercicio de poder oligopólico</strong></li>
+<li style="margin-bottom: 10px;"><strong>Objetivo real</strong>: no solo rentabilidad — es <strong>control</strong> del mercado, de tecnología, de proveedores</li>
+<li style="margin-bottom: 10px;"><strong>Implicancia política</strong>: asimetría de poder entre ETN y Estados periféricos receptores</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 13: ¿Por qué internalizar en vez de contratar? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      ¿Por qué internalizar en vez de contratar?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Una firma se vuelve ETN cuando el mercado externo falla</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Buckley &amp; Casson (1976)</strong> — <em>The Future of the Multinational Enterprise</em></li>
+<li style="margin-bottom: 10px;"><strong>Base teórica</strong>: Coase (1937) + Williamson (1975) — <strong>costos de transacción</strong></li>
+<li style="margin-bottom: 10px;"><strong>Pregunta</strong>: si la firma tiene ventaja específica, ¿por qué no <strong>licencia</strong> en vez de abrir filial?</li>
+<li style="margin-bottom: 10px;"><strong>Respuesta</strong>: porque los mercados de intangibles <strong>fallan</strong>. La ETN internaliza cuando hay:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Conocimiento tácito</strong> que no se empaqueta + <strong>activos intangibles</strong> vulnerables (marca, patentes)</li>
+<li style="margin-bottom: 4px;"><strong>Bienes complejos</strong> de calidad inverificable + <strong>riesgo contractual</strong> alto</li>
+</ul></li>
+<li style="margin-bottom: 10px;"><strong>Implicancia</strong>: la <strong>frontera de la firma</strong> se expande internacionalmente cuando el mercado falla</li>
+<li style="margin-bottom: 10px;"><strong>Rugman (1981)</strong> lo extendió como base de la teoría dominante de la ETN</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 14: John Dunning — el sintetizador -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      John Dunning — el sintetizador
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../img/dunning_retrato.jpg" alt="John Dunning — el sintetizador"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Wikipedia / University of Reading</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Economista británico</strong> — Universidades de Reading y Rutgers durante 40+ años</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Padre de la "teoría ecléctica"</strong> de la producción internacional</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Trabajo seminal</strong>: <em>Trade, Location of Economic Activity and the Multinational Enterprise</em> (1977)</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Idea central</strong>: la IED ocurre cuando se combinan <strong>simultáneamente</strong> tres ventajas — Ownership, Location, Internalization (<strong>OLI</strong>)</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Marco integrador</strong>: Ownership (Hymer) + Location (teoría tradicional) + Internalization (Buckley &amp; Casson, Coase)</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Influencia</strong>: el marco OLI es hoy el lenguaje estándar de UNCTAD, OECD y banca multilateral</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 15: Tres ventajas que tienen que combinarse simultáneamente -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Tres ventajas que tienen que combinarse simultáneamente
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Ownership + Location + Internalization</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>O — Ownership</strong>: ventajas específicas de la firma (Hymer) — tecnología, marca, escala, management</li>
+<li style="margin-bottom: 12px;"><strong>L — Location</strong>: ventajas del país receptor — recursos, mercado, salarios, instituciones, acuerdos</li>
+<li style="margin-bottom: 12px;"><strong>I — Internalization</strong>: conviene internalizar vs licenciar (Buckley &amp; Casson) — control de calidad, conocimiento tácito</li>
+<li style="margin-bottom: 12px;"><strong>Lógica decisional</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">Solo <strong>O</strong> → la firma <strong>exporta</strong></li>
+<li style="margin-bottom: 4px;"><strong>O + L</strong> → produce afuera pero <strong>licencia</strong></li>
+<li style="margin-bottom: 4px;"><strong>O + L + I</strong> → <strong>IED con filial propia</strong> (la firma se vuelve ETN)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Clave</strong>: las tres tienen que combinarse <strong>simultáneamente</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 16: ¿Qué busca la firma cuando invierte afuera? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      ¿Qué busca la firma cuando invierte afuera?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cuatro tipos de IED por motivación</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Resource-seeking</strong> — acceso a recursos naturales (Vaca Muerta, litio NOA, agronegocios pampeanos)</li>
+<li style="margin-bottom: 10px;"><strong>Market-seeking</strong> — producir cerca del consumidor (automotrices Mercosur, bancos, retail)</li>
+<li style="margin-bottom: 10px;"><strong>Efficiency-seeking</strong> — bajar costos / fragmentar producción (maquilas México, electrónica Vietnam)</li>
+<li style="margin-bottom: 10px;"><strong>Strategic-asset-seeking</strong> — adquirir conocimiento o marcas (compras chinas de tech europea, Mercado Libre)</li>
+<li style="margin-bottom: 10px;"><strong>Implicancia para el desarrollo</strong>: el <strong>tipo de IED</strong> determina el efecto sobre el país receptor</li>
+<li style="margin-bottom: 10px;"><em>Resource/market</em> dan empleo pero pocas capacidades; <em>efficiency</em> fragmenta pero captura poco; <em>strategic-asset</em> transfiere tecnología si hay capacidades absortivas locales</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 17: ¿Quién es más grande, Walmart o Argentina? -->
+
+  <section class="slide" data-bullets="7" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      ¿Quién es más grande, Walmart o Argentina?
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/top_etn_vs_pib_paises.png" alt="¿Quién es más grande, Walmart o Argentina?"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Fortune Global 500 (2024); Banco Mundial WDI (2024); UNCTAD WIR (2013, 2024)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Walmart</strong> (USD 648 mil M) <strong>&gt;</strong> PIB de Argentina (USD 638 mil M, 2024)</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Amazon</strong> (USD 575 mil M) <strong>&gt;</strong> PIB de Colombia + Chile combinados</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Saudi Aramco</strong> (USD 495 mil M) <strong>&gt;</strong> PIB de Chile + Perú combinados</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Apple</strong> (USD 383 mil M) <strong>&gt;</strong> PIB de Perú + Ecuador combinados</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Top 500 empresas globales (Fortune Global 500 2024)</strong> facturan <strong>USD 41 billones</strong> en conjunto — equivalente al <strong>38% del PIB mundial</strong> — y emplean <strong>70,5 millones de personas</strong></li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>UNCTAD (WIR 2013)</strong>: ~<strong>80%</strong> del comercio mundial pasa por cadenas de valor coordinadas por ETN; ~1/3 es <strong>comercio intra-firma</strong> (entre filiales de la misma empresa)</li>
+<li data-bi="6" style="display: none; margin-bottom: 6px;"><strong>Implicancia</strong>: las ETN no son agentes neutrales del mercado — son <strong>actores con poder estatal</strong> comparable</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 18: Bloque 3 — IED en profundidad -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 3 — IED en profundidad
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Pregunta del bloque: ¿cómo se mide, dónde está, qué efectos tiene la IED en el mundo y en Argentina?</div>
+  </section>
+
+  <!-- SLIDE 19: Tres formas de cruzar la frontera económicamente — solo una es IED -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Tres formas de cruzar la frontera económicamente — solo una es IED
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Definición y distinciones conceptuales</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Exportación</strong>: vender al exterior — sin propiedad ni control</li>
+<li style="margin-bottom: 10px;"><strong>Inversión de cartera</strong>: comprar acciones o bonos — propiedad parcial sin control</li>
+<li style="margin-bottom: 10px;"><strong>IED</strong>: inversión que <strong>controla o influye de modo duradero</strong> una empresa en otro país
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">Umbral FMI/OECD: <strong>≥10% del capital con voto</strong> — componentes: aporte + reinversión + deuda intra-firma</li>
+</ul></li>
+<li style="margin-bottom: 10px;"><strong>Greenfield</strong> (planta nueva) vs <strong>M&amp;A</strong> (compra de empresa existente) — globalmente 2/3 son M&amp;A</li>
+<li style="margin-bottom: 10px;"><strong>Horizontal</strong> (Toyota Brasil = Toyota Japón) vs <strong>Vertical</strong> (Apple: diseño EE.UU., ensamble China)</li>
+<li style="margin-bottom: 10px;"><em>NO es IED</em>: préstamos, bonos, especulación cambiaria, exportación, licencias</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 20: Cuatro décadas de IED mundial -->
+
+  <section class="slide" data-bullets="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Cuatro décadas de IED mundial
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/flujos_ied_mundiales_1990_2024.png" alt="Cuatro décadas de IED mundial"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: UNCTAD World Investment Report (varios años)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Hitos</strong>: 1990 (USD 203 mil M, inicio serie) → 2000 (1.400, <strong>dot-com</strong>) → 2007 (<strong>1.833, récord</strong>) → 2015 (1.760, 2º pico) → 2020 (caída COVID) → 2023 (1.300, -2%) → 2024 (1.500, +4%)</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Patrón 1</strong>: entre 1990-2007 la IED creció más rápido que el comercio</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Patrón 2 (post-2015)</strong>: <strong>slowbalization</strong> — estancamiento estructural</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Causas</strong>: Brexit (2016) + guerra comercial EE.UU.-China (2018) + COVID + guerra en Ucrania</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 21: AL recibió USD 189 mil millones en 2024 -->
+
+  <section class="slide" data-bullets="4" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      AL recibió USD 189 mil millones en 2024
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/ied_america_latina_2024.png" alt="AL recibió USD 189 mil millones en 2024"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: CEPAL — La Inversión Extranjera Directa en América Latina y el Caribe 2025 (publicado 2025)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Total AL 2024</strong>: USD <strong>188.962 millones</strong> (+7,1% vs 2023)</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Por país receptor</strong>: Brasil 38% (+14%), México 24% (+48% por nearshoring), Colombia 7% (-15%), Chile 7% (-32%), <strong>Argentina 6% (-53%)</strong> — la caída más fuerte</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Por país de origen</strong>: EE.UU. <strong>38%</strong> (sigue liderando), Europa ~25%, China crece en recursos</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Por sector</strong>: Manufactura <strong>43,6%</strong> (impulsada por nearshoring mexicano), Servicios 40,4%, Recursos naturales 16%</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 22: USD 127.500 millones de stock — quién invierte y dónde -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      USD 127.500 millones de stock — quién invierte y dónde
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/ied_argentina_origen_sector.png" alt="USD 127.500 millones de stock — quién invierte y dónde"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: BCRA — Informe de Inversión Extranjera Directa, 4T 2023</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Stock total IED en Argentina</strong> (cierre 2023): <strong>USD 127.556 millones</strong> = Capital 77 mil M + Deuda intra-firma 50 mil M</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Top 3 países de origen</strong>: EE.UU. 19%, España 14%, Países Bajos 11%* — los 3 juntos ~44%</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Por sector (stock)</strong>: Manufactura lidera con USD 49 mil M, sigue petróleo/gas/minería (Vaca Muerta + litio), financiero y servicios</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Flujos 2023</strong>: USD 22.352 M = solo 7% capital fresco + reinversión + deuda intra-firma</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Importante</strong>: la mayoría de la IED es <strong>reinversión</strong> y deuda interna, no capital nuevo</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><em>Países Bajos = triangulación financiera vía holdings, no IED industrial real</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 23: La IED Sur-Sur — el caso latinoamericano -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      La IED Sur-Sur — el caso latinoamericano
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Empresas latinoamericanas que se internacionalizaron</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Ranking BCG 2018 (top 100 multilatinas)</strong>: México 28, Brasil 26, Chile 18, Colombia 11, <strong>Argentina 9</strong>, Perú 5</li>
+<li style="margin-bottom: 12px;"><strong>Multilatinas argentinas clave</strong>: Techint-Tenaris (30+ países), Arcor (4 continentes), Mercado Libre (18 países AL), Globant (30+ países)</li>
+<li style="margin-bottom: 12px;"><strong>Composición regional cambió</strong>: commodities pasó de 12% (2009) a 7% (2018); bienes de consumo de 31% a 44%</li>
+<li style="margin-bottom: 12px;"><strong>Patrón</strong>: primero regionales (AL), después globales — Sur-Sur emergente</li>
+<li style="margin-bottom: 12px;"><strong>Importancia teórica</strong>: OLI suponía ETN del Norte; las multilatinas obligaron a <strong>reformular</strong> el marco con "ventajas Sur-específicas"</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 24: El debate estructuralista: oportunidad o subordinación -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      El debate estructuralista: oportunidad o subordinación
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Kulfas-Porta-Ramos + Chudnovsky-López — la lectura desde AL</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Pregunta</strong>: ¿la IED transfiere tecnología y desarrolla la economía local?</li>
+<li style="margin-bottom: 10px;"><strong>Mirada optimista (UNCTAD/BM/OECD)</strong>: IED aporta capital, tecnología, empleo, divisas, eslabonamientos</li>
+<li style="margin-bottom: 10px;"><strong>Mirada crítica latinoamericana</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Kulfas, Porta, Ramos</strong>: IED en AL <strong>selectiva</strong> — concentrada en recursos y servicios, baja transferencia</li>
+<li style="margin-bottom: 4px;"><strong>Chudnovsky &amp; López</strong>: IED puede generar <strong>enclaves</strong> sin spillovers a la economía local</li>
+</ul></li>
+<li style="margin-bottom: 10px;"><strong>Factor decisivo</strong>: las <strong>capacidades absortivas</strong> previas del país receptor</li>
+<li style="margin-bottom: 10px;"><strong>Caso comparado</strong>: Corea (1960-90) — IED selectiva + política industrial → Samsung/Hyundai. Argentina ISI — IED automotriz sin política de proveedores → 60 años con balanza sectorial deficitaria</li>
+<li style="margin-bottom: 10px;"><strong>Implicancia política</strong>: el <strong>TIPO</strong> de IED y la <strong>POLÍTICA</strong> importan más que el monto</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 25: Bloque 4 — Comercio intra-firma y fragmentación productiva -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 4 — Comercio intra-firma y fragmentación productiva
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Pregunta del bloque: ¿qué pasa cuando una parte importante del "comercio mundial" no es entre países sino dentro de las empresas?</div>
+  </section>
+
+  <!-- SLIDE 26: Una parte enorme del "comercio mundial" es interno a las empresas -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Una parte enorme del "comercio mundial" es interno a las empresas
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cuando las filiales se venden entre sí</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Comercio intra-firma</strong>: transacciones internacionales entre filiales de <strong>una misma ETN</strong></li>
+<li style="margin-bottom: 12px;">Aparecen como importaciones/exportaciones en las estadísticas — pero NO son operaciones de mercado</li>
+<li style="margin-bottom: 12px;"><strong>Estimaciones (UNCTAD)</strong>: ~<strong>80%</strong> del comercio mundial pasa por cadenas ETN; ~<strong>33%</strong> es intra-firma estricto. EE.UU.: 48% importaciones y 30% exportaciones son intra-firma (Lanz-Miroudot 2011)</li>
+<li style="margin-bottom: 12px;"><strong>Ejemplo argentino</strong>: comercio automotor ARG-BRA está dominado por VW↔VW, Ford↔Ford, GM↔GM</li>
+<li style="margin-bottom: 12px;"><strong>Por qué importa teóricamente</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">El precio lo decide internamente la corporación, no el mercado</li>
+<li style="margin-bottom: 4px;">Las estadísticas bilaterales <strong>engañan</strong> sobre el comercio entre países</li>
+<li style="margin-bottom: 4px;">Las regulaciones se pueden eludir vía <strong>precios de transferencia</strong></li>
+</ul></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 27: Cómo una empresa optimiza tributariamente sin pasar por el mercado -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Cómo una empresa optimiza tributariamente sin pasar por el mercado
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">El caso que la UE definió en 2024</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Precio de transferencia</strong>: precio que una filial cobra a otra del <strong>mismo grupo</strong></li>
+<li style="margin-bottom: 12px;"><strong>Problema</strong>: sin contraparte independiente, sirve para <strong>mover ganancias contables</strong> entre jurisdicciones</li>
+<li style="margin-bottom: 12px;"><strong>Caso Apple-Irlanda (1991-2014)</strong>: ingresos de Europa+África+India canalizados vía Irlanda → tasa efectiva <strong>&lt;1%</strong></li>
+<li style="margin-bottom: 12px;"><strong>Resolución judicial</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">2016: Comisión Europea ordena recuperar <strong>EUR 13.000 M</strong> por ayuda estatal ilegal</li>
+<li style="margin-bottom: 4px;">2020: Tribunal General anula la decisión</li>
+<li style="margin-bottom: 4px;"><strong>10/sep/2024</strong>: TJUE (Gran Sala) <strong>confirma definitivamente</strong> la orden de 2016 — Apple paga</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>OECD BEPS</strong> (Pilar 1 + Pilar 2): <strong>impuesto mínimo global del 15%</strong> — 140+ países adheridos</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 28: El producto final ya no se hace en un solo país -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      El producto final ya no se hace en un solo país
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">La cadena productiva se descompone en etapas localizadas geográficamente</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Tradicionalmente</strong>: un país producía el bien <strong>completo</strong> (autos, ropa, electrónica) y lo exportaba</li>
+<li style="margin-bottom: 12px;"><strong>Hoy</strong>: cada etapa puede estar en un país distinto — diseño → insumos → componentes → ensamble → logística → marketing</li>
+<li style="margin-bottom: 12px;"><strong>El comercio mundial cambia</strong>: ya no son <strong>bienes finales</strong> sino <strong>partes, componentes, servicios y tareas</strong></li>
+<li style="margin-bottom: 12px;"><strong>Dato clave</strong>: hoy ~<strong>70%</strong> del comercio mundial es de bienes intermedios, no de bienes finales</li>
+<li style="margin-bottom: 12px;"><strong>Ejemplos</strong>: un Boeing 787 tiene componentes de <strong>70 países</strong>; un auto moderno tiene partes de 20-30</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 29: Cuatro combinaciones posibles -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Cuatro combinaciones posibles
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Retomando Grossman &amp; Rossi-Hansberg (S5)</div>
+    <ul style="font-size: 1.0rem; color: #111827; line-height: 1.45; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;"><strong>Dos decisiones simultáneas</strong> que toma la firma sobre cada tarea:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>¿Dónde?</strong> Doméstico vs Extranjero</li>
+<li style="margin-bottom: 4px;"><strong>¿Quién?</strong> Propio (interno) vs Tercero (externo)</li>
+</ul></li>
+<li style="margin-bottom: 10px;"><strong>Cuatro combinaciones</strong>:</li>
+<li style="margin-bottom: 10px;"><strong>Offshoring</strong>: trasladar la actividad afuera, pero MANTENIENDO el control (filial propia)</li>
+<li style="margin-bottom: 10px;"><strong>Outsourcing</strong>: tercerizar la actividad a otra empresa, sea acá o afuera</li>
+<li style="margin-bottom: 10px;"><strong>Outsourcing offshore (offshore outsourcing)</strong>: doble decisión — afuera Y a un tercero</li>
+<li style="margin-bottom: 10px;"><strong>Ejemplo</strong>: Apple diseña iPhones internamente (interno + doméstico), ensambla afuera en Foxconn (outsourcing offshore), tiene tiendas propias en muchos países (offshoring)</li>
+<li style="margin-bottom: 10px;"><strong>Conexión con OLI</strong>: la decisión "interno vs externo" es la <strong>I de Internalización</strong> de Dunning</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 30: Sin diferencias salariales, no habría fragmentación productiva masiva -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Sin diferencias salariales, no habría fragmentación productiva masiva
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Retomando S7 — China + 1 y la era de la deslocalización</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;">Motor de la fragmentación: las <strong>diferencias salariales</strong> hacen que la misma tarea cueste muy distinto</li>
+<li style="margin-bottom: 12px;"><strong>Salarios industriales por hora (~2023)</strong>: Alemania 38 | EE.UU. 30 | Japón 25 | China 6,5 (era 2 en 2005) | Vietnam 2-3 | India 1,5-2 | Bangladesh 1-1,5</li>
+<li style="margin-bottom: 12px;"><strong>China + 1</strong>: China dejó de ser el más barato (salarios x3 desde 2005) → empresas diversifican hacia Vietnam, Indonesia, India, México</li>
+<li style="margin-bottom: 12px;"><strong>Nearshoring</strong> (2018+): tensiones EE.UU.-China + COVID + Ucrania → México hacia EE.UU., Polonia hacia UE</li>
+<li style="margin-bottom: 12px;"><strong>Emmanuel revisitado</strong>: la fragmentación <strong>reproduce</strong> la transferencia de valor — quien ensambla captura poco, quien diseña captura mucho</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 31: Bloque 5 — Cadenas globales de valor -->
+
+  <section class="slide" style="
+    background-color: #1F4E79;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  ">
+    <h1 style="color: #FFFFFF; font-size: 3.5rem; font-weight: 600; text-align: center; padding: 0 60px;">
+      Bloque 5 — Cadenas globales de valor
+    </h1>
+    <div style="color: #E0F2FE; font-size: 1.5rem; margin-top: 20px;">Pregunta del bloque: ¿cómo se organiza, gobierna y distribuye el valor en la producción mundial fragmentada?</div>
+  </section>
+
+  <!-- SLIDE 32: Conjunto de actividades necesarias para llevar un producto desde la concepción hasta el consumo final -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Conjunto de actividades necesarias para llevar un producto desde la concepción hasta el consumo final
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Distribuidas entre distintos países y empresas — coordinadas por una "empresa líder"</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Cadena de valor</strong> (Porter, 1985): secuencia de actividades de una empresa, del insumo a la venta</li>
+<li style="margin-bottom: 12px;"><strong>Cadena global de valor</strong> (Gereffi, 1994-): cuando la cadena se <strong>distribuye internacionalmente</strong> y la coordina una <strong>empresa líder</strong></li>
+<li style="margin-bottom: 12px;"><strong>Actividades típicas</strong>: I+D y diseño → insumos → componentes → ensamble → logística → marketing → comercialización → postventa</li>
+<li style="margin-bottom: 12px;"><strong>Características clave</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Múltiples países</strong> + <strong>múltiples empresas</strong> (filiales propias + proveedores)</li>
+<li style="margin-bottom: 4px;"><strong>Empresa líder</strong> coordina (Apple, Toyota, Nike, Walmart)</li>
+<li style="margin-bottom: 4px;"><strong>División del trabajo cognitivo</strong> — cada etapa requiere capacidades distintas</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Bibliografía clave</strong>: Gereffi (2001) en `bibliografia/unidad5/`</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 33: Dos formas de participar en una cadena global -->
+
+  <section class="slide" data-bullets="5" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Dos formas de participar en una cadena global
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/cgv_participacion_paises.png" alt="Dos formas de participar en una cadena global"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: OECD TiVA Database 2023 (datos 2020); fichas país TiVA</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Hacia atrás (Backward)</strong>: % de <strong>valor agregado extranjero</strong> en las exportaciones — cuán "ensamblador" es el país</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Hacia adelante (Forward)</strong>: % de exportaciones que se usan como <strong>insumo en exports de otros</strong> — cuán "proveedor" es</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Indicador integrado</strong>: participación total = backward + forward</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Patrones típicos</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Asia manufacturera</strong> (Vietnam, Corea, Chequia): backward altísima — ensamblan</li>
+<li style="margin-bottom: 4px;"><strong>AL extractiva</strong> (Argentina, Chile, Brasil): forward alta, backward baja — proveen commodities</li>
+<li style="margin-bottom: 4px;"><strong>Desarrollados</strong> (Alemania, EE.UU.): forward alta + backward media — diseñan/proveen pero también importan</li>
+</ul></li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Brasil</strong>: valor agregado extranjero solo <strong>24,7%</strong> (vs promedio OECD 44,5%) — bajo encadenamiento</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 34: No alcanza con participar — importa DÓNDE participás -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      No alcanza con participar — importa DÓNDE participás
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Upstream / downstream + actividades de alto/bajo valor</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Upstream</strong>: etapas iniciales — recursos, insumos, conocimiento de base, tecnología fundamental</li>
+<li style="margin-bottom: 12px;"><strong>Downstream</strong>: etapas finales — ensamble, distribución, marca, comercialización</li>
+<li style="margin-bottom: 12px;"><strong>Ojo</strong>: la posición <strong>NO</strong> determina automáticamente el valor capturado
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">Upstream puede ser alto valor (TSMC) o bajo (soja argentina)</li>
+<li style="margin-bottom: 4px;">Downstream puede ser alto valor (Apple) o bajo (Foxconn)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Lo que importa es QUÉ se hace, no DÓNDE</strong>: conocimiento tácito, tecnología propia, control de marca, poder de mercado</li>
+<li style="margin-bottom: 12px;"><strong>Conexión OLI</strong>: las ventajas O dan <strong>poder de captura</strong> independientemente de la posición</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 35: ¿Cómo se coordina una CGV? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      ¿Cómo se coordina una CGV?
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Gereffi, Humphrey &amp; Sturgeon (2005) — la tipología clásica</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Pregunta de la gobernanza</strong>: ¿quién manda en la cadena? ¿Cómo se coordina la actividad de múltiples empresas en múltiples países?</li>
+<li style="margin-bottom: 12px;"><strong>Gereffi, Humphrey &amp; Sturgeon (2005)</strong> identificaron <strong>5 tipos</strong> de gobernanza, ordenados por <strong>grado de coordinación</strong>:</li>
+<li style="margin-bottom: 12px;"><strong>El factor clave</strong> que determina el tipo de gobernanza:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;">Complejidad de la transacción</li>
+<li style="margin-bottom: 4px;">Codificabilidad de la información</li>
+<li style="margin-bottom: 4px;">Capacidades del proveedor</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Implicación</strong>: la gobernanza define <strong>quién captura valor</strong> y quién tiene <strong>margen para aprender (upgrading)</strong></li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 36: No todas las actividades capturan el mismo valor -->
+
+  <section class="slide" data-bullets="6" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      No todas las actividades capturan el mismo valor
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/smile_curve.png" alt="No todas las actividades capturan el mismo valor"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Stan Shih (1992); Mudambi (2008)</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Concepto</strong>: en muchas CGV, las actividades de <strong>mayor valor agregado</strong> están en los <strong>extremos</strong>, no en el medio</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Extremos altos</strong>: pre-fabricación (I+D, diseño, propiedad intelectual) + post-fabricación (marca, marketing, plataformas)</li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Medio bajo</strong>: manufactura/ensamble — actividad codificable, replicable, muchos competidores</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Origen</strong>: Stan Shih (fundador de Acer, 1992) — formalizado por Mudambi (2008)</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Implicancia para el desarrollo</strong>: quien queda en el medio captura poco — el <strong>upgrading</strong> es moverse a los extremos</li>
+<li data-bi="5" style="display: none; margin-bottom: 6px;"><strong>Hoy la sonrisa se profundizó</strong>: digitalización amplificó el valor de plataformas y software vs hardware</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 37: Quién captura el valor de un iPhone de USD 1.000 -->
+
+  <section class="slide" data-bullets="5" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 20px 35px 15px 35px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.6rem; font-weight: 600; margin: 0 0 10px 0; flex-shrink: 0;">
+      Quién captura el valor de un iPhone de USD 1.000
+    </h2>
+    <div style="display: flex; flex: 1 1 auto; gap: 25px; min-height: 0; overflow: hidden;">
+      <div style="width: 62%; flex-shrink: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+        <img src="../graficos/iphone_value_chain.png" alt="Quién captura el valor de un iPhone de USD 1.000"
+             style="max-width: 100%; flex: 1 1 auto; object-fit: contain; min-height: 0;">
+        <div style="font-size: 0.7rem; color: #4B5563; font-style: italic; text-align: center; margin-top: 4px; flex-shrink: 0;">Fuente: Kraemer, Linden &amp; Dedrick (2011); Counterpoint Research; reportes corporativos Apple/Foxconn/TSMC</div>
+      </div>
+      <div style="flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-top: 5px;">
+        <ul style="font-size: 0.9rem; color: #111827; line-height: 1.45; margin: 0; padding-left: 1.2em;">
+<li data-bi="0" style="margin-bottom: 6px;"><strong>Estudio clásico</strong>: Kraemer, Linden &amp; Dedrick (UC Irvine, 2011) sobre el iPhone 4 (USD 549 retail)</li>
+<li data-bi="1" style="display: none; margin-bottom: 6px;"><strong>Distribución del valor</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.9em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Apple</strong>: ~58,5% (diseño + marca + software + márgenes)</li>
+<li style="margin-bottom: 4px;"><strong>Componentes Corea + Taiwán + Japón + EE.UU.</strong>: ~27%</li>
+<li style="margin-bottom: 4px;"><strong>Ensamble China (Foxconn)</strong>: solo ~<strong>3,6%</strong></li>
+</ul></li>
+<li data-bi="2" style="display: none; margin-bottom: 6px;"><strong>Implicancia geográfica</strong>: China aparece como "exportador" de iPhones pero captura una fracción ínfima — el valor queda en EE.UU. y Asia oriental</li>
+<li data-bi="3" style="display: none; margin-bottom: 6px;"><strong>Datos actuales</strong>: Foxconn fabrica ~65% de iPhones; Apple meta India 25% para 2026; TSMC hace ~90% de chips ≤7nm</li>
+<li data-bi="4" style="display: none; margin-bottom: 6px;"><strong>Lección teórica</strong>: las estadísticas bilaterales <strong>engañan</strong> sobre el valor real capturado</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 38: Cuatro estrategias para capturar más valor en una CGV -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Cuatro estrategias para capturar más valor en una CGV
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Humphrey &amp; Schmitz (2002) — la tipología clásica</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Upgrading</strong>: proceso por el cual un país/empresa <strong>mejora su posición</strong> dentro de una CGV</li>
+<li style="margin-bottom: 12px;"><strong>Humphrey &amp; Schmitz (2002) — 4 tipos</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>De proceso</strong>: producir más eficientemente (JIT, menos defectos)</li>
+<li style="margin-bottom: 4px;"><strong>De producto</strong>: mejorar calidad (ropa básica → premium)</li>
+<li style="margin-bottom: 4px;"><strong>Funcional</strong>: pasar a funciones más complejas (ensamble → diseño y marca)</li>
+<li style="margin-bottom: 4px;"><strong>Intersectorial</strong>: usar capacidades para otros sectores (textiles → equipamiento médico)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Casos</strong>: Corea (textil→chips→IA); Taiwán (ensamble→TSMC); China (ensamble→Huawei/BYD)</li>
+<li style="margin-bottom: 12px;"><strong>Límite clave</strong>: la empresa líder puede <strong>resistir</strong> el upgrading de sus proveedores</li>
+<li style="margin-bottom: 12px;"><strong>Facilita</strong>: política industrial + educación + capacidades absortivas + capital paciente</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 39: Lo que vimos hoy -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Lo que vimos hoy
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Cómo cambió la teoría del comercio al cambiar la unidad de análisis</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Teoría de la ETN</strong> (Hymer, Buckley &amp; Casson, Dunning): paradigma <strong>OLI</strong> + 4 motivaciones de IED (recursos, mercados, eficiencia, activos estratégicos)</li>
+<li style="margin-bottom: 12px;"><strong>Comercio intra-firma + fragmentación</strong>: ~80% del comercio mundial pasa por cadenas ETN, ~33% es intra-firma; precios de transferencia (Apple-Irlanda); offshoring + outsourcing</li>
+<li style="margin-bottom: 12px;"><strong>Cadenas globales de valor</strong> (Gereffi): participación backward/forward (TiVA), 5 tipos de gobernanza, smile curve + iPhone, upgrading (4 tipos)</li>
+<li style="margin-bottom: 12px;"><strong>Idea final</strong>: la teoría del comercio se <strong>complejiza</strong> — ya no alcanza con países y bienes; ahora necesitamos firmas, redes, poder, tareas y captura de valor</li>
+<li style="margin-bottom: 12px;"><strong>Pregunta abierta para S9</strong>: ¿cómo se inserta concretamente América Latina y Argentina en las CGV?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 40: Bibliografía Unidad 5 -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Bibliografía Unidad 5
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Disponible en `bibliografia/unidad5/`</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Obligatorias</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Lugones, G. (2008)</strong> — <em>Teorías del Comercio Internacional</em>, <strong>capítulo 4</strong>: "La competitividad, la innovación tecnológica y las empresas multinacionales" (UNQ)</li>
+<li style="margin-bottom: 4px;"><strong>Gereffi, G. (2001)</strong> — <em>Las cadenas productivas como marco analítico para la globalización</em> (Problemas del Desarrollo, UNAM)</li>
+<li style="margin-bottom: 4px;"><strong>Durán Lima, J. &amp; Zaclicever, D. (2013)</strong> — <em>América Latina y el Caribe en las cadenas internacionales de valor</em> (CEPAL)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Complementarias</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Kulfas, M., Porta, F. &amp; Ramos, A. (2002)</strong> — <em>Inversión extranjera y empresas transnacionales en la economía argentina</em> (CEPAL Serie Estudios)</li>
+<li style="margin-bottom: 4px;"><strong>Chudnovsky, D. &amp; López, A. (2007)</strong> — <em>Inversión extranjera directa y desarrollo: la experiencia del Mercosur</em></li>
+<li style="margin-bottom: 4px;"><strong>UNCTAD</strong> — <em>World Investment Report 2024</em> (datos globales y temáticos sobre CGV)</li>
+<li style="margin-bottom: 4px;"><strong>CEPAL</strong> — <em>La Inversión Extranjera Directa en América Latina y el Caribe 2025</em> (datos AL 2024)</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Para el quiz de S9</strong>: usar la <strong>guía de lectura</strong> del slide 43</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 41: Documentales y videos para profundizar -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Documentales y videos para profundizar
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">4-5 recomendaciones</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;">🎬 <strong>"American Factory"</strong> (Netflix, 2019) — fábrica china Fuyao en Ohio, EE.UU. Choque de culturas productivas, IED y offshoring en acción. Ganadora del Oscar a Mejor Documental. <strong>Indispensable</strong> para esta unidad</li>
+<li style="margin-bottom: 12px;">🎬 <strong>"The True Cost"</strong> (Netflix, 2015) — cadena global de la fast fashion: Bangladesh, India, Camboya. CGV textil, captura de valor, condiciones laborales</li>
+<li style="margin-bottom: 12px;">📺 <strong>"How an iPhone is made"</strong> (BBC, varios) — recorrido por la cadena Foxconn-Apple. Versiones disponibles en YouTube</li>
+<li style="margin-bottom: 12px;">📺 <strong>TSMC factory tour</strong> (Bloomberg, 2024) — recorrido por la planta de chips más avanzada del mundo. Disponible en YouTube. Concentración tecnológica única</li>
+<li style="margin-bottom: 12px;">📚 <strong>Pankaj Ghemawat</strong> — <em>Mundo 3.0: la globalización imperfecta</em> (2011) — datos sobre por qué la globalización es menor de lo que parece (la mayoría del comercio sigue siendo regional)</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 42: Preguntas guía para la lectura -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Preguntas guía para la lectura
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Para repasar los conceptos centrales de la clase</div>
+    <ul style="font-size: 1.05rem; color: #111827; line-height: 1.5; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 10px;">1. ¿Cuál es la diferencia entre <strong>exportación</strong>, <strong>inversión de cartera</strong> e <strong>inversión extranjera directa</strong> (IED)?</li>
+<li style="margin-bottom: 10px;">2. ¿Qué son las <strong>tres ventajas del paradigma OLI</strong> de Dunning y cuándo cada combinación lleva a IED?</li>
+<li style="margin-bottom: 10px;">3. ¿Cuáles son las <strong>cuatro motivaciones</strong> clásicas de IED y un ejemplo argentino de cada una?</li>
+<li style="margin-bottom: 10px;">4. ¿Qué es el <strong>comercio intra-firma</strong> y por qué su existencia complica la lectura de las estadísticas bilaterales?</li>
+<li style="margin-bottom: 10px;">5. ¿Cuáles son los <strong>5 tipos de gobernanza</strong> de cadenas globales de valor que identifican Gereffi, Humphrey y Sturgeon? Ordenarlos por grado de coordinación</li>
+<li style="margin-bottom: 10px;">6. ¿Qué es la <strong>curva de la sonrisa</strong> y por qué tiene implicaciones para los países en desarrollo que se insertan en CGV?</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 43: Próxima clase: CGV en profundidad + AL y Argentina -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column;
+    padding: 35px 55px 25px 55px;
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+    box-sizing: border-box;
+  ">
+    <h2 style="color: #1F4E79; font-size: 1.7rem; font-weight: 600; margin: 0 0 14px 0; flex-shrink: 0;">
+      Próxima clase: CGV en profundidad + AL y Argentina
+    </h2>
+    <div style="color: #4B5563; font-size: 1.05rem; margin-bottom: 18px; flex-shrink: 0;">Unidad 5 — Cierre con foco en el caso latinoamericano</div>
+    <ul style="font-size: 1.15rem; color: #111827; line-height: 1.6; padding-left: 1.5em; flex: 1 1 auto; overflow-y: auto; margin: 0;">
+<li style="margin-bottom: 12px;"><strong>Pregunta de S9</strong>: ¿cómo se inserta América Latina (y Argentina específicamente) en las cadenas globales de valor?</li>
+<li style="margin-bottom: 12px;"><strong>Bloques previstos</strong>:
+<ul style="margin-top: 5px; padding-left: 1.2em; font-size: 0.92em; color: #374151; list-style-type: circle;">
+<li style="margin-bottom: 4px;"><strong>Bloque 1</strong>: CGV en AL — patrones de inserción (commodities, ensamble, servicios)</li>
+<li style="margin-bottom: 4px;"><strong>Bloque 2</strong>: AL vs Asia — divergencia de trayectorias (¿por qué Corea/Vietnam sí y AL no?)</li>
+<li style="margin-bottom: 4px;"><strong>Bloque 3</strong>: Argentina en CGV — casos sectoriales (automotor Mercosur, agroindustria, software, litio incipiente)</li>
+<li style="margin-bottom: 4px;"><strong>Bloque 4</strong>: Política productiva, comercial y cambiaria para mejorar la inserción</li>
+</ul></li>
+<li style="margin-bottom: 12px;"><strong>Lecturas para S9</strong>: Lugones cap 4 (releer con foco en AL), Durán Lima 2013, opcional Chudnovsky-López</li>
+    </ul>
+  </section>
+
+  <!-- SLIDE 44: ¿Preguntas? -->
+
+  <section class="slide" style="
+    background-color: #FFFFFF;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 60px; text-align: center;
+  ">
+    <h1 style="color: #1F4E79; font-size: 3.5rem; font-weight: 600;">
+      ¿Preguntas?
+    </h1>
+    <div style="color: #4B5563; font-size: 1.3rem; margin-top: 20px;">Discusión final — 10 minutos</div>
+  </section>
+
+</div>
+
+<div class="footer">
+  <span>Economía Internacional | UMET | Clase 8</span>
+  <span id="slide-counter">1 / 44</span>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const counter = document.getElementById('slide-counter');
+  let current = 0;
+  let currentStep = 0;
+  let currentBullet = 0;
+  let printMode = false;
+  const originalStyles = [];
+  slides.forEach(s => originalStyles.push(s.getAttribute('style')));
+
+  function getTotalSteps(idx) {
+    const attr = slides[idx].getAttribute('data-steps');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showStep(slideIdx, stepIdx) {
+    const steps = slides[slideIdx].querySelectorAll('.prog-step');
+    if (steps.length === 0) return;
+    steps.forEach((s, i) => {
+      s.style.display = i === stepIdx ? 'flex' : 'none';
+    });
+    const cur = slides[slideIdx].querySelector('.step-current');
+    if (cur) cur.textContent = stepIdx + 1;
+  }
+
+  function getTotalBullets(idx) {
+    const attr = slides[idx].getAttribute('data-bullets');
+    return attr ? parseInt(attr) : 0;
+  }
+
+  function showBullets(slideIdx, upTo) {
+    const bullets = slides[slideIdx].querySelectorAll('[data-bi]');
+    bullets.forEach((b, i) => {
+      b.style.display = i <= upTo ? '' : 'none';
+    });
+  }
+
+  function showSlide(n, fromEnd) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0) {
+      currentStep = fromEnd ? totalSteps - 1 : 0;
+      showStep(current, currentStep);
+    } else {
+      currentStep = 0;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0) {
+      currentBullet = fromEnd ? totalBullets - 1 : 0;
+      showBullets(current, currentBullet);
+    } else {
+      currentBullet = 0;
+    }
+    counter.textContent = `${current + 1} / ${slides.length}`;
+  }
+
+  function advance() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep < totalSteps - 1) {
+      currentStep++;
+      showStep(current, currentStep);
+      return;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0 && currentBullet < totalBullets - 1) {
+      currentBullet++;
+      showBullets(current, currentBullet);
+      return;
+    }
+    showSlide(current + 1, false);
+  }
+
+  function goBack() {
+    const totalSteps = getTotalSteps(current);
+    if (totalSteps > 0 && currentStep > 0) {
+      currentStep--;
+      showStep(current, currentStep);
+      return;
+    }
+    const totalBullets = getTotalBullets(current);
+    if (totalBullets > 0 && currentBullet > 0) {
+      currentBullet--;
+      showBullets(current, currentBullet);
+      return;
+    }
+    showSlide(current - 1, true);
+  }
+
+  function togglePrintMode() {
+    printMode = !printMode;
+    document.body.classList.toggle('print-mode', printMode);
+    if (printMode) {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.querySelector('.slides-container').style.height = 'auto';
+      document.querySelector('.slides-container').style.position = 'relative';
+      slides.forEach(s => {
+        s.style.position = 'relative'; s.style.opacity = '1'; s.style.visibility = 'visible';
+        s.style.top = 'auto'; s.style.left = 'auto'; s.style.marginBottom = '30px';
+        s.style.border = '2px solid #1F4E79'; s.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        s.style.pageBreakAfter = 'always';
+      });
+      document.querySelectorAll('[data-bi]').forEach(b => b.style.display = '');
+    } else {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100%';
+      document.querySelector('.slides-container').style.height = '100%';
+      slides.forEach((s, i) => {
+        s.setAttribute('style', originalStyles[i]);
+        s.classList.remove('active');
+      });
+      slides[current].classList.add('active');
+      const totalSteps = getTotalSteps(current);
+      if (totalSteps > 0) showStep(current, currentStep);
+      const totalBullets = getTotalBullets(current);
+      if (totalBullets > 0) showBullets(current, currentBullet);
+      for (let i = 0; i < slides.length; i++) {
+        if (i !== current) {
+          const tb = getTotalBullets(i);
+          if (tb > 0) showBullets(i, 0);
+        }
+      }
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (printMode) { if (e.key === 'p' || e.key === 'P') togglePrintMode(); return; }
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') advance();
+    else if (e.key === 'ArrowLeft') goBack();
+    else if (e.key === 'f' || e.key === 'F') document.documentElement.requestFullscreen?.();
+    else if (e.key === 'Escape') document.exitFullscreen?.();
+    else if (e.key === 'Home') showSlide(0, false);
+    else if (e.key === 'End') showSlide(slides.length - 1, true);
+    else if (e.key === 'p' || e.key === 'P') togglePrintMode();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (printMode) return;
+    if (e.target.tagName !== 'A') {
+      if (e.clientX > window.innerWidth / 2) advance();
+      else goBack();
+    }
+  });
+</script>
+
+</body>
+</html>
